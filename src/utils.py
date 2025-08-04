@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from dotenv import load_dotenv
-from langchain.text_splitter import (
+from langchain_text_splitters import (
     MarkdownHeaderTextSplitter,
     RecursiveCharacterTextSplitter,
 )
@@ -57,7 +57,7 @@ def get_llm(
             # overridden at runtime via the environment variable ``LLM_TIMEOUT``.
             # If the variable is not set or is invalid (non-numeric), the
             # default of 1200 seconds is used.
-            timeout=LLM_TIMEOUT_SEC,
+            # timeout=LLM_TIMEOUT_SEC,
             max_retries=5,
             streaming=True,
             api_key=os.getenv("AZURE_API_KEY"),
@@ -91,7 +91,7 @@ def get_llm(
             # overridden at runtime via the environment variable ``LLM_TIMEOUT``.
             # If the variable is not set or is invalid (non-numeric), the
             # default of 1200 seconds is used.
-            timeout=LLM_TIMEOUT_SEC,
+            # timeout=LLM_TIMEOUT_SEC,
             max_retries=5,
             google_api_key=os.getenv("GOOGLE_API_KEY"),
         )
@@ -108,7 +108,7 @@ def get_llm(
             # overridden at runtime via the environment variable ``LLM_TIMEOUT``.
             # If the variable is not set or is invalid (non-numeric), the
             # default of 1200 seconds is used.
-            timeout=LLM_TIMEOUT_SEC,
+            # timeout=LLM_TIMEOUT_SEC,
             max_retries=5,
             groq_api_key=os.getenv("GROQ_API_KEY"),
         )
