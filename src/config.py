@@ -21,3 +21,13 @@ MARKDOWN_REFINED_COLLECTION_DIR = (
 
 # Path to flora & fauna metadata Parquet file
 FLORA_FAUNA_PARQUET_PATH = BASE_DIR / "cli" / "flora_fauna_metadata.parquet"
+
+# Directory where JSONL chunks will be stored (raw version)
+CHUNKS_RAW_COLLECTION_DIR = (
+    BASE_DIR / "documents" / "collections" / "chunks" / "raw_chunks"
+)
+
+# Directory where JSONL chunks with enriched metadata will be stored
+CHUNKS_REFINED_COLLECTION_DIR = (
+    BASE_DIR / "documents" / "collections" / "chunks" / "refined_chunks"
+)

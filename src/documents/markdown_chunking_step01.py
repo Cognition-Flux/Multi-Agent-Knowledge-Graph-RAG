@@ -25,7 +25,7 @@ from langchain_text_splitters import (
     RecursiveCharacterTextSplitter,
 )
 
-from src.config import MARKDOWN_REFINED_COLLECTION_DIR
+from src.config import MARKDOWN_REFINED_COLLECTION_DIR, CHUNKS_RAW_COLLECTION_DIR
 
 # Initialise environment variables (for local debugging if needed)
 load_dotenv(override=True)
@@ -117,6 +117,57 @@ def chunk_all_markdown_files() -> List[Document]:
 # CLI-entry point                                                             #
 ###############################################################################
 chunks = chunk_all_markdown_files()
+
+###############################################################################
+# Persist chunks to disk                                                      #
+###############################################################################
+
+import json
+from collections import defaultdict
+
+
+def _group_chunks_by_source(docs: Sequence[Document]):
+    grouped: dict[str, list[Document]] = defaultdict(list)
+    for doc in docs:
+        source = doc.metadata.get("source_path", "unknown")
+        grouped[source].append(doc)
+    return grouped
+
+
+def _serialize_document(doc: Document) -> dict:
+    """Convert a Document into a JSON-serialisable dict."""
+    return {
+        "page_content": doc.page_content,
+        "metadata": doc.metadata,
+    }
+
+
+def save_chunks_to_jsonl(
+    docs: Sequence[Document], output_dir: Path | None = None
+) -> None:
+    """Save *docs* to disk as one *JSON Lines* file per original document."""
+
+    if output_dir is None:
+        output_dir = Path(CHUNKS_RAW_COLLECTION_DIR)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    grouped = _group_chunks_by_source(docs)
+
+    for source_path, doc_list in grouped.items():
+        # Use the stem of the original file for naming
+        file_name = Path(source_path).stem + ".jsonl"
+        output_path = output_dir / file_name
+        with open(output_path, "w", encoding="utf-8") as fh:
+            for d in doc_list:
+                json.dump(_serialize_document(d), fh, ensure_ascii=False)
+                fh.write("\n")
+        print(
+            f"→ Saved {len(doc_list):>4} chunks to {output_path.relative_to(output_dir.parent.parent)}"
+        )
+
+
+# Persist the current run
+save_chunks_to_jsonl(chunks)
 
 
 if __name__ == "__main__":
