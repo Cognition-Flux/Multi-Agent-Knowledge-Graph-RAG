@@ -29,3 +29,6 @@
     UNWIND names AS region
     RETURN region, total
     ORDER BY region
+
+- pregunta: Dame la fecha de presentación de los proyectos
+- pregunta: dame los proyecto tipolocía c, y subtipo anexo
