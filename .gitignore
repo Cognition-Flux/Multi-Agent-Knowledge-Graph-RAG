@@ -16,3 +16,6 @@ wheels/
 # Additional Python cache directories
 .mypy_cache/
 .pytest_cache/
+
+# Ignore SQL dump archives
+*.sql.zip
