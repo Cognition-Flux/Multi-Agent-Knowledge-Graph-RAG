@@ -19,3 +19,7 @@ wheels/
 
 # Ignore SQL dump archives
 *.sql.zip
+
+# Large files
+os
+sys
