@@ -16,9 +16,8 @@ import asyncio
 from KnowledgeGraphDB.graph_creation.graph_streamer import stream_graph
 
 
-async def main() -> None:  # noqa: WPS430
+async def main() -> None:
     """Send a sample question and display streamed chunks."""
-
     async for chunk in stream_graph(
         "¿De qué región es el proyecto?",
         stream_mode="updates",

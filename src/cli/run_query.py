@@ -1,7 +1,6 @@
 # src/cli/run_query.py
 #!/usr/bin/env python
-"""
-Ejecuta la consulta SQL `sql/flora_fauna_query.sql`, muestra un resumen
+"""Ejecuta la consulta SQL `sql/flora_fauna_query.sql`, muestra un resumen
 por pantalla y guarda el resultado como Parquet comprimido en el mismo
 directorio (`src/cli/flora_fauna_metadata.parquet`).
 
@@ -12,6 +11,7 @@ Uso:
 from pathlib import Path
 
 import pandas as pd
+
 from src.db import get_conn
 
 
@@ -28,11 +28,10 @@ def read_sql() -> str:
 def main():
     query = read_sql()
 
-    with get_conn() as conn:
-        with conn.cursor() as cur:
-            cur.execute(query)
-            columns = [d[0] for d in cur.description]
-            rows = cur.fetchall()
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(query)
+        columns = [d[0] for d in cur.description]
+        rows = cur.fetchall()
 
     df = pd.DataFrame(rows, columns=columns)
     print(df.head())  # muestra las primeras filas

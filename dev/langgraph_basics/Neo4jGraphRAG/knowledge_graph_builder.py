@@ -1,5 +1,5 @@
 # %%
-"""knowledge_graph_builder.py
+"""knowledge_graph_builder.py.
 ====================================================================
 Construye un *Knowledge Graph* en Neo4j que representa enzimas de los
 sub-sistemas **glucólisis** y **ciclo TCA**.  Para cada enzima se
@@ -24,8 +24,8 @@ $ uv run python dev/langgraph_basics/Neo4jGraphRAG/knowledge_graph_builder.py
 
 from __future__ import annotations
 
+import contextlib
 import os
-from typing import List
 
 from dotenv import load_dotenv
 from langchain_core.documents import Document
@@ -38,6 +38,7 @@ from neo4j_graphrag.experimental.pipeline.kg_builder import SimpleKGPipeline
 from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
 from neo4j_graphrag.llm import AzureOpenAILLM
 
+
 # --------------------------------------------------------------------------- #
 # 1) Entorno y conexión a Neo4j
 # --------------------------------------------------------------------------- #
@@ -49,7 +50,7 @@ NEO4J_PASSWORD: str | None = os.getenv("NEO4J_PASSWORD_UPGRADED")
 NEO4J_URI: str | None = os.getenv("NEO4J_CONNECTION_URI_UPGRADED")
 
 if not (NEO4J_USERNAME and NEO4J_PASSWORD and NEO4J_URI):
-    raise EnvironmentError(
+    raise OSError(
         "⚠️  Variables de entorno de Neo4j incompletas. Revisa `.env`."
     )
 
@@ -102,7 +103,7 @@ try:
 except Exception:
     pass  # ya existe o no es crítico
 
-try:
+with contextlib.suppress(Exception):
     create_fulltext_index(
         driver,
         name=FULLTEXT_INDEX_NAME,
@@ -110,8 +111,6 @@ try:
         node_properties=["text"],
         fail_if_exists=False,
     )
-except Exception:
-    pass
 
 # --------------------------------------------------------------------------- #
 # 3) Documentos: enzimas + metadatos
@@ -122,8 +121,9 @@ except Exception:
 # mantenimiento de los textos y metadatos de cada enzima.
 
 from dev.langgraph_basics.simple_hybrid_search_w_metadata_filtering import (
-    documents,  # noqa: E402
+    documents,
 )
+
 
 num_enzymes, num_subsystems, num_substrates, num_products = (
     len({d.metadata["enzyme"] for d in documents}),
@@ -180,9 +180,8 @@ def clear_graph(_driver: GraphDatabase.driver) -> None:
     print("🧹  Graph cleared.")
 
 
-async def build_kg_from_docs(docs: List[Document]) -> None:  # noqa: D401
+async def build_kg_from_docs(docs: list[Document]) -> None:
     """Construye el KG a partir de la lista de documentos proporcionada."""
-
     clear_graph(driver)
 
     kg_builder = SimpleKGPipeline(

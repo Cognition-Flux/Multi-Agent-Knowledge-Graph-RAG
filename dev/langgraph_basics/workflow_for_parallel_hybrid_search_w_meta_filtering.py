@@ -1,6 +1,4 @@
-"""
-This workflow is a parallel workflow that uses the chains_for_hybrid_search_and_metadata_filtering.py file to create a workflow that can be used to search for information in the vectorstore.
-"""
+"""This workflow is a parallel workflow that uses the chains_for_hybrid_search_and_metadata_filtering.py file to create a workflow that can be used to search for information in the vectorstore."""
 
 # %%
 import asyncio
@@ -35,6 +33,7 @@ from dev.langgraph_basics.simple_ReAct import (
     LastLLMResponse,
     reduce_docs,
 )
+
 
 load_dotenv(override=True)
 
@@ -158,7 +157,6 @@ async def metadata_filtering_and_hybrid_search_node(
     returned JSON does not contain the required ``filter`` key), we gracefully
     fall back to an *empty* filter to avoid hard failures in the workflow.
     """
-
     query_str = state["query"]
 
     extracted_fields = await chain_for_filter_fields.ainvoke({"query": query_str})
@@ -223,7 +221,7 @@ async def check_completion(
     queries = [q.query_str for q in state["generated_queries"].queries_list]
     enzymes: set[str] = set()
     for row in state["scores_rows"]:
-        enzymes.update(k for k in row.keys() if k != "query")
+        enzymes.update(k for k in row if k != "query")
 
     data = {"query": queries}
     for enzyme in sorted(enzymes):
@@ -327,19 +325,19 @@ async def generate_clustergram(state: RetrievalGraphState):
             template="plotly_dark",
             paper_bgcolor="#1c1c1c",
             plot_bgcolor="#1c1c1c",
-            font=dict(family=modern_font, size=14, color="#e0e0e0"),
+            font={"family": modern_font, "size": 14, "color": "#e0e0e0"},
             width=1500,
             height=600,
-            margin=dict(l=80, r=40, t=40, b=80),
-            coloraxis_colorbar=dict(
-                title=dict(text="Score", font=dict(color="#e0e0e0")),
-                thickness=15,
-                lenmode="pixels",
-                len=300,
-                outlinewidth=0,
-                tickcolor="#e0e0e0",
-                tickfont=dict(color="#e0e0e0"),
-            ),
+            margin={"l": 80, "r": 40, "t": 40, "b": 80},
+            coloraxis_colorbar={
+                "title": {"text": "Score", "font": {"color": "#e0e0e0"}},
+                "thickness": 15,
+                "lenmode": "pixels",
+                "len": 300,
+                "outlinewidth": 0,
+                "tickcolor": "#e0e0e0",
+                "tickfont": {"color": "#e0e0e0"},
+            },
         )
 
         # Calculate adaptive font sizes based on number of columns/rows
@@ -357,18 +355,18 @@ async def generate_clustergram(state: RetrievalGraphState):
             title_standoff=30,
             tickangle=-45,
             showgrid=False,
-            tickfont=dict(family=modern_font, size=font_size_x, color="#e0e0e0"),
+            tickfont={"family": modern_font, "size": font_size_x, "color": "#e0e0e0"},
             automargin=True,
         )
         fig.update_yaxes(
             showgrid=False,
-            tickfont=dict(family=modern_font, size=font_size_y, color="#e0e0e0"),
+            tickfont={"family": modern_font, "size": font_size_y, "color": "#e0e0e0"},
             automargin=True,
         )
 
         # Remove text labels inside heatmap cells for a cleaner look
         fig.update_traces(
-            selector=dict(type="heatmap"), showscale=True, texttemplate=None
+            selector={"type": "heatmap"}, showscale=True, texttemplate=None
         )
 
         # Highlight high-score enzyme columns with a translucent rectangle
@@ -390,7 +388,7 @@ async def generate_clustergram(state: RetrievalGraphState):
                 y0=-0.15,
                 y1=1,
                 fillcolor="rgba(255, 99, 71, 0.15)",
-                line=dict(color="rgba(255, 99, 71, 0.5)", width=6, dash="dot"),
+                line={"color": "rgba(255, 99, 71, 0.5)", "width": 6, "dash": "dot"},
                 layer="above",
             )
 
@@ -440,7 +438,7 @@ async def generate_clustergram(state: RetrievalGraphState):
             df_clustered.values,
             x=df_clustered.columns,
             y=df_clustered.index,
-            labels=dict(x="Enzimas", y="Consultas", color="Score"),
+            labels={"x": "Enzimas", "y": "Consultas", "color": "Score"},
             aspect="auto",
             color_continuous_scale=px.colors.sequential.deep[::-1],
         )
@@ -459,7 +457,7 @@ async def generate_clustergram(state: RetrievalGraphState):
                 y0=-0.15,
                 y1=1,
                 fillcolor="rgba(255, 99, 71, 0.15)",
-                line=dict(color="rgba(255, 99, 71, 0.5)", width=6, dash="dot"),
+                line={"color": "rgba(255, 99, 71, 0.5)", "width": 6, "dash": "dot"},
                 layer="above",
             )
 
@@ -471,17 +469,17 @@ async def generate_clustergram(state: RetrievalGraphState):
             plot_bgcolor="#1c1c1c",
             width=1500,
             height=600,
-            font=dict(family=modern_font, size=14, color="#e0e0e0"),
-            margin=dict(l=80, r=40, t=40, b=80),
-            coloraxis_colorbar=dict(
-                title=dict(text="Score", font=dict(color="#e0e0e0")),
-                thickness=15,
-                lenmode="pixels",
-                len=300,
-                outlinewidth=0,
-                tickcolor="#e0e0e0",
-                tickfont=dict(color="#e0e0e0"),
-            ),
+            font={"family": modern_font, "size": 14, "color": "#e0e0e0"},
+            margin={"l": 80, "r": 40, "t": 40, "b": 80},
+            coloraxis_colorbar={
+                "title": {"text": "Score", "font": {"color": "#e0e0e0"}},
+                "thickness": 15,
+                "lenmode": "pixels",
+                "len": 300,
+                "outlinewidth": 0,
+                "tickcolor": "#e0e0e0",
+                "tickfont": {"color": "#e0e0e0"},
+            },
         )
 
         # Adaptive font sizes for fallback figure
@@ -500,18 +498,18 @@ async def generate_clustergram(state: RetrievalGraphState):
             title_standoff=30,
             tickangle=-45,
             showgrid=False,
-            tickfont=dict(family=modern_font, size=font_size_x_f, color="#e0e0e0"),
+            tickfont={"family": modern_font, "size": font_size_x_f, "color": "#e0e0e0"},
             automargin=True,
         )
         fig.update_yaxes(
             showgrid=False,
-            tickfont=dict(family=modern_font, size=font_size_y_f, color="#e0e0e0"),
+            tickfont={"family": modern_font, "size": font_size_y_f, "color": "#e0e0e0"},
             automargin=True,
         )
 
         # Ensure no text is shown in heatmap cells
         fig.update_traces(
-            selector=dict(type="heatmap"), showscale=True, texttemplate=None
+            selector={"type": "heatmap"}, showscale=True, texttemplate=None
         )
 
         fig.show()
@@ -566,7 +564,7 @@ if __name__ == "__main__":
 
     next_state = aget_next_state(graph, thread_config)
     print(f"graph state: {next_state}")
-    async for chunk in graph.astream(
+    async for _chunk in graph.astream(
         {"rag_input": [HumanMessage(content=USER_QUERY)]},
         config=thread_config,
         stream_mode="updates",

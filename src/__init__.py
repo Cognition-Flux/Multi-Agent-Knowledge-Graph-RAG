@@ -1,3 +1,1 @@
-"""
-Módulo principal del proyecto.
-"""
+"""Módulo principal del proyecto."""

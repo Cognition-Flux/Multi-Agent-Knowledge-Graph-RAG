@@ -48,6 +48,7 @@ from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
 from neo4j_graphrag.llm import AzureOpenAILLM
 from neo4j_graphrag.retrievers import HybridCypherRetriever
 
+
 # --------------------------------------------------------------------------- #
 # 1) Entorno e índices
 # --------------------------------------------------------------------------- #
@@ -166,15 +167,15 @@ llm = AzureOpenAILLM(
 rag_template = RagTemplate(
     template="""You are a metabolic pathway expert. Answer the **Question** ONLY
  using the **Context** provided.
- 
+
  NEVER add NOR inject information or data that is not in the context.
- 
+
  # Question:
  {query_text}
- 
+
  # Context:
  {context}
- 
+
  # Answer:
  """,
     expected_inputs=["query_text", "context"],

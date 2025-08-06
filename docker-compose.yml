@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: sea_crawler_usr
       POSTGRES_PASSWORD: sea_crawler_pwd
     ports:
-      - "5432:5432"
+      - 5432:5432
     volumes:
       # Volumen persistente para los datos de Postgres
       - pgdata:/var/lib/postgresql/data

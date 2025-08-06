@@ -2,20 +2,21 @@
 from __future__ import annotations
 
 import os
-from typing import Annotated, Dict, List, Literal, Optional, Union
+from typing import Annotated, Literal
 
 from dotenv import load_dotenv
+from langchain_core.messages import AIMessage
+from langchain_openai import AzureChatOpenAI
 from langgraph.graph import END, START, MessagesState, StateGraph
 from langgraph.types import Command, Send
-from langchain_core.messages import AIMessage
 from pydantic import BaseModel, Field
-from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 
 from dev.langgraph_basics.Neo4jGraphRAG.cypher_runner import run_cypher
 from dev.langgraph_basics.Neo4jGraphRAG.llm_chains_cypher import (
     chain_for_cypher_query,
     chain_for_questions_generation,
 )
+
 
 load_dotenv(override=True)
 
@@ -28,26 +29,23 @@ def sanitise_query(query: str) -> str:
         # If language identifier present (e.g. ```cypher), drop first line
         if "\n" in stripped:
             first_line, rest = stripped.split("\n", 1)
-            if first_line.lower().startswith("cypher"):
-                query = rest
-            else:
-                query = stripped
+            query = rest if first_line.lower().startswith("cypher") else stripped
         else:
             query = stripped
     return query
 
 
-def safe_run_cypher(query: str) -> Union[str, List[Dict[str, any]]]:
+def safe_run_cypher(query: str) -> str | list[dict[str, any]]:
     """Devuelve el resultado de la consulta o un string de error en formato de lista."""
     try:
         return run_cypher(query)
-    except Exception as exc:  # noqa: BLE001
+    except Exception as exc:
         return [f"ERROR: {exc}"]
 
 
 def reduce_lists(
-    existing: Optional[list[str]],
-    new: Union[list[str], str, Literal["delete"], None],
+    existing: list[str] | None,
+    new: list[str] | str | Literal["delete"] | None,
 ) -> list[str]:
     """Combine two lists of strings in a robust way.
 
@@ -58,7 +56,6 @@ def reduce_lists(
     • Accepts *new* as a single string or list of strings.
     • Ensures the returned list has **unique items preserving order**.
     """
-
     # Reset signal
     if new == "delete":
         return []
@@ -177,7 +174,7 @@ async def run_cypher_query_in_parallel(
     state: Neo4jQueryState,
 ) -> Command[list[Send]]:
     """Node that runs a Cypher query."""
-    lista_de_cypher_queries = [cypher_query for cypher_query in state["cypher_queries"]]
+    lista_de_cypher_queries = list(state["cypher_queries"])
     print(f"lista_de_cypher_queries: {lista_de_cypher_queries}")
     sends = [
         Send(

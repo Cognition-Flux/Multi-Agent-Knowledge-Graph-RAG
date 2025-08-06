@@ -1,36 +1,31 @@
 # %%
 import os
-from dotenv import load_dotenv
-import boto3
 from pathlib import Path
-from src.config import (
-    PDF_COLLECTION_DIR,
-    MARKDOWN_RAW_COLLECTION_DIR,
-    MARKDOWN_REFINED_COLLECTION_DIR,
-    BUCKET_NAME,
-)
 
-from langchain_core.documents import Document
-
-
-from src.documents.metadata import load_metadata
-
-
+import boto3
 from dotenv import load_dotenv
-
 from langchain_community.document_loaders import (
     AzureAIDocumentIntelligenceLoader,
 )
-
-from src.utils import get_llm
+from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
+
+from src.config import (
+    BUCKET_NAME,
+    MARKDOWN_RAW_COLLECTION_DIR,
+    MARKDOWN_REFINED_COLLECTION_DIR,
+    PDF_COLLECTION_DIR,
+)
+from src.documents.metadata import load_metadata
+from src.utils import get_llm
+
 
 load_dotenv(override=True)
 
 metadata = load_metadata()
 docs = []
-for i, project in metadata.iterrows():
+for _i, project in metadata.iterrows():
     docs.append(Document(metadata=project.to_dict(), page_content=""))
 
 session = boto3.Session(
@@ -49,7 +44,7 @@ md_path = MARKDOWN_RAW_COLLECTION_DIR / md_filename
 # Si el markdown ya existe, cargarlo directamente y saltar la extracción
 if md_path.exists():
     print(f"Markdown {md_path} ya existe. Cargándolo desde disco.")
-    with open(md_path, "r", encoding="utf-8") as md_file:
+    with open(md_path, encoding="utf-8") as md_file:
         markdown_content = md_file.read()
     print(f"Markdown de {md_path} cargado. Longitud: {len(markdown_content)}")
 else:
@@ -86,7 +81,7 @@ else:
 PROMPT_TO_CLEAN_MARKDOWN = """
 You are a helpful assistant that refines and improves the quality and structure of the markdown files.
 You have to achieve a fully human readable markdown text.
-ALWAYS do the following: 
+ALWAYS do the following:
     - keep the ENTIRE content and data of all tables, always preserve it.
     - keep the ENTIRE content and information of all texts, always preserve it.
 
@@ -105,9 +100,7 @@ prompt_for_cleaning_markdown = ChatPromptTemplate.from_messages(
 
 
 class CleanMarkdown(BaseModel):
-    """
-    The cleaned markdown string.
-    """
+    """The cleaned markdown string."""
 
     cleaned_markdown: str = Field(description="The cleaned markdown string.")
 

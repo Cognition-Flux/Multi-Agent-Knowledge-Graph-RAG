@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        // Python
+        "charliermarsh.ruff", // Ruff formatter and linter
+        "ms-python.python", // Python extension
+        "ms-python.vscode-pylance", // Python language server
+        // YAML
+        "redhat.vscode-yaml", // YAML formatter and validator
+        // Utilities
+        "ryuta46.multi-command", // Multi-command support
+        "editorconfig.editorconfig" // EditorConfig support
+    ]
+}

@@ -1,6 +1,4 @@
-"""
-Simple parallel retriever with metadata filtering using Hybrid Search.
-"""
+"""Simple parallel retriever with metadata filtering using Hybrid Search."""
 
 # %%
 import os
@@ -14,6 +12,7 @@ from langchain_core.documents import Document
 from langchain_openai import AzureOpenAIEmbeddings
 from pinecone import Pinecone, ServerlessSpec
 from pinecone_text.sparse.splade_encoder import SpladeEncoder
+
 
 load_dotenv(override=True)
 

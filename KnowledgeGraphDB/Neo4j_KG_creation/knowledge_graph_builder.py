@@ -1,10 +1,10 @@
 # %%
 from __future__ import annotations
 
+import contextlib
 import os
-
-import os
-from typing import List
+from collections import defaultdict
+from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain_core.documents import Document
@@ -16,13 +16,10 @@ from neo4j_graphrag.experimental.components.text_splitters.fixed_size_splitter i
 from neo4j_graphrag.experimental.pipeline.kg_builder import SimpleKGPipeline
 from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
 from neo4j_graphrag.llm import AzureOpenAILLM
-from src.utils import get_llm
-from datetime import date
-from pathlib import Path
-from collections import defaultdict
-from src.documents.markdown_chunking_step02 import load_chunks_from_file
 
 from src.config import CHUNKS_REFINED_COLLECTION_DIR
+from src.documents.markdown_chunking_step02 import load_chunks_from_file
+from src.utils import get_llm
 
 
 load_dotenv(override=True)
@@ -32,7 +29,7 @@ NEO4J_PASSWORD: str | None = os.getenv("NEO4J_PASSWORD_UPGRADED")
 NEO4J_URI: str | None = os.getenv("NEO4J_CONNECTION_URI_UPGRADED")
 
 if not (NEO4J_USERNAME and NEO4J_PASSWORD and NEO4J_URI):
-    raise EnvironmentError(
+    raise OSError(
         "⚠️  Variables de entorno de Neo4j incompletas. Revisa `.env`."
     )
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
@@ -81,7 +78,7 @@ try:
 except Exception:
     pass  # ya existe o no es crítico
 
-try:
+with contextlib.suppress(Exception):
     create_fulltext_index(
         driver,
         name=FULLTEXT_INDEX_NAME,
@@ -89,15 +86,13 @@ try:
         node_properties=["text"],
         fail_if_exists=False,
     )
-except Exception:
-    pass
 
 # --------------------------------------------------------------------------- #
 # 2.2) Restaurar chunks agrupados por documento
 # --------------------------------------------------------------------------- #
 
 
-def _collect_refined_jsonl_files() -> List[Path]:
+def _collect_refined_jsonl_files() -> list[Path]:
     """Return sorted list of *.jsonl* files in the refined chunks directory."""
     directory = Path(CHUNKS_REFINED_COLLECTION_DIR)
     if not directory.exists():
@@ -107,9 +102,9 @@ def _collect_refined_jsonl_files() -> List[Path]:
     return sorted(p for p in directory.glob("*.jsonl") if p.is_file())
 
 
-def restore_chunks_grouped() -> dict[str, List[Document]]:
+def restore_chunks_grouped() -> dict[str, list[Document]]:
     """Load chunks from refined JSONL files and group them by originating document."""
-    grouped: dict[str, List[Document]] = defaultdict(list)
+    grouped: dict[str, list[Document]] = defaultdict(list)
     for jsonl_path in _collect_refined_jsonl_files():
         key = jsonl_path.stem
         if key.endswith("_augmented"):
@@ -196,9 +191,8 @@ def clear_graph(_driver: GraphDatabase.driver) -> None:
     print("🧹  Graph cleared.")
 
 
-async def build_kg_from_docs(docs: List[Document]) -> None:  # noqa: D401
+async def build_kg_from_docs(docs: list[Document]) -> None:
     """Construye el KG a partir de la lista de documentos proporcionada."""
-
     clear_graph(driver)
 
     kg_builder = SimpleKGPipeline(

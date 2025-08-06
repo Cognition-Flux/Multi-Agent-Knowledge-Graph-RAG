@@ -1,10 +1,8 @@
-"""
-Simple parallel retriever with metadata filtering using Hybrid Search.
-"""
+"""Simple parallel retriever with metadata filtering using Hybrid Search."""
 
 # %%
 import os
-from typing import Dict, Literal, Optional
+from typing import Literal
 
 from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
@@ -15,29 +13,16 @@ from dev.langgraph_basics.simple_hybrid_search_w_metadata_filtering import (
     retriever,
 )
 
+
 load_dotenv(override=True)
 
 
 class MetadataFilterFields(BaseModel):
-    """
-    Schema for filtering metadata.
+    """Schema for filtering metadata.
     All fields are optional.
     """
 
-    enzyme: Optional[
-        Literal[
-            "HK",
-            "PFK1",
-            "PK",
-            "CS",
-            "IDH",
-            "AKGDH",
-            "SDH",
-            "GAPDH",
-            "MDH",
-            "SSADH",
-        ]
-    ] = Field(
+    enzyme: Literal["HK", "PFK1", "PK", "CS", "IDH", "AKGDH", "SDH", "GAPDH", "MDH", "SSADH"] | None = Field(
         default=None,
         description=(
             "The enzyme name. The names are HK: hexokinase, "
@@ -50,7 +35,7 @@ class MetadataFilterFields(BaseModel):
             "SSADH: succinate semialdehyde dehydrogenase."
         ),
     )
-    subsystem: Optional[Literal["glycolysis", "TCA"]] = Field(
+    subsystem: Literal["glycolysis", "TCA"] | None = Field(
         default=None, description="The metabolic subsystem."
     )
     # substrates: Optional[
@@ -99,19 +84,18 @@ class MetadataFilterFields(BaseModel):
     #         ]
     #     ]
     # ] = Field(default=None, description="A list of products for the enzyme.")
-    reversible: Optional[bool] = Field(
+    reversible: bool | None = Field(
         default=None, description="Whether the reaction is reversible."
     )
-    flux: Optional[float] = Field(default=None, description="The metabolic flux value.")
+    flux: float | None = Field(default=None, description="The metabolic flux value.")
 
 
 class FinalFilter(BaseModel):
-    """
-    A wrapper for the final filter dictionary.
+    """A wrapper for the final filter dictionary.
     The LLM should return a JSON object with a 'filter' key.
     """
 
-    filter: Dict = Field(
+    filter: dict = Field(
         description="The final filter dictionary to be used in the retriever."
     )
 

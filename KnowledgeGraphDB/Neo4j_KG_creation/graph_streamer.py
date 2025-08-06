@@ -24,14 +24,15 @@ Example (FastAPI):
 
 from __future__ import annotations
 
-from typing import Any, AsyncGenerator, Dict, Union
+from collections.abc import AsyncGenerator
+from typing import Any
 
 # Re-use the graph that is already built in the testing module.  When this grows
 # into a proper library you may want to move the graph construction into a
 # dedicated module, but for now importing it avoids duplicate logic.
 from KnowledgeGraphDB.graph_creation.test_CypherQueringAgent import (
     graph,
-)  # noqa: WPS433  (importing from a test file is acceptable here)
+)
 
 
 async def stream_graph(
@@ -40,7 +41,7 @@ async def stream_graph(
     stream_mode: str = "updates",
     subgraphs: bool = True,
     debug: bool = True,
-    **extra_state: Union[str, int, float, Dict[str, Any], list[Any]],
+    **extra_state: str | int | float | dict[str, Any] | list[Any],
 ) -> AsyncGenerator[Any, None]:
     """Asynchronously yield chunks produced by the LangGraph ``graph``.
 
@@ -61,16 +62,15 @@ async def stream_graph(
         provided here will be added to the dictionary that makes up the initial
         graph state.
 
-    Yields
+    Yields:
     ------
     Any
         The raw *chunk* objects emitted by ``graph.astream``.  It is up to the
         consumer to decide how to serialise them (JSON, SSE, etc.).
     """
-
     # The initial state passed to LangGraph.  By default we inject the question
     # but callers can extend this with arbitrary extra keys via ``extra_state``.
-    initial_state: Dict[str, Any] = {"question": question, **extra_state}
+    initial_state: dict[str, Any] = {"question": question, **extra_state}
 
     # Forward all parameters to the underlying async stream and yield chunks as
     # soon as they become available.  This makes the function a *bridge* between

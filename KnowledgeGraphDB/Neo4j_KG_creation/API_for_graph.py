@@ -14,21 +14,23 @@ The response is an event-stream (one JSON line per chunk).
 from __future__ import annotations
 
 import json
-from typing import Any, AsyncGenerator, Dict
+from collections.abc import AsyncGenerator
 
 from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
+
 
 # Scalar integration (beautiful API docs)
 try:
-    from scalar_fastapi import get_scalar_api_reference, Layout  # type: ignore
+    from scalar_fastapi import Layout, get_scalar_api_reference  # type: ignore
 except ImportError:  # pragma: no cover
     # The dependency is optional; if missing, advise installing later.
     get_scalar_api_reference = None  # type: ignore
 
 
 from KnowledgeGraphDB.graph_creation.graph_streamer import stream_graph
+
 
 app = FastAPI(title="LangGraph Streaming API")
 
@@ -47,7 +49,7 @@ app.add_middleware(
 if get_scalar_api_reference is not None:
 
     @app.get("/scalar", include_in_schema=False, summary="Scalar API Docs")
-    async def scalar_html():  # noqa: D401
+    async def scalar_html():
         """Serve polished API reference powered by *Scalar* (if installed)."""
         return get_scalar_api_reference(
             openapi_url=app.openapi_url,
@@ -66,7 +68,6 @@ else:
 
 async def _json_line_stream(question: str) -> AsyncGenerator[bytes, None]:
     """Yield each graph chunk serialised as UTF-8 encoded JSON lines."""
-
     async for chunk in stream_graph(question):
         # Default serialisation; customise as needed (e.g. SSE framing).
         yield (json.dumps(chunk, default=str) + "\n").encode()
@@ -79,7 +80,7 @@ async def graph_endpoint(
         description="Pregunta en lenguaje natural",
         example="cual es la región del documento?",
     ),
-) -> StreamingResponse:  # noqa: D401
+) -> StreamingResponse:
     """Devuelve los *chunks* generados por LangGraph en streaming.
 
     Los clientes obtienen un flujo *line-delimited JSON*; cada línea corresponde

@@ -2,24 +2,13 @@
 
 # %%
 import os
-from pathlib import Path
-from typing import Any, Literal
 
 from dotenv import load_dotenv
-from langchain_text_splitters import (
-    MarkdownHeaderTextSplitter,
-    RecursiveCharacterTextSplitter,
-)
 from langchain_anthropic import ChatAnthropic
-from langchain_community.document_loaders import (
-    AzureAIDocumentIntelligenceLoader,
-)
-from langchain_core.documents import Document
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
-from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
-from langchain_pinecone import PineconeVectorStore
-from pinecone import Pinecone, ServerlessSpec
+from langchain_openai import AzureChatOpenAI
+
 
 # Initialise environment variables.
 load_dotenv(override=True)

@@ -8,7 +8,7 @@ Reducers are functions that take a state and an event, and return a new state.
 import hashlib
 import os
 import uuid
-from typing import Annotated, Any, Literal, Optional, Union
+from typing import Annotated, Any, Literal
 
 import aiosqlite
 from dotenv import load_dotenv
@@ -61,14 +61,8 @@ class LastLLMResponse(BaseModel):
 
 
 def reduce_docs(
-    existing: Optional[list[Document]],
-    new: Union[
-        list[Document],
-        list[dict[str, Any]],
-        list[str],
-        str,
-        Literal["delete"],
-    ],
+    existing: list[Document] | None,
+    new: list[Document] | list[dict[str, Any]] | list[str] | str | Literal["delete"],
 ) -> list[Document]:
     """Reduce and process documents based on the input type.
 
@@ -87,13 +81,11 @@ def reduce_docs(
 
     existing_list = list(existing) if existing else []
     if isinstance(new, str):
-        return existing_list + [
-            Document(page_content=new, metadata={"uuid": _generate_uuid(new)})
-        ]
+        return [*existing_list, Document(page_content=new, metadata={"uuid": _generate_uuid(new)})]
 
     new_list = []
     if isinstance(new, list):
-        existing_ids = set(doc.metadata.get("uuid") for doc in existing_list)
+        existing_ids = {doc.metadata.get("uuid") for doc in existing_list}
         for item in new:
             if isinstance(item, str):
                 item_id = _generate_uuid(item)

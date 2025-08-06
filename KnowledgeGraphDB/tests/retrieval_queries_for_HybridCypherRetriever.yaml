@@ -1,0 +1,10 @@
+cypher_retrieval_queries:
+  - query: |
+      MATCH (p:Project)
+      RETURN p.name, p.description
+      LIMIT 10
+
+  - query: |
+      MATCH (p:Project)
+      RETURN p.name, p.description
+      LIMIT 10

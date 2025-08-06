@@ -11,6 +11,7 @@ from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from pydantic import BaseModel, Field
 
+
 load_dotenv(override=True)
 
 

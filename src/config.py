@@ -2,6 +2,7 @@
 
 from pathlib import Path
 
+
 # AWS S3 bucket where crawler documents are stored
 BUCKET_NAME: str = "nviro-crawlers"
 

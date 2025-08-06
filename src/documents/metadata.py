@@ -17,7 +17,6 @@ have stored the dataset elsewhere you can pass the path explicitly.
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Union
 
 import pandas as pd
 
@@ -25,9 +24,7 @@ import pandas as pd
 from src.config import FLORA_FAUNA_PARQUET_PATH as _DEFAULT_PARQUET_PATH
 
 
-def load_metadata(
-    path: Union[str, Path, None] = None, **read_kwargs
-) -> pd.DataFrame:  # noqa: D401
+def load_metadata(path: str | Path | None = None, **read_kwargs) -> pd.DataFrame:
     """Return a :class:`~pandas.DataFrame` with flora & fauna metadata.
 
     Parameters
@@ -41,12 +38,11 @@ def load_metadata(
         :func:`pandas.read_parquet`.  This lets callers tweak the engine,
         columns to load, et cetera.
 
-    Returns
+    Returns:
     -------
     pandas.DataFrame
         The metadata as loaded from Parquet.
     """
-
     parquet_path: Path = Path(path) if path is not None else _DEFAULT_PARQUET_PATH
 
     if not parquet_path.is_file():

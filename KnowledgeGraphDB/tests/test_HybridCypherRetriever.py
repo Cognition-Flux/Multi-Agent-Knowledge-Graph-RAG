@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import os
-from typing import Annotated, Literal, Optional, Union
+from typing import Annotated, Literal
 
 from dotenv import load_dotenv
 from langgraph.graph import END, START, MessagesState, StateGraph
@@ -14,11 +14,11 @@ from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
 from neo4j_graphrag.llm import AzureOpenAILLM
 from neo4j_graphrag.retrievers import HybridCypherRetriever
 from pydantic import BaseModel, Field
-from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 
 from dev.langgraph_basics.Neo4jGraphRAG.llm_chains_cypher import (
     chain_for_questions_generation,
 )
+
 
 # --------------------------------------------------------------------------- #
 # 1) Entorno e índices
@@ -120,15 +120,15 @@ llm = AzureOpenAILLM(
 rag_template = RagTemplate(
     template="""You are an expert in the projects. Answer the **Question** ONLY
  using the **Context** provided.
- 
+
  NEVER add NOR inject information or data that is not in the context.
- 
+
  # Question:
  {query_text}
- 
+
  # Context:
  {context}
- 
+
  # Answer:
  """,
     expected_inputs=["query_text", "context"],
@@ -155,8 +155,8 @@ class CypherQuery(BaseModel):
 
 
 def reduce_lists(
-    existing: Optional[list[str]],
-    new: Union[list[str], str, Literal["delete"], None],
+    existing: list[str] | None,
+    new: list[str] | str | Literal["delete"] | None,
 ) -> list[str]:
     """Combine two lists of strings in a robust way.
 
@@ -167,7 +167,6 @@ def reduce_lists(
     • Accepts *new* as a single string or list of strings.
     • Ensures the returned list has **unique items preserving order**.
     """
-
     # Reset signal
     if new == "delete":
         return []
@@ -275,7 +274,7 @@ builder.add_edge(START, "generate_questions")
 
 graph = builder.compile()
 
-async for chunk in graph.astream(
+async for _chunk in graph.astream(
     {"question": "Cuantos proyectos hay?"},
     stream_mode="updates",
     subgraphs=True,

@@ -14,9 +14,8 @@ inserted into a vector store for Retrieval-Augmented Generation (RAG).
 
 from __future__ import annotations
 
-import os
+from collections.abc import Sequence
 from pathlib import Path
-from typing import List, Sequence
 
 from dotenv import load_dotenv
 from langchain_core.documents import Document
@@ -25,7 +24,8 @@ from langchain_text_splitters import (
     RecursiveCharacterTextSplitter,
 )
 
-from src.config import MARKDOWN_REFINED_COLLECTION_DIR, CHUNKS_RAW_COLLECTION_DIR
+from src.config import CHUNKS_RAW_COLLECTION_DIR, MARKDOWN_REFINED_COLLECTION_DIR
+
 
 # Initialise environment variables (for local debugging if needed)
 load_dotenv(override=True)
@@ -35,9 +35,8 @@ load_dotenv(override=True)
 ###############################################################################
 
 
-def collect_markdown_files() -> List[Path]:
+def collect_markdown_files() -> list[Path]:
     """Return a list with paths to all refined Markdown files."""
-
     directory = Path(MARKDOWN_REFINED_COLLECTION_DIR)
     if not directory.exists():
         raise FileNotFoundError(
@@ -81,7 +80,6 @@ def _chunk_single_markdown(text: str, source_path: Path) -> Sequence[Document]:
         A sequence of `Document` objects with ``page_content`` ≤ ``chunk_size``
         and rich metadata (heading hierarchy, source, chunk index).
     """
-
     header_docs = _HEADER_SPLITTER.split_text(text)
 
     chunks: list[Document] = []
@@ -98,12 +96,11 @@ def _chunk_single_markdown(text: str, source_path: Path) -> Sequence[Document]:
     return chunks
 
 
-def chunk_all_markdown_files() -> List[Document]:
+def chunk_all_markdown_files() -> list[Document]:
     """Chunk every Markdown file inside *MARKDOWN_REFINED_COLLECTION_DIR*."""
-
     all_chunks: list[Document] = []
     for md_path in collect_markdown_files():
-        with open(md_path, "r", encoding="utf-8") as fh:
+        with open(md_path, encoding="utf-8") as fh:
             text = fh.read()
         file_chunks = _chunk_single_markdown(text, md_path)
         all_chunks.extend(file_chunks)
@@ -146,7 +143,6 @@ def save_chunks_to_jsonl(
     docs: Sequence[Document], output_dir: Path | None = None
 ) -> None:
     """Save *docs* to disk as one *JSON Lines* file per original document."""
-
     if output_dir is None:
         output_dir = Path(CHUNKS_RAW_COLLECTION_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)

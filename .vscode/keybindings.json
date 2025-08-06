@@ -1,0 +1,33 @@
+[
+    // Python: Format and fix on save
+    {
+        "key": "ctrl+s",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "editor.action.formatDocument",
+                "ruff.applyAllFixes",
+                "workbench.action.files.save"
+            ]
+        },
+        "when": "editorLangId == python && editorTextFocus"
+    },
+    // YAML/YML: Format on save
+    {
+        "key": "ctrl+s",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "editor.action.formatDocument",
+                "workbench.action.files.save"
+            ]
+        },
+        "when": "(editorLangId == yaml || editorLangId == yml) && editorTextFocus"
+    },
+    // Format all Python files in workspace
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Format with Ruff"
+    }
+]

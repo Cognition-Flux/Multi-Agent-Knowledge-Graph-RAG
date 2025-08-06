@@ -26,30 +26,25 @@ chunks = load_all_chunks()  # list[Document]
 from __future__ import annotations
 
 import json
-from pathlib import Path
 from collections import defaultdict
-from typing import List, Sequence
+from pathlib import Path
 
+import pandas as pd
 from langchain_core.documents import Document
 
 from src.config import CHUNKS_RAW_COLLECTION_DIR, CHUNKS_REFINED_COLLECTION_DIR
-from pathlib import Path
-from typing import Union
-
-import pandas as pd
 from src.documents.metadata import load_metadata
 
+
 # Default path for flora & fauna metadata Parquet file (imported from config)
-from src.config import FLORA_FAUNA_PARQUET_PATH as _DEFAULT_PARQUET_PATH
 
 ###############################################################################
 # Helpers                                                                     #
 ###############################################################################
 
 
-def _collect_jsonl_files() -> List[Path]:
+def _collect_jsonl_files() -> list[Path]:
     """Return a sorted list of all *.jsonl* files with raw chunks."""
-
     directory = Path(CHUNKS_RAW_COLLECTION_DIR)
     if not directory.exists():
         raise FileNotFoundError(
@@ -67,7 +62,6 @@ def _collect_jsonl_files() -> List[Path]:
 
 def _deserialize_document(obj: dict) -> Document:
     """Convert a plain dict into a `Document`."""
-
     if "page_content" not in obj or "metadata" not in obj:
         raise ValueError(
             "JSON object must contain 'page_content' and 'metadata' keys to be "
@@ -77,15 +71,14 @@ def _deserialize_document(obj: dict) -> Document:
     return Document(page_content=obj["page_content"], metadata=obj["metadata"])
 
 
-def load_chunks_from_file(path: str | Path) -> List[Document]:  # noqa: D401
+def load_chunks_from_file(path: str | Path) -> list[Document]:
     """Load every chunk from a single *JSONL* file located at *path*."""
-
     path = Path(path)
     if not path.is_file():
         raise FileNotFoundError(path)
 
     documents: list[Document] = []
-    with open(path, "r", encoding="utf-8") as fh:
+    with open(path, encoding="utf-8") as fh:
         for line in fh:
             line = line.strip()
             if not line:
@@ -95,9 +88,8 @@ def load_chunks_from_file(path: str | Path) -> List[Document]:  # noqa: D401
     return documents
 
 
-def load_all_chunks() -> List[Document]:
+def load_all_chunks() -> list[Document]:
     """Load *all* chunks across every JSONL file and return them concatenated."""
-
     all_docs: list[Document] = []
     for jsonl_path in _collect_jsonl_files():
         file_docs = load_chunks_from_file(jsonl_path)
@@ -110,7 +102,6 @@ def load_all_chunks() -> List[Document]:
 
 def load_chunks_grouped() -> dict[str, list[Document]]:
     """Load chunks and return a dict[file_stem -> list[Document]]."""
-
     grouped: dict[str, list[Document]] = defaultdict(list)
     for jsonl_path in _collect_jsonl_files():
         file_docs = load_chunks_from_file(jsonl_path)
@@ -156,7 +147,6 @@ def _serialize_document(doc: Document) -> dict:
 
 def save_chunks_grouped(grouped: dict[str, list[Document]]) -> None:
     """Persist each group of enriched chunks as JSONL in *refined* directory."""
-
     CHUNKS_REFINED_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)
 
     for key, docs in grouped.items():
@@ -249,7 +239,7 @@ for key, n_docs, enriched, matched_name, fields in sorted(_file_info):
     flag = "yes" if enriched else "no"
     meta_name_display = matched_name if enriched else "—"
     row_prefix = (
-        f"{key:<{_key_w}}  {meta_name_display:<{_meta_w}}  " f"{n_docs:5d}  {flag:>5}"
+        f"{key:<{_key_w}}  {meta_name_display:<{_meta_w}}  {n_docs:5d}  {flag:>5}"
     )
 
     if fields:
