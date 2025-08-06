@@ -1,0 +1,31 @@
+- pregunta: "que comunas hay en los documentos?"
+  cypher_query: |
+    MATCH (c:Commune)
+    WITH collect(DISTINCT c.name) AS names, count(DISTINCT c) AS total
+    UNWIND names AS commune
+    RETURN commune, total
+    ORDER BY commune
+
+- pregunta: "Cuantos proyectos hay?"
+  cypher_query: |
+    MATCH (p:Project)
+    WITH collect(DISTINCT p.name) AS names, count(DISTINCT p) AS total
+    UNWIND names AS project
+    RETURN project, total
+    ORDER BY project
+
+- pregunta: "Obtener los nombres de las comunas y su conteo total"
+  cypher_query: |
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    WITH collect(DISTINCT c.name) AS names, count(DISTINCT c) AS total
+    UNWIND names AS commune
+    RETURN commune, total
+    ORDER BY commune
+
+- pregunta: "Nombres y conteo total de regiones que tienen proyectos"
+  cypher_query: |
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    WITH collect(DISTINCT r.name) AS names, count(DISTINCT r) AS total
+    UNWIND names AS region
+    RETURN region, total
+    ORDER BY region

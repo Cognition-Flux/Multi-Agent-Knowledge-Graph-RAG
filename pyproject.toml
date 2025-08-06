@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "azure-ai-documentintelligence>=1.0.2",
     "boto3>=1.40.0",
+    "fastapi>=0.116.1",
     "fastparquet>=2024.11.0",
     "ipykernel>=6.30.0",
     "langchain-anthropic>=0.3.18",
@@ -16,6 +17,7 @@ dependencies = [
     "langchain-groq>=0.3.6",
     "langchain-openai>=0.3.28",
     "langchain-pinecone>=0.2.11",
+    "langgraph>=0.6.3",
     "neo4j>=5.28.2",
     "neo4j-graphrag[cohere]>=1.9.0",
     "pandas>=2.3.1",
@@ -23,4 +25,6 @@ dependencies = [
     "psycopg>=3.2.9",
     "pyarrow>=21.0.0",
     "python-dotenv>=1.1.1",
+    "uvicorn>=0.35.0",
+    "scalar-fastapi>=0.5.1",
 ]

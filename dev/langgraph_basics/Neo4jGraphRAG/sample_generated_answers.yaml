@@ -1,0 +1,9 @@
+- pregunta: "dame las comunas que hay y cuantas son."
+  generated_queries: |
+    - nombres de las comunas y el número total de comunas.
+    - Obtener los nombres de las comunas y su conteo total.
+
+- pregunta: "busca todas las regiones que tienen proyectos"
+  generated_queries: |
+    - Nombres de las regiones que tienen proyectos.
+    - Nombres y conteo total de regiones que tienen proyectos.
