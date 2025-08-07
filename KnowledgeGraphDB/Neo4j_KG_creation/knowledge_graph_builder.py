@@ -225,6 +225,20 @@ def _parse_communes(communes_value: str | list[str] | None) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
+def _iso_date_to_map(date_str: str | None) -> dict[str, int] | None:
+    """Convierte 'YYYY-MM-DD' en un mapa {year, month, day} para Cypher date()."""
+    if not date_str or not isinstance(date_str, str):
+        return None
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", date_str)
+    if not m:
+        return None
+    year, month, day = m.groups()
+    try:
+        return {"year": int(year), "month": int(month), "day": int(day)}
+    except Exception:
+        return None
+
+
 def clear_graph(_driver: GraphDatabase.driver) -> None:
     """Vacía completamente la base antes de cada corrida."""
     with _driver.session() as session:
@@ -347,6 +361,7 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
 
         # Aseguramos que la fecha de presentación se almacene como tipo `DATE`
         presentation_date_str = meta.get("fecha_de_presentacion")
+        presentation_date_map = _iso_date_to_map(presentation_date_str)
 
         # -- Validaciones desactivadas, contadores actualizados para resumen --
 
@@ -362,7 +377,7 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
                 project_name=meta.get("nombre"),
             )
 
-            if presentation_date_str:
+            if presentation_date_map:
                 session.run(
                     """
                     MATCH (p:Project {id: $project_id})
@@ -370,7 +385,7 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
                     MERGE (p)-[:PRESENTED_ON]->(d)
                     """,
                     project_id=int(meta.get("id")),
-                    fecha=presentation_date_str,
+                    fecha=presentation_date_map,
                 )
                 summary_counts["presentation_date"] += 1
 

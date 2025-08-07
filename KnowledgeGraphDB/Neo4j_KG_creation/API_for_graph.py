@@ -1,8 +1,10 @@
 """FastAPI service that streams LangGraph chunks.
 
+uv run -m KnowledgeGraphDB.Neo4j_KG_creation.API_for_graph
+
 Run with e.g.:
 
-    uvicorn KnowledgeGraphDB.graph_creation.API_for_graph:app --reload
+    uvicorn KnowledgeGraphDB.Neo4j_KG_creation.API_for_graph:app --reload
 
 Open a browser or use *curl* / *httpie*:
 
@@ -29,7 +31,7 @@ except ImportError:  # pragma: no cover
     get_scalar_api_reference = None  # type: ignore
 
 
-from KnowledgeGraphDB.graph_creation.graph_streamer import stream_graph
+from KnowledgeGraphDB.Neo4j_KG_creation.graph_streamer import stream_graph
 
 
 app = FastAPI(title="LangGraph Streaming API")
@@ -76,9 +78,15 @@ async def _json_line_stream(question: str) -> AsyncGenerator[bytes, None]:
 @app.get("/graph", response_class=StreamingResponse, summary="Stream LangGraph chunks")
 async def graph_endpoint(
     question: str = Query(
-        ...,  # required
+        "¿Que comunas están en los proyectos?",  # default para tests/docs
         description="Pregunta en lenguaje natural",
-        example="cual es la región del documento?",
+        example="¿Que comunas están en los proyectos?",  # ayuda a prellenar en algunos UIs
+        examples={
+            "default": {
+                "summary": "Pregunta por comunas",
+                "value": "¿Que comunas están en los proyectos?",
+            }
+        },
     ),
 ) -> StreamingResponse:
     """Devuelve los *chunks* generados por LangGraph en streaming.
@@ -98,14 +106,14 @@ if __name__ == "__main__":  # pragma: no cover
     import uvicorn
 
     uvicorn.run(
-        "KnowledgeGraphDB.graph_creation.API_for_graph:app",
+        "KnowledgeGraphDB.Neo4j_KG_creation.API_for_graph:app",
         host="0.0.0.0",
         port=8000,
         reload=True,
     )
 """
-   curl -N -G \
-        -H "Accept: text/event-stream" \
-        --data-urlencode "question=¿De qué región es el proyecto?" \
-        http://localhost:8000/graph
+curl -N -G \
+    -H "Accept: text/event-stream" \
+    --data-urlencode "question=¿Que comunas están en los proyectos?" \
+    http://localhost:8000/graph
 """

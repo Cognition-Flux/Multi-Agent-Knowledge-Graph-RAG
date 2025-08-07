@@ -13,7 +13,8 @@ from __future__ import annotations
 
 import asyncio
 
-from KnowledgeGraphDB.graph_creation.graph_streamer import stream_graph
+# from KnowledgeGraphDB.graph_creation.graph_streamer import stream_graph
+from KnowledgeGraphDB.Neo4j_KG_creation.graph_streamer import stream_graph
 
 
 async def main() -> None:

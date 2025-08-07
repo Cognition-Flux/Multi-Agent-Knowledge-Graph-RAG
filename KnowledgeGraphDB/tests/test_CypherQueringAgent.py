@@ -1,6 +1,7 @@
 # %%
 from __future__ import annotations
 
+import asyncio
 import os
 from typing import Annotated, Literal
 
@@ -240,3 +241,15 @@ builder.add_node("generate_answer", generate_answer)
 builder.add_edge(START, "generate_questions")
 graph = builder.compile()
 # %%
+if __name__ == "__main__":
+
+    async def _main() -> None:
+        async for _chunk in graph.astream(
+            {"question": "¿Cuáles son los proyectos que tienen anexos?"},
+            stream_mode="updates",
+            subgraphs=True,
+            debug=True,
+        ):
+            pass
+
+    asyncio.run(_main())

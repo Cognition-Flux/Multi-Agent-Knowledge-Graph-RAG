@@ -90,8 +90,13 @@ class CypherQuery(BaseModel):
     cypher_query: str = Field(description="The Cypher query ready to be executed.")
 
 
-sample_queries_path = Path(__file__).with_name("sample_queries.yaml")
+from pathlib import Path
 
+
+# sample_queries_path = Path(__file__).with_name("sample_queries.yaml")
+sample_queries_path = Path(
+    "/home/alejandro/Desktop/repos/CSW-NVIRO/KnowledgeGraphDB/tests/sample_queries_cypher_agent.yaml"
+)
 chain_for_cypher_query = create_system_prompt_with_dynamic_fewshooter(
     sample_queries_path,
     "You are an expert Cypher query writer.",

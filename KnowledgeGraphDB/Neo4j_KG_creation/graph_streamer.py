@@ -22,6 +22,7 @@ Example (FastAPI):
 ...     return StreamingResponse(stream_graph(question), media_type="text/event-stream")
 """
 
+# %%
 from __future__ import annotations
 
 from collections.abc import AsyncGenerator
@@ -30,9 +31,7 @@ from typing import Any
 # Re-use the graph that is already built in the testing module.  When this grows
 # into a proper library you may want to move the graph construction into a
 # dedicated module, but for now importing it avoids duplicate logic.
-from KnowledgeGraphDB.graph_creation.test_CypherQueringAgent import (
-    graph,
-)
+from KnowledgeGraphDB.tests.test_CypherQueringAgent import graph
 
 
 async def stream_graph(
