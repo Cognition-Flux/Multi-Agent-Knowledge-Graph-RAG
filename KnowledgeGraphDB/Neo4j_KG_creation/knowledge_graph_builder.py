@@ -29,9 +29,7 @@ NEO4J_PASSWORD: str | None = os.getenv("NEO4J_PASSWORD_UPGRADED")
 NEO4J_URI: str | None = os.getenv("NEO4J_CONNECTION_URI_UPGRADED")
 
 if not (NEO4J_USERNAME and NEO4J_PASSWORD and NEO4J_URI):
-    raise OSError(
-        "⚠️  Variables de entorno de Neo4j incompletas. Revisa `.env`."
-    )
+    raise OSError("⚠️  Variables de entorno de Neo4j incompletas. Revisa `.env`.")
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
 # Verificamos conectividad antes de proseguir.
 with driver as _tmp_driver:
@@ -123,7 +121,7 @@ print(
 # 2.3) Definición del esquema del Knowledge Graph
 # --------------------------------------------------------------------------- #
 
-
+# %%
 NODE_TYPES = [
     {
         "label": "Project",
