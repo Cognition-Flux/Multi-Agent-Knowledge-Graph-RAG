@@ -126,18 +126,42 @@ import unicodedata
 
 
 def _simplify(s: str) -> str:
-    """Return a simplified ASCII-only lowercase string without separators."""
-    # Remove diacritics (accents) and convert to ASCII
+    """Return a simplified ASCII-only lowercase string with no separators."""
     s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = s.lower()
     s = re.sub(r"\.pdf$", "", s)  # drop extension
     # Replace common separators with a single space then strip
-    s = re.sub(r"[_\-]+", " ", s)
+    s = re.sub(r"[_\-\.]+", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     # Keep only alphanumerics
     s = re.sub(r"[^a-z0-9]", "", s)
     return s
+
+
+# ---------------------------------------------------------------------------
+# Regex-based helpers for fuzzy filename matching
+# ---------------------------------------------------------------------------
+
+
+def _normalize_tokens(s: str) -> list[str]:
+    """Return a list of alphanumeric tokens extracted from *s* (accent-stripped)."""
+    s = unicodedata.normalize("NFKD", s)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.lower()
+    s = re.sub(r"\.pdf$", "", s)  # drop extension
+    # Split on common separators and digits boundaries
+    tokens = re.split(r"[_\-\.\s]+", s)
+    # Remove empty strings and trivial tokens
+    return [t for t in tokens if t]
+
+
+def _build_regex_from_tokens(tokens: list[str]) -> re.Pattern:
+    """Return a compiled regex matching *tokens* in order allowing gaps."""
+    if not tokens:
+        return re.compile(r"^")  # will never match
+    pattern = ".*".join(re.escape(t) for t in tokens)
+    return re.compile(pattern, flags=re.IGNORECASE)
 
 
 def _serialize_document(doc: Document) -> dict:
@@ -158,33 +182,58 @@ def save_chunks_grouped(grouped: dict[str, list[Document]]) -> None:
         print(f"✓ {out_path.name:<40} → {len(docs):>4} chunks saved")
 
 
-def _find_best_row(key: str, df: pd.DataFrame) -> pd.Series | None:
-    """Return the first row whose file_name contains *key* (fuzzy)."""
-    key_simple = _simplify(key)
+def _find_best_row(key: str, df: pd.DataFrame) -> tuple[pd.Series | None, str]:
+    """Return the first matching metadata **row** for *key* using a multi-step strategy.
+
+    1. Normalised containment check (fast).
+    2. Regex match that tolerates different separators and extra text.
+    3. Fallback to SequenceMatcher similarity if everything else fails.
+    """
+    key_tokens = _normalize_tokens(key)
+    key_regex = _build_regex_from_tokens(key_tokens)
+
     best_match: pd.Series | None = None
+    best_ratio = 0.0
+    match_method = ""
+
     for _, row in df.iterrows():
-        row_simple = _simplify(str(row["file_name"]))
-        # Direct containment in either direction
-        if key_simple in row_simple or row_simple in key_simple:
-            return row
-        # Fallback: similarity ratio
+        file_name_raw = str(row["file_name"])
+        row_tokens = _normalize_tokens(file_name_raw)
+
+        # 1. Direct token containment (quick win)
+        if all(t in row_tokens for t in key_tokens) or all(
+            t in key_tokens for t in row_tokens
+        ):
+            return row, "token_containment"
+
+        # 2. Regex search (allows gaps / extra chars)
+        if key_regex.search(" ".join(row_tokens)):
+            return row, "regex_key"
+        row_regex = _build_regex_from_tokens(row_tokens)
+        if row_regex.search(" ".join(key_tokens)):
+            return row, "regex_row"
+
+        # 3. Similarity ratio as last resort
         from difflib import SequenceMatcher
 
-        ratio = SequenceMatcher(None, key_simple, row_simple).ratio()
-        if ratio > 0.8:  # heuristic threshold
-            best_match = row
-            break
-    return best_match
+        ratio = SequenceMatcher(None, "".join(key_tokens), "".join(row_tokens)).ratio()
+        if ratio > best_ratio:
+            best_ratio = ratio
+            best_match = row if ratio > 0.8 else best_match  # threshold
+
+    if best_match is not None:
+        return best_match, "similarity"
+    return None, "no_match"
 
 
 # Enrich each Document with metadata from the DataFrame ----------------------
-# (file_key, n_docs, enriched?, matched_name, fields_updated)
-_file_info: list[tuple[str, int, bool, str | None, list[str]]] = []
+# (file_key, n_docs, enriched?, matched_name, fields_updated, match_method)
+_file_info: list[tuple[str, int, bool, str | None, list[str], str]] = []
 _unmatched_files: list[str] = []
 _enriched_docs: int = 0
 
 for doc_key, doc_list in chunk_dict.items():
-    row = _find_best_row(doc_key, metadata_df)
+    row, match_method = _find_best_row(doc_key, metadata_df)
     enriched = row is not None
 
     if not enriched:
@@ -192,7 +241,7 @@ for doc_key, doc_list in chunk_dict.items():
             f"! WARNING: No metadata row matched for '{doc_key}' (simplified='{_simplify(doc_key)}')"
         )
         _unmatched_files.append(doc_key)
-        _file_info.append((doc_key, len(doc_list), False, None, []))
+        _file_info.append((doc_key, len(doc_list), False, None, [], match_method))
         continue
 
     # When we reach here, we have a matching metadata row ------------------
@@ -204,7 +253,9 @@ for doc_key, doc_list in chunk_dict.items():
     for d in doc_list:
         d.metadata.update(row_meta)
     _enriched_docs += len(doc_list)
-    _file_info.append((doc_key, len(doc_list), True, matched_name, fields_updated))
+    _file_info.append(
+        (doc_key, len(doc_list), True, matched_name, fields_updated, match_method)
+    )
 
 # ----------------------------- Persist augmented chunks ------------------
 save_chunks_grouped(chunk_dict)
@@ -217,30 +268,30 @@ print("\nMetadata enrichment completed.\n")
 print("Summary of operations:")
 print(f"  • Files processed:             {_total_files}")
 print(f"  • Documents restored:          {_total_docs}")
-print(f"  • Documents enriched:          {_enriched_docs}")
+_coverage_pct = (_enriched_docs / _total_docs * 100) if _total_docs else 0.0
+print(f"  • Documents enriched:          {_enriched_docs} ({_coverage_pct:.1f}% )")
 print(f"  • Files without metadata:      {len(_unmatched_files)}")
 
 # Detailed breakdown ------------------------------------------------------
 print("\nPer-file details:")
 
 # Dynamic column widths for tidy layout
-_key_w = max(9, max(len(k) for k, *_ in _file_info))
-_meta_w = max(17, max(len(m or "") for *_, m, _ in _file_info))
+_key_w = max(9, max(len(info[0]) for info in _file_info))
+_meta_w = max(17, max(len(str(info[3] or "")) for info in _file_info))
+_method_w = max(10, max(len(info[5]) for info in _file_info))
 
 header = (
     f"{'Chunk key':<{_key_w}}  "
     f"{'Metadata file_name':<{_meta_w}}  "
-    f"{'Docs':>5}  {'Enr.':>5}  Updated fields"
+    f"{'Docs':>5}  {'Enr.':>5}  {'Method':<{_method_w}}  Updated fields"
 )
 print(header)
 print("-" * len(header))
 
-for key, n_docs, enriched, matched_name, fields in sorted(_file_info):
+for key, n_docs, enriched, matched_name, fields, method in sorted(_file_info):
     flag = "yes" if enriched else "no"
     meta_name_display = matched_name if enriched else "—"
-    row_prefix = (
-        f"{key:<{_key_w}}  {meta_name_display:<{_meta_w}}  {n_docs:5d}  {flag:>5}"
-    )
+    row_prefix = f"{key:<{_key_w}}  {meta_name_display:<{_meta_w}}  {n_docs:5d}  {flag:>5}  {method:<{_method_w}}"
 
     if fields:
         field_str = ", ".join(fields)

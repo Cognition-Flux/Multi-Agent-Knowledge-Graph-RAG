@@ -68,6 +68,11 @@ _CHAR_SPLITTER = RecursiveCharacterTextSplitter(
     chunk_overlap=128,  # keep some overlap for context
 )
 
+# ---------------------------------------------------------------------------
+# Statistics collection for reporting
+# ---------------------------------------------------------------------------
+_FILE_CHUNK_INFO: list[tuple[str, int]] = []
+
 
 def _chunk_single_markdown(text: str, source_path: Path) -> Sequence[Document]:
     """Split *text* into quality chunks preserving header metadata.
@@ -103,6 +108,7 @@ def chunk_all_markdown_files() -> list[Document]:
         with open(md_path, encoding="utf-8") as fh:
             text = fh.read()
         file_chunks = _chunk_single_markdown(text, md_path)
+        _FILE_CHUNK_INFO.append((md_path.name, len(file_chunks)))
         all_chunks.extend(file_chunks)
         print(f"✓ {md_path.name:<50} → {len(file_chunks):>4} chunks")
 
@@ -147,6 +153,13 @@ def save_chunks_to_jsonl(
         output_dir = Path(CHUNKS_RAW_COLLECTION_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Remove any existing *.jsonl files so that chunks are always rewritten
+    for existing in output_dir.glob("*.jsonl"):
+        try:
+            existing.unlink()
+        except Exception as exc:
+            print(f"! WARNING: could not delete {existing}: {exc}")
+
     grouped = _group_chunks_by_source(docs)
 
     for source_path, doc_list in grouped.items():
@@ -162,14 +175,42 @@ def save_chunks_to_jsonl(
         )
 
 
+# ------------------------------ Final summary -------------------------------
+
+
+def _print_report() -> None:
+    """Print a detailed summary of the chunking process."""
+    if not _FILE_CHUNK_INFO:
+        print("No files were processed, nothing to report.")
+        return
+
+    total_files = len(_FILE_CHUNK_INFO)
+    total_chunks = sum(n for _, n in _FILE_CHUNK_INFO)
+
+    print("\nChunking completed.\n")
+    print("Summary of operations:")
+    print(f"  • Files processed:             {total_files}")
+    print(f"  • Chunks generated:            {total_chunks}")
+
+    # Detailed breakdown ----------------------------------------------------
+    name_w = max(10, max(len(name) for name, _ in _FILE_CHUNK_INFO))
+    header = f"{'File name':<{name_w}}  {'Chunks':>6}"
+    print("\nPer-file details:")
+    print(header)
+    print("-" * len(header))
+    for name, count in sorted(_FILE_CHUNK_INFO):
+        print(f"{name:<{name_w}}  {count:6d}")
+
+
 # Persist the current run
 save_chunks_to_jsonl(chunks)
+_print_report()
 
 
-if __name__ == "__main__":
-    for chunk in chunks:
-        print(chunk.metadata)
-        print(chunk.page_content)
-        print("-" * 100)
+# if __name__ == "__main__":
+#     for chunk in chunks:
+#         print(chunk.metadata)
+#         print(chunk.page_content)
+#         print("-" * 100)
 
-# %%
+# # %%

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import contextlib
 import os
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -63,7 +64,7 @@ except Exception:
     VECTOR_DIM = 1024  # fallback razonable
 
 # Crear índices si no existen (idempotente)
-try:
+with contextlib.suppress(Exception):
     create_vector_index(
         driver,
         name=VECTOR_INDEX_NAME,
@@ -73,8 +74,6 @@ try:
         similarity_fn="cosine",
         fail_if_exists=False,
     )
-except Exception:
-    pass  # ya existe o no es crítico
 
 with contextlib.suppress(Exception):
     create_fulltext_index(
@@ -120,7 +119,6 @@ print(
 # --------------------------------------------------------------------------- #
 # 2.3) Definición del esquema del Knowledge Graph
 # --------------------------------------------------------------------------- #
-
 # %%
 NODE_TYPES = [
     {
@@ -128,7 +126,7 @@ NODE_TYPES = [
         "description": "Documento o proyecto tramitado en el SEA",
         "properties": [
             {"name": "name", "type": "STRING", "required": True},
-            {"name": "id", "type": "INTEGER"},
+            {"name": "id", "type": "INTEGER", "required": True},
         ],
     },
     {
@@ -161,6 +159,14 @@ NODE_TYPES = [
         "label": "PresentationDate",
         "properties": [{"name": "date", "type": "DATE", "required": True}],
     },
+    {
+        "label": "DocumentType",
+        "properties": [{"name": "name", "type": "STRING", "required": True}],
+    },
+    {
+        "label": "DocumentSubtype",
+        "properties": [{"name": "name", "type": "STRING", "required": True}],
+    },
 ]
 
 RELATIONSHIP_TYPES = [
@@ -170,6 +176,8 @@ RELATIONSHIP_TYPES = [
     "HAS_TIPOLOGIA",
     "HAS_PROJECT_TYPE",
     "PRESENTED_ON",
+    "HAS_DOCUMENT_TYPE",
+    "HAS_DOCUMENT_SUBTYPE",
 ]
 
 PATTERNS = [
@@ -179,7 +187,42 @@ PATTERNS = [
     ("Project", "HAS_TIPOLOGIA", "Tipologia"),
     ("Project", "HAS_PROJECT_TYPE", "ProjectType"),
     ("Project", "PRESENTED_ON", "PresentationDate"),
+    ("Project", "HAS_DOCUMENT_TYPE", "DocumentType"),
+    ("Project", "HAS_DOCUMENT_SUBTYPE", "DocumentSubtype"),
 ]
+
+
+def ensure_property_indexes(_driver: GraphDatabase.driver) -> None:
+    """Crea índices de propiedades para consultas y filtros eficientes."""
+    index_statements = [
+        "CREATE INDEX project_id_idx IF NOT EXISTS FOR (p:Project) ON (p.id)",
+        "CREATE INDEX project_name_idx IF NOT EXISTS FOR (p:Project) ON (p.name)",
+        "CREATE INDEX region_name_idx IF NOT EXISTS FOR (r:Region) ON (r.name)",
+        "CREATE INDEX commune_name_idx IF NOT EXISTS FOR (c:Commune) ON (c.name)",
+        "CREATE INDEX tipologia_code_idx IF NOT EXISTS FOR (t:Tipologia) ON (t.code)",
+        "CREATE INDEX projecttype_name_idx IF NOT EXISTS FOR (pt:ProjectType) ON (pt.name)",
+        "CREATE INDEX doctype_name_idx IF NOT EXISTS FOR (dt:DocumentType) ON (dt.name)",
+        "CREATE INDEX docsubtype_name_idx IF NOT EXISTS FOR (ds:DocumentSubtype) ON (ds.name)",
+        "CREATE INDEX presentation_date_idx IF NOT EXISTS FOR (d:PresentationDate) ON (d.date)",
+    ]
+    with _driver.session() as session:
+        for stmt in index_statements:
+            session.run(stmt)
+
+
+def _parse_communes(communes_value: str | list[str] | None) -> list[str]:
+    """Normaliza y divide el campo de comunas en una lista.
+
+    Soporta separadores (hyphen/dash), slash y coma, y combina múltiples separadores.
+    Elimina espacios sobrantes y entradas vacías.
+    """
+    if communes_value is None:
+        return []
+    if isinstance(communes_value, list):
+        return [c.strip() for c in communes_value if isinstance(c, str) and c.strip()]
+    s = str(communes_value)
+    parts = re.split(r"[,/\-–—]+", s)
+    return [p.strip() for p in parts if p.strip()]
 
 
 def clear_graph(_driver: GraphDatabase.driver) -> None:
@@ -192,6 +235,7 @@ def clear_graph(_driver: GraphDatabase.driver) -> None:
 async def build_kg_from_docs(docs: list[Document]) -> None:
     """Construye el KG a partir de la lista de documentos proporcionada."""
     clear_graph(driver)
+    ensure_property_indexes(driver)
 
     kg_builder = SimpleKGPipeline(
         llm=llm,
@@ -202,17 +246,51 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
             "node_types": NODE_TYPES,
             "relationship_types": RELATIONSHIP_TYPES,
             "patterns": PATTERNS,
-            "additional_node_types": True,  # Metabolite y Subsystem surgirán dinámicamente
+            "additional_node_types": False,
+            "additional_relationship_types": False,
+            "additional_patterns": False,
         },
         from_pdf=False,
     )
 
     # Inicializar contadores y sets para el resumen final
-    summary_counts = {"projects": 0, "presentation_date": 0}
+    summary_counts = {"chunks": 0, "presentation_date": 0}
     unique_regions: set[str] = set()
     unique_communes: set[str] = set()
     unique_tipologias: set[str] = set()
     unique_project_types: set[str] = set()
+    seen_project_ids: set[int] = set()
+
+    # Cómputos para progreso y detalle
+    total_chunks = len(docs)
+    # Totales por documento (source_path) = max(chunk_index) + 1
+    doc_total_chunks: dict[str, int] = {}
+    for d in docs:
+        meta_d = d.metadata  # type: ignore[attr-defined]
+        spath = str(meta_d.get("source_path"))
+        cidx = int(meta_d.get("chunk_index", 0))
+        doc_total_chunks[spath] = max(doc_total_chunks.get(spath, -1), cidx)
+    for spath in list(doc_total_chunks.keys()):
+        doc_total_chunks[spath] = doc_total_chunks[spath] + 1
+
+    unique_projects_in_batch: set[int] = set()
+    unique_docs_in_batch: set[str] = set()
+    for d in docs:
+        m = d.metadata  # type: ignore[attr-defined]
+        try:
+            unique_projects_in_batch.add(int(m.get("id")))
+        except Exception:
+            pass
+        spath = m.get("source_path")
+        if spath:
+            unique_docs_in_batch.add(str(spath))
+
+    print(
+        "Iniciando carga de KG → "
+        f"proyectos únicos: {len(unique_projects_in_batch)}, "
+        f"documentos: {len(unique_docs_in_batch)}, "
+        f"chunks: {total_chunks}"
+    )
 
     for doc in docs:
         # Creamos una representación textual enriquecida con los metadatos para
@@ -223,15 +301,26 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
         # Extraemos campos relevantes desde el DataFrame de metadatos
         region = meta.get("region")
         communes_raw = meta.get("ei_document_communes") or []
-        if isinstance(communes_raw, str):
-            communes_list = [c.strip() for c in communes_raw.split(",") if c.strip()]
-        else:
-            communes_list = list(communes_raw)
+        communes_list = _parse_communes(communes_raw)
         communes_str = ", ".join(communes_list)
 
         # Preparar variables adicionales y actualizar sets de resumen
         tipologia = meta.get("tipologia")
         project_type = meta.get("tipo_de_proyecto")
+        project_name = meta.get("nombre")
+        try:
+            project_id_int = int(meta.get("id"))
+        except Exception:
+            project_id_int = -1
+        source_path = str(meta.get("source_path"))
+        chunk_idx = int(meta.get("chunk_index", 0))
+        total_in_doc = doc_total_chunks.get(source_path, 0)
+
+        # Progreso por chunk y encabezado de proyecto
+        print(
+            f"[{summary_counts['chunks'] + 1}/{total_chunks}] Proyecto {project_id_int} - {project_name}"
+        )
+        print(f"  Doc: {Path(source_path).name}  chunk {chunk_idx + 1}/{total_in_doc}")
 
         if region:
             unique_regions.add(region)
@@ -253,7 +342,7 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
             f"Fecha de presentación: {meta.get('fecha_de_presentacion')}.\n"
         )
 
-        summary_counts["projects"] += 1  # contar proyecto procesado
+        summary_counts["chunks"] += 1  # contar chunk procesado
         await kg_builder.run_async(text=augmented_text)
 
         # Aseguramos que la fecha de presentación se almacene como tipo `DATE`
@@ -262,11 +351,21 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
         # -- Validaciones desactivadas, contadores actualizados para resumen --
 
         with driver.session() as session:
+            # Asegurar existencia de Project con sus propiedades mínimas
+            session.run(
+                """
+                MERGE (p:Project {id: $project_id})
+                ON CREATE SET p.name = $project_name
+                ON MATCH SET p.name = coalesce(p.name, $project_name)
+                """,
+                project_id=int(meta.get("id")),
+                project_name=meta.get("nombre"),
+            )
+
             if presentation_date_str:
                 session.run(
                     """
                     MATCH (p:Project {id: $project_id})
-                    WITH p
                     MERGE (d:PresentationDate {date: date($fecha)})
                     MERGE (p)-[:PRESENTED_ON]->(d)
                     """,
@@ -326,12 +425,47 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
                     project_type=project_type,
                 )
 
-        print(f"✅  Procesado proyecto {meta.get('id')} → KG actualizado.")
+            # Tipo de documento (categoría)
+            doc_type = meta.get("type")
+            if doc_type:
+                session.run(
+                    """
+                    MATCH (p:Project {id: $project_id})
+                    MERGE (dt:DocumentType {name: $doc_type})
+                    MERGE (p)-[:HAS_DOCUMENT_TYPE]->(dt)
+                    """,
+                    project_id=int(meta.get("id")),
+                    doc_type=doc_type,
+                )
+
+            # Subtipo de documento (categoría)
+            doc_subtype = meta.get("subtype")
+            if doc_subtype:
+                session.run(
+                    """
+                    MATCH (p:Project {id: $project_id})
+                    MERGE (ds:DocumentSubtype {name: $doc_subtype})
+                    MERGE (p)-[:HAS_DOCUMENT_SUBTYPE]->(ds)
+                    """,
+                    project_id=int(meta.get("id")),
+                    doc_subtype=doc_subtype,
+                )
+
+        # Detalle por proyecto (solo primera vez con ese id)
+        if project_id_int != -1 and project_id_int not in seen_project_ids:
+            print(
+                "  Detalle → "
+                f"Región='{region}', Tipologia='{tipologia}', "
+                f"Tipo='{project_type}', Subtype='{meta.get('subtype')}', "
+                f"Comunas={communes_list}"
+            )
+            seen_project_ids.add(project_id_int)
+        print(f"✅ Proyecto {meta.get('id')} listo.")
 
     # Imprimir resumen final
     print("🎉  Knowledge graph creation finished!")
     print("------ SUMMARY ------")
-    print(f"Projects processed: {summary_counts['projects']}")
+    print(f"Chunks processed: {summary_counts['chunks']}")
     print(f"Presentation dates linked: {summary_counts['presentation_date']}")
     print(f"Unique regions: {len(unique_regions)}")
     print(f"Unique communes: {len(unique_communes)}")
@@ -348,8 +482,10 @@ if __name__ == "__main__":
     import asyncio
 
     async def _run():
-        await build_kg_from_docs(
-            chunk_dict["Anexo-1_Linea-Base-Flora-y-Vegetaci_o_n_gpt-4.1-mini"]
-        )
+        # Cargar todos los proyectos: concatenamos todos los chunks de todos los documentos
+        all_docs: list[Document] = []
+        for _k, _docs in chunk_dict.items():
+            all_docs.extend(_docs)
+        await build_kg_from_docs(all_docs)
 
     asyncio.run(_run())

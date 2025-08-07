@@ -1,0 +1,1951 @@
+<figure>
+
+SOCOAM
+SOCIEDAD DE CONSULTORIAS AMBIENTALES
+
+</figure>
+
+
+ANEXO VII. ESTUDIO DE FLORA Y VEGETACIÓN
+
+DECLARACIÓN DE IMPACTO AMBIENTAL
+
+PROYECTO
+
+PARQUE FOTOVOLTAICO CALICHE
+
+FEBRERO 2021
+
+SOLAR TI VEINTIOCHO SPA
+
+
+<figure>
+</figure>
+
+
+<!-- PageFooter="SOCOAM - Sociedad de Consultoría Ambiental Ltda." -->
+<!-- PageFooter="Fono: (56-32) 2683222 contacto@socoam.cl www.socoam.cl" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SOCOAM
+SOCIEDAD DE CONSULTORIAS AMBIENTALES
+
+</figure>
+
+
+Línea de base de flora y vegetación
+
+Proyecto Parque Fotovoltaico
+"Caliche"
+
+Comuna de Tocopilla
+Región de Antofagasta
+
+Febrero 2021
+
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+Profesional a cargo:
+
+France Duhalde Arancibia
+Medico Veterinaria
+
+<!-- PageNumber="2" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+Índice de contenidos
+
+1\. Introducción
+
+5
+
+2\.
+Objetivo general
+6
+
+3\.
+Objetivos específicos
+6
+
+4\.
+Metodología
+6
+
+5\.
+Área de influencia
+6
+
+6\.
+Identificación de especies potenciales
+10
+
+7\.
+Definición de ambiente de flora y vegetación
+10
+
+8\.
+Metodología muestreo de flora y formaciones vegetacionales
+12
+
+9\.
+Análisis de Especies Potenciales
+15
+
+10\.
+Estado de Conservación, Origen y Endemismo de las especies registradas
+19
+
+11\.
+Resultados
+20
+
+12\.
+Marco biogeográfico
+20
+
+13\.
+Especies identificadas
+21
+
+14\.
+Conclusiones
+23
+
+15\. Anexos
+
+24
+
+<!-- PageNumber="3" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+# Índice de Figuras
+
+
+<table>
+<tr>
+<td>Figura 1: Provincia de Tocopilla, Region Antofagasta.</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Figura 2: Localización del Al para el proyecto Parque Solar Caliche</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Figura 3: Vista zona sur del polígono del proyecto Parque Solar Caliche.</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Figura 4: Transectas en polígono donde se llevará a cabo el Parque Solar Caliche.</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Figura 5: Transecta en la cuenca del Río Loa para registro de Flora y vegetación</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Figura 6: Cuenca del Río Loa.</td>
+<td>15</td>
+</tr>
+</table>
+
+
+# Índice de Tablas
+
+Tabla 1: Coordenadas de las transectas ubicadas en el Polígono del Proyecto Parque Solar Caliche.
+
+
+<table>
+<tr>
+<th></th>
+<th>13</th>
+</tr>
+<tr>
+<td>Tabla 2: Puntos georreferenciados de transecta en Cuenca de Río Loa</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Tabla 3: Especies de flora y vegetación registradas en el AI (Río Loa)</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Tabla 4: Riqueza de flora y vegetación registrados en el AI (Río Loa)</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Tabla 5: Revisión bibliográfica potencial Flora y vegetación en la región de Antofagasta.</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Tabla 6: Revisión bibliográfica de potencial Flora y vegetación en la cuenca del Río Loa.</td>
+<td>27</td>
+</tr>
+</table>
+
+
+# Índice de gráficos
+
+
+<table>
+<tr>
+<td>Gráfico 1: Estudio CIREN, 2016, Familias Vegetacionales Región Antofagasta</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Gráfico 2: Estudio CIREN, 2016. Estado de conservación según RCE.</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Gráfico 3: Estudio de Guerra, 2004. Familia Vegetacional en la cuenca del Río Loa</td>
+<td>17</td>
+</tr>
+<tr>
+<td rowspan="2">Gráfico 4: Estudio de Guerra, 2004. Estado de conservación formaciones vegetacionales Cuenca del Río Loa.</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="4" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+# 1. Introducción
+
+El presente informe pretende caracterizar la Flora y Vegetación en la zona donde se
+pretende llevar a cabo el proyecto "Parque Fotovoltaico Caliche", en adelante "el Proyecto",
+ubicado en el sector de Tocopilla, en la Región de Antofagasta.
+
+El objetivo es identificar la Flora y Vegetación Silvestre en la zona del Proyecto, describiendo
+especies, riqueza, estado de conservación, conforme a lo establecido en el literal e.2 del
+artículo 18 del Reglamento del SEIA.
+
+La metodología utilizada para el registro y caracterización del componente Flora y
+Vegetación se basó en las recomendaciones descritas en los documentos "Guía para la
+descripción del área de influencia" (SEA, 2017) y "Guía de Evaluación ambiental, vegetación
+y flora silvestre" (SAG, 2010).
+
+<!-- PageNumber="5" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+# 2. Objetivo general
+
+Realizar una línea base que describa la situación actual de los elementos que constituyen el
+componente flora y vegetación terrestre presente en el área de influencia (AI) del Proyecto
+"Parque Fotovoltaico Caliche", mediante estudios de revisión bibliográfica y campañas en
+terreno localizado en la Comuna de María Elena, Provincia de Tocopilla, Región de
+Antofagasta.
+
+
+# 3. Objetivos específicos
+
+· Elaborar un listado de especies potenciales de flora y vegetación en el Al del Proyecto.
+
+· Elaborar un listado de especies de flora y vegetación registradas en el Al del proyecto.
+
+· Determinar la riqueza específica de la Flora y vegetación registrada.
+
+· Clasificar a las especies registradas según su estado de conservación vigente.
+
+
+# 4. Metodología
+
+La metodología que se describe a continuación se fundamenta en los alcances de los
+estudios ambientales y protocolos metodológicos propuestos por el Ministerio de
+Agricultura en el documento "Guía para la descripción del área de influencia" (SEA, 2017) y
+los lineamientos entregados en la "Guía de Evaluación ambiental, vegetación y flora
+silvestre" (SAG, 2010). En otras palabras, el protocolo metodológico planificado en el marco
+de este estudio cumple plenamente con los requerimientos establecidos por la autoridad.
+
+
+# 5. Área de influencia
+
+De acuerdo a la Guía para la Descripción del Área de Influencia (SEA, 2017), ésta se define
+como el área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales
+deben ser considerados con la finalidad de definir si el proyecto o actividad genera o
+presenta alguno de los efectos, características o circunstancias del artículo 11 de la Ley
+Nº19.300, o bien para justificar la inexistencia de dichos efectos, características o
+circunstancias (letra a del artículo 2 del Reglamento del SEIA).
+
+<!-- PageNumber="6" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+El área de influencia se ubica en la Comuna de María Elena, Provincia de Tocopilla, Región
+de Antofagasta. El polígono donde se emplazarán las obras del Parque Fotovoltaico Caliche
+tiene una superficie de 16.3 hectáreas y una línea de transmisión de 13.6 Kilómetros de
+longitud.
+
+La Región de Antofagasta está dividida administrativamente en tres provincias: Tocopilla, El
+Loa y Antofagasta, y en nueve comunas: Tocopilla y María Elena, correspondientes a la
+Provincia de Tocopilla; Calama, San Pedro de Atacama y Ollague, parte de la Provincia de El
+Loa; y Antofagasta, Mejillones, Sierra Gorda y Taltal, pertenecientes a la Provincia de
+Antofagasta (Departamento de estudios, 2015).
+
+Su geografía se encuentra determinada por cuatro espacios fundamentales: la Cordillera de
+los Andes, que se presenta maciza, con un marcado volcanismo y actividad geotérmica; la
+Depresión Intermedia, que se presenta como una amplia pampa desértica; la Cordillera de
+la Costa, que se constituye como un biombo climático que impide el paso de los vientos
+húmedos desde el Pacífico hacia la Depresión Intermedia; y, por último, las Planicies
+Litorales (Departamento de estudios, 2015).
+
+Debido a las características de aridez que presenta la Región de Antofagasta, la vegetación
+es muy escasa, especialmente en la Depresión Intermedia donde el desierto es absoluto y
+se manifiesta en forma plena. (Biblioteca del congreso nacional,). La vegetación se restringe
+a zonas muy específicas, como por ejemplo a: oasis, salares, valles transversales, desierto
+costero; como también, al sector preandino y andino, favorecido por lluvias altiplánicas (M.
+Trivelli, 2014).
+
+Para la determinación del área de influencia, se consideró el polígono del Proyecto y la línea
+de evacuación eléctrica, tal como se describe a continuación en Figura 2.
+
+<!-- PageNumber="7" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<figure>
+<figcaption>Figura 1: Provincia de Tocopilla, Región Antofagasta.</figcaption>
+
+300000 40000
+
+4000000
+
+500000
+
+600000
+
+700000
+
+800000
+
+7600000
+
+7600000
+
+7500000
+
+7500000
+
+Región de Antofagasta
+
+7400000
+
+Il Región
+
+7400000
+
+7300000
+
+7300000
+
+7200000
+
+7200000
+
+7100000
+
+N
+
+7100000
+
+W
+
+E
+
+(41 00000064.00046.00028.000
+
+Miles
+
+S
+
+300000
+
+400000
+
+500000
+
+600000
+
+700000
+
+800000
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+<!-- PageNumber="8" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<figure>
+<figcaption>Figura 2: Localización del AI para el proyecto Parque Solar Caliche. Comuna de María Elena, provincia de Tocopilla, Región de Antofagasta.</figcaption>
+
+442000
+
+444000
+
+446000
+
+448000
+
+450000
+
+452000
+
+454000
+
+N
+
+W
+
+E
+
+S
+
+7536000
+
+7536000
+
+7532000
+
+7532000
+
+Mile's
+
+0 9501.900 3.800 5.700 7 600
+
+S
+
+ale Earth
+
+A
+
+442000
+
+444000
+
+446000
+
+448000
+
+450000
+
+452000
+
+454000
+
+</figure>
+
+
+<figure>
+
+SOCOAM
+
+</figure>
+
+
+Proyecto parque solar Caliche
+
+Simbología
+
+Polígono
+
+Linea de transmision
+
+Fuente: elaboración propia.
+
+<!-- PageNumber="9" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+# 6. Identificación de especies potenciales
+
+Para realizar una búsqueda más eficiente de las especies potenciales que se encuentran en
+el área de influencia del Proyecto, anteriormente, se realizó una revisión bibliográfica en
+literatura especializada de flora y vegetación, con el objetivo de determinar una lista de las
+principales especies de vegetación y flora silvestre presentes en la región de Antofagasta,
+de acuerdo con su distribución geográfica.
+
+La literatura inicial fue principalmente:
+
+· Apunte de botánica aplicada (A. Faundez y et al, 2017).
+
+· Análisis de la biodiversidad región Antofagasta por Centros de Estudios Agrarios
+(CEA, 2008).
+
+. Informe y monitoreo estacional de flora y vegetación terrestres, Vegas de Calama,
+Región Antofagasta (CODELCO, 2012).
+
+· Biodiversidad de la zona de desierto y tropical de altura en la II Región (C. Guerra y
+A. Malinarich, 2004).
+
+· Flora frecuente de la Comuna de San Pedro de Atacama. Región de Antofagasta.
+Chile (La Torre, 2012).
+
+
+# 7. Definición de ambiente de flora y vegetación
+
+Se realizó, con anterioridad, un análisis georreferencial del terreno, a través del programa
+Google Earth, para determinar las zonas donde se podrían visualizar especies de flora y
+vegetación en el AI.
+
+En terreno, se procedió a recorrer la línea de transmisión y transectas delimitadas en el
+polígono para evaluar las características físicas del terreno y buscar presencia de flora y
+vegetación en el área de influencia. El área del polígono se delimitó una mayor cantidad de
+transectas, debido a que es la zona donde potencialmente se llevará cabo la instalación del
+Parque Solar Caliche.
+
+El AI donde se llevará cabo el proyecto Parque Fotovoltaico Caliche, tiene características
+físicas desérticas, las áreas interiores del desierto están desprovistas de vegetación, poseen
+un suelo de características "Entisoles", es decir, estos son suelos esqueléticos, sin evolución
+de horizontes, con alto contenido de sales, de constitución principalmente mineral y
+ausencia de materia orgánica (CIREN, 2016), y un clima árido a hiperárido lo que dificulta el
+crecimiento de vegetación en la zona. En las cercanías del AI se observó presencia de zonas
+de perturbación antropológicas tales como; industrias, torres de alta tensión, huellas de
+automóviles en terreno no habilitado y senderos. Estos últimos, permitió realizar una
+
+<!-- PageNumber="10" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+evaluación mucho más rápida, eficiente y nos dio una posibilidad segura de realizar todo
+nuestro recorrido por la transecta delimitada en el programaGoogle Earth.
+
+
+<figure>
+<figcaption>Figura 3: Vista zona sur del polígono del proyecto Parque Solar Caliche. Área desprovista de vegetación.</figcaption>
+</figure>
+
+Fuente: Elaboración propia
+
+
+Con respecto a la flora y vegetación del AI, el área oeste de la línea de transmisión del
+proyecto atraviesa por la cuenca del Río Loa, única zona de vegetación que se visualiza en
+el recorrido de la campaña realizada. Se observan formas de vegetaciones arbustivas que
+recorren gran parte de este curso. En esta zona, se priorizó la búsqueda e identificación de
+biodiversidad, ya que concentra la flora y fauna silvestre (Aves, mamíferos terrestres y
+reptiles) del área de influencia.
+
+La mayor parte del recorrido del AI abarcan zonas abiertas, esto permitió tener una mejor
+observación del terreno, un rango de visión más amplio, y realizar un registro de fauna y
+flora silvestre a mayor distancia.
+
+<!-- PageNumber="11" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+# 8. Metodología muestreo de flora y formaciones vegetacionales
+
+La caracterización y registro de flora y vegetación se realizó mediante una campaña en
+terreno, ejecutada entre los días 27 y 28 de enero 2021, correspondiente a la estación
+climática de verano.
+
+La evaluación de la presencia de flora y vegetación se llevó a cabo con el método de
+Transectos Lineales, nos permite determinar la cobertura de vegetación a lo largo de una
+línea de medición mediante la observación directa. Se realizaron recorridos por la línea de
+transmisión y en las transectas delimitadas en el polígono del Proyecto. En este último, se
+delimitaron 10 líneas de transectas, cada una tiene una longitud de 100 metros y se abarco
+un registro de especies con un margen visual de 15 metros por cada lado de la transecta.
+
+
+<figure>
+<figcaption>Figura 4: Transectas en polígono donde se llevará a cabo el Parque Solar Caliche.</figcaption>
+
+452200
+
+452500
+
+452800
+
+453100
+
+453400
+
+7535000
+
+7535000
+
+T1
+
+T2
+
+T3
+
+T4
+
+T5
+
+T10
+
+7534500
+
+T9
+
+T6
+
+7534500
+
+T8
+
+T7
+
+Simbología
+
+7534000
+
+Polígono del proyecto
+
+7534000
+
+Transectas
+
+452200
+
+452500
+
+452800
+
+453100
+
+453400
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+<!-- PageNumber="12" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<table>
+<caption>Tabla 1: Coordenadas de las transectas ubicadas en el Polígono del Proyecto Parque Solar Caliche.</caption>
+<tr>
+<th>Transecta</th>
+<th>UTM E</th>
+<th>UTM N</th>
+<th>UTM E</th>
+<th>UTM N</th>
+<th>Huso</th>
+</tr>
+<tr>
+<td>T1</td>
+<td>452640.51</td>
+<td>7534779.90</td>
+<td>452741.00</td>
+<td>7534778.73</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>452806.70</td>
+<td>7534762.86</td>
+<td>452847.56</td>
+<td>7534671.03</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T3</td>
+<td>452932.29</td>
+<td>7534784.63</td>
+<td>453009.23</td>
+<td>7534719.82</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T4</td>
+<td>452771.43</td>
+<td>7534661.82</td>
+<td>452860.74</td>
+<td>7534617.18</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T5</td>
+<td>452959.44</td>
+<td>7534660.91</td>
+<td>452963.64</td>
+<td>7534560.62</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T6</td>
+<td>452961.49</td>
+<td>7534484.66</td>
+<td>452864.52</td>
+<td>7534453.07</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T7</td>
+<td>452998.05</td>
+<td>7534422.31</td>
+<td>452999.84</td>
+<td>7534324.26</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T8</td>
+<td>452847.12</td>
+<td>7534393.95</td>
+<td>452753.57</td>
+<td>7534431.64</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T9</td>
+<td>452738.98</td>
+<td>7534497.72</td>
+<td>452805.25</td>
+<td>7534572.63</td>
+<td>19</td>
+</tr>
+<tr>
+<td>T10</td>
+<td>452644.63</td>
+<td>7534623.02</td>
+<td>452659.87</td>
+<td>7534522.92</td>
+<td>19</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia.
+
+
+Como se describió anteriormente, en el área del polígono no se registró ninguna especie de
+flora o vegetación.
+
+En la zona Oeste de la línea de transmisión, cercana a la Subestación Crucero, se encuentra
+la cuenca del Río Loa, donde presenta una franja de vegetación arbustiva o también
+denominada franja ribereña, que recorre toda su extensión. Según la descripción de F.
+Romero y et al. 2014, las zonas ribereñas, son ecosistemas dependientes de cursos o
+cuerpos de agua con una matriz variable de vegetación, inmersos en cuencas hidrográficas.
+Estas zonas cumplen funciones esenciales para la preservación de ecosistemas y sus
+relaciones territoriales, influyendo en el paisaje en términos de riqueza y belleza natural, a
+la vez que suministran bienes y servicios para la biota y el bienestar humano.
+
+En la zona de la cuenca del Río Loa que limita con parte del área de influencia se delimito
+una línea de transecta para buscar y registrar especies de flora y fauna en la franja ribereña.
+La transecta se ubicó de forma paralela a la cuenca, con una longitud de 100 metros y 15
+metros de margen visual por lado, igual que las transectas del polígono. Esto permitió,
+abarcar más abundancia de flora y vegetación dentro del margen del área de influencia del
+proyecto. Esta transecta fue considerada prioridad, junto al área del polígono, ya que
+contiene la única zona de vegetación dentro del AI del Proyecto.
+
+<!-- PageNumber="13" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<figure>
+<figcaption>Figura 5: Transecta en la cuenca del Río Loa para registro de Flora y vegetación.</figcaption>
+
+441580
+
+441670
+
+441760
+
+441850
+
+441940
+
+A
+
+7534400
+
+0
+
+30
+
+80
+
+120
+
+180
+
+240
+
+N
+
+Mile's
+
+7534400
+
+W
+
+E
+
+S
+
+7534300
+
+7534300
+
+7534200
+
+7534200
+
+Proyecto Parque Solar Caliche
+
+Cuenca del Río Loa
+
+Transecta
+
+7534100
+
+Linea de Transmisión
+
+7534100
+
+441580
+
+441670
+
+441760
+
+441850
+
+441940
+
+</figure>
+
+Fuente: Elaboración propia.
+
+
+<table>
+<caption>Tabla 2: Puntos georreferenciados de transecta en Cuenca de Río Loa</caption>
+<tr>
+<th>Transectas</th>
+<th>UTM E</th>
+<th>UTM N</th>
+<th>UTM E</th>
+<th>UTM N</th>
+<th>Huso</th>
+</tr>
+<tr>
+<td>T11</td>
+<td>441692.67</td>
+<td>7534329.28</td>
+<td>441662.75</td>
+<td>7534232.83</td>
+<td>19</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="14" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<figure>
+<figcaption>Figura 6: Cuenca del Río Loa.</figcaption>
+
+Subestación Crucero
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+# 9. Análisis de especies potenciales
+
+Previo a la campaña en terreno, se realizó una revisión bibliográfica de las especies
+potenciales a ser registradas en el AI. Dicha revisión fue enfocada al sector de interés
+(Tocopilla, región de Antofagasta), realizando un filtro de búsqueda en los trabajos previos
+de Guerra, 2004. Informe de Fauna de Vertebrados, Flora y Vegetación de la
+Desembocadura del Río Loa, I y II Región de chile y CIREN, 2016. Sistema de Información
+Territorial de Humedales Altoandinos, Flora y Vegetación II Región Antofagasta, que basa el
+estado de conservación de las especies en la información del Inventario Nacional de
+Especies del Ministerio de Medio Ambiente.
+
+<!-- PageNumber="15" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<figure>
+<figcaption>Gráfico 1: Estudio CIREN, 2016, Familias Vegetacionales Región Antofagasta.</figcaption>
+
+Familias Vegetacionales Región Antofagasta
+
+39%
+
+42%
+
+3%
+
+5%
+
+5%
+
+6%
+
+☐
+Cactaceae
+
+☐
+Adianteceae
+
+☐
+Bromeliaceae
+
+☐
+Fabaceae
+
+☐
+Solanaceae
+
+Otras
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+Según el estudio de CIREN, 2016, en la Región de Antofagasta existe mayor abundancia de
+la familia de vegetaciones de Cactáceas (42%), seguido por la familia Adiantecea (6%),
+Bromeliaceae (5%), Fabaceae (5%) y Solanaceae (4%). Las familias catalogadas como
+"Otras", que equivalen a un 39%, es la suma de varias especies de formaciones
+vegetacionales, pero que contienen menor abundancia de especies por familia vegetacional
+en la Región de Antofagasta.
+
+<!-- PageNumber="16" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<figure>
+<figcaption>Gráfico 2: Estudio CIREN, 2016. Estado de conservación según RCE.</figcaption>
+
+Estado de conservación Formaciones
+Vegetacionales Región Antofagasta
+
+11%
+
+1%
+
+32%
+
+36%
+
+20%
+
+Vulnerable
+
+Preocupación menor
+☐
+En Peligro
+☐
+Casi amenazada
+
+Datos Insufisientes
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+Además, en este mismo estudio mencionan que el 36% de las especies se encuentran en
+peligro de conservación, un 32% vulnerable, un 11% casi amenazada y un 20% con
+preocupación menor.
+
+
+<figure>
+<figcaption>Gráfico 3: Estudio de Guerra, 2004. Familia Vegetacional en la cuenca del Río Loa</figcaption>
+
+Familias Vegetacionales Cuenca Río Loa
+
+14%
+
+14%
+
+43%
+
+14%
+
+15%
+
+Compositae
+
+Gramineae
+
+Juncaceae
+
+Chenopodiaceae
+
+Fabaceae
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+<!-- PageNumber="17" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+La flora que registra en la desembocadura del Río Loa, Está constituida por 7 especies más
+frecuentes, pudiendo existir otras que no representan cobertura significativa sino plantas
+pequeñas y aisladas. Las especies corresponden a la expresión de 5 familias (Guerra, 2004).
+
+Según el informe de Guerra, 2004. En la cuenca del Río Loa existe mayor abundancia de la
+familia de vegetaciones de Compositae (43%), seguido por la familia Gramineae (15%),
+Juncaceae (14%), Chenopodiaceae (14%) y Fabaceae (14%).
+
+
+<figure>
+<figcaption>Gráfico 4: Estudio de Guerra, 2004. Estado de conservación formaciones vegetacionales Cuenca del Río Loa.</figcaption>
+
+Estado de conservación de Formaciones Vegetacionales
+Cuenca Río Loa
+
+14%
+
+29%
+
+57%
+
+Fuera de Peligro
+
+Sin categoria
+
+Vulnerable
+
+</figure>
+
+Fuente: Elaboración propia
+
+
+En este estudio, no posee especies que estén en el estado de conservación En Peligro. Son
+todas especies nativas y solo 1 se encuentra en la categoría de conservación Vulnerable, se
+reconoce el Género Prosopis como vulnerable para todo el país.
+
+<!-- PageNumber="18" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+## 10. Estado de Conservación, Origen y Endemismo de las especies registradas
+
+Además de la información obtenida mediante la metodología ya descrita, para cada uno de
+los taxas identificados se analizó su estado de conservación, de acuerdo al Reglamento de
+Clasificación de Especies Silvestres (Ministerio del Medio Ambiente), el Libro Rojo de la Flora
+Terrestre de Chile (CONAF, 1989), por el estudio de Fauna de Vertebrados, flora y
+vegetación de la desembocadura del Río Loa, I y II Región de chile (Guerra, 2004) y CIREN,
+2016. Sistema de información Territorial de Humedales Altoandinos. Flora II Región
+Antofagasta.
+
+Las Categorías de Conservación empleadas por nuestro país fueron definidas por el Artículo
+37 de la Ley Nº 19.300, Ley de Bases del Medio Ambiente, y que hasta el 26 de enero de
+2010 incluyó las categorías: Extinto, En Peligro, Vulnerable, Insuficientemente Conocido,
+Rara y Fuera de Peligro. (MMA)
+
+El 26 de enero de 2010, se publicó la Ley Nº 20.417, donde se modificó el artículo 37 de la
+Ley Nº 19.300, lo que amplio los grupos taxonómicos posibles de ser clasificados a "plantas,
+algas, hongos y animales silvestres" y adopto el uso de las categorías actualmente vigentes
+para UICN (Unión Mundial para la conservación de la Naturaleza) (MMA).
+
+Las categorías de conservación según el Reglamento para la Clasificación de Especies
+Silvestres, después del 26 de enero del 2010 son las siguientes: Extinta, Extinta en el Estado
+Silvestre, En Peligro Crítico, En Peligro, Vulnerable, Casi Amenazada, Preocupación Menor,
+Datos Deficientes. Estas categorías están vigentes hoy en día (MMA).
+
+<!-- PageNumber="19" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+## 11. Resultados
+
+En relación al esfuerzo de muestreo, en la presente campaña de terreno participo 2
+profesionales por 2 días.
+
+Se establecieron diez transectas de 100 metros aproximadamente en el polígono del
+proyecto, un recorrido total de la línea de transmisión y al estar en el trabajo en terreno, se
+realizó una transecta en el borde de la vegetación de la cuenca del Río Loa.
+
+El esfuerzo de muestreo tanto en las transectas dentro del polígono no arrojo detección de
+Flora y Vegetación Silvestre, salvo en sector de cruce del Río Loa, en el cual se registraron 4
+especies de formaciones vegetacionales.
+
+Cabe mencionar, que las especies de formaciones Vegetacionales encontradas en la cuenca
+del Río Loa no se encuentran en la base de datos del Inventario Nacional de Especies
+Silvestres, debido a esto la categoría de conservación se obtuvo de los estudios realizados
+por CIREN, 2016, C. Guerra, 2004.
+
+
+## 12. Marco biogeográfico
+
+La flora en Chile se concentra principalmente en la zona centrosur, que abarca desde de la
+región de Coquimbo hasta la región de los Lagos. Al norte y sur de esta área, la abundancia
+y riqueza de especies va disminuyendo a medida que el clima se vuelve más seco, húmedo
+o frío (Guía flora y fauna, 2016). En la zona norte, la presencia de vida vegetal y animal en
+el Desierto Interior, es bastante reducida a casi inexistente, principalmente por las
+condiciones de aridez, carencia de suelos apropiados en componentes y temperaturas y la
+alta radiación solar incidente, a través de una atmósfera limpia. Solo se genera vegetación
+en puntos muy definidos, caracterizados por fuentes de humedad de origen antrópico o por
+pozos o aguadas. En la II Región estos puntos son muy escasos, por lo que casi toda la
+extensión interior es extremadamente árida (C. Guerra y A. Malinarich, 2004).
+
+El Río Loa, las zonas costeras y los salares altoandinos conforman ecosistemas capaces de
+albergar todo tipo de flora y fauna, actuando como verdaderos oasis en medio del desierto
+(CIREN, 2016).
+
+A partir del sur de la II región de Antofagasta y al sur del desierto absoluto, se observa un
+cambio en el paisaje, al comenzar a aparecer los primeros vestigios de vegetación arbustiva
+pequeña y herbáceas. Se trata de un tipo de vegetación muy particular, adaptada a la
+extrema aridez y que se torna de mayor abundancia y tamaño en las regiones III y IV. En
+términos generales, corresponde a comunidades de matorrales arbustivos y suculentas, con
+presencia de herbáceas (M. Trivelli, 2014).
+
+<!-- PageNumber="20" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+Entre las especies que habitan en la zona norte, destacan, por ejemplo: Prosopis tamarugo
+(tamarugo), Geoffroea decorticans (chañar), Schinus molle (pimiento), Pluchea
+absinthioides (brea), Distichlis spicata (grama salada), Atriplex atacamensis (cachiyuyo),
+Lycopersicon chilense (tomatillo), Cistanthe celosioides y Browningia candelaris (cactus
+candelabro) (M. Trivelli, 2014).
+
+En comparación con Chile Central, todas las formaciones vegetacionales de la Región de
+Antofagasta poseen menor biodiversidad a nivel de especie y género (Squeto, 1998).
+
+
+## 13. Especies identificadas
+
+Para la identificación y registro de las distintas especies de flora y vegetación, se utilizó la
+metodología de técnicas de transectos. Se delimitaron 10 transectas en el área del polígono
+y una transecta en la cuenca del Río Loa que intercepta con la línea de transmisión. Cada
+transecta tiene una longitud de 100 metros con un radio de visibilidad de 15 metros por
+cada una.
+
+
+<table>
+<caption>Tabla 3: Especies de flora y vegetación registradas en el AI (Río Loa).</caption>
+<tr>
+<th>Nombre Científico</th>
+<th>Nombre común</th>
+<th>Familia</th>
+<th>Origen Geográfico</th>
+<th>Categoría de conservación</th>
+</tr>
+<tr>
+<td>Tessaria absinthioides</td>
+<td>Brea</td>
+<td>Compositea</td>
+<td>Nativa</td>
+<td>Sin amenaza</td>
+</tr>
+<tr>
+<td>Distichlis spicata</td>
+<td>Grama salada</td>
+<td>Poaceae</td>
+<td>Nativa</td>
+<td>No evaluada</td>
+</tr>
+<tr>
+<td>Atriplex atacamensis</td>
+<td>Cachiyuyo</td>
+<td>Chenopodiaceae</td>
+<td>Nativa</td>
+<td>Sin amenaza</td>
+</tr>
+<tr>
+<td>Baccharis scandens</td>
+<td>Chilca</td>
+<td>Asteraceae</td>
+<td>Nativa</td>
+<td>Sin amenaza</td>
+</tr>
+</table>
+
+Fuente elaboración propia
+
+
+<!-- PageNumber="21" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+Tabla 4: Riqueza de flora y vegetación registrados en el AI (Río Loa).
+
+Flora y
+Vegetación
+
+
+<table>
+<tr>
+<th>Nombre científico</th>
+<th>Nombre Común</th>
+<th>T1</th>
+<th>T2</th>
+<th>T3</th>
+<th>T4</th>
+<th>T5</th>
+<th>T6</th>
+<th>T7</th>
+<th>T8</th>
+<th>T9</th>
+<th>T10</th>
+<th>T11</th>
+</tr>
+<tr>
+<td>Tessaria absinthioides</td>
+<td>Brea</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>&gt;200</td>
+</tr>
+<tr>
+<td>Distichlis spicata</td>
+<td>Grama salada</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>&gt;200</td>
+</tr>
+<tr>
+<td>Atriplex atacamensis</td>
+<td>Cachiyuyo</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Baccharis scandens</td>
+<td>Chilca</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+</tr>
+</table>
+
+Fuente: elaboración propia
+
+
+La Transecta T11, es la que se encuentra en la cuenca del Río Loa. Las demás transectas
+corresponden al polígono donde se emplazarán las obras para el proyecto Parque
+Fotovoltaico Caliche.
+
+En general se trata de especies de amplia dispersión el país. Ninguna se encuentra en
+categorías de conservación.
+
+<!-- PageNumber="22" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+## 14. Conclusiones
+
+El objetivo general del trabajo realizado es describir la situación actual de los elementos que
+constituyen el componente Flora y Vegetación presente en el AI del Proyecto Parque
+Fotovoltaico Caliche. En relación a los resultados presentados, podemos decir que se dio
+cumplimiento a los objetivos específicos planteados.
+
+Si bien el AI cuenta con zonas vegetacionales con presencia de especies en el segmento de
+la cuenta del Río Loa, el gran porcentaje de la superficie corresponde a desierto absoluto,
+el cual carece de vegetación.
+
+La riqueza identificada en el AI del Proyecto alcanzó un total de 4 especies, 3 con origen de
+crecimiento arbustivo, los cuales fueron Tessaria absinthioides (Brea), Atriplex atacamensis
+(Cachiyuyo), Baccharis scandens (Chilca) y 1 con forma de crecimiento herbario Distichlis
+spicata (Grama salada). Todas son de origen geográfico nativo y ninguna se encuentra en la
+categoría de conservación del Inventario nacional de especies de Chile.
+
+Conforme a la información registrada y analizada para la elaboración de la presente línea
+de base, se concluye que no existiría afectación del componente flora y vegetación con las
+obras del Proyecto, ya que la zona donde fueron registradas especies no será intervenida
+por las obras del proyecto, considerando que la línea de transmisión contempla solo el cruce
+aéreo de cables por el Río Loa.
+
+<!-- PageNumber="23" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+## 15. Anexos
+
+
+### 15.1 Flora y vegetación registrada en la región de Antofagasta
+
+De acuerdo a la información recopilada del estudio de CIREN, 2016. las posibles especies
+potenciales de flora y vegetación que se pueden encontrar en la región de Antofagasta se
+registraron en la siguiente tabla. Las distintas especies se ordenaron de acuerdo a su
+nombre científico, habito, familia, orden geográfico y categoría de conservación según el
+reglamento de clasificación de especies silvestres (RCE) (MMA).
+
+
+<table>
+<caption>Tabla 5: Revisión bibliográfica potencial Flora y vegetación en la región de Antofagasta.</caption>
+<tr>
+<th>Nombre Científico</th>
+<th>Habito</th>
+<th>Familia</th>
+<th>Origen Geográfico</th>
+<th>Categoría conservación RCE</th>
+</tr>
+<tr>
+<td>Airampoa ayrampo</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Alstroemeria graminea</td>
+<td>Herbáceo</td>
+<td>Alstroemeriaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Argyrochosma nivea</td>
+<td>Herbáceo</td>
+<td>Adiantaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Asplenium peruvianum</td>
+<td>Herbáceo</td>
+<td>Aspleniaceae</td>
+<td>Nativa</td>
+<td>En peligro crítico</td>
+</tr>
+<tr>
+<td>Atriplex taltalensis</td>
+<td>Arbustivo</td>
+<td>Chenopodiaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Azorella compacta</td>
+<td>Arbustivo</td>
+<td>Apiaceae</td>
+<td>Nativa</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Berberis litoralis</td>
+<td>Arbustivo</td>
+<td>Berberidaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Bipinnula taltalensis</td>
+<td>Herbáceo</td>
+<td>Orchidaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Calceolaria paposana</td>
+<td>Arbustivo</td>
+<td>Calceolariaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Cheilanthes bonariensis</td>
+<td>Herbáceo</td>
+<td>Adiantaceae</td>
+<td>Nativa</td>
+<td>Datos Insuficientes</td>
+</tr>
+<tr>
+<td>Cheilanthes mollis</td>
+<td>Herbácea</td>
+<td>Adiantaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Cheilanthes pruinata</td>
+<td>Herbáceo</td>
+<td>Adiantaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Cistanthe Portulacaceae</td>
+<td>Herbáceo</td>
+<td>cachinalensis</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Copiapoa ahremephiana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Copiapoa aphanes</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="24" -->
+<!-- PageBreak -->
+
+
+<table>
+<caption>Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"</caption>
+<tr>
+<td>Copiapoa boliviana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Copiapoa cinerea</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Casi amenazada</td>
+</tr>
+<tr>
+<td>Copiapoa humilis</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Copiapoa hypogaea</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Copiapoa krainziana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En peligro crítico</td>
+</tr>
+<tr>
+<td>Copiapoa laui</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Copiapoa longistaminea</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Copiapoa montana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Copiapoa rupestris</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Copiapoa serpentisulcata</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Copiapoa solaris</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Copiapoa taltalensis</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Croton chilensis</td>
+<td>Arbustivo</td>
+<td>Euphorbiaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Cumulopuntia sphaerica</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Cylindropuntia tunicata</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Cystopteris fragilis</td>
+<td>Herbáceo</td>
+<td>Woodsiaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Dalea azurea</td>
+<td>Arbustivo</td>
+<td>Fabaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Deuterocohnia chrysantha</td>
+<td>Suculenta</td>
+<td>Bromeliaceae</td>
+<td>Endémica</td>
+<td>Vulnerable-Rara</td>
+</tr>
+<tr>
+<td>Dicliptera paposana</td>
+<td>Arbustivo</td>
+<td>Acanthaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Equisetum giganteum</td>
+<td>Herbáceo</td>
+<td>Equisetaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>ERíosyce esmeraldana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>ERíosyce laui</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>ERíosyce occulta</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>ERíosyce recondita</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>ERíosyce rodentiophila</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Eulychnia breviflora</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Eulychnia iquiquensis</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Eulychnia morromorenoensis</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Eulychnia saint- pieana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Griselinia carlomunozi</td>
+<td>Arbustivo</td>
+<td>Griseliniaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="25" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+<table>
+<tr>
+<th>Gutierrezia taltalensis</th>
+<th>Arbustivo</th>
+<th>Asteraceae</th>
+<th>Endémica</th>
+<th>Vulnerable</th>
+</tr>
+<tr>
+<td>Gypothamnium pinifolium</td>
+<td>Arbustivo</td>
+<td>Asteraceae</td>
+<td>Endémica</td>
+<td>Casi amenazada</td>
+</tr>
+<tr>
+<td>Heliotropium taltalense</td>
+<td>Arbustivo</td>
+<td>Boraginaceae</td>
+<td>Endémica</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Islaya iquiquensis</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Krameria cistoidea</td>
+<td>Arbustivo</td>
+<td>Krameriaceae</td>
+<td>Endémica</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Lobivia formosa</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Lycium boerhaviaefolia</td>
+<td>Arbustivo</td>
+<td>Solanaceae</td>
+<td>Nativa</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Maihueniopsis atacamensis</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Endémica</td>
+<td>Casi amenazada</td>
+</tr>
+<tr>
+<td>Maihueniopsis boliviana</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Casi amenazada</td>
+</tr>
+<tr>
+<td>Malesherbia tocopillana</td>
+<td>Herbáceo</td>
+<td>Malesherbiaceae</td>
+<td>Endémica</td>
+<td>En Peligro-Rara</td>
+</tr>
+<tr>
+<td>Monttea chilensis</td>
+<td>Arbustivo</td>
+<td>Scrophulariaceae</td>
+<td>Endémica</td>
+<td>En Peligro</td>
+</tr>
+<tr>
+<td>Nolana balsamiflua</td>
+<td>Herbáceo</td>
+<td>Solanaceae</td>
+<td>Endémica</td>
+<td>Vulnerable</td>
+</tr>
+<tr>
+<td>Nolana stenophylla</td>
+<td>Arbustivo</td>
+<td>Nolanaceae</td>
+<td>Endémica</td>
+<td>Casi amenazada</td>
+</tr>
+<tr>
+<td>Oreocereus leucotrichus</td>
+<td>Suculenta</td>
+<td>Cactaceae</td>
+<td>Nativa</td>
+<td>Preocupación menor</td>
+</tr>
+</table>
+
+Fuente: CIREN, 2016.
+
+
+<!-- PageNumber="26" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+### 15.2 Flora y vegetación registrada en la cuenca del Río Loa
+
+Según el estudio de Guerra, 2005, existen 7 especies de vegetaciones que se registran en la
+cuenca del Río Loa, la mayoría con una forma de crecimiento tipo arbustivo. Estas especies
+potenciales se ordenan según su nombre científico (especie), nombre vulgar, familia, forma
+de crecimiento, origen geográfico y categoría de conservación.
+
+
+<table>
+<caption>Tabla 6: Revisión bibliográfica de potencial Flora y vegetación en la cuenca del Río Loa.</caption>
+<tr>
+<th>Especie</th>
+<th>Familia</th>
+<th>Forma de crecimiento</th>
+<th>Origen geográfico</th>
+<th>categoría de conservación</th>
+</tr>
+<tr>
+<td>Juncus arcticus</td>
+<td>Juncaceae</td>
+<td>Hierba perenne</td>
+<td>Nativa</td>
+<td>Sin categoría</td>
+</tr>
+<tr>
+<td>Distichlis spicata</td>
+<td>Gramineae</td>
+<td>Hierba perenne</td>
+<td>Nativa</td>
+<td>Sin categoría</td>
+</tr>
+<tr>
+<td>Baccharis juncea</td>
+<td>Compositae</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>Fuera de peligro</td>
+</tr>
+<tr>
+<td>Baccharis petiolata</td>
+<td>Compositae</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>Fuera de peligro</td>
+</tr>
+<tr>
+<td>Tessaria absinthioides</td>
+<td>Compositea</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>Fuera de peligro</td>
+</tr>
+<tr>
+<td>Atriplex madariagae</td>
+<td>Chenopodiace ae</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>Fuera de peligro</td>
+</tr>
+<tr>
+<td>Prosopis flexuosa</td>
+<td>Fabaceae</td>
+<td>Árbol</td>
+<td>Nativo</td>
+<td>Vulnerable (*)</td>
+</tr>
+</table>
+
+(*) Se reconoce el género Prosopis vulnerable en todo el país.
+☒
+
+
+<!-- PageNumber="27" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+
+#### Referencias Bibliográficas
+
+· A. Faundez, L. Faundez y R. Flores, 2017. Apunte de botánica aplicada. Facultad de
+Ciencias Agronómicas. Universidad de Chile. Santiago de Chile.
+
+· Benoit, I. 1989. Libro Rojo de la Flora Terrestre de Chile. CONAF. Santiago de Chile.
+
+· Centro de estudios AgraRíos y Ambientales (CEA), 2008. Análisis de la biodiversidad
+región Antofagasta por Centros de Estudios AgraRíos.
+
+· Centro de Información de Recursos Naturales (CIREN), 2016. Sistema de información
+Territorial de Humedales Altoandinos. Flora II Región Antofagasta.
+http://sitha.ciren.cl
+
+. CODELCO, 2012. Informe y monitoreo estacional de flora y vegetación terrestres,
+Vegas de Calama, Región Antofagasta.
+
+· C. Guerra, y A. Malinarich, 2004. Biodiversidad de la zona de desierto y tropical de
+altura en la II Region. Centro Regional de Estudios y Educación Ambiental.
+Universidad de Antofagasta.
+
+· C. Guerra, 2004. Fauna de Vertebrados, flora y vegetación de la desembocadura del
+Río Loa, I y II Región de chile. Pág. 5.
+
+· Departamento de estudios, 2015. Región de Antofagasta Síntesis Regional.
+MinisteRío de las Culturas, las artes y el Patrimonio. Pág. 5.
+
+· F. Romero y et al. 2014. Zonas ribereñas: protección, restauración y contexto legal
+en Chile. Bosque (Valdivia) vol.35 no.1. Universidad de Chile, Departamento de
+Silvicultura y Conservación de la Naturaleza, LaboratoRío de Biología de Plantas,
+Santiago, Chile.
+
+· F. Squeo y et al, 1998. Biodiversidad de la flora vascular en la Región de Antofagasta,
+Chile. Departamento de Biología, Facultad de Ciencias, Universidad de La Serena.
+Casilla 599, La Serena, Chile.
+
+· Guía flora y fauna, 2016. Parque Cordillera. Educación Ambiental.
+https://fundacioncosmos.cl/sitio2016/wpcontent/uploads/2017/01/GUIA-Flora-y-
+Fauna.pdf
+
+<!-- PageNumber="28" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="Línea de base de Flora y Vegetación Proyecto: "Parque Fotovoltaico Caliche"" -->
+
+· La Torre, 2012. Flora frecuente de la Comuna de San Pedro de Atacama. Región de
+Antofagasta. Chile.
+
+· M. Trivelli, 2014. Reseña de la Vegetación de Chile Servicio Agrícola y Ganadero
+(SAG). División de Protección de los Recursos Naturales Renovables. Subdepto de
+Vida Silvestre. Pág. 4.
+
+· MinisteRío del Medio Ambiente (MMA). Clasificación según estado de conservación.
+Pág. 4-6.
+https://clasificacionespecies.mma.gob.cl/wpcontent/uploads/2019/10/historiadel
+aClasificaiondeEspecieenChile.pdf
+
+· SEA, 2015. Guía para la descripción del Area de Influencia. Descripción de los
+Componentes de Suelo, Flora y Fauna de Ecosistemas Terrestres en el SEIA.
+
+<!-- PageNumber="29" -->
