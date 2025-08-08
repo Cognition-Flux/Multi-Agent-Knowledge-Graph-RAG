@@ -2,15 +2,12 @@
 
 uv run -m KnowledgeGraphDB.Neo4j_KG_creation.API_for_graph
 
-Run with e.g.:
-
-    uvicorn KnowledgeGraphDB.Neo4j_KG_creation.API_for_graph:app --reload
-
-Open a browser or use *curl* / *httpie*:
-
-    curl -N "http://localhost:8000/graph?question=¿De+qué+región+es+el+proyecto?"
-
-The response is an event-stream (one JSON line per chunk).
+curl http://0.0.0.0:8000/graph \
+  --request POST \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "question": "¿Que comunas están en los proyectos?"
+}'
 """
 
 from __future__ import annotations
@@ -18,9 +15,10 @@ from __future__ import annotations
 import json
 from collections.abc import AsyncGenerator
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Body, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
+from pydantic import BaseModel, ConfigDict, Field
 
 
 # Scalar integration (beautiful API docs)
@@ -36,6 +34,27 @@ from KnowledgeGraphDB.Neo4j_KG_creation.graph_streamer import stream_graph
 
 app = FastAPI(title="LangGraph Streaming API")
 
+# ---------------------------------------------------------------------------
+# Request models -------------------------------------------------------------
+# ---------------------------------------------------------------------------
+
+
+class GraphRequest(BaseModel):
+    """JSON body for POST /graph requests."""
+
+    question: str = Field(description="Pregunta en lenguaje natural")
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "examples": [
+                {
+                    "question": "¿Que comunas están en los proyectos?",
+                }
+            ]
+        }
+    )
+
+
 # CORS: allow requests from any origin (use with care in production)
 app.add_middleware(
     CORSMiddleware,
@@ -45,26 +64,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ---------------------------------------------------------------------------
-# Scalar Docs endpoint -------------------------------------------------------
-# ---------------------------------------------------------------------------
-if get_scalar_api_reference is not None:
 
-    @app.get("/scalar", include_in_schema=False, summary="Scalar API Docs")
-    async def scalar_html():
-        """Serve polished API reference powered by *Scalar* (if installed)."""
-        return get_scalar_api_reference(
-            openapi_url=app.openapi_url,
-            title=app.title,
-            layout=Layout.MODERN,
-            dark_mode=True,
-        )
-
-else:
-    import logging
-
-    logging.getLogger(__name__).info(
-        "scalar-fastapi is not installed; /scalar docs endpoint disabled."
+@app.get("/scalar", include_in_schema=False, summary="Scalar API Docs")
+async def scalar_html():
+    if get_scalar_api_reference is None:  # pragma: no cover
+        raise HTTPException(status_code=404, detail="Scalar docs not installed")
+    return get_scalar_api_reference(
+        openapi_url=app.openapi_url,
+        title=app.title,
+        layout=Layout.MODERN,
+        dark_mode=True,
     )
 
 
@@ -77,29 +86,52 @@ async def _json_line_stream(question: str) -> AsyncGenerator[bytes, None]:
         )
 
 
-@app.get("/graph", response_class=StreamingResponse, summary="Stream LangGraph chunks")
-async def graph_endpoint(
-    question: str = Query(
-        "¿Que comunas están en los proyectos?",  # default para tests/docs
-        description="Pregunta en lenguaje natural",
-        example="¿Que comunas están en los proyectos?",  # ayuda a prellenar en algunos UIs
+@app.post(
+    "/graph",
+    response_class=StreamingResponse,
+    summary="Stream LangGraph chunks (JSON body)",
+)
+async def graph_endpoint_post(
+    payload: GraphRequest = Body(
         examples={
-            "default": {
-                "summary": "Pregunta por comunas",
-                "value": "¿Que comunas están en los proyectos?",
+            "demo": {
+                "summary": "Pregunta por comunas (prefilled)",
+                "value": {"question": "¿Que comunas están en los proyectos?"},
             }
-        },
+        }
     ),
 ) -> StreamingResponse:
-    """Devuelve los *chunks* generados por LangGraph en streaming.
-
-    Los clientes obtienen un flujo *line-delimited JSON*; cada línea corresponde
-    a un *chunk* emitido por LangGraph.
-    """
-    if not question.strip():
+    if not payload.question.strip():
         raise HTTPException(status_code=400, detail="'question' cannot be empty")
 
-    generator = _json_line_stream(question)
+    generator = _json_line_stream(payload.question)
+    return StreamingResponse(generator, media_type="text/event-stream; charset=utf-8")
+
+
+# ---------------------------------------------------------------------------
+# POST endpoint with JSON body (pre-filled example for Scalar) ---------------
+# ---------------------------------------------------------------------------
+
+
+@app.post(
+    "/graph",
+    response_class=StreamingResponse,
+    summary="Stream LangGraph chunks (JSON body)",
+)
+async def graph_endpoint_post(
+    payload: GraphRequest = Body(
+        examples={
+            "demo": {
+                "summary": "Pregunta por comunas (prefilled)",
+                "value": {"question": "¿Que comunas están en los proyectos?"},
+            }
+        }
+    ),
+) -> StreamingResponse:
+    if not payload.question.strip():
+        raise HTTPException(status_code=400, detail="'question' cannot be empty")
+
+    generator = _json_line_stream(payload.question)
     return StreamingResponse(generator, media_type="text/event-stream; charset=utf-8")
 
 
@@ -113,9 +145,3 @@ if __name__ == "__main__":  # pragma: no cover
         port=8000,
         reload=True,
     )
-"""
-curl -N -G \
-    -H "Accept: text/event-stream" \
-    --data-urlencode "question=¿Que comunas están en los proyectos?" \
-    http://localhost:8000/graph
-"""
