@@ -12,7 +12,11 @@ from __future__ import annotations
 
 from langchain_core.prompts import ChatPromptTemplate, FewShotChatMessagePromptTemplate
 
-from src.agents.cypher_query_agent import fewshooter_builder as fb, llm_chains
+from src.agents.cypher_query_agent import (
+    fewshooter_builder as fb,
+    llm_chains,
+    schemas,
+)
 
 
 class FakeEmbeddings:
@@ -69,7 +73,7 @@ def test_create_dynamic_fewshooter_selects_examples(tmp_path, monkeypatch) -> No
 
 def test_cypher_query_chain_returns_valid_schema(monkeypatch) -> None:
     # Patch few-shots to avoid embeddings and YAML
-    def _dummy_fs(k: int = 3):
+    def _dummy_fs(k: int = 3, group: str | None = None):
         return ChatPromptTemplate.from_messages([("system", "[FEW-SHOTS HERE]")])
 
     class FakeLLM:
@@ -99,7 +103,7 @@ def test_cypher_query_chain_returns_valid_schema(monkeypatch) -> None:
 
 def test_question_generation_chain_dedupes_and_parses(monkeypatch) -> None:
     # Patch few-shots to avoid embeddings and YAML
-    def _dummy_fs(k: int = 3):
+    def _dummy_fs(k: int = 3, group: str | None = None):
         return ChatPromptTemplate.from_messages([("system", "[FEW-SHOTS HERE]")])
 
     class FakeLLM:
@@ -110,10 +114,10 @@ def test_question_generation_chain_dedupes_and_parses(monkeypatch) -> None:
             def _runner(_messages):
                 if schema is llm_chains.GeneratedQueries:
                     # Provide duplicates to test model validator dedupe
-                    return llm_chains.GeneratedQueries(
+                    return schemas.GeneratedQueries(
                         queries_list=[
-                            llm_chains.OneQuery(query_str="Q1"),
-                            llm_chains.OneQuery(query_str="q1"),
+                            schemas.OneQuery(query_str="Q1"),
+                            schemas.OneQuery(query_str="q1"),
                         ]
                     )
                 raise AssertionError("Unexpected schema")

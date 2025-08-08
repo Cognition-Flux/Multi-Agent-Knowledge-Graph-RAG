@@ -29,10 +29,13 @@ def create_dynamic_fewshooter(
     *,
     k: int = 2,
     selector_input_variable: str = "input",
+    group: str | None = None,
 ) -> FewShotChatMessagePromptTemplate:
     """Create a dynamic few-shot chat prompt template using semantic selection.
 
-    - Loads examples from a YAML list of dicts.
+    - Loads examples from a YAML list of dicts or from a grouped YAML dict
+      where the values are lists (e.g., FEW_SHOTS_QUESTIONS_GENERATION,
+      FEW_SHOTS_CYPHER_QUERY).
     - Auto-detects input/output keys if defaults are not present.
     - Skips incomplete items safely.
 
@@ -42,6 +45,9 @@ def create_dynamic_fewshooter(
         output_key: Preferred output field name if present.
         k: Number of examples to select.
         selector_input_variable: The variable name whose value will drive example selection.
+        group: Optional group name inside the YAML when it is a mapping of
+            groups to lists. If not provided and the YAML is grouped, the
+            function auto-detects the best group based on key-pair matches.
 
     Returns:
         FewShotChatMessagePromptTemplate ready to be composed in a chat prompt.
@@ -50,27 +56,80 @@ def create_dynamic_fewshooter(
 
     # Read and validate YAML structure
     data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
-    if not isinstance(data, list):
-        raise ValueError(f"YAML must be a list of objects: {yaml_path}")
-    rows: list[dict] = [row for row in data if isinstance(row, dict)]
-    if not rows:
-        raise ValueError(f"No dictionary examples found in YAML file: {yaml_path}")
+    rows: list[dict]
 
     # Auto-detect best matching key pair by frequency
     candidate_pairs: list[tuple[str, str]] = [
         (input_key, output_key),
-        ("pregunta", "cypher_query"),  # Spanish dataset
+        ("pregunta", "generated_queries"),  # Questions generation dataset
+        ("pregunta", "cypher_query"),  # Cypher dataset
         ("question", "answer"),  # Common fallback
     ]
 
     def count_pair(items: Iterable[dict], inp: str, out: str) -> int:
         return sum(1 for it in items if inp in it and out in it)
 
+    def _select_rows_from_grouped_yaml(obj: dict) -> list[dict]:
+        # Validate candidate lists inside the mapping
+        list_like_groups: dict[str, list] = {
+            k: v for k, v in obj.items() if isinstance(v, list)
+        }
+        if not list_like_groups:
+            raise ValueError(
+                "YAML mapping has no list-like groups. Available keys: "
+                f"{sorted(obj.keys())}"
+            )
+
+        if group is not None:
+            if group not in list_like_groups:
+                raise KeyError(
+                    "Requested group '{group}' not found. Available groups: "
+                    f"{sorted(list_like_groups.keys())}"
+                )
+            selected_rows = [
+                it for it in list_like_groups[group] if isinstance(it, dict)
+            ]
+            return selected_rows
+
+        # Auto-detect best group by which one yields the highest key-pair coverage
+        scored: list[tuple[str, int]] = []
+        for gname, items in list_like_groups.items():
+            dict_items = [it for it in items if isinstance(it, dict)]
+            score = 0
+            for cand in candidate_pairs:
+                score += count_pair(dict_items, *cand)
+            scored.append((gname, score))
+        scored.sort(key=lambda x: x[1], reverse=True)
+
+        best_group, best_score = scored[0]
+        if best_score == 0:
+            # Fallback: flatten all lists
+            merged: list[dict] = []
+            for items in list_like_groups.values():
+                merged.extend([it for it in items if isinstance(it, dict)])
+            return merged
+        return [it for it in list_like_groups[best_group] if isinstance(it, dict)]
+
+    if isinstance(data, list):
+        rows = [row for row in data if isinstance(row, dict)]
+    elif isinstance(data, dict):
+        rows = _select_rows_from_grouped_yaml(data)
+    else:
+        raise ValueError(
+            "Unsupported YAML root type "
+            f"{type(data).__name__}. "
+            "Expected list or mapping of lists: "
+            f"{yaml_path}"
+        )
+
+    if not rows:
+        raise ValueError(f"No dictionary examples found in YAML file: {yaml_path}")
+
     pair_counts = [(pair, count_pair(rows, *pair)) for pair in candidate_pairs]
     pair_counts.sort(key=lambda x: x[1], reverse=True)
     best_pair, best_count = pair_counts[0]
     if best_count == 0:
-        available_keys = sorted({k for it in rows for k in it.keys()})
+        available_keys = sorted({k for it in rows for k in it})
         raise KeyError(
             f"Could not infer input/output keys for {yaml_path}. "
             f"Tried {candidate_pairs}. Available keys: {available_keys}"
@@ -108,8 +167,8 @@ def create_dynamic_fewshooter(
         except Exception as exc:
             init_errors.append(f"OpenAIEmbeddings failed: {exc}")
             raise RuntimeError(
-                "No embeddings backend available. Set Azure OpenAI or OpenAI credentials. "
-                + "; ".join(init_errors)
+                "No embeddings backend available. "
+                "Set Azure OpenAI or OpenAI credentials. " + "; ".join(init_errors)
             ) from exc
 
     # Build selector with safe k
@@ -138,7 +197,7 @@ if __name__ == "__main__":
     SYSTEM_PROMPT = (
         "You are a helpful assistant that can answer questions about the graph."
     )
-    FEW_SHOT_PROMPT = create_dynamic_fewshooter(k=1)
+    FEW_SHOT_PROMPT = create_dynamic_fewshooter(k=2, group="FEW_SHOTS_CYPHER_QUERY")
     TEST_PROMPT = ChatPromptTemplate.from_messages(
         [
             ("system", SYSTEM_PROMPT),
