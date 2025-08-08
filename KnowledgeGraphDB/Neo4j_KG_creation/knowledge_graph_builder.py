@@ -1,3 +1,5 @@
+"""Este script crea un Knowledge Graph (KG) en Neo4j a partir de chunks de texto."""
+
 # %%
 from __future__ import annotations
 

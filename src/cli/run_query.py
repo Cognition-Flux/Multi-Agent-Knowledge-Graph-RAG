@@ -1,6 +1,9 @@
 # src/cli/run_query.py
 #!/usr/bin/env python
-"""Ejecuta la consulta SQL `sql/flora_fauna_query.sql`, muestra un resumen
+"""Ejecuta la consulta SQL `sql/flora_fauna_query.sql`.
+
+muestra un resumen
+
 por pantalla y guarda el resultado como Parquet comprimido en el mismo
 directorio (`src/cli/flora_fauna_metadata.parquet`).
 
@@ -8,11 +11,12 @@ Uso:
     uv run -m src.cli.run_query
 """
 
+# %%
 from pathlib import Path
 
 import pandas as pd
 
-from src.db import get_conn
+from src.db_conns import get_conn
 
 
 def read_sql() -> str:
