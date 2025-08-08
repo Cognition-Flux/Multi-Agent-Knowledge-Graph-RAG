@@ -1,0 +1,501 @@
+- pregunta: que comunas hay en los documentos?
+  cypher_query: |
+    // Selecciona todas las comunas en el grafo
+    MATCH (c:Commune)
+    // Agrega nombres únicos y el total de comunas distintas
+    WITH collect(DISTINCT c.name) AS names, count(DISTINCT c) AS total
+    // Convierte la lista de nombres a filas
+    UNWIND names AS commune
+    // Devuelve el nombre de comuna y el total (constante por fila)
+    RETURN commune, total
+    // Ordena alfabéticamente por comuna
+    ORDER BY commune
+
+- pregunta: Cuantos proyectos hay?
+  cypher_query: |
+    // Selecciona todos los proyectos
+    MATCH (p:Project)
+    // Agrega nombres únicos de proyectos y total de proyectos distintos
+    WITH collect(DISTINCT p.name) AS names, count(DISTINCT p) AS total
+    // Convierte la lista de nombres a filas
+    UNWIND names AS project
+    // Devuelve el nombre del proyecto y el total (constante por fila)
+    RETURN project, total
+    // Ordena alfabéticamente por nombre de proyecto
+    ORDER BY project
+
+- pregunta: Obtener los nombres de las comunas y su conteo total
+  cypher_query: |
+    // Selecciona proyectos y sus comunas asociadas
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    // Agrega nombres únicos de comuna y total de comunas distintas
+    WITH collect(DISTINCT c.name) AS names, count(DISTINCT c) AS total
+    // Convierte la lista a filas
+    UNWIND names AS commune
+    // Devuelve la comuna y el total (constante por fila)
+    RETURN commune, total
+    // Ordena por comuna
+    ORDER BY commune
+
+- pregunta: Nombres y conteo total de regiones que tienen proyectos
+  cypher_query: |
+    // Selecciona proyectos y sus regiones asociadas
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    // Agrega nombres únicos de región y total de regiones distintas
+    WITH collect(DISTINCT r.name) AS names, count(DISTINCT r) AS total
+    // Convierte la lista a filas
+    UNWIND names AS region
+    // Devuelve la región y el total (constante por fila)
+    RETURN region, total
+    // Ordena alfabéticamente por región
+    ORDER BY region
+
+- pregunta: Dame la fecha de presentación de los proyectos
+  cypher_query: |
+    // Vincula proyectos con su fecha de presentación
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Devuelve nombre, id y la fecha
+    RETURN p.name AS project, p.id AS id, d.date AS presentationDate
+    // Ordena desde la fecha más reciente y luego por nombre
+    ORDER BY d.date DESC, project
+
+- pregunta: dame los proyectos tipología c, y subtipo anexes
+  cypher_query: |
+    // Filtra proyectos con tipología 'c'
+    MATCH (p:Project)-[:HAS_TIPOLOGIA]->(:Tipologia {code:'c'})
+    // Y con subtipo documental 'anexes'
+    MATCH (p)-[:HAS_DOCUMENT_SUBTYPE]->(:DocumentSubtype {name:'anexes'})
+    // Devuelve proyectos únicos con su id
+    RETURN DISTINCT p.name AS project, p.id AS id
+    // Ordena por nombre de proyecto
+    ORDER BY project
+
+- pregunta: proyectos en las comunas Antofagasta o Mejillones
+  cypher_query: |
+    // Selecciona proyectos ubicados en comunas
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    // Filtra por las comunas objetivo
+    WHERE c.name IN ['Antofagasta','Mejillones']
+    // Devuelve proyectos únicos y su id
+    RETURN DISTINCT p.name AS project, p.id AS id
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos en la Región de Antofagasta
+  cypher_query: |
+    // Selecciona proyectos en la región de Antofagasta
+    MATCH (p:Project)-[:IN_REGION]->(:Region {name:'Región de Antofagasta'})
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre de proyecto
+    ORDER BY project
+
+- pregunta: proyectos por tipo 'Centrales generadoras de energía mayores a 3 MW'
+  cypher_query: |
+    // Proyectos con tipo específico (centrales > 3 MW)
+    MATCH (p:Project)-[:HAS_PROJECT_TYPE]->(:ProjectType {name:'Centrales generadoras de energía mayores a 3 MW'})
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos por tipología c
+  cypher_query: |
+    // Proyectos con tipología 'c'
+    MATCH (p:Project)-[:HAS_TIPOLOGIA]->(:Tipologia {code:'c'})
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos con fecha de presentación desde 2018-01-01
+  cypher_query: |
+    // Proyectos y su fecha de presentación
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Filtra desde 2018-01-01 (incluido)
+    WHERE date(d.date) >= date('2018-01-01')
+    // Devuelve proyecto y fecha normalizada a tipo date
+    RETURN DISTINCT p.name AS project, date(d.date) AS presentationDate
+    // Ordena por fecha (desc) y nombre
+    ORDER BY presentationDate DESC, project
+
+- pregunta: proyectos por subtype anexes
+  cypher_query: |
+    // Proyectos con subtipo documental 'anexes'
+    MATCH (p:Project)-[:HAS_DOCUMENT_SUBTYPE]->(:DocumentSubtype {name:'anexes'})
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos en Antofagasta o Mejillones en Región de Antofagasta y tipo específico desde 2018
+  cypher_query: |
+    // Punto de partida: todos los proyectos
+    MATCH (p:Project)
+    // En la Región de Antofagasta
+    MATCH (p)-[:IN_REGION]->(:Region {name:'Región de Antofagasta'})
+    // En comunas específicas
+    MATCH (p)-[:IN_COMMUNE]->(c:Commune)
+    WHERE c.name IN ['Antofagasta','Mejillones']
+    // Del tipo de proyecto requerido
+    MATCH (p)-[:HAS_PROJECT_TYPE]->(:ProjectType {name:'Centrales generadoras de energía mayores a 3 MW'})
+    // Con fecha de presentación en rango
+    MATCH (p)-[:PRESENTED_ON]->(d:PresentationDate)
+    WHERE date(d.date) >= date('2018-01-01') AND date(d.date) <= date('2025-12-31')
+    // Devuelve proyecto, id y fecha normalizada
+    RETURN DISTINCT p.name AS project, p.id AS id, date(d.date) AS presentationDate
+    // Ordena por fecha (desc) y nombre
+    ORDER BY presentationDate DESC, project
+
+- pregunta: conteo de proyectos por comuna
+  cypher_query: |
+    // Cuenta proyectos por comuna
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    RETURN c.name AS commune, count(DISTINCT p) AS projects
+    // Ordena por mayor cantidad y luego por nombre
+    ORDER BY projects DESC, commune
+
+- pregunta: comunas por región (lista de comunas por región)
+  cypher_query: |
+    // Vincula proyectos con región y comuna
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    MATCH (p)-[:IN_COMMUNE]->(c:Commune)
+    // Junta comunas únicas por región
+    WITH r.name AS region, collect(DISTINCT c.name) AS names
+    // Convierte a filas para ordenar alfabéticamente
+    UNWIND names AS name
+    WITH region, name
+    ORDER BY name
+    // Reconstruye la lista ordenada por región
+    WITH region, collect(name) AS communes
+    RETURN region, communes
+    // Ordena por región
+    ORDER BY region
+
+- pregunta: conteo de proyectos por tipología
+  cypher_query: |
+    // Cuenta proyectos por código de tipología
+    MATCH (p:Project)-[:HAS_TIPOLOGIA]->(t:Tipologia)
+    RETURN t.code AS tipologia, count(DISTINCT p) AS projects
+    // Ordena por mayor cantidad y luego por código
+    ORDER BY projects DESC, tipologia
+
+- pregunta: conteo de proyectos por tipo de proyecto
+  cypher_query: |
+    // Cuenta proyectos por tipo de proyecto
+    MATCH (p:Project)-[:HAS_PROJECT_TYPE]->(pt:ProjectType)
+    RETURN pt.name AS projectType, count(DISTINCT p) AS projects
+    // Ordena por mayor cantidad y luego por nombre del tipo
+    ORDER BY projects DESC, projectType
+
+- pregunta: proyectos con más de una comuna
+  cypher_query: |
+    // Detecta proyectos que abarcan más de una comuna
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    WITH p, count(DISTINCT c) AS communes
+    WHERE communes > 1
+    RETURN p.name AS project, p.id AS id, communes
+    // Ordena por mayor número de comunas y luego por nombre
+    ORDER BY communes DESC, project
+
+- pregunta: último proyecto por comuna
+  cypher_query: |
+    // Para cada comuna, encontrar el proyecto más reciente
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    MATCH (p)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Proyecta la fecha como tipo date y conserva el proyecto
+    WITH c.name AS commune, p, date(d.date) AS date
+    // Ordena por fecha descendente para que el primero sea el más reciente
+    ORDER BY date DESC
+    // Agrupa por comuna y empaqueta los proyectos con su metadata
+    WITH commune, collect({project:p.name, id:p.id, date:date}) AS projects
+    // Toma el primero de la lista (más reciente)
+    RETURN commune, projects[0] AS latest
+    // Ordena por nombre de comuna
+    ORDER BY commune
+
+- pregunta: proyectos tipología c y subtype anexes
+  cypher_query: |
+    // Tipología 'c' y subtipo 'anexes'
+    MATCH (p:Project)-[:HAS_TIPOLOGIA]->(:Tipologia {code:'c'})
+    MATCH (p)-[:HAS_DOCUMENT_SUBTYPE]->(:DocumentSubtype {name:'anexes'})
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: conteo mensual de proyectos
+  cypher_query: |
+    // Proyectos con su fecha de presentación
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Normaliza a tipo date y conserva p para el conteo
+    WITH date(d.date) AS dd, p
+    // Agrupa por mes (primer día del mes) y cuenta proyectos únicos
+    WITH date({year: dd.year, month: dd.month, day: 1}) AS month, count(DISTINCT p) AS num
+    // Devuelve mes y conteo
+    RETURN month, num
+    // Orden cronológico por mes
+    ORDER BY month
+
+- pregunta: proyectos por DocumentType 'ei-document'
+  cypher_query: |
+    // Filtra proyectos con DocumentType 'ei-document'
+    MATCH (p:Project)-[:HAS_DOCUMENT_TYPE]->(:DocumentType {name:'ei-document'})
+    // Calcula total y prepara una lista de nombres únicos
+    WITH count(DISTINCT p) AS total, collect(DISTINCT p.name) AS names
+    // Convierte la lista a filas para ordenar alfabéticamente
+    UNWIND names AS name
+    WITH total, name
+    ORDER BY name
+    // Reconstruye la lista ya ordenada
+    WITH total, collect(name) AS projects
+    // Devuelve total y lista de proyectos ordenada
+    RETURN total, projects
+
+- pregunta: proyectos en lista de comunas usando WITH
+  cypher_query: |
+    // Define la lista de comunas objetivo en el scope
+    WITH ['Antofagasta','Mejillones'] AS targetCommunes
+    // Selecciona proyectos en comunas
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    // Filtra por esa lista
+    WHERE c.name IN targetCommunes
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos sin tipología asignada
+  cypher_query: |
+    // Proyectos que no tienen ninguna tipología asociada
+    MATCH (p:Project)
+    WHERE NOT (p)-[:HAS_TIPOLOGIA]->(:Tipologia)
+    // Devuelve sus nombres
+    RETURN p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos en Región de Antofagasta excluyendo la comuna Antofagasta
+  cypher_query: |
+    // Proyectos en la región objetivo
+    MATCH (p:Project)-[:IN_REGION]->(:Region {name:'Región de Antofagasta'})
+    // Excluye los que están en la comuna Antofagasta
+    WHERE NOT EXISTS { MATCH (p)-[:IN_COMMUNE]->(:Commune {name:'Antofagasta'}) }
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyecto más antiguo y más reciente
+  cypher_query: |
+    // Vincula proyectos con su fecha de presentación
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Proyecta el nombre y normaliza la fecha
+    WITH p.name AS project, date(d.date) AS date
+    // Ordena ascendente para que el primero sea el más antiguo
+    ORDER BY date ASC
+    // Colecciona pares (proyecto, fecha)
+    WITH collect({project: project, date: date}) AS pairs
+    // Devuelve el primer y el último elemento (más antiguo y más reciente)
+    RETURN pairs[0] AS earliest, pairs[-1] AS latest
+
+- pregunta: proyectos por región y tipo con conteo
+  cypher_query: |
+    // Cruza región y tipo de proyecto y cuenta proyectos
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    MATCH (p)-[:HAS_PROJECT_TYPE]->(pt:ProjectType)
+    RETURN r.name AS region, pt.name AS projectType, count(DISTINCT p) AS projects
+    // Ordena por región y, dentro, por mayor cantidad
+    ORDER BY region, projects DESC
+
+- pregunta: proyectos que contienen todas las comunas requeridas (Antofagasta y Mejillones)
+  cypher_query: |
+    // Lista de comunas que el proyecto debe tener
+    WITH ['Antofagasta','Mejillones'] AS mustHave
+    // Selecciona proyectos y sus comunas
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    // Se queda sólo con filas en comunas de interés
+    WHERE c.name IN mustHave
+    // Junta las comunas del proyecto y lleva mustHave a través del WITH
+    WITH p, collect(DISTINCT c.name) AS pc, mustHave
+    // Asegura que todas las comunas requeridas están en las del proyecto
+    WHERE ALL(x IN mustHave WHERE x IN pc)
+    // Devuelve el proyecto
+    RETURN p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: proyectos entre 2015 y 2020 (inclusive)
+  cypher_query: |
+    // Cuenta proyectos presentados entre 2015 y 2020 inclusive
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    WHERE date(d.date) >= date('2015-01-01') AND date(d.date) <= date('2020-12-31')
+    RETURN count(DISTINCT p) AS total
+
+- pregunta: proyectos por año de presentación (conteo)
+  cypher_query: |
+    // Conteo anual de proyectos
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Normaliza fecha y lleva p para contar
+    WITH date(d.date) AS dd, p
+    // Devuelve año y número de proyectos únicos
+    RETURN dd.year AS year, count(DISTINCT p) AS projects
+    // Ordena por año
+    ORDER BY year
+
+- pregunta: resumen por región (total proyectos, primera y última fecha)
+  cypher_query: |
+    // Resumen por región: total proyectos, primera y última fecha
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    OPTIONAL MATCH (p)-[:PRESENTED_ON]->(d:PresentationDate)
+    WITH r.name AS region, count(DISTINCT p) AS projects,
+         min(date(d.date)) AS earliest, max(date(d.date)) AS latest
+    RETURN region, projects, earliest, latest
+    // Ordena por región
+    ORDER BY region
+
+- pregunta: proyectos con y sin tipología (flag)
+  cypher_query: |
+    // Marca si cada proyecto tiene alguna tipología
+    MATCH (p:Project)
+    WITH p, EXISTS { MATCH (p)-[:HAS_TIPOLOGIA]->(:Tipologia) } AS hasTipologia
+    RETURN p.name AS project, CASE WHEN hasTipologia THEN 'Sí' ELSE 'No' END AS tieneTipologia
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: pares de proyectos que comparten comuna o región (muestra)
+  cypher_query: |
+    // Encuentra pares de proyectos que comparten comuna o región
+    MATCH (p1:Project)-[:IN_COMMUNE|IN_REGION]->()<-[:IN_COMMUNE|IN_REGION]-(p2:Project)
+    // Evita duplicados de pares imponiendo un orden por elementId
+    WHERE elementId(p1) < elementId(p2)
+    // Devuelve los nombres de ambos proyectos
+    RETURN p1.name AS project1, p2.name AS project2
+    // Ordena para lectura
+    ORDER BY project1, project2
+    // Limita a una muestra
+    LIMIT 10
+
+- pregunta: proyectos por comuna con lista de proyectos
+  cypher_query: |
+    // Lista de proyectos por comuna
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    // Colecciona nombres únicos de proyectos por comuna
+    WITH c.name AS commune, collect(DISTINCT p.name) AS names
+    // Convierte a filas para ordenar por comuna y nombre
+    UNWIND names AS name
+    WITH commune, name
+    ORDER BY commune, name
+    // Reconstruye la lista ordenada
+    WITH commune, collect(name) AS projects
+    RETURN commune, projects
+    // Ordena por comuna
+    ORDER BY commune
+
+- pregunta: top 3 comunas con más proyectos
+  cypher_query: |
+    // Top 3 comunas por número de proyectos
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    RETURN c.name AS commune, count(DISTINCT p) AS projects
+    // Ordena de mayor a menor y corta a 3
+    ORDER BY projects DESC, commune
+    LIMIT 3
+
+- pregunta: proyectos con subtype 'anexes' y DocumentType 'ei-document'
+  cypher_query: |
+    // Intersección: subtipo 'anexes' y DocumentType 'ei-document'
+    MATCH (p:Project)-[:HAS_DOCUMENT_SUBTYPE]->(:DocumentSubtype {name:'anexes'})
+    MATCH (p)-[:HAS_DOCUMENT_TYPE]->(:DocumentType {name:'ei-document'})
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: normalizar regiones y agrupar (quitando 'Región de ')
+  cypher_query: |
+    // Normaliza nombre de región quitando prefijo 'Región de '
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    WITH CASE WHEN r.name STARTS WITH 'Región de ' THEN replace(r.name,'Región de ','') ELSE r.name END AS regionNormalized, p
+    RETURN regionNormalized AS region, count(DISTINCT p) AS projects
+    // Ordena por región normalizada
+    ORDER BY region
+
+- pregunta: paginación de proyectos (página 1, tamaño 5)
+  cypher_query: |
+    // Devuelve proyectos paginados (página 1 tamaño 5)
+    MATCH (p:Project)
+    RETURN DISTINCT p.name AS project
+    // Orden requerido antes de SKIP/LIMIT para resultados deterministas
+    ORDER BY project
+    SKIP 0
+    LIMIT 5
+
+- pregunta: proyectos con más de una región
+  cypher_query: |
+    // Proyectos presentes en más de una región
+    MATCH (p:Project)-[:IN_REGION]->(r:Region)
+    WITH p, count(DISTINCT r) AS regions
+    WHERE regions > 1
+    RETURN p.name AS project, regions
+    // Ordena por mayor número de regiones y luego por nombre
+    ORDER BY regions DESC, project
+
+- pregunta: proyectos con '220 kV' en el nombre (regex)
+  cypher_query: |
+    // Búsqueda por regex en el nombre del proyecto
+    MATCH (p:Project)
+    WHERE p.name =~ '.*220 kV.*'
+    // Devuelve proyectos únicos
+    RETURN DISTINCT p.name AS project
+    // Ordena por nombre
+    ORDER BY project
+
+- pregunta: lista de comunas por proyecto (pattern comprehension)
+  cypher_query: |
+    // Devuelve por proyecto la lista de comunas usando pattern comprehension
+    MATCH (p:Project)
+    RETURN p.name AS project, [(p)-[:IN_COMMUNE]->(c:Commune) | c.name] AS communes
+    // Ordena por nombre de proyecto y limita resultados
+    ORDER BY project
+    LIMIT 10
+
+- pregunta: conteo de tipologías por comuna
+  cypher_query: |
+    // Por comuna: cuenta proyectos y cantidad de tipologías distintas (si existen)
+    MATCH (p:Project)-[:IN_COMMUNE]->(c:Commune)
+    OPTIONAL MATCH (p)-[:HAS_TIPOLOGIA]->(t:Tipologia)
+    RETURN c.name AS commune, count(DISTINCT p) AS projects, count(DISTINCT t) AS tipologias
+    // Ordena por proyectos desc y luego por comuna
+    ORDER BY projects DESC, commune
+
+- pregunta: proyectos por año y mes (conteo)
+  cypher_query: |
+    // Conteo de proyectos por año y mes
+    MATCH (p:Project)-[:PRESENTED_ON]->(d:PresentationDate)
+    // Normaliza fecha y lleva p para contar
+    WITH date(d.date) AS dd, p
+    // Devuelve año, mes y número de proyectos únicos
+    RETURN dd.year AS year, dd.month AS month, count(DISTINCT p) AS projects
+    // Orden cronológico
+    ORDER BY year, month
+
+- pregunta: último proyecto por región (subconsulta)
+  cypher_query: |
+    // Para cada región, obtiene el proyecto más reciente mediante subconsulta
+    MATCH (r:Region)
+    CALL {
+      WITH r
+      // En la subconsulta: proyectos de la región r
+      MATCH (p:Project)-[:IN_REGION]->(r)
+      MATCH (p)-[:PRESENTED_ON]->(d:PresentationDate)
+      // Calcula la última fecha de presentación por proyecto
+      WITH p, max(date(d.date)) AS lastDate
+      // Ordena de más reciente a más antiguo y toma el primero
+      ORDER BY lastDate DESC
+      RETURN p.name AS project, lastDate AS date
+      LIMIT 1
+    }
+    // Devuelve región y su proyecto más reciente
+    RETURN r.name AS region, project, date
+    // Ordena por región
+    ORDER BY region
