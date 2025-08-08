@@ -3,7 +3,14 @@
 - Centralizes data models to be imported by chains and tests.
 """
 
+from __future__ import annotations
+
+from typing import Annotated
+
+from langgraph.graph import MessagesState
 from pydantic import BaseModel, Field, field_validator, model_validator
+
+from src.agents.cypher_query_agent.reducers import reduce_lists
 
 
 class OneQuery(BaseModel):
@@ -40,7 +47,7 @@ class GeneratedQueries(BaseModel):
     }
 
     @model_validator(mode="after")
-    def _dedupe_and_validate(self) -> "GeneratedQueries":
+    def _dedupe_and_validate(self) -> GeneratedQueries:
         # Ensure non-empty
         if not self.queries_list:
             raise ValueError("queries_list must contain at least one query")
@@ -80,8 +87,22 @@ class CypherQuery(BaseModel):
         return cleaned
 
 
+class Neo4jQueryState(MessagesState):
+    """State of the Neo4j Graph RAG."""
+
+    question: str = Field(default_factory=lambda: "")
+    generated_questions: GeneratedQueries = Field(
+        default_factory=lambda: GeneratedQueries(queries_list=[])
+    )
+    query: str = Field(default_factory=lambda: "")
+    cypher_query: str = Field(default_factory=lambda: "")
+    cypher_queries: Annotated[list[str], reduce_lists] = Field(default_factory=list)
+    results: Annotated[list[str], reduce_lists] = Field(default_factory=list)
+
+
 __all__ = [
     "CypherQuery",
     "GeneratedQueries",
+    "Neo4jQueryState",
     "OneQuery",
 ]

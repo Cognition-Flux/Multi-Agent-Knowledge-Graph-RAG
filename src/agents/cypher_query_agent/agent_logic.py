@@ -1,21 +1,20 @@
 # %%
 from __future__ import annotations
 
-from typing import Annotated, Literal
+from typing import Literal
 
 from dotenv import load_dotenv
 from langchain_core.messages import AIMessage
-from langgraph.graph import END, MessagesState
+from langgraph.graph import END
 from langgraph.types import Command, Send
-from pydantic import Field
 
 from KnowledgeGraphDB.Neo4j_KG_creation.cypher_runner import run_cypher
 from src.agents.cypher_query_agent.llm_chains import (
+    get_answer_generation_chain,
     get_cypher_query_chain,
     get_question_generation_chain,
 )
-from src.agents.cypher_query_agent.reducers import reduce_lists
-from src.agents.cypher_query_agent.schemas import GeneratedQueries
+from src.agents.cypher_query_agent.schemas import Neo4jQueryState
 
 
 load_dotenv(override=True)
@@ -43,24 +42,11 @@ def safe_run_cypher(query: str) -> str | list[dict[str, any]]:
         return [f"ERROR: {exc}"]
 
 
-class Neo4jQueryState(MessagesState):
-    """State of the Neo4j Graph RAG."""
-
-    question: str = Field(default_factory=lambda: "")
-    generated_questions: GeneratedQueries = Field(
-        default_factory=lambda: GeneratedQueries(queries_list=[])
-    )
-    query: str = Field(default_factory=lambda: "")
-    cypher_query: str = Field(default_factory=lambda: "")
-    cypher_queries: Annotated[list[str], reduce_lists] = Field(default_factory=list)
-    results: Annotated[list[str], reduce_lists] = Field(default_factory=list)
-
-
 cypher_chain = get_cypher_query_chain(group="FEW_SHOTS_CYPHER_QUERY", k=2)
 qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION", k=2)
+answer_chain = get_answer_generation_chain()
 
 
-# %%
 async def generate_questions(
     state: Neo4jQueryState,
 ) -> Command[Literal["generate_cypher_query"]]:
@@ -144,12 +130,13 @@ async def generate_answer(
     question = state["question"]
     print(f"################## question: {question}")
 
-    input_for_llm = (
-        f"La pregunta es: {question} y la información para responderla es: {results}"
-    )
-    response = await llm.ainvoke(input_for_llm)
+    input_for_llm = {
+        "input": question,
+        "results": results,
+    }
+    response = await answer_chain.ainvoke(input_for_llm)
 
-    return Command(goto=END, update={"messages": [AIMessage(content=response.content)]})
+    return Command(goto=END, update={"messages": [AIMessage(content=response.answer)]})
 
 
 # %%

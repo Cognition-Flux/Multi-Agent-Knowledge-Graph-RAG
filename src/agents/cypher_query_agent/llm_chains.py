@@ -11,7 +11,7 @@ from pathlib import Path
 import yaml
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import Runnable, RunnableLambda
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from src.agents.cypher_query_agent.fewshooter_builder import create_dynamic_fewshooter
 from src.agents.cypher_query_agent.schemas import (
@@ -117,6 +117,31 @@ def get_question_generation_chain(
     )
 
 
+SYSTEM_PROMPT_ANSWER_GENERATION_AGENT = """
+ La pregunta es: {input} y la información para responderla es: {results}
+ Genera una respuesta precisa, considerando exclusiva y únicamente la información proporcionada.
+"""
+
+
+class Answer(BaseModel):
+    """Answer schema."""
+
+    answer: str = Field(description="The answer to the question.")
+
+
+def get_answer_generation_chain() -> Runnable:
+    """Convenience builder for an answer-generation agent chain."""
+    llm = get_llm()
+
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", SYSTEM_PROMPT_ANSWER_GENERATION_AGENT),
+        ]
+    )
+    pipeline: Runnable = prompt | llm.with_structured_output(Answer)
+    return pipeline.with_retry(stop_after_attempt=3)
+
+
 if __name__ == "__main__":
     cypher_chain = get_cypher_query_chain(group="FEW_SHOTS_CYPHER_QUERY")
     qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION")
@@ -136,3 +161,15 @@ if __name__ == "__main__":
         print(qgen_res.model_dump_json(indent=2))
     except Exception:
         print(qgen_res)
+    chain = get_answer_generation_chain()
+    res = chain.invoke(
+        {
+            "input": "donde se ubican los proyectos?",
+            "results": "proyectos en las comunas Antofagasta o Mejillones",
+        }
+    )
+    print("Answer:")
+    try:
+        print(res.model_dump_json(indent=2))
+    except Exception:
+        print(res)
