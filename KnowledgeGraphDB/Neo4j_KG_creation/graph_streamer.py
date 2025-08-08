@@ -42,7 +42,7 @@ async def stream_graph(
     debug: bool = True,
     **extra_state: str | int | float | dict[str, Any] | list[Any],
 ) -> AsyncGenerator[Any, None]:
-    """Asynchronously yield chunks produced by the LangGraph ``graph``.
+    """Asynchronously yield ONLY the final message content produced by the LangGraph ``graph``.
 
     Parameters
     ----------
@@ -71,13 +71,36 @@ async def stream_graph(
     # but callers can extend this with arbitrary extra keys via ``extra_state``.
     initial_state: dict[str, Any] = {"question": question, **extra_state}
 
-    # Forward all parameters to the underlying async stream and yield chunks as
-    # soon as they become available.  This makes the function a *bridge* between
-    # LangGraph's async iterator and external streaming mechanisms (SSE, websockets…).
+    # Consume the async stream but buffer the last AI message content only.
+    final_message_content: str | None = None
+
     async for chunk in graph.astream(
         initial_state,
         stream_mode=stream_mode,
         subgraphs=subgraphs,
         debug=debug,
     ):
-        yield chunk
+        # The chunk is typically a 2-tuple [path, updates]. We only care about updates.
+        updates: Any
+        if isinstance(chunk, dict):
+            updates = chunk
+        elif isinstance(chunk, (list, tuple)) and len(chunk) >= 2:
+            updates = chunk[1]
+        else:
+            continue
+
+        if isinstance(updates, dict):
+            for node_update in updates.values():
+                if isinstance(node_update, dict) and "messages" in node_update:
+                    msgs = node_update["messages"]
+                    if isinstance(msgs, list) and msgs:
+                        for msg in msgs:
+                            content = getattr(msg, "content", None)
+                            if content is None and isinstance(msg, dict):
+                                content = msg.get("content")
+                            if content is None:
+                                content = str(msg)
+                            final_message_content = str(content)
+
+    # Emit only the final message content (as a single JSON value)
+    yield final_message_content if final_message_content is not None else ""

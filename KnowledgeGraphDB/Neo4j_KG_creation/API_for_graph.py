@@ -72,7 +72,9 @@ async def _json_line_stream(question: str) -> AsyncGenerator[bytes, None]:
     """Yield each graph chunk serialised as UTF-8 encoded JSON lines."""
     async for chunk in stream_graph(question):
         # Default serialisation; customise as needed (e.g. SSE framing).
-        yield (json.dumps(chunk, default=str) + "\n").encode()
+        yield (json.dumps(chunk, default=str, ensure_ascii=False) + "\n").encode(
+            "utf-8"
+        )
 
 
 @app.get("/graph", response_class=StreamingResponse, summary="Stream LangGraph chunks")
@@ -98,7 +100,7 @@ async def graph_endpoint(
         raise HTTPException(status_code=400, detail="'question' cannot be empty")
 
     generator = _json_line_stream(question)
-    return StreamingResponse(generator, media_type="text/event-stream")
+    return StreamingResponse(generator, media_type="text/event-stream; charset=utf-8")
 
 
 # Convenience entry-point --------------------------------------------------
