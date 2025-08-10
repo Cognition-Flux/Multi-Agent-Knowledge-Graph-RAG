@@ -15,8 +15,12 @@ Uso:
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 
 from src.db_conns import get_conn
+
+
+load_dotenv(override=True)
 
 
 def read_sql() -> str:
