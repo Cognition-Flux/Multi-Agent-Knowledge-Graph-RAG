@@ -282,7 +282,7 @@ if __name__ == "__main__":
         ]
 
         # Test with one question
-        test_question = test_questions[3]  # GraphRAG question about species
+        test_question = test_questions[1]  # GraphRAG question about species
 
         print("=" * 70)
         print("🤖 SUPERVISOR AGENT TEST")
