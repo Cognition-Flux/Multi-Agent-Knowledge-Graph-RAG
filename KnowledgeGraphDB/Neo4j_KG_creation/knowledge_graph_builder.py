@@ -3,26 +3,30 @@
 # %%
 from __future__ import annotations
 
+import asyncio
 import contextlib
+
+# Utilidades de robustez
+import hashlib
 import os
 import re
+import time
 from collections import defaultdict
+from collections.abc import Callable
 from pathlib import Path
+from typing import Any, TypeVar
 
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from neo4j import GraphDatabase
 from neo4j_graphrag.embeddings.cohere import CohereEmbeddings
-from neo4j_graphrag.experimental.components.text_splitters.fixed_size_splitter import (
-    FixedSizeSplitter,
+from neo4j_graphrag.indexes import (
+    create_fulltext_index,
+    create_vector_index,
 )
-from neo4j_graphrag.experimental.pipeline.kg_builder import SimpleKGPipeline
-from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
-from neo4j_graphrag.llm import AzureOpenAILLM
 
 from src.config import CHUNKS_REFINED_COLLECTION_DIR
 from src.documents.markdown_chunking_step02 import load_chunks_from_file
-from src.utils import get_llm
 
 
 load_dotenv(override=True)
@@ -34,23 +38,22 @@ NEO4J_URI: str | None = os.getenv("NEO4J_CONNECTION_URI_UPGRADED")
 if not (NEO4J_USERNAME and NEO4J_PASSWORD and NEO4J_URI):
     raise OSError("⚠️  Variables de entorno de Neo4j incompletas. Revisa `.env`.")
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
-# Verificamos conectividad antes de proseguir.
-with driver as _tmp_driver:
-    _tmp_driver.verify_connectivity()
+# Verificamos conectividad antes de proseguir sin cerrar el driver
+driver.verify_connectivity()
 
-try:
-    # Preferimos la implementación de Graphrag que cumple con LLMInterface
-    llm = AzureOpenAILLM(
-        model_name="gpt-4.1-mini",
-        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-        api_version=os.getenv("AZURE_API_VERSION"),
-        api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    )
-except Exception:
-    # Fallback a wrapped LangChain model (no recomendado, pero evita fallo en local)
-    llm = get_llm()
-embedder = CohereEmbeddings(model="embed-v4.0", api_key=os.getenv("COHERE_API_KEY"))
-text_splitter = FixedSizeSplitter(chunk_size=1024, chunk_overlap=32)
+
+def _try_create_embedder() -> Any | None:
+    """Crea un embedder si hay credenciales; si no, retorna None para fallback sin embedding."""
+    api_key = os.getenv("COHERE_API_KEY")
+    if not api_key:
+        return None
+    try:
+        return CohereEmbeddings(model="embed-v4.0", api_key=api_key)
+    except Exception:
+        return None
+
+
+embedder = _try_create_embedder()
 
 # --------------------------------------------------------------------------- #
 # 2.1) Crear índices vectoriales y full-text para los nodos Chunk
@@ -60,10 +63,14 @@ VECTOR_INDEX_NAME = "chunkEmbedding"
 FULLTEXT_INDEX_NAME = "chunkFulltext"
 
 # Intentamos inferir la dimensión automáticamente.
-try:
-    VECTOR_DIM = len(embedder.embed_query("test"))
-except Exception:
-    VECTOR_DIM = 1024  # fallback razonable
+if embedder is not None:
+    try:
+        VECTOR_DIM = len(embedder.embed_query("test"))
+    except Exception:
+        VECTOR_DIM = 1024  # fallback razonable para Cohere v4
+else:
+    # Sin embedder, usamos 1024 para ser compatible con Cohere v4 si luego se habilita
+    VECTOR_DIM = 1024
 
 # Crear índices si no existen (idempotente)
 with contextlib.suppress(Exception):
@@ -196,20 +203,112 @@ PATTERNS = [
 
 def ensure_property_indexes(_driver: GraphDatabase.driver) -> None:
     """Crea índices de propiedades para consultas y filtros eficientes."""
-    index_statements = [
-        "CREATE INDEX project_id_idx IF NOT EXISTS FOR (p:Project) ON (p.id)",
-        "CREATE INDEX project_name_idx IF NOT EXISTS FOR (p:Project) ON (p.name)",
-        "CREATE INDEX region_name_idx IF NOT EXISTS FOR (r:Region) ON (r.name)",
-        "CREATE INDEX commune_name_idx IF NOT EXISTS FOR (c:Commune) ON (c.name)",
-        "CREATE INDEX tipologia_code_idx IF NOT EXISTS FOR (t:Tipologia) ON (t.code)",
-        "CREATE INDEX projecttype_name_idx IF NOT EXISTS FOR (pt:ProjectType) ON (pt.name)",
-        "CREATE INDEX doctype_name_idx IF NOT EXISTS FOR (dt:DocumentType) ON (dt.name)",
-        "CREATE INDEX docsubtype_name_idx IF NOT EXISTS FOR (ds:DocumentSubtype) ON (ds.name)",
-        "CREATE INDEX presentation_date_idx IF NOT EXISTS FOR (d:PresentationDate) ON (d.date)",
-    ]
     with _driver.session() as session:
-        for stmt in index_statements:
-            session.run(stmt)
+        # 0) Dropear cualquier índice existente sobre (Project.id) que impida crear constraint
+        for rec in session.run(
+            "SHOW INDEXES YIELD name, entityType, labelsOrTypes, properties "
+            "WHERE entityType='NODE' AND 'Project' IN labelsOrTypes AND 'id' IN properties "
+            "RETURN name"
+        ):
+            idx_name = rec["name"]
+            # Puede ser seguro envolver en backticks
+            session.run(f"DROP INDEX `{idx_name}` IF EXISTS")
+
+        # 1) Limpiar duplicados de Project antes de crear constraint
+        # Eliminar todos los duplicados excepto uno por cada id
+        print("  Limpiando duplicados de Project...")
+        result = session.run("""
+            MATCH (p:Project)
+            WITH p.id as pid, COLLECT(p) as nodes
+            WHERE SIZE(nodes) > 1
+            WITH pid, nodes, HEAD(nodes) as keeper, TAIL(nodes) as duplicates
+            UNWIND duplicates as dup
+            DETACH DELETE dup
+            RETURN pid, SIZE(duplicates) as deleted_count
+        """)
+
+        for record in result:
+            if record["deleted_count"] > 0:
+                print(
+                    f"    Eliminados {record['deleted_count']} duplicados de Project con id={record['pid']}"
+                )
+
+        # 2) Constraints únicos para idempotencia
+        try:
+            session.run(
+                "CREATE CONSTRAINT project_id_unique IF NOT EXISTS "
+                "FOR (p:Project) REQUIRE p.id IS UNIQUE"
+            )
+        except Exception as e:
+            print(f"⚠️  No se pudo crear constraint para Project.id: {e}")
+
+        session.run(
+            "CREATE CONSTRAINT chunk_uid_unique IF NOT EXISTS "
+            "FOR (c:Chunk) REQUIRE c.uid IS UNIQUE"
+        )
+
+        # 2) Índices de apoyo (no únicos)
+        session.run(
+            "CREATE INDEX project_name_idx IF NOT EXISTS FOR (p:Project) ON (p.name)"
+        )
+        session.run(
+            "CREATE INDEX region_name_idx IF NOT EXISTS FOR (r:Region) ON (r.name)"
+        )
+        session.run(
+            "CREATE INDEX commune_name_idx IF NOT EXISTS FOR (c:Commune) ON (c.name)"
+        )
+        session.run(
+            "CREATE INDEX tipologia_code_idx IF NOT EXISTS FOR (t:Tipologia) ON (t.code)"
+        )
+        session.run(
+            "CREATE INDEX projecttype_name_idx IF NOT EXISTS FOR (pt:ProjectType) ON (pt.name)"
+        )
+        session.run(
+            "CREATE INDEX doctype_name_idx IF NOT EXISTS FOR (dt:DocumentType) ON (dt.name)"
+        )
+        session.run(
+            "CREATE INDEX docsubtype_name_idx IF NOT EXISTS FOR (ds:DocumentSubtype) ON (ds.name)"
+        )
+        session.run(
+            "CREATE INDEX presentation_date_idx IF NOT EXISTS FOR (d:PresentationDate) ON (d.date)"
+        )
+
+
+# ---------------------------- Utilidades de robustez ------------------------- #
+T = TypeVar("T")
+
+
+def _with_retry(
+    func: Callable[[], T],
+    *,
+    retries: int = 5,
+    base_delay_s: float = 0.5,
+    max_delay_s: float = 4.0,
+    retry_exceptions: tuple[type[Exception], ...] = (Exception,),
+) -> T:
+    """Ejecuta `func` con reintentos exponenciales en errores recuperables."""
+    attempt = 0
+    while True:
+        try:
+            return func()
+        except retry_exceptions:
+            attempt += 1
+            if attempt > retries:
+                raise
+            delay = min(max_delay_s, base_delay_s * (2 ** (attempt - 1)))
+            time.sleep(delay)
+
+
+def _compute_chunk_uid(source_path: str, chunk_index: int) -> str:
+    raw = f"{source_path}|{chunk_index}"
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()
+
+
+def _safe_int(value: Any, fallback: int = -1) -> int:
+    try:
+        return int(value)
+    except Exception:
+        return fallback
 
 
 def _parse_communes(communes_value: str | list[str] | None) -> list[str]:
@@ -241,33 +340,14 @@ def _iso_date_to_map(date_str: str | None) -> dict[str, int] | None:
         return None
 
 
-def clear_graph(_driver: GraphDatabase.driver) -> None:
-    """Vacía completamente la base antes de cada corrida."""
-    with _driver.session() as session:
-        session.run("MATCH (n) DETACH DELETE n")
-    print("🧹  Graph cleared.")
+def clear_graph(_driver: GraphDatabase.driver) -> None:  # legacy
+    """Deprecated: ya no limpiamos la base al iniciar."""
+    return
 
 
 async def build_kg_from_docs(docs: list[Document]) -> None:
     """Construye el KG a partir de la lista de documentos proporcionada."""
-    clear_graph(driver)
     ensure_property_indexes(driver)
-
-    kg_builder = SimpleKGPipeline(
-        llm=llm,
-        driver=driver,
-        embedder=embedder,
-        text_splitter=text_splitter,
-        schema={
-            "node_types": NODE_TYPES,
-            "relationship_types": RELATIONSHIP_TYPES,
-            "patterns": PATTERNS,
-            "additional_node_types": False,
-            "additional_relationship_types": False,
-            "additional_patterns": False,
-        },
-        from_pdf=False,
-    )
 
     # Inicializar contadores y sets para el resumen final
     summary_counts = {"chunks": 0, "presentation_date": 0}
@@ -318,19 +398,21 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
         region = meta.get("region")
         communes_raw = meta.get("ei_document_communes") or []
         communes_list = _parse_communes(communes_raw)
-        communes_str = ", ".join(communes_list)
+        # cadena amigable solo para logs: no se usa en DB
 
         # Preparar variables adicionales y actualizar sets de resumen
         tipologia = meta.get("tipologia")
         project_type = meta.get("tipo_de_proyecto")
         project_name = meta.get("nombre")
-        try:
-            project_id_int = int(meta.get("id"))
-        except Exception:
-            project_id_int = -1
-        source_path = str(meta.get("source_path"))
-        chunk_idx = int(meta.get("chunk_index", 0))
+        project_id_int = _safe_int(meta.get("id"), -1)
+        source_path_val = meta.get("source_path")
+        if not source_path_val or not isinstance(source_path_val, str):
+            print("  ⚠️  Chunk sin 'source_path' válido. Se omite.")
+            continue
+        source_path = source_path_val
+        chunk_idx = _safe_int(meta.get("chunk_index", 0), 0)
         total_in_doc = doc_total_chunks.get(source_path, 0)
+        chunk_uid = _compute_chunk_uid(source_path, chunk_idx)
 
         # Progreso por chunk y encabezado de proyecto
         print(
@@ -346,127 +428,177 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
         if project_type:
             unique_project_types.add(project_type)
 
-        augmented_text = (
-            f"{doc.page_content}\n\n"  # texto original
-            "---\n"
-            f"Nombre del proyecto: {meta.get('nombre')}.\n"
-            f"ID del proyecto: {meta.get('id')}.\n"
-            f"Región: {region}.\n"
-            f"Comunas involucradas: {communes_str}.\n"
-            f"Tipología SEA: {meta.get('tipologia')}.\n"
-            f"Tipo de proyecto: {meta.get('tipo_de_proyecto')}.\n"
-            f"Fecha de presentación: {meta.get('fecha_de_presentacion')}.\n"
-        )
+        # 1) Crear el Chunk si no existe (idempotente)
+        def _ensure_chunk(
+            uid: str = chunk_uid,
+            page_text: str = doc.page_content,
+            idx: int = chunk_idx,
+            src: str = source_path,
+            heading: str | None = meta.get("h1"),
+        ) -> bool:
+            with driver.session() as session:
+                record = session.run(
+                    (
+                        "MATCH (c:Chunk) WHERE c.uid = $uid "
+                        "OR (c.source_path = $src AND c.chunk_index = $idx) "
+                        "RETURN c LIMIT 1"
+                    ),
+                    {"uid": uid, "src": src, "idx": idx},
+                ).single()
+                if record is not None and record.get("c") is not None:
+                    # Normalizar: asegurar uid esté seteado
+                    session.run(
+                        (
+                            "MATCH (c:Chunk) WHERE id(c) = $nid "
+                            "SET c.uid = coalesce(c.uid, $uid)"
+                        ),
+                        {"nid": record["c"].id, "uid": uid},
+                    )
+                    return False
+                session.run(
+                    (
+                        "CREATE (c:Chunk {uid: $uid, text: $text, chunk_index: $chunk_index, "
+                        "source_path: $source_path, h1: $h1})"
+                    ),
+                    {
+                        "uid": uid,
+                        "text": page_text,
+                        "chunk_index": idx,
+                        "source_path": src,
+                        "h1": heading,
+                    },
+                )
+                return True
 
-        summary_counts["chunks"] += 1  # contar chunk procesado
-        await kg_builder.run_async(text=augmented_text)
+        created = _with_retry(_ensure_chunk)
+
+        # 2) Embedding del chunk y seteo de propiedad para vector index (best-effort)
+        if embedder is not None and created:
+            with contextlib.suppress(Exception):
+                embedding_vector = embedder.embed_query(doc.page_content)
+
+                def _set_embedding(
+                    uid: str = chunk_uid, emb: list[float] = embedding_vector
+                ) -> None:
+                    with driver.session() as session:
+                        session.run(
+                            "MATCH (c:Chunk {uid: $uid}) SET c.embedding = $embedding",
+                            {"uid": uid, "embedding": emb},
+                        )
+
+                _with_retry(_set_embedding)
 
         # Aseguramos que la fecha de presentación se almacene como tipo `DATE`
         presentation_date_str = meta.get("fecha_de_presentacion")
         presentation_date_map = _iso_date_to_map(presentation_date_str)
 
-        # -- Validaciones desactivadas, contadores actualizados para resumen --
+        # 3) Relaciones al Project y taxonomías (si hay project_id válido)
+        if project_id_int != -1:
 
-        with driver.session() as session:
-            # Asegurar existencia de Project con sus propiedades mínimas
-            session.run(
-                """
-                MERGE (p:Project {id: $project_id})
-                ON CREATE SET p.name = $project_name
-                ON MATCH SET p.name = coalesce(p.name, $project_name)
-                """,
-                project_id=int(meta.get("id")),
-                project_name=meta.get("nombre"),
-            )
+            def _ensure_project_and_links(
+                uid: str = chunk_uid,
+                pid: int = project_id_int,
+                pname: str | None = project_name,
+                pres_date: dict[str, int] | None = presentation_date_map,
+                reg: str | None = region,
+                communes: list[str] = communes_list,
+                tip: str | None = tipologia,
+                ptype: str | None = project_type,
+                doctype: str | None = meta.get("type"),
+                docsub: str | None = meta.get("subtype"),
+            ) -> None:
+                with driver.session() as session:
+                    # Project básico y relación HAS_CHUNK
+                    session.run(
+                        (
+                            "MATCH (c:Chunk {uid: $uid}) "
+                            "MERGE (p:Project {id: $project_id}) "
+                            "ON CREATE SET p.name = $project_name "
+                            "MERGE (p)-[:HAS_CHUNK]->(c)"
+                        ),
+                        {"uid": uid, "project_id": pid, "project_name": pname},
+                    )
 
+                    # Fecha de presentación
+                    if pres_date:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (d:PresentationDate {date: date($fecha)}) "
+                                "MERGE (p)-[:PRESENTED_ON]->(d)"
+                            ),
+                            {"project_id": pid, "fecha": pres_date},
+                        )
+
+                    # Región
+                    if reg:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (r:Region {name: $region}) "
+                                "MERGE (p)-[:IN_REGION]->(r)"
+                            ),
+                            {"project_id": pid, "region": reg},
+                        )
+
+                    # Comunas
+                    for commune in communes:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (c:Commune {name: $commune}) "
+                                "MERGE (p)-[:IN_COMMUNE]->(c)"
+                            ),
+                            {"project_id": pid, "commune": commune},
+                        )
+
+                    # Tipología
+                    if tip:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (t:Tipologia {code: $tipologia}) "
+                                "MERGE (p)-[:HAS_TIPOLOGIA]->(t)"
+                            ),
+                            {"project_id": pid, "tipologia": tip},
+                        )
+
+                    # Tipo de proyecto
+                    if ptype:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (pt:ProjectType {name: $project_type}) "
+                                "MERGE (p)-[:HAS_PROJECT_TYPE]->(pt)"
+                            ),
+                            {"project_id": pid, "project_type": ptype},
+                        )
+
+                    # Tipo de documento (categoría)
+                    if doctype:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (dt:DocumentType {name: $doc_type}) "
+                                "MERGE (p)-[:HAS_DOCUMENT_TYPE]->(dt)"
+                            ),
+                            {"project_id": pid, "doc_type": doctype},
+                        )
+
+                    # Subtipo de documento (categoría)
+                    if docsub:
+                        session.run(
+                            (
+                                "MATCH (p:Project {id: $project_id}) "
+                                "MERGE (ds:DocumentSubtype {name: $doc_subtype}) "
+                                "MERGE (p)-[:HAS_DOCUMENT_SUBTYPE]->(ds)"
+                            ),
+                            {"project_id": pid, "doc_subtype": docsub},
+                        )
+
+            _with_retry(_ensure_project_and_links)
             if presentation_date_map:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (d:PresentationDate {date: date($fecha)})
-                    MERGE (p)-[:PRESENTED_ON]->(d)
-                    """,
-                    project_id=int(meta.get("id")),
-                    fecha=presentation_date_map,
-                )
                 summary_counts["presentation_date"] += 1
-
-            # Región
-            if region:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (r:Region {name: $region})
-                    MERGE (p)-[:IN_REGION]->(r)
-                    """,
-                    project_id=int(meta.get("id")),
-                    region=region,
-                )
-
-            # Comunas
-            for commune in communes_list:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (c:Commune {name: $commune})
-                    MERGE (p)-[:IN_COMMUNE]->(c)
-                    """,
-                    project_id=int(meta.get("id")),
-                    commune=commune,
-                )
-
-            # Tipología
-            # (comunas ya contabilizadas en unique_communes, no se requiere acción extra)
-            tipologia = meta.get("tipologia")
-            if tipologia:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (t:Tipologia {code: $tipologia})
-                    MERGE (p)-[:HAS_TIPOLOGIA]->(t)
-                    """,
-                    project_id=int(meta.get("id")),
-                    tipologia=tipologia,
-                )
-
-            # Tipo de proyecto
-            project_type = meta.get("tipo_de_proyecto")
-            if project_type:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (pt:ProjectType {name: $project_type})
-                    MERGE (p)-[:HAS_PROJECT_TYPE]->(pt)
-                    """,
-                    project_id=int(meta.get("id")),
-                    project_type=project_type,
-                )
-
-            # Tipo de documento (categoría)
-            doc_type = meta.get("type")
-            if doc_type:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (dt:DocumentType {name: $doc_type})
-                    MERGE (p)-[:HAS_DOCUMENT_TYPE]->(dt)
-                    """,
-                    project_id=int(meta.get("id")),
-                    doc_type=doc_type,
-                )
-
-            # Subtipo de documento (categoría)
-            doc_subtype = meta.get("subtype")
-            if doc_subtype:
-                session.run(
-                    """
-                    MATCH (p:Project {id: $project_id})
-                    MERGE (ds:DocumentSubtype {name: $doc_subtype})
-                    MERGE (p)-[:HAS_DOCUMENT_SUBTYPE]->(ds)
-                    """,
-                    project_id=int(meta.get("id")),
-                    doc_subtype=doc_subtype,
-                )
 
         # Detalle por proyecto (solo primera vez con ese id)
         if project_id_int != -1 and project_id_int not in seen_project_ids:
@@ -477,6 +609,7 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
                 f"Comunas={communes_list}"
             )
             seen_project_ids.add(project_id_int)
+        summary_counts["chunks"] += 1
         print(f"✅ Proyecto {meta.get('id')} listo.")
 
     # Imprimir resumen final
@@ -496,7 +629,6 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
 # --------------------------------------------------------------------------- #
 
 if __name__ == "__main__":
-    import asyncio
 
     async def _run():
         # Cargar todos los proyectos: concatenamos todos los chunks de todos los documentos
