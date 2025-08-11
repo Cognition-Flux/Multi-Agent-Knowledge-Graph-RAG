@@ -1,19 +1,12 @@
 version: "3.9"
 
 services:
-  db:
-    build: .  # Usa el Dockerfile del proyecto que instala unzip y el script de restauración
-    container_name: sea_crawler_db
-    environment:
-      POSTGRES_DB: sea_crawler
-      POSTGRES_USER: sea_crawler_usr
-      POSTGRES_PASSWORD: sea_crawler_pwd
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 5432:5432
-    volumes:
-      # Volumen persistente para los datos de Postgres
-      - pgdata:/var/lib/postgresql/data
+      - "8000:8000"
+    environment:
+      PYTHONUNBUFFERED: "1"
     restart: unless-stopped
-
-volumes:
-  pgdata:
