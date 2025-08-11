@@ -304,3 +304,5 @@ for key, n_docs, enriched, matched_name, fields, method in sorted(_file_info):
 
 if _unmatched_files:
     print("\nFiles without metadata →", ", ".join(sorted(_unmatched_files)))
+
+# %%
