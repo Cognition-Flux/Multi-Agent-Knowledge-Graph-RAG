@@ -8,6 +8,7 @@ import time
 from pathlib import Path
 
 import boto3
+from botocore.exceptions import BotoCoreError, ClientError
 from dotenv import load_dotenv
 from langchain_community.document_loaders import AzureAIDocumentIntelligenceLoader
 from langchain_core.documents import Document
@@ -82,6 +83,67 @@ def invoke_with_retries(
     raise last_exc
 
 
+def call_with_retries(action, *, max_retries: int = MAX_RETRIES):
+    """Ejecuta una acción con reintentos y backoff exponencial con jitter."""
+    last_exc: Exception | None = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            return action()
+        except Exception as exc:
+            last_exc = exc
+            print(
+                f"Error en intento {attempt}/{max_retries}: {exc}. "
+                "Reintentando si corresponde..."
+            )
+            if attempt < max_retries:
+                sleep_seconds = BASE_BACKOFF_SECONDS * (2 ** (attempt - 1))
+                sleep_seconds += random.uniform(0.0, 0.5)
+                time.sleep(sleep_seconds)
+    assert last_exc is not None
+    raise last_exc
+
+
+def download_s3_to_path_with_fallback(
+    s3_client,
+    bucket_name: str,
+    object_key: str,
+    destination_path: Path,
+) -> None:
+    """Descarga un objeto S3 a disco con reintentos y fallback sin HEAD.
+
+    Intenta primero download_file (requiere HeadObject). Si da 403/HeadObject
+    u otro error, hace fallback a get_object y escribe por streaming.
+    """
+    destination_path.parent.mkdir(parents=True, exist_ok=True)
+
+    def _download_file():
+        return s3_client.download_file(bucket_name, object_key, str(destination_path))
+
+    try:
+        call_with_retries(_download_file)
+        return
+    except (ClientError, BotoCoreError, Exception) as first_exc:
+        print(
+            "Fallo download_file; intentando fallback con get_object. "
+            f"Error: {first_exc}"
+        )
+
+    # Fallback: usar get_object y escribir a disco manualmente
+    def _get_object():
+        return s3_client.get_object(Bucket=bucket_name, Key=object_key)
+
+    response = call_with_retries(_get_object)
+    body = response.get("Body")
+    if body is None:
+        raise RuntimeError("Respuesta S3 sin Body en get_object")
+
+    with destination_path.open("wb") as file_obj:
+        for chunk in iter(lambda: body.read(8 * 1024), b""):
+            if not chunk:
+                break
+            file_obj.write(chunk)
+
+
 def process_documents() -> None:
     """Procesa documentos descargando PDFs, extrayendo y limpiando markdown."""
     # Asegurar que el repo root esté en sys.path para permitir imports `src.*`
@@ -118,7 +180,7 @@ def process_documents() -> None:
     s3 = session.client("s3")
 
     # Procesar los primeros 20 documentos
-    for doc_idx, doc in enumerate(docs[20:]):
+    for doc_idx, doc in enumerate(docs[97:]):
         print(f"\n========== Procesando documento {doc_idx + 1}/{len(docs)} ========")
         s3_key = doc.metadata["s3_key"]
 
@@ -138,8 +200,17 @@ def process_documents() -> None:
             PDF_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)
             local_path = PDF_COLLECTION_DIR / filename
             if not local_path.exists():
-                s3.download_file(BUCKET_NAME, s3_key, str(local_path))
-                print(f"Archivo guardado en {local_path}")
+                try:
+                    download_s3_to_path_with_fallback(
+                        s3, BUCKET_NAME, s3_key, local_path
+                    )
+                    print(f"Archivo guardado en {local_path}")
+                except Exception as exc:
+                    print(
+                        f"Fallo persistente descargando desde S3 (bucket={BUCKET_NAME}, key={s3_key}). Error: {exc}"
+                    )
+                    # Omitir documento si no podemos descargar
+                    continue
             else:
                 print(f"PDF {local_path} ya existe. Usando copia local.")
 
@@ -153,7 +224,30 @@ def process_documents() -> None:
                 mode="markdown",  #
                 analysis_features=["ocrHighResolution"],  #
             )
-            raw_doc = loader.load()
+            try:
+                raw_doc = call_with_retries(loader.load)
+            except Exception as first_exc:
+                print(
+                    "Fallo extrayendo markdown con prebuilt-layout; "
+                    "probando fallback prebuilt-read/text. "
+                    f"Error: {first_exc}"
+                )
+                # Fallback de extracción: usar prebuilt-read en modo texto
+                read_loader = AzureAIDocumentIntelligenceLoader(
+                    api_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+                    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+                    file_path=str(local_path),
+                    api_model="prebuilt-read",
+                    mode="text",
+                )
+                try:
+                    raw_doc = call_with_retries(read_loader.load)
+                except Exception as second_exc:
+                    print(
+                        "Fallo también con prebuilt-read/text. Omitiendo documento. "
+                        f"Error: {second_exc}"
+                    )
+                    continue
 
             # Guardar el markdown extraído en disco para usos futuros
             MARKDOWN_RAW_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)

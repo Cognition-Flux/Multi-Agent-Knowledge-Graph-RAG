@@ -1,8 +1,5 @@
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
@@ -10,15 +7,12 @@ soluciones en gestión ambiental
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
 <figure>
-
-GDn
-Geotermia
-
+GDn Geotermia
 </figure>
 
 # ANEXO 2-4
 
-**FLORA Y VEGETACIÓN**
+FLORA Y VEGETACIÓN
 
 MODIFICACIÓN DE LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
@@ -26,10 +20,7 @@ MODIFICACIÓN DE LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 <!-- PageBreak -->
 
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
@@ -37,55 +28,66 @@ soluciones en gestión ambiental
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
 <figure>
-
-GDn
-Geotermia
-
+GDn Geotermia
 </figure>
 
 ## ÍNDICE CONTENIDO
 
-1. INTRODUCCIÓN  
-   1.1 Alcance  
-   1.2 Antecedentes de flora  
-   1.3 Antecedentes de vegetación
-2. OBJETIVOS
-3. ÁREA DE INFLUENCIA
-4. METODOLOGÍA  
-   4.1 Flora  
-   4.2 Vegetación
-5. RESULTADOS  
-   5.1.1 Flora  
-   5.1.2 Vegetación  
-   5.1.3 Comparación con la propuesta del trazado vigente
-6. DISCUSIÓN  
-   6.1 Flora  
-   6.2 Vegetación
-7. CONCLUSIONES
-8. REFERENCIAS BIBLIOGRÁFICAS
+1. INTRODUCCIÓN 1
+
+1.1 Alcance 1
+
+1.2 Antecedentes de flora 1
+
+1.3 Antecedentes de vegetación 2
+
+2. OBJETIVOS 3
+
+3. ÁREA DE INFLUENCIA 3
+
+4. METODOLOGÍA 3
+
+4.1 Flora 4
+
+4.2 Vegetación 5
+
+5. RESULTADOS 6
+
+5.1.1 Flora 6
+
+5.1.2 Vegetación 14
+
+5.1.3 Comparación con la propuesta del trazado vigente 19
+
+6. DISCUSIÓN 19
+
+6.1 Flora 19
+
+6.2 Vegetación 20
+
+7. CONCLUSIONES 20
+
+8. REFERENCIAS BIBLIOGRÁFICAS 21
 
 ## ÍNDICE DE TABLAS
 
-- **Tabla 1.** Lista de las especies que crecen en el tramo de la nueva propuesta - Modificación sector El Abra
-- **Tabla 2.** Ubicación de los ejemplares de las especies clasificadas como "casi amenazadas" - Sector El Abra
-- **Tabla 3.** Unidades de la cartografía de ocupación de tierras (COT)
+- Tabla 1. Lista de las especies que crecen en el tramo de la nueva propuesta - Modificación sector El Abra 6
+- Tabla 2. Ubicación de los ejemplares de las especies clasificadas como "casi amenazadas" - Sector El Abra 7
+- Tabla 3. Unidades de la cartografía de ocupación de tierras (COT) 16
 
 ## ÍNDICE DE FIGURAS
 
-- **Figura 1.** Modificaciones en el sector El Abra
-- **Figura 2.** Ubicación de los ejemplares de las especies "casi amenazadas". Puntos "MG": Maihueniopsis glomerata; "TA": Trichocereus atacamensis.
-- **Figura 3.** Ubicación de los ejemplares de las especies "casi amenazadas", detalle con la ubicación de la torre 212 y un ejemplar próximo de Trichocereus atacamensis.
-- **Figura 4.** Cartografía de la vegetación, Sector El Abra
+- Figura 1. Modificaciones en el sector El Abra 4
+- Figura 2. Ubicación de los ejemplares de las especies "casi amenazadas" Puntos "MG": Maihueniopsis glomerata; "TA": Trichocereus atacamensis. 11
+- Figura 3. Ubicación de los ejemplares de las especies "casi amenazadas", detalle con la ubicación de la torre 212 y un ejemplar próximo de Trichocereus atacamensis. 12
+- Figura 4. Cartografía de la vegetación, Sector El Abra 15
 
 <!-- PageFooter="Anexo 2-4" -->
 <!-- PageNumber="ii" -->
 <!-- PageBreak -->
 
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
@@ -93,49 +95,42 @@ soluciones en gestión ambiental
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
 <figure>
-
-GDn
-Geotermia
-
+GDn Geotermia
 </figure>
 
 ## ÍNDICE DE FOTOGRAFÍAS
 
-- **Fotografía 1.** Maihueniopsis camachoi, especie clasificada informalmente como vulnerable por Hoffmann & Walter (2004). Se ubica en la LTE, lugar donde es frecuente.
-- **Fotografía 2.** Maihueniopsis glomerata, especie clasificada como casi amenazada. Un ejemplar se ubica en el sector propuesto para la subestación, el resto en la LTE.
-- **Fotografía 3.** Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE.
-- **Fotografía 4.** Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE.
-- **Fotografía 5.** Un juvenil de Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Los ejemplares se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE.
-- **Fotografía 6.** Formación de vegetación 1. Matorral con Atriplex imbricata y Maihueniopsis camachoi.
-- **Fotografía 7.** Formación de vegetación 2. Matorral con Atriplex imbricata y Helogyne macrogyne.
-- **Fotografía 8.** Formación de vegetación 3, matorral con Atriplex imbricata y Haplopappus rigidus.
-- **Fotografía 9.** Formación de vegetación 4, matorral con Atriplex imbricata y Trichocereus atacamensis.
-- **Fotografía 10.** Formación de vegetación 5, matorral con Atriplex imbricata
-- **Fotografía 11.** Formación de vegetación 6, matorral con Atriplex imbricata y Adesmia atacamensis.
+- Fotografía 1. Maihueniopsis camachoi, especie clasificada informalmente como vulnerable por Hoffmann & Walter (2004). Se ubica en la LTE, lugar donde es frecuente. 8
+- Fotografía 2. Maihueniopsis glomerata, especie clasificada como casi amenazada. Un ejemplar se ubica en el sector propuesto para la subestación, el resto en la LTE. 9
+- Fotografía 3. Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE. 9
+- Fotografía 4. Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE. 10
+- Fotografía 5. Un juvenil de Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Los ejemplares se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE. 10
+- Fotografía 6. Formación de vegetación 1. Matorral con Atriplex imbricata y Maihueniopsis camachoi. 17
+- Fotografía 7. Formación de vegetación 2. Matorral con Atriplex imbricata y Helogyne macrogyne. 17
+- Fotografía 8. Formación de vegetación 3, matorral con Atriplex imbricata y Haplopappus rigidus. 18
+- Fotografía 9. Formación de vegetación 4, matorral con Atriplex imbricata y Trichocereus atacamensis. 18
+- Fotografía 10. Formación de vegetación 5, matorral con Atriplex imbricata 19
+- Fotografía 11. Formación de vegetación 6, matorral con Atriplex imbricata y Adesmia atacamensis. 19
 
 <!-- PageFooter="Anexo 2-4" -->
 <!-- PageNumber="iii" -->
 <!-- PageBreak -->
 
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
 
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
-GDn
-Geotermia
+GDn Geotermia
 
 ## 1. INTRODUCCIÓN
 
 ### 1.1 Alcance
 
-El presente informe da cuenta de los resultados obtenidos en la campaña de terreno realizada en febrero del año 2015, para caracterizar la flora y la vegetación presente en el área donde se pretende realizar la Modificación del Proyecto "Línea de Transmisión Eléctrica Cerro Pabellón" (en adelante "el Proyecto"), calificado favorablemente a través de la Res. Ex. Nº 168/2013 de la Comisión de Evaluación de la Región de Antofagasta, con fecha 11 de julio de 2013.
+El presente informe da cuenta de los resultados obtenidos en la campaña de terreno realizada en febrero del año 2015, para caracterizar la flora y la vegetación presente en el área donde se pretende realizar la Modificación del Proyecto "Línea de Transmisión Eléctrica Cerro Pabellón (en adelante "el Proyecto"), calificado favorablemente a través de la Res. Ex. Nº 168/2013 de la Comisión de Evaluación de la Región de Antofagasta, con fecha 11 de julio de 2013.
 
 El Proyecto contempla modificar y aumentar el trazado final de la Línea de Transmisión Eléctrica (LTE) Cerro Pabellón, y construir una S/E seccionadora, denominada Gis Conchi. La modificación al trazado se realiza desde la torre 205 hasta la torre 219 donde se conectará con la nueva S/E Gis Conchi propuesta próxima al sector de El Abra en terreno de Bienes Nacionales, distante aproximadamente unos 4 kms de la ubicación aprobada anteriormente.
 
@@ -145,9 +140,9 @@ La flora de la Región de Antofagasta (II) consta de unas 1050 especies; una par
 
 Respecto de la distribución por altitud de la flora vascular, Villagrán et al. (1981) llevó a cabo un estudio de la flora y de la vegetación de la zona de Toconce (22º06 S-22°22'S); en ese trabajo se describieron un gradiente de altitud en la distribución de la vegetación; al respecto, los autores distinguieron los siguientes pisos:
 
-- **Prepuneño:** donde la dominancia corresponde a arbustos como Adesmia atacamensis, Atriplex imbricata y Ambrosia artemisioides.
-- **Puneño:** donde predominan arbustos como Fabiana ramulosa (=Fabiana densa), Fabiana denudata y Baccharis boliviensis.
-- **Andino:** donde predominan los pajonales de gramíneas como Festuca chrysophylla y Stipa frigida.
+- Prepuneño, donde la dominancia corresponde a arbustos como Adesmia atacamensis, Atriplex imbricata y Ambrosia artemisioides.
+- Puneño, donde predominan arbustos como Fabiana ramulosa (=Fabiana densa), Fabiana denudata y Baccharis boliviensis.
+- Andino, donde predominan los pajonales de gramíneas como Festuca chrysophylla y Stipa frigida.
 
 En relación con el grado de similitud de la flora vascular andina de la Región, se encontró que el mayor número de especies endémicas de Chile crece en el piso inferior o de la prepuna; la flora y la vegetación de los pisos superiores, puneño y andino, son menos singulares pues son similares tanto a la de las otras regiones altoandinas de Chile, como a las del altiplano de países vecinos como Argentina y Bolivia (Villagrán et al. 1983).
 
@@ -158,10 +153,7 @@ En el sector del valle del río Loa, son importantes las especies como Cortaderi
 <!-- PageBreak -->
 
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
@@ -169,10 +161,7 @@ soluciones en gestión ambiental
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
 <figure>
-
-GDn
-Geotermia
-
+GDn Geotermia
 </figure>
 
 Finalmente, Teillier (1995), realizó un estudio entre la mina El Abra (2200 msnm) y el salar de Ascotán (3800 msnm), en el que da cuenta de 39 especies de plantas vasculares, todas nativas. En los alrededores de la mina El Abra las especies dominantes eran Atriplex imbricata y Acantholippia deserticola, a las que se sumaban Ephedra breana, Cistanthe salsoloides y Cistanthe celosioides. En el cruce del río Loa, en la parte más árida, predominaban Ephedra breana, Chuquiraga atacamensis, Acantholippia deserticola, Atriplex imbricata y Senecio viridis; en los sitios algo más húmedos, aparecía Baccharis petiolata y en la ribera del río, Cortaderia speciosa (C. atacamensis) ("cola de zorro"), Schoenoplectus americanus y Distichlis spicata ("grama salada"). En la medida que se ascendía en altitud, las especies dominantes fueron Atriplex imbricata, Fabiana denudata o Acantholippia deserticola; en tanto que en los sectores más áridos o expuestos al viento, dominaba Stipa frigida. En el sector de mayor altitud (sobre 3900 msnm), la vegetación correspondía a un pajonal con Festuca chrysophylla ("paja brava") y Stipa frigida, otras especies importantes y exclusivas de este sector fueron Pycnophyllum molle y Stipa nardoides. En la misma altitud, pero en los sectores más protegidos, la vegetación cambiaba a un matorral de arbustos (tolar) donde la especie dominante era Parastrephia quadrangularis. En los roqueríos situados en los alrededores de la estación Ascotán (4000 msnm) la vegetación presentaba la fisonomía de un tolar con Fabiana denudata, Chuquiraga atacamensis, Junellia seriphioides y Parastrephia quadrangularis. Algunas especies como Baccharis boliviensis, Chersodoma candida y Fabiana squamata se encontraron sólo en este sector.
@@ -181,12 +170,25 @@ Finalmente, Teillier (1995), realizó un estudio entre la mina El Abra (2200 msn
 
 De acuerdo con la propuesta fitoecológica de Gajardo (1994), la vegetación del área de estudio pertenecería a la de las Regiones del Desierto y de la Estepa Altoandina. En el primer caso estaría representada la Sub-región del Desierto Andino con la formación del Desierto de la Cuenca Superior del Río Loa. La Región de la Estepa Altoandina estaría representada por la Sub-región del Altiplano y de la Puna con las formaciones de la Estepa Arbustiva Pre-puneña, y la Estepa Altoandina Sub-Desértica.
 
-La formación del Desierto de la Cuenca Superior del Río Loa está constituida por arbustos xerófilos y amplias superficies desprovistas de vegetación. La distribución geográfica de la formación indicaría que es endémica de la cuenca del río Loa, aunque las especies que la caracterizan son de amplia distribución en la pre-puna del norte de Chile. Las asociaciones que la forman serían las de Acantholippia deserticola (=A. punensis, rica-rica)-Ambrosia artemisioides (=Franseria meyeniana, petaloxa), Atriplex atacamensis (cachiyuyo) - Acantholippia deserticola (=A. trifida, rica-rica); Atriplex imbricata (ojalar) y Adesmia atacamensis (allaval)-Tiquilia atacamensis (Coldenia atacamensis, cauchal). La formación de la Estepa Arbustiva Pre-puneña muestra también una predominancia de arbustos bajos, xerófilos. Presenta elementos de similitud con la vegetación del desierto. Es una formación de amplia distribución en las cordilleras de la I y II Región. Las asociaciones que la constituyen son: Fabiana ramulosa (=F. densa, checal)-Baccharis bolviensis (lejía); Baccharis tola (=B. incarum)-Lampaya medicinalis (lampaya). Finalmente, la formación de la Estepa Altoandina Sub-Desértica corresponde al tolar del Altiplano, extensamente repartido y haciendo alternancia con los llamados "pajonales"; prefiriendo sitios rocosos o pedregosos y ocupando rara vez arenales; la forma de crecimiento predominante es la de arbusto con hojas pequeñas y duras; se distribuye tanto en la Región de Tarapacá (I) como en el sur de la de Antofagasta (II); y presenta las siguientes asociaciones:
+La formación del Desierto de de la Cuenca Superior del Río Loa está constituida por arbustos xerófilos y amplias superficies desprovistas de vegetación. La distribución geográfica de la formación indicaría que es endémica de la cuenca del río Loa, aunque las especies que la caracterizan son de amplia distribución en la pre-puna del norte de Chile. Las asociaciones que la forman serían las de Acantholippia deserticola (=A. punensis, rica-rica)-Ambrosia artemisioides (=Franseria meyeniana, petaloxa), Atriplex atacamensis (cachiyuyo) - Acantholippia deserticola (=A. trifida, rica-rica); Atriplex imbricata (ojalar) y Adesmia atacamensis (allaval)-Tiquilia atacamensis (Coldenia atacamensis, cauchal). La formación de la Estepa Arbustiva Pre-puneña muestra también una predominancia de arbustos bajos, xerófilos. Presenta elementos de similitud con la vegetación del desierto. Es una formación de amplia distribución en las cordilleras de la I y II Región. Las asociaciones que la constituyen son: Fabiana ramulosa (=F. densa, checal)-Baccharis bolviensis (lejía); Baccharis tola (=B. inca rum)-Lampaya medicinalis (lampaya). Finalmente, la formación de la Estepa Altoandina Sub-Desértica corresponde al tolar del Altiplano, extensamente repartido y haciendo alternancia con los llamados "pajonales"; prefiriendo sitios rocosos o pedregosos y ocupando rara vez arenales; la forma de crecimiento predominante es la de arbusto con hojas pequeñas y duras; se distribuye tanto en la Región de Tarapacá (I) como en el sur de la de Antofagasta (II); y presenta las siguientes asociaciones:
 
-- Pycnophyllum molle (llaretilla)-Oxalis exigua
-- Baccharis tola (=B. incarum)-Lampaya medicinalis
-- Festuca chryosophylla (paja brava)-Fabiana bryoides (pata de pisaca)
-- Azorella compacta (llareta)
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="2" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+GDn Geotermia
+</figure>
+
+Pycnophyllum molle (llaretilla)-Oxalis exigua; Baccharis tola (=B. incarum)-Lampaya medicinalis, Festuca chryosophylla (paja brava)-Fabiana bryoides (pata de pisaca) y Azorella compacta (llareta).
 
 Luebert y Pliscoff (2008) proponen una clasificación de la vegetación del país en pisos de vegetación relacionados con el bioclima. En relación con ella, la clasificación de la vegetación en pisos, desde el inferior al superior, sería la siguiente:
 
@@ -195,7 +197,7 @@ Luebert y Pliscoff (2008) proponen una clasificación de la vegetación del paí
 - Matorral bajo tropical andino de Fabiana denudata y Chuquiraga atacamensis.
 - Matorral bajo tropical andino de Mulinum crassifolium y Urbania pappigera.
 
-Los pisos fisonómicos de la cuenca del alto Loa, fueron caracterizados por Teillier (2004) siguiendo un gradiente de altitud ascendente como: matorral desértico, tolar marginal, tolar intermedio, tolar de altura y pajonal altoandino; respecto de ellas, los resultados muestran que la riqueza de especies entre unidades varió entre 11 y 38 siendo más alta en el tolar intermedio y más baja en el matorral desértico. La cobertura de la vegetación varió, a su vez, entre 31% en el tolar intermedio y en el pajonal altoandino y 6%, en el matorral desértico.
+Los pisos fisonómicos de la cuenca del alto Loa, fueron caracterizados por Teilllier (2004) siguiendo un gradiente de altitud ascendente como: matorral desértico, tolar marginal, tolar intermedio, tolar de altura y pajonal altoandino; respecto de ellas, los resultados muestran que la riqueza de especies entre unidades varió entre 11 y 38 siendo más alta en el tolar intermedio y más baja en el matorral desértico. La cobertura de la vegetación varió, a su vez, entre 31% en el tolar intermedio y en el pajonal altoandino y 6%, en el matorral desértico.
 
 ## 2. OBJETIVOS
 
@@ -211,44 +213,66 @@ Se incluyó en el área de influencia de esta presentación el sector de la nuev
 
 Para el reconocimiento de la flora y la vegetación del área del proyecto se realizó en una franja de 100 m desde el eje de la línea, el área de la S/E e Instalación de faenas fue recorrida en su totalidad.
 
-El sitio a estudiar incluyó los sectores donde se han propuesto modificaciones a la ubicación de la Subestación Eléctrica e Instalación de Faena en el sector El Abra y en el trazado de la Línea de Transmisión Eléctrica (LTE) desde el lado poniente del río Loa a la S/E Gis Conchi.
+El sitio a estudiado incluyó los sectores donde se han propuesto modificaciones a la ubicación de la Subestación Eléctrica e Instalación de Faena en el sector El Abra y en el trazado de la Línea de Transmisión Eléctrica (LTE) desde el lado poniente del río Loa a la S/E Gis Conchi.
 
 <!-- PageFooter="Anexo 2-4" -->
 <!-- PageNumber="3" -->
 <!-- PageBreak -->
 
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
 
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
-GDn
-Geotermia
+GDn Geotermia
 
 La modificación al trazado corresponde a 4,57 km aprox. proyectado desde la torre 205 hasta la torre 219 que llegará a la nueva S/E Gis Conchi. En la figura 1 se muestra la ubicación de la nueva Subestación Eléctrica, la Instalación de Faena y la llegada del trazado de la LTE; en color morado el trazado original del proyecto, aprobado mediante la RCA Nº 168/2013, y en color celeste la propuesta de modificación al trazado evaluado en esta presentación.
 
 <figure>
 <figcaption>Figura 1. Modificaciones en el sector El Abra.</figcaption>
-<!-- (Mapa y simbología, ver original para detalles gráficos) -->
+<!-- (Mapa y simbología, ver original para detalles) -->
 </figure>
 
-**Tabla de diseño y revisión:**
+<table>
+<tr>
+<th>DISEÑO: NG</th>
+<th>REVISIÓN: MD</th>
+<th rowspan="3">CONTENIDO: LAYOUT GENERAL DEL PROYECTO</th>
+</tr>
+<tr>
+<td>DBUJO:</td>
+<td>APROBÓ;</td>
+</tr>
+<tr>
+<td>NG</td>
+<td>MD</td>
+</tr>
+</table>
 
-| DISEÑO: NG | REVISIÓN: MD | CONTENIDO: LAYOUT GENERAL DEL PROYECTO |
-|------------|--------------|----------------------------------------|
-| DBUJO:     | APROBÓ:      |                                        |
-| NG         | MD           |                                        |
-
-| SGA. ® soluciones en gestión ambiental | SIST. REFERENCIA: PROYECCIÓN UTM / HUSO 19 SUR | FECHA: AGOSTO 2015 | Nº PROYECTO: 14149 | REV .: 1 |
-|----------------------------------------|------------------------------------------------|--------------------|---------------------|----------|
-| DATUM:                                 | ESCALA:                                       | FORMATO           | ANEXO:              |
-| WGS84                                  | 1:8.000                                       | A2                |                     |
+<table>
+<tr>
+<td rowspan="3">SGA. ® soluciones en gestión ambiental</td>
+<td>SIST. REFERENCIA: PROYECCIÓN UTM / HUSO 19 SUR</td>
+<td>FECHA: AGOSTO 2015</td>
+<td>Nº PROYECTO: 14149</td>
+<td>REV .: 1</td>
+</tr>
+<tr>
+<td>DATUM:</td>
+<td>ESCALA:</td>
+<td>FORMATO</td>
+<td>ANEXO:</td>
+</tr>
+<tr>
+<td>WGS84</td>
+<td>1:8.000</td>
+<td>A2</td>
+<td></td>
+</tr>
+</table>
 
 Fuente: Elaboración propia.
 
@@ -262,10 +286,10 @@ Los nombres vernaculares o vulgares se indican de acuerdo con Aldunate et al. (1
 
 Para el análisis de las formas de crecimiento se consideraron los siguientes tipos:
 
-- **Arbustos:** especies leñosas, ramificadas desde la base.
-- **Suculentas:** se incluyen especies leñosas con los tallos suculentos (cactus).
-- **Hierbas perennes:** se incluyen las especies cuyos individuos poseen órganos de resistencia subterráneos y rebrotan en primavera.
-- **Hierbas anuales:** se incluyen las especies que sobreviven a la estación desfavorable sólo mediante sus semillas.
+- Arbustos: especies leñosas, ramificadas desde la base.
+- Suculentas: se incluyen especies leñosas con los tallos suculentos (cactus).
+- Hierbas perennes: especies cuyos individuos poseen órganos de resistencia subterráneos y rebrotan en primavera.
+- Hierbas anuales: especies que sobreviven a la estación desfavorable sólo mediante sus semillas.
 
 En términos del origen geográfico se señala si la planta es nativa, endémica de Chile o endémica regional o introducida (alóctona asilvestrada).
 
@@ -293,10 +317,7 @@ La cobertura de la vegetación se define con la siguiente escala:
 <!-- PageBreak -->
 
 <figure>
-
-SGA®
-soluciones en gestión ambiental
-
+SGA ® soluciones en gestión ambiental
 </figure>
 
 <!-- PageHeader="ANEXO 2-4" -->
@@ -304,10 +325,7 @@ soluciones en gestión ambiental
 MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
 
 <figure>
-
-GDn
-Geotermia
-
+GDn Geotermia
 </figure>
 
 ## 5. RESULTADOS
@@ -318,68 +336,916 @@ La visita al sector dio cuenta de unas 25 especies de plantas vasculares, cuya l
 
 La flora incluye ejemplares de tres especies de cactus clasificados en categorías de conservación:
 
-- **Maihueniopsis camachoi** (Fotografía 1) clasificado informalmente por Hoffmann & Walter (2004) como "vulnerable" y sobre el que no se generaron obligaciones respecto de ellos en las RCA de la LTE Cerro Pabellón;
-- **Maihueniopsis glomerata** (Fotografía 2) clasificado como una especie "casi amenazada" (DS 13/2013 MMA). En la RCA Nº 168/2013 existe un compromiso de relocalización en caso de que sea afectado por las obras. En el área con la nueva propuesta crecen unos ocho ejemplares en el trazado de la LTE, el más cercano se ubica unos 45 m de una de las torres (205);
-- **Trichocereus atacamensis**, "cardón" (Fotografía 3, Fotografía 4 y Fotografía 5), especie clasificada como "casi amenazada" (DS 41/2011 MMA). Se encontraron 10 ejemplares que se ubican en el área general propuesta para la LTE. Uno de ellos, se encuentra a unos 18 m al este de la torre 212.
+- Maihueniopsis camachoi (Fotografía 1) clasificado informalmente por Hoffmann & Walter (2004) como "vulnerable" y sobre el que no se generaron obligaciones respecto de ellos en las RCA de la LTE Cerro Pabellón;
+- Maihueniopsis glomerata (Fotografía 2) clasificado como una especie "casi amenazada" (DS 13/2013 MMA). En la RCA Nº 168/2013 existe un compromiso de relocalización en caso de que sea afectado por las obras. En el área con la nueva propuesta crecen unos ocho ejemplares en el trazado de la LTE, el más cercano se ubica unos 45 m de una de las torres (205);
+- Trichocereus atacamensis, "cardón" (Fotografía 3, Fotografía 4 y Fotografía 5), especie clasificada como "casi amenazada" (DS 41/2011 MMA). Se encontraron 10 ejemplares que se ubican en el área general propuesta para la LTE. Uno de ellos, se encuentra a unos 18 m al este de la torre 212.
 
 En las Figuras siguientes, se muestra la ubicación de los ejemplares respecto del trazado modificado de la LTE. En la Tabla 2 se muestra la ubicación georeferenciada (sistema de coordenadas UTM: WGS 84; Huso 19S) de los ejemplares y en la Figura posterior su ubicación en una carta.
 
-**Tabla 1. Lista de las especies que crecen en el tramo de la nueva propuesta - Modificación sector El Abra**
+<table>
+<caption>Tabla 1. Lista de las especies que crecen en el tramo de la nueva propuesta - Modificación sector El Abra</caption>
+<tr>
+<th>Nombre científico</th>
+<th>Familia</th>
+<th>Nombre vulgar</th>
+<th>Forma de crecimiento</th>
+<th>Origen geográfico</th>
+<th>Categoría de conservación</th>
+</tr>
+<tr>
+<td>Tetragonia microcarpa</td>
+<td>Aizoaceae</td>
+<td>Aguanosa</td>
+<td>Hierba anual</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Argylia tomentosa</td>
+<td>Bignoniaceae</td>
+<td></td>
+<td>Hierba perenne</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Cryptantha sp.</td>
+<td>Boraginaceae</td>
+<td>Dicha</td>
+<td>Hierba anual</td>
+<td>Indeterminada</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Maihueniopsis camachoi</td>
+<td>Cactaceae</td>
+<td></td>
+<td>Suculenta</td>
+<td>Endémica de Chile</td>
+<td>Vulnerable (Hoffmann & Walter, 2004)</td>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Cactaceae</td>
+<td></td>
+<td>Suculenta</td>
+<td>Nativa</td>
+<td>Casi amenazada (DS 13/2013 MMA)</td>
+</tr>
+<tr>
+<td>Oreocereus variicolor</td>
+<td>Cactaceae</td>
+<td>Chastudo peludo</td>
+<td>Suculenta</td>
+<td>Nativa</td>
+<td>Preocupación menor (DS</td>
+</tr>
+</table>
 
-| Nombre científico           | Familia         | Nombre vulgar         | Forma de crecimiento | Origen geográfico     | Categoría de conservación                |
-|----------------------------|-----------------|----------------------|---------------------|----------------------|-------------------------------------------|
-| Tetragonia microcarpa      | Aizoaceae       | Aguanosa             | Hierba anual        | Endémica de Chile    | No tiene                                  |
-| Argylia tomentosa          | Bignoniaceae    |                      | Hierba perenne      | Endémica de Chile    | No tiene                                  |
-| Cryptantha sp.             | Boraginaceae    | Dicha                | Hierba anual        | Indeterminada        | No tiene                                  |
-| Maihueniopsis camachoi     | Cactaceae       |                      | Suculenta           | Endémica de Chile    | Vulnerable (Hoffmann & Walter, 2004)      |
-| Maihueniopsis glomerata    | Cactaceae       |                      | Suculenta           | Nativa               | Casi amenazada (DS 13/2013 MMA)           |
-| Oreocereus variicolor      | Cactaceae       | Chastudo peludo      | Suculenta           | Nativa               | Preocupación menor (DS 13/2013 MMA)       |
-| Trichocereus atacamensis   | Cactaceae       | Cardón               | Suculenta           | Nativa               | Casi amenazada (DS 41/2011 MMA)           |
-| Hoffmanseggia doellii      | Caesalpinaceae  | Porotillo            | Hierba perenne      | Nativa               | No tiene                                  |
-| Atriplex imbricata         | Chenopodiaceae  | Pilaya               | Arbusto             | Nativa               | No tiene                                  |
-| Haplopappus rigidus        | Compositae      | Baylahuén            | Arbusto             | Nativa               | No tiene                                  |
-| Helogyne macrogyne         | Compositae      |                      | Arbusto             | Endémica de Chile    | No tiene                                  |
-| Polyachyrus sphaerocephalus| Compositae      |                      | Arbusto             | Endémica de Chile    | No tiene                                  |
-| Trichocline caulescens     | Compositae      | Flor del desierto    | Hierba anual        | Endémica de Chile    | No tiene                                  |
-| Menonvillea rollinsii      | Cruciferae      | -                    | Arbusto             | Endémica regional    | No tiene                                  |
-| Neuntobotrys tarapacana    | Cruciferae      | Lata lata            | Hierba perenne      | Nativa               | No tiene                                  |
-| Ephedra breana             | Ephedraceae     | Pingo pingo          | Arbusto             | Nativa               | No tiene                                  |
-| Adesmia atacamensis        | Fabaceae        | Allaval              | Arbusto             | Endémica de Chile    | No tiene                                  |
-| Adesmia erinacea           | Fabaceae        |                      | Arbusto             | Nativa               | No tiene                                  |
-| Phacelia pinnatifida       | Hydrophyllaceae | Sobaco               | Hierba anual        | Nativa               | No tiene                                  |
-| Cistanthe cabrerae         | Portulacaceae   | Renilla              | Hierba anual        | Nativa               | No tiene                                  |
-| Cistanthe celosioides      | Portulacaceae   | -                    | Hierba anual        | Endémica de Chile    | No tiene                                  |
-| Cistanthe salsoloides      | Portulacaceae   | -                    | Hierba perenne      | Nativa               | No tiene                                  |
-| Fabiana ramulosa           | Solanaceae      | Checal               | Arbusto             | Nativa               | No tiene                                  |
-| Acantholippia deserticola  | Verbenaceae     | Rica rica            | Arbusto             | Nativa               | No tiene                                  |
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="6" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+GDn Geotermia
+</figure>
+
+<table>
+<tr>
+<th>Nombre científico</th>
+<th>Familia</th>
+<th>Nombre vulgar</th>
+<th>Forma de crecimiento</th>
+<th>Origen geográfico</th>
+<th>Categoría de conservación</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>13/2013 MMA)</td>
+</tr>
+<tr>
+<td>Trichocereus atacamensis</td>
+<td>Cactaceae</td>
+<td>Cardón</td>
+<td>Suculenta</td>
+<td>Nativa</td>
+<td>Casi amenazada (DS 41/2011 MMA)</td>
+</tr>
+<tr>
+<td>Hoffmanseggia doellii</td>
+<td>Caesalpinaceae</td>
+<td>Porotillo</td>
+<td>Hierba perenne</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Atriplex imbricata</td>
+<td>Chenopodiaceae</td>
+<td>Pilaya</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Haplopappus rigidus</td>
+<td>Compositae</td>
+<td>Baylahuén</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Helogyne macrogyne</td>
+<td>Compositae</td>
+<td></td>
+<td>Arbusto</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Polyachyrus sphaerocephalus</td>
+<td>Compositae</td>
+<td></td>
+<td>Arbusto</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Trichocline caulescens</td>
+<td>Compositae</td>
+<td>Flor del desierto</td>
+<td>Hierba anual</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Menonvillea rollinsii</td>
+<td>Cruciferae</td>
+<td>-</td>
+<td>Arbusto</td>
+<td>Endémica regional</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Neuntobotrys tarapacana</td>
+<td>Cruciferae</td>
+<td>Lata lata</td>
+<td>Hierba perenne</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Ephedra breana</td>
+<td>Ephedraceae</td>
+<td>Pingo pingo</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Adesmia atacamensis</td>
+<td>Fabaceae</td>
+<td>Allaval</td>
+<td>Arbusto</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Adesmia erinacea</td>
+<td>Fabaceae</td>
+<td></td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Phacelia pinnatifida</td>
+<td>Hydrophyllaceae</td>
+<td>Sobaco</td>
+<td>Hierba anual</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Cistanthe cabrerae</td>
+<td>Portulacaceae</td>
+<td>Renilla</td>
+<td>Hierba anual</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Cistanthe celosioides</td>
+<td>Portulacaceae</td>
+<td>-</td>
+<td>Hierba anual</td>
+<td>Endémica de Chile</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Cistanthe salsoloides</td>
+<td>Portulacaceae</td>
+<td>-</td>
+<td>Hierba perenne</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Fabiana ramulosa</td>
+<td>Solanaceae</td>
+<td>Checal</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+<tr>
+<td>Acantholippia deserticola</td>
+<td>Verbenaceae</td>
+<td>Rica rica</td>
+<td>Arbusto</td>
+<td>Nativa</td>
+<td>No tiene</td>
+</tr>
+</table>
 
 Fuente: Elaboración propia
 
-**Tabla 2. Ubicación de los ejemplares de las especies clasificadas como "casi amenazadas" - Sector El Abra**
+<table>
+<caption>Tabla 2. Ubicación de los ejemplares de las especies clasificadas como "casi amenazadas" - Sector El Abra</caption>
+<tr>
+<th>Nombre científico</th>
+<th>Categoría de conservación</th>
+<th>Sector</th>
+<th>Coordenada E</th>
+<th>Coordenada N</th>
+<th>Nº de ejemplares</th>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>532274.63 m</td>
+<td>7570697.33 m</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Maihueniopsis</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>528894.81 m</td>
+<td>7569184.91 m</td>
+<td>1</td>
+</tr>
+</table>
 
-| Nombre científico           | Categoría de conservación | Sector | Coordenada E      | Coordenada N      | Nº de ejemplares |
-|----------------------------|---------------------------|--------|-------------------|-------------------|------------------|
-| Maihueniopsis glomerata    | Casi amenazada            | LTE    | 532274.63 m       | 7570697.33 m      | 7                |
-| Maihueniopsis glomerata    | Casi amenazada            | LTE    | 528894.81 m       | 7569184.91 m      | 1                |
-| Maihueniopsis glomerata    | Casi amenazada            | LTE    | 531334.31 m       | 7570717.03 m      | 1                |
-| Maihueniopsis glomerata    | Casi amenazada            | LTE    | 531685.03 m       | 7570664.31 m      | 1                |
-| Maihueniopsis glomerata    | Casi amenazada            | LTE    | 531709.22 m       | 7570675.56 m      | 1                |
-| Maihueniopsis glomerata    | Casi amenazada            | LTE    | 532034.78 m       | 7570692.17 m      | 2                |
-| Trichocereus atacamensis   | Casi amenazada            | LTE    | 529003.25 m       | 7569373.76 m      | 1                |
-| Trichocereus atacamensis   | Casi amenazada            | LTE    | 529291.23 m       | 7569910.40 m      | 4                |
-| Trichocereus atacamensis   | Casi amenazada            | LTE    | 529331.00 m       | 7570028.86 m      | 1                |
-| Trichocereus atacamensis   | Casi amenazada            | LTE    | 529398.75 m       | 7569988.89        | 3                |
-| Trichocereus atacamensis   | Casi amenazada            | LTE    | 529970.77 m       | 7570570.25 m      | 1                |
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="7" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+GDn Geotermia
+</figure>
+
+<table>
+<tr>
+<th>Nombre científico</th>
+<th>Categoría de conservación</th>
+<th>Sector</th>
+<th>Coordenada E</th>
+<th>Coordenada N</th>
+<th>Nº de ejemplares</th>
+</tr>
+<tr>
+<td>glomerata</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>531334.31 m</td>
+<td>7570717.03 m</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>531685.03 m</td>
+<td>7570664.31 m</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>531709.22 m</td>
+<td>7570675.56 m</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Maihueniopsis glomerata</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>532034.78 m</td>
+<td>7570692.17 m</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Trichocereus atacamensis</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>529003.25 m</td>
+<td>7569373.76 m</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Trichocereus atacamensis</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>529291.23 m</td>
+<td>7569910.40 m</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Trichocereus atacamensis</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>529331.00 m</td>
+<td>7570028.86 m</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Trichocereus atacamensis</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>529398.75 m</td>
+<td>7569988.89</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Trichocereus atacamensis</td>
+<td>Casi amenazada</td>
+<td>LTE</td>
+<td>529970.77 m</td>
+<td>7570570.25 m</td>
+<td>1</td>
+</tr>
+</table>
 
 Fuente: Elaboración propia
 
-<!-- Fotografías y figuras referenciadas en el texto -->
+<figure>
+<figcaption>Fotografía 1. Maihueniopsis camachoi, especie clasificada informalmente como vulnerable por Hoffmann & Walter (2004). Se ubica en la LTE, lugar donde es frecuente.</figcaption>
+</figure>
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="8" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+<figcaption>Fotografía 2. Maihueniopsis glomerata, especie clasificada como casi amenazada. Un ejemplar se ubica en el sector propuesto para la subestación, el resto en la LTE.</figcaption>
+GDn Geotermia
+</figure>
+
+<figure>
+<figcaption>Fotografía 3. Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE.</figcaption>
+</figure>
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="9" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+<!-- PageHeader="MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN" -->
+
+<figure>
+<figcaption>Fotografía 4. Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE.</figcaption>
+GDn Geotermia
+</figure>
+
+<figure>
+<figcaption>Fotografía 5. Un juvenil de Trichocereus atacamensis (cardón). Especie clasificada como casi amenazada. Los ejemplares se ubican en un sector próximo a la propuesta de nuevo trazado de la LTE.</figcaption>
+</figure>
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="10" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+GON Geotermia
+
+<figure>
+<figcaption>Figura 2. Ubicación de los ejemplares de las especies "casi amenazadas" Puntos "MG": Maihueniopsis glomerata; "TA": Trichocereus atacamensis.</figcaption>
+<!-- (Mapa y simbología, ver original para detalles) -->
+</figure>
+
+<table>
+<tr>
+<th>Color</th>
+<th>Número</th>
+<th>Nombre formación</th>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>Matorral con Atriplex imbricata y Maihueniopsis camachoi</td>
+</tr>
+<tr>
+<td></td>
+<td>2</td>
+<td>Matorral con Atriplex imbricata y Helogyne macrogyne</td>
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td>Matorral con Atriplex imbricata y Haplopappus rigidus</td>
+</tr>
+<tr>
+<td></td>
+<td>4</td>
+<td>Matorral con Atriplex imbricata y Trichocereus atacamensis</td>
+</tr>
+<tr>
+<td></td>
+<td>5</td>
+<td>Matorral con Atriplex imbricata</td>
+</tr>
+<tr>
+<td></td>
+<td>6</td>
+<td>Matorral con Atriplex imbricata y Adesmia atacamensis</td>
+</tr>
+<tr>
+<td></td>
+<td>ZI</td>
+<td>ZONA INDUSTRIAL</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="11" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+GDn Geotermia
+
+<figure>
+<figcaption>Figura 3. Ubicación de los ejemplares de las especies "casi amenazadas", detalle con la ubicación de la torre 212 y un ejemplar próximo de Trichocereus atacamensis.</figcaption>
+<!-- (Mapa y simbología, ver original para detalles) -->
+</figure>
+
+<table>
+<tr>
+<th>Color</th>
+<th>Número</th>
+<th>Nombre formación</th>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>Matorral con Atriplex imbricato y Maihueniopsis camachoi</td>
+</tr>
+<tr>
+<td></td>
+<td>2</td>
+<td>Matorral con Atriplex imbricato y Helogyne macrogyne</td>
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td>Matorral con Atriplex imbricata y Haplopappus rigidus</td>
+</tr>
+<tr>
+<td></td>
+<td>4</td>
+<td>Matorral con Atriplex imbricata y Trichocereus atacamensis</td>
+</tr>
+<tr>
+<td></td>
+<td>5</td>
+<td>Matorral con Atriplex imbricata</td>
+</tr>
+<tr>
+<td></td>
+<td>6</td>
+<td>Matorral con Atriplex imbricata y Adesmia atacamensis</td>
+</tr>
+<tr>
+<td></td>
+<td>ZI</td>
+<td>ZONA INDUSTRIAL</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia
+
+### 5.1.2 Vegetación
+
+La cartografía de la vegetación que incluye el área propuesta para la Subestación Eléctrica y la LTE en esta nueva ubicación se muestra en las Figura 6 y Figura 7. Los datos referidos a las formaciones y a las especies dominantes se muestran en la Tabla 3. Se observa que la vegetación, en general, corresponde matorral desértico donde la vegetación no sobrepasa un 15% de cobertura, con una altura promedio de los arbustos de 40-50 cm. Destacan como dominantes arbustos como Atriplex imbricata (pilaya) y Adesmia atacamensis (allaval); además se registran ejemplares de Ephedra breana (pingo pingo), Haplopappus rigidus (baylahuén) y Helogyne macrogyne; entre las suculentas se encuentran Maihueniopsis camachoi , M. glomerata, Oreocereus variicolor y Trichocereus atacamensis (cardón).
+
+Las formaciones que resultaron de la clasificación de las comunidades se describen a continuación:
+
+- **a) Matorral con Atriplex imbricata y Maihueniopsis camachoi (LB1 H1 S1 me):**
+  - Matorral de hasta 40 cm de altura, cobertura rara vez supera un 5%. Dominantes: Atriplex imbricata, Maihueniopsis camachoi, Cistanthe celosioides y Tetragonia microcarpa. Se ubica en terrenos llanos, entre escorrentías y cursos menores de agua. Incluye ejemplares de Maihueniopsis glomerata y Trichocereus atacamensis (casi amenazados).
+
+- **b) Matorral con Atriplex imbricata y Helogyne macrogyne (LB2 H2 S1 e):**
+  - Matorral de hasta 40 cm de altura, cobertura hasta 10%. Dominantes: Atriplex imbricata, Helogyne macrogyne, Adesmia atacamensis. Ubicado en escorrentías de sitios llanos. Incluye Maihueniopsis glomerata (casi amenazado).
+
+- **c) Matorral con Atriplex imbricata y Haplopappus rigidus (LB 2 H1 S1 e):**
+  - Matorral de hasta 50 cm de altura, cobertura hasta 10%. Dominantes: Atriplex imbricata, Haplopappus rigidus, Ephedra breana. Ubicado en quebradillas más profundas. Incluye Maihueniopsis glomerata (casi amenazado).
+
+- **d) Matorral con Atriplex imbricata y Trichocereus atacamensis (LB1 H1 S2 e):**
+  - Matorral de hasta 50 cm de altura, incluye baja cobertura de Trichocereus atacamensis (cardón), cobertura hasta 10%. Otras especies: Helogyne macrogyne, Ephedra breana, Cistanthe cf. cabrerae, Oreocereus variicolor. Ubicado en quebradas no muy profundas y laderas rocosas. Incluye Trichocereus atacamensis y Maihueniopsis glomerata (casi amenazadas).
+
+- **e) Matorral con Atriplex imbricata (LB1 H1 S1 me):**
+  - Vegetación homogénea, dominada por Atriplex imbricata, hasta 50 cm de altura, cobertura hasta 5%. Otras especies: Acantholippia deserticola, Adesmia atacamensis. Ubicado en quebradillas y laderas bajas. Incluye Maihueniopsis glomerata (casi amenazado) y Menonvillea rollinsii (endemismo regional).
+
+- **f) Matorral con Atriplex imbricata y Adesmia atacamensis (LB2 H1 S1 e):**
+  - Matorral de hasta 60 cm de altura, cobertura hasta 10%. Dominantes: Acantholippia deserticola, Adesmia erinacea, Ephedra breana. Herbáceas: Cistanthe celosioides, C. salsoloides, Neuontobotrys tarapacana. Ubicado en fondo de quebrada. Incluye Maihueniopsis glomerata (casi amenazada).
+
+### 5.1.3 Comparación con la propuesta del trazado vigente
+
+En relación con la propuesta inicial de trazado, ésta conserva las características generales de la flora y de las unidades de vegetación. No existen diferencias significativas respecto del trazado cuya evaluación ambiental está vigente. En este nuevo trazado se protegerá el ejemplar de Trichocereus atacamensis distante a unos 18 m de la torre 212.
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="14" -->
+<!-- PageBreak -->
+
+<figure>
+SGAR ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+<!-- PageHeader="MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN" -->
+
+GDn Geotermia
+
+<figure>
+<figcaption>Figura 4. Cartografía de la vegetación, Sector El Abra</figcaption>
+<!-- (Mapa y simbología, ver original para detalles) -->
+</figure>
+
+<table>
+<tr>
+<th>Color</th>
+<th>Número</th>
+<th>Nombre formación</th>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>Matorral con Atriplex imbricata y Maihueniopsis camachoi</td>
+</tr>
+<tr>
+<td></td>
+<td>2</td>
+<td>Matorral con Atriplex imbricata y Helogyne macrogyne</td>
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td>Matorral con Atriplex imbricata y Haplopappus rigidus</td>
+</tr>
+<tr>
+<td></td>
+<td>4</td>
+<td>Matorral con Atriplex imbricata y Trichocereus atacamensis</td>
+</tr>
+<tr>
+<td></td>
+<td>5</td>
+<td>Matorral con Atriplex imbricata</td>
+</tr>
+<tr>
+<td></td>
+<td>6</td>
+<td>Matorral con Atriplex imbricata y Adesmia atacamensis</td>
+</tr>
+<tr>
+<td></td>
+<td>ZI</td>
+<td>ZONA INDUSTRIAL</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>DISEÑO:</th>
+<th>REVISIÓN:</th>
+<th>CONTENIDO:</th>
+</tr>
+<tr>
+<td>NG</td>
+<td>MD</td>
+<td>CARTA OCUPACIÓN</td>
+</tr>
+<tr>
+<td>DIBUJO: NG</td>
+<td>APROBÓ: MD</td>
+<td>DE TIERRAS</td>
+</tr>
+</table>
+
+<!-- PageFooter="Anexo 2-4" -->
+
+Fuente: Elaboración propia
+
+<!-- PageNumber="15" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+GDn Geotermia
+</figure>
+
+<table>
+<caption>Tabla 3. Unidades de la cartografía de ocupación de tierras (COT)</caption>
+<tr>
+<th>Color</th>
+<th>Número</th>
+<th>Formación</th>
+<th>Dominantes</th>
+<th>Suelo desnudo</th>
+<th>Nombre formación</th>
+<th>Hábitat</th>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>LB 1 H 1 S 1 me</td>
+<td>Ai, cs, tm, mC</td>
+<td>95%</td>
+<td>Matorral con Atriplex imbricata y Maihueniopsis camachoi</td>
+<td>Llano rocoso</td>
+</tr>
+<tr>
+<td></td>
+<td>2</td>
+<td>LB 2 H 2 S 1 e</td>
+<td>Ai - Aa - Hm</td>
+<td>90-95%</td>
+<td>Matorral con Atriplex imbricata y Helogyne macrogyne</td>
+<td>Escorrentías en llanos</td>
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td>LB 2 H 1 S 1 e</td>
+<td>Ai, Eb, Hr, pp</td>
+<td>90-95%</td>
+<td>Matorral con Atriplex imbricata y Haplopappus rigidus</td>
+<td>Quebrada</td>
+</tr>
+<tr>
+<td></td>
+<td>4</td>
+<td>LB 1 H 1 S 2 e</td>
+<td>Ai, cc, tA</td>
+<td>90-95%</td>
+<td>Matorral con Atriplex imbricata y Trichocereus atacamensis</td>
+<td>Ladera rocosas</td>
+</tr>
+<tr>
+<td></td>
+<td>5</td>
+<td>LB 1 H 1 S 1 me</td>
+<td>Ai, cs, cc</td>
+<td>90-95%</td>
+<td>Matorral con Atriplex imbricata</td>
+<td>Ladera baja y quebradillas</td>
+</tr>
+<tr>
+<td></td>
+<td>6</td>
+<td>LB 2 H 1 S 1 e</td>
+<td>Ai, Aa, cs, mB</td>
+<td>85-90%</td>
+<td>Matorral con Atriplex imbricata y Adesmia atacamensis</td>
+<td>Quebrada abierta</td>
+</tr>
+<tr>
+<td></td>
+<td>ZI</td>
+<td>ZONA INDUSTRIAL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Arbustos</th>
+<th>Hierbas</th>
+<th>Cactus</th>
+<th>Código</th>
+<th>Rango de cobertura</th>
+<th>Nombre</th>
+</tr>
+<tr>
+<td>Aa: Adesmia atacamensis</td>
+<td>Cc: Cistanthe cabrerae</td>
+<td>mC: Maihueniopsis camachoi</td>
+<td>1</td>
+<td>1-5%</td>
+<td>Muy escasa</td>
+</tr>
+<tr>
+<td>Ai: Atriplex imbricata</td>
+<td>CS: Cistanthe celosioides</td>
+<td>mG: Maihueniopsis glomerata</td>
+<td>2</td>
+<td>5-10%</td>
+<td>Escasa</td>
+</tr>
+<tr>
+<td>Eb: Ephedra breana</td>
+<td>pp: Phacelia pinnatifida</td>
+<td>tA: Trichocereus atacamensis</td>
+<td>3</td>
+<td>10-25%</td>
+<td>Muy clara</td>
+</tr>
+<tr>
+<td>Hr: Haplopappus rigidus</td>
+<td>tm: Tetragonia microcarpa</td>
+<td></td>
+<td>4</td>
+<td>25-50%</td>
+<td>Clara</td>
+</tr>
+<tr>
+<td>Hm: Helogyne macrogyne</td>
+<td></td>
+<td></td>
+<td>5</td>
+<td>50-75%</td>
+<td>Poco densa</td>
+</tr>
+<tr>
+<td>Mr: Menonvillea rollinsii</td>
+<td></td>
+<td></td>
+<td>6</td>
+<td>75-90%</td>
+<td>Densa</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>7</td>
+<td>90-100%</td>
+<td>Muy densa</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="16" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+<figcaption>Fotografía 6. Formación de vegetación 1. Matorral con Atriplex imbricata y Maihueniopsis camachoi.</figcaption>
+GDn Geotermia
+</figure>
+
+<figure>
+<figcaption>Fotografía 7. Formación de vegetación 2. Matorral con Atriplex imbricata y Helogyne macrogyne.</figcaption>
+</figure>
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="17" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+<figcaption>Fotografía 8. Formación de vegetación 3, matorral con Atriplex imbricata y Haplopappus rigidus.</figcaption>
+GDn Geotermia
+</figure>
+
+<figure>
+<figcaption>Fotografía 9. Formación de vegetación 4, matorral con Atriplex imbricata y Trichocereus atacamensis.</figcaption>
+</figure>
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="18" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+<figcaption>Fotografía 10. Formación de vegetación 5, matorral con Atriplex imbricata.</figcaption>
+GDn Geotermia
+</figure>
+
+<figure>
+<figcaption>Fotografía 11. Formación de vegetación 6, matorral con Atriplex imbricata y Adesmia atacamensis.</figcaption>
+</figure>
 
 ## 6. DISCUSIÓN
 
 ### 6.1 Flora
 
 Respecto de la composición de la flora vascular en las áreas donde se solicita se autorice la modificación del trazado de la LTE y la ubicación de la subestación, al comparar los resultados con los del Estudio de Impacto Ambiental (EIA) se obtuvo que ella es similar a la presentada en el EIA. Ello está conforme con lo esperado puesto que la ubicación de las propuestas de modificación no se aleja sustancialmente de la ubicación inicial.
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="19" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+GDn Geotermia
 
 En relación con las especies amenazadas, en el EIA del Proyecto Línea de Transmisión Eléctrica Cerro Pabellón (RCA 168/2013) se detectó que habría impacto sobre Maihueniopsis glomerata, cactus clasificado como "casi amenazada". La propuesta de modificación evita la intervención de varios ejemplares de Maihueniopsis glomerata.
 
@@ -397,26 +1263,75 @@ Los sitios de la nueva propuesta de ubicación de la Subestación Eléctrica, In
 
 Las comunidades pertenecen a tipos de vegetación de amplia distribución en el sector denominado como prepuna, entre Arica y Antofagasta. Respecto de la flora es notable la aparición de cactus columnares como Trichocereus atacamensis y Oreocereus variicolor. Maihuenopsis glomerata, clasificada como "casi amenazada" está presente en el trazado pero en sectores donde no habrá intervención. De acuerdo con este estudio se establece que no existen alteraciones a especies amenazadas en el nuevo trazado.
 
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="20" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+GDn Geotermia
+</figure>
+
 ## 8. REFERENCIAS BIBLIOGRÁFICAS
 
-- ALDUNATE, C.; J. J. ARMESTO; V. CASTRO Y C. VILLAGRÁN (1983): Ethnobotany of pre-altiplanic community in the Andes of Northern Chile. Economic Botany 37 (1)120-135.
-- BELMONTE, E; L. FAÚNDEZ; J. FLORES; A. HOFFMANN; M. MUÑOZ & S. TEILLIER. 1998. Categorías de conservación de cactáceas nativas de Chile. Boletín del Museo Nacional de Historia Natural 47: 69-89.
-- BENOIT, I (1989). Libro Rojo de las Plantas Terrestres de Chile. CONAF, Santiago de Chile.157 pp.
-- ETIENNE M. & C. PRADO 1982. Descripción de la vegetación mediante la cartografía de ocupación de tierras (COT). Ciencias Agrícolas Nº10. Fac. Cs. Agrarias, Veterinarias y Forestales. Universidad de Chile.
-- GAJARDO, R. 1994. La Vegetación Natural de Chile. Clasificación y Distribución geográfica. CONAF-Editorial Universitaria. Santiago de Chile.
-- HOFFMANN, A E & A FLORES. 1989. El estado de conservación de las plantas suculentas chilenas: una evaluación preliminar. En Benoit, I. Ed. Libro Rojo de las Plantas Terrestres de Chile. CONAF, Santiago de Chile. 111-127.
-- HOFFMANN, A E & H E WALTER. 2004. Cactáceas en la flora silvestre de Chile. Segunda edición. Fundación Claudio Gay. 307 pp.
-- LUEBERT. F & P. PLISCOFF. 2006. Sinopsis bioclimática y vegetacional de Chile. Editorial Universitaria. 307 pp.
-- MARTICORENA C., O MATTHEI, R. RODRIGUEZ, MK ARROYO, M MUÑOZ, F SQUEO & G ARANCIO. 1998. Catálogo de la flora vascular de la segunda región (región de Antofagasta), Chile. Gayana Bot. 55: 25-83.
-- MUÑOZ M.; H. NÚÑEZ & J. YÁÑEZ. 1996. Libro rojo de los Sitios Prioritarios para la Conservación de la diversidad biológica en Chile. CONAF. 203 pp.
-- REICHE, K. 1934. Geografía Botánica de Chile. (Traducción G. Looser), Imprenta Universitaria. Santiago de Chile.
-- TEILLIER, S. 1995. Informe Línea de Base, flora y vegetación. EIA, acueducto salar de Ascotán-El Abra, II Región. Geotécnica Consultores.
-- TEILLIER, S. 2004. La vegetación de la cuenca media-alta del río Loa (3100-4150 msnm). Región de Antofagasta (II), Chile. Chloris Chilensis Año Nº 2. URL: http:www.chlorischile.cl.
-- VILLAGRÁN, C, J.J. ARMESTO Y M.T. KALIN-ARROYO. 1981. Vegetation in a high Andean transect between Turi and cerro Leon in northern Chile. Vegetatio 48, 3-16.
-- VILLAGRÁN, C, M.T. KALIN-ARROYO & C. MARTICORENA. 1983. Efectos de la desertización en la distribución de la flora andina de Chile. Revista Chilena de Historia Natural. 56 (2) 137-157.
-- VILLAGRÁN C, V. CASTRO. 2003. Ciencia indígena de los Andes del norte de Chile. Editorial Universitaria. Santiago de Chile. 362 pp.
-- ZULOAGA, F, O. MORRONE & M. J. BELGRANO. 2009. Catálogo de las Plantas Vasculares del Cono Sur. Versión on line: URL: http://www2.darwin.edu.ar/Proyectos/FloraArgentina/FA.asp (Consultada 05-2015).
-- SGA, Capítulo 2 y Anexo 2-1 del Estudio de Impacto Ambiental Proyecto Línea de Transmisión Eléctrica Cerro Pabellón, 03 de agosto de 2012.
+ALDUNATE, C.; J. J. ARMESTO; V. CASTRO Y C. VILLAGRÁN (1983): Ethnobotany of pre-altiplanic community in the Andes of Northern Chile. Economic Botany 37 (1)120-135.
+
+BELMONTE, E; L. FAÚNDEZ; J. FLORES; A. HOFFMANN; M. MUÑOZ & S. TEILLIER. 1998. Categorías de conservación de cactáceas nativas de Chile. Boletín del Museo Nacional de Historia Natural 47: 69-89.
+
+BENOIT, I (1989). Libro Rojo de las Plantas Terrestres de Chile. CONAF, Santiago de Chile.157 pp.
+
+ETIENNE M. & C. PRADO 1982. Descripción de la vegetación mediante la cartografía de ocupación de tierras (COT). Ciencias Agrícolas Nº10. Fac. Cs. Agrarias, Veterinarias y Forestales. Universidad de Chile.
+
+GAJARDO, R. 1994. La Vegetación Natural de Chile. Clasificación y Distribución geográfica. CONAF-Editorial Universitaria. Santiago de Chile.
+
+HOFFMANN, A E & A FLORES. 1989. El estado de conservación de las plantas suculentas chilenas: una evaluación preliminar. En Benoit, I. Ed. Libro Rojo de las Plantas Terrestres de Chile. CONAF, Santiago de Chile. 111-127.
+
+HOFFMANN, A E & H E WALTER. 2004. Cactáceas en la flora silvestre de Chile. Segunda edición. Fundación Claudio Gay. 307 pp.
+
+LUEBERT. F & P. PLISCOFF. 2006. Sinopsis bioclimática y vegetacional de Chile. Editorial Universitaria. 307 pp.
+
+MARTICORENA C., O MATTHEI, R. RODRIGUEZ, MK ARROYO, M MUÑOZ, F SQUEO & G ARANCIO. 1998. Catálogo de la flora vascular de la segunda región (región de Antofagasta), Chile. Gayana Bot. 55: 25-83.
+
+MUÑOZ M.; H. NÚÑEZ & J. YÁÑEZ. 1996. Libro rojo de los Sitios Prioritarios para la Conservación de la diversidad biológica en Chile. CONAF. 203 pp.
+
+REICHE, K. 1934. Geografía Botánica de Chile. (Traducción G. Looser), Imprenta Universitaria. Santiago de Chile.
+
+TEILLIER, S. 1995. Informe Línea de Base, flora y vegetación. EIA, acueducto salar de Ascotán-El Abra, II Región. Geotécnica Consultores.
+
+TEILLIER, S. 2004. La vegetación de la cuenca media-alta del río Loa (3100-4150 msnm). Región de Antofagasta (II), Chile. Chloris Chilensis Año Nº 2. URL: http:www.chlorischile.cl.
+
+VILLAGRÁN, C, J.J. ARMESTO Y M.T. KALIN-ARROYO. 1981. Vegetation in a high Andean transect between Turi and cerro Leon in northern Chile. Vegetatio 48, 3-16.
+
+VILLAGRÁN, C, M.T. KALIN-ARROYO & C. MARTICORENA. 1983. Efectos de la desertización en la distribución de la flora andina de Chile. Revista Chilena de Historia Natural. 56 (2) 137-157.
+
+<!-- PageFooter="Anexo 2-4" -->
+<!-- PageNumber="21" -->
+<!-- PageBreak -->
+
+<figure>
+SGA ® soluciones en gestión ambiental
+</figure>
+
+<!-- PageHeader="ANEXO 2-4" -->
+
+MODIFICACIÓN LÍNEA DE TRANSMISIÓN ELÉCTRICA CERRO PABELLÓN
+
+<figure>
+GDn Geotermia
+</figure>
+
+VILLAGRÁN C, V. CASTRO. 2003. Ciencia indígena de los Andes del norte de Chile. Editorial Universitaria. Santiago de Chile. 362 pp.
+
+ZULOAGA, F, O. MORRONE & M. J. BELGRANO. 2009. Catálogo de las Plantas Vasculares del Cono Sur. Versión on line: URL: http://www2.darwin.edu.ar/Proyectos/FloraArgentina/FA.asp (Consultada 05-2015).
+
+SGA, Capítulo 2 y Anexo 2-1 del Estudio de Impacto Ambiental Proyecto Línea de Transmisión Eléctrica Cerro Pabellón, 03 de agosto de 2012.
 
 <!-- PageFooter="Anexo 2-4" -->
 <!-- PageNumber="22" -->

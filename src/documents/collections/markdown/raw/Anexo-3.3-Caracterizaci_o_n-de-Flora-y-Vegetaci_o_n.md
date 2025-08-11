@@ -1,0 +1,1970 @@
+<figure>
+
+E
+
+SF Consultores
+
+</figure>
+
+
+Anexo 3.3
+Caracterización Flora y
+vegetación
+
+Declaración de Impacto
+Ambiental
+
+Modificación de la Línea
+Eléctrica de Evacuación del
+Parque Solar Fotovoltaico
+Arrebol
+
+Región de Tarapacá
+
+Enero, 2023
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="E" -->
+<!-- PageHeader="SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+# ÍNDICE GENERAL
+
+1\.
+Introducción
+1
+
+2\.
+Objetivos
+1
+
+2.1.
+Objetivo general
+1
+
+2.2.
+Objetivos específicos
+1
+
+3\.
+Metodología
+2
+
+3.1.
+Revisión bibliográfica
+2
+
+3.2.
+Área de Influencia
+2
+
+3.3.
+Fotointerpretación
+3
+
+3.4.
+Vegetación
+4
+
+3.5. Flora
+
+4
+
+3.6.
+Singularidades flora y vegetación
+5
+
+6
+
+3.7.
+Metodología de prospección
+7
+
+4\.
+Resultados
+
+4.1.
+Antecedentes bibliográficos
+7
+
+4.2.
+Muestreo flora y vegetación
+9
+
+4.3.
+Vegetación
+9
+
+4.4. Flora
+
+10
+
+4.5.
+Singularidades
+
+10
+
+5\.
+Conclusiones
+12
+
+6\.
+Bibliografía
+13
+
+7\.
+Apéndice
+16
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="i" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+E
+SF Consultores
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+# ÍNDICE DE TABLAS
+
+Tabla 1. Criterios de clasificación de polígonos en la fotointerpretación
+4
+Tabla 2. Escala de valores adaptada a partir de Braun-Blanquet (1950, 1979).
+5
+
+Tabla 3. Listado potencial de especies de flora presentes en el Área de Influencia.
+8
+
+
+# ÍNDICE DE FIGURAS
+
+
+<table>
+<tr>
+<td>Figura 1. Ubicación del Proyecto.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Figura 2. Puntos prospectados en el Área de Influencia.</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Figura 3. Fisionomía del Área de Influencia.</td>
+<td>10</td>
+</tr>
+</table>
+
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="ii" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+## 1. Introducción
+
+Este documento presenta la caracterización ambiental de flora y vegetación asociada al
+Área de Influencia del Proyecto Modificación de la Línea Eléctrica de Evacuación del Parque
+Solar Fotovoltaico Arrebol, ubicado al sur de Pozo Almonte, provincia del Tamarugal, en la
+Región de Tarapacá.
+
+En particular, corresponde dar cuenta acerca del estado actual y distribución espacial de
+las unidades vegetacionales presentes en el Área de Influencia del proyecto, así como de
+las taxa de flora allí presentes, de manera de determinar si el proyecto podría generar
+alguno de los impactos adversos significativos establecidos en el artículo 11 de la Ley
+19.300 y detallados en los artículos 5 al 10 del Reglamento del Sistema de Evaluación de
+Impacto Ambiental (D.S. Nº 40/2012).
+
+La descripción y clasificación de vegetación se basará en parámetros cuantitativos de
+abundancia como son la densidad de especies y el porcentaje de recubrimiento de copas,
+de acuerdo con lo estipulado principalmente en los cuerpos legales regulatorios para
+vegetación, como la Ley Nº 20.283 (Ley de fomento y recuperación del bosque nativo), y
+otros documentos como la Guía de Evaluación Ambiental CONAF (2020) para flora y
+vegetación, y la Guía para la Descripción del Área de Influencia (SEA, 2015/2017) entre las
+principales.
+
+
+## 2. Objetivos
+
+
+### 2.1. Objetivo general
+
+Caracterizar la flora vascular y vegetación terrestre del Área de Influencia asociada al
+proyecto "Modificación de la Línea Eléctrica de Evacuación del Parque Solar Fotovoltaico
+Arrebol" de acuerdo con lo establecido en el artículo 18 del RSEIA1 y las guías
+metodológicas del SEA (2015/2017).
+
+
+### 2.2. Objetivos específicos
+
+· Definir el Área de Influencia para el componente flora y vegetación.
+
+· Delimitar y caracterizar las formaciones vegetales presentes en el Área de Influencia.
+
+· Determinar la ubicación, distribución, diversidad y abundancia de las especies de flora
+del Área de Influencia.
+
+· Determinar y analizar el estado de conservación de las especies del Área de Influencia.
+
+· Determinar y analizar singularidades ambientales del componente flora y vegetación en
+el Área de Influencia.
+
+1 Reglamento del Sistema de Evaluación de Impacto ambiental, D.S. Nº40/2012 del Ministerio del Medio
+Ambiente.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="1" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+## 3. Metodología
+
+
+### 3.1. Revisión bibliográfica
+
+A objeto de establecer el marco biogeográfico, se utilizaron como referencia los trabajos de
+Gajardo (1994) "Vegetación Natural de Chile" y de Luebert y Pliscoff (2017), "Sinopsis
+bioclimática y vegetacional de Chile". Adicionalmente se desarrolló la búsqueda de la flora
+potencial del Área de Influencia basado en proyectos aledaños.
+
+En cuanto a la clasificación de vegetación, se han consultado las definiciones contenidas
+en los cuerpos legales vigentes como la Ley Nº 20.283 (fomento y recuperación del bosque
+nativo), y otros documentos de referencia como la Guía de Evaluación Ambiental CONAF
+(2014) para flora y vegetación y la Guía para la Descripción de Ecosistemas Terrestres del
+Servicio de Evaluación Ambiental (2015/2017).
+
+
+### 3.2. Área de Influencia
+
+De acuerdo a la Guía para la Descripción del Área de Influencia (SEA, 2017), ésta se define
+como el área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales
+deben ser considerados con la finalidad de definir si el proyecto o actividad genera o
+presenta alguno de los efectos, características o circunstancias del artículo 11 de la Ley
+Nº19.300, o bien para justificar la inexistencia de dichos efectos, características o
+circunstancias (letra a del artículo 2 del Reglamento del SEIA).
+
+En este sentido, para el componente flora y vegetación es pertinente definir el espacio
+geográfico y su caracterización general, de manera de justificar la inexistencia de aquellos
+efectos, características o circunstancias indicados en el citado artículo.
+
+El Proyecto estará emplazado al sur de Pozo Almonte, provincia del Tamarugal, en la
+Región de Tarapacá, tal como es posible observar en la Figura 1.
+
+Para la presente caracterización de flora y vegetación, se consideró como Área de
+Influencia la superficie en la cual se proyecta la línea de transmisión eléctrica, más un buffer
+de 50 metros alrededor de ella. De esta manera, la superficie total del Área de Influencia
+corresponde a 16,31 ha.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageNumber="2" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SF Consultores
+
+</figure>
+
+
+<figure>
+<figcaption>Figura 1. Ubicación del Proyecto.</figcaption>
+
+SOLAR
+PACK
+
+</figure>
+
+
+<figure>
+
+O
+
+C
+
+40
+
+0
+
+5
+
+PAMPA DE CHIZA
+
+INCOTA
+
+Cuya
+
+\*
+
+\-
+
+0
+
+o
+
+\-
+
+.
+
+\-
+
+C
+
+I
+
+A
+
+\*
+
+PAMPA OR TANA
+\-
+
+DAtula
+
+102
+
+O
+
+=
+Océano
+
+\-
+
+O
+
+Camiña
+
+NACIONAL
+
+lslug
+
+O
+
+VOLCAN
+
+Colchane
+
+\-
+
+3
+
+P
+
+05
+
+Cinquma
+
+CHILE
+
+៛
+
+Pisaquad
+
+40
+
+\-
+
+\*
+
+BOLIV'
+
+\*
+
+0
+
+7
+
+O
+
+O
+
+NEBERVN
+NACIONAL
+PAMPA DEL
+TAMARLIDAL
+
+T
+
+S
+
+\-
+
+O
+
+-0
+
+44
+
+\-
+
+SA
+
+a
+
+·
+
+\-
+
+Ca Lirima
+
+Pachica
+
+O
+
+P
+
+Huara
+
+5
+
+C
+
+135
+
+N
+
+\*
+
+E
+
+\-
+
+\-
+
+O
+
+Tarapacá
+
+O
+
+0
+
+C
+
+Ubicación del
+Proyecto
+
+O
+
+1.720
+
+\*
+
+bMamifia
+
+&
+
+A
+
+IQUIQUE
+
+19
+
+8
+
+.
+
+\*
+
+.
+
+5
+
+\-
+
+AT
+
+Pozo
+Almonte
+
+58
+
+(
+
+4
+
+PAMPA'
+
+La Tirana
+
+\*
+
+A
+
+HUASCO
+
+\-
+
+.
+
+46
+
+X
+
+La Hualca
+
+2
+
+»
+
+Pica.
+E
+
+Saar &
+
+Saar de
+Pintados
+
+I
+
+ALTOS DE FICA
+
+O
+
+W
+
+'S1
+
+\-
+
+m
+
+Parte Purta
+
+1
+
+.
+
+MACHOMAL
+PAMPA DEL
+TAMAFUNGAL
+
+A
+
+0
+
+Guatacondo
+
+0
+
+.
+
+5
+
+69
+
+34
+
+8
+
+Mme Lamit
+
+54
+
+COM
+
+San Marcos
+
+\-
+
+.
+
+\-
+
+\*
+
+\>
+
+Amaçule
+
+00
+
+4389
+
+Salar du
+
+\-
+
+₹
+
+\-
+
+&
+
+0
+
+\+
+8
+
+\>
+
+Ollagüe
+
+O
+
+</figure>
+
+Fuente: Elaboración propia, 2023.
+
+
+### 3.3. Fotointerpretación
+
+Para obtener una cobertura actualizada del Área de Influencia se utilizaron imágenes
+provenientes de Google Earth y ESRI DigitalGlobe, y de acuerdo a un criterio experto y el
+conocimiento empírico del territorio se digitalizaron unidades homogéneas, basado en los
+siguientes criterios:
+
+· Tono y color: Según SAF (2004), el tono es una característica física propia de las
+fotografías aéreas pancromáticas y corresponde a la cantidad relativa de luz solar que
+se refleja y queda registrada en ella. Cada elemento del paisaje tiene una capacidad
+determinada de reflejar la luz según sus características físicas y su color, por lo tanto,
+puede ser utilizado para fines de reconocimiento espacial.
+
+· Texturas: Se define como "la distribución de tonos que presenta un conjunto de
+unidades que son muy pequeñas para ser identificadas individualmente". Se encuentran
+tipos de textura que se pueden caracterizar como: lisa, áspera, granular, lanosa,
+moteada, entre otras (De Agostini, 1978).
+
+· Formas: La forma de los elementos en el paisaje ayuda a identificar y delimitar la
+cobertura o uso a la cual pertenece (De Agostini, 1978) encontrándose desde formas
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="3" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SF Consultores
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+regulares a irregulares y que en general corresponderían a fenómenos propios de un
+paisaje natural o cultural (SAF, 2004).
+
+· Sombras: El relieve terrestre y los objetos pueden proyectar sombras al interferir con la
+luz solar y llegar a ser de gran tamaño, perjudicando la identificación del elemento.
+Debido a este fenómeno se utilizaron las dos fuentes de información de imágenes
+anteriormente descrita.
+
+Para la digitalización se utilizó el software ArcGIS 10.5 y los criterios anteriormente
+señalados. La escala usada para la digitalización de unidades de vegetación fue de 1:5.000.
+
+
+### 3.4. Vegetación
+
+La clasificación de polígonos se basó inicialmente en clases de uso actual del suelo,
+definidas en el Catastro de los Recursos Vegetacionales Nativos de Chile, adaptada para
+el presente estudio a partir de la experiencia de fotointerpretación de proyectos sometidos
+al SEIA, en diversas regiones geográficas del país. Los criterios de clasificación son
+señalados en la siguiente tabla:
+
+
+<table>
+<caption>Tabla 1. Criterios de clasificación de polígonos en la fotointerpretación.</caption>
+<tr>
+<th>Uso actual</th>
+<th>Sub-uso</th>
+</tr>
+<tr>
+<td>Bosque</td>
+<td></td>
+</tr>
+<tr>
+<td>Matorral</td>
+<td></td>
+</tr>
+<tr>
+<td>Pradera</td>
+<td></td>
+</tr>
+<tr>
+<td>Humedal</td>
+<td></td>
+</tr>
+<tr>
+<td>Cuerpos de agua</td>
+<td>Lagos, lagunas, embalses</td>
+</tr>
+<tr>
+<td>Áreas sin vegetación</td>
+<td>Cajas de río, cumbres, glaciares, afloramientos rocosos, desierto</td>
+</tr>
+<tr>
+<td>Plantación forestal</td>
+<td></td>
+</tr>
+<tr>
+<td>Terrenos agrícolas</td>
+<td></td>
+</tr>
+<tr>
+<td>Urbano e industrial</td>
+<td>Ciudades, pueblos, actividad minera, caminos, carreteras, subestaciones</td>
+</tr>
+<tr>
+<td>Asentamientos humanos</td>
+<td>Casas, galpones</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia a partir de criterios de uso actual del suelo, definidos en el Catastro de los
+Recursos Vegetacionales Nativos de Chile, adaptada para el presente estudio a partir de experiencias de
+fotointerpretación de proyectos sometidos al SEIA.
+
+
+### 3.5. Flora
+
+Para determinar las especies de flora presentes en la zona del Proyecto, y en forma paralela
+al levantamiento de vegetación, se reconoció, registró y colectó, en herbario, muestras de
+las diferentes especies presentes para posteriormente ser identificadas en gabinete en base
+a claves taxonómicas apropiadas.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="4" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+La determinación y nomenclatura taxonómica de las muestras colectadas en terreno se
+basó principalmente en Hoffmann (1998), Marticorena y Quezada (1985), Marticorena y
+Rodríguez (1995, 2001, 2003, 2005), Zuloaga et al. (2008), Rodríguez et al. (2018) y fue
+apoyada por listados de flora potencial obtenidos de Gajardo (1994) y Luebert y Pliscoff
+(2017).
+
+A partir de toda la información recolectada se elaboró un catálogo florístico del Área de
+Influencia, indicando nombre científico, clasificación taxonómica y forma de crecimiento.
+Asimismo, se registró el estado de conservación de las especies en función de la legislación
+vigente2, conclusiones del Libro Rojo de la Flora Terrestre de Chile (CONAF, 1989) y el
+Boletín Nº47 del Museo Nacional de Historia Natural (Baeza et al., 1998; Belmonte et al.,
+1998 y Ravenna et al., 1998).
+
+Finalmente, en cada unidad cartográfica se realizaron inventarios florísticos, estableciendo
+la importancia fitosociológica de cada especie mediante una escala de valores adaptada a
+partir de Braun-Blanquet (1979) (Tabla 2).
+
+
+<table>
+<caption>Tabla 2. Escala de valores adaptada a partir de Braun-Blanquet (1950, 1979).</caption>
+<tr>
+<th>Registro</th>
+<th>Atributos de la comunidad</th>
+</tr>
+<tr>
+<td>5</td>
+<td>Cualquier número de individuos, pero con cobertura superior al 75% de la parcela</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cualquier número de individuos, pero con cobertura entre 50 y 75% de la parcela</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Cualquier número de individuos, pero con cobertura entre 25 y 50% de la parcela</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cualquier número de individuos, pero con cobertura entre 5 y 25% de la parcela</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Cualquier número de individuos, pero con menos del 5% de cobertura o individuos dispersos con más de 5% de cobertura</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Pocos individuos con cobertura reducida (&lt;5%)</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Individuos solitarios con muy baja cobertura (&lt;1%)</td>
+</tr>
+</table>
+
+Fuente: Modificado de Braun Blanquet, citado en Müeller-Dombois y Ellenberg (1974).
+
+
+### 3.6. Singularidades flora y vegetación
+
+A partir de la información colectada se incluye un análisis de identificación de singularidades
+ambientales, en base a lo mencionado por CONAF en su Guía de Evaluación Ambiental
+(2014). Los criterios revisados para identificar las singularidades son:
+
+· Presencia de formaciones vegetales únicas o de baja representatividad nacional
+
+· Presencia de formaciones vegetales relictuales, reliquias y/o remanentes
+
+· Presencia de formaciones vegetales frágiles
+
+2 Ley 19.300; y su reglamento DS 75/2005 "Procedimiento de Clasificación de Especies Silvestres, que da origen
+-a la fecha- a los 17 decretos supremos.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="5" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+· Presencia de Bosque Nativo de Preservación
+
+· Actividad en o colindante con sitios prioritarios para la conservación de la diversidad
+definidos en las estrategias regionales
+
+· Actividad en o colindante con áreas bajo protección oficial
+
+· Actividad en o colindante con áreas protegidas privadas
+
+· Actividad en o colindante con o aguas arriba de Humedales
+
+· Presencia de ejemplares de especies vegetales clasificadas en categorías de
+conservación
+
+· Presencia de especies vegetales protegidas por regulaciones especiales
+
+· Presencia de especies endémicas
+
+· Presencia de especies de distribución restringida
+
+· Localización en o próxima al límite de distribución geográfica de la especie
+
+
+### 3.7. Metodología de prospección
+
+Las metodologías para caracterizar la vegetación y flora corresponden a aquellas indicadas
+en la Guía Para la Descripción del Área de Influencia (Ecosistemas Terrestres) del SEA
+(2015).
+
+Para aquellos sectores sin vegetación y otros usos de suelo en general, se describió la
+estructura de la vegetación y/o el uso actual del suelo a través del método de la Carta de
+Ocupación de Tierras (COT).
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageNumber="6" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+## 4. Resultados
+
+
+### 4.1. Antecedentes bibliográficos
+
+Dada su localización geográfica, y de acuerdo a la clasificación de Gajardo3, el área de
+estudio se inserta en la región del desierto que se extiende desde el extremo norte de Chile
+hasta el río Elqui. Esta región se presenta principalmente a una altitud media de 1.500
+m.s.n.m., abarcado desde los abruptos acantilados costeros, hasta laderas occidentales de
+la Cordillera de Los Andes. Esta región se divide en las siguientes sub-regiones: desierto
+absoluto, desierto costero, desierto andino y desierto florido.
+
+El Área de Influencia se encuentra inserta en la sub-región del desierto absoluto, que se
+caracteriza por precipitaciones insignificantes, con vida vegetal restringida a condiciones
+muy particulares de aporte hídrico a partir de napas freáticas. Es calificado como desierto
+absoluto, ya que la vegetación está prácticamente ausente en gran parte de su extensión.
+Para esta sub-región se distinguen una serie de formaciones, siendo el desierto interior la
+formación donde está inserta el área del Proyecto.
+
+La formación del desierto interior se caracteriza por carecer casi completamente de vida
+vegetal, salvo en condiciones muy locales con presencia de agua subterránea. La
+comunidad Tessaria absinthioides - Distichlis spicata se encuentra ampliamente
+distribuida, especialmente como ruderal en lugares con intervención humana o bajo la
+influencia de aguas de alta salinidad.
+
+Para el caso de los pisos vegetacionales, y de acuerdo con Luebert y Pliscoff4, el área se
+ubica en el piso desierto tropical interior con vegetación escasa, el cual se distribuye en el
+interior de las regiones de Tarapacá y Antofagasta, entre 200 y 2.000 m.s.n.m. Corresponde
+a la pampa desértica, la cual carece casi completamente de vida vegetal, excepto en
+algunos sectores con presencia de napa subterránea salobre donde se observa un matorral
+halófilo dominado por Tessaria absinthioides.
+
+A continuación, se presenta el listado de flora potencial del Área de Influencia basada en
+los autores antes mencionados y en la búsqueda de proyectos aledaños evaluados
+ambientalmente en el SEIA que presentan registros de flora en sus líneas de base (Tabla
+3).
+
+3 Gajardo, R. 1994. La Vegetación Natural de Chile. Clasificación y Distribución Geográfica. Editorial
+Universitaria. 165 p.
+
+4 Luebert, F. y P. Pliscoff, 2017. Sinopsis Bioclimática y Vegetacional de Chile (segunda edición). Serie
+Biodiversidad. Editorial Universitaria. Stgo, Chile. 316 p.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="7" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SF Consultores
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+<table>
+<caption>Tabla 3. Listado potencial de especies de flora presentes en el Área de Influencia.</caption>
+<tr>
+<th>Especie</th>
+<th>Nombre común</th>
+<th>Origen</th>
+<th>Forma de vida</th>
+<th>Fuente</th>
+</tr>
+<tr>
+<td>Atriplex atacamensis Phil.</td>
+<td>Cachiyuyo</td>
+<td>Nativa</td>
+<td>Arbusto</td>
+<td>EIA Pampa Solar (RCA 49/2015)</td>
+</tr>
+<tr>
+<td>Caesalpinia aphylla Phil.</td>
+<td>Retamo</td>
+<td>Endémica</td>
+<td>Arbusto</td>
+<td>Planta Solar Pintados (RCA 93/2014)</td>
+</tr>
+<tr>
+<td>Cisthante amaranthoides Phil.</td>
+<td>-</td>
+<td>Endémica</td>
+<td>Suculenta</td>
+<td>Parque Solar El Tamarugo (RCA 40/2014)</td>
+</tr>
+<tr>
+<td>Cristaria dissecta (Hook. et Arn.)</td>
+<td>-</td>
+<td>Endémica</td>
+<td>Herbácea</td>
+<td>Parque Solar El Tamarugo (RCA 40/2014)</td>
+</tr>
+<tr>
+<td>Distichlis spicata (L.) Greene</td>
+<td></td>
+<td>Nativa</td>
+<td>Herbácea</td>
+<td>Gajardo (1994)</td>
+</tr>
+<tr>
+<td>Malesherbia tenuifolia D. Don</td>
+<td>-</td>
+<td>Endémica</td>
+<td>Sub arbusto</td>
+<td>Parque Solar El Tamarugo (RCA 40/2014)</td>
+</tr>
+<tr>
+<td>Nolana foliosa (Phil.) I.M. Johnst.</td>
+<td>-</td>
+<td>Endémica</td>
+<td>Arbusto</td>
+<td>Parque Solar El Tamarugo (RCA 40/2014)</td>
+</tr>
+<tr>
+<td>Nolana leptophylla (Miers) I.M. Johnst.</td>
+<td>Nolana</td>
+<td>Endémica</td>
+<td>Arbusto</td>
+<td>Pampa Solar (RCA 49/2015)</td>
+</tr>
+<tr>
+<td>Prosopis alba Griseb.</td>
+<td>-</td>
+<td>Nativa</td>
+<td>Arbusto</td>
+<td>Parque Solar El Tamarugo (RCA 40/2014)</td>
+</tr>
+<tr>
+<td>Prosopis tamarugo Phil.</td>
+<td>Tamarugo</td>
+<td>Endémica</td>
+<td>Árbol</td>
+<td>Pampa Solar (RCA 49/2015)</td>
+</tr>
+<tr>
+<td>Schinus molle L.</td>
+<td>Molle</td>
+<td>Nativa</td>
+<td>Árbol</td>
+<td>Parque Solar El Tamarugo (RCA 40/2014)</td>
+</tr>
+<tr>
+<td>Tessaria absinthioides (Hook. et Arn.) DC.</td>
+<td>Brea, soroma</td>
+<td>Nativa</td>
+<td>Arbusto</td>
+<td>Luebert y Pliscoff (2017), Gajardo (1994)</td>
+</tr>
+<tr>
+<td>Tillandsia landbeckii Phil</td>
+<td>Calachunca</td>
+<td>Nativa</td>
+<td>Hierba</td>
+<td>Parque Iquique Solar (RCA 34/2020)</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia en base a estudios bibliográficos, 2023.
+
+
+<!-- PageFooter="Declaración de Impacto Ambiental Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="8" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SF Consultores
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+### 4.2. Muestreo flora y vegetación
+
+Durante la campaña de terreno realizada el 4 de diciembre de 2022, se ejecutaron un total
+de 3 puntos de prospección, abarcando la superficie asociada a las obras del Proyecto, más
+un buffer de 50 metros alrededor de ellas, lo que en total corresponde a 16,31 ha (Área de
+Influencia).
+
+En cada unidad de muestreo se desarrolló la metodología específica tanto para flora como
+vegetación (Figura 2). Las coordenadas geográficas se observan el Apéndice.
+
+
+<figure>
+<figcaption>Figura 2. Puntos prospectados en el Área de Influencia.</figcaption>
+
+426000
+
+426500
+
+427000
+
+427500
+
+428000
+
+428500
+
+7698900
+
+7698900
+
+1
+
+1
+
+/
+
+7698600
+
+7698600
+
+\+
+
+\+
+
+\+
+
+\+
+
+ARR15
+
+7698300
+
+ARR14
+
+7698300
+
+\+
+
+\+
+
+A
+
+ARR13
+
+7698000
+
+7698000
+
+7697700
+
+\+
+
+\+
+
+\+
+
+Leyenda
+
+7697700
+
+N
+
+RUTA 5
+
+☐
+Área de influencia nueva LTE
+
+Nuevo trazado LTE
+
+7697400
+
+\+
+
+\+
+
+\+
+
+\+
+
+· Poste nuevo trazado
+
+7697400
+
+Puntos prospectados
+
+Red Vial
+
+7697100
+
+Huellas secundarias
+
+1
+
+1
+
+☐
+Área de influencia ya evaluada
+
+7697100
+
+☐
+Subestación Lagunas
+
+0
+
+87,5 175
+
+350
+
+525
+
+700
+
+7696800
+
+Meters
+
+Datum: WGS 84 Huso: 19 Sur Escala: 1:10.000
+
+\+
+
+Source: Esri, Maxar, GeoEye, Earthst
+GIS User Community
+
+7696800
+
+426000
+
+426500
+
+427000
+
+427500
+
+428000
+
+428500
+
+</figure>
+
+Fuente: Elaboración propia en base a imagen de google earth, 2023.
+
+
+### 4.3. Vegetación
+
+De acuerdo con la prospección llevada a cabo, el Área de Influencia corresponde al paisaje
+propio de la región, esto es, grandes extensiones donde, independiente de la situación
+topográfica, no se manifiesta forma vegetal alguna ni presencia de elementos florísticos.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="9" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+El sector presenta un paisaje de lomaje muy suave de pendientes bajas con ausencia total
+de vegetación, lo que es concordante con la Región del Desierto Absoluto descrita por
+Gajardo (1994). Cabe mencionar que dentro de las áreas prospectadas no se registraron
+evidencias de vegetación alguna o existencia previa de ella, tal como es posible apreciar
+en la Figura 3. La cartografía de vegetación asociada a las obras del proyecto se presenta
+en el Apéndice .
+
+
+<figure>
+<figcaption>Figura 3. Fisionomía del Área de Influencia.</figcaption>
+</figure>
+
+Fuente: Registro fotográfico de terreno, 2023.
+
+
+### 4.4. Flora
+
+En el área prospectada no se encontró evidencia de elementos florísticos.
+
+
+### 4.5. Singularidades
+
+Las singularidades ambientales asociadas a vegetación y flora se analizaron utilizando los
+criterios indicados en la Guía de Evaluación Ambiental (CONAF, 2020), Guía para la
+descripción del Área de Influencia (SEA, 2015) y Guía de Evaluación de Impacto Ambiental
+(SEA, 2015) en contraste con la información registrada en la campaña de terreno. Para el
+caso de ésta línea de base de flora y vegetación, se analizan sólo aquellas singularidades
+que efectivamente aplican dentro del contexto del Área de Influencia del presente Proyecto.
+
+
+## · Presencia de formaciones vegetales únicas o de baja representatividad nacional
+
+De acuerdo a los antecedentes expuestos, no se registró la presencia de formaciones
+vegetales únicas o de baja representatividad nacional dentro del Área de Influencia.
+
+
+## · Presencia de formaciones vegetales relictuales
+
+De acuerdo a los antecedentes expuestos, no se registró la presencia de formaciones
+vegetales relictuales dentro del Área de Influencia.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="10" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+## · Presencia de formaciones vegetales remanentes
+
+De acuerdo a los antecedentes expuestos, no se registró la presencia de formaciones
+vegetales remanentes dentro del Área de Influencia.
+
+
+## · Presencia de formaciones vegetales frágiles
+
+De acuerdo a los antecedentes expuestos, no se registró la presencia de formaciones
+vegetales frágiles dentro del Área de Influencia.
+
+· Presencia de bosque nativo de preservación o formaciones xerofíticas que
+contienen especies clasificadas según su estado de conservación de acuerdo a
+lo estipulado en la Ley Nº 19.300.
+
+En el Área de Influencia no se registraron bosques de preservación ni formaciones
+xerofíticas que contengan especies clasificadas en categoría de conservación según lo
+estipulado en la Ley Nº19.300.
+
+· Actividad en o colindante con sitios prioritarios para la conservación de la
+diversidad definidos en las estrategias regionales
+
+El Área de Influencia del Proyecto no se traslapa ni está dentro de los límites de algún sitio
+prioritario para la conservación.
+
+
+## · Actividad en o colindante con áreas bajo protección oficial
+
+El área colocada bajo protección oficial más cercana a las obras corresponde a la Reserva
+Nacional Pampa del Tamarugal; sin embargo, dicha reserva se encuentra al otro lado de la
+Ruta 5 Norte, por lo que no se verá influenciada por el Proyecto.
+
+· Actividad en o colindante con áreas de protección privada
+
+El Área de Influencia del Proyecto no se traslapa ni está dentro de los límites de algún tipo
+de área de protección privada.
+
+
+## · Actividad en o colindante con aguas arriba de Humedales
+
+El Área de Influencia del Proyecto no se traslapa ni está dentro de los límites de algún
+humedal.
+
+
+## · Actividad en o colindante con áreas de protección (Ley 18.378)
+
+De acuerdo con la información y material cartográfico disponible, no existe registro en o
+colindante al Área de Influencia del Proyecto con áreas de protección de acuerdo a la Ley
+18.378, correspondientes a aquellas denominadas "distritos de conservación de suelos,
+bosques y aguas", así como a áreas con prohibición de cortar árboles en franjas de hasta
+100 metros desde carreteras públicas, orillas de ríos y de lagos, y quebradas no
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageNumber="11" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+susceptibles de aprovechamiento, cuando así lo requiera la conservación de la riqueza
+turística.
+
+· Presencia de especies clasificadas según su estado de conservación como
+amenazadas, incluyendo la categoría "casi amenazadas".
+
+En el Área de Influencia no se registró la presencia de especies de flora.
+
+· Presencia de especies vegetales protegidas por regulaciones especiales
+
+De acuerdo a los listados florísticos y según la normativa ambiental y sectorial, en el área
+prospectada no se registraron especies reguladas por medidas de protección especiales.
+
+· Presencia de especies endémicas
+
+No se presentan especies de origen endémico a nivel nacional.
+
+· Presencia de especies con distribución restringida
+
+No se registraron especies con distribución restringida en el Área de Influencia.
+
+· Localización en o cercano del límite de distribución geográfica de la especie
+No se registraron especies en o cercano a su límite de distribución.
+
+
+## 5. Conclusiones
+
+A partir del levantamiento de información desarrollado en las instalaciones asociadas al
+Proyecto, se concluye que los registros indican nula presencia de elementos de flora y
+vegetación, concordantes con la zona del Desierto Absoluto de la descripción de Gajardo
+(1994). La prospección, además, descarta vestigios de existencias previas, por lo cual no
+existen limitantes de la vegetación para llevar a cabo las actividades relacionadas con la
+implementación del Proyecto.
+
+En este contexto, de acuerdo con los criterios establecidos en el Artículo 6 del D.S.
+Nº40/2012 Reglamento del Sistema de Evaluación de Impacto Ambiental, que define los
+efectos adversos significativos sobre los recursos naturales renovables, es posible afirmar
+que el Proyecto no presentará efecto alguno sobre el componente debido a la ausencia de
+flora y vegetación en el Área de Influencia del Proyecto.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageNumber="12" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+## 6. Bibliografía
+
+· BELMONTE, E., Faúndez, L., Flores, J. Hoffmann, A., Muñoz, M., Teillier, S. 1998.
+Estado de conservación de helechos nativas de Chile. Boletín del Museo Nacional de
+Historia Natural 47.
+
+· BENOIT, I. 1989. Libro Rojo de la Flora Terrestre de Chile. Corporación Nacional
+Forestal. 157 p.
+
+· BRAUN-BLANQUET, J. 1979. Fitosociología. Bases para el estudio de las comunidades
+vegetales. H. Blume Ediciones, Madrid. 820 pp
+
+· BRAUN-BLANQUET J. 1950. Sociología vegetal; Estudio de las Comunidades
+Vegetales. Traducido por Antonio Digilio y Marta Grassi. Acme, Buenos Aires,
+Argentina. 444 p.
+
+· CATASTRO Y EVALUACIÓN DE RECURSOS VEGETACIONALES NATIVOS DE
+CHILE. Proyecto CONAF - CONAMA - BIRF. 1999.
+
+· CORPORACION NACIONAL FORESTAL. 2014. Guía de Evaluación Ambiental.
+Criterios para la participación de CONAF en el SEIA.
+
+· DECRETO SUPREMO Nº. 68/2009. Ministerio secretaria general de la presidencia.
+Nómina de Especies Arbóreas y Arbustivas Originarias del País.
+
+· D.S. Nº40/2012. Reglamento del Sistema de Evaluación de Impacto Ambiental.
+Ministerio de Medio Ambiente. República de Chile.
+
+· D.S. Nº93/2008. Reglamento General Ley Nº 20.283 de recuperación del bosque nativo
+y fomento forestal.
+
+· DE AGOSTINI, R. D. (1978). Introducción a la fotogrametría. Bogotá. Colombia. 267p.
+
+· GAJARDO, R. 1994. La vegetación natural de Chile. Clasificación y distribución
+geográfica. Editorial Universitaria, Santiago de Chile.
+
+· HOFFMANN, A. 1998. Flora Silvestre de Chile. Zona Central. Ediciones Fundación
+Claudio Gay (4ª edición). 254 p.
+
+· LUEBERT, F Y PLISCOFF, P. 2017. Sinopsis bioclimática y vegetacional de Chile
+(Segunda edición). Editorial Universitaria. Santiago, Chile. 316 p.
+
+· MARTICORENA, C. & M. Quezada 1985. Catálogo de la Flora Vascular de Chile.
+Gayana, Bot. 42: 1-157; actualizado con:
+
+· MARTICORENA, C. y R. Rodríguez, eds. 1995. Flora de Chile. Vol. 1. Pteridophyta-
+Gymnospermae. Universidad de Concepción, 352 p .;
+
+· MARTICORENA, C. y R. Rodríguez, eds. 2001. Flora de Chile. Vol. 2(1). Winteraceae-
+Ranunculaceae. Universidad de Concepción, 100 p .; y
+
+· MARTICORENA, C. y R. Rodríguez, eds. 2003. Flora de Chile. Vol. 2(2). Berberidaceae-
+Betulaceae. Universidad de Concepción, 94 p.
+
+· MARTICORENA, C. y R. Rodríguez. 2005. Flora de Chile, Vol 2(3): Plumbaginaceae-
+Malvaceae. Universidad de Concepción. Concepción, Chile. 128 p.
+
+· MEMO DJ Nº 387. 2008. División Jurídica de CONAMA. Prelación de los documentos
+técnicos y jurídicos para la calificación de especies según categoría de conservación.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="13" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+· MINISTERIO DE AGRICULTURA. 2008. Ley Nº 20.283. Ley Sobre Recuperación del
+Bosque Nativo y Fomento Forestal.
+
+· MINSEGPRES. 1994. Ley Nº 19.300 sobre bases generales del medio ambiente.
+
+· MINSEGPRES. 2007. DS 151/2007: Primera Clasificación de Especies según su estado
+de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile.
+Diario Oficial Nº 38.722 del 24 de Marzo de 2007. Página 10.
+
+· MINSEGPRES. 2008a. DS 50/2008: Segunda Clasificación de Especies según su
+estado de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de
+Chile. Diario Oficial Nº 39.100 del 30 de Junio de 2008. Página 3.
+
+· MINSEGPRES. 2008b. DS 51/2008: Tercera Clasificación de Especies según su estado
+de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile.
+Diario Oficial Nº 39.100 del 30 de Junio de 2008. Página 4.
+
+· MINSEGPRES. 2009. DS 23/2009: Cuarta Clasificación de Especies según su estado
+de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile.
+Diario Oficial Nº 39.355 del 7 de mayo de 2009. Páginas 6 y 7.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2012. DS 33/2011: Quinta Clasificación de
+Especies según su estado de Conservación. Ministerio Secretaría General de la
+Presidencia. Santiago de Chile. Diario Oficial Nº40.198 del 27 de febrero de 2012.
+Página 5.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2012. DS 41/2012 y 42/2012: Sexta y Séptima
+Clasificación de Especies según su estado de Conservación. Ministerio Secretaría
+General de la Presidencia. Santiago de Chile. Diario Oficial Nº40.234 del 11 de abril de
+2012. Páginas 13, 14 y 15.
+
+· MINISTERIO DE MEDIO AMBIENTE.2012.DS 19/2012. Octava Clasificación de
+Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile. Diario Oficial Nº 40.482 del 11 de febrero de 2013.
+
+· MINISTERIO DE MEDIO AMBIENTE.2013. DS13/2013 Noveno Clasificación de
+Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2014. DS 52/2014. Decima Clasificación de
+Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2015. DS 38/2015. Decima primer Clasificación
+de Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2016. DS 16/2016 Decima segunda Clasificación
+de Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2017. DS 6/2017. Decima tercer Clasificación de
+Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+<!-- PageFooter="Declaración de Impacto Ambiental Modificación LE PSFV Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="14" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+<!-- PageHeader="5 SF Consultores" -->
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+· MINISTERIO DE MEDIO AMBIENTE. 2018. DS 79/2018. Décimo cuarta Clasificación
+de Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2019. DS 23/2019. Décimo quinta Clasificación
+de Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2020. DS 16/2020. Décimo sexta Clasificación de
+Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MINISTERIO DE MEDIO AMBIENTE. 2021. DS 44/2021. Décimo séptima Clasificación
+de Especies según su estado de Conservación. Ministerio Secretaria General de la
+Presidencia. Santiago de Chile.
+
+· MUELLER-DOMBOIS, D. & H. ELLENBERG. 1974. Aims and methods of vegetation
+ecology. John Wiley & Sons. New York. 547 pp
+
+· RODRIGUEZ, R; Marticorena, C., Alarcón, D., Baeza, C., Cavieres, L., Finot, V.,
+Fuentes, N., Kiessling, A., Mihoc, M., Pauchard, A., Ruiz, E., Sanchez, P., y Marticorena,
+A. 2018. Catálogo de las plantas vasculares de Chile. Universidad de Concepción, Chile.
+Gayana Bot. 75(1): 1-430.
+
+· SERVICIO AEROFOTOGRAMÉTRICO DE LA FUERZA AÉREA DE CHILE E
+INSTITUTO DE GEOGRAFIA DE LA PONTIFICIA UNIVERSIDAD CATÓLICA DE
+CHILE. (2004). Principios y Métodos de la Fotointerpretación. Chile. 82p.
+
+· SERVICIO DE EVALUACIÓN AMBIENTAL. 2015. Guía Para la Descripción del Área de
+Influencia. Ecosistemas terrestres.
+
+· SERVICIO DE EVALUACIÓN AMBIENTAL. 2017. Guía Para la Descripción del Área de
+Influencia. Área de influencia en el sistema de evaluación de impacto ambiental.
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageNumber="15" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SF Consultores
+
+</figure>
+
+
+<figure>
+
+SOLAR
+PACK
+
+</figure>
+
+
+# 7. Apéndice
+
+
+<table>
+<caption>Apéndice 1. Coordenadas de puntos prospectados (WGS 84, huso 19 Sur).</caption>
+<tr>
+<th>Código punto</th>
+<th>Este</th>
+<th>Norte</th>
+</tr>
+<tr>
+<td>ARR13</td>
+<td>427.260</td>
+<td>7698054</td>
+</tr>
+<tr>
+<td>ARR14</td>
+<td>427.434</td>
+<td>7.698.329</td>
+</tr>
+<tr>
+<td>ARR15</td>
+<td>427.839</td>
+<td>7.698.414</td>
+</tr>
+</table>
+
+Fuente: Elaboración propia, 2023.
+
+
+<!-- PageFooter="Declaración de Impacto Ambiental" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageFooter="Modificación LE PSFV Arrebol" -->
+<!-- PageNumber="16" -->
+<!-- PageBreak -->
+
+
+<figure>
+
+SF Consultores
+
+</figure>
+
+
+<figure>
+<figcaption>Apéndice 2. Cartografía de vegetación (WGS 84, huso 19 Sur).</figcaption>
+
+SOLAR
+PACK
+
+</figure>
+
+
+<figure>
+
+426000
+
+426500
+
+427000
+
+427500
+
+428000
+
+428500
+
+7698900
+
+1
+
+7698900
+
+1
+
+1
+
+7698600
+
+7698600
+
+\+
+
+\+
+
+\+
+
+ARR15
+
+7698300
+
+ARR14
+
+7698300
+
+\+
+
+\+
+
+A
+
+A
+
+ARR13
+
+7698000
+
+7698000
+
+7697700
+
+X
+
+\+
+
+RUTA 5
+
+☐
+
+Leyenda
+
+7697700
+
+N
+
+☐
+Área de influencia nueva LTE
+
+Nuevo trazado LTE
+
+7697400
+
+\+
+
+\+
+
+☒
+Poste nuevo trazado
+
+7697400
+
+☒
+Puntos prospectados
+
+Red Vial
+
+7697100
+
+Huellas secundarias
+
+☐
+Área de influencia ya evaluada
+
+7697100
+
+☐
+Subestación Lagunas
+
+0
+
+87,5 175
+
+350
+
+525
+
+700
+
+7696800
+
+Meters
+
+Source: Esri, Maxar, GeoEye, Earthst
+GIS User Community
+
+Datum: WGS 84 Huso: 19 Sur Escala: 1:10.000
+
+7696800
+
+426000
+
+426500
+
+427000
+
+427500
+
+428000
+
+428500
+
+</figure>
+
+Fuente: Elaboración propia, 2023
+
+
+<!-- PageFooter="Declaración de Impacto Ambiental Modificación de la Línea Eléctrica de Evacuación del Parque Solar Fotovoltaico Arrebol" -->
+<!-- PageFooter="Anexo 3.3. Caracterización de Flora y Vegetación" -->
+<!-- PageNumber="17" -->
