@@ -1,10 +1,18 @@
-"""Script to parse PDFs to markdown and clean them with retries."""
+"""Script to parse PDFs to markdown and clean them with retries.
+
+Uso:
+    uv run src/documents/parse_into_markdown.py
+
+
+
+"""
 
 # %%
 import os
 import random
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 import boto3
@@ -54,6 +62,16 @@ MAX_RETRIES = 3
 BASE_BACKOFF_SECONDS = 2.0
 
 
+def log_event(event: str, **kwargs) -> None:
+    """Imprime eventos con timestamp y contexto clave=valor."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if kwargs:
+        extras = " ".join(f"{key}={value}" for key, value in kwargs.items())
+        print(f"[{timestamp}] {event} {extras}")
+    else:
+        print(f"[{timestamp}] {event}")
+
+
 def invoke_with_retries(
     runnable,
     input_payload,
@@ -70,9 +88,10 @@ def invoke_with_retries(
             return runnable.invoke(input_payload)
         except Exception as exc:
             last_exc = exc
-            print(
-                f"Error en intento {attempt}/{max_retries}: {exc}. "
-                "Reintentando si corresponde..."
+            log_event(
+                "retry.invoke.error",
+                attempt=f"{attempt}/{max_retries}",
+                error=str(exc),
             )
             if attempt < max_retries:
                 sleep_seconds = BASE_BACKOFF_SECONDS * (2 ** (attempt - 1))
@@ -91,9 +110,10 @@ def call_with_retries(action, *, max_retries: int = MAX_RETRIES):
             return action()
         except Exception as exc:
             last_exc = exc
-            print(
-                f"Error en intento {attempt}/{max_retries}: {exc}. "
-                "Reintentando si corresponde..."
+            log_event(
+                "retry.action.error",
+                attempt=f"{attempt}/{max_retries}",
+                error=str(exc),
             )
             if attempt < max_retries:
                 sleep_seconds = BASE_BACKOFF_SECONDS * (2 ** (attempt - 1))
@@ -121,11 +141,22 @@ def download_s3_to_path_with_fallback(
 
     try:
         call_with_retries(_download_file)
+        log_event(
+            "pdf.download.success",
+            method="download_file",
+            bucket=bucket_name,
+            key=object_key,
+            path=str(destination_path),
+        )
         return
     except (ClientError, BotoCoreError, Exception) as first_exc:
-        print(
-            "Fallo download_file; intentando fallback con get_object. "
-            f"Error: {first_exc}"
+        log_event(
+            "pdf.download.fallback",
+            reason="download_file_failed",
+            error=str(first_exc),
+            bucket=bucket_name,
+            key=object_key,
+            path=str(destination_path),
         )
 
     # Fallback: usar get_object y escribir a disco manualmente
@@ -138,10 +169,24 @@ def download_s3_to_path_with_fallback(
         raise RuntimeError("Respuesta S3 sin Body en get_object")
 
     with destination_path.open("wb") as file_obj:
+        log_event(
+            "pdf.download.streaming.start",
+            method="get_object",
+            bucket=bucket_name,
+            key=object_key,
+            path=str(destination_path),
+        )
         for chunk in iter(lambda: body.read(8 * 1024), b""):
             if not chunk:
                 break
             file_obj.write(chunk)
+    log_event(
+        "pdf.download.streaming.success",
+        method="get_object",
+        bucket=bucket_name,
+        key=object_key,
+        path=str(destination_path),
+    )
 
 
 def process_documents() -> None:
@@ -179,9 +224,13 @@ def process_documents() -> None:
     )
     s3 = session.client("s3")
 
-    # Procesar los primeros 20 documentos
-    for doc_idx, doc in enumerate(docs[97:]):
-        print(f"\n========== Procesando documento {doc_idx + 1}/{len(docs)} ========")
+    # Procesar documentos (permite offset para reanudar)
+    start_from = 0
+    docs_to_process = docs[start_from:]
+    total_docs = len(docs)
+    for doc_idx, doc in enumerate(docs_to_process):
+        index_abs = start_from + doc_idx + 1
+        log_event("doc.process.start", index=f"{index_abs}/{total_docs}")
         s3_key = doc.metadata["s3_key"]
 
         # Transformar el S3 key en ruta y extraer el nombre de archivo
@@ -189,13 +238,35 @@ def process_documents() -> None:
         md_filename = Path(filename).with_suffix(".md")
         md_path = MARKDOWN_RAW_COLLECTION_DIR / md_filename
 
-        # Si el markdown ya existe, cargarlo directamente y saltar la extracción
+        # Si todos los resultados refinados ya existen para los modelos objetivos,
+        # saltar por completo este documento para ahorrar trabajo.
+        refined_paths_by_model = {
+            model_name: MARKDOWN_REFINED_COLLECTION_DIR
+            / f"{md_filename.stem}_{model_name}.md"
+            for model_name in MODELS_TO_CLEAN
+        }
+        if all(path.exists() for path in refined_paths_by_model.values()):
+            log_event(
+                "doc.skip.refined_exists",
+                file=filename,
+            )
+            log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
+            continue
+
+        # Determinar si necesitamos parsear (extraer) o podemos reutilizar el markdown existente
+        markdown_content = None
+        needs_parsing = True
         if md_path.exists():
-            print(f"Markdown {md_path} ya existe. Cargándolo desde disco.")
+            log_event("md.raw.exists", path=str(md_path))
             with md_path.open(encoding="utf-8") as md_file:
                 markdown_content = md_file.read()
-            print(f"Markdown de {md_path} cargado. Longitud: {len(markdown_content)}")
-        else:
+            log_event("md.raw.loaded", path=str(md_path), length=len(markdown_content))
+            if markdown_content.strip():
+                needs_parsing = False
+            else:
+                log_event("md.raw.invalid_empty", path=str(md_path))
+
+        if needs_parsing:
             # Descarga el PDF únicamente si no existe localmente
             PDF_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)
             local_path = PDF_COLLECTION_DIR / filename
@@ -204,15 +275,19 @@ def process_documents() -> None:
                     download_s3_to_path_with_fallback(
                         s3, BUCKET_NAME, s3_key, local_path
                     )
-                    print(f"Archivo guardado en {local_path}")
+                    log_event("pdf.saved", path=str(local_path))
                 except Exception as exc:
-                    print(
-                        f"Fallo persistente descargando desde S3 (bucket={BUCKET_NAME}, key={s3_key}). Error: {exc}"
+                    log_event(
+                        "pdf.download.error",
+                        bucket=BUCKET_NAME,
+                        key=s3_key,
+                        error=str(exc),
                     )
+                    log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
                     # Omitir documento si no podemos descargar
                     continue
             else:
-                print(f"PDF {local_path} ya existe. Usando copia local.")
+                log_event("pdf.exists", path=str(local_path))
 
             # Extraer markdown a partir del PDF usando Azure AI Document Intelligence
             load_dotenv(override=True)
@@ -224,13 +299,29 @@ def process_documents() -> None:
                 mode="markdown",  #
                 analysis_features=["ocrHighResolution"],  #
             )
+            log_event(
+                "md.extract.start",
+                model="prebuilt-layout",
+                path=str(local_path),
+            )
             try:
                 raw_doc = call_with_retries(loader.load)
+                # Validaciones de robustez: si la extracción no devuelve contenido utilizable
+                # continuar con el siguiente documento.
+                if (
+                    not raw_doc
+                    or len(raw_doc) == 0
+                    or not getattr(raw_doc[0], "page_content", "").strip()
+                ):
+                    log_event("md.extract.empty_or_invalid", path=str(local_path))
+                    log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
+                    continue
             except Exception as first_exc:
-                print(
-                    "Fallo extrayendo markdown con prebuilt-layout; "
-                    "probando fallback prebuilt-read/text. "
-                    f"Error: {first_exc}"
+                log_event(
+                    "md.extract.error_primary",
+                    model="prebuilt-layout",
+                    path=str(local_path),
+                    error=str(first_exc),
                 )
                 # Fallback de extracción: usar prebuilt-read en modo texto
                 read_loader = AzureAIDocumentIntelligenceLoader(
@@ -240,28 +331,67 @@ def process_documents() -> None:
                     api_model="prebuilt-read",
                     mode="text",
                 )
+                log_event(
+                    "md.extract.fallback.start",
+                    model="prebuilt-read",
+                    path=str(local_path),
+                )
                 try:
                     raw_doc = call_with_retries(read_loader.load)
+                    if (
+                        not raw_doc
+                        or len(raw_doc) == 0
+                        or not getattr(raw_doc[0], "page_content", "").strip()
+                    ):
+                        log_event(
+                            "md.extract.empty_or_invalid_fallback",
+                            model="prebuilt-read",
+                            path=str(local_path),
+                        )
+                        log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
+                        continue
                 except Exception as second_exc:
-                    print(
-                        "Fallo también con prebuilt-read/text. Omitiendo documento. "
-                        f"Error: {second_exc}"
+                    log_event(
+                        "md.extract.error_fallback",
+                        model="prebuilt-read",
+                        path=str(local_path),
+                        error=str(second_exc),
                     )
+                    log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
                     continue
 
             # Guardar el markdown extraído en disco para usos futuros
             MARKDOWN_RAW_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)
             with md_path.open("w", encoding="utf-8") as md_file:
                 md_file.write(raw_doc[0].page_content)
-            print(f"Markdown guardado en {md_path}")
+            log_event("md.raw.saved", path=str(md_path))
 
             markdown_content = raw_doc[0].page_content
 
-        # Limpiar el markdown con los modelos especificados
-        clean_md = {}
-        document_failed = False
+        # Limpiar el markdown solo para los modelos cuyo resultado no exista aún
+        models_to_run = []
         for model_name in MODELS_TO_CLEAN:
-            print(f"Cleaning markdown with {model_name}...")
+            refined_filename = f"{md_filename.stem}_{model_name}.md"
+            refined_path = MARKDOWN_REFINED_COLLECTION_DIR / refined_filename
+            if refined_path.exists():
+                log_event(
+                    "md.refined.exists",
+                    model=model_name,
+                    path=str(refined_path),
+                )
+                continue
+            models_to_run.append(model_name)
+
+        if not models_to_run:
+            log_event("md.clean.skip_all_exist")
+            log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
+            continue
+
+        # Asegurar directorio de salida para refinados
+        MARKDOWN_REFINED_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)
+
+        for model_name in models_to_run:
+            log_event("md.clean.start", model=model_name)
             chain_for_cleaning_markdown = prompt_for_cleaning_markdown | get_llm(
                 model=model_name
             ).with_structured_output(CleanMarkdown)
@@ -271,29 +401,26 @@ def process_documents() -> None:
                     chain_for_cleaning_markdown,
                     {"markdown_content": markdown_content},
                 )
-                print(f"Finished cleaning markdown with {model_name}.")
-                clean_md[model_name] = response.cleaned_markdown
+                log_event("md.clean.success", model=model_name)
+                refined_filename = f"{md_filename.stem}_{model_name}.md"
+                refined_path = MARKDOWN_REFINED_COLLECTION_DIR / refined_filename
+                cleaned_text = response.cleaned_markdown or ""
+                if not cleaned_text.strip():
+                    log_event(
+                        "md.clean.empty_result",
+                        model=model_name,
+                        path=str(refined_path),
+                    )
+                    continue
+                with refined_path.open("w", encoding="utf-8") as refined_file:
+                    refined_file.write(cleaned_text)
+                log_event("md.refined.saved", model=model_name, path=str(refined_path))
             except Exception as exc:
-                print(
-                    "Fallo persistente limpiando markdown con "
-                    f"{model_name} tras {MAX_RETRIES} intentos. "
-                    f"Se omite el documento. Error: {exc}"
-                )
-                document_failed = True
-                break
+                log_event("md.clean.error", model=model_name, error=str(exc))
+                continue
 
-        if document_failed:
-            # No guardar resultados parciales; continuar con el siguiente documento
-            continue
-
-        # Guardar los markdown limpios en la carpeta refined con sufijo del modelo
-        MARKDOWN_REFINED_COLLECTION_DIR.mkdir(parents=True, exist_ok=True)
-        for model_name, markdown_text in clean_md.items():
-            refined_filename = f"{md_filename.stem}_{model_name}.md"
-            refined_path = MARKDOWN_REFINED_COLLECTION_DIR / refined_filename
-            with refined_path.open("w", encoding="utf-8") as refined_file:
-                refined_file.write(markdown_text)
-            print(f"Markdown limpio guardado en {refined_path}")
+        # Fin del procesamiento de este documento
+        log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
 
 
 if __name__ == "__main__":

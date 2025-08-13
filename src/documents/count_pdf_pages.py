@@ -1,7 +1,8 @@
 """Utilities for counting PDF pages in the CSW-NVIRO document collection.
 
 This script walks over every PDF inside ``src/documents/collections/pdf`` and
-prints the number of pages per document together with the grand total.
+prints the number of PDFs found, the number of pages per document, and the
+overall grand total of pages.
 
 Run it from the project root with:
 
@@ -54,6 +55,9 @@ def count_pages(directory: Path = PDF_DIR) -> None:
     if not pdf_files:
         raise SystemExit(f"No PDF files found under {directory}")
 
+    pdf_count = len(pdf_files)
+    print(f"Found {pdf_count} PDFs under {directory}\n")
+
     grand_total = 0
     print("Pages per PDF:\n--------------")
 
@@ -63,7 +67,7 @@ def count_pages(directory: Path = PDF_DIR) -> None:
         print(f"{pdf_path.name:60s} {pages:6d} pages")
 
     print("--------------")
-    print(f"Total across {len(pdf_files)} PDFs: {grand_total} pages")
+    print(f"Total across {pdf_count} PDFs: {grand_total} pages")
 
 
 if __name__ == "__main__":  # pragma: no cover

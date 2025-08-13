@@ -35,7 +35,7 @@ WHERE (
   AND df.file_format = 'pdf'
   AND p.estado = 'Aprobado'
   AND p.tipo   = 'DIA'
-  AND p.fecha_de_presentacion::date >= DATE '2023-01-01'
+  AND p.fecha_de_presentacion::date >= DATE '2022-01-01'
   AND p.fecha_de_presentacion::date <  DATE '2025-01-01'
 --  AND p.region = 'Región de Antofagasta'
   AND (
