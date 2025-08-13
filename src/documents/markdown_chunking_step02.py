@@ -26,6 +26,8 @@ chunks = load_all_chunks()  # list[Document]
 from __future__ import annotations
 
 import json
+import re
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -115,14 +117,10 @@ def load_chunks_grouped() -> dict[str, list[Document]]:
 
 
 # Immediately load grouped chunks when module is imported
-chunk_dict = load_chunks_grouped()
+# chunk_dict = load_chunks_grouped()
 
 
-metadata_df = load_metadata()
-
-import re
-import textwrap
-import unicodedata
+# metadata_df = load_metadata()
 
 
 def _simplify(s: str) -> str:
@@ -226,83 +224,118 @@ def _find_best_row(key: str, df: pd.DataFrame) -> tuple[pd.Series | None, str]:
     return None, "no_match"
 
 
-# Enrich each Document with metadata from the DataFrame ----------------------
-# (file_key, n_docs, enriched?, matched_name, fields_updated, match_method)
-_file_info: list[tuple[str, int, bool, str | None, list[str], str]] = []
-_unmatched_files: list[str] = []
-_enriched_docs: int = 0
+def main() -> None:
+    """Execute the main logic of the script."""
+    # Immediately load grouped chunks when module is imported
+    chunk_dict = load_chunks_grouped()
+    metadata_df = load_metadata()
 
-for doc_key, doc_list in chunk_dict.items():
-    row, match_method = _find_best_row(doc_key, metadata_df)
-    enriched = row is not None
+    # Enrich each Document with metadata from the DataFrame ----------------------
+    # (file_key, n_docs, enriched?, matched_name, fields_updated, match_method)
+    _file_info: list[tuple[str, int, bool, str | None, list[str], str]] = []
+    _unmatched_files: list[str] = []
+    _enriched_docs: int = 0
 
-    if not enriched:
-        print(
-            f"! WARNING: No metadata row matched for '{doc_key}' (simplified='{_simplify(doc_key)}')"
+    for doc_key, doc_list in chunk_dict.items():
+        row, match_method = _find_best_row(doc_key, metadata_df)
+        enriched = row is not None
+
+        if not enriched:
+            print(
+                f"! WARNING: No metadata row matched for '{doc_key}' (simplified='{_simplify(doc_key)}')"
+            )
+            _unmatched_files.append(doc_key)
+            _file_info.append((doc_key, len(doc_list), False, None, [], match_method))
+            continue
+
+        # When we reach here, we have a matching metadata row ------------------
+        row_meta: dict = row.to_dict()
+        fields_updated = list(row_meta.keys())
+        matched_name = str(row_meta.get("file_name", "?"))
+
+        # Attach each column as extra metadata keys
+        for d in doc_list:
+            d.metadata.update(row_meta)
+        _enriched_docs += len(doc_list)
+        _file_info.append(
+            (doc_key, len(doc_list), True, matched_name, fields_updated, match_method)
         )
-        _unmatched_files.append(doc_key)
-        _file_info.append((doc_key, len(doc_list), False, None, [], match_method))
-        continue
 
-    # When we reach here, we have a matching metadata row ------------------
-    row_meta: dict = row.to_dict()
-    fields_updated = list(row_meta.keys())
-    matched_name = str(row_meta.get("file_name", "?"))
+    # ----------------------------- Persist augmented chunks ------------------
+    save_chunks_grouped(chunk_dict)
 
-    # Attach each column as extra metadata keys
-    for d in doc_list:
-        d.metadata.update(row_meta)
-    _enriched_docs += len(doc_list)
-    _file_info.append(
-        (doc_key, len(doc_list), True, matched_name, fields_updated, match_method)
-    )
+    # ----------------------------- Final summary ------------------------------
+    _total_docs = sum(len(v) for v in chunk_dict.values())
+    _total_files = len(chunk_dict)
 
-# ----------------------------- Persist augmented chunks ------------------
-save_chunks_grouped(chunk_dict)
+    print("\nMetadata enrichment completed.\n")
+    print("Summary of operations:")
+    print(f"  • Files processed:             {_total_files}")
+    print(f"  • Documents restored:          {_total_docs}")
+    _coverage_pct = (_enriched_docs / _total_docs * 100) if _total_docs else 0.0
+    print(f"  • Documents enriched:          {_enriched_docs} ({_coverage_pct:.1f}% )")
+    print(f"  • Files without metadata:      {len(_unmatched_files)}")
 
-# ----------------------------- Final summary ------------------------------
-_total_docs = sum(len(v) for v in chunk_dict.values())
-_total_files = len(chunk_dict)
+    # Detailed breakdown ------------------------------------------------------
+    print("\nPer-file details:")
 
-print("\nMetadata enrichment completed.\n")
-print("Summary of operations:")
-print(f"  • Files processed:             {_total_files}")
-print(f"  • Documents restored:          {_total_docs}")
-_coverage_pct = (_enriched_docs / _total_docs * 100) if _total_docs else 0.0
-print(f"  • Documents enriched:          {_enriched_docs} ({_coverage_pct:.1f}% )")
-print(f"  • Files without metadata:      {len(_unmatched_files)}")
+    if not _file_info:
+        print("No files were processed.")
+        return
 
-# Detailed breakdown ------------------------------------------------------
-print("\nPer-file details:")
+    for key, n_docs, enriched, matched_name, fields, method in sorted(_file_info):
+        print("-" * 80)
+        print(f"  Chunk key          : {key}")
+        if enriched:
+            print("  Enriched           : Yes")
+            print(f"  Matching file_name : {matched_name}")
+            print(f"  Docs count         : {n_docs}")
+            print(f"  Match method       : {method}")
+            if fields:
+                print("  Updated fields     :")
+                # Print fields in 2 columns for better readability
+                col1, col2 = [], []
+                # Ensure fields are sorted for consistent output
+                for i, f in enumerate(sorted(fields)):
+                    if i % 2 == 0:
+                        col1.append(f)
+                    else:
+                        col2.append(f)
 
-# Dynamic column widths for tidy layout
-_key_w = max(9, max(len(info[0]) for info in _file_info))
-_meta_w = max(17, max(len(str(info[3] or "")) for info in _file_info))
-_method_w = max(10, max(len(info[5]) for info in _file_info))
+                # Make columns of equal length for zipping
+                if len(col1) > len(col2):
+                    col2.append("")
 
-header = (
-    f"{'Chunk key':<{_key_w}}  "
-    f"{'Metadata file_name':<{_meta_w}}  "
-    f"{'Docs':>5}  {'Enr.':>5}  {'Method':<{_method_w}}  Updated fields"
-)
-print(header)
-print("-" * len(header))
+                max_w1 = max(len(f) for f in col1) if col1 else 0
+                for f1, f2 in zip(col1, col2, strict=False):
+                    if f2:
+                        print(f"    - {f1:<{max_w1}}   - {f2}")
+                    else:
+                        print(f"    - {f1}")
+        else:
+            print("  Enriched           : No")
+            print(f"  Docs count         : {n_docs}")
+            print(f"  Match method       : {method} (no match found)")
+    print("-" * 80)
 
-for key, n_docs, enriched, matched_name, fields, method in sorted(_file_info):
-    flag = "yes" if enriched else "no"
-    meta_name_display = matched_name if enriched else "—"
-    row_prefix = f"{key:<{_key_w}}  {meta_name_display:<{_meta_w}}  {n_docs:5d}  {flag:>5}  {method:<{_method_w}}"
+    if _unmatched_files:
+        print("\nFiles without metadata (" + str(len(_unmatched_files)) + "):")
+        for f in sorted(_unmatched_files):
+            print(f"  - {f}")
 
-    if fields:
-        field_str = ", ".join(fields)
-        wrapped_lines = textwrap.wrap(field_str, width=100)
-        print(f"{row_prefix}  {wrapped_lines[0]}")
-        for cont in wrapped_lines[1:]:
-            print(" " * (len(row_prefix) + 2) + cont)
-    else:
-        print(row_prefix)
+    # Final Aggregated Summary ------------------------------------------------
+    unique_source_docs = {info[3] for info in _file_info if info[2] and info[3]}
+    num_unique_docs = len(unique_source_docs)
 
-if _unmatched_files:
-    print("\nFiles without metadata →", ", ".join(sorted(_unmatched_files)))
+    print("\n\n" + "=" * 80)
+    print("Final Aggregated Summary".center(80))
+    print("-" * 80)
+    print(f"  {'Total processed chunks':<45} | {_total_docs:>10}")
+    print(f"  {'Unique source documents (PDFs)':<45} | {num_unique_docs:>10}")
+    print("=" * 80)
+
+
+if __name__ == "__main__":
+    main()
 
 # %%
