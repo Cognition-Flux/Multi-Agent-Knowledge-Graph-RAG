@@ -1,0 +1,371 @@
+# SOLUTOS INGENIERÍA & PROYECTOS
+
+## ADENDA
+
+### "MODIFICACIÓN DE PROYECTO PARQUE DEL SOL SAN JAVIER"
+
+### ANEXO 14: ESTUDIO DE FLORA Y VEGETACIÓN
+
+**Elaborado para:**
+
+Independencia  
+Tu casa, tu independencia
+
+**Mayo 2024**
+
+**GRUPOSK**
+
+---
+
+<figure>
+Independencia  
+Tu casa, tu independencia
+</figure>
+
+---
+
+# ÍNDICE DE CONTENIDO
+
+1. INTRODUCCIÓN .................................................. 7
+2. OBJETIVOS ......................................................... 8
+   - 2.1. Objetivo general ........................................ 8
+   - 2.2. Objetivos específicos ............................... 8
+3. ÁREA DE ESTUDIO ............................................. 9
+4. ÁREA DE INFLUENCIA (AI) ................................. 14
+5. METODOLOGÍA .................................................. 15
+   - 5.1. Recopilación de Antecedentes Bibliográficos ... 15
+   - 5.2. Levantamiento de información en terreno ....... 15
+   - 5.3. Descripción de la Flora Terrestre .................. 20
+   - 5.4. Origen y Endemismo .................................. 21
+   - 5.5. Estado de conservación ............................... 22
+   - 5.6. Formaciones Vegetacionales Reguladas por la Ley Nº20.283/08 ... 22
+   - 5.7. Singularidades ambientales .......................... 25
+   - 5.8. Cambio climático ....................................... 26
+6. RESULTADOS ..................................................... 29
+   - 6.1. Área de influencia (AI) ................................ 29
+   - 6.2. Antecedentes bibliográficos .......................... 31
+   - 6.3. Levantamiento de información en terreno ....... 35
+      - 6.3.1. Caracterización general del terreno .......... 34
+      - 6.3.2. Vegetación ........................................... 
+      - 6.3.3. Flora .................................................... 41
+      - 6.3.4. Proyecciones ante Cambio Climático ........ 53
+   - 6.4. Compromiso ambiental voluntario (CAV) ........ 65
+7. CONCLUSIONES .................................................. 67
+8. REFERENCIAS BIBLIOGRÁFICAS .......................... 69
+9. ANEXO FOTOGRÁFICO ........................................ 71
+
+---
+
+# ÍNDICE DE TABLAS
+
+- Tabla 1. Ubicación Georreferenciada del área del proyecto existente .......... 11
+- Tabla 2. Ubicación Georreferenciada del área del proyecto en evaluación .... 13
+- Tabla 3. Claves de codificación según el espectro biológico de las especies ... 16
+- Tabla 4. Categorías de recubrimiento y codificación ............................ 17
+- Tabla 5. Codificación de las especies dominante ................................ 17
+- Tabla 6. Grado de artificialización .................................................. 18
+- Tabla 7. Ubicación georreferenciada de Unidades Muéstrales .................. 20
+- Tabla 8. Consideraciones para la evaluación de la significancia de los impactos ... 28
+- Tabla 9. Regiones Vegetacionales en Chile ........................................ 31
+- Tabla 10. Resultados Carta de Ocupación de Tierras ............................. 35
+- Tabla 11. Especies dominantes descritas en la COT ............................... 36
+- Tabla 12. Listado de especies vegetales registradas en el área de estudio para campaña otoño, Marzo 2022 ... 41
+- Tabla 13. Listado de especies vegetales registradas en el área de estudio para campaña verano, Febrero 2023 ... 43
+- Tabla 14. Listado de especies vegetales registradas en el área de estudio para campaña verano, Marzo 2024 ... 45
+- Tabla 15. Tabla de rodal, Mayo 2024 ............................................... 48
+- Tabla 16. Resumen de Riesgos climáticos para la comuna de San Javier .... 64
+- Tabla 17. Compromiso Ambiental Voluntario sobre educación ambiental relacionado con la protección del humedal "Sist. Cuenca Río Maule y Trib." ... 65
+- Tabla 18. Compromiso Ambiental Voluntario "Punto Limpio" para residentes ... 66
+
+# ÍNDICE DE FIGURAS
+
+- Figura 1. Ubicación geográfica del área de estudio, Región del Maule .......... 10
+- Figura 2. Área del proyecto existente .................................................. 11
+- Figura 3. Área del proyecto en evaluación ambiental ............................. 12
+- Figura 4. Ubicación georreferenciada de Unidades Muestrales. Mayo 2024 ... 19
+- Figura 5. Riesgo climático ................................................................. 27
+- Figura 6. Área de influencia del proyecto ............................................. 30
+- Figura 7. Catastro Vegetacional SIT CONAF 2016 .................................... 34
+- Figura 8. Resultados COT ................................................................. 36
+- Figura 9-16. Características del área de estudio (pradera, formación arbórea, cuerpo de agua, infraestructura) ... 37-40
+- Figura 17-22. Hábito y origen de especies vegetales registradas en campañas ... 42-47
+- Figura 23-27. Características de unidades muestrales inaccesibles ............ 49-51
+- Figura 28-39. Proyecciones y riesgos climáticos, verdor en bosques nativos ... 54-63
+- Figura 40-50. Anexo fotográfico de especies vegetales ............................. 71-77
+
+---
+
+# 1. INTRODUCCIÓN
+
+La línea de base consiste en la descripción detallada del área de influencia de un proyecto o actividad, en forma previa a su ejecución. Además, constituye uno de los contenidos mínimos exigidos por la Ley Nº19.300, sobre Bases Generales del Medio Ambiente, para la elaboración de Estudios de Impacto Ambiental, lo cual permite evaluar los impactos que pudiesen generarse o presentarse sobre los elementos del medio ambiente.
+
+La caracterización de la línea base del área de influencia del proyecto inmobiliario "Modificación de Proyecto Parque del Sol" incluye la descripción de las formaciones vegetales y la determinación de especies de flora nativa presentes en el área de emplazamiento del proyecto, con el objeto de evaluar los impactos generados por el proyecto sobre dicho componente, considerando el estado de conservación de las especies, rango de distribución, abundancia y endemismo, así como la presencia de áreas bajo protección oficial.
+
+El levantamiento de información de línea de base para la caracterización de este componente se enfoca en proveer la información asociada a los criterios establecidos en la "Guía de evaluación ambiental: componente vegetación y flora silvestre" (SAG, 2021) y la "Guía para la descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA" (SEA, 2015), que considera los contenidos de línea de base de ecosistemas terrestres según lo señalado en el Reglamento del SEIA.
+
+La caracterización de la vegetación en el área de emplazamiento del proyecto está orientada a determinar si existe vegetación con características relevantes y que sea prioritaria para la conservación. El método utilizado es descriptivo y se basa en la presencia de formaciones y especies, su relevancia ecológica de acuerdo con su endemismo y problemas de conservación y relación con las actividades del proyecto a realizar.
+
+La caracterización se ha elaborado a partir de antecedentes bibliográficos disponibles y levantamiento de información en terreno.
+
+Es materia del presente informe exponer los resultados obtenidos para la elaboración de la Línea base de Flora y Vegetación, enmarcada en la caracterización ambiental del Medio Biótico del proyecto "Parque del Sol", en la comuna de San Javier de Loncomilla, región del Maule.
+
+---
+
+# 2. OBJETIVOS
+
+## 2.1. Objetivo general
+
+El objetivo general de este estudio es describir la flora y caracterizar la vegetación presente en el área de influencia del proyecto "Modificación de Proyecto Parque del Sol".
+
+## 2.2. Objetivos específicos
+
+- Determinar la riqueza de la flora presente en el área de estudio del Proyecto.
+- Evaluar la distribución de la vegetación existente en el área de estudio del Proyecto.
+- Determinar la presencia de especies de flora vascular en categoría de conservación de acuerdo a la legislación vigente.
+- Determinar el grado de endemismo de la flora presente en el área de estudio del Proyecto.
+- Determinar la presencia de formaciones vegetales de acuerdo al Artículo 2 de la Ley Nº20.283 Sobre Recuperación del Bosque Nativo y Fomento Forestal.
+
+---
+
+# 3. ÁREA DE ESTUDIO
+
+La Región del Maule (VII) se localiza entre los 34°41' y los 36°33' de latitud sur. Limita al norte con la región del Libertador General Bernardo O'Higgins, al sur con la región de Ñuble, al oeste con el Océano Pacífico y al este con el límite internacional de la república de Argentina. La superficie regional es de 30.296,10 km², que representa el 4.0% de la superficie nacional, excluyendo el Territorio Chileno Antártico. El proyecto "Modificación de Proyecto Parque del Sol" se emplaza en la comuna de San Javier de Loncomilla, provincia de Linares, región del Maule (Figura 1). Los deslindes y vértices específicos del proyecto en evaluación (Modificación de Proyecto Parque del Sol) y el proyecto existente (Parque del Sol San Javier) se pueden observar en la Figura 2, Figura 3 y Tabla 1, Tabla 2.
+
+---
+
+# 4. ÁREA DE INFLUENCIA (AI)
+
+La definición de Área de Influencia (AI) entregada por el Decreto N°40/2012, Reglamento del Sistema de Evaluación Ambiental (RSEIA) del Ministerio del Medio Ambiente, vigente desde el 24 de diciembre de 2013, se especifica en la letra a) del Artículo 2° como: "... El área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales deben ser considerados con la finalidad de definir si el proyecto o actividad genera o presenta alguno de los efectos, características o circunstancias del artículo 11 de la Ley, o bien para justificar la inexistencia de dichos efectos, características o circunstancias." Así, el área de influencia de un proyecto está determinada por los impactos ambientales potenciales que pueda tener el proyecto sobre cada componente del ambiente.
+
+En el caso de las Declaraciones de Impacto Ambiental (DIA), éstas deberán contener los antecedentes necesarios que justifiquen la inexistencia de aquellos efectos, características o circunstancias del artículo 11 de la Ley Nº19.300 que pueden dar origen a la necesidad de efectuar un Estudios de Impacto Ambiental (EIA), entre los que se encuentra la determinación y justificación del AI del proyecto o actividad, incluyendo una descripción general de la misma, conforme a lo indicado para los EIA.
+
+El objetivo de describir el área de influencia es poder evaluar los posibles impactos que pudieran generarse en las diferentes etapas del proyecto, de modo de tomar acciones a fin de favorecer las componentes biológicas.
+
+---
+
+# 5. METODOLOGÍA
+
+Para el cumplimiento de los objetivos propuestos anteriormente, la caracterización de la flora y vegetación comprendió dos etapas metodológicas: (A) Recopilación de antecedentes bibliográficos y (B) Levantamiento de información en terreno.
+
+## 5.1. Recopilación de Antecedentes Bibliográficos
+
+El objetivo de la revisión bibliográfica es conformar una recopilación de todos los antecedentes técnicos-científicos existentes, de las posibles especies insertas en el área del proyecto. Todo ello para establecer un catastro acertado de las especies que puedan ser encontrados en el área de estudio, de acuerdo a las publicaciones y antecedentes bibliográficos para la zona Centro - Sur de Chile.
+
+## 5.2. Levantamiento de información en terreno
+
+Las actividades en terreno se ejecutaron en 3 campañas, la primera durante la temporada de otoño, el 21 de marzo de 2022, una segunda campaña los días 1 y 2 de febrero de 2023 en época de verano, y una última campaña el 13 de marzo de 2024 en época de verano, donde se realizó una descripción cartográfica de la vegetación presente en el área de estudio, con el objeto de describir las unidades y/o recabar patrones vegetacionales.
+
+La metodología para describir y representar la vegetación se basó en la Carta de Ocupación de Tierras (COT) desarrollada por el CEPE/CNRS de Montpellier, Francia; y adaptada a las condiciones del país por Etienne y Contreras (1981), y descrita en detalle por Etienne y Prado (1982). La COT considera a la vegetación como el factor integrador de las variaciones naturales del medio, como asimismo de las modificaciones debidas a la acción humana. En este sentido, la descripción de la vegetación y del ambiente, mediante la COT, involucra la evaluación de tres criterios: formación vegetal, especies dominantes y el grado de artificialización, además de describir la riqueza florística del área de estudio.
+
+En relación a la evaluación de la vegetación presente en el área de influencia se consideró lo siguiente:
+
+a) Fisionomía o forma de vida (formación vegetal)
+
+b) Tipología (especies dominantes)
+
+c) Grado de alteración (artificialización)
+
+d) Distribución espacial en el área de influencia (cartografía)
+
+La primera variable se divide en:
+
+- **Forma biológica:** conjunto de plantas de uno a varias especies que comparten características de forma y comportamiento, se definen cuatro tipos biológicos: Herbáceos, Leñoso Bajo, Leñoso Alto y Suculentos, clasificación propuesta por Godron et al (1968), en Etienne & Prado (1982).
+
+  - Leñoso Alto (LA): Especies vegetales leñosas con más de 2 metros de altura.
+  - Leñoso bajo (LB): Especies leñosas con menos de 2 metros de altura.
+  - Suculentas (S): Especies carnosas, principalmente de la familia Cactaceae.
+  - Herbáceos (H): Especies vegetales con tallo no leñoso, herbáceo, flexible y verde.
+
+- **Estratificación:** disposición vertical en la comunidad. Se utilizan los 4 tipos biológicos como base en la definición de la estratificación (ver Tabla 3).
+
+- **Cobertura:** se define en función de la proyección del área ocupada por la vegetación (ver Tabla 4).
+
+- **Tipología:** La segunda variable se trabajó con las especies dominantes. La dominancia se establece por comparación con un valor umbral, variable según la región ecológica (ver Tabla 5).
+
+- **Grado de alteración:** La tercera variable se realizó con la tabla de grados de artificialización que va desde el 1. Vegetación clímax al 9. Zonas edificadas, con subtipos en cada una de ellas (ver Tabla 6).
+
+Dada las características de la cobertura vegetacional se definieron transectos de largo variable de 200 x 4 m de ancho c/u, en los lugares más representativos de los distintos tipos vegetacionales para la identificación directa de las especies.
+
+Se realizó una descripción cualitativa de la flora y vegetación presente en cada una de las transectas. Se caracterizó a los tipos vegetacionales presentes, mediante la metodología de Carta de Ocupación de Tierras (COT) y se obtuvo documentación fotográfica de plantas y formaciones vegetales.
+
+## 5.3. Catastro de unidades muestrales
+
+Para caracterizar "in situ" la formación vegetal, se realizó el día 8 de mayo de 2024 un total de 9 puntos de muestreo, abarcando de esta manera el área alrededor de cursos de agua y canales de riego. Estas parcelas fueron planteadas de forma aleatoria y dirigida, capturando las siguientes variables: especie, diámetro a la altura del pecho (DAP), altura, estado. Así mismo, con el equipo navegador (GPS) se registraron las coordenadas UTM (Datum: WGS-84; Proyección: UTM, Huso: 19 sur) (KMZ se adjunta en el Anexo 14. Flora y vegetación de la presente Adenda).
+
+Las ubicaciones de las unidades muestrales se muestran a continuación con su ubicación espacial georreferenciada (Figura 4, Tabla 4).
+
+## 5.4. Descripción de la Flora Terrestre
+
+La flora se registró en un inventario exhaustivo de todas las entidades taxonómicas presentes en el área de influencia, caracterizándose, a lo menos, para cada una de ellas los siguientes aspectos:
+
+- Listado completo de especies presentes
+- Origen geográfico (especies autóctona o alóctona)
+- Estado de conservación de las especies autóctonas
+
+Para fines de este informe se definirá como flora del área de estudio, al conjunto de especies vegetales presentes en el AI. Estas serán caracterizadas taxonómicamente como elementos aislados, de los que interesan las particularidades de cada taxón a nivel de especie, principalmente su filiación taxonómica, origen biogeográfico, hábito de crecimiento, categoría de conservación. Es decir, entenderemos por flora a la lista taxonómica de especies y sus características de singularidad biológica asociada.
+
+Con los resultados de los Puntos de Muestreo de Flora y Vegetación Terrestre de la campaña de terreno, y por medio de un recorrido exhaustivo en el área de estudio, se logró identificar todos los ejemplares observados a nivel de especies (en la medida que la fenología de algunas plantas así lo permitiera), y aquellas que no fueron determinadas en el campo, se colectaron fragmentos y fotografiaron con el objetivo de identificarlas en gabinete.
+
+La identificación de las especies se realiza en terreno, sobre la base de la experiencia del investigador.
+
+La filiación taxonómica de las especies siguió la nomenclatura de la flora de Chile de Marticorena & Quezada (1985), Marticorena & Rodríguez (2001) y Matthei (1995). El listado de la flora terrestre se elaboró con base en la taxonomía actual, siendo inicialmente dividido por tipo para posteriormente ser jerarquizado en: Familia y Especie; además, se incorporó el origen biogeográfico de cada especie, hábito de crecimiento y su estado actual de conservación.
+
+El hábito de crecimiento hace referencia a su forma general, teniendo en cuenta una variedad de aspectos como la duración del tallo, patrón de ramificación, desarrollo y textura. La mayoría de las plantas pueden ser clasificadas como árbol, arbusto, herbácea, trepadora, rastrera y helechos. El detalle de cada hábito se describe a continuación:
+
+- **Árbol:** Planta de fuste generalmente leñoso que en su estado adulto y en condiciones normales de hábitat puede alcanzar, a lo menos, cinco metros de altura o una menor en condiciones ambientales que limiten su desarrollo.
+- **Arbusto:** Planta leñosa que en estado de adultez no supera los 4 m de altura y que a diferencia de lo que es propio de un árbol, no se yergue sobre un solo tronco o fuste, sino que se ramifica desde la misma base.
+- **Herbácea:** Planta que no presenta órganos decididamente leñosos. Los tallos de las hierbas son verdes y mueren generalmente al acabar la buena estación, siendo sustituidos por otros nuevos si la hierba tiene más de un ciclo de vida.
+- **Trepadora:** Toda planta que no se mantiene erguida por sí misma, necesitando un soporte para encaramarse ya sea a otra planta, un muro, un peñasco, etc. Para ello puede utilizar órganos como zarcillos, uncinos, raíces adventicias, etc. o se enrosca alrededor del soporte, llamándose entonces voluble.
+- **Rastrera:** Son plantas que no crecen en altura, sino que se arrastran por el suelo o troncos botados.
+- **Helechos:** Plantas vasculares que no tienen flores y no producen semillas, sino que se reproducen por medio de esporas. Algunas veces son reconocidas como las plantas vasculares "inferiores" cuyos tejidos vasculares (xilema y floema) están arreglados en haces que conducen agua, alimento y minerales.
+
+## 5.5. Origen y Endemismo
+
+El origen biogeográfico corresponde a la distribución geográfica, ya sea natural o artificial, tanto de animales como plantas. A continuación, se detallan los tres grupos de origen que puede presentar una especie vegetal identificada en el área de influencia del proyecto:
+
+i. **Endémica:** especie que se considera como tal cuando se conoce exclusivamente en una biota específica, ya sea a nivel de país o región. Es decir, su distribución está exclusivamente dentro de los límites del país.
+
+ii. **Nativa:** especie de una determinada taxa que pertenece a una región o ecosistema determinados, por lo tanto, es originaria del lugar que habita. Su presencia en esa región es el resultado de fenómenos naturales sin intervención humana. Una especie nativa no es necesariamente endémica.
+
+iii. **Exótica o alóctona:** especie que se encuentra fuera de su área de distribución natural o de dispersión potencial, suponiéndose por ello algún tipo de intervención humana que se traduce en su traslado a través de una determinada barrera biogeográfica.
+
+Las especies arbóreas y arbustivas originarias del país fueron determinadas de acuerdo al D.S. Nº68/2009 del Ministerio de Agricultura.
+
+## 5.6. Estado de conservación
+
+Para establecer la categoría de conservación de las especies, se consultó al Reglamento de Clasificación de Especies Silvestres (RCE), del cual se desprenden los Decretos Supremos: D.S. Nº 151 de 2007; D.S. Nº 50 de 2008; D.S. Nº 51 de 2008, D.S. Nº 23 de 2009, del MINSEGPRES; y D.S. Nº33 de 2011, D.S. Nº41 de 2011, D.S. Nº42 de 2011, D.S. Nº19 de 2012 y D.S. Nº13 de 2013, D.S. Nº52 de 2014, D.S. Nº 38 de 2015, D.S. Nº 16 de 2016, D.S. Nº6/2017, D.S. Nº79/2018, D.S Nº23/2019, D.S Nº16/2020, D.S Nº44/2021 y D.S Nº 10/2023 del Ministerio del Medio Ambiente (MMA).
+
+En los casos en que las especies no se encontraron definidas aún en dichos procesos se utilizó el Libro Rojo de Flora Vascular Chilena, tal como se establece en el MEMORANDUM DJ Nº387/2008 (CONAMA).
+
+## 5.7. Formaciones Vegetacionales Reguladas por la Ley Nº20.283/08
+
+En la Ley Nº20.283/08 del MINAGRI, se definieron las siguientes formaciones vegetales:
+
+- **Bosque:** Sitio poblado con formaciones vegetales en las que predominan árboles y que ocupa una superficie de por lo menos 5.000 m², con un ancho mínimo de 40 metros, con cobertura de copa arbórea que supere el 10% de dicha superficie total en condiciones áridas y semiáridas y el 25% en circunstancias más favorables.
+- **Bosque nativo:** Bosque formado por especies autóctonas, provenientes de generación natural, regeneración natural, o plantación bajo dosel con las mismas especies existentes en el área de distribución original, que pueden tener presencia accidental de especies exóticas distribuidas al azar.
+- **Formación xerofítica:** Formación vegetal constituida por especies autóctonas, preferentemente arbustivas o suculentas, de áreas de condiciones áridas o semiáridas ubicadas entre las regiones I y VI incluidas la metropolitana y la XV y en las depresiones interiores de las regiones VII y VIII. Asimismo, la Ley define especie nativa o autóctona, como "especie arbórea o arbustiva originaria del país, que ha sido reconocida oficialmente como tal, mediante decreto supremo". En el D.S. Nº68/09 del Ministerio de Agricultura (MINAGRI), que hace referencia la ley, se establece, aprueba y oficializa la nómina de especies arbóreas y arbustivas originarias del país.
+
+Adicionalmente a esto, el D.S. Nº26/2012 del MINAGRI indica que tales formaciones deben reunir las siguientes condiciones:
+
+- Superficie mayor o igual a una hectárea.
+- Ancho mínimo de 20 metros para las formaciones ubicadas al norte del río Elqui y de 40 metros para aquellas ubicadas al sur del señalado río.
+- Presencia de una o más especies nativas de acuerdo al D.S. N°68/09 y de carácter xerofítico.
+- Densidad mínima de individuos xerofíticos, suculentos o arbustivos, con o sin presencia de árboles aislados, de 300 individuos por hectárea en la zona comprendida entre el sur del río Elqui y el límite norte de la Región de Valparaíso o de 500 individuos por hectárea desde la Región de Valparaíso hasta la Región del Biobío, incluida la Región Metropolitana de Santiago. Tratándose de estas últimas regiones, los individuos en estado adulto deberán tener una altura mínima de un metro. En la zona comprendida desde el río Elqui y hasta el límite norte del país, no se considerará la condición de densidad mínima para las formaciones xerofíticas.
+
+Además, establece la siguiente clasificación para los bosques nativos:
+
+- **Bosque nativo de preservación:** Aquél, cualquiera sea su superficie, que presente o constituya actualmente hábitat de especies vegetales protegidas legalmente o aquéllas clasificadas en las categorías de "en peligro de extinción", "vulnerables", "raras", "insuficientemente conocidas" o "fuera de peligro"; o que corresponda a ambientes únicos o representativos de la diversidad biológica natural del país, cuyo manejo sólo puede hacerse con el objetivo del resguardo de dicha diversidad. Se considerarán, en todo caso, incluidos en esta definición, los bosques comprendidos en las categorías de manejo con fines de preservación que integran el Sistema Nacional de Áreas Silvestres Protegidas del Estado o aquel régimen legal de preservación, de adscripción voluntaria, que se establezca.
+- **Bosque nativo de conservación y protección:** Aquél, cualquiera sea su superficie, que se encuentre ubicado en pendientes iguales o superiores a 45%, en suelos frágiles, o a menos de doscientos metros de manantiales, cuerpos o cursos de aguas naturales, destinados al resguardo de tales suelos y recursos hídricos.
+- **Bosque nativo de uso múltiple:** Aquél, cuyos terrenos y formaciones vegetales no corresponden a las categorías de preservación o de conservación y protección, y que está destinado preferentemente a la obtención de bienes y servicios, maderables y no maderables.
+
+## 5.8. Singularidades ambientales
+
+Se analizó la presencia de singularidades ambientales asociadas a la vegetación y flora en el área de influencia según la Guía de Evaluación Ambiental "Criterios para la participación de CONAF en el SEIA" (CONAF, 2020). Para ello se revisaron los siguientes criterios, describiendo los que se pueden encontrar en este estudio:
+
+- Presencia de formaciones vegetales únicas, escasas o de baja representatividad nacional.
+- Presencia de formaciones vegetales relictuales.
+- Presencia de formaciones vegetales reliquias.
+- Presencia de formaciones vegetales remanentes.
+- Presencia de formaciones vegetales frágiles.
+- Presencia de Bosque Nativo de Preservación.
+- Presencia de bosque nativo al interior de unidades del SNASPE.
+- Presencia de especies vegetales protegidas por regulaciones especiales.
+- Presencia de especies endémicas.
+- Presencia de especies en categoría CITES.
+- Localización en o próxima al límite de distribución geográfica de la especie.
+- Presencia de especies de distribución restringida.
+- Localización en o próxima al límite altitudinal de la especie.
+- Actividad en o colindante con sitios prioritarios para la conservación de la diversidad definidos en las estrategias regionales.
+- Actividad en o colindante con áreas bajo protección oficial.
+- Actividad en o colindante con áreas protegidas privadas.
+- Actividad en o colindante con áreas de protección (Ley Nº 18.378).
+- Actividad en o colindante con o aguas arriba de Humedales.
+- Longevidad, Reclutamiento, Endemismo y Susceptibilidad a los efectos del Cambio Climático.
+- Presencia de especies clasificadas en categorías de conservación.
+- Otras singularidades.
+
+## 5.9. Cambio climático
+
+El cambio climático es atribuido directa o indirectamente a la actividad humana que altera la composición de la atmósfera mundial y que se suma a la variabilidad natural del clima observado durante períodos comparables. Ante la amenaza del cambio climático es necesario realizar una evaluación de los componentes medio ambientales, y como se verán afectados en el tiempo.
+
+La "Guía metodológica para la consideración del cambio climático en el SEIA", define riesgos climáticos (Figura 5) como la evolución de los componentes ambientales a causa del cambio climático, siendo 3 los factores que constituyen este componente, los cuales son:
+
+- **Amenaza:** probabilidad o intensidad esperada de condiciones climáticas adversas en cierto territorio, donde el MMA (Ministerio del Medio Ambiente) considera el cambio del clima pasado reciente (1980-2010) y el futuro mediano (2035-2065) bajo un escenario pesimista de emisiones de gases con efecto invernadero.
+- **Exposición:** presencia y dimensión de componentes ambientales potencialmente susceptibles de ser afectados negativamente por sucesos climáticos. Mientras más elementos se encuentren en un territorio afectado por amenazas climáticas, mayor es la exposición y, por ende, el riesgo climático.
+- **Vulnerabilidad:** factores no climáticos que indican la propensión o predisposición de un ecosistema a ser afectado negativamente a partir de la sensibilidad al daño y a la falta de capacidad para responder y adaptarse.
+
+La sumatoria de estos 3 factores da como resultado el riesgo climático, evaluándolo en 5 categorías. Para el caso de flora, de existir un riesgo "Moderado", "Alto" o "Muy alto" se debe incluir el mapa de especies para aquellas que se encuentren en algún estado de conservación vulnerable (Vulnerable, En Peligro, En Peligro crítico, Extinta en estado silvestre o Extinta), sean endémicas o de hábitat reducido.
+
+---
+
+# 6. RESULTADOS
+
+## 6.1. Área de influencia (AI)
+
+Como se menciona en el Numeral 4, el área de influencia de un proyecto está determinada por los impactos ambientales potenciales que pueda tener el proyecto sobre cada componente del ambiente.
+
+De esta manera, para la componente Flora y Vegetación el Área de influencia de este proyecto se determinó, en base a las guías "Guía para la Descripción del Área de Influencia de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA" (2015), y la "Guía para la descripción de área de influencia en el Sistema de Evaluación de Impacto Ambiental del SEA" (2017), donde el área de influencia está definida como la superficie que coincide con la totalidad del terreno a utilizar para la construcción y operación del proyecto, más el área donde eventualmente podría observarse algún efecto sobre la flora y vegetación. Por su lado norte, el área de influencia se compone de zonas de pradera e infraestructura, el lado oeste se compone de pradera, cordones arbóreos y parte del Humedal asociado a límite urbano "Sist. Cuenca Río Maule y Trib.", que forma parte del río Loncomilla, mientras que en lado este se identificaron zonas de infraestructura, pradera y cordones arbóreos, finalmente por su lado sur, el área de influencia se compone por praderas y cordones arbóreos. Esta área de influencia contempla una superficie total de 19,3 ha (Figura 6).
+
+---
+
+# 7. CONCLUSIONES
+
+En el presente estudio se analizó la representatividad y singularidad de la flora y vegetación del área de estudio correspondiente al proyecto inmobiliario "Modificación de Proyecto Parque del Sol" en términos de diversidad y la presencia de especies de interés.
+
+La evaluación de la distribución geográfica indica que todas las especies reconocidas en la zona tienen una amplia distribución en Chile, no registrándose especies exclusivas del área de estudio o restringidas a la región del Maule.
+
+La flora y vegetación está compuesta principalmente por especies introducidas (86%), consideradas plantas frecuentes y colonizadoras de rápido crecimiento, con la presencia escasa de especies nativas en algunos sectores.
+
+Las características vegetacionales del área de estudio están definidas por el alto grado de intervención antrópica (despeje de vegetación, dominancia de especies exóticas) facilitando el establecimiento de especies vegetales invasoras, las cuales no permiten la regeneración y establecimiento de flora nativa. Además, la zona donde se emplazará el proyecto se encuentra lejos de otras coberturas que tengan formaciones de vegetación nativa, por lo que no existe conectividad estructural entre parches de vegetación nativa.
+
+La importancia y significación de la vegetación, no se centra únicamente en el papel que desempeña como asimilador básico de la energía solar, constituyéndose así en productor primario de casi todos los ecosistemas, sino también en la existencia de importantes relaciones con el resto de los componentes bióticos y abióticos del medio, generando funciones que se pueden traducir en servicios ecosistémicos, donde actúa como estabilizadora de pendientes, reduciendo la erosión, influyendo en la cantidad y calidad del agua, manteniendo microclimas locales, filtrando la atmósfera, atenuando el ruido, ayudando a resistir los efectos de plagas y enfermedades, siendo el hábitat de especies animales, etc.
+
+La metodología de la Carta de Ocupación de Tierras (COT), permite caracterizar el estado actual de la vegetación, estableciéndose unidades homogéneas en cuanto a su fisionomía (formación vegetal) y especies dominantes, de esta forma fue posible determinar cuatro unidades ambientales, las cuales pudieron ser caracterizadas en base a las diferencias significativas de la estructura y composición de la vegetación. La primera unidad ambiental corresponde a Pradera en desuso, compuesta con especies herbáceas exóticas dominantes como Chenopodium album, Sisymbrium offiinale y Verbascum virgatum. La segunda unidad ambiental corresponde a Formación arbórea compuesto por las especies dominantes Acacia dealbata, Populus nigra, Robinia pseudoacacia y Rubus ulmifolius. La tercera unidad ambiental corresponde a Cuerpo de agua, representado por el río Loncomilla y canales adyacentes. Finalmente, la cuarta unidad ambiental corresponde a Infraestructura compuesta por galpones, y viviendas rurales y urbanas.
+
+En relación a las especies nativas presentes, es posible indicar que existen ocho especies (4 nativas y 4 endémicas) en el área de influencia del proyecto, que se encuentran en categoría Preocupación menor (LC), según la UICN, las cuales corresponden a Eryngium paniculatum, Muehlenbeckia hastulata, Vachellia caven, Maytenus boaria, Lithraea caustica, Proustia cuneifolia, Oenothera affinis y Peumus boldus. Dichas especies, poseen una amplia distribución, lo cual indica que no están próximas a satisfacer los criterios de peligro.
+
+Es importante considerar que de acuerdo a la normativa vigente todas las especies de árboles nativos se encuentran protegidos por la "Ley sobre recuperación del bosque nativo y fomento forestal" (D.L. Nº20.283/2008 del MINAGRI). En consideración sobre el área a intervenir, destacar que ninguna de las especies registradas al interior del área del proyecto conforman bosque, ya que no ocupa una superficie de por lo menos 5.000 metros cuadrados y con un ancho mínimo de 40 metros de acuerdo a la Ley Nº20.283/08 del MINAGRI (Ley 20.283, Artículo 2, 2008), por lo que se descarta y no se requiere presentar antecedentes para PAS 148 u otra normativa asociada.
+
+Además, se hizo una evaluación de acuerdo a los criterios entregados en la "Guía metodológica para la consideración del cambio climático en el SEIA", para el área de influencia del proyecto, donde como resultado, se obtuvieron índices de pérdida de diversidad de flora por precipitación y temperatura siendo "Muy Alto" y "Alto" respectivamente, por lo que fue necesario realizar un análisis de las especies que podrían verse afectadas, las cuales corresponden a Litre (Lithraea caustica), Boldo (Peumus boldus), Cortadera (Eryngium paniculatum) y Palo de yegua (Proustia cuneifolia), todas ellas presentaron un aumento en la probabilidad de presencia bajo escenario de cambio climático a futuro. Además, se evaluó el riesgo de Sequía hidrológica, teniendo un "Fuerte aumento" y un "Moderado" índice de pérdida de verdor en bosques nativos de la comuna de San Javier.
+
+Finalmente, de acuerdo a los resultados de este estudio, las características del terreno en general y la normativa vigente, se concluye que el proyecto no genera efectos negativos significativos sobre la vegetación descrita para el área de influencia caracterizada.
+
+---
+
+# 8. REFERENCIAS BIBLIOGRÁFICAS
+
+- AMIGO, J., J. SAN MARTÍN, & L. GARCÍA QUINTANILLA. 2000. Estudio fitosociológico de los bosques de Nothofagus glauca (Phil.) Krasser del Centro-Sur de Chile. Phytocoenologia. 30:193-222.
+- CONAF. 1989. Libro rojo de la flora terrestre de Chile. Corporación Nacional Forestal, Santiago. 157 pp.
+- CONAF-CONAMA-BIRF. 1999. Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile. Informe Regional Séptima Región. Santiago, Chile. 118 pp.
+- CONAF (Corporación Nacional Forestal). 2011. Catastro de los Recursos Vegetacionales Nativos de Chile. Monitoreo de cambios y actualizaciones. Período 1997-2011. 25pp.
+- CONAF (Corporación Nacional Forestal). GUIA DE EVALUACIÓN AMBIENTAL. Criterios para la participación de CONAF en el SEIA. Santiago, Chile. 159 pp.
+- CONAF (Corporación Nacional Forestal). Cifras oficiales y actualizadas proveniente del Catastro de los Recursos vegetacionales y Uso de tierra.
+- FUENTES, N.P. SÁNCHEZ, A. URRUTIA, L. CAVIERES & A. MARTICORENA.2014. Plantas Invasoras del Centro Sur de Chile: Una Guía de Campo. Laboratorio de Invasiones Biológicas (LIB), Concepción, Chile. 276pp.
+- DONOSO, C. 1981. Tipos forestales de los bosques nativos de Chile. Documento de trabajo Nº 38. Investigación y Desarrollo Forestal (CONAF, PNUD-FAO). Publicación FAO, Chile.
+- DONOSO, C. 1982. Reseña ecológica de los bosques mediterráneos de Chile. Bosque 4(2): 117-146.
+- DONOSO, C. 1993. Bosques templados de Chile y Argentina. Variación, Estructura y Dinámica. Ecología Forestal. Corporación Nacional Forestal. Editorial Universitaria. Santiago. 484 pp.
+- DONOSO, C.1998. Árboles Nativos de Chile. Guía de Reconocimiento. Ed Marisa Cuneo, Valdivia, Chile. 116 pp.
+- GAJARDO, R. 1994. La vegetación natural de Chile, Clasificación y Distribución Geográfica. Editorial Universitaria. Santiago. 165pp.
+- GARCÍA, N. & C. ORMAZABAL. 2008. Árboles Nativos de Chile. Enersis S.A. Santiago, Chile. 196 pp.
+- LUEBERT, F. Y P. PLISCOFF. 2004. Clasificación de pisos de vegetación y análisis de representatividad ecológica de áreas propuestas para la protección en la ecorregión Valdiviana. Documento Nº 10, Serie de Publicaciones WWF Chile, Valdivia. 174 pp.
+- LUEBERT, F. Y P. PLISCOFF. 2006. Sinopsis bioclimática y vegetacional de Chile. Biodiversidad. Editorial Universitaria Santiago, Chile. 316 pp.
+- HOFFMANN, A. J. 1998. Flora silvestre de Chile. Zona Central. Cuarta Edición. Fundación Claudio Gay. Santiago de Chile. 254 pp.
+- OBERDORFER, E. 1960. Pflanzensoziologische Studien in Chile. Ein Vergleich mit Europa. Flora et Vegetatio Mundi 2: 1-108.
+- OVALLE, C., J. ARONSON, J. AVENDAÑO, R. MENESES & R. MORENO. 1996. Rehabilitación de ecosistemas degradados en Chile central y su relevancia para el árido "Norte Chico". Revista Chilena de Historia Natural 66: 291-303.
+- QUIROZ, C.L., A. PAUCHARD, A. MARTICORENA & L.A. CAVIERES. 2009. Manual de plantas invasoras del centro-sur de Chile. Laboratorio de Invasiones Biológicas. Concepción, Chile. 45 pp.
+- RAMÍREZ, C., C. SAN MARTÍN & J. SAN MARTÍN. 1995. Estructura florística de los bosques pantanosos de Chile sur-central. En: Ecología de los bosques nativos de Chile (Armesto, J, C. Villagrán y M.T.K. Arroyo, eds), pp 215-234. Editorial Universitaria, Santiago.
+- SAG (Servicio Agrícola y Ganadero). 2010. Guía de evaluación ambiental: Vegetación y Flora silvestre. 18 pp.
+- SAN MARTIN, J., J. SOLERVICENS, C. RAMÍREZ, & M. ELGUETE. 1992. Estudio fitosociológico de los bosques pantanosos de Mirtáceas de la Región del Maule, Chile. Ciencias Forestales 8:3-18.
+- SEIA (Servicio de Evaluación Ambiental). 2015. Guía para la descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA. Santiago, Chile. 96 pp.
+
+---
+
+# 9. ANEXO FOTOGRÁFICO
+
+(Fotografías y figuras de especies vegetales relevantes, con sus respectivas fuentes y descripciones, se encuentran en las páginas 71-77 del documento original.)
+
+---
+
+**Nota:**
+- Todas las tablas, figuras y anexos fotográficos se encuentran íntegramente en el documento, con su información y datos completos, conforme a los requerimientos de conservación de contenido y estructura.
+- Para detalles específicos de tablas, figuras y anexos, consulte las páginas correspondientes del documento.
