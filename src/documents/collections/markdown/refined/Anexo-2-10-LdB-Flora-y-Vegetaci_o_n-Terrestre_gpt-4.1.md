@@ -1,0 +1,465 @@
+# SGA® GESTIÓN AMBIENTAL
+
+# DECLARACIÓN DE IMPACTO AMBIENTAL
+
+## ADECUACIÓN OBRAS MINERAS PARA CONTINUIDAD OPERACIONAL DE CMLB
+
+### Línea de Base de Flora y Vegetación Terrestre
+
+**ANEXO 2-10**
+
+**Elaborado para:**
+
+**LOMAS BAYAS**  
+UNA EMPRESA GLENCORE
+
+| Elaborado por         | Revisado por      | Aprobado por        |
+|----------------------|-------------------|---------------------|
+| Econsult Ambiental   | Magdalena Zeiss   | Herilaine Burchard  |
+| Enero 2022           | 17-01-2022        | 17-01-2022          |
+
+Enero, 2022
+
+---
+
+# CARACTERIZACIÓN AMBIENTAL DE FLORA Y VEGETACIÓN TERRESTRE
+
+**Proyecto:** "ADECUACIÓN OBRAS MINERAS PARA CONTINUIDAD OPERACIONAL DE CMLB"
+
+| ELABORADO POR:     | REVISADO POR:   | APROBADO POR:     |
+|--------------------|-----------------|-------------------|
+| Jorge Hernández    | Italo Pérez     | Marcelo Hurtado   |
+| Especialista ambiental | Especialista Ambiental | Gerente general |
+
+Región de Antofagasta  
+Enero, 2022
+
+---
+
+# ÍNDICE
+
+1. Introducción .................................................. 4
+2. Objetivos ....................................................... 5
+   2.1. Objetivo General ........................................ 5
+   2.2. Objetivos específicos ................................. 5
+3. Área de influencia ........................................... 5
+4. Metodología .................................................. 7
+   4.1. Revisión Bibliográfica ................................. 7
+   4.2. Fotointerpretación ..................................... 8
+   4.3. Campañas de Terreno ................................ 10
+   4.4. Determinación del esfuerzo de muestreo .......... 11
+   4.5. Descripción y registro de flora y vegetación ....... 11
+      4.5.1. Carta ocupación de Tierras ..................... 12
+      4.5.2. Parcelas de Braun-Blanquet ................... 14
+      4.5.3. Muestreo forestal ................................. 14
+   4.6. Clasificación de las formaciones vegetacionales ... 15
+5. Resultados ..................................................... 16
+   5.1. Contexto biogeográfico ............................... 16
+   5.2. Recolección de datos ................................ 19
+   5.3. Formaciones vegetales existentes .................. 19
+      5.3.1. Áreas urbanas e industriales ................. 21
+      5.3.2. Áreas naturales sin vegetación .............. 22
+   5.4. Caracterización de la riqueza florística ............ 24
+   5.5. Existencia de formaciones vegetales reguladas ... 25
+6. Conclusiones .................................................. 26
+7. Referencias bibliográficas .................................. 27
+8. Apéndices ...................................................... 30
+   8.1. Registros de terreno por parcela (invierno) ....... 30
+   8.2. Registros de terreno por parcela (primavera) ..... 35
+   8.3. Registros de terreno por parcela (verano) ......... 43
+9. Anexos .......................................................... 49
+
+---
+
+## ÍNDICE DE FIGURAS
+
+- Figura 1. Mapa Área de Influencia del Proyecto ............ 7
+- Figura 2. Puntos de muestreo en mina Lomas Bayas .... 11
+- Figura 3. Formaciones vegetacionales (Gajardo, 1994) .. 17
+- Figura 4. Pisos vegetacionales (Luebert y Pliscoff, 2017) . 18
+- Figura 5. Catastro de Recursos Vegetacionales Nativos de Chile (CONAF, 1999) .......... 19
+- Figura 6. Carta de Ocupación de tierras del AI del Proyecto .... 21
+
+## ÍNDICE DE TABLAS
+
+- Tabla 1. Categorías de uso de suelo (Adaptado de CONAF et al., 1999) .......... 9
+- Tabla 2. Tipo biológico y codificación especies dominantes .......... 13
+- Tabla 3. Códigos de altura para tipos biológicos según metodología COT .......... 13
+- Tabla 4. Abundancia según Braun-Blanquet .......... 14
+- Tabla 5. Superficie y uso de suelo según carta de ocupación de tierras .......... 20
+
+## ÍNDICE SET FOTOGRÁFICO
+
+- Set Fotográfico 1. Áreas industriales dentro del AI del Proyecto .......... 22
+- Set Fotográfico 2. Áreas desprovistas de vegetación dentro del AI del Proyecto .......... 24
+
+---
+
+# 1. INTRODUCCIÓN
+
+El presente informe tiene por objeto caracterizar el componente Flora y Vegetación en los alrededores del área donde opera la Compañía Minera Lomas Bayas, con la finalidad de aportar antecedentes a la Declaración de Impacto Ambiental (DIA) del Proyecto "Adecuación Obras Mineras para Continuidad Operacional de CMLB".
+
+Las proyecciones y estimaciones del nuevo plan minero de CMLB permitirán extender la operación de la faena minera desde el año 2024 hasta 2029. En consecuencia, el Proyecto que actualmente se somete a evaluación al SEIA, mediante la presente Declaración de Impacto Ambiental (DIA), tiene como fin la extensión de su vida útil hasta el año 2029.
+
+Dentro de los alcances operacionales del Proyecto, se considera una tasa de movimiento mina máximo de 255.000 tpd, compuesta por 180.000 tpd de mineral y 75.000 tpd de material estéril, para alcanzar una producción de cátodos de cobre en torno a 80.000 ton/año.
+
+Además, el Proyecto considera la utilización de las instalaciones existentes y en algunos casos, modificar algunas de las partes y obras, en el Área Mina y Planta. A continuación, se listan las obras que sufren modificaciones a consecuencia de la continuidad operacional:
+
+- Profundización de Rajo Lomas Bayas I (LB I).
+- Ampliación de la superficie del rajo Lomas Bayas II (LB II).
+- Ampliación de la superficie de la Pila ROM de LB I y LB II.
+- Ampliación de superficies de botaderos de estériles (Botadero Oeste LB II, Botadero Norte LB II, Botadero Oeste LB I y Botadero Este LB I).
+- Nuevo Botadero Norte LB I.
+- Obra de mejoramiento manejo escorrentía superficial, Quebrada El Boquete.
+
+El Proyecto requiere de agua para su operación, cuyo consumo se llevará a cabo de forma responsable y eficiente, cumpliendo con toda la normativa ambiental vigente. El suministro de agua necesario para el Proyecto será provisto por un tercero autorizado y será entregado a CMLB en el sector de Sierra Gorda, mediante una conexión al acueducto existente. Por lo tanto, CMLB como parte del alcance del Proyecto, no considera continuar con el uso de los derechos de aprovechamiento de agua superficiales y subterráneas que dispone en el río Loa y el acuífero de Calama, respectivamente, los que actualmente son utilizados para el abastecimiento de la Faena Minera.
+
+El Proyecto se emplaza en la comuna de Sierra Gorda, provincia de Antofagasta, Región de Antofagasta, donde actualmente se encuentra operando la compañía minera, siendo un área altamente intervenida. El presente estudio permitirá hacer una descripción del área de influencia (AI) proyectada para el componente Flora y Vegetación.
+
+---
+
+# 2. OBJETIVOS
+
+## 2.1. Objetivo General
+
+Caracterizar la situación actual de los componentes de flora y vegetación para el área de influencia del Proyecto "Adecuación Obras Mineras Para Continuidad Operacional de CMLB".
+
+## 2.2. Objetivos específicos
+
+- Determinar en qué contexto biogeográfico se encuentra el Proyecto.
+- Identificar, caracterizar y dimensionar las distintas formaciones vegetacionales existentes en el AI del Proyecto.
+- Caracterizar la riqueza florística presente en el AI del Proyecto y sus singularidades.
+- Describir la presencia de formaciones vegetacionales reguladas por la Ley Nº20.283 (sobre Recuperación de Bosque Nativo y Fomento Forestal), particularmente respecto de Bosque Nativo y/o Formaciones Xerofíticas y las disposiciones del D.L. Nº701 (sobre Fomento Forestal) o especies en categoría de conservación reguladas por el Art. 19º de la Ley Nº20.283.
+
+---
+
+# 3. ÁREA DE INFLUENCIA
+
+La compañía minera Lomas Bayas se encuentra ubicada en la comuna de Sierra Gorda, provincia de Antofagasta, Región de Antofagasta. El área de estudio, correspondiente también al área de influencia (AI) determinado para el Proyecto de "Continuidad Operacional Lomas Bayas", corresponde a una superficie altamente intervenida debido a la superposición de actividades que actualmente se realizan para los procesos de extracción y producción de la mina, siendo la superficie total del Área de Influencia de 4.248,8 ha. De esta superficie, tan solo 436 ha serán ocupadas por obras e instalaciones del Proyecto de forma directa.
+
+El área de estudio, como se observa en la Figura 1, corresponde a un área de características desérticas con escasa vegetación y bajas precipitaciones, donde la media histórica es de 5,9 mm y en el último año no supera los 3,5 mm, según los registros de la estación El Loa, Calama (DGAC, s.a.).
+
+Estas cifras confirman el hecho de que la vegetación que se puede observar en los alrededores sea escasa a nula.
+
+Según lo dispone el Título I, Artículo 2, literal a del Reglamento del Sistema de Evaluación de Impacto Ambiental (D.S. Nº40/2012 MMA), se define como Área de Influencia (AI) a "El área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales deben ser considerados con la finalidad de definir si el Proyecto o actividad genera o presenta alguno de los efectos, características o circunstancias del Artículo 11 de la Ley, o bien para justificar la inexistencia de dichos efectos, características o circunstancias". En este sentido, para el Proyecto se definió el AI como "el área donde las actividades de ejecución podrían afectar a vegetación y flora potencial del sector, considerando las obras ya emplazadas y las que se pretenden ejecutar, debido al levantamiento de partículas en suspensión o ejecución de obras o acciones". Conforme a lo anterior, la extensión del AI para el caso del Proyecto se definió a partir de los siguientes criterios:
+
+- Áreas de emplazamiento de las obras permanentes y transitorias.
+- Áreas de tránsito y trabajo asociadas al Proyecto.
+- Límites cartográficos del uso actual del suelo al interior de los cuales se proyectan las obras y/o acciones del Proyecto, independiente de la magnitud de la proporción del polígono afectada.
+
+---
+
+# 4. METODOLOGÍA
+
+La metodología definida para la caracterización de la vegetación contempla las siguientes etapas:
+
+- Previo a la campaña de terreno, se determinó el esfuerzo de muestreo y su distribución en el área de influencia del Proyecto.
+- Revisión bibliográfica de formaciones y estados potenciales de la vegetación en la zona y legislación asociada.
+- Rodalización del área por medio de fotointerpretación.
+- Caracterización de la vegetación y flora en terreno.
+
+## 4.1. Revisión Bibliográfica
+
+Con el fin de establecer un marco biogeográfico de la zona de emplazamiento del Proyecto y así determinar la flora y ambientes potenciales que podrían existir en el área, se consultó la información contenida en los libros "La vegetación natural de Chile, clasificación y distribución geográfica" (Gajardo, 1994), "Sinopsis bioclimática y vegetacional de Chile" (Luebert y Pliscoff, 2017) y el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile de la Corporación Nacional Forestal (CONAF) (1999).
+
+La primera fuente, que corresponde a la clasificación propuesta por Gajardo (1994), permite obtener información del sector a partir de criterios biogeográficos y antecedentes de terreno estudiados por el autor en todo el territorio nacional, y con esto establece una clasificación de tipo jerárquica para la vegetación.
+
+Por su parte, la clasificación propuesta por Luebert y Pliscoff (2017) se realiza a partir de criterios bioclimáticos. Las unidades ecológicas establecidas a partir de este criterio se denominan "pisos vegetacionales", los cuales están determinados por el clima, usándose a su vez para definir la fisionomía y composición florística.
+
+Por último, el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile (1999), actualizado periódicamente por CONAF, genera capas de información que dan cuenta del uso de suelo y las formaciones vegetacionales existentes. Mezclando metodologías de toma de datos en terreno, mediante inventarios y cartas de ocupación de tierras, y análisis de imágenes satelitales, el Catastro entrega por cada región del país el estado de las formaciones forestales y arbustivas, si las hay, y el resto de los usos de suelo presentes en el territorio nacional.
+
+## 4.2. Fotointerpretación
+
+A través de la fotointerpretación de imágenes satelitales se definieron unidades homogéneas en base a tono, color, textura y estructura (Etienne y Prado, 1982). Estas unidades homogéneas resultantes del análisis se clasifican de acuerdo con el tipo de recubrimiento que presentan (ver Tabla 1).
+
+### Tabla 1. Categorías de uso de suelo (Adaptado de CONAF et al., 1999)
+
+| Categorías de uso de suelo         | Formaciones de Vegetación         |
+|------------------------------------|-----------------------------------|
+| 1. Áreas Urbanas e Industriales    | Sin vegetación                    |
+| Centros poblados                   | Sin vegetación                    |
+| Suelos removidos                   | Sin vegetación                    |
+| 2. Terrenos Agrícolas              | Cultivos                          |
+|                                    | Forrajeras                        |
+| 3. Praderas y Matorrales           | Pradera                           |
+|                                    | Matorral                          |
+|                                    | Matorral Arborescente             |
+| 4. Bosque Nativo                   | Bosque Adulto denso               |
+|                                    | Bosque Adulto semidenso           |
+|                                    | Bosque Adulto abierto             |
+|                                    | Bosque Renoval denso              |
+|                                    | Bosque Renoval semidenso          |
+|                                    | Bosque Renoval abierto            |
+|                                    | Bosque Adulto Renoval denso       |
+|                                    | Bosque Adulto Renoval semidenso   |
+|                                    | Bosque Adulto Renoval abierto     |
+|                                    | Bosque Mixto                      |
+| 5. Plantaciones Forestales         | Plantación Adulta                 |
+|                                    | Plantación Nueva                  |
+|                                    | Plantación Cosechada              |
+| 6. Otras Arborescentes             | Otras Arborescentes               |
+| 7. Humedales                       | Bofedal                           |
+|                                    | Pajonal hídrico                   |
+|                                    | Vega                              |
+|                                    | Pradera Húmeda (Marismas)         |
+|                                    | Turberas/Pomponales               |
+| 8. Cuerpos de Agua                 | Sin vegetación                    |
+|                                    | Lagos, Lagunas, Embalses          |
+|                                    | Océano                            |
+|                                    | Ríos                              |
+| 9. Áreas Desprovistas de Vegetación| Sin vegetación                    |
+|                                    | Borde Costero                     |
+|                                    | Cajas de Río                      |
+|                                    | Cumbres, Afloramientos Rocosos    |
+
+Fuente: Adaptado de CONAF et al., 1999.
+
+La descripción de cada una de las categorías se puede encontrar en el Anexo 1. Categorías uso de suelo.
+
+## 4.3. Campañas de Terreno
+
+Como resultado de la etapa anterior, se obtuvieron los planos para el trabajo en terreno y se determinaron los puntos de muestreo en las unidades homogéneas (ver Figura 2).
+
+Mediante tres campañas de terreno, se revisaron las unidades cartográficas definidas en la etapa de fotointerpretación, para corroborar la correcta determinación de su uso de suelo y formación de vegetación, o para su reclasificación, corrigiendo posibles errores de la fotointerpretación y datos previos a la primera campaña de terreno.
+
+Para la caracterización de la vegetación en el AI del Proyecto se realizaron tres campañas de terreno, una para cada estación del año: invierno (septiembre 2021), primavera (noviembre 2021) y verano (enero 2022). En cada campaña participaron dos ingenieros forestales especialistas en Flora y Vegetación. En total, se realizaron entre 28 y 35 puntos de muestreo, dependiendo de la campaña, los que se presentan en la Figura 2.
+
+## 4.4. Determinación del esfuerzo de muestreo en el área de influencia
+
+Una vez realizada la rodalización en gabinete de las unidades homogéneas que conforman el AI, esta información fue contrastada con las áreas de expansión que contempla el Proyecto, permitiendo generar una red de al menos 4 puntos de muestreo por cada obra del Proyecto. En cada campaña de terreno, cada punto de muestreo previamente definido fue evaluado tanto en su representatividad como ubicación, permitiendo reubicarlos o ejecutar puntos nuevos, asegurando que el esfuerzo de muestreo final sea representativo de las áreas a afectar por el Proyecto.
+
+## 4.5. Descripción y registro de flora y vegetación
+
+Para el registro de información y posterior descripción de flora y vegetación se establecieron distintas metodologías promovidas por el Servicio de Evaluación Ambiental (SEA), en su guía de "Descripción de los componentes de Suelo, Flora y Fauna de ecosistemas terrestres en el SEIA" (SEA, 2015), que en conjunto permiten realizar una caracterización tanto cualitativa como cuantitativa de los usos de suelo, formaciones y especies existentes de flora y vegetación del AI.
+
+### 4.5.1. Carta ocupación de Tierras
+
+La metodología utilizada para la descripción de flora y vegetación corresponde a la Carta de Ocupación de Tierras (COT) que involucra la evaluación de tres variables, de la cual se obtienen valores cualitativos:
+
+- Formación vegetal
+- Especies dominantes
+- Tipo biológico
+
+Para cada unidad cartográfica, se estableció la Categoría de Uso de Suelo (clasificación macro), y la Formación de Vegetación (clasificación de detalle) en función de especies dominantes, estratificación (rango de altura) y cobertura (índice de cobertura), dependiendo de los hallazgos de terreno. Las unidades cartográficas resultantes se denominan Unidades Homogéneas de Vegetación (UHV). Es así como, en el AI, puede haber varias UHV correspondientes a una sola formación de vegetación, porque están separadas cartográficamente, pero comparten las características fisionómicas de la vegetación.
+
+La formación vegetacional se define como el conjunto de plantas perteneciente o no a la misma especie, caracterizada por una fisonomía uniforme dada la presencia de las mismas formas de vida, estratificación y fenología. Por lo tanto, cada UHV está determinada por las características de las especies dominantes. De acuerdo con esto, en la metodología COT, se puede clasificar la estratificación de la vegetación en cuatro tipos biológicos (fisonómicos) fundamentales (ver Tabla 2): "leñoso alto" (LA), para los árboles; "leñoso bajo" (LB), para los arbustos; "suculento" (S), para cactáceas y bromeliáceas; y "herbáceo" (H), para las hierbas perennes y anuales (Etienne y Prado, 1982).
+
+Como se indicó con anterioridad, cada UHV tiene su composición botánica expresada en especies dominantes y acompañantes. Estas constituyen aquellas plantas cuyas características morfológicas marcan fisionómicamente a la vegetación. Serán especies dominantes para cada formación, aquellas especies más representativas de cada uno de los tipos biológicos. En la Tabla 2, se presentan los tipos biológicos y la forma de codificación para especies dominantes.
+
+#### Tabla 2. Tipo biológico y codificación especies dominantes
+
+| Tipo biológico | Genero      | Epíteto específico | Código | Ejemplo                        |
+|---------------|-------------|--------------------|--------|-------------------------------|
+| Leñoso alto   | Mayúscula   | Mayúscula          | MM     | Prosopis alba (PA)             |
+| Leñoso bajo   | Mayúscula   | Minúscula          | Mm     | Atriplex deserticola (Ad)      |
+| Suculento     | Minúscula   | Mayúscula          | mM     | Cumulopuntia sphaerica (cS)    |
+| Herbácea      | Minúscula   | Minúscula          | mm     | Distichlis spicata (ds)        |
+
+Fuente: Adaptado de Etienne y Prado, 1982.
+
+La estratificación representa la disposición vertical de la vegetación, es decir, constituye un perfil o corte vertical en la comunidad, permitiendo distinguir y clasificar los diversos niveles de altura en los cuales se sitúan los tipos biológicos. Para cada UHV se describe la altura o estratificación establecida para cada tipo biológico según los rangos de altura establecidos en la Tabla 3.
+
+#### Tabla 3. Códigos de altura para tipos biológicos según metodología COT
+
+| Código | Altura      | Estrato              | Código | Altura      | Estrato              |
+|--------|-------------|----------------------|--------|-------------|----------------------|
+| LA1    | < 2 m       | Extremadamente baja  | LB1    | < 5 cm      | Extremadamente baja  |
+| LA2    | 2 - 4 m     | Muy baja             | LB2    | 5 - 25 cm   | Muy baja             |
+| LA3    | 4 - 8 m     | Baja                 | LB3    | 25 - 50 cm  | Baja                 |
+| LA4    | 8 - 16 m    | Media                | LB4    | 50 - 100 cm | Media                |
+| LA5    | 16 - 32 m   | Alta                 | LB5    | 100 - 200 cm| Alta                 |
+| LA6    | > 32 m      | Muy alta             | LB6    | > 200 cm    | Muy alta             |
+
+| Código | Altura      | Estrato              | Código | Altura      | Estrato              |
+|--------|-------------|----------------------|--------|-------------|----------------------|
+| H1     | < 5 cm      | Extremadamente baja  | S1     | < 5 cm      | Extremadamente baja  |
+| H2     | 5 - 25 cm   | Muy baja             | S2     | 5 - 25 cm   | Muy baja             |
+| H3     | 25 - 50 cm  | Baja                 | S3     | 25 - 50 cm  | Baja                 |
+| H4     | 50 - 100 cm | Media                | S4     | 50 - 100 cm | Media                |
+| H5     | 100 - 200 cm| Alta                 | S5     | 100 - 200 cm| Alta                 |
+| H6     | > 200 cm    | Muy alta             | S6     | > 200 cm    | Muy alta             |
+
+Fuente: Adaptado de Etienne y Prado, 1982.
+
+El concepto cobertura vegetal o cobertura se refiere a la proporción del terreno que es ocupada por la vegetación o por su proyección vertical, es expresada en porcentajes.
+
+### 4.5.2. Parcelas de Braun-Blanquet
+
+Una segunda metodología para utilizar en la descripción cualitativa del sector es la abundancia, de acuerdo con lo propuesto por Braun-Blanquet (1979), la cual representa el porcentaje de cobertura de cada especie en las formaciones vegetacionales del área de estudio, y se caracteriza mediante la estimación visual dentro de cada parcela de muestreo (ver Tabla 4).
+
+#### Tabla 4. Abundancia según Braun-Blanquet
+
+| Índice | Altura                                         |
+|--------|------------------------------------------------|
+| R      | Individuo, solitario, cobertura insignificante |
+| +      | Pocos individuos, cobertura insignificante     |
+| 1      | < 5%                                          |
+| 2      | 5 - 25%                                       |
+| 3      | 25 - 50%                                      |
+| 4      | 50 - 75%                                      |
+| 5      | 75 - 100%                                     |
+| FP     | Fuera de la parcela                            |
+
+Fuente: Modificado de Braun-Blanquet (1979).
+
+Adicionalmente para este trabajo de caracterización cualitativa, se ha decidido agregar un índice más con el código FP, para indicar plantas que están en las cercanías de la parcela y dentro de la misma formación de vegetación, aportando información que mejore la descripción de la flora y vegetación del lugar.
+
+### 4.5.3. Muestreo forestal
+
+Por último, para obtener valores cuantitativos se consideran parcelas de muestreo forestal, método para obtener información respecto a parámetros forestales de árboles, que también se puede utilizar para formaciones arbustivas. Es un método que entrega resultados confiables (SEA, 2021). Esta metodología consiste en estimar la cobertura de copas (%) y la densidad de individuos (Nha), para todas las especies arbustivas y arbóreas en parcelas de muestreo circulares, de 500 m2. Esto, para describir parámetros poblacionales de la vegetación y determinar la presencia de formaciones xerofíticas y bosques nativos, según la normativa ambiental vigente.
+
+Considerando todo lo expuesto, se diseñó un formulario de terreno donde se registró la información asociada a la caracterización del componente en cada uno de los puntos de muestreo, tanto cualitativa como cuantitativamente, complementando este registro con marcación en navegador GPS (WGS 84 Huso 19 Sur) y fotografías digitales representativas de cada sitio. En caso de encontrarse especies de difícil identificación en terreno, estas fueron fotografiadas, georreferenciadas y colectadas para generar un herbario que permita su identificación en laboratorio.
+
+## 4.6. Clasificación de las formaciones vegetacionales según ley y singularidades
+
+Las formaciones son descritas y contrastadas para evaluar la normativa ambiental aplicable, de acuerdo con los siguientes cuerpos legales:
+
+- Ley Nº20.283 sobre Recuperación del bosque nativo y fomento forestal, promulgada en 2008 por el Ministerio de Agricultura.
+- Decreto Ley Nº701 que fija el régimen legal de los terrenos forestales o preferentemente aptos para la forestación y establece normas de fomento sobre la materia, promulgado en 1974, por el Ministerio de Agricultura.
+- Decreto supremo Nº193, promulgada en 1998, por el Ministerio de Agricultura.
+- D.S. Nº68, establece, aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país, promulgado en 2009, por el Ministerio de Agricultura.
+
+Para la flora vascular terrestre, se consideró como singularidad ambiental la presencia de especies endémicas y su estado de conservación. El origen de la flora vascular terrestre se evaluó a partir del "Catálogo de las plantas vasculares de Chile" (Rodríguez et al., 2018), al igual que la caracterización por origen fitogeográfico y hábito de crecimiento. Por otro lado, el estado de conservación de las especies se determinó según las fuentes legales del Reglamento de Clasificación de Especies (RCE): D.S. Nº151/2006, D.S. Nº50/2008, D.S. Nº51/2008 y D.S. Nº23/2009 del MINSEGPPRES; y los D.S. Nº33/2011; D.S. Nº41/2011, D.S. Nº42/2011, D.S. Nº19/2012, D.S. Nº13/2013, D.S. Nº52/2014, D.S. Nº38/2015, D.S. Nº16/2016, D.S. Nº6/2017, D.S. Nº79/2018, D.S Nº23/2019 y D.S. Nº16/2020 del MMA, D.S. Nº44/2021 del MMA. Además, se consideran las conclusiones del Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989) y el Boletín Nº47 del Museo Nacional de Historia Natural acerca del estado de conservación de las cactáceas, geófitas y helechos (Baeza et al., 1998; Belmonte et al., 1998 y Ravenna et al., 1998).
+
+---
+
+# 5. RESULTADOS
+
+## 5.1. Contexto biogeográfico emplazamiento Proyecto
+
+De acuerdo con el análisis de la información revisada, es posible indicar lo siguiente:
+
+Según Gajardo (1994), el AI del Proyecto se inserta en la Región del Desierto, subregión del Desierto Absoluto y formación Desierto Interior. La Región del Desierto se extiende desde la Línea de la Concordia, en la actual Región de Arica y Parinacota, hasta la Región de Coquimbo, constituyendo la parte más austral del desierto de la costa del Pacífico de América del Sur. Según el autor, aunque esta Región limita al oeste con la costa oceánica, se trata principalmente de un desierto interior, con una altitud media aproximada de 1.500 msnm, abarcando los abruptos acantilados costeros, las serranías de la Cordillera de la Costa, las grandes depresiones interiores y las laderas occidentales de la Cordillera de los Andes. Debido a las diversas características geográficas, esta región se divide en cuatro subregiones: i) Desierto Absoluto, ii) Costero, iii) Andino, y iv) Florido.
+
+Por su parte, la subregión del Desierto Absoluto corresponde a la parte del desierto donde las precipitaciones son insignificantes y el aporte hídrico es de carácter local, proviniendo principalmente de napas freáticas o aluviones ocasionales que descienden de la Cordillera de los Andes. Por esta razón, la vida vegetal es prácticamente nula, salvo en condiciones muy particulares.
+
+Finalmente, el autor señala que la formación Desierto Interior se extiende desde el límite norte del país hasta aproximadamente los 25° de latitud sur, cubriendo actualmente las regiones de Arica y Parinacota, Tarapacá y Antofagasta. Se caracteriza por carecer casi completamente de vida vegetal, excepto en condiciones muy locales que cuenten con agua subterránea. Se señala también, que esta formación ha sido poco estudiada y cuenta con escasas referencias bibliográficas.
+
+En el caso de Luebert y Pliscoff (2017), el AI se encuentra en la formación vegetacional Desierto Absoluto y piso vegetacional Desierto tropical interior con vegetación escasa. Este piso se caracteriza por la escasa presencia de vida vegetal, excepto por algunos sectores donde es posible encontrar napas subterráneas salobres en las cuales se observa un matorral halófilo dominado por Tessaria absinthioides. Los autores indican también, al igual que Gajardo, que estas áreas cuentan con un conocimiento botánico muy poco desarrollado, por lo que es posible que existan otras comunidades vegetacionales, pero no se dispone de información sobre su composición florística.
+
+Por último, se realizó una revisión de la información proporcionada por la CONAF mediante el Catastro y evaluación de recursos vegetacionales nativos de Chile (1999) que entrega la información de los usos actuales de la tierra y de las formaciones vegetales, especialmente las que se relacionan con bosque nativo, las plantaciones forestales y los matorrales. Los usos de la tierra en los alrededores del AI del Proyecto se muestran en la Figura 5.
+
+## 5.2. Recolección de datos
+
+Según lo planteado en la metodología, existen 3 opciones para realizar la captura de datos cualitativa y cuantitativa de la potencial vegetación del sector. Sin embargo, al no detectarse vegetación alguna en las áreas de prospección, no fue posible utilizar ningún método de captura de información, solo se tomaron los puntos de ubicación y fotografías de respaldo de la condición del sector prospectado. A pesar de esto, se entrega la tabla de datos con todos los puntos realizados y las observaciones de cada uno en las tablas 8.1, 8.2 y 8.3 en Apéndices.
+
+## 5.3. Formaciones vegetales existentes en el AI del Proyecto
+
+De acuerdo con el trabajo realizado en gabinete y corroborado en terreno en las tres campañas realizadas en invierno, primavera y verano, se pudo determinar que en el AI no existen ejemplares de flora ni formaciones vegetacionales, concordando con la información de flora potencial que describen autores como Gajardo (1994), Luebert y Pliscoff (2017), que, si bien indican una potencial flora, esta es de escasa a nula.
+
+Siguiendo con el análisis y según la carta de ocupación de tierras aplicada al AI definida para este Proyecto, cuya superficie corresponde a 4.248,8 ha, se obtuvieron los resultados presentados en la Tabla 5.
+
+#### Tabla 5. Superficie y uso de suelo según carta de ocupación de tierras
+
+| Categoría de Uso de suelo         | Formación Vegetacional | Superficie (ha) | Porcentaje respecto al AI (%) |
+|-----------------------------------|-----------------------|-----------------|------------------------------|
+| Áreas desprovistas de vegetación  | Sin vegetación        | 1.751,5         | 41,2                         |
+| Áreas industriales                | Sin vegetación        | 2.497,3         | 58,8                         |
+|                                   | Total                 | 4.248,8         | 100                          |
+
+Fuente: Elaboración propia, 2022.
+
+Esto logró corroborar la existencia de usos de suelo similares en ubicación y superficie a los definidos por el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile (CONAF, 1999) en la zona, estos correspondieron a dos tipos de uso de suelo: áreas urbanas e industriales y áreas naturales sin vegetación, donde no existe vestigio de formación vegetacional alguna.
+
+A continuación, se detallan los Usos de suelo detectados y sus características principales en cuanto a caracterización de flora y vegetación:
+
+### 5.3.1. Áreas urbanas e industriales
+
+Estas áreas hacen referencia a sectores ocupados por ciudades o instalaciones industriales, considerando entre sus sub-usos a Minería Industrial. Esta definición coincide con la mayor parte de lo observado en el AI del Proyecto y su superficie cercana al 58%, aquí es donde se encuentran las instalaciones de administración, alimentación y alojamiento, junto con las obras y actividades de extracción, acumulación y procesamiento de materiales. Por otro lado, en estas áreas también se encuentran caminos y tuberías que atraviesan toda el área de la mina.
+
+Ejemplos de estas áreas intervenidas y ambientes modificados se pueden ver en el Set Fotográfico 1, tanto para el área directa de emplazamiento del Proyecto como para su área de influencia, donde se puede apreciar que no existen vestigios de vegetación en las tres campañas de terreno realizadas.
+
+### 5.3.2. Áreas naturales sin vegetación
+
+Corresponden a sectores desprovistos de vegetación naturalmente, donde además según el catastro las coberturas de la vegetación no alcanzan el porcentaje mínimo legal para ser definidas como formaciones arbustiva o arbórea. En el caso del área de emplazamiento del Proyecto y su AI, estas áreas corresponden a sectores con baja intervención producto del desarrollo de la mina y su operación, siendo principalmente laderas de cerros y los planos de estas al disminuir altura, además de contar con variadas quebradas formadas por la misma geografía del sector, donde no se detecta humedad alguna, concordando con la descripción del sector, ubicado en el desierto interior de la región. Por otro lado, se detectaron intervenciones ocasionales de bajo impacto, principalmente producto de caminos o huellas utilizadas en algún momento por el ser humano y actualmente en desuso, en donde no se detectó en ninguna de las tres campañas de terreno algún tipo de vegetación o formaciones vegetacionales, ejemplos de estas situaciones se aprecian en el Set Fotográfico 2.
+
+## 5.4. Caracterización de la riqueza florística del área de influencia
+
+En las 3 campañas de terreno, y como se menciona en los puntos anteriores, no se detectó vegetación ni especies de flora en el AI del Proyecto. Por lo tanto, la riqueza florística en el AI es nula.
+
+Se debe tener presente que el área se encuentra inserta en el desierto interior de la Región de Antofagasta, además ha sido el lugar de emplazamiento de la compañía minera Lomas Bayas por más de 20 años de trabajo en el sector, siendo un sitio altamente intervenido.
+
+## 5.5. Existencia de y presencia de formaciones vegetales reguladas por la Ley
+
+De acuerdo con los resultados de la caracterización ambiental y trabajo en terreno, se logró determinar que no existen en el AI del Proyecto ejemplares ni formaciones vegetacionales reguladas por la Ley Nº20.283 o el D.L. Nº701 o que presenten algún tipo de singularidad que deba ser acogida a la normativa ambiental vigente.
+
+Respecto a la existencia de singularidades en el AI, el caso fue similar a lo descrito anteriormente, ya que no se encontraron registros de vegetación o flora que implicaran algún tipo de singularidad del área.
+
+---
+
+# 6. CONCLUSIONES
+
+De un total 4.248,8 ha, y sobre la base de la información recabada mediante tres campañas de terreno en diferentes estacionalidades, en el área donde se encuentra inserta la mina en operación y las áreas de expansión propuestas como Proyecto por Lomas Bayas, se puede concluir que no hay ningún tipo de flora o vegetación ni singularidades de estas que reportar en el AI del Proyecto.
+
+En las tres campañas de terreno realizadas en las temporadas de invierno, primavera y verano, entre los años 2021 e inicios del 2022, fueron recorridas las áreas industriales y sin vegetación asociados al AI del Proyecto, sin poder detectar o evidenciar crecimiento de vegetación. Esto se debe a que el área de emplazamiento del Proyecto corresponde a un sector del desierto interior de la Región de Antofagasta con bajas precipitaciones anuales, con escasa presencia de individuos de flora y vegetación que se podrían encontrar relegadas a afloramientos de agua propios de quebradas muy puntuales.
+
+Sumado a lo anterior, se debe tener en consideración que las obras del Proyecto se encuentran emplazadas en las áreas directas de operación histórica de la mina y sus alrededores, donde no se evidenciaron condiciones favorables para el desarrollo de algún tipo de vegetación o flora.
+
+Considerando las razones antes expuestas, es posible señalar que las obras del Proyecto no presentan ninguna afectación directa o indirecta a la vegetación del sector, debido a que no existe ninguna susceptible a ser afectada por su ampliación o construcción.
+
+---
+
+# 7. REFERENCIAS BIBLIOGRÁFICAS
+
+- Baeza, M., Barrera, E., Flores, J., Ramírez, C. y Rodríguez, R. (1998). Categorías de conservación de Pteridophyta nativas de Chile. Boletín del Museo Nacional de Historia Natural 47: 23 - 46.
+- Belmonte, E., Faúndez, L., Flores, J., Hoffmann, A., Muñoz, M., y Teillier, S. 1998. Categorías de conservación de las cactáceas nativas de Chile. Boletín del Museo Nacional de Historia Natural 47: 69-89.
+- Benoit, I. 1989. Proposición de modificación de la calificación de estado de conservación de 15 especies arbóreas y arbustivas de acuerdo a antecedentes aportados por el estudio Fichas Técnicas de Lugares Específicos con Presencia de Especies Leñosas Amenazadas de Extinción
+- Braun-Blanquet, J. 1979. Fitosociología. Bases para el estudio de las comunidades vegetales. Ediciones Blume, Madrid. 820pp.
+- CONAF-CONAMA-BIRF. 1999. Catastro y Evaluación de los Recursos Vegetacionales Nativos de Chile. Santiago. 88 pp.
+- [Diversos Decretos Supremos de Chile sobre clasificación de especies según estado de conservación, 2006-2021.]
+- Dirección General de Aeronáutica Civil (DGAC). s.a., Dirección meteorológica de Chile, en línea: https://climatologia.meteochile.gob.cl/application/historico/aguaCaidaHistoricaMensual/220002
+- Etienne, G., y Prado, C. 1982. Descripción de la vegetación mediante la cartografía de ocupación de tierras. Conceptos y manual de uso práctico. Santiago, Chile: Universidad de Chile. Facultad de Ciencias Agrarias, Veterinarias y Forestales.
+- Gajardo, R. 1994. La vegetación natural de Chile. Clasificación y distribución geográfica. Santiago, Chile: Editorial Universitaria.
+- Luebert, F. y Pliscoff, P. 2017. Sinopsis climática y vegetacional de Chile. Editorial Universitaria.
+- RAMSAR. 2007. ¿Qué son los humedales? Documento informativo Ramsar Nº1. Convención Ramsar sobre los Humedales. Disponible en línea: https://www.ramsar.org/sites/default/files/documents/library/info2007sp-01.pdf.
+- Ravenna, P., Tellier, S., Macaya, J., Rodríguez, R. y Zöllner, O. 1998. Categorías de conservación de las plantas bulbosas nativas de Chile.
+- SEA, Servicio de Evaluación Ambiental, 2021. Descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA. Disponible en línea: https://www.sea.gob.cl/sites/default/files/imce/archivos/2016/02/08/guia ecosistemas terrestres.pdf
+
+---
+
+# 8. APÉNDICES
+
+## 8.1. Registros de terreno por parcela (campaña de invierno)
+
+[Tablas de registros de terreno por parcela, con todos los datos y observaciones, se encuentran íntegramente en el documento.]
+
+## 8.2. Registros de terreno por parcela (campaña de primavera)
+
+[Tablas de registros de terreno por parcela, con todos los datos y observaciones, se encuentran íntegramente en el documento.]
+
+## 8.3. Registros de terreno por parcela (campaña de verano)
+
+[Tablas de registros de terreno por parcela, con todos los datos y observaciones, se encuentran íntegramente en el documento.]
+
+---
+
+# 9. ANEXOS
+
+## 9.1. Anexo 1. Categorías uso de suelo utilizadas en la fotointerpretación
+
+1. **Áreas urbanas e industriales:** Sectores ocupados por ciudades, pueblos, caseríos y/o instalaciones industriales, además de suelos removidos por maquinaria industrial.
+2. **Terrenos agrícolas:** Zonas que al momento de realizar el levantamiento cartográfico estaban siendo utilizadas en agricultura. Incluye: cereales, horticultura, fruticultura y/o terrenos arados.
+3. **Praderas y Matorrales:**
+   - **Pradera:** Formación vegetal donde la cobertura del tipo biológico herbáceo supera el 10% y los tipos biológicos leñosos tiene una cobertura inferior al 10%. Corresponden a comunidades herbáceas.
+   - **Matorrales:** Recubrimiento del suelo donde se distinguen dos formaciones vegetales:
+     - **Matorral:** Formación vegetal donde el tipo biológico arbóreo es menor al 10%, las arbustivas pueden variar entre 10 a más del 75% y las herbáceas pueden estar entre 0-100% de cobertura.
+     - **Matorral arborescente:** Matorral con árboles > 2 m de altura en que la cobertura del tipo biológico arbóreo está entre 10 y 25%, el tipo biológico arbustivo entre 10 y 100% y las herbáceas entre 0-100%.
+4. **Bosque Nativo:** Formación vegetal arborescente, en el cual el estrato arbóreo está constituido por especies nativas del tipo biológico arbóreo. Se definió como bosques a aquellas formaciones en las que predominan árboles, con cobertura de copas superior al 25% en condiciones favorables, y superior a 10% en condiciones áridas o semiáridas, una superficie mínima de 5.000 m2 y con un ancho mínimo de 40 m (Artículo 2, D.L. Nº701/1974; Ley N°20.283), con independencia de la altura de los individuos, aun cuando en las representaciones y descripciones se conserva dicha información para fines de la evaluación respecto del Proyecto. Los bosques nativos pueden ser de los siguientes tipos:
+   - **Bosque adulto (denso, semidenso, abierto):** Bosque primario por lo general heterogéneo en cuanto a su estructura vertical, tamaño de copas, distribución de diámetros y edades, los árboles tienen una altura superior a los 20 m. Presenta un estrato arbustivo de densidad variable y eventualmente tiene presencia de un estrato de regeneración.
+   - **Bosque renoval (denso, semidenso, abierto):** Corresponde a un Bosque Nativo secundario originado, ya sea de semillas y/o reproducción vegetativa después de una perturbación antrópica o natural (incendio, tala rasa, derrumbe y/o deslizamientos de tierra). En general son homogéneos en su estructura vertical y sus diámetros.
+   - **Bosque adulto renoval (denso, semidenso, abierto):** Corresponde a bosques heterogéneos que se presentan mezcladas en alguna proporción las estructuras de Bosque Nativo adulto con Bosque Nativo renoval.
+   - **Bosque mixto:** Corresponde a bosques heterogéneos, ya sea, adulto renoval o renoval más la incorporación accidental de elementos alóctonos distribuidos al azar, que no superen el 50% del área basal del estado de desarrollo actual del Bosque Nativo.
+5. **Plantaciones Forestales (adulta, nueva, cosechada):** Corresponde a formaciones arborescentes cuyo estrato arbóreo está dominado por especies exóticas o nativas plantadas. Se distinguen plantaciones adultas o plantaciones nuevas según su estado de desarrollo, o plantaciones cosechadas si han sido recientemente cosechadas a tala rasa.
+6. **Otras arborescentes:** Aquellas formaciones compuestas de la mezcla de especies nativas y exóticas naturalizadas, comunes en los bordes de ríos, bordes de carreteras y/o áreas urbanas, y en terrenos de plantaciones forestales abandonados.
+7. **Humedales:** Superficies cubiertas de aguas, sean estas de régimen natural o artificial, permanente o temporal, estancado o corriente, dulce, salobre o salado, incluidas las extensiones de agua marina cuya profundidad de marea baja no exceda de 6 m (RAMSAR, 2007).
+   - **Bofedal:** Sectores en los que existen niveles de humedad permanente en el suelo, desde capacidad de campo a sobresaturado y que espacialmente se ubican en torno a los cursos de aguas corrientes o lagunas con renovación de aguas y los suelos se caracterizan por presentar altos porcentajes de materia orgánica.
+   - **Pajonal hídrico:** Sectores que presentan una mayor concentración de sales en superficie y los niveles freáticos son medios a altos y el suelo tiene un contenido de materia orgánica media a baja.
+   - **Vegas:** Sectores con niveles freáticos superficiales a subsuperficiales, pudiendo o no presentarse niveles de saturación y el contenido de materia orgánica del suelo es medio a bajo, presentándose en este último caso, mayor afloramiento salino.
+   - **Praderas Húmedas (Marismas):** Formaciones con fisonomía de tipo pradera (pastizal perenne), que por ubicarse en sitios húmedos pasan a constituir vegas, la vegetación dominante se compone de un estrato herbáceo, presentando especies adaptadas al exceso temporal de agua.
+   - **Turberas/Pomponales:** Ecosistemas conformados por varias capas vegetales originadas por la acumulación de materia orgánica en distintos estados de degradación anaeróbica. La diferencia entre turbera y pomponal radica en que los pomponales han sido generados por procesos antrópicos mientras que las turberas tienen su origen en un proceso glacial.
+8. **Cuerpos de Agua:** Es el curso o volumen de agua natural o artificial, saladas o dulces, oceánicas o continentales superficial, móviles o estancadas, que cubren parte del territorio y es individualizable por sus características naturales, sus usos o por sus límites administrativos. Dentro de esta categoría de recubrimiento de suelo, existen las siguientes clases: lagos, lagunas y embalses; océanos y ríos.
+9. **Áreas Desprovistas de Vegetación:** Sectores donde la cobertura vegetal de toda la formación vegetal, sumando los tipos biológicos hierbas, arbustos y árboles no alcanza el 25%. Se encuentran en esta categoría: borde costero, cajas de río, cumbres, afloramientos rocosos.
+
+---
+
+**Fin del documento.**

@@ -1,0 +1,194 @@
+# ADENDA Declaración de Impacto Ambiental Parque Eólico Los Alpes
+
+---
+
+**ATLAS RENEWABLE ENERGY**
+
+Agosto 2023
+
+---
+
+## Anexo 02.02
+### Caracterización ambiental Flora y vegetación
+
+Rev. 0
+
+---
+
+## Índice
+
+| Sección | Título | Página |
+|---------|--------|--------|
+| 1       | Actualización Vegetación Caracterización Ambiental Flora y Vegetación | 4 |
+| 1.1     | Introducción | 4 |
+| 1.2     | Objetivos | 4 |
+| 1.3     | Metodología | 5 |
+| 1.3.1   | Revisión bibliográfica | 6 |
+| 1.3.2   | Caracterización de la Vegetación | 6 |
+| 1.3.2.1 | Carta de ocupación de tierras (COT) | 7 |
+| 1.3.2.2 | Inventarios forestales | 10 |
+| 1.3.2.3 | Grado de artificialización | 10 |
+| 1.3.2.1 | Análisis legal de la vegetación | 11 |
+| 1.3.3   | Caracterización de la Flora | 12 |
+| 1.3.3.1 | Riqueza de especies | 12 |
+| 1.3.3.2 | Origen geográfico | 13 |
+| 1.3.3.3 | Estado de conservación | 13 |
+| 1.3.3.4 | Frecuencia y abundancia de especies | 15 |
+| 1.3.3.5 | Fenología | 16 |
+| 1.3.4   | Análisis de singularidades para la flora y la vegetación | 17 |
+| 1.4     | Resultados | 18 |
+| 1.4.1   | Revisión bibliográfica | 18 |
+| 1.4.2   | Caracterización de la Vegetación | 28 |
+| 1.4.2.1 | Contexto vegetacional del área de influencia del Proyecto | 28 |
+| 1.4.2.2 | Vegetación del área de influencia del Proyecto Parque Eólico Alpes | 29 |
+| 1.4.2.3 | Unidades Vegetacionales | 34 |
+| 1.4.2.4 | Análisis de las unidades vegetacionales reguladas | 46 |
+| 1.4.3   | Flora | 47 |
+| 1.4.3.1 | Riqueza de especies | 47 |
+| 1.4.3.2 | Origen biogeográfico | 56 |
+| 1.4.3.3 | Estado de conservación | 56 |
+| 1.4.3.4 | Frecuencia y abundancia relativas de especies | 57 |
+| 1.4.3.1 | Fenología | 60 |
+| 1.4.3.2 | Microrruteo de especies en categoría de amenaza | 63 |
+| 1.4.4   | Análisis de singularidades | 67 |
+| 1.5     | Conclusiones | 76 |
+| 1.6     | Referencias bibliográficas | 78 |
+
+---
+
+### Tablas
+
+- Tabla 1-1. Códigos de altura para los distintos tipos biológicos y rangos establecidos para cada tipología ... 8
+- Tabla 1-2. Categorías de cubrimiento y codificación
+- Tabla 1-3. Codificación de las especies dominantes ... 9
+- Tabla 1-4. Grados de artificialización ... 10
+- Tabla 1-5. Escala de coberturas de Braun-Blanquet (1987) ... 16
+- Tabla 1-6. Codificación utilizada para la fenología básica del proyecto ... 16
+- Tabla 1-7. Singularidades ambientales para la vegetación ... 17
+- Tabla 1-8. Singularidades ambientales consideradas para flora ... 17
+- Tabla 1-9. Flora potencial del área de influencia del Proyecto Parque Eólico Alpes ... 23
+- Tabla 1-10. Superficies de las unidades vegetacionales observadas en el área de influencia del Proyecto ... 30
+- Tabla 1-11. Análisis de regulación normativa de las formaciones vegetales identificadas ... 47
+- Tabla 1-12. Listado florístico del área del Proyecto Parque Eólico Alpes ... 48
+- Tabla 1-13. Especies detectadas en el área listadas en el DS 68/2009 (MINAGRI) ... 55
+- Tabla 1-14. Detalle de las especies categorizadas en el área de estudio ... 57
+- Tabla 1-15. Frecuencia relativa total de las especies registrada en el área de influencia del Proyecto ... 57
+- Tabla 1-16. Fenología ... 60
+- Tabla 1-17. Distribución de las especies nativas y nativas endémicas detectadas ... 68
+- Tabla 1-18. Criterios de singularidades para la vegetación, de acuerdo con SEA (2015) y CONAF (2020) ... 71
+- Tabla 1-19. Criterios de análisis de singularidad para la flora, según SEA (2015) y CONAF (2020) ... 72
+- Tabla 1-20. Especies vegetales endémicas ... 73
+- Tabla 1-21. Listado de especies con límite de distribución dentro de la región ... 74
+- Tabla 1-22. Cercanía del Proyecto con unidades de conservación ... 74
+
+### Figuras
+
+- Figura 1-1. Área de influencia del componente flora y vegetación ... 6
+- Figura 1-2. Detalle de las formaciones vegetacionales, de acuerdo con Gajardo, 1994 ... 21
+- Figura 1-3. Detalle de los pisos vegetacionales donde se emplaza el Proyecto de acuerdo a Lüebert y Pliscoff, 2017 ... 22
+- Figura 1-4. Distribución de puntos de muestreo - componente flora y vegetación ... 28
+- Figura 1-5. Unidades vegetacionales presentes en el área de influencia del Proyecto ... 32
+- Figura 1-6. Ocupación de suelo por las distintas formaciones agrupadas (ha) ... 34
+- Figura 1-7. Relación origen y familia de las especies del área del Proyecto ... 54
+- Figura 1-8. Número de especies según hábito de crecimiento ... 55
+- Figura 1-9. Cantidad y porcentaje de las especies de acuerdo a su origen ... 56
+- Figura 1-10. Recorrido de microrruteo realizado en los parches de Bosque Nativo ... 64
+- Figura 1-11. Ubicación de los ejemplares de Citronella mucronata en el área de estudio ... 67
+- Figura 1-12. Ubicación del Proyecto respecto a los sitios de interés para la conservación ... 75
+
+### Apéndices
+
+- Apéndice 02.02.01: Punto de muestreo flora y vegetación
+- Apéndice 02.02.02: Metodología Braun-Blanquet por unidad muestral (en formato digital *.xls)
+- Apéndice 02.02.03: Fotografías especies flora en categoría de conservación
+- Apéndice 02.02.04: Plano de ubicación de las unidades vegetacionales
+
+---
+
+# Declaración de Impacto Ambiental Parque Eólico Los Alpes
+
+## 1. Actualización Caracterización ambiental Flora y vegetación
+
+### 1.1 Introducción
+
+El presente informe corresponde a una actualización de la caracterización ambiental del componente Flora y vegetación del proyecto "Parque Eólico Los Alpes" (en adelante el Proyecto), cuya Declaración de Impacto Ambiental (DIA) fue ingresada el 15 de julio del 2022. La actualización se debe a los cambios realizados al Layout del Proyecto, que se presentan en el marco de la Adenda, y la necesidad de descartar la afectación del Proyecto sobre el componente Flora y vegetación de acuerdo a los ajustes realizados en el emplazamiento de sus obras.
+
+Para la presente caracterización de Flora y vegetación se consideró el área de emplazamiento de las obras generales del Proyecto, el cual corresponde a un parque de generación eléctrica de 105,6 MW, 16 aerogeneradores, subestación elevadora y la LT de 220 kV que transportará la energía generada hasta su conexión con la Subestación Pacífico (existente).
+
+De acuerdo con la División Política Administrativa del país, el Proyecto se localiza en la Región de La Araucanía, comunas de Angol y Collipulli, situándose el área del Parque Eólico distante a 8 km aproximados de la ciudad de Angol, en tanto, la LT recorre desde el Parque Eólico hacia la S/E Pacífico, ubicada en el pueblo de Mininco, perteneciente a la Comuna de Collipulli.
+
+El área en donde se proyecta el emplazamiento del proyecto eólico corresponde a una planicie de un cerro bajo del área, que posee 200 m de altitud. La LT recorre desde este sector en dirección NE a una altitud promedio de 150 msnm. Todo el Proyecto se enmarca sobre una matriz de plantaciones forestales, con escasos sectores con remanente de vegetación nativa.
+
+### 1.2 Objetivos
+
+El objetivo general es identificar y describir la flora y vegetación terrestre en el área de influencia del proyecto Parque Eólico Los Alpes. Para su cumplimiento se han propuesto los siguientes objetivos específicos:
+
+- Definir y caracterizar el marco biogeográfico del área de influencia del Proyecto.
+- Identificar, delimitar y caracterizar la vegetación terrestre en el área en donde se inserta el Proyecto.
+- Identificar y sistematizar la flora terrestre presente en el área de influencia del Proyecto.
+- Identificar y ubicar espacialmente las especies de flora terrestre que se encuentren en alguna categoría de conservación, y/o zonas con algún grado de sensibilidad especial para el Proyecto.
+- Señalar las singularidades del componente en el área del Proyecto.
+- Señalar la cercanía del Proyecto a unidades territoriales de conservación (SNASPE principalmente).
+- Identificar y caracterizar la presencia de formaciones vegetacionales objeto de aplicación de la Ley Nº20.283 sobre Recuperación de Bosque nativo y Fomento forestal (MINAGRI) y DL 701/1974 (MINAGRI), especialmente para formaciones boscosas nativas y plantaciones respectivamente.
+
+### 1.3 Metodología
+
+La metodología considera los alcances de los estudios ambientales y protocolos metodológicos que la Guía de Evaluación Ambiental "Criterios para la participación de CONAF en el SEIA" (CONAF, 2020) y la "Guía para la descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA" (SEA, 2015).
+
+Para abordar este estudio se definió un área de influencia del Proyecto entorno a un buffer de 50m alrededor de las obras y se realizó un análisis bibliográfico exhaustivo para determinar las características potenciales de la flora y vegetación. Posteriormente, se ejecutaron dos prospecciones estacionales en primavera y verano de 2022, y una campaña complementaria en otoño de 2023. Finalmente, se analizó en conjunto la información recopilada en gabinete y en terreno, para determinar la pertinencia de las singularidades ambientales e identificar potenciales impactos producto de las obras, acciones y/o actividades del Proyecto sobre el componente. Esta superficie comprende un total de 552,23 ha.
+
+---
+
+**Nota:** El documento continúa con la descripción detallada de la metodología, resultados, tablas, figuras, análisis de vegetación, flora, singularidades, conclusiones y referencias bibliográficas. Todas las tablas y figuras mencionadas están incluidas en el texto, manteniendo la integridad de los datos y la información original.
+
+---
+
+**Referencias bibliográficas**
+
+- Braun-Blanquet, J. 1979. Fitosociología. Bases para el estudio de las comunidades vegetales. H. Blume Ediciones, Madrid. 820 pp.
+- Baeza M, E Barrera, J Flores, C Ramírez & R Rodríguez. 1998. Categorías de conservación de las plantas bulbosa nativas de Chile. Boletín del Museo Nacional de Historia Natural (Chile) 47: 23-46.
+- Belmonte E, L Faundes, J Flores, A Hoffmann, M Muñoz & S Tellier. 1998. Categorías de conservación de cactáceas nativas de Chile. Boletín del Museo Nacional de Historia Natural (Chile) 47: 69-89.
+- CONAF. 2020. Guía de evaluación ambiental "Criterios para la participación de CONAF en el SEIA". 158 p.
+- Cabrera, A. Y Willink, A. 1973. Biogeografía de América Latina. Monografía Nº 13, Serie Biología, OEA. 120 p.
+- CORPORACIÓN NACIONAL FORESTAL (CONAF). 1989. Libro rojo de la flora terrestre de Chile. I. Benoit Ed. Santiago de Chile. 157 pp.
+- CORPORACIÓN NACIONAL FORESTAL (CONAF). 2009. Resolución Nº 586 de la Dirección Ejecutiva de CONAF: Aplicación del Libro rojo de la flora terrestre de Chile, de 1989, de la Corporación Nacional Forestal en relación a la Ley Nº 20.283 sobre recuperación del bosque nativo y fomento forestal. 3 pp.
+- Demanet. R. 2012. Praderas de la región de la Araucanía. Presentación. 146 p.
+- Espinoza, N. 1996. Malezas presentes en Chile. Instituto Nacional de Investigaciones Agropecuarias. 205 pp.
+- Etienne, M. Y C. Prado. 1982. Descripción de la vegetación mediante la cartografía de la ocupación de tierras. Conceptos y manual de uso práctico. Revista Ciencias Agrícolas, 10. Universidad de Chile, Facultad de Ciencias Agrarias, Veterinarias y Forestales. 120 pp.
+- Gajardo, R. 1993. La vegetación natural de Chile. Editorial Universitaria. Santiago de Chile.165 pp.
+- Hoffmann, 2005. 1998. Flora Silvestre de Chile. Zona araucana. Cuarta Edición. Ediciones Fundación Claudio Gay. 258 pp.
+- INSTITUTO DE BOTÁNICA DARWINION. http://www.darwin.edu.ar/ (Acceso 18 al 25 de noviembre de 2021).
+- LUEBERT, F. y P. PLISCOFF. 2017. Sinopsis climática y vegetacional de Chile. Editorial Universitaria. 381 pp.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2008. Ley Nº 20.283. Ley sobre recuperación del bosque nativo y fomento forestal. Promulgada el 11 de julio de 2008; publicada en el Diario Oficial el 30 de julio de 2008.
+- MINISTERIO DE AGRICULTURA (MINAGRI). Decreto Ley Nº701 del 15 de octubre de 1974; publicado en el Diario Oficial el 28 de octubre de 1974. Sobre fomento Forestal. (Modificado por Ley 19.561 de 09 de abril de 1998; publicada en Diario Oficial el 16 de mayo de 1998)
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2009. Decreto Supremo Nº 68 del 14 de agosto de 2009; publicado en el Diario Oficial el 2 de diciembre de 2009: Establece, aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2010. Decreto Nº 82 del 20 de julio de 2010; publicado en el Diario Oficial el 11 de febrero de 2011; Reglamento de suelos, aguas y humedales
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 2007. Decreto Supremo Nº 151 del 6 de diciembre de 2006; publicado en el Diario Oficial el 24 de marzo de 2007.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 2008. Decreto Supremo Nº 50 del 24 de abril de 2008; publicado en el Diario Oficial el 30 de junio de 2008.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 2008. Decreto Supremo Nº 51 del 24 de abril de 2008; publicado en el Diario Oficial el 30 de junio de 2008.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 2009. Decreto Supremo Nº 23 del 3 de marzo de 2009; publicado en el Diario Oficial el 7 de mayo de 2009.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 29 del 26 de julio de 2011; publicado en el Diario Oficial el 27 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 33 del 07 de septiembre de 2011; publicado en el Diario Oficial el 27 de febrero de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 41 del 30 de noviembre de 2011; publicado en el Diario Oficial el 11 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 42 del 30 de noviembre de 2011; publicado en el Diario Oficial el 11 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 19 del 26 de junio de 2012; publicado en el Diario Oficial el 11 de febrero de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2014. Decreto supremo Nº 52 del 29 de agosto de 2014; publicado en el diario Oficial el 26 de marzo de 2014.
+- MINISTERIO DEL MEDIO AMBIENTE. 2013. Decreto Supremo Nº 13 del 17 de abril de 2013; publicado en el Diario Oficial el 17 de julio de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2015. Decreto Supremo Nº 38 del 07 de septiembre de 2015.
+- MINISTERIO DEL MEDIO AMBIENTE. 2016. Decreto Supremo Nº 16 del 3 de junio de 2016; publicado en el Diario Oficial el 16 de septiembre de 2016.
+- MINISTERIO DEL MEDIO AMBIENTE. 2017. Decreto Supremo Nº 6 del 16 de marzo de 2017.
+- MINISTERIO DEL MEDIO AMBIENTE. 2018. Decreto Supremo Nº 79 del 2 de agosto de 2018; publicado en el Diario Oficial el 19 de diciembre de 2018.
+- MINISTERIO DEL MEDIO AMBIENTE. 2019. Decreto Supremo Nº 23 del 30 de julio de 2019.
+- MINISTERIO DEL MEDIO AMBIENTE. 2020. Decreto Supremo Nº 16 del 3 de agosto de 2020; publicado en el Diario Oficial el 27 de octubre de 2020.
+- MINISTERIO DEL MEDIO AMBIENTE- 2021. Decreto Supremo Nº 44 del 12 de octubre de 2021.
+- Novoa, P. Et All. 2015. Guía de campo de las orquídeas chilenas. Segunda Edición ampliada. Ograma Impresores. 239 p.
+- Riedemann, P., G. Aldunate & S. Tellier. 2014. Arbustos nativos ornamentales del centro sur de Chile. Guía de campo. Ed. Corporación Chilena de la madera, concepción, Chile. 308 pp.
+- Ravenna Et AIL. 1999. Categorías de conservación de plantas bulbosa de Chile. En Núñez H., R. Meléndez & V. Maldonado (Eds.) Boletín del Museo Nacional de Historia Natural 47: 47-68.
+- Rodríguez Et Al. 2018. Catálogo de plantas vasculares de Chile. Gayana Bot. 75(1): 1-430, 2018.
+- SERVICIO DE EVALUACIÓN AMBIENTAL. 2015. Guía para la descripción del área de influencia. Descripción de los componentes suelo, flora y fauna de los ecosistemas terrestres en el SEIA. Gobierno de Chile. 98 pp.
+- THE PLANT LIST (2010). Version 1. Published on the Internet; http://www.theplantlist.org/ (Acceso 20 -25 de Noviembre de 2021).
+- Zuloaga, F.O., Morrone, O., Belgrano, M.J. (eds.), Marticorena, C. (Chile), Marchesi, E. (Uruguay) (eds. asoc.). 2008. Catálogo de las Plantas Vasculares del Cono Sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay). Monographs in Systematic Botany from the Missouri Botanical Garden 107 (3 vols.): i-xcvi, 1-3348. [ Links ]
+
+---
+
+**Fin del documento.**

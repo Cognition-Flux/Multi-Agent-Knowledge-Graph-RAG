@@ -1,0 +1,761 @@
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN
+
+## MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+Informe preparado para Hidroeléctrica La Confluencia
+
+**Informe MP 339 - 2022**  
+**Marzo del 2022**
+
+Coronel Pereira 72, of. 301  
+Las Condes, Santiago  
+Tel. (56 2) 24958672  
+www.mejores-practicas.com
+
+**MEDIO AMBIENTE - ENERGÍA - CAMBIO CLIMÁTICO**
+
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+**Preparado para:**  
+Tinguiririca Energía  
+Av. El Golf 40 Piso 11 Oficina 1103, Las Condes, Santiago, Chile
+
+**MEJORES PRÁCTICAS**  
+Cruz del Sur 256, Las Condes, Santiago
+
+<table>
+<tr><td>Versión</td><td>Borrador</td></tr>
+<tr><td>Fecha</td><td>Enero, 2022</td></tr>
+<tr><td>Estado</td><td>Borrador</td></tr>
+<tr><td>Comentarios</td><td>Versión final</td></tr>
+<tr><td>Preparado por</td><td>María Regina Donoso Daille Ing. en Recursos Naturales mdonosodaille@gmail.com</td></tr>
+<tr><td></td><td>Carolina Amanda González Aguayo Ing. Forestal caro_aguayo2@hotmail.com</td></tr>
+</table>
+
+<!-- PageFooter="Mejores Prácticas, marzo del 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="1 de 20" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+## Indice General
+
+<table>
+<tr><td>1.</td><td colspan="2">Introducción</td><td>4</td></tr>
+<tr><td>2.</td><td colspan="2">Objetivo General</td><td>4</td></tr>
+<tr><td>3.</td><td colspan="2">Alcance del Plan de Revegetación</td><td>4</td></tr>
+<tr><td>3.1</td><td colspan="2">Lugar de aplicación</td><td>4</td></tr>
+<tr><td>3.2</td><td></td><td>Forma de implementación</td><td>7</td></tr>
+<tr><td>3.3</td><td></td><td>Diseño del Plan</td><td>7</td></tr>
+<tr><td>3.4</td><td></td><td>Manejo y mantención</td><td>14</td></tr>
+<tr><td>3.5</td><td></td><td>Cronograma General de ejecución</td><td>14</td></tr>
+<tr><td>3.6</td><td></td><td>Ejecución</td><td>15</td></tr>
+<tr><td>3.7</td><td></td><td>Resultados esperados</td><td>15</td></tr>
+<tr><td>3.8</td><td></td><td>Duración</td><td>16</td></tr>
+<tr><td>3.9</td><td colspan="2">Reportes y Monitoreo</td><td>16</td></tr>
+<tr><td>4.</td><td colspan="2">Anexo 1. Inventario Forestal</td><td>17</td></tr>
+<tr><td>4.1</td><td colspan="2">Introducción</td><td>17</td></tr>
+<tr><td>4.2</td><td></td><td>Objetivo General</td><td>17</td></tr>
+<tr><td>4.3</td><td></td><td>Objetivos específicos.</td><td>17</td></tr>
+<tr><td>4.4</td><td></td><td>Metodología.</td><td>17</td></tr>
+<tr><td>4.4.1</td><td></td><td>Muestreo a través de parcelas de medición.</td><td>17</td></tr>
+<tr><td>4.5</td><td></td><td>Resultados.</td><td>18</td></tr>
+<tr><td>4.5.1</td><td></td><td>Inventario de flora vascular.</td><td>20</td></tr>
+<tr><td>4.5.2</td><td></td><td>Resultados Áreas del proyecto</td><td>20</td></tr>
+<tr><td>4.6</td><td></td><td>Conclusiones</td><td>21</td></tr>
+<tr><td>4.7</td><td></td><td>Referencias.</td><td>21</td></tr>
+</table>
+
+# Indice Figuras
+
+- **Figura 1.** Áreas de revegetación propuestas - Sector Tinguiririca A (pág. 5)
+- **Figura 2.** Áreas de revegetación propuestas - Sector La Correana (pág. 5)
+
+<!-- PageFooter="Mejores Prácticas, marzo del 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageFooter="2 de 20" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+- **Figura 3.** Ubicación parcelas de muestreo al interior de Áreas del proyecto - Tinguiririca A (pág. 19)
+- **Figura 4.** Ubicación parcelas de muestreo al interior de Áreas del proyecto - La Correana (pág. 19)
+
+## Índice de Cuadros
+
+- **Cuadro 1.** Cuadro comparativo sitio de referencia y sitio por intervenir (pág. 6)
+- **Cuadro 2.** Áreas de Enriquecimiento (AE) por Revegetar (pág. 8)
+- **Cuadro 3.** Características Áreas de Enriquecimiento (AE) (pág. 8)
+- **Cuadro 4.** Densidad de plantación en Áreas de Enriquecimiento (pág. 10)
+- **Cuadro 5.** Cronograma General (pág. 14)
+- **Cuadro 6.** Datos Parcelas de muestreo (pág. 18)
+- **Cuadro 7.** Lista taxonómica de la flora vascular leñosa inventariada en las áreas a revegetar (pág. 20)
+- **Cuadro 8.** Determinación de densidades y coberturas por parcelas del área del proyecto (pág. 20)
+
+<!-- PageFooter="Mejores Prácticas, marzo del 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="3 de 20" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+## 1. Introducción
+
+En la comuna de San Fernando, Región del Libertador General Bernardo O'Higgins, se presenta la Declaración de Impacto Ambiental "Modificación de medida asociada a Botadero del Shaft" la cual busca modificar las disposiciones durante la etapa de abandono establecidas en las RCA Nº30/2009 y Nº219/2009, las cuales califican como favorable el proyecto Botadero del Shaft y su ampliación, respectivamente, siguiendo los compromisos establecidos en la RCA Nº116/2004 la cual, originalmente, califica como favorable el Proyecto Hidroeléctrico La Confluencia.
+
+A raíz de esto, en el contexto del proceso de Calificación Ambiental de la DIA anteriormente señalada, se desarrolla a continuación un Plan de Revegetación el cual busca establecer las pautas a seguir para la revegetación de las zonas comprometidas en la DIA, es decir, las áreas de enriquecimiento 1 y 2 denominadas los sectores Tinguiririca A y La Correana, los cuales se individualizan en el informe a continuación y cuya finalidad es la restauración de hábitat.
+
+Además, considerando que este Plan de Revegetación será un insumo del Plan de Restauración de Hábitat de Central Hidroeléctrica Confluencia, el cual establece metas y verificadores de cumplimiento relacionados a la revegetación, se detalla información necesaria para el seguimiento de las metas en el Anexo 1 de este documento.
+
+## 2. Objetivo General
+
+La revegetación tiene como finalidad restaurar en forma rápida la cobertura vegetal de las zonas intervenidas, basándose en las características de la vegetación existente antes de las intervenciones de cada zona, estructura y composición, restituyendo así el hábitat para la fauna y reconstituyendo el microclima que pueda haber existido en el sector, en las etapas anteriores al proyecto. Los objetivos específicos son los siguientes:
+
+- Definir los alcances generales del Plan de Revegetación.
+- Proponer los resultados esperados y monitoreo del éxito de la implementación de la revegetación.
+- Proponer los contenidos de los reportes de la actividad, así como su frecuencia de entrega.
+
+## 3. Alcance del Plan de Revegetación
+
+### 3.1 Lugar de aplicación
+
+El Plan de Revegetación se implementará en las áreas de enriquecimiento 1 y 2 individualizadas como sector Tinguiririca A y sector La Correana propuestas por la Declaración de Impacto Ambiental "Modificación de medida asociada a Botadero del Shaft". Las áreas propuestas se presentan en la figura a continuación:
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="4 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+<figure>
+<figcaption>Figura 1. Áreas de revegetación propuestas - Sector Tinguiririca A.</figcaption>
+<!-- (Contenido gráfico y coordenadas) -->
+</figure>
+
+Figura 2. Áreas de revegetación propuestas - Sector La Correana.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageFooter="5 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+<figcaption>PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT</figcaption>
+
+MEJORESPrácticas
+
+</figure>
+
+<!-- (Contenido gráfico y coordenadas) -->
+
+Simbología
+☐ Área del proyecto - Sector La Correana
+
+Escala: 1:4.000
+Proyección Universal Transversal de Mercator
+Datum WGS 84 UTM 19 S
+
+La elección de estas áreas se basa en el sitio de referencia descrito en la línea base de la Declaración de Impacto Ambiental Optimización Central La Confluencia representativa de la zona, así como el ambiente circundante a los nuevos sitios. En relación con esto, el sitio de intervención de referencia está inserto en la Región del Matorral y Bosque Esclerófilo y va de matorral a matorral arborescente ubicándose próximo a los sitios por intervenir. Así mismo se plantean para las medidas de revegetación especies dominantes presentes en el sitio de referencia tomando en cuenta también la estructura de la vegetación inmediatamente circundante al área de intervención.
+
+<table>
+<caption>Cuadro 1. Cuadro comparativo sitio de referencia y sitio por intervenir.</caption>
+<tr><th>Atributos/Sitio</th><th>Sitio sin intervención de referencia</th><th>Sitio por intervenir (área del proyecto)</th></tr>
+<tr><td rowspan="2">Cobertura estrata</td><td>Mayor a 25% para la estrata arbórea y arbustiva en ambas áreas</td><td>Tinguiririca A: menor a 13% para la estrata arbórea y arbustiva</td></tr>
+<tr><td>circundantes a las áreas del proyecto y en el sitio original de intervención.</td><td>La Correana: 0% para la estrata arbórea, menor a 16% para la estrata arbustiva</td></tr>
+<tr><td rowspan="5">Composición de especies arbóreas*</td><td>Acacia caven</td><td rowspan="3">Acacia caven</td></tr>
+<tr><td>Quillaja saponaria</td></tr>
+<tr><td>Lithraea caustica</td></tr>
+<tr><td>Maytenus boaria</td><td rowspan="2"></td></tr>
+<tr><td>Schinus poligamus</td></tr>
+<tr><td rowspan="2">Composición de especies arbustivas*</td><td>Baccharis linearis</td><td>Rubus ulmifolius</td></tr>
+<tr><td>Retanilla ephedra</td><td>Rosa rubiginosa</td></tr>
+</table>
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageFooter="6 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+Origen de las especies presentes: Autóctonas, Alóctonas y Endémicas  
+Principalmente Alóctonas
+
+*La composición de especies arbóreas y arbustivas para el sitio de intervención de referencia es mucho más amplia, pero se utilizan aquellas dominantes del sitio original y que son compartidas también con el área de influencia circundante a las áreas por intervenir.
+
+## 3.2 Forma de implementación
+
+El Plan de Revegetación considera áreas a restaurar identificadas como áreas de enriquecimiento; en estas áreas se hará una plantación de enriquecimiento con especies adaptadas a condiciones más adversas de carácter pioneras y otras consecutivas de la sucesión ecológica, las cuáles generarán una cobertura de protección propiciando la restauración del ecosistema, impactando positivamente en comunidades de vertebrados e invertebrados presentes en el territorio, en términos de mayor oferta de alimento, protección y sitios para reproducción. Con ello también se logrará la recuperación de las condiciones ambientales iniciales del habitat restaurado, que darán paso a la formación de microclimas adecuados para la vegetación presente.
+
+En cuanto a la distribución de estas especies en la sucesión, como especies pioneras se empleará:
+
+- Espino (Acacia caven) y Romerillo (Baccharis linearis) en condiciones de mayor luminosidad y resequedad.
+
+Y como consecutivas de la sucesión ecológica:
+
+- Quillay (Quillaja saponaria), Litre (Lithraea caustica) y Retanilla ephedra en zonas de luminosidad intermedia.
+- Maitén (Maytenus boaria) y Huingán (Shinus poligamus) en zonas de mayor humedad y/o sombrías.
+
+## 3.3 Diseño del Plan
+
+A continuación, se detallan los aspectos operacionales del Plan de Revegetación para las áreas de enriquecimiento:
+
+### 3.3.1 Objetivo específico
+
+El objetivo específico de las Áreas de Enriquecimiento es generar una plantación con especies de carácter pioneras y otras consecutivas de la sucesión ecológica, principalmente del tipo arbóreo, lo que aumentará la cobertura y propiciará la restauración del ecosistema, complejizando las relaciones presentes en el territorio y generando así una mayor oferta de alimento, protección o sitios para la reproducción.
+
+### 3.3.2 Caracterización de la vegetación
+
+Como característica general de la vegetación presente en las Áreas de Enriquecimiento, ésta se distingue por la baja cobertura de la estrata arbórea, siendo principalmente un matorral de especies nativas o de exóticas con nativas, donde la estrata arbustiva es la predominante. Destaca la presencia de especies alóctonas que aparecen tras procesos de perturbación o producto de perturbaciones sostenidas en el tiempo como Rosa Mosqueta (Rosa rubiginosa) y Mora (Rubus ulmifolius). La única especie arbórea con algún grado de cobertura significativa es el Espino (Acacia caven) apareciendo puntualmente otros elementos florísticos propios del Bosque Espinoso.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="7 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+Las áreas por revegetar son zonas de alta luminosidad y por ende poca humedad, debiendo ser revegetadas con especies adaptadas a estas condiciones. Ya hacia las zonas colindantes de las áreas del proyecto, existe una mayor cobertura de la estrata arbórea y arbustiva y mayor riqueza florística, lo que permite inferir la vegetación original que habría poblado estos claros de vegetación y guiar las decisiones de restauración para cada zona en base a la matriz vegetacional circundante.
+
+Las zonas comprometidas se encuentran altamente degradadas de su condición natural original, lo que se evidencia en el bajo porcentaje de cobertura vegetal, en el tipo arbustivo dominante y en la presencia de especies exóticas. La revegetación de estas áreas propiciaría la regeneración natural en la zona no solo en términos de la vegetación, sino también en cuanto a la fauna que habita sectores cercanos que es el fin último de este plan. Al generarse artificialmente condiciones ambientales óptimas para el establecimiento de individuos de especies vegetales, éstas a su vez desencadenarían un efecto en cadena para especies de flora y fauna próximas, extendiendo el proceso de restauración hacia otros componentes del sistema y zonas adyacentes.
+
+## 3.3.3 Definición del área a revegetar
+
+En el Cuadro 2, se detallan las Áreas de Enriquecimiento a Revegetar, con su coordenada geográfica de referencia, la superficie en hectáreas que abarca dicha zona y la superficie que será revegetada para cada sector.
+
+<table>
+<caption>Cuadro 2. Áreas de Enriquecimiento (AE) por Revegetar.</caption>
+<tr><th>Nº</th><th>Nombre</th><th>Sup total (ha)</th><th>Coor E</th><th>Coor N</th></tr>
+<tr><td>1</td><td>AE1 - Sector Tinguiririca A</td><td>0,51</td><td>350.600</td><td>6.149.300</td></tr>
+<tr><td>2</td><td>AE2 - Sector La Correana</td><td>3,01</td><td>360.900</td><td>6.136.700</td></tr>
+<tr><td></td><td>Total</td><td>3,52</td><td></td><td></td></tr>
+</table>
+
+## 3.3.4 Caracterización del área a revegetar
+
+Las Áreas de Enriquecimiento poseen las siguientes características:
+
+<table>
+<caption>Cuadro 3. Características Áreas de Enriquecimiento (AE).</caption>
+<tr><th>Área Por Revegetar</th><th>Tipo de Sustrato</th><th>Exposición</th><th>Pendiente %</th><th>Altitud msnm</th><th>Clase de uso de suelo</th><th>Tipo de Vegetación</th></tr>
+<tr><td>AE1 - Sector Tinguiririca A</td><td>Profundo, fuertemente ondulado, pedregosidad abundante, franco arcilloso,</td><td>Nor-Oeste</td><td>≥ 5 y&lt;10</td><td>960</td><td>VI</td><td>Matorral de Espino (Acacia caven)</td></tr>
+</table>
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="8 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+<table>
+<tr><th></th><th>profundidad subsuperficial ligera, erosión moderada</th><th></th><th></th><th></th><th></th></tr>
+<tr><td>AE2- Sector La Correana</td><td>Profundo, ligeramente ondulado, sin pedregosidad, franco, profundidad subsuperficial ligera, erosión ligera</td><td>Nor-Oeste ≥ 5 y &lt; 10</td><td>1412</td><td>VII</td><td>Matorral de Rosa mosqueta y Mora (Rosa rubiginosa y Rubus ulmifolius)</td></tr>
+</table>
+
+## 3.3.5 Selección de especies
+
+La vegetación presente en las Áreas de Enriquecimiento varía dependiendo del área. En el caso del Área de Enriquecimiento 1 - Sector Tinguiririca A, está compuesto principalmente por un matorral escaso de Espino (Acacia caven) siendo esta la especie dominante tanto en la formación como en el área de influencia circundante. Otras especies acompañantes que son poco frecuentes en el área de revegetación mencionada, pero si aparecen con mayor frecuencia en el área colindante son Quillay (Quillaja saponaria), Huingan (Shinus Poligamus) y Litre (Lithraea caustica).
+
+En cuanto a especies arbustivas de la zona las con mayor dominancia son Mora (Rubus ulmifolius) y Rosa Mosqueta (Rosa rubiginosa), con Romerillo (Baccharis linearis) en menor medida. En el área circundante aparecen otras especies como Palqui (Cestrum Parqui) y Quilo (Muehlenbeckia hastulata). En general el Sector Tinguiririca A tiene una pendiente ligera y pedregosidad superficial abundante a subsuperficial ligera, que, junto a su proximidad a vías de acceso, lo hacen un lugar tratable para la implementación de una medida de revegetación dirigida a la restauración de hábitat.
+
+En cuanto al Área de Enriquecimiento 2 - Sector La Correana, la vegetación correspondiente al estrato arbóreo es mínima, compuesta por Maiten (Maytenus boaria) cuya cobertura es muy baja. Predominante resulta ser la cobertura arbustiva, cuyas especies que la componen en mayor grado son las especies exóticas Rosa Mosqueta (Rosa rubiginosa) y Mora (Rubus ulmifolius), acompañadas de otras especies nativas en algunos sectores como Guindilla (Guindilia trinervis), Retanilla (Retanilla ephedra), Colliguay (Colliguaja intergerrima), Crucero (Colletia spinossisima) y Retama (Diostea juncea), entre otras. La zona presenta pendientes ligeras y baja pedregosidad y también proximidad a rutas de acceso, lo que es beneficioso para el establecimiento y mantención de una medida de revegetación.
+
+La revegetación de las Áreas de Enriquecimiento estará dirigida a aumentar la cobertura de especies arbóreas y arbustivas, tanto pioneras como aquellas que permitan avanzar en la sucesión ecológica, lo que, a su vez, aumentaría la complejidad del ecosistema y la capacidad de éste de brindar fuentes de alimento y refugio para la fauna silvestre. La selección de especies se basa en los individuos detectados en las zonas del proyecto y en elementos florísticos circundantes a estas zonas.
+
+En cuanto a las especies seleccionadas son las siguientes:
+
+- Espino (Acacia caven)
+- Quillay (Quillaja saponaria)
+- Litre (Lithraea caustica)
+- Maitén (Maytenus boaria)
+- Huingan (Schinus polygamus)
+- Romerillo (Baccharis linearis)
+- Retamilla (Retanilla ephedra)
+
+## 3.3.6 Densidad de plantación
+
+La densidad de especies a plantar para las Áreas de Enriquecimiento se detalla a continuación. Esta se calculará específicamente para cada área acorde a la superficie que ocupe.
+
+<table>
+<caption>Cuadro 4. Densidad de plantación en Áreas de Enriquecimiento.</caption>
+<tr><th>Especie</th><th>Forma de vida</th><th>Densidad (arb/ha)</th><th>Área (ha)</th><th>Cantidad</th></tr>
+<tr><td>Espino (Acacia caven)</td><td rowspan="5">Árbol</td><td rowspan="5">500</td><td rowspan="5">3,52</td><td rowspan="5">1.760</td></tr>
+<tr><td>Quillay (Quillaja saponaria)</td></tr>
+<tr><td>Litre (Lithraea caustica)</td></tr>
+<tr><td>Huingan (Shinus polygamus)</td></tr>
+<tr><td>Maitén (Maytenus boaria)</td></tr>
+<tr><td>Retamilla (Retanilla ephedra)</td><td rowspan="2">Arbusto</td><td rowspan="2">200</td><td rowspan="2">3,52</td><td rowspan="2">704</td></tr>
+<tr><td>Romerillo (Baccharis linearis)</td></tr>
+</table>
+
+Las especies serán plantadas en porcentajes similares para cada una de ellas, asegurando la variabilidad de la plantación, no estableciendo sectores con plantación mono específicas.
+
+La plantación se hará dando preferencia a sectores de menor cobertura arbórea o arbustiva, pero manteniendo la densidad final comprometida a plantar por hectárea, evitando así la competencia por luz o agua y favoreciendo la regeneración en zonas de claros.
+
+En los sitios propuestos las especies de más luminosidad se ubicarán en áreas más expuestas con menor vegetación circundante. Aquellas de luminosidad intermedia se emplazarán en las proximidades de las copas de otros individuos vegetales. Finalmente, las de mayor humedad y/o sombra se establecerán en las zonas de borde de las áreas de enriquecimiento, próximas a la formación vegetacional aledaña.
+
+### 3.3.7 Preparación de las áreas a revegetar
+
+Dado que el suelo no varía notoriamente en las distintas Áreas de enriquecimiento y éste es lo suficientemente profundo para permitir el establecimiento de las especies, se plantea complementar la plantación con enmienda orgánica como tierra de hoja, en específico, empleando de 70 a 80 gr por casilla la cual será comprada en viveros certificados y autorizados por el SAG con un volumen estimado de 200 kg aproximadamente. Para ello la casilla a ser realizada tendrá dimensiones de 40 x 40 x 40 cm, lo que
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="10 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+asegura un adecuado desarrollo radicular, se asegurará un sustrato mullido y además se mejorará el terreno con compost certificado en una proporción de 3 litros por planta, con un volumen aproximado de 7.700 litros. Se realizará en forma complementaria zanjas de infiltración para las áreas cuya cobertura actual, permita ejecutar esta obra sin dañar individuos. En caso de ejecutarse esta obra, el proceso consistirá en excavar una profundidad de 0,5 m por un ancho de 0,4 m. El material extraído se acumulará en la parte baja de cada zanja formando un pequeño camellón no muy cerca de la zanja, a unos 20 cm. La profundidad de la excavación será de 0,5 m, con una dimensión de 0,4 m de ancho por 2 m de largo. El material extraído no se moverá a otras zonas y se depositará aledaño a las zanjas por tanto no aplica el movimiento de tierra para estas obras. En la casilla de plantación se incorporará Hidrogel, el cual ayudará a mantener la humedad en la casilla y una mayor cantidad de agua disponible durante los meses de mayor temperatura ambiental. La cantidad por utilizar será de 5 gr de polímero por metro cúbico de sustrato estimándose un total aproximado de 6 kg.
+
+En cuanto al tipo de fertilizante a emplear, este dependerá de las condiciones del suelo. La determinación del tipo de fertilizante se hará una vez conocida la oferta de elementos nutritivos que tiene el suelo, a partir de su análisis químico-nutritivo. Por el momento se propone un fertilizante granulado del tipo NPK (Nitrógeno, Fosforo y Potasio), el cual será aplicado al momento que la plantación sea realizada, incorporada en forma directa en la casilla de plantación.
+
+Se procurará que el fertilizante quede en el estrato del suelo que usarán las raíces desde su inicio y a una distancia que permita el aprovechamiento y no implique riesgo de intoxicación. Se verificará que los fertilizantes queden cubiertos con suelo para facilitar el acceso a las raíces y que no se pierdan por erosión, volatización o no alcanzar la zona de humedad para su solubilización.
+
+La preparación del sustrato considerará la aplicación de fertilizante al momento de disponer la planta en su lugar; podrá aplicarse fertilizaciones posteriores al tercer año en caso de que los monitoreos de la plantación detecten el requerimiento.
+
+El producto se dispondrá en el mismo hoyo de plantación en forma de círculo, retirado de la planta 15 cm y a 20 cm de profundidad.
+
+Finalmente, se delimitará y cercará el sitio de la revegetación de modo tal de evitar la intervención de las áreas por terceros o por animales de mayor envergadura. El cerco perimetral estará confeccionado a partir de malla de cuadro tipo biscocho de 1,5 m de alto y postes de pino impregnado de 4" a 5" de diámetro cada tres metros.
+
+## 3.3.8 Revegetación
+
+El titular mantiene contrato con el vivero externo Los Robles para la producción continua de ejemplares para la plantación y replantes necesarios en sus actividades y compromisos. Específicamente, las plantas consideradas para la presente medida se encuentran en producción desde el año 2020, estimando que para el año 2022 se contará con aproximadamente 13.000 ejemplares como stock de las diversas especies consideradas en la medida.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="11 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+Sin embargo, en caso de requerirse provisión de plantas adicionales, los aspectos referentes a la obtención de material de reproducción, protocolos de recolección, reproducción en viveros, condiciones de las plantas para su establecimiento y traslado, se detallan a continuación:
+
+El material de reproducción se obtendrá a partir de la temporada de semillación de cada una de las especies comprometidas en estas áreas, las cuales corresponden a las especies presentes naturalmente en el sector, por lo que la revegetación con dichas especies asegura que la adaptación a los ambientes no será compleja. Se seleccionarán también, ejemplares desde formaciones aledañas a las zonas a restaurar, con la finalidad de mantener el acervo genético de la comunidad. Se desarrollará un protocolo de recolección para cada una de las especies consideradas en la plantación eligiendo individuos sanos y vigorosos como fuentes de semillas. Para la producción de plantas en vivero se usarán bandejas de polietileno. Posteriormente serán repicadas en bolsas plásticas de 25x15 cm para obtener plantas de mayor tamaño.
+
+Las especies se continuarán reproduciendo en viveros de terceros y serán trasladados a la zona del proyecto cuando las plantas cumplan con los estándares de altura, diámetro del cuello y aclimatación. Se debe considerar tener las especies en un lugar con similares condiciones de luz y temperatura previa a su plantación en terreno, para que los individuos puedan aclimatarse.
+
+En el caso de no lograrse propagar las especies en vivero externos asociados al proyecto, se acudirá a viveros de la zona o cercanos al área donde se emplaza el proyecto, de tal forma que la planta provenga de semillas in situ y adaptadas al clima presente en el área. En cuyo caso al momento de seleccionar las especies a ser adquiridas, estas serán elegidas de acuerdo con estado fitosanitario, el cual debe ser considerado bueno, sin muestras de síntomas o signos de algún agente patógeno presente en los ejemplares, de buena forma y árboles vigorosos.
+
+Los ejemplares serán trasladados a la zona del proyecto cuando las plantas cumplan con los estándares mínimos exigidos, los cuales corresponden a alturas entre 30 cm de altura desde el ápice superior al cuello de la raíz y como máximo 50 cm y el diámetro a la altura del cuello de la raíz (DAC) no inferior a los 5 mm, donde todas las especies ya estén al menos en un estadio de desarrollo juvenil.
+
+Se considera mantener los ejemplares al menos en un sector de sombreadero, para que pasen un periodo de endurecimiento y adaptación climática, antes de ser pasadas a terreno. Dicha zona se encontrará ubicada dentro de las dependencias del proyecto con similares condiciones de luz y temperatura a las que estarán expuestas en su ambiente final.
+
+Una vez hayan cumplido un tiempo de cuatro meses necesario de aclimatación, durante el cual se analizará el estrés de la planta mediante la observación de su follaje evaluando la presencia de daño foliar o pérdida de éste, se trasladarán a su zona de plantación. El transporte de éstas se realizará en camión cerrado o de lo contrario, protegidas por una cubierta de malla sombreadora que evite la deshidratación de las plantas por sol y viento, como el daño al follaje, cuidando que individualmente no sufran desplazamientos que puedan originar daños en su sistema radicular por pérdida del substrato y serán regadas antes de iniciar el trasporte, para evitar principalmente la separación del sustrato con el movimiento que genere ingreso de aire a las raíces.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022" -->
+<!-- PageFooter="Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="12 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+Al llegar las plantas a los lugares de plantación serán ubicadas ordenadamente en lugares protegidos de daño por roedores u otros animales mayores. Este proceso debe ser lo más breve posible no excediendo las 24 horas, y durante el cual, no deben quedar expuestas al sol, viento o daño por heladas. Para esta actividad, se preferirán días nublados y previos a las lluvias, humedeciendo abundantemente las plantas previo traslado.
+
+Luego de seleccionadas la plantas y llevadas al área de revegetación, en forma paulatina y con la previa confección de la casilla de plantación, se procederá a la etapa de plantación propiamente tal, cuyo proceso comienza con la extracción del recipiente que contiene a la planta, cuidando que el sustrato no se disgregue y así evitar el ingreso de aire a la raíz. Dicha operación se realiza con mucho cuidado para mantener la planta integra y se efectúa una a una mientras se plante, para no dejar plantas con las raíces al aire a la espera de ser plantadas. Dicha operación permitirá formar un solo conjunto de raíz con su correspondiente sustrato. Luego la planta es depositada en la casilla, cuidando que el cuello de la planta no quede bajo el nivel del suelo o sobre éste, para evitar problemas de hongos o de exposición de raíces respectivamente. Posteriormente, se cubre de tierra la casilla hasta el nivel del cuello de la raíz, presionando ligeramente la tierra hacia el fondo de la casilla, para eliminar las bolsas de aire. En forma conjunta a este proceso en la casilla se aplicará la cantidad de 50 gr de fertilizante Superfosfato (NPK) por planta, en forma de círculo, retirado de la planta 15 cm y a 20 cm de profundidad. Además, se aplicará mulch alrededor de la casilla.
+
+Las especies serán plantadas de acuerdo con las condiciones del sitio y requerimientos de éstas, de esta forma se establecerán especies con mayores requerimientos hídricos en sectores con mayor disponibilidad hídrica (tendiente a la exposición sur), especies con mayores adaptaciones al sol en sectores con exposición norte y especies con menor exigencia de sitios en sectores con pendientes más elevadas. La distribución de las especies será al azar.
+
+En cuanto a las especies a utilizar para la revegetación en el caso de Espino (Acacia caven), Quillay (Quillaja saponaria), Huingan (Shinus polygamus), Litre (Lithraea caustica), Maitén (Maytenus boaria), Romerillo (Baccharis linearis) y Retamilla (Retanilla ephedra) se utilizará una configuración de núcleos o bosquetes, en la cual, se define un espaciamiento general de 10 x 10 m, y en cada núcleo se plantarán 5 individuos arbóreos y 2 arbustivos, separados entre sí, unos 2 m.
+
+La distribución de las especies para las Áreas de Enriquecimiento seguirá el siguiente patrón:
+
+- Espino (Acacia caven) y Romerillo (Baccharis linearis) en condiciones de mayor luminosidad y resequedad.
+- Quillay (Quillaja saponaria), Litre (Lithraea caustica) y Retamilla (Retanilla ephedra) en zonas de luminosidad intermedia.
+- Maitén (Maytenus boaria) y Huingán (Shinus polygamus) en zonas de mayor humedad y/o sombrías.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022" -->
+<!-- PageFooter="Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="13 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+## PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+### 3.4 Manejo y mantención
+
+Se señalizarán adecuadamente todas las Áreas de Enriquecimiento en la que se estén desarrollando los trabajos, con la finalidad de identificar dichas zonas y que no puedan ser perturbadas por actividades del proyecto o terceros.
+
+Finalmente se establecerá la etapa de "protección individual" de cada ejemplar plantado, con la finalidad de proteger la planta de posibles ataques de lagomorfos (conejos y liebres) y roedores. En esta etapa se cortará una sección rectangular de malla y se curvará formando un cilindro que encierra la planta, fijándolo al suelo, a través de varetas de soportes, con un diámetro de 25 a 30 cm y de una altura que logre cubrir a la planta, no inferior a 70 cm de alto. Las especies considerarán la protección hasta que la planta muestre el tallo completamente lignificado y como mínimo dos años o en caso de que la altura de la planta sea el doble del tamaño de la protección, se retirará ésta.
+
+En caso de no emplearse la "protección individual" también existe otra opción llamada tubex, ya que se hace necesario rodear a las plantas recién establecidas, lo cual no permite que los lagomorfos dañen los tallos o follaje. Los tubex serán fijados al terreno con una estaca de coligue, la cual le dará firmeza a la estructura. Finalmente, de usarse Tubex, se instalarán los de mayor tamaño en cada una de las caras (debido a que su estructura es triangular).
+
+Luego de ejecutadas las obras se irán reevaluando otras medidas a incorporar, como la fertilización o el replante. Si la plantación posee un porcentaje de prendimiento menor al 50% se usará replante de las plantas muertas para asegurar el mínimo de prendimiento, lo cual podrá ejecutarse hasta el tercer año como máximo. Este replante podrá ir acompañado de fertilización durante el tercer año considerando que ya se efectúa una fertilización durante el primer año de plantación.
+
+### 3.5 Cronograma General de ejecución
+
+Las actividades asociadas al Cronograma de trabajo tendrán como hito de inicio las actividades de reconocimiento de áreas y logística.
+
+<table>
+<caption>Cuadro 5. Cronograma General</caption>
+<tr><th rowspan="2"></th><th rowspan="2">Actividad</th><th colspan="6">Año</th></tr>
+<tr><th>Año 0</th><th>Año 1</th><th>Año 2</th><th>Año 3</th><th>Año 4</th><th>Año 5</th></tr>
+<tr><td rowspan="7">Fase de construcción</td><td>Reconocimiento de áreas de trabajo y preparación de logística de plantación</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Construcción de cerco perimetral</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Preparación de áreas de almacenamiento de materiales</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Preparación de suelo (elaboración de casillas de plantación, aplicación de enmienda orgánica y construcción de zanjas de infiltración)</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Traslado de plantas desde vivero</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Plantación</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Monitoreo inicial de sobrevivencia</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="14 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+<table>
+<tr><th rowspan="2"></th><th rowspan="2">Actividad</th><th colspan="6">Año</th></tr>
+<tr><th>Año 0</th><th>Año 1</th><th>Año 2</th><th>Año 3</th><th>Año 4</th><th>Año 5</th></tr>
+<tr><td></td><td>Informe final de plantación</td><td>☒ x</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td rowspan="14">Fase de operación</td><td>Actividades de riego</td><td></td><td>☒ x</td><td>☒ x</td><td>☒ x</td><td></td><td></td></tr>
+<tr><td>1° monitoreo de supervivencia</td><td></td><td>☒ x</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2° monitoreo de supervivencia</td><td></td><td>☒ x</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1º informe de monitoreo de supervivencia</td><td></td><td>☒ x</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3º monitoreo de supervivencia</td><td></td><td></td><td>☒ x</td><td></td><td></td><td></td></tr>
+<tr><td>4° monitoreo de supervivencia</td><td></td><td></td><td>☒ x</td><td></td><td></td><td></td></tr>
+<tr><td>2º informe de monitoreo de supervivencia</td><td></td><td></td><td>☒ x</td><td></td><td></td><td></td></tr>
+<tr><td>5° monitoreo de supervivencia</td><td></td><td></td><td></td><td>☒ x</td><td></td><td></td></tr>
+<tr><td>6° monitoreo de supervivencia</td><td></td><td></td><td></td><td>☒ x</td><td></td><td></td></tr>
+<tr><td>3º informe de monitoreo de supervivencia</td><td></td><td></td><td></td><td>☒ x</td><td></td><td></td></tr>
+<tr><td>7° monitoreo de supervivencia</td><td></td><td></td><td></td><td></td><td>☒ x</td><td></td></tr>
+<tr><td>4° informe de monitoreo de supervivencia</td><td></td><td></td><td></td><td></td><td>☒ x</td><td></td></tr>
+<tr><td>8° monitoreo de supervivencia</td><td></td><td></td><td></td><td></td><td></td><td>☒ x</td></tr>
+<tr><td>5° informe de monitoreo de supervivencia</td><td></td><td></td><td></td><td></td><td></td><td>☒ x</td></tr>
+</table>
+
+## 3.6 Ejecución
+
+Para la ejecución del Plan de Revegetación se contratará personal capacitado, el cual será supervisado por un especialista en flora y vegetación, de preferencia Ingeniero Forestal o carrera a fin con experiencia en restauración vegetal
+
+### 3.7 Resultados esperados
+
+Como resultado esperado se tiene una expectativa de un éxito de revegetación de al menos un 50% de sobrevivencia durante los tres primeros años posteriores a la ejecución.
+
+Por otro lado, se espera que el establecimiento de especies pioneras en Áreas de enriquecimiento con menores coberturas, genere condiciones para la llegada de otras especies colonizadoras a la zona. Así se espera que aumente la complejidad del ecosistema lo que será evaluado debidamente mediante un Plan de Restauración.
+
+En cuanto al suelo, se espera que disminuya la escorrentía superficial producto de las especies plantadas que generarán una barrera que captará esta escorrentía y reducirá la erosión ocasionada como consecuencia de este factor.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="15 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+## 3.8 Duración
+
+La duración del Plan de Revegetación se extenderá durante cinco años a partir de la fecha de plantación de las primeras plantas.
+
+## 3.9 Reportes y Monitoreo
+
+Los monitoreos de manejo y mantención se efectuarán de forma periódica dos veces al año: en la temporada de primavera en el mes de octubre y otoño en el mes de abril durante tres años consecutivos, con la finalidad de detectar y corregir a tiempo daños y/o presencia de patógenos, asegurando así el buen estado sanitario de los individuos y el establecimiento de la vegetación. Al cuarto y quinto año se realizará una vez durante la temporada de primavera. Durante esta actividad se procederá a contabilizarán la supervivencia de individuos, mortalidad, reposición necesaria y estado sanitario general de la plantación, así como propuestas correctivas. Estos parámetros se evaluarán a partir de un muestreo aleatorio de la plantación con parcelas de 250 m2, de tal forma de muestrear el 5% de la zona como mínimo, resultados que se presentarán mediante los Informes de monitoreo. Es importante destacar que el compromiso original de las RCA's asociadas a la Central Confluencia y el Botadero del Shaft establecen un monitoreo a partir del tercer año. Para el caso de esta modificación de la medida, el mandante compromete voluntariamente de forma adicional monitoreos durante el primer y segundo año, esto con la finalidad de llevar a cabo la implementación de la medida de revegetación con mayor probabilidad de éxito.
+
+Esta información se reportará a la Autoridad Ambiental mediante Informes de Monitoreo de supervivencia que contengan los resultados de las campañas ejecutadas y se presentarán al finalizar cada año de monitoreo.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="16 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+## 4. Anexo 1. Inventario Forestal
+
+### 4.1 Introducción.
+
+En el contexto del Plan de Restauración de Hábitat del proyecto Modificación de medida asociada a Botadero del Shaft, con la finalidad de cumplir con lo estipulado en dicho documento, referente a las metas y verificadores de desempeño que se detallan a continuación:
+
+- Aumentar la cobertura de especies vegetales nativas.
+- Aumentar la densidad de especies vegetales nativas.
+
+Se expone a continuación los resultados de un Inventario Forestal, con la finalidad de conocer el estado inicial de las áreas involucradas en el proyecto "Cambio de medida asociada a Central Hidroeléctrica La Confluencia", en cuanto a su cobertura y densidad, para así poder tener un control al momento de reevaluar estas zonas, posterior a la implementación del Plan de Revegetación. Este Inventario, desarrollado en asociación al levantamiento de la caracterización ambiental del componente flora y vegetación, se desarrolló tanto en el sector Tinguiririca A como el Sector La Correana.
+
+### 4.2 Objetivo General.
+
+Desarrollar un Inventario Forestal en las áreas de revegetación propuestas, para conocer el estado inicial de éstas en cuanto a su cobertura y densidad, información necesaria para el cumplimiento del Plan de Restauración de Hábitat.
+
+### 4.3 Objetivos específicos.
+
+- Evaluar la cobertura por especie en las áreas de revegetación.
+- Evaluar la densidad por especie en las áreas de revegetación
+
+### 4.4 Metodología.
+
+La metodología utilizada para la caracterización de las áreas consistió en desarrollar un Inventario Forestal, el cual se basa en la cuantificación de distintos parámetros según sea el interés del estudio. En este caso, dado que el presente trabajo se centra en dar sustento técnico a las metas estipuladas en el Plan de Restauración de Hábitat, por dicha razón se evalúa solamente la cobertura y densidad de la formación vegetacional.
+
+Para dicha actividad se siguió el siguiente proceso metodológico:
+
+#### 4.4.1 Muestreo a través de parcelas de medición.
+
+Las áreas de revegetación se evaluaron a través de parcelas de muestreo, las cuales fueron concordantes con el tamaño del área muestreada. La cantidad de unidades muestrales realizadas en cada sector se definió acorde a un error de medición que no supera el 20% según las disposiciones legales establecidas para bosques nativos. En este sentido, el número de parcelas se estableció acorde al documento técnico de CONAF llamado "Consideraciones para formulación de Planes de manejo de bosques nativos" (CONAF, 2016), y se relaciona a su vez, con la homogeneidad o heterogeneidad de las formaciones boscosas encontradas.
+
+Así las parcelas de muestreo realizadas en terreno fueron del tipo circular, con un radio de 8 metros y un tamaño de 200 m2. En cada parcela, se georreferenció su centro y se midieron las variables cobertura y densidad. La variable cobertura se midió de la siguiente forma: para las áreas de enriquecimiento se evaluó la cobertura mediante el diámetro de la copa en sentido Norte-Sur y Este-Oeste, con la finalidad de determinar el área de la copa en la proyección horizontal, obteniendo un resultado de la superficie cubierta en m2. Por otra parte, se determinó la densidad (N/ha o individuos por hectárea) considerando individuos arbustivos y arbóreos.
+
+## 4.5 Resultados.
+
+A continuación, se detalla la ubicación de las áreas del Proyecto junto con la ubicación de las parcelas de muestreo y su centro en dichas áreas.
+
+<table>
+<caption>Cuadro 6. Datos Parcelas de muestreo.</caption>
+<tr><th>Parcela</th><th>Coordenada X</th><th>Coordenada Y</th></tr>
+<tr><td>PT2</td><td>350.550</td><td>6.149.344</td></tr>
+<tr><td>PT4</td><td>350.597</td><td>6.149.321</td></tr>
+<tr><td>PT7</td><td>360.930</td><td>6.136.640</td></tr>
+<tr><td>PT8</td><td>360.898</td><td>6.136.763</td></tr>
+<tr><td>PT10</td><td>360.822</td><td>6.136.892</td></tr>
+</table>
+
+Figura 3. Ubicación parcelas de muestreo al interior de Áreas del proyecto - Tinguiririca A
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageNumber="18 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+<figure>
+<figcaption>Figura 4. Ubicación parcelas de muestreo al interior de Áreas del proyecto - La Correana.</figcaption>
+<!-- (Contenido gráfico y coordenadas) -->
+</figure>
+
+Simbología
+☐ Área del proyecto - Sector Tinguiririca A
+Parcelas de Inventario Forestal en el Área del Proyecto
+PT2
+PT4
+
+MEJORESPrácticas
+
+Escala: 1:1.000
+Proyección Universal Transversal de Mercator
+Datum WGS 84 UTM 19 S
+
+<figure>
+<!-- (Contenido gráfico y coordenadas) -->
+</figure>
+
+Simbología
+☐ Área del proyecto - Sector La Correana
+Parcelas de Inventario Forestal en el Área del Proyecto
+PT10
+PT7
+PT8
+
+<figure>
+
+MEJORESPRÁCTICAS
+
+Escala: 1:4.000
+Proyección Universal Transversal de Mercator
+Datum WGS 84 UTM 19 S
+
+</figure>
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageFooter="19 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+# PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT
+
+## 4.5.1 Inventario de flora vascular.
+
+En el Cuadro 7 a continuación se presenta el catálogo florístico para especies leñosas de las áreas prospectadas al interior de las áreas a revegetar, éstas se ordenan por familia, indicándose nombres científico y común, origen, categoría de conservación y clase taxonómica.
+
+<table>
+<caption>Cuadro 7. Lista taxonómica de la flora vascular leñosa inventariada en las áreas a revegetar.</caption>
+<tr><th>Nº</th><th>Familia</th><th>Especie</th><th>Nombre común</th><th>Origen</th><th>Clasificación</th></tr>
+<tr><td>1</td><td>Asteraceae</td><td>Baccharis linearis</td><td>Romerillo</td><td>Au</td><td>Magnoliopsida</td></tr>
+<tr><td>2</td><td>Fabaceae</td><td>Acacia caven</td><td>Espino</td><td>Au</td><td>Magnoliopsida</td></tr>
+<tr><td>3</td><td>Rhamnaceae</td><td>Retanilla ephedra</td><td>Retamilla</td><td>En</td><td>Magnoliopsida</td></tr>
+<tr><td>4</td><td>Rosaceae</td><td>Rosa rubiginosa</td><td>Rosa mosqueta</td><td>Al</td><td>Magnoliopsida</td></tr>
+<tr><td>5</td><td>Rosaceae</td><td>Rubus ulmifolius</td><td>Zarzamora</td><td>Al</td><td>Magnoliopsida</td></tr>
+</table>
+
+## 4.5.2 Resultados Áreas del proyecto
+
+El Cuadro 8 muestra el Resumen de densidades y coberturas determinadas luego de realizado el Inventario Forestal para cada una de las parcelas de medición o unidades muestrales (um) al interior de las áreas del proyecto.
+
+<table>
+<caption>Cuadro 8. Determinación de densidades y coberturas por parcelas del área del proyecto.</caption>
+<tr><th>Sector</th><th>Parcela Nº 2 Nombre científico</th><th>Nombre común</th><th>Frecuencia</th><th>Nha</th><th>Cobertura promedio estrata</th></tr>
+<tr><td rowspan="4">Tinguiririca A</td><td>Acacia caven</td><td>Espino</td><td>1</td><td>50</td><td>12,54</td></tr>
+<tr><td>Baccharis linearis</td><td>Romerillo</td><td>1</td><td>50</td><td>1,34</td></tr>
+<tr><td colspan="2">Totales especies arbóreas</td><td>1</td><td>50</td><td></td></tr>
+<tr><td colspan="2">Total especies</td><td>2</td><td>100</td><td></td></tr>
+</table>
+
+<table>
+<tr><th>Sector</th><th>Parcela Nº 4 Nombre científico</th><th>Nombre común</th><th>Frecuencia</th><th>Nha</th><th>Cobertura promedio estrata</th></tr>
+<tr><td rowspan="6">Tinguiririca A</td><td>Acacia caven</td><td>Espino</td><td>2</td><td>100</td><td>3,66</td></tr>
+<tr><td>Rosa rubiginosa</td><td>Rosa mosqueta</td><td>2</td><td>100</td><td></td></tr>
+<tr><td>Rubus ulmifolius</td><td>Mora</td><td>3</td><td>150</td><td>12,72</td></tr>
+<tr><td>Retanilla ephedra</td><td>Retamilla</td><td>1</td><td>50</td><td></td></tr>
+<tr><td colspan="2">Totales especies arbóreas</td><td>2</td><td>100</td><td></td></tr>
+<tr><td colspan="2">Total especies</td><td>8</td><td>400</td><td></td></tr>
+</table>
+
+Parcela Nº 7
+
+Nombre común
+
+Frecuencia
+
+Nha
+
+Cobertura promedio estrata
+
+Sector
+
+Nombre científico
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageFooter="20 de 21" -->
+<!-- PageBreak -->
+
+<figure>
+
+MEJORESPrácticas
+
+</figure>
+
+<table>
+<caption>PLAN DE REVEGETACIÓN - MODIFICACIÓN DE MEDIDA ASOCIADA A BOTADERO DEL SHAFT</caption>
+<tr><td rowspan="3">La Correana</td><td>Rubus ulmifolius Mora</td><td>4</td><td>200</td><td>15,42</td></tr>
+<tr><td>Totales especies arbóreas</td><td>0</td><td>0</td><td></td></tr>
+<tr><td>Total especies</td><td>4</td><td>200</td><td></td></tr>
+</table>
+
+<table>
+<caption>Total especies</caption>
+<tr><th>Sector</th><th>Parcela Nº 8 Nombre científico</th><th>Nombre común</th><th>Frecuencia</th><th>Nha</th><th>Cobertura promedio estrata</th></tr>
+<tr><td rowspan="3">La Correana</td><td>Rosa rubiginosa</td><td>Rosa mosqueta</td><td>8</td><td>400</td><td rowspan="2">12,2</td></tr>
+<tr><td>Rubus ulmifolius</td><td>Mora</td><td>1</td><td>50</td></tr>
+<tr><td colspan="2">Totales especies arbóreas</td><td>0</td><td>0</td><td></td></tr>
+</table>
+
+9
+450
+
+<table>
+<tr><th>Sector</th><th>Parcela Nº 10 Nombre científico</th><th>Nombre común</th><th>Frecuencia</th><th>Nha</th><th>Cobertura promedio estrata</th></tr>
+<tr><td rowspan="4">La Correana</td><td>Rosa rubiginosa</td><td>Rosa mosqueta</td><td>11</td><td>550</td><td rowspan="2">13,15</td></tr>
+<tr><td>Rubus ulmifolius</td><td>Mora</td><td>4</td><td>200</td></tr>
+<tr><td colspan="2">Totales especies arbóreas</td><td>0</td><td>0</td><td></td></tr>
+<tr><td colspan="2">Total especies</td><td>15</td><td>750</td><td></td></tr>
+</table>
+
+## 4.6 Conclusiones
+
+Las áreas del proyecto que son las áreas por revegetar presentan una cobertura arbórea muy reducida y solo presente en el Sector Tinguiririca A. En general para ambos sectores la estrata dominante es la arbustiva compuesta principalmente por las especies exóticas Rosa mosqueta (Rosa rubiginosa) y Mora (Rubus ulmifolius) características de ambientes de perturbación constante. Estos sectores son propicios para la implementación de una medida de enriquecimiento vegetal dirigida a la restauración de hábitat para fauna, dada sus condiciones de densidad y cobertura reducida. En cuanto a las especies propuestas para ello, éstas tienen relación con la vegetación que les circunda levantada en la línea base de flora y vegetación y que permite inferir las formaciones naturales originales presentes en las áreas propuestas para la medida.
+
+## 4.7 Referencias.
+
+Corporación Nacional Forestal (CONAF). 2016. Consideraciones para la formulación del Plan de Manejo Forestal de Bosque Nativo Ley Nº 20.283. Disponible en: https://www.conaf.cl/wp-content/uploads/2012/12/Consideraciones-formulacion-PMFBN.pdf. Citado el: 20 de mayo del 2021.
+
+Ministerio de Agricultura (MINAGRI, 2008). Ley sobre recuperación del bosque nativo y fomento forestal. Disponible en: https://www.bcn.cl/leychile/navegar?idNorma=274894. Citado el: 20 de mayo del 2021.
+
+<!-- PageFooter="Mejores Prácticas, marzo de 2022 Informe MP 339-2022 Plan de Revegetación - Modificación de medida asociada a Botadero del Shaft" -->
+<!-- PageFooter="21 de 21" -->
+<!-- PageBreak -->
+
