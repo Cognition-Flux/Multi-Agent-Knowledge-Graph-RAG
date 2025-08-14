@@ -35,7 +35,7 @@ with _PROMPTS_PATH.open(encoding="utf-8") as f:
 
 @lru_cache(maxsize=16)
 def build_prompt(
-    system_prompt: str, k: int = 3, group: str | None = None
+    system_prompt: str, k: int = 5, group: str | None = None
 ) -> ChatPromptTemplate:
     """Build a ChatPromptTemplate with dynamic few-shot selection.
 
@@ -60,7 +60,7 @@ def build_structured_chain(
     *,
     system_prompt: str,
     output_schema: type[BaseModel],
-    k: int = 3,
+    k: int = 5,
     temperature: float = 0,
     postprocess: Callable | None = None,
     group: str | None = None,
@@ -91,7 +91,7 @@ def _ensure_return_clause(output: CypherQuery) -> CypherQuery:
 
 
 def get_cypher_query_chain(
-    k: int = 3, group: str | None = "FEW_SHOTS_CYPHER_QUERY"
+    k: int = 5, group: str | None = "FEW_SHOTS_CYPHER_QUERY"
 ) -> Runnable:
     """Convenience builder for the Cypher query agent chain."""
     return build_structured_chain(
@@ -105,7 +105,7 @@ def get_cypher_query_chain(
 
 
 def get_question_generation_chain(
-    k: int = 3, group: str | None = "FEW_SHOTS_QUESTIONS_GENERATION"
+    k: int = 5, group: str | None = "FEW_SHOTS_QUESTIONS_GENERATION"
 ) -> Runnable:
     """Convenience builder for a question-generation agent chain."""
     return build_structured_chain(
@@ -144,7 +144,9 @@ def get_answer_generation_chain() -> Runnable:
 
 if __name__ == "__main__":
     cypher_chain = get_cypher_query_chain(group="FEW_SHOTS_CYPHER_QUERY")
-    qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION")
+    qgen_chain = get_question_generation_chain(
+        group="FEW_SHOTS_QUESTIONS_GENERATION", k=5
+    )
 
     demo_input = {"input": "proyectos en las comunas Antofagasta o Mejillones"}
 
