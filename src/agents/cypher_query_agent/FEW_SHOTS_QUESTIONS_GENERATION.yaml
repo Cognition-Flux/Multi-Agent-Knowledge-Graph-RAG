@@ -1,0 +1,379 @@
+FEW_SHOTS_QUESTIONS_GENERATION:
+  - pregunta: dame las comunas que hay y cuantas son.
+    generated_queries: |
+      Preguntas similares:
+      - Lista de todas las comunas y su número total.
+      - ¿Cuántas comunas existen y cuáles son sus nombres?
+      - Proporcióname el nombre de cada comuna y el conteo general.
+  - pregunta: busca todas las regiones que tienen proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de regiones con al menos un proyecto.
+      - ¿Qué regiones están asociadas a proyectos?
+      - Nombra las regiones que figuran con proyectos.
+  - pregunta: dame la fecha de presentación de los proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de fechas de presentación de proyectos.
+      - ¿Cuándo se presentaron los proyectos?
+      - Obtener la fecha de ingreso de cada proyecto.
+  - pregunta: proyectos en las comunas Antofagasta o Mejillones
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos ubicados en las comunas Antofagasta o Mejillones.
+      - ¿Qué proyectos se encuentran en las comunas Antofagasta o Mejillones?
+      - Listado de proyectos para la zona de las comunas Antofagasta o Mejillones.
+  - pregunta: Total de proyectos
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuál es el número total de proyectos?
+      - Dime la cantidad total de proyectos.
+      - Contabiliza todos los proyectos.
+  - pregunta: Total de regiones
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuál es el número total de regiones?
+      - Dime la cantidad total de regiones.
+      - Contabiliza todos los regiones.
+  - pregunta: Total de comunas
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuál es el número total de comunas?
+      - Dime la cantidad total de comunas.
+      - Contabiliza todos los comunas.
+  - pregunta: Total de tipos de proyecto
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuál es el número total de tipos de proyecto?
+      - Dime la cantidad total de tipos de proyecto.
+      - Contabiliza todos los tipos de proyecto.
+  - pregunta: Nombres de los proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de proyectos.
+      - ¿Cuáles son los nombres de los proyectos?
+      - Enumera todos los los proyectos.
+  - pregunta: Nombres de los tipos de proyecto
+    generated_queries: |
+      Preguntas similares:
+      - Listado de tipos de proyecto.
+      - ¿Cuáles son los nombres de los tipos de proyecto?
+      - Enumera todos los los tipos de proyecto.
+  - pregunta: Nombres de las regiones con proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de regiones con proyectos.
+      - ¿Cuáles son los nombres de las regiones con proyectos?
+      - Enumera todos los las regiones con proyectos.
+  - pregunta: Nombres de las comunas con proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de comunas con proyectos.
+      - ¿Cuáles son los nombres de las comunas con proyectos?
+      - Enumera todos los las comunas con proyectos.
+  - pregunta: Total de proyectos por Región
+    generated_queries: |
+      Preguntas similares:
+      - Número de proyectos por Región.
+      - Agrupar proyectos por Región y contar.
+      - Distribución de proyectos por Región.
+  - pregunta: Total de proyectos por Tipo de Proyecto
+    generated_queries: |
+      Preguntas similares:
+      - Número de proyectos por Tipo de Proyecto.
+      - Agrupar proyectos por Tipo de Proyecto y contar.
+      - Distribución de proyectos por Tipo de Proyecto.
+  - pregunta: Total de proyectos por Comuna
+    generated_queries: |
+      Preguntas similares:
+      - Número de proyectos por Comuna.
+      - Agrupar proyectos por Comuna y contar.
+      - Distribución de proyectos por Comuna.
+  - pregunta: Total de proyectos por Tipología
+    generated_queries: |
+      Preguntas similares:
+      - Número de proyectos por Tipología.
+      - Agrupar proyectos por Tipología y contar.
+      - Distribución de proyectos por Tipología.
+  - pregunta: Total de proyectos presentados por mes
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuál es el número total de proyectos presentados por mes?
+      - Dime la cantidad total de proyectos presentados por mes.
+      - Contabiliza todos los proyectos presentados por mes.
+  - pregunta: nombre de los proyectos presentados en enero de 2023, muestra su fecha de presentación
+    generated_queries: |
+      Preguntas similares:
+      - Listar proyectos de enero de 2023.
+      - ¿Qué proyectos se presentaron en enero de 2023 y cuál es su fecha?
+      - Nombres y fechas de proyectos para enero de 2023.
+  - pregunta: nombre de los proyectos presentados en mayo de 2022, muestra su fecha de presentación
+    generated_queries: |
+      Preguntas similares:
+      - Listar proyectos de mayo de 2022.
+      - ¿Qué proyectos se presentaron en mayo de 2022 y cuál es su fecha?
+      - Nombres y fechas de proyectos para mayo de 2022.
+  - pregunta: que comunas hay en los documentos?
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuáles son las comunas mencionadas en la documentación?
+      - Listado de comunas extraídas de los documentos.
+      - Enumera todas las comunas encontradas.
+  - pregunta: Cuantos proyectos hay?
+    generated_queries: |
+      Preguntas similares:
+      - ¿Cuál es el número total de proyectos?
+      - Cantidad total de proyectos registrados.
+      - Dame el conteo de todos los proyectos.
+  - pregunta: Obtener los nombres de las comunas y su conteo total
+    generated_queries: |
+      Preguntas similares:
+      - Lista de comunas y su número total.
+      - ¿Cuáles son las comunas y cuántas hay en total?
+      - Nombres de todas las comunas y su cuenta.
+  - pregunta: Nombres y conteo total de regiones que tienen proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de regiones con proyectos y su número total.
+      - ¿Qué regiones tienen proyectos y cuántas son?
+      - Nombres de las regiones con proyectos y su cuenta total.
+  - pregunta: Dame la fecha de presentación de los proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Listado de fechas de presentación de proyectos.
+      - ¿Cuándo se presentaron los proyectos?
+      - Obtener la fecha de ingreso de cada proyecto.
+  - pregunta: dame los proyectos tipología c, y subtipo anexes
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: dame los proyectos tipología c, y subtipo anexes
+      - Datos relacionados con: dame los proyectos tipología c, y subtipo anexes
+      - Generar resumen sobre: dame los proyectos tipología c, y subtipo anexes
+  - pregunta: proyectos en las comunas Antofagasta o Mejillones
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos ubicados en las comunas Antofagasta o Mejillones.
+      - ¿Qué proyectos se encuentran en las comunas Antofagasta o Mejillones?
+      - Listado de proyectos para la zona de las comunas Antofagasta o Mejillones.
+  - pregunta: proyectos en la Región de Antofagasta
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos ubicados en la Región de Antofagasta.
+      - ¿Qué proyectos se encuentran en la Región de Antofagasta?
+      - Listado de proyectos para la zona de la Región de Antofagasta.
+  - pregunta: proyectos por tipo 'Centrales generadoras de energía mayores a 3 MW'
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por tipo 'Centrales generadoras de energía mayores a 3 MW'.
+      - Clasificación de proyectos según tipo 'Centrales generadoras de energía mayores a 3 MW'.
+      - Muestra los proyectos que cumplen con tipo 'Centrales generadoras de energía mayores a 3 MW'.
+  - pregunta: proyectos por tipología c
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por tipología c.
+      - Clasificación de proyectos según tipología c.
+      - Muestra los proyectos que cumplen con tipología c.
+  - pregunta: proyectos con fecha de presentación desde 2018-01-01
+    generated_queries: |
+      Preguntas similares:
+      - Listar proyectos presentados desde el 2018.
+      - Proyectos con fecha posterior al 2018-01-01.
+      - ¿Qué proyectos se han presentado a partir de 2018?
+  - pregunta: proyectos por subtype anexes
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por subtype anexes.
+      - Clasificación de proyectos según subtype anexes.
+      - Muestra los proyectos que cumplen con subtype anexes.
+  - pregunta: proyectos en Antofagasta o Mejillones en Región de Antofagasta y tipo específico desde 2018
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos ubicados en Antofagasta o Mejillones en Región de Antofagasta y tipo específico desde 2018.
+      - ¿Qué proyectos se encuentran en Antofagasta o Mejillones en Región de Antofagasta y tipo específico desde 2018?
+      - Listado de proyectos para la zona de Antofagasta o Mejillones en Región de Antofagasta y tipo específico desde 2018.
+  - pregunta: conteo de proyectos por comuna
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: conteo de proyectos por comuna
+      - Datos relacionados con: conteo de proyectos por comuna
+      - Generar resumen sobre: conteo de proyectos por comuna
+  - pregunta: comunas por región (lista de comunas por región)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: comunas por región (lista de comunas por región)
+      - Datos relacionados con: comunas por región (lista de comunas por región)
+      - Generar resumen sobre: comunas por región (lista de comunas por región)
+  - pregunta: conteo de proyectos por tipología
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: conteo de proyectos por tipología
+      - Datos relacionados con: conteo de proyectos por tipología
+      - Generar resumen sobre: conteo de proyectos por tipología
+  - pregunta: conteo de proyectos por tipo de proyecto
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: conteo de proyectos por tipo de proyecto
+      - Datos relacionados con: conteo de proyectos por tipo de proyecto
+      - Generar resumen sobre: conteo de proyectos por tipo de proyecto
+  - pregunta: proyectos con más de una comuna
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos con más de una comuna
+      - Datos relacionados con: proyectos con más de una comuna
+      - Generar resumen sobre: proyectos con más de una comuna
+  - pregunta: último proyecto por comuna
+    generated_queries: |
+      Preguntas similares:
+      - El proyecto más reciente para cada comuna.
+      - Obtener el último proyecto de cada comuna.
+      - Identificar el proyecto más nuevo por comuna.
+  - pregunta: proyectos tipología c y subtype anexes
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos tipología c y subtype anexes
+      - Datos relacionados con: proyectos tipología c y subtype anexes
+      - Generar resumen sobre: proyectos tipología c y subtype anexes
+  - pregunta: conteo mensual de proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: conteo mensual de proyectos
+      - Datos relacionados con: conteo mensual de proyectos
+      - Generar resumen sobre: conteo mensual de proyectos
+  - pregunta: proyectos por DocumentType 'ei-document'
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por DocumentType 'ei-document'.
+      - Clasificación de proyectos según DocumentType 'ei-document'.
+      - Muestra los proyectos que cumplen con DocumentType 'ei-document'.
+  - pregunta: proyectos en lista de comunas usando WITH
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos ubicados en lista de comunas usando WITH.
+      - ¿Qué proyectos se encuentran en lista de comunas usando WITH?
+      - Listado de proyectos para la zona de lista de comunas usando WITH.
+  - pregunta: proyectos sin tipología asignada
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos sin tipología asignada
+      - Datos relacionados con: proyectos sin tipología asignada
+      - Generar resumen sobre: proyectos sin tipología asignada
+  - pregunta: proyectos en Región de Antofagasta excluyendo la comuna Antofagasta
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos ubicados en Región de Antofagasta excluyendo la comuna Antofagasta.
+      - ¿Qué proyectos se encuentran en Región de Antofagasta excluyendo la comuna Antofagasta?
+      - Listado de proyectos para la zona de Región de Antofagasta excluyendo la comuna Antofagasta.
+  - pregunta: proyecto más antiguo y más reciente
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyecto más antiguo y más reciente
+      - Datos relacionados con: proyecto más antiguo y más reciente
+      - Generar resumen sobre: proyecto más antiguo y más reciente
+  - pregunta: proyectos por región y tipo con conteo
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por región y tipo con conteo.
+      - Clasificación de proyectos según región y tipo con conteo.
+      - Muestra los proyectos que cumplen con región y tipo con conteo.
+  - pregunta: proyectos que contienen todas las comunas requeridas (Antofagasta y Mejillones)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos que contienen todas las comunas requeridas (Antofagasta y Mejillones)
+      - Datos relacionados con: proyectos que contienen todas las comunas requeridas (antofagasta y mejillones)
+      - Generar resumen sobre: proyectos que contienen todas las comunas requeridas (antofagasta y mejillones)
+  - pregunta: proyectos entre 2015 y 2020 (inclusive)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos entre 2015 y 2020 (inclusive)
+      - Datos relacionados con: proyectos entre 2015 y 2020 (inclusive)
+      - Generar resumen sobre: proyectos entre 2015 y 2020 (inclusive)
+  - pregunta: proyectos por año de presentación (conteo)
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por año de presentación (conteo).
+      - Clasificación de proyectos según año de presentación (conteo).
+      - Muestra los proyectos que cumplen con año de presentación (conteo).
+  - pregunta: resumen por región (total proyectos, primera y última fecha)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: resumen por región (total proyectos, primera y última fecha)
+      - Datos relacionados con: resumen por región (total proyectos, primera y última fecha)
+      - Generar resumen sobre: resumen por región (total proyectos, primera y última fecha)
+  - pregunta: proyectos con y sin tipología (flag)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos con y sin tipología (flag)
+      - Datos relacionados con: proyectos con y sin tipología (flag)
+      - Generar resumen sobre: proyectos con y sin tipología (flag)
+  - pregunta: pares de proyectos que comparten comuna o región (muestra)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: pares de proyectos que comparten comuna o región (muestra)
+      - Datos relacionados con: pares de proyectos que comparten comuna o región (muestra)
+      - Generar resumen sobre: pares de proyectos que comparten comuna o región (muestra)
+  - pregunta: proyectos por comuna con lista de proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por comuna con lista de proyectos.
+      - Clasificación de proyectos según comuna con lista de proyectos.
+      - Muestra los proyectos que cumplen con comuna con lista de proyectos.
+  - pregunta: top 3 comunas con más proyectos
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: top 3 comunas con más proyectos
+      - Datos relacionados con: top 3 comunas con más proyectos
+      - Generar resumen sobre: top 3 comunas con más proyectos
+  - pregunta: proyectos con subtype 'anexes' y DocumentType 'ei-document'
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos con subtype 'anexes' y DocumentType 'ei-document'
+      - Datos relacionados con: proyectos con subtype 'anexes' y documenttype 'ei-document'
+      - Generar resumen sobre: proyectos con subtype 'anexes' y documenttype 'ei-document'
+  - pregunta: normalizar regiones y agrupar (quitando 'Región de ')
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: normalizar regiones y agrupar (quitando 'Región de ')
+      - Datos relacionados con: normalizar regiones y agrupar (quitando 'región de ')
+      - Generar resumen sobre: normalizar regiones y agrupar (quitando 'región de ')
+  - pregunta: paginación de proyectos (página 1, tamaño 5)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: paginación de proyectos (página 1, tamaño 5)
+      - Datos relacionados con: paginación de proyectos (página 1, tamaño 5)
+      - Generar resumen sobre: paginación de proyectos (página 1, tamaño 5)
+  - pregunta: proyectos con más de una región
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos con más de una región
+      - Datos relacionados con: proyectos con más de una región
+      - Generar resumen sobre: proyectos con más de una región
+  - pregunta: proyectos con '220 kV' en el nombre (regex)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: proyectos con '220 kV' en el nombre (regex)
+      - Datos relacionados con: proyectos con '220 kv' en el nombre (regex)
+      - Generar resumen sobre: proyectos con '220 kv' en el nombre (regex)
+  - pregunta: lista de comunas por proyecto (pattern comprehension)
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: lista de comunas por proyecto (pattern comprehension)
+      - Datos relacionados con: lista de comunas por proyecto (pattern comprehension)
+      - Generar resumen sobre: lista de comunas por proyecto (pattern comprehension)
+  - pregunta: conteo de tipologías por comuna
+    generated_queries: |
+      Preguntas similares:
+      - Información sobre: conteo de tipologías por comuna
+      - Datos relacionados con: conteo de tipologías por comuna
+      - Generar resumen sobre: conteo de tipologías por comuna
+  - pregunta: proyectos por año y mes (conteo)
+    generated_queries: |
+      Preguntas similares:
+      - Proyectos filtrados por año y mes (conteo).
+      - Clasificación de proyectos según año y mes (conteo).
+      - Muestra los proyectos que cumplen con año y mes (conteo).
+  - pregunta: último proyecto por región (subconsulta)
+    generated_queries: |
+      Preguntas similares:
+      - El proyecto más reciente para cada región.
+      - Obtener el último proyecto de cada región usando una subconsulta.
+      - Identificar el proyecto más nuevo por región.
