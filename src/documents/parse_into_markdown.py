@@ -1,7 +1,7 @@
 """Script to parse PDFs to markdown and clean them with retries.
 
 Uso:
-    uv run src/documents/parse_into_markdown.py
+uv run src/documents/parse_into_markdown.py
 
 
 
@@ -12,6 +12,7 @@ import os
 import random
 import sys
 import time
+import uuid
 from datetime import datetime
 from pathlib import Path
 
@@ -233,9 +234,11 @@ def process_documents() -> None:
         log_event("doc.process.start", index=f"{index_abs}/{total_docs}")
         s3_key = doc.metadata["s3_key"]
 
-        # Transformar el S3 key en ruta y extraer el nombre de archivo
-        filename = Path(s3_key).name
-        md_filename = Path(filename).with_suffix(".md")
+        # Transformar el S3 key en ruta y derivar nombre único con prefijo round_2
+        original_filename = Path(s3_key).name
+        unique_id = uuid.uuid4().hex[:8]
+        filename = Path(f"round_2_{unique_id}_{original_filename}")
+        md_filename = filename.with_suffix(".md")
         md_path = MARKDOWN_RAW_COLLECTION_DIR / md_filename
 
         # Si todos los resultados refinados ya existen para los modelos objetivos,
@@ -289,19 +292,29 @@ def process_documents() -> None:
             else:
                 log_event("pdf.exists", path=str(local_path))
 
-            # Extraer markdown a partir del PDF usando Azure AI Document Intelligence
-            load_dotenv(override=True)
-            loader = AzureAIDocumentIntelligenceLoader(
-                api_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-                api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-                file_path=str(local_path),
-                api_model="prebuilt-layout",  #
-                mode="markdown",  #
-                analysis_features=["ocrHighResolution"],  #
+            # Extraer markdown: modo SaaS (Azure) o local según config
+            from src.config import (
+                USE_SAAS_PDF_PARSER,  # importar dentro para evitar ciclos
             )
+
+            if USE_SAAS_PDF_PARSER:
+                load_dotenv(override=True)
+                loader = AzureAIDocumentIntelligenceLoader(
+                    api_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+                    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+                    file_path=str(local_path),
+                    api_model="prebuilt-layout",
+                    mode="markdown",
+                    analysis_features=["ocrHighResolution"],
+                )
+            else:
+                from localPDFparse.parse import LocalPDFMarkdownLoader
+
+                loader = LocalPDFMarkdownLoader(file_path=str(local_path))
+
             log_event(
                 "md.extract.start",
-                model="prebuilt-layout",
+                model="prebuilt-layout" if USE_SAAS_PDF_PARSER else "local",
                 path=str(local_path),
             )
             try:
@@ -317,6 +330,16 @@ def process_documents() -> None:
                     log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
                     continue
             except Exception as first_exc:
+                if not USE_SAAS_PDF_PARSER:
+                    # En modo local no hay fallback; registrar y continuar
+                    log_event(
+                        "md.extract.error_local",
+                        path=str(local_path),
+                        error=str(first_exc),
+                    )
+                    log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
+                    continue
+
                 log_event(
                     "md.extract.error_primary",
                     model="prebuilt-layout",
@@ -324,13 +347,19 @@ def process_documents() -> None:
                     error=str(first_exc),
                 )
                 # Fallback de extracción: usar prebuilt-read en modo texto
-                read_loader = AzureAIDocumentIntelligenceLoader(
-                    api_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-                    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-                    file_path=str(local_path),
-                    api_model="prebuilt-read",
-                    mode="text",
-                )
+                if USE_SAAS_PDF_PARSER:
+                    read_loader = AzureAIDocumentIntelligenceLoader(
+                        api_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+                        api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+                        file_path=str(local_path),
+                        api_model="prebuilt-read",
+                        mode="text",
+                    )
+                else:
+                    # Si no es SaaS, no intentamos fallback de Azure
+                    log_event("doc.process.end", index=f"{index_abs}/{total_docs}")
+                    continue
+
                 log_event(
                     "md.extract.fallback.start",
                     model="prebuilt-read",

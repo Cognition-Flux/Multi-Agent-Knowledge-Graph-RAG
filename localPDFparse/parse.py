@@ -98,6 +98,54 @@ def convert_pdf_to_markdown(pdf_path: pathlib.Path, output_dir: pathlib.Path):
         f.write(markdown_text)
     print(f"Successfully converted and saved to {markdown_path}")
 
+    return markdown_text  # <-- also return content for loader use
+
+
+# ---------------------------------------------------------------------------
+# Loader class compatible con AzureAIDocumentIntelligenceLoader
+# ---------------------------------------------------------------------------
+
+try:
+    from langchain_core.documents import Document  # LangChain v0.1+
+except ImportError:
+    try:
+        from langchain.schema import Document  # <0.1 legacy
+    except ImportError:
+        Document = None  # type: ignore
+
+# Define loader only if langchain is available
+if Document is not None:
+
+    class LocalPDFMarkdownLoader:
+        """Carga un PDF local y devuelve una lista de Document (langchain) con Markdown.
+
+        Coincide con la interfaz de AzureAIDocumentIntelligenceLoader para poder
+        intercambiarse fácilmente mediante un flag de configuración.
+        """
+
+        def __init__(self, file_path: str, output_dir: str | None = None, **_: object):
+            self.file_path = pathlib.Path(file_path)
+            self.output_dir = (
+                pathlib.Path(output_dir) if output_dir else self.file_path.parent
+            )
+
+        def load(self):
+            """Procesa el PDF y devuelve una lista con un único Document."""
+            markdown_text = convert_pdf_to_markdown(self.file_path, self.output_dir)
+            return [
+                Document(
+                    page_content=markdown_text,
+                    metadata={
+                        "source": str(self.file_path),
+                        "loader": "local_pdf_markdown",
+                    },
+                )
+            ]
+
+else:
+    # langchain no disponible; el loader no se define y el script CLI sigue funcionando
+    pass
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(

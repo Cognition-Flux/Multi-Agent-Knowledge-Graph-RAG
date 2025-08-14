@@ -21,7 +21,9 @@ MARKDOWN_REFINED_COLLECTION_DIR = (
 )
 
 # Path to flora & fauna metadata Parquet file
-FLORA_FAUNA_PARQUET_PATH = BASE_DIR / "cli" / "flora_fauna_metadata.parquet"
+# FLORA_FAUNA_PARQUET_PATH = BASE_DIR / "cli" / "flora_fauna_metadata.parquet"
+FLORA_FAUNA_PARQUET_PATH = BASE_DIR / "cli" / "flora_fauna_metadata_round_2.parquet"
+
 
 # Directory where JSONL chunks will be stored (raw version)
 CHUNKS_RAW_COLLECTION_DIR = (
@@ -32,3 +34,11 @@ CHUNKS_RAW_COLLECTION_DIR = (
 CHUNKS_REFINED_COLLECTION_DIR = (
     BASE_DIR / "documents" / "collections" / "chunks" / "refined_chunks"
 )
+
+# ---------------------------------------------------------------------------
+# PDF extraction backend toggle
+# True  -> usa AzureAIDocumentIntelligenceLoader (SaaS)
+# False -> usa LocalPDFMarkdownLoader definido en localPDFparse.parse
+# ---------------------------------------------------------------------------
+
+USE_SAAS_PDF_PARSER: bool = False

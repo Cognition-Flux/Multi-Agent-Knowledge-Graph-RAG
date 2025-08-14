@@ -31,7 +31,7 @@ def read_sql() -> str:
     sql_path = (
         Path(__file__).resolve().parents[2]  # -> proyecto raíz
         / "sql"
-        / "flora_fauna_query.sql"
+        / "flora_fauna_query_round_2.sql"
     )
     return sql_path.read_text(encoding="utf-8")
 
@@ -64,7 +64,7 @@ def main():
             print(f"  - {col}: {df[col].dtype}")
 
         # Guardar como Parquet
-        output_file = Path(__file__).parent / "flora_fauna_metadata.parquet"
+        output_file = Path(__file__).parent / "flora_fauna_metadata_round_2.parquet"
         df.to_parquet(output_file, index=False, compression="gzip")
         print(f"\n✅ Resultado Parquet (comprimido) guardado en {output_file}")
         print(f"   Tamaño del archivo: {output_file.stat().st_size / 1024:.2f} KB")
