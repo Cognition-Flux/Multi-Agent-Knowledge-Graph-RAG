@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
     async def _main() -> None:
         async for chunk in stream_graph(
-            "total de proyectos",
+            "total de tipologías por región",
             stream_mode="values",
             subgraphs=True,
             debug=False,
