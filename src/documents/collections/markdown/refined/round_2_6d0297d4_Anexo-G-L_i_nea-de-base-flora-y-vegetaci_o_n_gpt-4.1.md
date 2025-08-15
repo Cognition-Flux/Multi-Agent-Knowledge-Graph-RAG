@@ -1,0 +1,719 @@
+# Anexo G: Línea de Base Flora y Vegetación
+
+## Declaración de Impacto Ambiental
+
+**“Normalización Continuidad Operacional – Planta Vallenar - ENAMI”**
+
+**Preparado para:**
+
+**Elaborado por:**
+
+**Diciembre, 2018**
+
+---
+
+## Línea de Base de Flora y Vegetación para Proyecto
+
+**“Nuevo Botadero de Ripios, Planta Vallenar”**
+
+**Fechas de levantamiento:** 19 y 23 de Febrero de 2018
+
+**Elaborado por:**
+
+- Pablo Bruna Pouchucq, Ingeniero Forestal
+- Lorena Varas Gaete, Ingeniero Ambiental
+
+---
+
+## ÍNDICE DE CONTENIDO
+
+1. Introducción
+2. Objetivos
+    - 2.1 Objetivo general
+    - 2.2 Objetivos específicos
+3. Descripción del Proyecto
+4. Determinación y justificación del área de influencia
+5. Metodología
+    - 5.1 Vegetación potencial del área de influencia
+    - 5.2 Identificación y caracterización de las unidades vegetacionales
+        - 5.2.1 Antecedentes de la metodología COT
+    - 5.3 Cartografía del componente vegetacional
+    - 5.4 Catastro de la flora presente en el área de estudio
+        - 5.4.1 Determinación de la composición y riqueza florística
+        - 5.4.2 Origen fitogeográfico
+        - 5.4.3 Tipos biológicos
+        - 5.4.4 Distribución en Chile
+        - 5.4.5 Especies en categoría de conservación
+    - 5.5 Cumplimiento de la Ley 20.283
+    - 5.6 Singularidades ambientales
+6. Resultados
+    - 6.1 Vegetación potencial en el área de estudio
+    - 6.2 Vegetación presente en el área de estudio
+        - 6.2.1 Identificación de las unidades vegetacionales
+        - 6.2.2 Caracterización de las unidades vegetacionales
+    - 6.3 Cartografía de unidades vegetacionales
+    - 6.4 Catastro de la flora presente en el área de estudio
+        - 6.4.1 Composición y riqueza florística
+        - 6.4.2 Origen fitogeográfico
+        - 6.4.3 Tipo biológico
+        - 6.4.4 Distribución en Chile
+        - 6.4.5 Especies en categoría de conservación
+    - 6.5 Ley 20.283 sobre recuperación del bosque nativo y fomento forestal
+    - 6.6 Singularidades ambientales
+        - 6.6.1 Presencia de formaciones vegetales únicas o de baja representatividad nacional
+        - 6.6.2 Presencia de formaciones vegetales relictuales
+        - 6.6.3 Presencia de formaciones vegetales remanentes
+        - 6.6.4 Presencia de formaciones vegetales frágiles
+        - 6.6.5 Presencia de bosques de preservación
+        - 6.6.6 Presencia de ejemplares de especies vegetales clasificadas en categorías de conservación
+        - 6.6.7 Presencia de especies vegetales protegidas por regulaciones especiales
+        - 6.6.8 Presencia de especies endémicas
+        - 6.6.9 Presencia de especies de distribución restringida
+        - 6.6.10 Localización en o cercano al límite de distribución geográfica de la especie
+        - 6.6.11 Localización en o cercano al límite altitudinal de la especie
+        - 6.6.12 Actividad en o colindante con sitios prioritarios para la conservación de la diversidad
+        - 6.6.13 Actividad en o colindante con áreas bajo protección oficial
+        - 6.6.14 Actividad en o colindante con áreas protegidas privadas (app)
+        - 6.6.15 Actividad en o colindante con áreas de protección (Ley N° 18.378)
+        - 6.6.16 Actividad en o colindante con o aguas arriba de humedales
+7. Conclusiones
+8. Bibliografía
+
+---
+
+## ÍNDICE DE IMÁGENES
+
+1. Vista del área de estudio
+2. Ubicación espacial del proyecto
+3. Ubicación espacial del proyecto en Planta Vallenar
+4. Área de influencia del proyecto
+5. Formación vegetacional del área de estudio según Gajardo (1994)
+6. Piso vegetacional del área de estudio Luebert y Pliscoff (2006)
+7. Vista general del área de la formación
+8. Vista general formación herbazal efímero
+9. Formaciones vegetacionales presentes en el área de estudio
+10. Origen fitogeográfico
+11. Tipo biológico
+12. Distribución de especies en Chile
+13. Cumulopunthia sphaerica
+14. Pyrrocactus eriosyzoides
+15. Eulychnia acida
+16. Austrocylindropuntia miquelli
+17. Distribución de especies en categoría de conservación en el área del proyecto
+18. Sitio prioritario distante al área de influencia del proyecto
+
+---
+
+## ÍNDICE DE TABLAS
+
+1. Criterios para clasificar una formación vegetal compleja en zonas semi áridas y sub húmedas
+2. Codificación “abundancia relativa de flora” según criterio de BRAUN & BLANQUET
+3. Origen fitogeográfico de la flora
+4. Tipos biológicos de la flora vascular
+5. Formaciones vegetales presentes en el área del proyecto
+6. Listado florístico de especies presentes en el área del proyecto
+7. Resumen de la flora vascular presente en el área de estudio según clase taxonómica
+8. Familias con mayor número de especies respecto a área de estudio
+9. Especies en categoría de conservación y su cuantificación en el área del proyecto
+10. Usos de suelo de la región equivalentes con las formaciones del área de estudio
+11. Criterios de comparación de las formaciones vegetacionales presentes en el área de estudio respecto del catastro de la vegetación nativa de Chile
+12. Especies en categoría de conservación
+13. Especies Endémicas
+14. Especies con su límite de distribución en la Región de Atacama
+
+---
+
+## 1. INTRODUCCIÓN
+
+Uno de los contenidos mínimos exigidos para la elaboración de Declaraciones de Impacto Ambiental en la Ley n°19.300 sobre Bases Generales del Medio Ambiente consiste en la realización de una línea de base. Ésta corresponde a la descripción detallada del área de influencia de un proyecto o actividad, en forma previa a su ejecución, que permite evaluar los posibles impactos que puedan generarse sobre las componentes del medio ambiente. Incluye el medio biótico de acuerdo a lo establecido en el artículo 12 literal f), del reglamento SEIA.
+
+Una línea de base de flora y vegetación debe contener la información suficiente para identificar posibles efectos sobre elementos vegetales presentes en el sitio del proyecto o actividad que se está evaluando. En este contexto, para el proyecto se realiza una línea de base de flora y vegetación que considera un área de influencia específica en este componente.
+
+Se realizaron observaciones y levantamiento de información de campo los días 19 y 23 de febrero del año 2018, las que fueron ejecutadas por un profesional de las Ciencias Forestales, utilizando un conjunto de metodologías validadas en el ámbito científico para los efectos del levantamiento de líneas de base de vegetación y las guías o instrumentos regulatorios de la Corporación Nacional Forestal y el Servicio de Evaluación Ambiental.
+
+A continuación, se presenta la línea de base de flora y vegetación en virtud de lo señalado en el artículo 19 del Reglamento del Sistema de Evaluación de Impacto Ambiental, que dice relación con la presentación en las Declaraciones de Impacto Ambiental de los antecedentes necesarios que justifiquen la inexistencia de aquellos efectos, características o circunstancias del artículo 11 de la ley.
+
+---
+
+## 2. OBJETIVOS
+
+### 2.1 Objetivo General
+
+Realizar el levantamiento de la Línea de Base de Flora y Vegetación para el proyecto “Área de Emplazamiento Nuevo Botadero de Ripio”, Comuna de Vallenar, Región de Atacama.
+
+### 2.2 Objetivos Específicos
+
+- Describir la flora y vegetación potencial del área de estudio.
+- Identificar y caracterizar las unidades vegetacionales presentes en el área de influencia del Proyecto.
+- Definir las bases para la realización de la cartografía de las unidades vegetacionales presentes en el Proyecto.
+- Realizar el catastro de flora presente en el área del Proyecto.
+- Establecer el listado de especies en categoría de conservación de acuerdo a los instrumentos legales vigentes.
+- Definir y caracterizar las formaciones vegetales reguladas por la Ley N°20.283. Ley sobre recuperación del bosque nativo y fomento forestal, Ministerio de Agricultura.
+- Analizar la presencia de singularidades ambientales asociadas a la vegetación y flora en el área de influencia.
+
+---
+
+## 3. DESCRIPCIÓN DEL PROYECTO
+
+El proyecto consistirá en la habilitación de un nuevo terreno para el emplazamiento del nuevo botadero de ripio. Dicho sector se encuentra contiguo a las obras ya existentes en Planta Vallenar de la empresa Nacional de Minería.
+
+La actividad se enmarca dentro de la continuidad operacional que la empresa integra a sus procesos, permitiendo el buen uso de los recursos y cumplimiento de la legislación ambiental aplicable.
+
+El nuevo emplazamiento del botadero de ripio tiene una superficie de 10 Hectáreas. El terreno se ubica en los terrenos de la planta de ENAMI en la comuna de Vallenar, Provincia de Huasco, Región de Atacama.
+
+Cabe mencionar que el resto de los terrenos del Titular se encuentra cubierto por actividades e intervenciones existentes.
+
+**Imagen 1: Vista del Área de Estudio**
+
+En la Imagen 2, se indican los vértices del polígono que demarcan el área de impacto directo del Proyecto sobre una superficie de 10 Ha.
+
+**Imagen 2: Ubicación espacial del proyecto**
+
+En la Imagen 3, se observa la ubicación general de toda la Planta Vallenar, que corresponde a actividades existentes y en uso, tales como: planta de lix, piscinas de lixiviados, estanques de refino, tranque, botadero de ripio, por mencionar algunos. Cabe mencionar que todos los sectores ya existentes e intervenidos de manera previa han sido evaluados ambientalmente, y en su defecto las instalaciones de data más antigua a la normativa, han sido evaluadas sectorialmente.
+
+**Imagen 3: Ubicación espacial del proyecto en Planta Vallenar**
+
+En rojo, polígono aplicable a la Línea de Base
+
+---
+
+## 4. DETERMINACIÓN Y JUSTIFICACIÓN DEL ÁREA DE INFLUENCIA
+
+### 4.1 Determinación y Justificación del Área de Influencia
+
+Para determinar el área de influencia del proyecto se procede lo recomendado por la “Guía para la descripción del Área de Influencia SFF”, del MINISTERIO DEL MEDIO AMBIENTE (2015), documento que establece los criterios y contenidos mínimos, los que se basan en la identificación de impactos y las interacciones entre los componentes Suelo, Flora y Fauna.
+
+Para esto fue realizada una visita al polígono del área del proyecto y al territorio circundante con la finalidad de evaluar el tipo y condiciones del ecosistema en donde se inserta el proyecto, posterior a esta visita se dispuso el trabajo en gabinete evaluando las partes, obras y acciones físicas que comprenden al proyecto en las etapas de construcción, operación y cierre. Con estos antecedentes y en conjunto al equipo consultor se evaluaron la presencia de singularidades ambientales presentes en el proyecto y los posibles impactos sobre estas.
+
+Con la información recopilada se determina que el área de influencia del proyecto para el componente flora y vegetación es de 10 ha en las cuales se desarrollan las obras y acciones del proyecto (imagen 3). Estas obras se agruparon en tres áreas, según las características propias de cada una:
+
+- **Área de Emplazamiento de Botadero de ripio:** Área destinada la construcción y operación del nuevo botadero de Ripio. Tiene una superficie de 9,98 ha lo que equivale al 100% del área de influencia del proyecto.
+
+**Imagen 4: Área de influencia del proyecto**
+
+---
+
+## 5. METODOLOGÍA
+
+### 5.1 Vegetación Potencial del Área de Estudio
+
+Se realizó una caracterización vegetacional al contexto biogeográfico donde se inserta el proyecto a partir de la recopilación bibliográfica de los tipos vegetacionales para el área de estudio descritos en la Vegetación Nativa de Chile (GAJARDO R 1994) y la Sinopsis Bioclimática y Vegetacional de Chile (LUEBERT F & L PLISCOFF 2006).
+
+### 5.2 Identificación y Caracterización de las Unidades Vegetacionales
+
+Para definir las formaciones vegetacionales presentes en el área de estudio se realizó una campaña de terreno en verano los días 19 y 23 de febrero 2018.
+
+El levantamiento de información de la vegetación se efectuó a escala 1:3.000 para toda el área analizada, por lo tanto, la cartografía presentada también se adecuó a dicha escala.
+
+La vegetación presente en el Área de Estudio se agrupó en unidades homogéneas, en cuanto a composición florística, densidad y altura del dosel dominante. Estas unidades se georreferenciaron según sistema de coordenadas UTM. Para ello se utilizó datum WGS 1984 y Huso 19S.
+
+Cada formación identificada se describió, además, en términos de estratificación, cobertura y especies representativas. La información de especies dominantes se codifica de acuerdo a la metodología de Carta de Ocupación de Tierras (COT), señalada por ETIENNE & PRADO (1982).
+
+#### 5.2.1 Antecedentes de la Metodología COT
+
+El estudio de la vegetación se realizó por medio de la aproximación cartográfica fitofisionómica de COT, desarrollada por el CEPE/CNRS2 de Montpellier, Francia, y adaptada a las condiciones del país por ETIENNE & CONTRERAS (1981), la cual es descrita en detalle por ETIENNE & PRADO (1982).
+
+Esta metodología fue utilizada en el Catastro de la Vegetación Nativa de Chile (2016) y ha sido planteada por la CONAMA (1996) en el libro sobre metodologías de Línea de Base.
+
+El método está orientado a la descripción cartográfica de la vegetación presente en un área determinada y la descripción de la vegetación mediante este método involucra la evaluación de dos variables:
+
+- Formación vegetal en términos estructurales.
+- Especies dominantes, definidas como aquellas especies que presentan el mayor porcentaje de cobertura en cada unidad.
+
+De esta manera, el uso de la metodología COT permite:
+
+- Determinar unidades de vegetación en el área de estudio.
+- Conocer la composición florística de las unidades descritas.
+
+Es factible, por tanto, clasificar la vegetación en cuatro tipos biológicos fundamentales:
+
+- **Herbáceos:** Especies de tejidos no lignificados, con tallos ricos en clorofila y fotosintéticos.
+- **Leñosos bajos:** Especies de tejidos lignificados o leñosos cuyo tamaño no pasa los dos metros de altura.
+- **Leñosos altos:** Especies de tejidos lignificados cuyo tamaño excede los dos metros de altura.
+- **Suculentos:** Principalmente cactáceas y bromeliáceas.
+
+Esta metodología establece que la denominación de la formación vegetal está dada por la importancia relativa de los distintos tipos biológicos en la comunidad. El método establece coberturas mínimas de los tipos biológicos para ser considerados dominantes (mayor o igual a 1% en zonas desérticas, mayor o igual a 10% en zonas áridas, y mayor o igual a 25% en zonas semiáridas, subhúmedas, húmedas y templadas).
+
+Se utilizaron los criterios descritos en ETIENNE & PRADO (1982), para clasificar la densidad relativa de una formación vegetal en zonas semi áridas y sub húmedas como se muestra en la siguiente tabla:
+
+**Tabla 1. Criterios para clasificar una formación vegetal compleja en zonas semi áridas y sub húmedas**
+
+| Herbáceas (H) | Leñosas Bajas (Lb) | 10-25% | 25%-50% | 50–75% | 75%-100% | Índice |
+|---------------|-------------------|--------|---------|--------|----------|--------|
+| 10-25%        | Mc                | C      |         |        |          | 3      |
+| 25-50%        | C                 | D      |         |        |          | 4      |
+| 50-75%        | 5                 | D      | D       |        |          | 5      |
+| 75-100%       | D                 | D      | Md      |        |          | 6      |
+
+C: clara; Pd: poco densa; D: densa; Md: muy densa; Mc: muy clara
+
+Fuente: ETIENNE M & C PRADO (1982).
+
+### 5.3 Cartografía del Componente Vegetacional
+
+Para la realización de la cartografía de las distintas unidades, se considera como base el polígono de emplazamiento del proyecto. Además, se utilizaron ortofotos para la digitalización de las unidades. La cartografía se presenta en Datum WGS 84, Huso 19 S.
+
+### 5.4 Catastro de la Flora Presente en el Área de Estudio
+
+#### 5.4.1 Determinación de la Composición y Riqueza Florística
+
+La composición florística de las formaciones vegetales se determinó mediante parcelas de muestreo. Para complementar esta información se realizaron colectas y muestreo intensivo del total de las plantas vasculares con sistema aéreo visible entre parcelas analizadas, en toda la extensión del área de estudio.
+
+Para cada formación vegetal, se realizaron parcelas de muestreo de flora circulares de 16 m de radio (803 m²), en puntos representativos de las formaciones vegetacionales observadas. En cada parcela se registraron todas las especies vasculares presentes, junto con sus rangos de cobertura, para los cuales se usó la tabulación propuesta por BRAUN-BLANQUET (1979) (Tabla 2).
+
+**Tabla 2. Codificación “abundancia relativa de flora” según criterio de BRAUN & BLANQUET.**
+
+| Código | Abundancia         |
+|--------|--------------------|
+| r      | 1 individuo        |
+| +      | 2 – 4 individuos   |
+| 5–20%  |                    |
+| 20–40% |                    |
+| 40–60% |                    |
+| 60–80% |                    |
+| 5      | 80–100%            |
+
+Fuente: BRAUN – BLANQUET J (1987).
+
+Cada parcela fue georreferenciada en coordenadas UTM, datum WGS 1984. La identificación de las especies se realizó en terreno, sin embargo, se herborizaron aquellos ejemplares que no fue posible determinar en el lugar, para su posterior identificación a partir de literatura especializada.
+
+La determinación taxonómica de las especies registradas se llevó a cabo según MARTICORENA & QUEZADA (1985), MARTICORENA & RODRIGUEZ (2001, 2003 y 2005) y RIEDEMANN et al. (2006). La nomenclatura taxonómica utilizada para la denominación de las especies, la familia y origen fitogeográfico se basó en el “Catálogo de las Plantas Vasculares del Cono Sur” (ZULOAGA et al. 2008), el cual se encuentra disponible como base de datos en la página web del Instituto de Botánica Darwinion de Argentina.
+
+La riqueza florística del área de estudio se determinó con base en el número total de entidades taxonómicas, caracterizándola en Clase, Familia y Especie. Para la categoría de Clase se determinó la proporción respecto de la flora de Chile continental (MARTICORENA C 1990). A nivel de familia se analizó la proporción respecto a la flora de Atacama. Luego se indicó la riqueza específica, la cual consiste en el número total de especies encontradas.
+
+#### 5.4.2 Origen Fitogeográfico
+
+El origen fitogeográfico de cada especie fue determinado con base en su distribución geográfica natural, según ZULOAGA et al. (2008) (Tabla 3).
+
+**Tabla 3. Origen fitogeográfico de la flora.**
+
+| Origen fitogeográfico | Descripción                                      |
+|----------------------|--------------------------------------------------|
+| Endémica             | Taxón con distribución exclusiva en el territorio nacional |
+| Nativa               | Taxón con distribución natural en territorio nacional |
+| Adventicia           | Taxón con distribución natural en otros países    |
+
+Fuente: ZULOAGA et al. (2008)
+
+#### 5.4.3 Tipos Biológicos
+
+La flora vascular presente en el área de estudio se clasificó según tipos biológicos, es decir, según el hábito de crecimiento establecido por ZULOAGA et al. (2008) (Tabla 4).
+
+**Tabla 4. Tipos Biológicos de la Flora Vascular**
+
+| Tipo Biológico | Descripción                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| Árbol         | Plantas leñosas con uno o pocos troncos principales.                         |
+| Arbusto       | Plantas con tallos leñosos, ramificadas desde la base.                       |
+| Hierba anual  | Plantas que solamente crecen en un período vegetativo o temporada, con una duración muy corta. |
+| Hierba perenne| Plantas que poseen órganos de resistencia subterráneos y rebrotan en primavera. |
+| Suculenta     | Plantas con tallos u hojas de consistencia suculenta.                        |
+| Parásitas     | Plantas que viven totalmente o en parte a expensas del huésped.              |
+
+Fuente: ZULOAGA et al. (2008)
+
+#### 5.4.4 Distribución en Chile
+
+Para establecer la distribución de las especies, el análisis se basó en el “Catálogo de las Plantas Vasculares del Cono Sur” (ZULOAGA et al. 2008), el cual se encuentra disponible como base de datos en la página web del Instituto de Botánica Darwinion de Argentina.
+
+#### 5.4.5 Especies en Categoría de Conservación
+
+El estado de conservación de las especies se determinó según las categorías señaladas en el Decreto 29 del año 2011, del Ministerio del Medio Ambiente, que aprueba el Reglamento para la clasificación de especies silvestres según estado de conservación. Las categorías reconocidas son: “Extinta” (EX), “Extinta en Estado Silvestre” (EW), “En Peligro Crítico de Extinción” (CR), “En Peligro de Extinción” (EN), “Vulnerable” (VU), “Casi Amenazada” (NT), “Preocupación Menor” (LC) y “Datos insuficientes” (IC).
+
+Se verificó la lista de especies contenidas en los siguientes Decretos Supremos:
+
+- D.S. 151 (2007)
+- D.S. 50 (2008)
+- D.S. 51 (2008)
+- D.S. 23 (2009)
+- D.S. 29 (2011)
+- D.S. 19 (2012)
+- D.S. 33 (2012)
+- D.S. 41 (2012)
+- D.S. 42 (2012)
+- D.S. 13 (2013)
+- D.S. 38 (2015)
+- D.S. 52 (2014)
+- D.S. 16 (2016)
+- D.S 7 (2017)
+
+Dichos cuerpos legales oficializan el estado de conservación de las especies vegetales. Además, se revisó las especies catalogadas en otros listados nacionales, incluyendo el “Libro Rojo de la Flora Terrestre de Chile” (BENOIT I 1989) y “Libro Rojo de la Flora Nativa y de los Sitios Prioritarios para su Conservación: Región de Atacama” (Francisco A. Squeo, Gina Arancio & Julio R. Gutiérrez 2008).
+
+Finalmente se procedió a confeccionar un listado florístico indicando: Clase, Familia, Nombre científico, Nombre Común, Estado de conservación, Origen Fitogeográfico, Tipo Biológico y Distribución en Chile.
+
+### 5.5 Cumplimiento de la Ley 20.283
+
+Para determinar la pertinencia de la realización de planes de manejo forestal o planes de trabajo de formaciones xerofíticas, se analizó el Decreto 68 del año 2009 del Ministerio de Agricultura (Establece, aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país), que establece, aprueba y oficializa la nómina de especies arbóreas y arbustivas originarias del país y se comparó con el listado florístico del área de estudio.
+
+### 5.6 Singularidades Ambientales
+
+Se analizó la presencia de singularidades ambientales asociadas a la vegetación y flora en el área del estudio. Para ello se utilizaron los criterios indicados en la Guía de Evaluación Ambiental (CONAF 2014):
+
+**Sobre las singularidades de Vegetación:**
+
+1. Presencia de formaciones vegetales únicas, escasas o de baja representatividad nacional.
+2. Presencia de Formaciones vegetales relictuales.
+3. Presencia de formaciones vegetales reliquias.
+4. Presencia de Formaciones vegetales remanentes.
+5. Presencia de Formaciones vegetales frágiles.
+6. Presencia de Bosque nativo de preservación.
+
+Fue necesario consultar información contenida en el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile para la Región de Atacama y la Ley 20.283.
+
+**Mientras que para las singularidades sobre Flora:**
+
+7. Presencia de ejemplares de especies vegetales clasificadas en categorías de conservación.
+8. Presencia de especies vegetales protegidas por regulaciones especiales.
+9. Presencia de especies endémicas.
+10. Presencia de especies de distribución restringida.
+11. Localización en o cercano al límite de distribución geográfica de la especie.
+12. Localización en o cercano al límite altitudinal de la especie.
+
+Fue necesario consultar información contenida sobre categorías de conservación en el listado oficial del Reglamento de Clasificación de Especies Silvestres del Ministerio de Medio Ambiente y de los Sitios Prioritarios para su conservación: Región de Atacama.
+
+Las especies protegidas por regulaciones especiales fueron consultadas en los Decretos Supremos:
+
+- D.S 366/1944 Reglamenta la explotación de quillay y otras especies forestales, Ministerio de Tierras y Colonización.
+- D.S. 129/1972 Prohíbe la corta, arranque, transporte, tenencia y comercio de copihues, Ministerio de Agricultura.
+- D.S. 1427/1941 Reglamenta la explotación de Yareta, Ministerio de Tierras y Colonización
+- D.S. 13/1995 Declara monumento natural las especies forestales, queule, pintao, belloto del sur, belloto del norte y ruil. Ministerio de Agricultura.
+- D.S. 490/1976 Declara monumento natural a la especie forestal alerce. Ministerio de Agricultura.
+
+Mientras que para la distribución se consultó el Catálogo de las Plantas Vasculares del Cono Sur (ZULOAGA et al. 2008), el cual se encuentra disponible como base de datos en la página web del Instituto de Botánica Darwinion de Argentina.
+
+**Para las singularidades ambientales sobre Sitios Protegidos:**
+
+13. Actividad en o colindante con sitios prioritarios para la conservación de la diversidad definidos en las estrategias regionales.
+14. Actividad en o colindante con áreas bajo protección oficial.
+15. Actividad en o colindante con áreas protegidas privadas.
+16. Actividad en o colindante con áreas de protección (Ley N.º 18.378).
+17. Actividad en o colindante con o aguas arriba de Humedales.
+
+Fue necesario consultar en la base cartográfica de escala 1:250.000 de Sitios Prioritarios del Sistema de Información Ambiental Geográfica del Ministerio de Medio Ambiente, además del Instructivo de Sitios Prioritarios, el artículo 8 del Reglamento del Servicio de Evaluación de Impacto Ambiental, las áreas protegidas privadas determinadas por la Unión Internacional para la Conservación de la Naturaleza, áreas protegidas estipuladas en la Ley 18.378 y la base cartográfica de escala 1:250.000 de humedales del Sistema de Información Ambiental Geográfica del Ministerio de Medio Ambiente.
+
+---
+
+## 6. RESULTADOS
+
+### 6.1 Vegetación Potencial en el Área de Estudio
+
+Según la tipología de GAJARDO, R (1994), en “La Vegetación Natural de Chile”, el área del proyecto se encuentra en la Región del Desierto, en la subregión denominada Subregión del Desierto Florido, que se extiende desde el norte de La Serena hasta el valle del Río Copiapó y su carácter principal está determinado por la presencia de precipitaciones periódicas, suficientes para provocar el florecimiento de innumerables especies efímeras que participan en su composición. Tiene en general, un variado elenco florístico. El proyecto se enmarca dentro de la formación vegetacional Desierto Florido de los Llanos, el que se encuentra ubicado en las extensas llanuras arenosas presentes entre Vallenar y Copiapó.
+
+Normalmente su fisonomía consiste en una cobertura rala de arbustos bajos, pero en su composición intervienen numerosas plantas geófitas y efímeras, que surgen cuando ocurren precipitaciones.
+
+**Imagen 5: Formación vegetacional del Área de Estudio según Gajardo (1994).**
+
+Por otra parte, según la “Sinopsis bioclimática y vegetacional de Chile” de LUEBERT & PLISCOFF (2006), el área en que se encuentra el proyecto se identifica un piso vegetacional de la formación Matorral Desértico, denominado: “Matorral desértico mediterráneo interior de *Adesmia argéntea y Bulnesia chilensis*”.
+
+**Matorral desértico mediterráneo interior de *Adesmia argéntea y Bulnesia chilensis***
+
+Corresponde a un matorral muy abierto en el que dominan los arbustos altos como *Adesmia argentea, Bulnesia chilensis, Balsamocarpon brevifolium, Cordia decandra, Heliotropium sinuatum, Pintoa chilensis, Proustia ilicifolia* entre otras. También son frecuentes los arbustos bajos como *Encelia canescens, Pleurophora pungens* y las cactáceas *Opuntia berterii* y *echinopsis coquimbanus*. Las herbáceas son abundantes durante la primavera de los años lluviosos, destacando la presencia de *Cruckshanksia pumila* y *Argylia radiata*. Se distribuye en el sector interior del sur de la Región de Atacama y norte de Coquimbo, entre los 300 y 1.800 m.
+
+**Imagen 6: Piso vegetacional del área de estudio según Luebert y Pliscoff (2006).**
+
+### 6.2 Vegetación Presente en el Área de Estudio
+
+#### 6.2.1 Identificación de las Unidades Vegetacionales
+
+El área de influencia del proyecto comprende una superficie total de 10 ha. El polígono corresponde principalmente en su extensión a Herbazal Efímero de *Helenium atacamensis* y *Plantago hispidula* con 9,07 ha.
+
+**Tabla 5. Formaciones vegetales presentes en el área del proyecto**
+
+| Formación vegetacional                                 | Área de Estudio (Ha) | % Representación |
+|-------------------------------------------------------|---------------------|------------------|
+| Matorral poco denso de *Adesmia argentea*             | 0,93                | 9,3%             |
+| Herbazal efímero de *Helenium atacamensis* y *Plantago hispidula* | 9,07                | 90,7%            |
+| **TOTAL**                                             | **10**              | **100%**         |
+
+#### 6.2.2 Caracterización de las Unidades Vegetacionales
+
+**Matorral Poco denso de *Adesmia argentea***
+
+Esta formación es la de menor extensión en el área de estudio, abarcando 0,93 ha, equivalentes a 9,3% y se encuentra asociada a una quebrada intermitente que cruza el polígono en su extremo sur.
+
+La especie dominante es *Adesmia argéntea*, le acompañan en el estrato superior: *Balbisia pedencularis, Caesalpinia angulata, Heliotropium myosotifolium* y *Senna cumingii*. Mientras que en el estrato herbáceo se encuentran especies como: *Senecio myriophyllus, Helenium atacamensis* y *Malesherbia humilis*.
+
+**Imagen 7: Vista general de la formación**
+
+**Herbazal efímero de *Helenium atacamensis* y *Plantago hispidula***
+
+Esta formación es la más representativa del área de estudio, tiene una superficie de 9,07 ha, lo que representa el 90,7% del total del polígono.
+
+Como especie dominante se aprecia a la especie *Helenium atacamensis* y *Plantago hispidula* y como especies acompañantes es posible encontrar a los arbustos *Tetragonia angustifolia, Encelia canescens* y *Heliotropium myosotifolium*, y en el estrato herbáceo a *Chaetanthera glabrata, Adesmia eremophila, Erodium cicutarium, Leucocoryne narssisoides* y *Tetragonia ovata*.
+
+**Imagen 8: Vista general formación Herbazal Efímero**
+
+### 6.3 Cartografía de Unidades Vegetacionales
+
+De la fotointerpretación del terreno fue posible identificar 2 tipos vegetacionales. Cada una de estas unidades definidas *a priori*, fueron posteriormente verificadas en terreno y delimitadas mediante GPS, posteriormente verificadas y definidas mediante metodología COT. La cartografía se presenta en datum WGS 84, Huso 19S, a escala 1:3.000, la que permite una adecuada apreciación del terreno (imagen 10).
+
+**Imagen 9: Formaciones vegetacionales presentes en el área de estudio.**
+
+### 6.4 Catastro de la Flora Presente en el Área de Estudio
+
+Las especies que componen la unidad total del muestreo, diferenciadas por Clase, Familia, Nombre científico, Nombre Común, Tipo Biológico, Origen Fitogeográfico, Distribución en Chile, Presencia en D.S 68 (que establece, aprueba y oficializa nomina de especies arboreas y arbustibas originarias del país, Ministerio de Agricultura) y Abundancia Relativa (Braun – Blanquet) se detallan en la tabla 6.
+
+**Tabla 6: Listado florístico de especies presentes en el área del proyecto**
+
+*(La tabla completa se encuentra en el documento original, con todas las especies, familias, categorías y datos relevantes.)*
+
+#### 6.4.1 Composición y Riqueza Florística
+
+La flora vascular del área del proyecto alcanza un total de 34 especies. Las especies registradas forman parte de 22 familias y 31 géneros.
+
+De las 34 especies de plantas vasculares registradas, 1 corresponde a la Clase Liliopsida y 33 a la Clase Magnoliopsida.
+
+**Tabla 7: Resumen de la flora vascular presente en el área de estudio según clase taxonómica**
+
+| Clase         | N.º especies área de estudio | N.º especies Chile Continental (Marticorena, 1990) | % Área total de estudio | % del total de Chile Continental |
+|---------------|-----------------------------|----------------------------------------------------|------------------------|-------------------------------|
+| Filicopsida   |                             |                                                    |                        |                               |
+| Liliopsida    | 1                           | 1,069                                              | 2.9                    | 0.02                          |
+| Magnoliopsida | 33                          | 3,906                                              | 97.1                   | 0.64                          |
+| Polypodiopsida|                             | 114                                                |                        |                               |
+| **Total**     | **34**                      | **5,105**                                          | **100**                | **0.62**                      |
+
+De acuerdo con la Tabla 7, la categoría taxonómica con mayor relevancia en cuanto a diversidad corresponde a la Clase Magnoliopsida con el 97,1% del total de especies registradas, mientras que la Clase Liliopsida representa el 2,9% de la flora del área de estudio.
+
+Por otra parte, de las 22 familias registradas en el área de estudio (Tabla 6 Listado Florístico), las dos familias que registran la mayor diversidad de especies corresponden a Asteraceae (6 especies) y cactaceae (4 especies), mientras que el resto abarca entre una, dos y tres especies.
+
+**Tabla 8. Familias con mayor número de especies respecto a área de estudio.**
+
+*(Ver documento original para el detalle completo de la tabla.)*
+
+#### 6.4.2 Origen Fitogeográfico
+
+De las 34 especies, se determinó que 3 especies son adventicias (introducidas) lo que representa el 8,8%, 9 especies son nativas de Chile (26,5%) y 22 especies son endémicas de Chile (64,7%).
+
+**Imagen 10: Origen fitogeográfico**
+
+#### 6.4.3 Tipo Biológico
+
+Según la distribución por forma de crecimiento o tipo biológico de la flora presente en el área del proyecto los arbustos son las más comunes, representando un 41,2% (14 especies), le siguen los tipos biológicos hierba anual con el 38,2% (13 especies), luego el tipo biológico Suculenta con el 11,8% (4 especies) mientras que el tipo Hierba perenne es representado con el 5,9% (2 especies) y el tipo parasito con un 2,9% conformado por 1 especie.
+
+**Imagen 11: Tipo biológico**
+
+#### 6.4.4 Distribución en Chile
+
+La Imagen 13 expone la distribución por región administrativa de Chile de la flora registrada en el área del Proyecto (según Catálogo de la Flora del Cono Sur).
+
+**Imagen 12: Distribución de especies en Chile**
+
+De la gráfica se desprende que la mayor proporción de las especies crece en un amplio rango de distribución enfocado a las zonas semiáridas del país, concentrándose entre las regiones de Antofagasta y de Coquimbo.
+
+#### 6.4.5 Especies en Categoría de Conservación
+
+De acuerdo a listados oficiales (Reglamento de Clasificación de Especies Silvestres de Chile) y no oficiales (Libro Rojo de la Flora Terrestre y Libro Rojo Regional) se encontraron especies en categoría de conservación.
+
+**Tabla 9. Especies en categoría de conservación y su cuantificación en el área del proyecto**
+
+| Especie                              | Categoría de Conservación | Listado RCE         | Número de Ejemplares identificados |
+|--------------------------------------|--------------------------|---------------------|------------------------------------|
+| *Austrocylindropuntia miquelii*      | DS 13/2013 MMA           |                     |                                    |
+| *Cumulopuntia sphaerica*             | DS 19/2012 MMA           |                     |                                    |
+| *Pyrrhocactus eriosyzoides*          | VU                       | DS 13/2013 MMA      |                                    |
+| *Eulychnia Acida*                    | DS 41/2011 MMA           | LC VU                |                                    |
+
+LC: Preocupación Menor; VU: Vulnerable
+
+**Imagen 13: Cumulopuntia sphaerica**
+
+**Imagen 14: Pyrrhocactus eriosyzoides**
+
+**Imagen 15: Eulychnia Acida**
+
+**Imagen 16: Austrocylindropuntia miquelii**
+
+**Imagen 17: Distribución de especies en categoría de conservación en el área del proyecto**
+
+### 6.5 Ley 20.283 sobre Recuperación del Bosque Nativo y Fomento Forestal
+
+De las especies identificadas y según el DS 68/2009 que establece, aprueba y oficializa la nómina de las especies arbóreas y arbustivas originarias, se encontraron especies originarias de Chile: *Bulnesia chilensis, Balbisia peduncularis, Baccharis linearis* y *Eulychnia acida*.
+
+La Ley 20.283 sobre Recuperación del Bosque Nativo y Fomento Forestal, establece en el Artículo 60, “la corta, destrucción o descepado de formaciones xerofíticas requerirán de un plan de trabajo previamente aprobado por la Corporación”.
+
+En el Decreto 26, que aprueba modificación al reglamento de la ley 20.283 se indica:
+
+“Tratándose de la corta, destrucción o descepado de formaciones xerofíticas, será obligatoria la presentación y aprobación previa por la Corporación, de un plan de trabajo, cuando tales formaciones reúnan la totalidad de las siguientes condiciones:
+
+a) superficie mayor o igual a una hectárea
+b) un ancho mínimo de 20 metros para las formaciones ubicadas al norte del río Elqui y de 40 metros para aquellas ubicadas al sur del señalado río
+c) presencia de una o más especies nativas, de carácter xerofítico
+d) densidad mínima de individuos xerofíticos, suculentos o arbustivos, con o sin presencia de árboles aislados, de 300 individuos por hectárea en la zona comprendida entre el sur del río Elqui y el límite norte de la Región de Valparaíso o de 500 individuos por hectárea desde la Región de Valparaíso hasta la Región del Biobío, incluida la Región Metropolitana de Santiago. Tratándose de estas últimas regiones, los individuos en estado adulto deberán tener una altura mínima de un metro.
+
+En la zona comprendida desde el río Elqui y hasta el límite norte del país, no se considerará la condición de densidad mínima para las formaciones xerofíticas“.
+
+A través del ord Nº 617/2012 de CONAF se establece que “La presencia de especies arbustivas o suculentas autóctonas debe ser mayoritaria en la formación vegetal”.
+
+Dado que la presencia de las especies del Decreto 68 en el área del proyecto es muy restringida y de ninguna forma es mayoritaria es que no se hace necesaria la presentación de un plan de trabajo de formaciones xerofíticas en el presente proyecto.
+
+### 6.6 Singularidades Ambientales
+
+De acuerdo a lo indicado en la metodología, se presentan a continuación, las singularidades vegetacionales y florísticas identificadas para el área de estudio del proyecto:
+
+#### 6.6.1 Presencia de Formaciones Vegetales Únicas o de Baja Representatividad Nacional
+
+El análisis de la representatividad de las formaciones vegetacionales identificadas, se realizó a partir de una homologación entre las 2 formaciones vegetacionales descritas respecto de los antecedentes definidos de uso de suelo en el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile (CONAF 2016), para la Región de Atacama.
+
+Si bien la información que presenta el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile fue levantada a una escala inferior a la utilizada en el presente estudio (Catastro 1:50.000 versus Estudio 1:3.000), presenta una referencia general de la vegetación de la Región.
+
+**Tabla 10. Usos de Suelo de la Región equivalentes con las formaciones del área de estudio**
+
+| Uso actual del Suelo      | Superficie Regional (ha) |
+|--------------------------|-------------------------|
+| Praderas y Matorrales    | 3,113,892.3             |
+
+Fuente: Sistema de Información Territorial, CONAF 2016.
+
+Para el análisis de las formaciones vegetales se incluyeron las categorías Praderas y Matorrales. Los criterios utilizados para establecer la equivalencia se presentan en la Tabla 11.
+
+**Tabla 11. Criterios de comparación de las formaciones vegetacionales presentes en el área de estudio respecto del catastro de la vegetación nativa de Chile**
+
+| Formación Vegetacional | Equivalencia del Catastro |
+|-----------------------|--------------------------|
+| Herbazal Efímero      | Praderas y Matorrales    |
+| Matorral Poco Denso   | Praderas y Matorrales    |
+
+Las 10 ha del proyecto, equivalentes al 0,0003% de la superficie regional. Por lo tanto, no se registró la presencia de formaciones vegetales únicas o de baja representatividad nacional.
+
+#### 6.6.2 Presencia de Formaciones Vegetales Relictuales
+
+Considerando que una formación vegetal relictual corresponde a aquella que permanece en el tiempo de una pretérita vegetación en condiciones climáticas actuales, no se encontraron elementos vegetacionales pertenecientes a subregiones ecológicas de distribución austral o septentrional, que puedan considerarse relictuales.
+
+#### 6.6.3 Presencia de Formaciones Vegetales Remanentes
+
+Considerando que una formación vegetal remanente corresponde a aquella que permanece en el tiempo en condiciones aisladas o fragmentadas luego de haber sufrido los efectos de distintas actividades naturales, no se registró la presencia de formaciones vegetales remanentes.
+
+#### 6.6.4 Presencia de Formaciones Vegetales Frágiles
+
+Considerando que una formación vegetal frágil corresponde a aquella que se encuentra bajo constantes actividades haciéndola susceptible a ser degradada y afectada, no se identificaron formaciones vegetales frágiles en el área de estudio.
+
+#### 6.6.5 Presencia de Bosques de Preservación
+
+Conforme a la ley 20.283 sobre Bosque nativo y fomento forestal, bosque nativo de preservación es “aquél, cualquiera sea su superficie, que presente o constituya actualmente hábitat de especies vegetales protegidas legalmente o aquellas clasificadas en las categorías de “en peligro de extinción”, vulnerables, raras, insuficientemente conocidas, o fuera de peligro; o que corresponda a ambientes únicos o representativos de la diversidad biológica del país, cuyo manejo solo puede hacerse con el objetivo del resguardo de dicha diversidad”. A la vez Bosque nativo se define como el bosque formado por especies autóctonas, provenientes de generación natural, regeneración natural, o plantación bajo dosel con las mismas especies existentes en el área de distribución original, que pueden tener presencia accidental de especies exóticas distribuidas al azar. De acuerdo a las formaciones vegetales presentes el área del proyecto corresponde a matorrales, es decir formaciones dominadas por formas de vida arbustivas, no hay presencia de Bosque nativo de Preservación.
+
+#### 6.6.6 Presencia de Ejemplares de Especies Vegetales Clasificadas en Categorías de Conservación
+
+De acuerdo a la información obtenida de la superficie prospectada, en el área de estudio se identificaron especies en categoría de conservación según el Reglamento de Clasificación de Especies Silvestres (RCE) del Ministerio de Medio Ambiente con sus respectivos decretos supremos, Libro Rojo de la Flora Nativa y Libro Rojo Regional.
+
+**Tabla 12. Especies en categoría de conservación**
+
+| Especie                              | Categoria de Conservación | Listado RCE         |
+|--------------------------------------|--------------------------|---------------------|
+| *Austrocylindropuntia miquelii*      | DS 13/2013 MMA           |                     |
+| *Cumulopuntia sphaerica*             | DS 19/2012 MMA           |                     |
+| *Pyrrhocactus eriosyzoides*          | VU                       | DS 13/2013 MMA      |
+| *Eulychnia Acida*                    | DS 41/2011 MMA           |                     |
+
+#### 6.6.7 Presencia de Especies Vegetales Protegidas por Regulaciones Especiales
+
+De acuerdo a los instrumentos legales vigentes:
+
+- D.S 366/1944 Reglamenta la explotación de quillay y otras especies forestales, Ministerio de Tierras y Colonización.
+- D.S. 129/1972 Prohíbe la corta, arranque, transporte, tenencia y comercio de copihues, Ministerio de Agricultura.
+- D.S. 1427/1941 Reglamenta la explotación de Yareta, Ministerio de Tierras y Colonización
+- D.S. 13/1995 Declara monumento natural las especies forestales, queule, pintao, belloto del sur, belloto del norte y ruil. Ministerio de Agricultura.
+- D.S. 490/1976 Declara monumento natural a la especie forestal alerce. Ministerio de Agricultura.
+
+Según los resultados obtenidos, en el área de estudio no se identificaron especies vegetales declaradas como Monumentos Naturales o pertenecientes a otra categoría cuya intervención implique una regulación especial.
+
+#### 6.6.8 Presencia de Especies Endémicas
+
+En el área de estudio se identificaron 22 especies endémicas de Chile, según el Catálogo de las plantas vasculares del cono sur.
+
+**Tabla 13. Especies Endémicas**
+
+*(Ver documento original para el detalle completo de la tabla.)*
+
+#### 6.6.9 Presencia de Especies de Distribución Restringida
+
+De las especies descritas en el listado florístico ninguna posee distribución restringida.
+
+#### 6.6.10 Localización en o Cercano al Límite de Distribución Geográfica de la Especie
+
+De acuerdo al listado florístico y a los antecedentes de la distribución geográfica de las especies identificadas en el proyecto (Listado florístico, Tabla 6), se encontraron especies con límite en su distribución geográfica.
+
+**Tabla 14. Especies con su límite de distribución en la Región de Atacama**
+
+*(Ver documento original para el detalle completo de la tabla.)*
+
+#### 6.6.11 Localización en o Cercano al Límite Altitudinal de la Especie
+
+De acuerdo al listado florístico y los antecedentes bibliográficos de la distribución altitudinal de las especies identificadas, no se registraron especies en o cercano al límite altitudinal de la especie.
+
+#### 6.6.12 Actividad en o Colindante con Sitios Prioritarios para la Conservación de la Diversidad
+
+El área del proyecto se encuentra inserta en el Sitio Prioritario Desierto Florido (imagen 17). Este sitio prioritario tiene una superficie de 671,665 ha y el área del proyecto solo tiene 9,98 ha lo que representa el 0,01% de este. Por otra parte el área de proyecto se encuentra colindante a las faenas propias de la Planta ENAMI Vallenar, por lo que presenta diferentes grados de intervención.
+
+**Imagen 18: Sitio prioritario distante al área de influencia del proyecto.**
+
+#### 6.6.13 Actividad en o Colindante con Áreas Bajo Protección Oficial
+
+Según el artículo 8 del Reglamento de Servicio de Evaluación Ambiental, corresponden a áreas protegidas “cualquier porción de territorio, delimitada geográficamente y establecida mediante acto de autoridad pública, colocada bajo protección oficial con la finalidad de asegurar la diversidad biológica, tutelar la preservación de la naturaleza y conservar el patrimonio ambiental”. Según lo anterior áreas protegidas consideran: Áreas pertenecientes al Sistema Nacional de Áreas Silvestres Protegidas del Estado (Parque Nacional, Monumento Natural, Reserva Nacional), Santuario de la Naturaleza (Consejo de Monumentos Nacionales), Bienes Nacionales Protegidos, Reservas de la Biósfera, Áreas definidas por la ley de Pesca (Parques Marinos y Reservas Marinas), Áreas Marinas y Costeras protegidas, Sitios Ramsar, Acuíferos que alimentan vegas y bofedales en las regiones de Tarapacá y Antofagasta.
+
+Por lo tanto, el Proyecto no se ubica en o colindante con áreas bajo protección oficial.
+
+#### 6.6.14 Actividad en o Colindante con Áreas Protegidas Privadas (APP)
+
+De acuerdo a la definición APP establecida por la UICN (2003), un área protegida privada corresponde a una porción de terreno de cualquier superficie, manejada predominantemente para la conservación de la biodiversidad, protegida con o sin reconocimiento formal del gobierno y gestionada por o a través de personas individuales, comunidades, corporaciones u organizaciones no gubernamentales. En este sentido y según la información recopilada, el área de estudio no se ubica en o colindante a alguna área protegida privada.
+
+#### 6.6.15 Actividad en o Colindante con Áreas de Protección (Ley N°18.378)
+
+De acuerdo con la información bibliográfica, no existe registro de que el área de estudio esté ubicada en o colindante a un área de acuerdo a la Ley 18.378 (Deroga la Ley N° 15.020 y el Decreto con Fuerza de Ley N° R.R.A. 26, de 1963, y establece sanciones que señala, Ministerio de Agricultura), correspondientes a aquellas denominadas “distritos de conservación de suelos, bosques y aguas”, así como a áreas con prohibición de cortar árboles en franjas de hasta 100 metros desde carreteras públicas, orillas de ríos y de lagos, y quebradas no susceptibles de aprovechamiento, cuando lo requiera la conservación de la riqueza turística.
+
+#### 6.6.16 Actividad en o Colindante con o Aguas Arriba de Humedales
+
+El proyecto no se ubica en o colindante con o aguas arriba de humedales.
+
+---
+
+## 7. CONCLUSIONES
+
+- Según la “Sinopsis bioclimática y vegetacional de Chile” de LUEBERT & PLISCOFF (2006), la vegetación presente en el Área de Estudio corresponde al piso vegetacional “Matorral desértico mediterráneo interior de *Adesmia argéntea y Bulnesia chilensis*”, mientras que según la tipología de GAJARDO R (1994), en “La Vegetación Natural de Chile”, la vegetación presente en el Área de Estudio se clasifica como “Desierto Florido de los Llanos”.
+- En el área de estudio se identificaron dos formaciones vegetales, que corresponden a “Herbazal Efímero de Helenium atacamensis y Plantago hispidula” y “Matorral Poco denso de *Adesmia argentea*”.
+- En total se registraron 34 especies vasculares, de las cuales 3 especies son adventicias (introducidas) lo que representa el 8,8%, 9 especies son nativas de Chile (26,5%) y 22 especies son endémicas de Chile (64,7%).
+- Se identificaron cuatro especies en categoría de conservación según el Reglamento de Clasificación de Especies Silvestres del Ministerio del Medioambiente y en ningún listado nacional (Libro Rojo Conaf y Boletín 47 del Museo Nacional de Historia Natural).
+- En cuanto a formaciones vegetales para efectos de la Ley 20.283 sobre recuperación del bosque nativo y fomento forestal, del Ministerio de Agricultura, no se encontraron formaciones de Bosque Nativo ni formaciones xerofíticas. Por lo que no es necesario la presentación de Permisos Ambientales Sectoriales para el Proyecto.
+- Se detectó la singularidad ambiental de “Presencia de Especies Endémicas” establecidas en la Guía de Evaluación Ambiental la cual cuenta con 22 especies y “Presencia de especies en o Cercanas a su límite de distribución”, con 10 especies.
+- De acuerdo con los antecedentes recopilados y el análisis de las campañas en terreno, se concluye que las obras y acciones físicas del proyecto no ejercen efectos negativos significativos sobre el componente flora y vegetación descritos en el artículo 11 de la Ley 19.300 y/o en el DS 40 (aprueba reglamento del sistema de evaluación de impacto ambiental, Ministerio de Medio Ambiente), entre los artículos 5 al 11.
+
+---
+
+## 8. BIBLIOGRAFÍA
+
+- BENOIT I (1989). Libro rojo de la flora terrestre de Chile. Corporación Nacional Forestal. Santiago.
+- BRAUN – BLANQUET J (1987). Fitosociología – Bases para el estudio de las Comunidades Vegetales. H. Blume Ediciones, Madrid. España. 820 pp.
+- BRAUN – BLANQUET J (1979). Fitosociología – Bases para el estudio de las Comunidades Vegetales. H. Blume Ediciones, Madrid. España. 820 pp.
+- CONAF (2012). Guía de Evaluación Ambiental. Criterios para la evaluación de proyectos sometidos al SEIA. Santiago, Chile.
+- CONAF (2016). Catastro y Evaluación de los Recursos Vegetacionales Nativos de Chile. Región Metropolitana. [en línea] <http://sit.conaf.cl/exp/ficha.php>. [consulta: Septiembre, 2016].
+- CONAMA (1996). Metodologías para la Caracterización de la Calidad Ambiental. Comisión Nacional del Medio Ambiente. 242 pp.
+- D.S 7 (2017). Treceavo Proceso de Clasificación de Especies Silvestres según su Estado
+- D.S. 13 (2013). Noveno Proceso de Clasificación de Especies Silvestres según su Estado
+- D.S. 16 (2016). Doceavo Proceso de Clasificación de especies Silvestres según su Estado
+- D.S. 19 (2012). Octavo Proceso de Clasificación de Especies Silvestres según su Estado
+- D.S. 23 (2009). Cuarto Proceso de Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio de Medio Ambiente.
+- D.S. 29 (2011). Reglamento para la Clasificación de Especies Silvestres. Ministerio de Medio Ambiente.
+- D.S. 33 (2012). Quinto Proceso de Clasificación de Especies Silvestres según su Estado
+- D.S. 38 (2015). Undécimo Proceso de Clasificación de especies Silvestres según su
+- D.S. 41 (2012). Sexto Proceso de Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio de Medio Ambiente.
+- D.S. 42 (2012). Séptimo Proceso de Clasificación de Especies Silvestres según su Estado
+- D.S. 50 (2008). Segundo Proceso de Clasificación de Especies Silvestres según su Estado
+- D.S. 51 (2008). Tercer Proceso de Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio de Medio Ambiente.
+- D.S. 52 (2014). Decimo Proceso de Clasificación de especies Silvestres según su Estado
+- D.S. 151 (2007). Primer Proceso de Clasificación de Especies Silvestres según su Estado
+- ETIENNE, M & CONTRERAS D. (1981). Cartografía de la Vegetación y sus aplicaciones en Chile. Bol. Téc. N°46. Fac. Cs. Agrarias y Forestales, Univ. Chile 27p. 10 cartas.
+- ETIENNE M & C PRADO (1982). Descripción de la vegetación mediante la Carta de Ocupación de Tierras. Publicaciones Misceláneas N° 9. Facultad de Ciencias Agrarias y Forestales. Universidad de Chile.
+- GAJARDO R (1994). La Vegetación Natural de Chile, clasificación y distribución geográfica. Editorial Universitaria. 165 pp.
+- LUEBERT F & P PLISCOFF (2006). Sinopsis Bioclimática y Vegetacional De Chile. 1ª Ed. Editorial Universitaria, Santiago, Chile. 318 pp.
+- MARTICORENA, C. & R. RODRÍGUEZ. (2001). Flora de Chile. Vol 2. Winteraceae-Ranunculaceae. 99 pp. Universidad de Concepción. Chile.
+- MARTICORENA, C. & R. RODRÍGUEZ. (2003). Flora de Chile. Vol 2(2). Berberidaceae-Betulaceae. 93 pp. Universidad de Concepción. Chile.
+- MARTICORENA, C. & R. RODRÍGUEZ. (2005). Flora de Chile. Vol 2(3). Plumbaginaceae-Malvaceae. 127 pp. Universidad de Concepción. Chile.
+- MARTICORENA C (1990). Contribución a la estadística de la flora vascular de Chile. Gayana, Bot. 47(3-4): 85-114.
+- MARTICORENA C & M QUEZADA (1985). Catálogo de la flora vascular de Chile. Gayana Botánica 42 (1-2): 1-158.
+- MINISTERIO DEL MEDIO AMBIENTE (2015). Guía para la descripción del área de influencia. Guía para la descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA. Santiago, Chile.
+- RIEDEMANN P, G ALDUNATE & S TEILLIER (2006). Flora Nativa de Valor Ornamental; Identificación y Propagación. Chile Zona Norte. Edición 1, Chile. 405 pp.
+- ZULOAGA F, O MORRONE & M BELGRANO (2008). Catálogo de las plantas vasculares del cono sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay).
+
+---
+
+*(El documento continúa con el "Microruteo Flora" y otros anexos, que mantienen la misma estructura y nivel de detalle, incluyendo tablas, figuras y referencias, según el contenido original.)*

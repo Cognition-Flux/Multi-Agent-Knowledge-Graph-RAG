@@ -1,0 +1,3673 @@
+
+*Declaración de Impacto Ambiental (DIA)* 
+
+*Línea 2x110 kV a Subestación Mayaca* 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ANEXO XXXIII \- CARACTERIZACIÓN DE VEGETACIÓN Y 
+
+FLORA VASCULAR TERRESTRE 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2016 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2016 
+
+ 
+
+ 
+
+**ÍNDICE DE CONTENIDOS** 
+
+**1****INTRODUCCIÓN ............................................................................................................................ 5** 
+
+**2 OBJETIVOS .................................................................................................................................... 5** 
+
+**3 MATERIAL Y MÉTODO ................................................................................................................... 5** 
+
+**3\.1****ÁREA****DE****ESTUDIO ....................................................................................................................... 5** 
+
+**F****UENTE****:****E****LABORACIÓN PROPIA** **............................................................................................................... 6** 
+
+**3\.2****ÁREA****DE****INFLUENCIA .................................................................................................................. 6** 
+
+**3\.3****VEGETACIÓN .............................................................................................................................. 8** 
+
+3\.3\.1 CARACTERIZACIÓN DE LA VEGETACIÓN ........................................................................................................ 8 
+
+3\.3\.1\.1 Etapa I: Recopilación y Revisión de Información ............................................................................. 8 
+
+3\.3\.1\.2 Etapa II: Segmentación de imágenes satelitales y clasificación preliminar de la vegetación .......... 8 
+
+3\.3\.1\.3Etapa III: Diseño Muestral ................................................................................................................ 9 
+
+3\.3\.1\.4\.Etapa IV: Descripción de Terreno .................................................................................................... 9 
+
+3\.3\.1\.5 
+
+Etapa V: Tratamiento de datos y clasificación de la vegetación ............................................... 11 
+
+3\.3\.1\.6 Etapa VI: Determinación de Grado de Artificialización del área de influencia .............................. 11 
+
+3\.3\.2 ESCALA DE TRABAJO .............................................................................................................................. 11 
+
+3\.3\.3 MÉTODOS PARA REGISTRAR LA INFORMACIÓN ........................................................................................... 12 
+
+**3\.4****FLORA****VASCULAR ..................................................................................................................... 12** 
+
+3\.4\.1 IDENTIFICACIÓN DE LA FLORA .................................................................................................................. 12 
+
+3\.4\.2 CARACTERIZACIÓN DE LA FLORA .............................................................................................................. 12 
+
+3\.4\.2\.1 Riqueza florística ........................................................................................................................... 12 
+
+3\.4\.2\.2 Origen de la flora ........................................................................................................................... 13 
+
+3\.4\.2\.3 Hábito de crecimiento ................................................................................................................... 13 
+
+3\.4\.2\.4 Especies arbóreas y arbustivas originarias del país ....................................................................... 13 
+
+3\.4\.2\.5 Estado de conservación ................................................................................................................. 13 
+
+3\.4\.2\.6 MÉTODO PARA REGISTRAR LA INFORMACIÓN.......................................................................................... 14 
+
+**3\.5****FORMACIONES****VEGETALES****LEGALMENTE****REGULADAS****POR****LA****LEY****20\.283 .................................. 14** 
+
+3\.5\.1 BOSQUE NATIVO .................................................................................................................................. 14 
+
+3\.5\.2 BOSQUE NATIVO DE PRESERVACIÓN ........................................................................................................ 15 
+
+3\.5\.3 FORMACIÓN XEROFÍTICA ........................................................................................................................ 15 
+
+**4 RESULTADOS .............................................................................................................................. 16** 
+
+**4\.1****MARCO****BIOGEOGRÁFICO ......................................................................................................... 16** 
+
+**4\.2****VEGETACIÓN ............................................................................................................................ 18** 
+
+4\.2\.1 FORMACIONES VEGETACIONALES ............................................................................................................. 19 
+
+4\.2\.1\.1 Bosque de *Acacia caven* con matorral de *Sophora macrocarpa* y *Trevoa trinervis* ...................... 21 
+
+4\.2\.1\.2 Bosque de *Maytenus boaria* con matorral *Rubus ulmifolius* ........................................................ 23 
+
+4\.2\.1\.3 Bosque de *Maytenus boaria* y matorral de *Sophora macrocarpa* ................................................ 24 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4\.2\.1\.4 Bosque de *Shinus latifolius* con matorral de *Bacharis linearis* ...................................................... 25 
+
+4\.2\.1\.5 Pradera de *Brassica rapa* y *Sonchus oleraceus* .............................................................................. 26 
+
+4\.2\.1\.6 Zona Agrícola ................................................................................................................................. 27 
+
+**4\.3****FLORA****VASCULAR ..................................................................................................................... 29** 
+
+4\.3\.1 CLASIFICACIÓN TAXONÓMICA Y RIQUEZA FLORÍSTICA ................................................................................... 32 
+
+4\.3\.2 ORIGEN FITOGEOGRÁFICO ...................................................................................................................... 32 
+
+4\.3\.4 HÁBITO DE CRECIMIENTO ....................................................................................................................... 33 
+
+**4\.4****E****STADOS DE CONSERVACIÓN DE ESPECIES FLORA** **.................................................................................. 34** 
+
+**5 CONCLUSIONES ........................................................................................................................... 35** 
+
+**6 BIBLIOGRAFÍA ............................................................................................................................. 36** 
+
+**ANEXOS ......................................................................................................................................... 39** 
+
+**ÍNDICE DE FIGURAS** 
+
+Figura 1: Área de estudio ...................................................................................................................................... 6 
+
+Figura 2: Área de influencia ................................................................................................................................... 7 
+
+Figura 3: Catastro de Bosque Nativo ................................................................................................................... 17 
+
+Figura 4: Grado de artifialización ........................................................................................................................ 18 
+
+Figura 5: Bosque de *Acacia caven* con matorral de *Sophora macrocarpa* y *Trevoa trinervis* .............................. 22 
+
+Figura 6: Bosque de Acacia caven con matorral de Sophora macrocarpa y Trevoa trinervis .............................. 23 
+
+Figura 7: Bosque de Maytenus Boaria con matorral Rubus ulmifolius ................................................................ 24 
+
+Figura 8: Bosque de Maytenus boaria y matorral de Sophora macrocarpa ........................................................ 25 
+
+Figura 9: Bosque de Shinus latifolius con matorral de Bacharis linearis .............................................................. 26 
+
+Figura 10: Pradera de Brassica rapa y Sonchus oleraceus ................................................................................... 27 
+
+Figura 11: Zona Agrícola ...................................................................................................................................... 28 
+
+Figura 12: Zona Agrícola ...................................................................................................................................... 28 
+
+ 
+
+**INDICE DE TABLAS** 
+
+Tabla 1: Códigos de altura para tipos biológicos según metodología COT .......................................................... 10 
+
+Tabla 2: Categoría de coberturas ........................................................................................................................ 11 
+
+Tabla 3: Formaciones vegetacionales .................................................................................................................. 20 
+
+Tabla 4: Tipología de bosques nativos (Ley N° 20\.283\) ....................................................................................... 29 
+
+Tabla 5: Especies de flora presentes en el área de estudio ................................................................................. 30 
+
+Tabla 6: Clasificación taxonómica y riqueza florística .......................................................................................... 32 
+
+Tabla 7: Origen fitogeográfico ............................................................................................................................. 32 
+
+Tabla 8: Hábito de crecimiento ........................................................................................................................... 33 
+
+Tabla 9: Estados de conservación de especies flora ............................................................................................ 34 
+
+ 
+
+**INDICE DE GRÁFICOS** 
+
+Gráfico 1 Superficies por grado de artifialización ............................................................................................ 11 
+
+Gráfico 2 Formacionesvegetacionales…………………………………………………………………………………………………..........21 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 INTRODUCCIÓN 
+
+ 
+
+En el siguiente documento se expone una descripción de la vegetación y flora vascular presente en el área de 
+
+influencia determinada para la Declaración de Impacto Ambiental (DIA) del Proyecto Línea 2x110 kV a 
+
+Subestación Mayaca, en adelante “el Proyecto”. Esta caracterización se obtiene mediante una completa 
+
+revisión bibliográfica más un trabajo de campo. El trabajo de gabinete, la obtención de datos de terreno y su 
+
+posterior análisis, y la preparación del informe de línea base fueron desarrollados por el equipo de trabajo 
+
+de TIMAUKEL LTDA. 
+
+ 
+
+ 2 OBJETIVOS 
+
+ 
+
+El objetivo general de este estudio es realizar una caracterización de la vegetación y flora vascular terrestre 
+
+presente en el área del Proyecto, en términos de su identificación, distribución y abundancia, con énfasis en 
+
+aquellas especies clasificadas en alguna categoría de conservación. 
+
+Para esto, se plantearon los siguientes objetivos específicos. 
+
+Identificar las formaciones vegetacionales presentes en el área de influencia y su distribución; 
+
+Caracterizar la flora terrestre presentes en el área de influencia; 
+
+Determinar la riqueza florística en el área de influencia; 
+
+Describir la flora respecto a su origen fitogeográfico y tipo biológico de las especies presentes en el 
+
+área de influencia; y 
+
+Establecer la presencia de flora vascular en algún estado de conservación. 
+
+3 MATERIAL Y MÉTODO 
+
+ 
+
+ 
+
+**3\.1 ÁREA DE ESTUDIO** 
+
+ 
+
+El área de estudio se localiza administrativamente en la Región y Provincia de Quillota, en las Comunas de 
+
+Quillota y La Cruz (Figura 1\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURA 1: ÁREA DE ESTUDIO 
+
+ 
+
+ 
+
+**3\.2 ÁREA DE INFLUENCIA** 
+
+ 
+
+El área de influencia (AI) fue delimitada utilizando como criterio, el efecto que tendrán las obras y acciones 
+
+del proyecto, las que contemplan levantamiento de torres, tendido de conductores, caminos de acceso, 
+
+botadero, Subestación Mayaca y Punto de Conexión Tap. Dentro de esta superficie deben quedar insertos 
+
+todos los efectos de estas obras. 
+
+Para esta componente se determinó un AI que comprende hasta 150 m a cada lado del eje. Esta extensión 
+
+está determinada por los límites naturales de las unidades vegetacionales identificadas mediante 
+
+interpretación de imágenes satelitales. Lo anterior, se basa en lo expuesto en la “Guía de Evaluación 
+
+Ambiental: Criterios para la evaluación de proyectos sometidos al SEIA” (CONAF, 2014\), y en la Guía para la 
+
+descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEA (SEA, 2015\), en 
+
+donde se indica que el área de influencia, debe tener una extensión suficiente, que permita evaluar los 
+
+impactos potenciales generados a partir de la ejecución del proyecto o actividad. En este sentido, esta debe 
+
+contener todo el ecosistema afectado incluyendo el espacio geográfico en el cual se insertan las partes, las 
+
+obras y/o acciones del proyecto, ya que posibilita identificar si existen otros impactos asociados.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+En ese contexto, el Área de Influencia para el componente flora y vegetación está inserta en la comuna de 
+
+Quillota y La Cruz y abarca una superficie de 177,7 ha (Figura 2\) incluyendo, según su grado de 
+
+artificialización, sectores de arboricultura de riego, bosque artificial y nativo, hortalizas, pradera, zonas 
+
+industriales, redes viales, acueductos y zonas periurbanas. 
+
+En el anexo 1 se puede observar el mapa más extendido del AI. 
+
+  
+
+Figura 2: Área de influencia (AI) 
+
+ 
+
+Fuente: Elaboración Propia 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 
+
+ 
+
+ 
+
+**3\.3 VEGETACIÓN** 
+
+ 
+
+ 
+
+La metodología para describir y representar la vegetación se basó en la Carta de Ocupación de Tierras 
+
+(Godron *et al*., 1968 ; Long, 1974 ; Etienne y Prado, 1982\), la cual ha sido incluida en el libro sobre 
+
+metodologías de Línea Base (CONAMA, 1996\) y en la Guía Metodológica para el levantamiento de Líneas 
+
+Base de Suelos, Vegetación, Flora y Fauna por el Servicio de Evaluación Ambiental (SEA, 2015\) que 
+
+corresponde a la metodología oficial utilizada en el Catastro de la Vegetación Nativa de Chile en el Proyecto 
+
+CONAMA/CONAF/BIRF (Cruz *et al*., 1995\). La importancia de utilizar la misma metodología del Catastro de la 
+
+Vegetación Nativa tiene la ventaja de ser una metodología conocida y aceptada por CONAF y SEA para 
+
+describir la vegetación y, por otra parte, permite comparar las formaciones vegetales descritas en el AI 
+
+respecto de las formaciones vegetales descritas para Chile y, de esta manera, analizar la singularidad de la 
+
+vegetación presente. 
+
+ 
+
+ 
+
+3\.3\.1 Caracterización de la vegetación 
+
+ 
+
+La caracterización de la vegetación se desarrolló en 6 etapas: 1\) Recopilación y revisión de información; 2\) 
+
+Segmentación de imágenes satelitales y clasificación preliminar de la vegetación; 3\) Diseño muestral; 4\) 
+
+Descripción de terreno; 5\) Tratamiento de datos y clasificación de la vegetación; y 6\) Determinación del 
+
+grado de artifialización del área de influencia. Las tres primeras etapas se ejecutaron en gabinete, de forma 
+
+previa a las campañas de terreno, realizadas los días 13 y 14 de octubre. A continuación se presenta una 
+
+descripción de cada una de estas etapas. 
+
+ 
+
+3\.3\.1\.1 Etapa I: Recopilación y Revisión de Información 
+
+Esta primera parte se realizó de forma previa al trabajo en terreno y consistió en una recopilación de 
+
+material cartográfico y bibliográfico disponible. Durante esta etapa se recopiló y analizó la siguiente 
+
+información: 
+
+ 
+
+Cartografía del Uso de Suelo generada por el Catastro de la Vegetación Nativa de Chile. Se revisó la 
+
+información digital correspondiente al Catastro de la Vegetación Nativa de Chile, realizada para la V 
+
+Región, a escala 1:50\.000 (CONAF\-CONAMA\-BIRF 1997\). 
+
+Clasificación de la Vegetación Natural de Chile. Regiones V (Gajardo, 1983, 1994\). 
+
+Base de datos digital de la vegetación potencial de Chile desarrollada por Luebert y Pliscoff (2006\), V 
+
+Región. 
+
+ 
+
+3\.3\.1\.2 Etapa II: Segmentación de imágenes satelitales y clasificación preliminar de la vegetación 
+
+ 
+
+Con la información cartográfica obtenida en la etapa anterior, se identificaron las formaciones vegetacionales 
+
+homogéneas presentes en el área de estudio. Los patrones de vegetación se presentan asociados a aspectos 
+
+tales como grano, color y textura apreciables en fotografías aéreas o imágenes satelitales y que se asocian a 
+
+distintas formaciones vegetales y/o especies dominantes. 
+
+ 
+
+La segmentación se efectuó sobre una ortofoto a una escala de trabajo de 1:5\.000\. Como resultado de esta 
+
+etapa se obtuvo una cobertura digital de polígonos clasificados preliminarmente como formaciones 
+
+vegetales, lo cual corresponde a una descripción estructural de la vegetación (ej. bosque, matorral, pradera). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+9 
+
+ 
+
+3\.3\.1\.3 Etapa III: Diseño Muestral 
+
+ 
+
+Se diseñó un muestreo aleatorio estratificado sobre la base de las formaciones vegetales identificadas 
+
+previamente. En función de las condiciones de acceso al AI se visitó en terreno una muestra representativa 
+
+de cada una de las formaciones vegetales presentes. Se describió un número variable de unidades según la 
+
+superficie relativa que presentaba cada formación en el AI, propendiendo a obtener un muestreo 
+
+representativo del AI a objeto de contar con información suficiente para caracterizar todas las unidades 
+
+cartográficas identificadas en la etapa anterior. 
+
+ 
+
+3\.3\.1\.4\. Etapa IV: Descripción de Terreno 
+
+ 
+
+Para la descripción de la vegetación, por temas logísticos, se realizaron 2 jornadas de trabajo en terreno, 
+
+durante la primavera, los días 13 y 14 de Octubre de 2016, entre las 9:00 y 17::00 horas, donde el acceso a 
+
+los lugares de muestreo se realizó en forma terrestre. La fecha de trabajo en terreno se programo cuando se 
+
+encontraba disponible la definición de los alcances territoriales del proyecto, fecha que además coincidió con 
+
+el estado fenológico de floración de la mayoría de las especies, lo que facilitó su reconocimiento. 
+
+ 
+
+Considerando que la formación vegetal (tipo de vegetación) no está determinada por la flora que la 
+
+constituye sino que por las características de las especies dominantes, se clasificó la vegetación en cuatro 
+
+tipos biológicos fundamentales: 
+
+\- Herbáceos: son aquellas especies cuyos tejidos no están lignificados (no son leñosos), con tallos 
+
+ricos en clorofila y fotosintéticos (hierbas). 
+
+\- Leñosos Bajos (arbustivos): son aquellas especies de tejidos lignificados o leñosos cuyo tamaño no 
+
+pasa los dos metros de altura. 
+
+\- Leñosos Altos (arbóreos): son aquellas especies de tejidos lignificados o leñosos cuyo tamaño 
+
+excede los dos metros de altura. 
+
+\- Suculentos (cactus y chaguales): bajo esta denominación se agrupan principalmente las cactáceas y 
+
+bromeliáceas, especies que presentan una fisiología muy particular, sobre todo respecto a la fijación 
+
+del anhídrido carbónico. 
+
+La estratificación representa a la disposición vertical de la vegetación, es decir, constituye un perfil o corte 
+
+vertical en la comunidad, permitiendo distinguir y clasificar los diversos niveles de altura en los cuales se 
+
+sitúan los tipos biológicos. Para cada unidad cartográfica se describió la altura o estratificación establecida 
+
+para cada tipo biológico (Tabla 1\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+10 
+
+ 
+
+ 
+
+Tabla 1: Códigos de altura para tipos biológicos según metodología COT 
+
+Leñoso Alto (LA) 
+
+Leñoso Bajo (LB) 
+
+Código 
+
+Altura 
+
+Estrata 
+
+Código 
+
+Altura 
+
+Estrata 
+
+LA1 
+
+\< 2 m 
+
+Extremadamente 
+
+baja 
+
+LB1 
+
+\< 5 cm 
+
+Extremadamente 
+
+baja 
+
+LA2 
+
+2 \- 4 m 
+
+Muy baja 
+
+LB2 
+
+5 \- 25 cm 
+
+Muy baja 
+
+LA3 
+
+4 \- 8 m 
+
+Baja 
+
+LB3 
+
+25 \- 50 cm 
+
+Baja 
+
+LA4 
+
+8 \- 16 m 
+
+Media 
+
+LB4 
+
+50 \- 100 cm 
+
+Media 
+
+LA5 
+
+16 \- 32 m 
+
+Alta 
+
+LB5 
+
+100 \-200 cm 
+
+Alta 
+
+LA6 
+
+\> 32 m 
+
+Muy alta 
+
+LB6 
+
+\> 200 cm 
+
+Muy alta 
+
+Herbáceo (H) 
+
+Suculento (S) 
+
+Código 
+
+Altura 
+
+Estrata 
+
+Código 
+
+Altura 
+
+Estrata 
+
+H1 
+
+\< 5 cm 
+
+Extremadamente 
+
+baja 
+
+S1 
+
+\< 5 cm 
+
+Extremadamente 
+
+baja 
+
+H2 
+
+5 \- 25 cm 
+
+Muy baja 
+
+S2 
+
+5 \- 25 cm 
+
+Muy baja 
+
+H3 
+
+25 \- 50 cm 
+
+Baja 
+
+S3 
+
+25 \- 50 cm 
+
+Baja 
+
+H4 
+
+50 \- 100 cm 
+
+Media 
+
+S4 
+
+50 \- 100 cm 
+
+Media 
+
+H5 
+
+100 \-200 cm 
+
+Alta 
+
+S5 
+
+100 \-200 cm 
+
+Alta 
+
+H6 
+
+\> 200 cm 
+
+Muy alta 
+
+S6 
+
+\> 200 cm 
+
+Muy alta 
+
+Fuente: Etienne y Prado (1982\). Elaboración propia, 2016\. 
+
+ 
+
+El concepto de cobertura vegetal o cubrimiento se refiere a la proporción del terreno que es ocupada por la 
+
+vegetación o por su proyección vertical. Este criterio da una idea de la abundancia de los diferentes tipos 
+
+biológicos y se expresa en porcentaje global o por estrata. Para cada uno de los tipos biológicos se 
+
+determinaron los siguientes rangos de cubrimiento establecidos (Ver Tabla 2\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+11 
+
+ 
+
+TABLA 2: CATEGORÍA DE COBERTURAS 
+
+Coberturas 
+
+Densidad 
+
+Índice 
+
+1 – 5% 
+
+Muy escaso 
+
+5 – 10% 
+
+Escaso 
+
+10 – 25% 
+
+Muy Claro 
+
+25 – 50% 
+
+Claro 
+
+50 – 75% 
+
+Poco denso 
+
+75 – 90% 
+
+Denso 
+
+90 – 100 % 
+
+Muy denso 
+
+Fuente: Etienne y Prado (1982\). Elaboración propia, 2016\. 
+
+ 
+
+Las especies dominantes corresponden a aquellas plantas cuyas características morfológicas marcan 
+
+fisonómicamente la vegetación, determinándose en base a los tipos biológicos de mayor representatividad 
+
+en cada formación vegetal. 
+
+3\.3\.1\.5Etapa V: Tratamiento de datos y clasificación de la vegetación 
+
+ 
+
+Esta etapa permitió sintetizar la información de tipos biológicos, cobertura y altura que caracterizan cada 
+
+unidad vegetacional descrita y asignarle un nombre según el sistema de clasificación empleado. 
+
+ 
+
+3\.3\.1\.6 Etapa VI: Determinación de Grado de Artificialización del área de influencia 
+
+ 
+
+ 
+
+Este trabajo consistió en asignar a cada polígono descrito en terreno la descripción del tipo vegetacional 
+
+correspondiente y la generalización consistió en atributar cada polígono no descrito en terreno la descripción 
+
+del tipo vegetacional correspondiente al patrón de textura, tonalidad y estructura que lo caracteriza según la 
+
+segmentación de la imagen (Etapa II). 
+
+ 
+
+Todas las unidades cartográficas generadas mediante descripción de terreno o generalización fueron 
+
+revisadas y ocasionalmente corregidas según la escala de trabajo adoptada y criterios de similitud de tonos y 
+
+texturas. Para ello se utilizaron herramientas de Sistemas de Información Geográfica (ARCGIS 9\.2\), las cuales 
+
+permitieron generar una capa digital que representa los diferentes tipos vegetacionales identificados. 
+
+ 
+
+El resultado de esta etapa fue un mapa de Formaciones Vegetacionales que indica, para cada polígono, el o 
+
+los Tipos Biológicos dominantes según su Cobertura y las Especies Dominantes. 
+
+ 
+
+ 
+
+3\.3\.2 Escala de trabajo 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+12 
+
+ 
+
+El levantamiento de la vegetación se efectuó a escala 1:5\.000, a objeto de establecer una superficie mínima 
+
+cartografiable de al menos 0,5 ha. Especial atención se tuvo en áreas con presencia de bosque nativo, ya que 
+
+de acuerdo a lo establecido en el artículo 2do de la Ley N° 20\.283/2008, estos ocupan una superficie mayor a 
+
+5\.000 m2 con un ancho mínimo de 40 metros. 
+
+ 
+
+ 
+
+ 
+
+3\.3\.3 Métodos para registrar la información 
+
+ 
+
+ 
+
+Para el registro de la información de vegetación y flora recolectada durante las campañas de terreno se 
+
+utilizaron cámara fotográfica, cuaderno de notas y equipos GPS donde se registró inmediatamente (de 
+
+manera digital) cada punto de terreno con sus respectivas coordenadas UTM (Datum WGS 84 19 S), junto 
+
+con toda la información codificada de vegetación y las principales características del ambiente. 
+
+ 
+
+ 
+
+ **3\.4 FLORA VASCULAR** 
+
+ 
+
+ 
+
+En cada una de las formaciones vegetacionales identificadas mediante la cartografía de la vegetación, se 
+
+realizaron inventarios destinados a confeccionar el catálogo florístico del AI. Para cada formación vegetal, se 
+
+distribuyeron inventarios florísticos de manera tal de cubrir las unidades cartográficas que lo componen. En 
+
+cada uno de ellos, se registraron las especies arbóreas, arbustivas y herbáceas presentes, estimando su 
+
+abundancia a través de la cobertura. 
+
+ 
+
+3\.4\.1 Identificación de la flora 
+
+ 
+
+ 
+
+La identificación de especies se llevó a cabo en terreno y en los casos de entidades complejas o dudas en su 
+
+identificación, se colectó una muestra, se prensó y herborizó para su posterior identificación en laboratorio. 
+
+Para este fin se utilizó bibliografía especializada (guías de campo, publicaciones científicas de grupos 
+
+taxonómicos particulares, claves de identificación taxonómica, entre otras) y muestras de herbarios 
+
+pertenecientes a especies de flora. 
+
+ 
+
+La nomenclatura taxonómica utilizada para la denominación de las especies registradas, sigue principalmente 
+
+al Catálogo de las Plantas Vasculares del Cono Sur, disponible como base de datos en la página web del 
+
+Instituto de Botánica Darwinion de Argentina (http://www.darwin.edu.ar), y en el caso de los helechos, a 
+
+Marticorena y Rodríguez (1995\). 
+
+ 
+
+3\.4\.2 Caracterización de la flora 
+
+ 
+
+La flora vascular registrada en terreno es caracterizada de acuerdo a las siguientes variables: 
+
+ 
+
+3\.4\.2\.1 Riqueza florística 
+
+ 
+
+ 
+
+ 
+
+ 
+
+13 
+
+ 
+
+Corresponde al número total de entidades taxonómicas identificadas, en términos de división, clase, familia y 
+
+género. Para las categorías de división y clase se determina la proporción respecto de la flora de Chile 
+
+continental (Marticorena, 1990\), considerando las especies sin taxones infraespecíficos. Asimismo, no se 
+
+consideran aquellas especies no determinadas a nivel específico, con excepción de aquellas en las que el 
+
+taxón es representante único del género. 
+
+3\.4\.2\.2 Origen de la flora 
+
+ 
+
+Se clasifica el origen de la flora de acuerdo a su distribución geográfica natural, en base a lo expuesto en el 
+
+Catálogo de Plantas Vasculares del Cono Sur del Instituto de Botánica Darwinion (www.darwin.edu.ar). Las 
+
+categorías a utilizar son endémico (con distribución natural exclusiva en el territorio nacional), nativo (con 
+
+distribución natural en territorio nacional y otros países), introducido (con distribución natural en otros 
+
+países) e indeterminado (sin distribución conocida por tratarse de un taxón identificado a nivel genérico). 
+
+ 
+
+3\.4\.2\.3 Hábito de crecimiento 
+
+ 
+
+Se clasifica de acuerdo al hábito de crecimiento establecido en el Catálogo de plantas vasculares del Cono 
+
+Sur, del Instituto de Botánica Darwinion (www.darwin.edu.ar). Los tipos biológicos a utilizar son: árbol, 
+
+arbusto, arbusto trepador, arbusto hemiparásito, hierba perenne, hierba trepadora perenne, hierba epífita 
+
+perenne, hierba acuática perenne, hierba anual, suculento, e indeterminado (para todos los taxon en los que 
+
+no fue posible su identificación a nivel específico). 
+
+ 
+
+3\.4\.2\.4 Especies arbóreas y arbustivas originarias del país 
+
+ 
+
+Se estableció la presencia de especies arbóreas o arbustivas originarias del país de acuerdo al D.S. Nº 
+
+68/2009 del Ministerio de Agricultura para efectos de la Ley Nº 20\.283 sobre Recuperación del Bosque 
+
+Nativo y Fomento Forestal. 
+
+ 
+
+3\.4\.2\.5 Estado de conservación 
+
+ 
+
+Para determinar el estado de conservación de la flora vascular local, se siguen las recomendaciones de la 
+
+División Jurídica de la Comisión Nacional de Medio Ambiente (CONAMA), propuestas en su Memorándum Nº 
+
+387/2008, donde se definen las propuestas de clasificación de estados de conservación de especies silvestres 
+
+que poseen aplicabilidad legal para efectos del Sistema de Evaluación de Impacto Ambiental (SEIA) y además, 
+
+el orden de prelación correspondiente ante eventuales comparaciones. Seguidamente, y según corresponda, 
+
+la determinación del estado de conservación se rige por el Reglamento para la Clasificación de Especies 
+
+Silvestres normado en el D.S. Nº 29/ 2012\. De este modo, para establecer el estado de conservación de la 
+
+flora local se emplearon, en primera instancia, los listados definidos por los decretos supremos de 
+
+clasificación de especies según los resultados de los procesos finalizados de la ex Comisión Nacional del 
+
+Medio Ambiente, hoy Servicio de Evaluación Ambiental (SEA), del Ministerio de Medio Ambiente (MMA). 
+
+ 
+
+ 
+
+ 
+
+14 
+
+ 
+
+Estos listados corresponden a los D.S. N° 151/2007, D.S. N° 50/2008, D.S. N° 51/2008 y D.S. N° 23/2009, 
+
+todos del Ministerio Secretaría General de la Presidencia (MINSEGPRES), y los D.S. Nº 33/2012, D.S. Nº 
+
+41/2012, D.S. Nº 42/2012, D.S. Nº 19/2012, D.S. Nº 13/2013 y D.S. Nº 52/2014, todos del Ministerio del 
+
+Medio Ambiente. 
+
+Adicionalmente, se revisaron los listados de carácter nacional actualmente disponibles con aplicabilidad en el 
+
+Sistema de Evaluación de Impacto Ambiental (SEIA) (Benoit, 1989; Belmonte *et al*., 1998; Baeza *et al.*, 1998 y 
+
+Ravenna *et al.*, 1998\).Para la determinación de los estados de conservación de la flora, en el caso de las 
+
+especies leñosas, previamente se consultó a Benoit (1989\), para las Pteridófitas a Benoit (1989\) y Baeza et al 
+
+(1998\), señalándose en cada caso la fuente respectiva. 
+
+ 
+
+3\.4\.2\.6 Método para registrar la información 
+
+ 
+
+En los puntos de inventario se registraron las especies vasculares presentes en libretas de terreno, y se 
+
+estimó visualmente la participación porcentual de cada taxón de acuerdo al valor de la escala de 
+
+cubrimiento\-abundancia de Braun\-Blanquet (1979\). Complementariamente, se realizaron colectas libres en 
+
+sectores de borde de camino que estuvieran dentro de los sectores en influencia a objeto de completar la 
+
+riqueza florística del área de emplazamiento del Proyecto. 
+
+Adicional al registro de la flora vascular, en cada punto de inventario se registró información 
+
+complementaria, a saber: coordenadas geográficas (UTM), altitud (msnm), punto de vegetación al cual se 
+
+asocia, fecha, fotografías del lugar y de las especies, y observaciones relevantes 
+
+ 
+
+ **3\.5 FORMACIONES VEGETALES LEGALMENTE REGULADAS POR LA LEY 20\.283** 
+
+ 
+
+A objeto de identificar la presencia en el AI de formaciones vegetales reguladas por la Ley N° 20\.283 se 
+
+utilizaron los siguientes criterios: 
+
+ 
+
+3\.5\.1 Bosque Nativo 
+
+ 
+
+El Bosque nativo está definido en el Articulo Nº 2 de la Ley N° 20\.283/2008, como aquellas formaciones 
+
+vegetales constituidas por especies autóctonas, en las que predominan árboles y que ocupan una superficie 
+
+mayor a 5\.000 m2 y un ancho mínimo de 40 metros, cuya cobertura de copa arbórea supera el 10% de dicha 
+
+superficie en condiciones áridas y semiáridas y el 25% en circunstancias más favorables (la primera condición 
+
+es la aplicable al AI). 
+
+A efectos de identificar la presencia de bosque nativo, se realizó el cruce entre la superficie y cobertura del 
+
+estrato arbóreo de cada unidad vegetacional con la presencia de especies autóctonas según el D.S. 68/2009 
+
+del MINAGRI, permitiendo así identificar este tipo de formaciones en el AI, de esta forma se clasificó como 
+
+Bosque Nativo a todas las formaciones vegetales que presentan una cobertura arbórea igual o mayor al 10% 
+
+y cuyas especies estuviesen reconocidas como nativas. 
+
+ 
+
+ 
+
+ 
+
+15 
+
+ 
+
+La importancia en la identificación de formaciones vegetales consideradas como bosque nativo radica en que 
+
+su intervención implica un procedimiento especial regulado por la Ley N° 20\.283 (artículo 5° para bosque 
+
+nativo). 
+
+ 
+
+3\.5\.2 Bosque Nativo de Preservación 
+
+ 
+
+Uno de los criterios de análisis de la vegetación es determinar la presencia de unidades vegetales definidas 
+
+como Bosque Nativo de Preservación, para ello se tomó como criterio la definición presente en el artículo No 
+
+2 de la Ley 20\.283 la que señala que “Bosque Nativo de Preservación” es aquel que presente o constituya 
+
+actualmente hábitat de especies vegetales protegidas legalmente o aquellas clasificadas en las categorías 
+
+“Peligro de extinción”, “Vulnerables”, “Raras”, “Insuficientemente conocidas” o “Fuera de peligro”; o que 
+
+corresponda a ambientes únicos o representativos de la diversidad biológica natural del país, cuyo manejo 
+
+solo puede hacerse con el objetivo del resguardo de dicha diversidad¨. Si bien la corta de Bosques de 
+
+Preservación está prohibida por la Ley 20\.283, este mismo cuerpo legal establece un procedimiento de 
+
+excepción que permite a CONAF autorizar su intervención (Articulo No 19 de la Ley 20\.283\). 
+
+ 
+
+3\.5\.3 Formación Xerofítica 
+
+ 
+
+Para identificar las unidades vegetales determinadas como formación xerofítica, se tomó como criterio la 
+
+definición señalada en la Guía de Evaluación Ambiental (CONAF, 2014\), en la cual se identifican estas 
+
+formaciones en base a los siguientes criterios: 
+
+ 
+
+Debe constituir una formación vegetal, considerándose para este caso cualquier referencia 
+
+bibliográfica de publicaciones registradas a nombre de su autor conforme a la Ley N°17\.336\. 
+
+ 
+
+El estrato predominante de la formación vegetal debe ser el arbustivo o suculento. De existir 
+
+especies arbóreas nativas en dicha formación vegetal, su cobertura de copa debe ser menor a la 
+
+requerida en la definición legal de bosque. 
+
+ 
+
+La presencia de especies arbustivas o suculentas nativas debe ser mayoritaria en la formación 
+
+vegetal. Es decir, el número de individuos xerofíticos nativos (arbustivos o suculentos) debe ser 
+
+mayor al número de otros individuos de vegetaciones presentes en la formación vegetal, para el 
+
+caso de las formaciones ubicadas al Norte del rio Elqui hasta el límite norte del país. 
+
+ 
+
+Las especies nativas corresponden a aquellas listadas en el D.S. N° 68, de 2008, del Ministerio de 
+
+Agricultura, así como de sus modificaciones, según corresponda. 
+
+ 
+
+El sector a intervenir debe encontrarse en áreas de condiciones áridas o semiáridas. En este 
+
+contexto, la definición legal establece la ubicación geográfica de estas áreas entre las Regiones XV a 
+
+VI, incluida la Región Metropolitana de Santiago. 
+
+ 
+
+La depresión interior de las Regiones VII y VIII se homologaran a las áreas identificadas como 
+
+“Depresión intermedia¨ de acuerdo a lo definido en el documento "Colección Geográfica de Chile, 
+
+ 
+
+ 
+
+ 
+
+16 
+
+ 
+
+Tomo II Geomorfología" publicado en el año 1983 por el Instituto Geográfico Militar. De esta 
+
+manera, se consideraran exclusivamente las áreas de aquellas comunas que formen parte de la 
+
+depresión intermedia 
+
+ 4 RESULTADOS 
+
+ 
+
+**4\.1 MARCO BIOGEOGRÁFICO** 
+
+ 
+
+Gajardo (1994\), propone que el área del estudio se encuentra en la Región Fitogeográfica del Matorral y del 
+
+Bosque Esclerófilos y en la Sub\-Región del Bosque Esclerófilo. El trazado del proyecto se encuentra en el 
+
+ámbito de la formación de Bosque Esclerófilo Costero. Esta formación se caracteriza por ser un paisaje 
+
+vegetal donde dominan árboles y arbustos altos, esclerófilos. Presentando una composición de su flora muy 
+
+variada y rica. En general su presencia en la cordillera de la Costa implica una alta degradación antrópica por 
+
+lo que el bosque frecuentemente esta reducido a un matorral arborescente y a asociaciones sucesionales 
+
+donde prevalecen arbustos. Las asociaciones posibles de encontrar de acuerdo con la latitud, altitud y 
+
+geomorfología del sector del proyecto serían: 
+
+*Cryptocarya alba* (peumo)\-*Schinus latifolius* (molle): comunidad de bosque que crece en el fondo de las 
+
+quebradas y en las laderas sombrías. Además de las especies nombradas, se encuentran en ella: *Peumus* 
+
+*boldus* (boldo), *Lithrea caustica* (litre), *Quillaja saponaria* (quillay), *Adenopeltis serrata* (lechón), *Azara* 
+
+*celastrina* (lilén), *Chusquea cumingii* (quila), *Myrceugenia obtusa* (rarán) y *Retanilla trinervia*  (tevo) entre 
+
+otras. 
+
+*Lithrea caustica\-Peumus boldus*: Corresponde a una fase más baja que el bosque original y a menudo se 
+
+encuentra en forma de matorral arborescente. Otras especies en la asociación serían: *Nasella chilensis* 
+
+(coironcillo), *Satureja gilliesii* (oreganillo), *Retanilla trinervia*, *Escallonia revoluta* (corontilla), entre otras. 
+
+*Azara celastrina\-Schinus latifolius*: Frecuente hacia el litoral, en dunas consolidadas y pequeñas lomas. Entre 
+
+las especies propias del litoral destacan *Baccharis concava* (gaultro), *Bahía ambrosioides* (chamicilla) y 
+
+*Fuchsia lycioides* (palo rosado). 
+
+*Peumus boldus\-Retanilla trinervia*: Matorral denso, crece en sectores alterados de los bosques, 
+
+especialmente en sitios que han sufrido incendios. Algunas especies de la asociación además de las citadas 
+
+son *Baccharis paniculata* (romerillo), *Muehlenbeckia hastulata* (quilo), *Podanthus mitiqu*i (mitiqui), *Vulpia* 
+
+*myuros* (pasto sedilla), entre otras. 
+
+*Acacia caven* (espino) \-*Maytenus boaria* (maitén): Frecuente en las laderas bajas de los cerros y en cultivos 
+
+abandonados. Comunidad muy variable en su composición de especies, pero con una fisonomía 
+
+característica por lo que se la reconoce como "espinal". Presenta un estrato alto de árboles entre 2 y 10 m y 
+
+un estrato herbáceo, estacional, denso. Además de las especies señaladas son frecuentes *Proustia cuneifolia*, 
+
+huañil, *Baccharis linearis* (romerillo), *Bromus berterianus* (tuca), *Cestrum parqui* (palqui), *Muehlenbeckia* 
+
+*hastulata* (quilo), *Vulpia myuros* (pasto sedilla). 
+
+*Puya chilensis* (cardón, chagual): Comunidad presenta principalmente en las terrazas costeras. Acompañan 
+
+especies como *Baccharis concava, Solanum maritimum* y *Vulpia bromoides* (pasto sedilla). 
+
+ 
+
+ 
+
+ 
+
+17 
+
+ 
+
+Según Luebert y Pliscoff (2005\), corresponde al Bosque esclerófilo mediterráneo costero de *Lithrea caustica* y 
+
+*Cryptocarya alba.* Que corresponde a un bosque esclerófilo asociado generalmente a *Cryptocarya alba,* 
+
+*Peumus boldus y Schinus latifolius,* donde son abundantes los arbustos esclerófilos y espinos como *Colliguaja* 
+
+*odorífera*, *Escallonia pulverulenta*, *Eupatorium glechonophyllum*, Lobelia excelsa, *Retanilla trinerivia* y otros. 
+
+En las laderas más secas es frecuente la presencia de matorrales dominados por *Retanilla trinervia* y 
+
+*Colliguaja odorífera*. Además, en algunos sectores se asocia a *Jubaea chilensis*. 
+
+Finalmente, según el catastro de bosque nativo proporcionado por CONAF, dentro del área de influencia se 
+
+encuentran las siguientes formaciones: 
+
+Matorral semidenso de *Acacia caven* 
+
+Matorral abierto *Flourensia thurifera* 
+
+Matorral denso *Trevoa trinervis* 
+
+Matorral semidenso de *Acacia caven* 
+
+Terrenos de uso agrícola 
+
+ 
+
+En la Figura 3 se puede observar el catastro de bosque nativo para el sector del proyecto. 
+
+ 
+
+FIGURA 3: CATASTRO DE BOSQUE NATIVO 
+
+ 
+
+ 
+
+ 
+
+ 
+
+18 
+
+ 
+
+ 
+
+ 
+
+**4\.2 VEGETACIÓN** 
+
+ 
+
+A través del análisis de Carta de Ocupación de Tierras (C.O.T.) se pudieron identificar 18 unidades 
+
+homogéneas según su Grado de Artificialización, fisonomía y especies dominantes (Etiene y Prado, 1982\) 
+
+(ver figura 4\). En el anexo 2 se adjunta el mapa extendido de grado de artificialización. 
+
+ 
+
+FIGURA 4: GRADO DE ARTIFIALIZACIÓN 
+
+ 
+
+ 
+
+Como se puede observar en la figura 5, dentro del Grado de Artifialización se obtuvo que , el 73, 2% (130,247 
+
+ha) del área de influencia corresponde a suelos para uso agrícola, dentro de los que se encuentran, cultivos 
+
+de hortalizas, arboricultura de riego, cereales de riego, cítricos de riego e invernaderos, entre otras. Por otro 
+
+lado, 34,643 hectáreas corresponden a vegetación nativa, específicamente Bosque nativo degradado, es 
+
+decir un 19,4% del AI determinada para esta componente. Un 1,5 % (2,723 ha) corresponde a pradera 
+
+artificial que presenta algunos individuos aislados de flora nativa. El resto de la superficie de AI corresponde a 
+
+zonas pobladas o zonas de uso industrial, caminos, entre otros. En el Anexo 5 se puede observar la tabla con 
+
+las superficies por hectárea. 
+
+ 
+
+ 
+
+ 
+
+19 
+
+ 
+
+ 
+
+GRÁFICO 1: SUPERFICIES POR GRADO DE ARTIFIALIZACIÓN 
+
+ 
+
+ 
+
+ 
+
+4\.2\.1 Formaciones vegetacionales 
+
+ 
+
+La formación vegetacional del proyecto corresponde a zonas de Bosque nativo degradado, pradera artificial, 
+
+zona agrícola y zonas desprovistas de vegetación. En la siguiente figura se presenta su distribución en el área 
+
+de influencia. En el anexo 3 se puede observar el mapa extendido de formaciones vegetacionales. 
+
+ 
+
+10
+
+15
+
+20
+
+25
+
+Arboricultura de riego
+
+Cereal de riego
+
+Cítricos de riego
+
+Cultivo bajo plástico
+
+Hortalizas
+
+Invernadero
+
+Monte bajo nativo manejado
+
+Bosque de Acacia caven con matorral de Sophora…
+
+Monte medio nativo manejado
+
+Bosque de Acacia caven con matorral de Sophora…
+
+Bosque de Maytenus boaria con matorral de Rubus…
+
+Bosque de Maytenus boaria con matorral de Sophora…
+
+Bosque de Shinus latifolius con matorral de Bacharis linearis
+
+Pradera de Brassica rapa y Sonchus oleraceus
+
+Pasto y arbusto muy degradados
+
+Pradera natural degradada
+
+Pueblos
+
+Vivero ornamental
+
+Zonas industriales, aeropuertos, redes viales
+
+Zonas periurbanas
+
+Porcentaje % 
+
+ 
+
+ 
+
+ 
+
+20 
+
+ 
+
+FIGURA 5: FORMACIONES VEGETACIONALES 
+
+ 
+
+ 
+
+Las formaciones de bosque nativo degradado se caracterizaron según la carta de ocupación de tierras, 
+
+clasificándolo en diferentes categorías de recubrimiento, las que van de entre muy clara (10\-25%) hasta poco 
+
+densa (50 y 75%). 
+
+En la tabla 4 se describen de acuerdo a su distribución, estructura y composición florística, los tipos de 
+
+vegetación: 
+
+ 
+
+TABLA 3: FORMACIONES VEGETACIONALES 
+
+Formaciones vegetacionales 
+
+Sup(ha) 
+
+Código 
+
+Especie Dominante 
+
+Bosque de *Acacia caven* con 
+
+matorral de *Sophora macrocarpa* 
+
+y *Trevoa trinervis* 
+
+26,4708 
+
+14,89 
+
+AC Sm Tt 
+
+Bosque de *Maytenus boaria* con 
+
+matorral de *Rubus ulmifolius* 
+
+0,8312 
+
+0,47 
+
+MB Rc 
+
+Bosque de *Maytenus boaria* con 
+
+matorral de *Sophora macrocarpa* 
+
+5,838 
+
+3,28 
+
+ 
+
+MB Sm 
+
+ 
+
+ 
+
+ 
+
+21 
+
+ 
+
+Bosque de *Shinus latifolius* con 
+
+matorral de *Bacharis linearis* 
+
+1,5033 
+
+0,85 
+
+SL Bl 
+
+Pradera de *Brassica rapa* y 
+
+*Sonchus oleraceus* 
+
+2,7234 
+
+1,53 
+
+br so 
+
+Zona Agrícola 
+
+130,246 
+
+73,2 
+
+ 
+
+Zona sin vegetación 
+
+10,1153 
+
+5,69 
+
+ 
+
+FUENTE: ELABORACIÓN PROPIA
+
+En el grafico siguiente se muestran, en porcentaje, cada formación vegetacional. 
+
+ 
+
+GRÁFICO 2 FORMACIONES VEGETACIONALES 
+
+ 
+
+Fuente: Elabaración propia 
+
+ 
+
+ 
+
+4\.2\.1\.1 Bosque de *Acacia caven* con matorral de *Sophora macrocarpa* y *Trevoa trinervis* 
+
+ 
+
+Este tipo de bosque abarca 26,47 ha, es decir, al 14,89% de AI total del proyecto. Se caracteriza por la 
+
+dominancia de *Acacia caven* asociado a *Sophora macrocarpa* y con menor densidad a *Trevoa trinervis* (10\-
+
+25%). Esta formación presenta un estrato leñoso alto de entre 4 y 8 m y un estrato leñoso bajo de entre 1 y 
+
+2m. 
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+Bosque de Acacia caven con matorral de Sophora
+
+macrocarpa y Trevoa trinervis
+
+Bosque de Maytenus boaria con matorral de Rubus
+
+ulmifolius
+
+Bosque de Maytenus boaria con matorral de Sophora
+
+macrocarpa
+
+Bosque de Shinus latifolius con matorral de Bacharis linearis
+
+Pradera de Brassica rapa y Sonchus oleraceus
+
+Zona Agrícola
+
+Zona sin vegetación
+
+ 
+
+ 
+
+ 
+
+22 
+
+ 
+
+En esta asociación también se pudo observar individuos de *Cardomine hirsuta*, *Cynara cardunculus, Silybum* 
+
+*marianum, Centaurea melitensis.* En la Figura 6 se puede observar una fotografía del área de influencia, 
+
+representativa de esta formación.
+
+ 
+
+FIGURA 6: BOSQUE DE *A**CACIA CAVEN* CON MATORRAL DE *S**OPHORA MACROCARPA* Y *T**REVOA TRINERVIS* 
+
+ 
+
+ 
+
+En algunos sectores dentro de esta formación se pudo observar la presencia de individuos de *Alstromeria* 
+
+*pulchra* con una densidad entre 25 y 50% (Figura 7\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+23 
+
+ 
+
+FIGURA 7: BOSQUE DE ACACIA CAVEN CON MATORRAL DE *SOPHORA MACROCARPA* Y *TREVOA TRINERVIS* 
+
+ 
+
+ 
+
+4\.2\.1\.2 Bosque de *Maytenus boaria* con matorral *Rubus ulmifolius* 
+
+Esta formación corresponde al 0,47 % del total del área de influencia y se caracteriza por un bosque muy 
+
+claro de *Maytenus boaria* asociado a matorral muy denso de *Rubus ulmifolius*. El estrato leñoso alto se 
+
+encuentra entre los 8 y 16 m., mientras que el leñoso bajo esta entre 1 y 2 m. En esta formación también se 
+
+pudieron observar algunos individuos de *Brassica rapa, Hypochaeris acaulis, Eschscholzia californica (Fugura* 
+
+*8\)* 
+
+ 
+
+ 
+
+ 
+
+ 
+
+24 
+
+ 
+
+FIGURA 8: BOSQUE DE *M**AYTENUS* *B**OARIA* CON MATORRAL *R**UBUS ULMIFOLIUS* 
+
+ 
+
+ 
+
+ 
+
+4\.2\.1\.3 Bosque de *Maytenus boaria* y matorral de *Sophora macrocarpa* 
+
+ 
+
+Esta formación representa el 3,28% del AI del proyecto. Dominan especies de *Maytenus boaria* con una 
+
+cobertura de entre 50 y 75% asociado a matorral de *Sophora macrocarpa* que se presenta con mayor 
+
+densidad (75\-90%). El estrato leñoso alto de esta asociación está entre los 4 y 8 m, el estrato leñoso bajo se 
+
+encuentra entre 1 y 2 m. En el estrato herbáceo se pudieron observar individuos de *Echinopsis chiloensis*, 
+
+*Cardomine hirsuta, Cynara cardunculus* y *Silybum marianum* (Figura 9\) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+25 
+
+ 
+
+FIGURA 9: BOSQUE DE *M**AYTENUS BOARIA* Y MATORRAL DE *S**OPHORA MACROCARPA* 
+
+ 
+
+ 
+
+4\.2\.1\.4 Bosque de *Shinus latifolius* con matorral de *Bacharis linearis* 
+
+Esta formación corresponde al 0,85% del AI y está representada por la asociación de *Shinus latifolius* con 
+
+matorral de *Bacharis linearis* con una cobertura de entre 10 y 25%, donde el estrato leñoso alto no supera los 
+
+4 metros mientras que el leñoso bajo se encuentra entre los 50 y 100 cm. 
+
+Dentro de esta asociación se puede observar un estrato herbáceo compuesto por individuos de *Eschscholzia* 
+
+*californica* y *Conanthera campanulata* (Figura 10\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+26 
+
+ 
+
+FIGURA 10: BOSQUE DE *S**CHINUS LATIFOLIUS* CON MATORRAL DE *B**ACHARIS LINEARIS* 
+
+ 
+
+ 
+
+4\.2\.1\.5 Pradera de *Brassica rapa* y *Sonchus oleraceus* 
+
+ 
+
+Esta formación está dominada por una vegetación herbácea compuesta de *Brassica rapa* y *Sonchus* 
+
+*oleraceus,* con una cobertura de entre 75 y 90%.Además se encuentran individuos de *Cynara cardunculus* y 
+
+*Silybum marianum*. En el estrato arbustivo se pudo observar la presencia de algunos individuos de *Acacia* 
+
+*caven* con *Muehlenbeckia hastulata* pero que no superó el 5% de cobertura. Esta formación corresponde a 
+
+1,53% del AI total de proyecto para esta componente (Figura 11\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+27 
+
+ 
+
+FIGURA 11: PRADERA DE *B**RASSICA RAPA* Y *S**ONCHUS OLERACEUS* 
+
+ 
+
+ 
+
+ 
+
+4\.2\.1\.6 Zona Agrícola 
+
+ 
+
+Esta zona representa el 73,2% del AI del proyecto y corresponde a zonas de uso agrícola como cítricos de 
+
+riego, cereales de riego, cítricos de riego, arboricultura de riego y hortalizas (Figura 12 y 13\). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+28 
+
+ 
+
+FIGURA 12: ZONA AGRÍCOLA 
+
+ 
+
+ 
+
+FIGURA 13: ZONA AGRÍCOLA: CULTIVOS DE PALTO EN FALDEOS DE CERROS 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Formaciones reguladas por Ley N° 20\.283 
+
+ 
+
+ 
+
+ 
+
+ 
+
+29 
+
+ 
+
+En la tabla 5 se presenta la clasificación de las formaciones vegetales según la tipología de la Ley Nº 20\.283 
+
+en el área de influencia. De acuerdo a esta, no se identificaron formaciones que cumplan con la definición de 
+
+“Formación Xerofítica”. Por otro lado, respecto a la clasificación de los bosques nativos, la totalidad de los 
+
+bosques nativos de uso múltiples, con 34,64 ha, lo que representa un 19,4% del área de influencia. No se 
+
+registran bosques nativos de conservación y protección así como tampoco bosques nativos de preservación. 
+
+ 
+
+Tabla 4: Tipología de bosques nativos (Ley N° 20\.283\) 
+
+Tipología formaciones 
+
+vegetales 
+
+Tipología de bosques nativos 
+
+Superficie (ha) Porcentaje (%) 
+
+Bosque nativo 
+
+Bosque nativo de conservación y protección 
+
+Bosque nativo de preservación 
+
+Bosque nativo de uso múltiple 
+
+34,643 
+
+19,4 
+
+Formaciones xerofíticas 
+
+Otras formaciones no reguladas por Ley N° 20,283 
+
+ 
+
+34,643 
+
+19,4 
+
+FUENTE: ELABORACIÓN PROPIA 
+
+ 
+
+ 
+
+ **4\.3 FLORA VASCULAR** 
+
+ 
+
+En la Región de Valparaíso crecen aproximadamente 2\.000 especies de plantas vasculares, de las cuales 130 
+
+están amenazadas por causas antrópicas y naturales, de acuerdo a diferentes autores. Estas corresponden a 
+
+48 Geófitas (incluidas siete orquídeas), 20 Pteridófitas (helechos), 19 arbustos, 16 cactáceas, 13 árboles, 10 
+
+bromeliáceas (chaguales), dos trepadoras, una planta acojinada y una palma (CONAF Región de Valparaíso). 
+
+En el área de influencia, durante la campaña de terreno realizada los días 12 y 13 de octubre del 2016, se 
+
+realizaron 14 puntos de muestreo (en el anexo 1 se puede observar el AI con los puntos de monitoreo) en el 
+
+que se registraron los individuos florísticos presentes, generando un listado florístico, el que se presenta en 
+
+la tabla 6, donde se indica su hábito de crecimiento, origen fitogeográfico y estado de conservación. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+30 
+
+ 
+
+TABLA 5: ESPECIES DE FLORA PRESENTES EN EL ÁREA DE INFLUENCIA 
+
+Clase 
+
+Familia 
+
+*Especie* 
+
+Nombre 
+
+Común 
+
+Origen 
+
+Hábito 
+
+Estado de 
+
+conservación 
+
+Annanaceae 
+
+*Annona* 
+
+*cherimola* 
+
+Chirimoya 
+
+Anacardiaceae 
+
+*Lithraea* 
+
+*caustica* 
+
+Litre 
+
+*Shinus latifolius* 
+
+Molle 
+
+Apiaceae 
+
+*Conium* 
+
+*maculatum* 
+
+Cicuta 
+
+*Apium* 
+
+*nodiflorum* 
+
+Berra 
+
+Asteraceae 
+
+*Baccharis* 
+
+*linearis* 
+
+Romerillo 
+
+*Carduus* 
+
+*pycnocephalus* 
+
+Cardo 
+
+negro 
+
+*Centaurea* 
+
+*melitensis* 
+
+Manzanill
+
+ón 
+
+*Cotula* 
+
+*coronopifolia.* 
+
+Botón de 
+
+oro 
+
+*Cynara* 
+
+*cardunculus* 
+
+Cardo 
+
+penquero 
+
+*Hypochoeris* 
+
+*acaulis* 
+
+Hierba 
+
+del 
+
+chancho 
+
+*Hirschfeldia* 
+
+*incana* 
+
+Mostacill
+
+*Leontodon* 
+
+*saxatilis* 
+
+Chinilla 
+
+*Matricaria* 
+
+*recutita* 
+
+Manzanill
+
+hedionda 
+
+*Sonchus* 
+
+*oleraceus* 
+
+Cerraja 
+
+*Silybum* 
+
+*marianum* 
+
+Cardo 
+
+mariano 
+
+*Taraxacum* 
+
+*officinale* 
+
+Diente de 
+
+león 
+
+Brassicaceae 
+
+*Brassica rapa* 
+
+Yuyo 
+
+*Cardomine* 
+
+*hirsuta* 
+
+Berro 
+
+Buddlejaceae 
+
+*Buddleja* 
+
+*globosa* 
+
+Matico 
+
+Cactaceae 
+
+*Echinopsis* 
+
+*chiloensis* 
+
+Quisco 
+
+Suculenta
+
+s 
+
+Casi amenazada 
+
+/ DS 41\-2011 
+
+Celastraceae 
+
+*Maytenus* 
+
+*Boaria* 
+
+Maitén 
+
+ 
+
+ 
+
+ 
+
+31 
+
+ 
+
+Fabaceae 
+
+*Acacia caven* 
+
+Espino 
+
+*Galega* 
+
+*officinalis L.* 
+
+Galega 
+
+*Medicago* 
+
+*polymorpha* 
+
+Carretón 
+
+*Sophora* 
+
+*macrocarpa* 
+
+Mayo 
+
+Lamiaceae 
+
+*Erodium* 
+
+*moschatum* 
+
+Alfilerillo 
+
+Herbáceo 
+
+*Mentha* 
+
+*pulegium L.* 
+
+Poleo 
+
+Lauraceae 
+
+*Persea* 
+
+*americana* 
+
+Palto 
+
+Papaveracea 
+
+*Eschscholzia* 
+
+*californica* 
+
+Dedal de 
+
+oro 
+
+Plantaginaceae 
+
+*Plantago* 
+
+*lanceolata L.* 
+
+Llantén 
+
+*Plantago major* 
+
+Llantén 
+
+mayor 
+
+Polygonaceae 
+
+*Polygonum* 
+
+*persicaria L.* 
+
+Duraznillo 
+
+de agua 
+
+*Muehlenbeckia* 
+
+*hastulata* 
+
+Quilo 
+
+Rhamnaceae 
+
+*Trevoa trinervis* 
+
+Tevo 
+
+Rosaceae 
+
+*Rubus* 
+
+*constrictus* 
+
+Zarzamor
+
+Solanaceae 
+
+*Cestrum parqui* 
+
+Palqui 
+
+Alstroemeriac
+
+eae 
+
+*Alstroemeria* 
+
+*pulchra ssp.* 
+
+*pulchra* 
+
+Alstromer
+
+ia 
+
+Preocupación 
+
+menor/ DS 
+
+13/2013 MMA 
+
+Bromeliaceae 
+
+*Puya chilensis* 
+
+Chagual 
+
+Suculenta 
+
+Preocupación 
+
+menor / DS 42\-
+
+2011 
+
+Poaceae 
+
+*Paspalum* 
+
+*distichum* 
+
+Chépica 
+
+Poaceae 
+
+*Avena barbata* 
+
+Mazarron 
+
+Poaceae 
+
+*Bromus* 
+
+*hordeaceus* 
+
+Barbas de 
+
+macho 
+
+Tecophilaeace
+
+ae 
+
+*Conanthera* 
+
+*campanulata* 
+
+Papita de 
+
+campo 
+
+Preocupación 
+
+menor / DS 13\-
+
+2013 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+32 
+
+ 
+
+4\.3\.1 Clasificación taxonómica y riqueza florística 
+
+ 
+
+En el área de influencia se determinó la presencia de 43 especies de plantas en total para el área del 
+
+Proyecto, correspondiente a 19 familias distintas. 
+
+La clase mejor representada correspondió a la Clase Dicotiledóneas (Magnoliopsida), con 37 especies, 
+
+agrupadas en 17 familias. La segunda clase de mayor representatividad es la Clase Liliopsida, representada 
+
+por 4 familias, lo cual corresponde a 6 especies diferentes. Por otro lado, las 3 clases restantes contaron con 
+
+una nula participación (Tabla 7\). 
+
+ 
+
+TABLA 6: CLASIFICACIÓN TAXONÓMICA Y RIQUEZA FLORÍSTICA 
+
+Clase 
+
+Familia 
+
+Especies 
+
+Magnoliopsida 
+
+17 
+
+80,95 
+
+37 
+
+86,04 
+
+19,04 
+
+13,95 
+
+Pinopsida 
+
+Filicopsida 
+
+Equisetopsida 
+
+21 
+
+100 
+
+43 
+
+100 
+
+ 
+
+4\.3\.2 Origen fitogeográfico 
+
+ 
+
+Respecto al origen fitogeográfico de las especies registradas en el área de influencia (Ver tabla 7\), se observa 
+
+que la mayor porción corresponden a especies introducidas con un 66,67% del total de los registros, 
+
+mientras que sólo un 33,34% corresponde a especies nativas, donde sólo un 14, 29% corresponde a especies 
+
+endémicas (Tabla 8\). 
+
+ 
+
+TABLA 7: ORIGEN FITOGEOGRÁFICO  
+
+Clase 
+
+Nativa 
+
+No endémicas 
+
+ 
+
+ 
+
+ 
+
+ 
+
+33 
+
+ 
+
+Equisetopsida 
+
+Eudicotiledonea 
+
+26 
+
+60,46 
+
+9,30 
+
+16,27 
+
+37 
+
+86,03 
+
+6,97 
+
+2,32 
+
+13,94 
+
+Pinopsida 
+
+Filicopsida 
+
+28 
+
+65,11 
+
+16,27 
+
+21 
+
+48,8 
+
+100,00 
+
+ 
+
+4\.3\.4 Hábito de crecimiento 
+
+ 
+
+En relación a las formas de vida de las plantas presentes en el área de influencia del proyecto la mayor 
+
+proporción de especies corresponde a las Hierbas, abarcando el 65,11% del total, La segunda forma de vida 
+
+más representativa, corresponde a los árboles, con una participación del 16,27%, luego le siguen el estrato 
+
+arbustivo con un 13, 97% y finalmente las especies suculentas con un 4,65%. 
+
+ 
+
+TABLA 8: HÁBITO DE CRECIMIENTO  
+
+Forma de 
+
+vida 
+
+Introducidas 
+
+Nativas 
+
+No endémica 
+
+2,00 
+
+3,00 
+
+6,97 
+
+7,00 
+
+16,27 
+
+2,32 
+
+1,00 
+
+2,33 
+
+4,00 
+
+9,5 
+
+6,00 
+
+13,97 
+
+25 
+
+58,13 
+
+1,00 
+
+2,33 
+
+28,00 
+
+65,11 
+
+Suculenta 
+
+2,00 
+
+2,00 
+
+28 
+
+65,11 
+
+7,00 
+
+16,27 
+
+8,00 
+
+18,8 
+
+43,00 
+
+100,00 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+34 
+
+ 
+
+ **4\.4 Estados de conservación de especies flora** 
+
+ 
+
+Respecto a las especies con problemas de conservación en el área de influencia, de acuerdo a Benoit (1989\), 
+
+Belmonte et al (1998\) y los cuatro (4\) procesos de clasificación de especies en categorías de conservación, se 
+
+detectaron 3 especies en categoria de conservación en el área de influencia del Proyecto. *Alstromeria* 
+
+*pulchra*, *Conanthera campanulata* y *Puya chilensis* con preocupación menor y *Echinopsis chiloensis* que se 
+
+encuentra casi amenazada 
+
+ 
+
+TABLA 9: ESTADOS DE CONSERVACIÓN DE ESPECIES 
+
+*Especie* 
+
+Nombre 
+
+Común 
+
+Origen 
+
+Hábito 
+
+E° de conservación 
+
+*Trichocereus chiloensis* 
+
+Quisco 
+
+Endémic
+
+Suculent
+
+as 
+
+Casi amenazada / DS 41\-2011 
+
+*Alstromeria pulchra ssp.* 
+
+*pulchra* 
+
+Alstromeria 
+
+Endémic
+
+Preocupación menor/ DS 13/2013 
+
+MMA 
+
+*Puya chilensis* 
+
+Chagual 
+
+Endémic
+
+Suculent
+
+as 
+
+Preocupación menor / DS 42\-2011 
+
+*Conanthera campanulata* 
+
+Papita de 
+
+campo 
+
+Endémic
+
+Preocupación menor / DS 13\-2013 
+
+ 
+
+Para el caso del proyecto Línea 2x110KV a Subestación Mayaca, serán intervenidas, sólo, individuos de las 
+
+especies *Alstroemeria pulchra ssp. pulchra y* *Conanthera campanulata*, ambas especies son geofitas nativas, 
+
+endémicas y en estado de conservación. Pese a su estado de conservación es posible observar individuos de 
+
+estas especies de manera frecuente en el paisaje a lo largo de Chile, distribuyéndose entre la IV y IX región 
+
+(DS.13/2013\. MMA). Ambas especies no cumplen con ninguno de los umbrales de los criterios para ser 
+
+definida en alguna categoría de amenaza definida por la UICN y su amplia distribución indica que no esta 
+
+cerca de satisfacer ninguno de estos criterios. 
+
+Dentro del área de influencia del proyecto se visualizaron aproximadamente 1000 individuos de 
+
+*Alstroemeria pulchra ssp. Pulchra.* No obstante, para la construcción de la torre, se podrían ver amenazadas 
+
+aproximadamente 120 plantas. Por otro lado, cercano a la torre siete (T7\), se encontraron 2 individuos de 
+
+*Conanthera campanulata*, las cuales podrían encontrarse en riesgo por la construcción de la torre. Para 
+
+ambas especies, Chilquinta S.A., como compromiso voluntario, pondrá en acción su “Plan de rescate y 
+
+relocalización” (para 120 y 2 individuos, respectivamente). Este programa consiste en albergar, en un 
+
+vivero acondicionado, plantas nativas de las zonas intervenidas , especialmente Geófitas y Bulbosas con el 
+
+propósito de incrementar el valor ecológico de la restauración con plantas rescatadas en las inmediaciones 
+
+de las áreas de restauración, entre las que destacan la reincorporación exitosa de especies de Añañuca, 
+
+Azulillo y del genero *Leucocoryne*. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+35 
+
+ 
+
+ 
+
+ 
+
+5 CONCLUSIONES 
+
+ 
+
+El área de influencia del Proyecto está constituida por una matriz fuertemente antropizada, en que se 
+
+registran mayoritariamente áreas de agricultura intensiva y desarrollo urbano. Esta área se encuentra inserta 
+
+en la distribución de Bosque esclerófilo mediterráneo costero (Gajardo, 1994\), dominada por asociaciones de 
+
+*Cryptocarya alba* (peumo)\-*Schinus latifolius* (molle), *Lithrea caustica\-Peumus boldus, Azara celastrina\-Schinus* 
+
+*latifolius, Peumus boldus\-Retanilla trinervia* y *Acacia caven* (espino) \- *Maytenus boaria* (maitén). Sin embargo, 
+
+gran parte del área de influencia ha sido sustituida por cultivos agrícolas o zonas urbanas, eliminando en 
+
+muchos lugares casi por completo el bosque nativo original, reduciéndolo a parches pequeños, favoreciendo 
+
+la introducción de especies exóticas. 
+
+En general, el AI del proyecto comprende 7 formaciones vegetacionales, donde el 19,4% corresponde a 
+
+Bosque nativo de uso múltiple, que deberá someterse a Plan de Manejo Forestal de Obras Civiles, según el 
+
+área a intervenir. Esta superficie de Bosque nativo, está representado por una formación muy degradada de 
+
+*Acacia caven* asociado *Trevoa trinervis, Sophora macrocarpa*, entre otras. Para el estrato leñoso alto la 
+
+cobertura fluctúa entre el 10% y el 75%, es decir entre bosque muy claro a bosque poco denso. Este bosque 
+
+se encuentra en un claro estado de degradación producto del sobrepastoreo, lo que se evidencia en la 
+
+abundancia de suelo desnudo bajo el dosel abierto. En algunos sectores también es posible identificar un 
+
+Bosque esclerófilo de *Maytenus boaria* y *Schinus latifolius.* Por otro lado, está la presencia de zonas agrícolas 
+
+representadas por el 73,2% del AI total, la que está compuesta por zonas de cultivos de cereales de riego, 
+
+arboricultura de riego, hortalizas, invernaderos, entre otras. 
+
+Respecto a la flora vascular del área del proyecto, se determinó un total de 42 especies, de las que un 66,6% 
+
+corresponde a especies exóticas mientras que sólo el 33,34% corresponden a especies nativas de las que 
+
+14,29% son endémicas*.* En cuanto a la categoría de conservación de las especies, según el Reglamento de 
+
+Clasificación de Especies, el “Libro Rojo de la Flora Terrestre de Chile” (Benoit, 1989\) y el Boletín N° 47 del 
+
+Museo Nacional de Historia Natural (Nuñez *et al*, 1998\). Sólo tres especies están bajo categoría de 
+
+conservación, *Alstromeria pulchra* ssp. pulchra, *Conanthera campanulata* y *Puya chilensis* con Preocupación 
+
+Menor y *Echinopsis chiloensis*, que de las cuatro especies es la única que cumple con los criterios de la UICN 
+
+encontrándose Casi Amenzada. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+36 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+6 BIBLIOGRAFÍA 
+
+ 
+
+Benoit, I (Ed). 1989\. Libro rojo de la flora terrestre de Chile. CONAF. Santiago, Chile. 
+
+Braun\-Blanquet, J. 1979\. Fitosociología. Bases para el estudio de las comunidades vegetales. Ed. Blume. 
+
+Madrid, España. 820 p. 
+
+Cabrera, A., y Willink, A. 1973\. Biogeografía de América Latina. Programa Regional de Desarrollo Científico y 
+
+Tecnológico, Departamento de Asuntos Científicos, Secretaría General de la Organización de los Estados 
+
+Americanos, Washington, D. C., EEUU. 121 p. 
+
+CONAF. 2011 Catastro y Evaluación de los Recursos Vegetacionales Nativos de Chile,. Proyecto 
+
+CONAF/CONAMA/BIRF. 108 p. 
+
+CONAF. 2001\. Catastro de Uso del Suelo y Vegetación. Monitoreo y Actualización, Región de Valparaíso. 
+
+Corporación Nacional Forestal, Santiago, Chile. 30 p. 
+
+CONAMA (1996\) Metodologías para la caracterización de la calidad ambiental. Santiago, Chile. 242 p. 
+
+CRUZ\- PRADO\- LARA A (1995\) Manual de cartografía de la vegetación. Proyecto CONAMA\-BIRF. Universidad 
+
+Austral de Chile, Pontificia Universidad Católica de Chile, Universidad Católica de Temuco y Geotécnica 
+
+Consultores. 59 p. 
+
+Decreto Supremo Nº 151/2006\. Chile. Oficializa primera clasificación de especies silvestres según su estado 
+
+de conservación. Ministerio Secretaría General de la Presidencia. Santiago, Chile. Diario Oficial, 24 de marzo 
+
+de 2007\. 
+
+Decreto Supremo Nº 19/2012\. Chile. Aprueba y oficializa nómina para el octavo proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia. Santiago, Chile. 
+
+Diario Oficial, 11 de febrero de 2013\. 
+
+Decreto Supremo Nº 23/2009\. Chile. Aprueba y oficializa nómina para el segundo proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia. Santiago, Chile. 
+
+Diario oficial, 07 de mayo de 2009\. 
+
+Decreto Supremo Nº 33/2011\. Chile. Aprueba y oficializa nómina para el quinto proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia (MINSEGPRES). 
+
+Santiago, Chile. Diario oficial, 27 de febrero de 2012\. 
+
+Decreto Supremo Nº 38/2015\. Chile. Aprueba y oficializa clasificación de especies según su estado de 
+
+conservación, onceavo proceso. Ministerio del Medio Ambiente (MMA). Santiago, Chile. Diario oficial, 4 de 
+
+diciembre de 2015 
+
+ 
+
+ 
+
+ 
+
+37 
+
+ 
+
+Decreto Supremo Nº 41/2011\. Chile. Aprueba y oficializa nómina para el sexto proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia (MINSEGPRES). 
+
+Santiago, Chile. Diario oficial, 11 de abril de 2012\. 
+
+Decreto Supremo Nº 42/2011\. Chile. Aprueba y oficializa nómina para el séptimo proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia (MINSEGPRES). 
+
+Santiago, Chile. Diario oficial, 11 de abril de 2012\. 
+
+Decreto Supremo Nº 50/2008\. Chile. Aprueba y oficializa nómina para el segundo proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia. Santiago, Chile. 
+
+Diario oficial, 30 de junio de 2008\. 
+
+Decreto Supremo Nº 51/2008\. Chile. Aprueba y oficializa nómina para el tercer proceso de clasificación de 
+
+especies según su estado de conservación. Ministerio Secretaría General de la Presidencia. Santiago, Chile. 
+
+Diario oficial, 30 de junio de 2008\. 
+
+Decreto Supremo Nº 52/2014\. Chile. Aprueba y oficializa clasificación de especies según su estado de 
+
+conservación, décimo proceso. Ministerio del Medio Ambiente (MMA). Santiago, Chile. Diario oficial, 29 de 
+
+agosto de 2014\. 
+
+Etienne, M. y Contreras, D. 1981\. Cartografía de la vegetación y sus aplicaciones en Chile. Boletín Técnico 
+
+Nº46\. Universidad de Chile. Facultad de Ciencias Agrarias y Veterinarias, Escuela de Agronomía. Santiago, 
+
+Chile. 27 p. 
+
+Etienne, M. y Prado, C. 1982\. Descripción de la vegetación mediante cartografía de ocupación de tierras 
+
+Conceptos y manual de uso básico. Ciencias Agrícolas Nº10\. Universidad de Chile, Facultad de Ciencias 
+
+Agrarias, Veterinarias y Forestales. 120 p. 
+
+Gajardo, R. 1994\. La vegetación natural de Chile. Clasificación y distribución geográfica. Ed. Universitaria, 
+
+Santiago. 165 p. 
+
+Guía de evaluación ambiental Criterios para la participación de CONAF en el SEIA, CONAF 2014\. 
+
+Guía para la descripción de los componentes; suelo flora y vegetación. Servicio de Evaluación Ambiental, 
+
+2015\. 
+
+GODRON\-DAGET\- EMBERGER\-LE FLOC’H\-LONG\- POISSONET\-SAUVAGE \&WACQUANT J.P(1968\) Code pour le 
+
+relevé méthodique de la végétation et du milieu (principes et transcription sur carte peforées). Éitions du 
+
+centre National de la Recherche Scientifique. France. 169 p. 
+
+Hoffmann A. 1989\. Flora silvestre de Chile. Ediciones Fundación ClaudioGay; 
+
+Ley Nº 20\.283/2008\. Chile. Aprueba la Ley Sobre Recuperación del Bosque Nativo y Fomento Forestal. 
+
+Ministerio de Agricultura. Santiago, Chile. Diario oficial, 30 de julio de 2008\. 
+
+Luebert, F. y Pliscoff, P. 2006\. Sinopsis bioclimática y vegetacional de Chile. Ed. Universitaria, Santiago. 316 p 
+
+Ministerios 
+
+de 
+
+Medio 
+
+Ambiente. 
+
+Actualizado; 
+
+Inventario 
+
+Nacional 
+
+de 
+
+Especies. 
+
+ 
+
+al 
+
+2009\. 
+
+especies.mma,gob.cl/CNMWeb/Web)WebCiudadana/proceso.aspx?proceso\=4 
+
+Magurran, A. E. 1988\. Ecological diversity and its measurement. Cambridge University Press. Cambridge, UK 
+
+ 
+
+ 
+
+ 
+
+38 
+
+ 
+
+Muñoz, M.; Nuñez, H. y Yañez, J. 1998\. Libro rojo de los sitios prioritarios para la conservación de la 
+
+biodiversidad en Chile. Revista Ambiente y Desarrollo 13 (2\): 90 – 99\. 
+
+Navas, L. 1973 Flora de la cuenca de Santiago de Chile. Tomos I, II, y III. L. E. Edición electrónica 
+
+http://mazinger.sisib.uchile.cl/repositorio/lb/ciencias\_quimicas\_y\_ farmaceuticas/navasl01/ 02; y 03; 
+
+Nuñez, H., Meléndez, R. y Maldonado, V. 1999\. Boletín Museo Nacional de Historia Natural N° 47\. Santiago, 
+
+Chile. 146 p. 
+
+Riedemann, P. y Aldunate G. Flora de valor ornamental, zona centro Chile 2003\. Editorial Andrés Bello; 
+
+Universidad 
+
+Católica 
+
+de 
+
+Chile, 
+
+Herbario 
+
+digital 
+
+https://www.puc.cl/sw\_educ/agronomia/herbario/plano/html/frames/fr\_herbario.html 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+39 
+
+ 
+
+ANEXOS 
+
+ 
+
+ 
+
+ANEXO 1: ÁREA DE INFLUENCIA CON PUNTOS DE MUESTREO 
+
+ 
+
+ 
+
+ 
+
+ 
+
+40 
+
+ 
+
+ANEXO 2: GRADO DE ARTIFICIALIZACIÓN
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+41 
+
+ 
+
+ANEXO 3: FORMACIONES VEGETACIONALES 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ANEXO 4: PUNTOS DE MUESTREO 
+
+  
+
+Número de individuos registrados en cada parcela 
+
+Especies 
+
+Parcel
+
+a 1 
+
+Parcel
+
+a 2 
+
+Parcela 3 
+
+(torre 3\) 
+
+Parcel
+
+a 4 
+
+Parcela 5 
+
+(Torre 4\) 
+
+Parcel
+
+a 6 
+
+Parcela 7 
+
+(Torre 6\) 
+
+*Acacia caven* (Espino) 
+
+29 
+
+19 
+
+21 
+
+20 
+
+28 
+
+54 
+
+40 
+
+*Baccharis linearis* 
+
+(Romerillo) 
+
+*Buddleja globosa* 
+
+(Matico) 
+
+*Cestrum Parqui* (Parqui) 
+
+ 
+
+17 
+
+16 
+
+*Trichocereus chiloensis* 
+
+(Quisco) 
+
+*Maytenus boaria* 
+
+(Maitén) 
+
+*Rubus ulmifolius* 
+
+*Shinus latifolius* (Molle) 
+
+ 
+
+ 
+
+*Sophora macrocarpa* 
+
+(Mayo) 
+
+9 
+
+67 
+
+25 
+
+8 
+
+13 
+
+*Trevoa trinervis* (Tevo) 
+
+38 
+
+26 
+
+22 
+
+12 
+
+19 
+
+Podanthus mitiqui 
+
+*Muehlenbeckia* 
+
+*hastulata* (Quilo) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+Número de individuos registrados en cada parcela 
+
+Especies 
+
+Parcela 8 
+
+(Torre 1\) 
+
+Parc
+
+ela 9 
+
+Parcela 10 
+
+(torre 8\) 
+
+Parcela 11 
+
+(Torre 7\) 
+
+Parcela 
+
+12 (Tap) 
+
+Parcela 13 
+
+(Torre 5\) 
+
+Parcela 14 
+
+(Torre 2\) 
+
+*Acacia caven* 
+
+(Espino) 
+
+15 
+
+8 
+
+21 
+
+15 
+
+ 
+
+ 
+
+ 
+
+ 
+
+*Baccharis linearis* 
+
+(Romerillo) 
+
+14 
+
+*Buddleja globosa* 
+
+(Matico) 
+
+*Cestrum parqui* 
+
+(Parqui) 
+
+9 
+
+*Echinopsis* 
+
+*chiloensis* (Quisco) 
+
+*Maytenus boaria* 
+
+(Maitén) 
+
+10 
+
+*Rubus ulmifolius* 
+
+70 
+
+*Shinus latifolius* 
+
+(Molle) 
+
+8 
+
+10 
+
+*Sophora* 
+
+*macrocarpa* 
+
+(Mayo) 
+
+39 
+
+20 
+
+*Trevoa trinervis* 
+
+(Tevo) 
+
+*Podanthus mitiqui* 
+
+*Muehlenbeckia* 
+
+*hastulata* (Quilo) 
+
+ 
+
+Fuente: Elaboración Propia 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ANEXO 5: SUPERFICIES POR GRADO DE ARTIFICIALIZACIÓN 
+
+Grado de artificialización 
+
+Superficie 
+
+(Ha) 
+
+Porcentaje 
+
+Arboricultura de riego 
+
+39,86 
+
+22,43 
+
+Cereal de riego 
+
+11,793 
+
+6,64 
+
+Cítricos de riego 
+
+10,525 
+
+5,92 
+
+Cultivo bajo plástico 
+
+0,842 
+
+0,47 
+
+Hortalizas 
+
+16,572 
+
+9,32 
+
+Invernadero 
+
+21,949 
+
+12,35 
+
+Monte bajo nativo manejado 
+
+19,4 
+
+10,92 
+
+Bosque de *Acacia caven* con matorral de *Sophora macrocarpa* y *Trevoa* 
+
+*trinervis* 
+
+19,4 
+
+10,92 
+
+Monte medio nativo manejado 
+
+17,967 
+
+10,11 
+
+Bosque de *Acacia caven* con matorral de *Sophora macrocarpa* y *Trevoa* 
+
+*trinervis* 
+
+7,071 
+
+3,98 
+
+Bosque de *Maytenus boaria* con matorral de *Rubus ulmifolius* 
+
+0,831 
+
+0,47 
+
+Bosque de *Maytenus boaria* con matorral de *Sophora macrocarpa* 
+
+5,838 
+
+3,28 
+
+Bosque de *Schinus latifolius* con matorral de *Baccharis linearis* 
+
+1,503 
+
+0,85 
+
+Pradera de *Brassica rapa* y *Sonchus oleraceus* 
+
+2,723 
+
+1,53 
+
+Pasto y arbusto muy degradados 
+
+11,014 
+
+6,2 
+
+Pradera natural degradada 
+
+3,837 
+
+2,16 
+
+Pueblos 
+
+2,81 
+
+1,58 
+
+Vivero ornamental 
+
+0,652 
+
+0,37 
+
+Zonas industriales, aeropuertos, redes viales 
+
+7,306 
+
+4,11 
+
+Zonas periurbanas 
+
+13,203 
+
+7,43 
+
+Total general 
+
+177,729 
+
+100 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+

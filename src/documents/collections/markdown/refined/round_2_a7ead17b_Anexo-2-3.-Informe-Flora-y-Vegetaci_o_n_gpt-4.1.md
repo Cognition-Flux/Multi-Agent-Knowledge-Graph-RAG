@@ -1,0 +1,321 @@
+# ANEXO 2-3
+
+# INFORME FLORA Y VEGETACIÓN
+
+---
+
+## INFORME ESPECIALISTA
+
+### ESTUDIO DE VEGETACIÓN Y FLORA TERRESTRE
+
+**Proyecto:** Mejoramiento de la Infraestructura y del manejo de sub-producto agrícola guano y purines en el Plantel Lechero Agrícola Panquehue Limitada
+
+**Elaborado para:**
+
+**B**
+
+**29-11-2017**
+
+**Revisión Cliente**
+
+**KA**
+
+**TM**
+
+**REV**
+
+**FECHA**
+
+**DESCRIPCIÓN**
+
+**ELAB.**
+
+**REV.**
+
+**APR.**
+
+---
+
+## ÍNDICE DE CONTENIDOS
+
+1. INTRODUCCIÓN .................................................................................................................... 1
+2. ÁREA DE INFLUENCIA ........................................................................................................... 2
+3. OBJETIVOS ............................................................................................................................. 2
+4. DEFINICIONES LEGALES ....................................................................................................... 3
+5. METODOLOGÍA ...................................................................................................................... 4
+   - 5.1 Levantamiento de información bibliográfica ................................................................. 4
+   - 5.2 Levantamiento de información en terreno .................................................................... 4
+     - 5.2.1 Vegetación ............................................................................................................. 4
+     - 5.2.2 Flora ..................................................................................................................... 6
+6. RESULTADOS ......................................................................................................................... 6
+   - 6.1 Levantamiento de información bibliográfica ................................................................. 6
+     - 6.1.1 Generalidades ....................................................................................................... 6
+     - 6.1.2 Vegetación ............................................................................................................ 7
+     - 6.1.3 Flora ..................................................................................................................... 8
+   - 6.2 Levantamiento de información en terreno .................................................................. 13
+   - 6.3 Vegetación ................................................................................................................ 13
+   - 6.4 Flora ......................................................................................................................... 16
+7. CONCLUSIONES ................................................................................................................... 19
+8. BIBLIOGRAFÍA ..................................................................................................................... 20
+
+---
+
+## ÍNDICE DE TABLAS
+
+- Tabla 1: Categorías de cobertura ............................................................................................ 4
+- Tabla 2: Categorías de estratificación ..................................................................................... 5
+- Tabla 3: Parcelas proyectadas ................................................................................................ 5
+- Tabla 4: Flora potencial .......................................................................................................... 9
+- Tabla 5: Listado florístico en área de influencia .................................................................... 17
+
+## ÍNDICE DE FIGURAS
+
+- Figura 1: Área de emplazamiento del Proyecto (polígono rojo de 15,27 hectáreas) ............. 1
+- Figura 2: Singularidades dentro del área de influencia del Proyecto (“área intervenida”) .... 14
+
+## ÍNDICE DE FOTOGRAFÍAS
+
+- Fotografías 1: Registro sectores ............................................................................................. 15
+
+---
+
+# 1. INTRODUCCIÓN
+
+El presente estudio ha sido elaborado por la especialista en Biología Karina A. Aguilera C., a solicitud de ANAGEA Consultores (el “Cliente”), con el objeto de caracterizar la componente ambiental “vegetación y flora terrestre” presente en el área de influencia del proyecto “Mejoramiento de la infraestructura para plantel lechero Agrícola Panquehue Limitada” (“el Proyecto”), cuyo Titular es la empresa Agrícola Panquehue Limitada.
+
+El Proyecto se encuentra ubicado en la Parcela Aguas Claras, comuna de Panquehue, provincia de San Felipe de Aconcagua, región de Valparaíso (ver Figura 1, polígono en rojo de 15,27 hectáreas).
+
+El Proyecto contempla la modificación, ampliación y construcción de una serie de obras y acciones que, en conjunto, permitirán optimizar el sistema productivo de leche cruda del proyecto original, denominado “Plantel Lechero Agrícola Panquehue Limitada”, el cual corresponde a una actividad de crianza de ganado bovino y producción de leche cruda que cuenta con 1,500 unidades animales y lleva en operación alrededor de seis décadas. Éste posee una sala de ordeña con sistema mecanizado, corrales de alojamiento para el ganado bovino, un galpón de crianza ternera, una bodega de almacenaje de alimentos de consumo animal e infraestructura asociada al manejo de guano y purines, entre otras instalaciones.
+
+Este Proyecto considera el mejoramiento de las instalaciones asociadas al sistema productivo y la optimización de su Plan de Manejo y Aplicación de Purines en predios agrícolas propios.
+
+**Figura 1: Área de emplazamiento del Proyecto (polígono rojo de 15,27 hectáreas).**
+
+Fuente: Google Earth, polígono enviado por Cliente.
+
+---
+
+# 2. ÁREA DE INFLUENCIA
+
+De acuerdo al Reglamento del SEIA el área de influencia se define como “el área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales deben ser considerados con la finalidad de definir si el proyecto o actividad genera o presenta alguno de los efectos, características o circunstancias del artículo 11 de la Ley, o bien para justificar la inexistencia de dichos efectos, características o circunstancias”. Complementariamente, la Guía SEA para definir área de influencia para ecosistemas terrestres (SEA, 2015), señala que la metodología a aplicar dependerá de los potenciales impactos, poniendo atención en la interacción que se produce entre las partes/obras/acciones del proyecto y los componentes de los ecosistemas terrestres. En particular, para la flora (y vegetación) el objeto estará en determinar:
+
+- Pérdida de una comunidad de flora o vegetación.
+- Modificación de la composición florística de una comunidad.
+- Modificación de la población, cambios en sus propiedades.
+- Pérdida de individuos o ejemplares de una población.
+- Invasión de individuos o ejemplares de flora.
+
+El presente Proyecto contempla la modificación, ampliación y construcción de una serie de obras y acciones que, en conjunto, permitirán optimizar el sistema productivo de leche cruda del proyecto original, dentro de una superficie de 15,27 ha (ver Figura 1), la cual se encuentra totalmente intervenida por el proyecto original. Por lo tanto, cualquier impacto sobre la flora y vegetación se localizará dentro del mencionado polígono, producto del despeje, corta, descepado, etc., de la vegetación presente actualmente, la que presentaría nula movilidad al momento de la intervención.
+
+En función de lo anteriormente mencionado, el área de influencia para la componente flora y vegetación terrestre se definió como el polígono de 15,27 ha donde se insertará el Proyecto.
+
+---
+
+# 3. OBJETIVOS
+
+El objetivo general del presente estudio fue describir los componentes flora y vegetación de los ecosistemas terrestres, presentes en el área de influencia del Proyecto. Se busca determinar la presencia de unidades vegetacionales y especies relevantes para la conservación de la diversidad local y nacional que puedan ser afectadas de manera negativa por las partes, acciones y obras del Proyecto.
+
+Para dar cumplimiento al objetivo general, se desarrollaron los siguientes objetivos específicos:
+
+- Levantamiento en gabinete sobre unidades vegetacionales y especies potenciales en el área de influencia, ecosistemas adyacentes u homólogos.
+- Levantamiento en terreno para flora y vegetación asociadas al área de influencia.
+- Análisis en gabinete de la información y generación de cartografía.
+
+---
+
+# 4. DEFINICIONES LEGALES
+
+En base de la Ley N°20.283, 2008, Sobre Recuperación del Bosque Nativo y Fomento Forestal del Ministerio de Agricultura y su Reglamento (D.S. N°93/2009 del MINAGRI), a continuación, se presentan definiciones clave, que permiten interpretar legalmente el nivel de protección de formaciones nativas que podrían ser intervenidas por el Proyecto:
+
+- **Bosque:** sitio poblado con formaciones vegetales en las que predominan árboles y que ocupa una superficie de por lo menos 5,000 metros cuadrados, con un ancho mínimo de 40 metros, con cobertura de copa arbórea que supere el 10% de dicha superficie total en condiciones áridas y semiáridas y el 25% en circunstancias más favorables.
+- **Bosque Nativo:** bosque formado por especies autóctonas, provenientes de generación natural, regeneración natural, o plantación bajo dosel con las mismas especies existentes en el área de distribución original, que pueden tener presencia accidental de especies exóticas distribuidas al azar.
+- **Bosque Nativo de Preservación** (numeral 4) del artículo 2° de la ley 20.283): aquél, cualquiera sea su superficie, que presente o constituya actualmente hábitat de especies vegetales protegidas legalmente o aquéllas clasificadas en las categorías de en "peligro de extinción", "vulnerables", "raras", "insuficientemente conocidas" o "fuera de peligro"; o que corresponda a ambientes únicos o representativos de la diversidad biológica natural del país, cuyo manejo sólo puede hacerse con el objetivo del resguardo de dicha diversidad. Se considerarán, en todo caso, incluidos en esta definición, los bosques comprendidos en las categorías de manejo con fines de preservación que integran el Sistema Nacional de Áreas Silvestres Protegidas del Estado o aquel régimen legal de preservación, de adscripción voluntaria, que se establezca.
+- **Bosque Nativo de Interés Especial para la Preservación:** Aquellas unidades de bosque nativo con presencia de especies clasificadas en las categorías señaladas en el numeral 4) del artículo 2° de la ley 20.283 (punto anterior), o que correspondan a ambientes únicos o representativos de la diversidad biológica natural del país, cuyo manejo sólo puede hacerse con el objetivo del resguardo de dicha diversidad.
+- **Formación xerofítica:** formación vegetal, constituida por especies autóctonas, preferentemente arbustivas o suculentas, de áreas de condiciones áridas o semiáridas ubicadas entre las Regiones I y VI, incluidas la Metropolitana y la XV y en las depresiones interiores de las Regiones VII y VIII.
+- **Plan de Manejo Forestal:** Instrumento que planifica el aprovechamiento sustentable de los recursos forestales nativos de un terreno determinado, con el objetivo de obtener bienes madereros y no madereros, considerando la multifuncionalidad de los bosques y la diversidad biológica, resguardando la calidad de las aguas y evitando el deterioro de los suelos.
+- **Plan de Manejo de preservación:** Instrumento que planifica la gestión del patrimonio ecológico buscando resguardar la diversidad biológica, asegurando la mantención de las condiciones que hacen posible la evolución y el desarrollo de las especies y ecosistemas contenidos en el área objeto de su acción, resguardando la calidad de las aguas y evitando el deterioro de los suelos.
+- **Plan de Trabajo:** Instrumento que regula la corta, destrucción o descepado de las formaciones xerofíticas de un terreno determinado, dispuesta en el artículo 60 de la ley, procurando el resguardo de la calidad de las aguas y evitando el deterioro de los suelos.
+
+---
+
+# 5. METODOLOGÍA
+
+## 5.1 Levantamiento de información bibliográfica
+
+Se revisaron antecedentes sobre ecosistemas terrestres (flora y vegetación) en publicaciones científicas nacionales e internacionales de libre acceso, tesis de grado, estudios técnicos de servicios públicos e informes de Línea Base ingresadas al Sistema de Evaluación de Impacto Ambiental (SEIA).
+
+La información fue consolidada e interpretada con el objeto de determinar presencia potencial de unidades vegetacionales y especies florísticas relevantes para la conservación de la diversidad local y nacional que puedan ser afectadas de manera negativa por las partes, acciones y obras contempladas por el Proyecto.
+
+## 5.2 Levantamiento de información en terreno
+
+El terreno fue ejecutado el día 20 de noviembre del 2017, y estuvo a cargo de Karina Aguilera, Especialista en Biota Terrestre, con experiencia en elaboración de líneas bases el marco del SEIA. Biólogo Ambiental y Magíster en Ciencias Biológicas de la U. de Chile.
+
+A continuación, se describe la metodología de estudio utilizada para flora y vegetación, la cual se basa en las metodologías de SEA (2015).
+
+### 5.2.1 Vegetación
+
+Para describir la vegetación se realizó un estudio de la Carta de Ocupación de Tierra (COT) Etienne y Prado (1982), que corresponde a un método cartográfico para representar la vegetación en su estado natural, considerando la formación vegetal, especies dominantes y grado de artificialización.
+
+Mediante este método se obtuvo la distribución de la vegetación, describiendo las siguientes variables cuantitativas y cualitativas:
+
+- **Cobertura:** Porcentaje de suelo cubierto por la proyección vertical de cada tipo biológico en relación a la superficie total de la unidad cartográfica. Los porcentajes de cobertura se clasifican en 7 categorías:
+
+| Rango        | Cobertura     | Número |
+|--------------|--------------|--------|
+| 1 – 5%       | Muy escasa    | 1      |
+| 5 – 10%      | Escasa        | 2      |
+| 10 – 25%     | Muy clara     | 3      |
+| 25 – 50%     | Clara         | 4      |
+| 50 – 75%     | Poco densa    | 5      |
+| 75 – 90%     | Densa         | 6      |
+| 90 – 100%    | Muy densa     | 7      |
+
+Fuente: Modificado de Etienne & Prado 1982.
+
+- **Tipos biológicos:** Las especies vegetales se clasifican en cuatro tipos biológicos: herbáceas (H), leñosas bajas (LB) arbustos cuyo tamaño no exceden los 2 metros de altura, leñoso alto (LA) árboles cuyo tamaño excede los dos metros de altura, suculentas cactáceas y bromeliáceas (S).
+
+| Tipo                        | Código | Significado         |
+|----------------------------|--------|---------------------|
+| Árboles                    | LA     | Leñoso Alto (>2m)   |
+| Arbustos y Árboles Bajos   | LB     | Leñoso Bajo (<2m)   |
+| Cactáceas-Suculentas       | S      | Suculentas          |
+| Hierbas Perennes y Anuales | H      | Herbáceo            |
+
+Fuente: Modificado de Etienne & Prado 1982.
+
+- **Estratificación:** Disposición vertical de la vegetación. Permite clasificar los tipos biológicos según la altura en la cual se presenta la mayor cantidad de biomasa.
+- **Especies dominantes:** Plantas que presentan el mayor porcentaje de cobertura en cada unidad cartográfica.
+- **Grado de artificialización:** Índice cualitativo que representa el grado de alteración de la vegetación por efecto de actividades humanas.
+
+El procedimiento del muestreo se basó en los siguientes pasos metodológicos:
+
+1. **Fotointerpretación:** Identificación y delimitación de unidades de vegetación homogéneas (unidades cartográficas) sobre la base de fotografías aéreas o imágenes satelitales.
+2. **Diseño muestral:** Sobre la base de la interpretación de fotografías aéreas o imágenes se decide el número y distribución de polígonos a describir en terreno. Previamente, en el presente estudio se definieron 05 (cinco) parcelas distribuidas homogéneamente, de superficie de 50 x 50 m2 (ver Tabla 3).
+
+| Parcela | Coord. UTM, WGS84, H19 | E      | N        |
+|---------|------------------------|--------|----------|
+| P-1     |                        | 326.581| 6.372.123|
+| P-2     |                        | 326.533| 6.372.022|
+| P-3     |                        | 326.416| 6.372.176|
+| P-4     |                        | 326.536| 6.372.276|
+| P-5     |                        | 326.630| 6.372.322|
+
+Fuente: Elaboración propia.
+
+3. **Descripción de terreno:** Se identifican los tipos biológicos presentes en cada unidad cartográfica, estimándose de forma visual su cobertura, estratificación, especies dominantes y grado de artificialización.
+4. **Procesamiento de datos y clasificación de la vegetación:** La información de tipos biológicos, cobertura y altura que caracterizan cada unidad vegetacional descrita en terreno se simplifica en Tipos Vegetacionales y luego se le asigna un nombre según el sistema de clasificación empleado.
+5. **Atributación y generalización de la información:** La atributación consiste en asignar a cada polígono descrito en terreno el tipo vegetacional obtenido para dicho polígono mediante el procesamiento de datos. La generalización consiste en atributar cada polígono no descrito en terreno con la descripción del tipo vegetacional correspondiente al patrón de textura, tonalidad y estructura que lo caracteriza según la interpretación de la foto aérea o imagen.
+6. **Producción Cartográfica:** La información atributada permite generar una capa digital que es utilizada para la elaboración de un mapa de la vegetación.
+
+### 5.2.2 Flora
+
+La flora fue descrita a partir del método de transecto (de paso), el cual se utilizó para el estudio de la composición florística de cada una de las unidades vegetacionales estudiadas en el punto anterior. Entre otros aspectos, este método permite evaluar la cantidad de especies presentes en el área a través de los transectos realizados. Para cada transecto definido se recorre un total de 100 pasos, dentro de este recorrido, cada dos pasos se registran las especies que coinciden con la muesca del zapato (con el cual se ha iniciado el transecto) o también con un anillo censador (anillo de 2 cm de diámetro, soldado a una varilla perpendicularmente). En el presente estudio no se determinó vigor, estado fitosanitario, ni erosión de suelo, sólo se buscó determinar las especies de flora presentes en cada unidad vegetacional.
+
+Las especies de flora registradas fueron clasificadas de acuerdo a los Decretos Supremos para Clasificación de Especies (según lo estipulado en el Reglamento para la Clasificación de Especies Silvestres, RCE, del 3 de junio del 2004), considerando los trece procesos de clasificación vigentes, a saber el D.S. N° 151/2007 del Ministerio Secretaría General de la Presidencia (MINSEGPRES), D.S. N° 50/2008 MINSEGPRES, D.S. N° 51/2008 MINSEGPRES, D.S. N° 23/2009 MINSEGPRES, D.S. N° 33/2012 del Ministerio del Medio Ambiente (MMA), D.S. N° 41/2012 MMA, D.S. N° 42/2012 MMA, D.S. N° 19/2012 MMA, D.S. N° 13/2013 MMA, D.S. N° 52/2014 MMA, D.S. N°38/2015 MMA, D.S. N° 16/2016 MMA y D.S. N° 06/2017 MMA.
+
+---
+
+# 6. RESULTADOS
+
+## 6.1 Levantamiento de información bibliográfica
+
+### 6.1.1 Generalidades
+
+La flora y vegetación del área de influencia del Proyecto se localiza en la región de Valparaíso, y corresponde a una de tipo chileno-mediterránea. En un contexto general, la vegetación nativa de este tipo de ecosistemas muestra entre sus principales características, la presencia de numerosas especies endémicas de Chile Central (32-38° S). Se ha determinado a este respecto, que en el área citada crecen unas 2,500 especies de plantas vasculares; de ellas, un 46,3 % son endémicas de Chile y un 23,4, endémicas de la eco-región mediterránea chilena (Arroyo & Cavieres 1997). El alto grado de endemismo y el alto nivel de la presión antrópica sobre la flora ha llevado a proponer al área como un "hot spot" de la conservación de la biodiversidad mundial (Arroyo et al, 1999).
+
+La vegetación natural en la región de Valparaíso presenta patrones de distribución que son consecuencia de la constante dinámica de perturbaciones producto de actividades humanas (DGA-CADEIDEPE, 2004). Las presiones demográficas, desarrollo agrícola, industrial e inmobiliario, han determinado a través del tiempo un relegamiento progresivo de la vegetación natural hacia zonas montañosas. De esta manera, esta región se caracteriza por un valle central destinado a la actividad agrícola e industrial, mientras que los elementos propios asociados a vegetación natural, se presentan en la medida que aumenta la rugosidad del relieve, o bien las condiciones edáficas son limitantes para el uso agrícola, como en riberas de ríos y esteros.
+
+Respecto de los usos del suelo para uso antrópico a nivel de cuenca hidrográfica del Aconcagua, se destaca primeramente la gran proporción de superficie para actividad agrícola y agricultura de riego (82,6%). Luego, aunque en mucha menor proporción, se destaca la presencia de praderas para ganadería (7,4%) y de áreas urbanas e industriales (5,7%) (Fuente: CONAF - CONAMA. Catastro de Bosque Nativo). Dada la elevada perturbación de los ecosistemas terrestres, la flora se caracteriza por presentar un importante porcentaje de plantas alóctonas asilvestradas (introducidas), las que pueden superar el 30% de la flora total en los sectores más intervenidos.
+
+### 6.1.2 Vegetación
+
+De acuerdo con la clasificación de Gajardo (1994), el área de influencia se encuentra localizada en la región del Matorral y del Bosque Esclerófilo, que se desarrolla a través de la zona central de Chile, cuya característica física dominante es la presencia de condiciones climáticas del tipo denominado mediterráneo, esto quiere decir, inviernos fríos y lluviosos con veranos cálidos y secos. Las precipitaciones aumentan progresivamente de norte a sur y es patrón fundamental en la distribución de las formaciones vegetales la presencia de las cordilleras de la Costa y de los Andes. Es una región con una alta diversidad vegetacional, donde las formas de vida que se encuentran son variadas, predominan arbustos altos de hojas esclerófilas, pero también se encuentran arbustos bajos xerófitos, arbustos espinosos, suculentas y árboles esclerófilos y laurifolios con gran desarrollo en altura.
+
+Gajardo (1994) sitúa al área de influencia en la formación de Matorral Espinoso de las Serranías, la que corresponde a una formación vegetal con un fuerte determinismo en los factores riscos del relieve, pues se encuentra ubicada en un sector del país que es característico por la presencia de cadenas montañosas situadas en una posición intermedia entre mar y cordillera. La vegetación que se ubica en los llanos y serranías del interior no recibe influencia directa del océano, así las características xéricas de los ambientes son más acentuados, por lo que es posible encontrar Maravilla del Campo (*Flourensia thurifera*) y el Monte Negro (*Heliotropium stenophyllum*), las que se manifiestan como una comunidad muy repartida y frecuente, ubicándose de preferencia en las laderas rocosas de los cerros. En los causes pedregosos de los ríos y quebradas se observan junto a los cultivos reducidas poblaciones de Algarrobo (*Prosopis chilensis*) y Espino (*Acacia caven*).
+
+Luebert y Pliscoff (2006) sitúan el área de influencia del Proyecto en el Bosque Espinoso Mediterráneo interior de *Acacia caven* y *Prosopis chilensis* (formación del Bosque Espinoso), el que se caracteriza por poseer además una estrata arbustiva compuesta principalmente por *Cestrum parqui, Muehlenbeckia hastulata, Schinus polygamus, Solanum ligustrinum* y *Proustia cuneifolia*. En la estrata herbácea destacan las plantas introducidas como *Avena barbata* y *Cynara cardunculus*, que reflejan el fuerte nivel de degradación que presenta. La presencia del parásito *Ligaria cuneifolia* en las copas de las dos especies dominantes es frecuente y localmente muy abundante. Más ocasional es la presencia de especies esclerófilas como *Quillaja saponaria* y *Lithrea caustica*.
+
+Estudios en la localidad de Panquehue y alrededores (Inversiones Tabolango S.A., 2017), describen la predominancia de matorrales y bosques ribereños, los que se encuentran altamente intervenidos y degradados, debido principalmente a la cercanía del sector con centros urbanos, carreteras y actividad industrial. Lo anterior se traduce en la presencia de huellas, tránsito de vehículos y maquinaria pesada, y vertimiento de escombros y basura, lo que, sumado a la actividad agrícola del entorno, determina alto nivel de especies exóticas, y una calidad basal baja de la vegetación natural. Complementariamente, estudios en la zona de ribera del Aconcagua (OHL, 2006), han determinado la presencia de la asociación de Bosque Ripario de Sauce Amargo (*Salix humboldtiana*), Matorral Ripario de *Baccharis salicifolia* (Chilca), Praderas antrópicas, plantaciones forestales y de frutales. Finalmente, estudios desarrollados en la zona del Proyecto por OHL (2015) han identificado la presencia de las asociaciones de Matorral Ripariano de *Baccharis salicifolia*, Matorral Ripariano de *Baccharis salicifolia* y *Tessaria absinthioides*, Bosque Ripariano de *Salix chilensis*, Bosque Ripariano de *Salix chilensis - Maytenus boaria*, Bosque Mixto de Eucaliptus *globulus - Maytenus boaria*, plantación de *Eucaliptus globulus* y plantación de *Vitis vinifera*.
+
+### 6.1.3 Flora
+
+El listado de flora potencial representativa de acuerdo con la localización del Proyecto y de acuerdo a la revisión bibliográfica realizada (Luebert y Pliscoff, 2006; Gajardo, 1993; Inversiones Tabolango S.A., 2017; OHL, 2006; OHL, 2015) se encuentra en la Tabla 4.
+
+Como flora representativa de los ecosistemas terrestres presentes y aledaños al área de influencia del Proyecto fue posible identificar 109 especies, destacándose como de mayor representatividad a la familia de las compuestas (Asteracea) con el 17,4% del total; seguido de las gramíneas (Gramineae) con el 13,8% del total. En cuanto al hábito, dominan los representantes del estrato herbáceo (perenne y anual) con el 68,8% del total.
+
+Las especies de flora potencial son principalmente alóctonas (56,0% del total), es decir, su origen biogeográfico se localiza fuera del territorio nacional. Del restante de especies nativas (44,0%); dos especies se encuentran en categoría de conservación:
+
+- Cola de caballo, *Equisetum giganteum*, **Preocupación Menor**, D.S. N°13/13 MMA.
+- Algarrobo, *Prosopis chilensis*, **Vulnerable**, D.S. N°13/13 MMA.
+
+#### Tabla 4: Flora potencial
+
+*(La tabla completa se encuentra en el documento original y contiene el listado detallado de especies, su origen geográfico y categoría de conservación, si corresponde.)*
+
+---
+
+## 6.2 Levantamiento de información en terreno
+
+### 6.3 Vegetación
+
+El área de influencia se encuentra totalmente intervenida producto de la habilitación de corrales para crianza de vacas (ver Fotografías 1). No se encuentran unidades ni formaciones vegetacionales, así como tampoco plantaciones, por lo que, según la metodología aplicada, la totalidad del área correspondería a “área intervenida”. Cabe mencionar que, dado este escenario, las parcelas previamente diseñadas en gabinete (fotointerpretación) no fueron ejecutadas.
+
+Dentro de esta “área intervenida” se observaron principalmente los mencionados corrales acompañados de árboles introducidos (Plátanos orientales). Secundariamente, se destaca la presencia del canal Aguas Claras que recorre el área de oriente a poniente en el sector sur del polígono, donde se encuentran especies vegetacionales más hidrófitas. Finalmente, en los bordes norte y oriente del área se observó una hilera de Quillayes plantados por el Titular, y en el extremo norte del polígono se encuentra en construcción la nueva ruta 60-CH. Estas observaciones se señalan en la Figura 2.
+
+**Figura 2: Singularidades dentro del área de influencia del Proyecto (“área intervenida”).**
+
+Fuente: Elaboración propia.
+
+- Canal Aguas Claras
+- Plátanos orientales
+- Hilera Quillayes
+- Nueva Ruta 60-CH
+- Instalaciones
+
+**Fotografías 1: Registro sectores.**
+
+Fuente: Elaboración propia.
+
+---
+
+### 6.4 Flora
+
+El listado florístico registrado se compone de 33 especies tal y como se muestra en Tabla 5, donde es posible distinguir representantes de 23 familias, dominando las compuestas (Asteraceae), con 6 especies. Dominan ampliamente las especies de hábito herbáceo (con un 81,8% del total de ejemplares registrados), compuesta por hierbas perennes, anuales e hidrófitas, estas últimas asociadas netamente al canal Aguas Claras.
+
+En relación al origen de la flora presente en el área de influencia, se observa una predominancia de especies introducidas (63,6%), siendo el restante 23,4% nativas del territorio nacional.
+
+De las especies nativas registradas en el área de influencia, una de ellas se encuentra en categoría de conservación según normativa chilena, la que corresponde a **Palma Chilena**, actualmente **Vulnerable** (DS 51/08 MINSEGPRES). Se observaron alrededor de 15 palmas pequeñas, distribuidas a ambos costados del canal Aguas Claras. De acuerdo con lo informado por el Titular del Proyecto, estos ejemplares fueron plantados de manera artificial, siendo adquiridas en un vivero. Cabe volver a mencionar que dichos ejemplares no pertenecen a una unidad de bosque nativo, puesto que, como se mencionó anteriormente, en el área de influencia no fue posible determinar presencia de este tipo de formaciones vegetacionales. Adicionalmente, según lo informado por el Titular, estos ejemplares no serían intervenidos por las obras o acciones del Proyecto.
+
+#### Tabla 5: Listado florístico en área de influencia
+
+*(La tabla completa se encuentra en el documento original y contiene el listado detallado de especies, su origen y categoría de conservación, si corresponde.)*
+
+---
+
+# 7. CONCLUSIONES
+
+- El Proyecto se localiza en una zona de tipo mediterránea de Chile Central, con formaciones vegetales predominantes de Matorral, Bosque Esclerófilo y Bosque Ripariano, caracterizada por el alto endemismo, pero también por la elevada intervención antrópica.
+- Esta elevada perturbación antrópica ha generado una modificación sustantiva de las formaciones vegetacionales nativas, las que se encuentran fragmentadas, además de contar con un elevado porcentaje de especies florísticas alóctonas.
+- El estudio arrojó que el Proyecto se localiza en una superficie totalmente intervenida por el proyecto original, destinado a la crianza de ganado (vacas) para la producción de leche. Por ello, no se encontraron unidades o formaciones vegetacionales como tal, describiendo a la totalidad del polígono como “área intervenida”.
+- En consecuencia, no aplica la tramitación de algún Permiso Ambiental Sectorial (PAS) asociado con la corta de unidades vegetacionales reguladas por CONAF (p.e. bosque nativo, formaciones xerofíticas, etc.).
+- Dentro de la “área intervenida” antes mencionada, se observan principalmente corrales para ganado acompañados de árboles (alóctonos Plátanos orientales). Luego, se encuentra el canal Aguas Claras que recorre el área de oriente a poniente en el sector sur del área estudiada, donde se encontraron especies vegetacionales más hidrófitas. Finalmente, en los bordes norte y oriente del área se observó una hilera de Quillayes plantados por el Titular, y en el extremo norte del polígono se encuentra en construcción la nueva ruta 60-CH.
+- De acuerdo a los antecedentes bibliográficos, la mayor proporción de especies florísticas potenciales son las hierbas, además de presentar un porcentaje relevante de especies alóctonas. Los resultados del presente estudio coinciden con dichos antecedentes, donde el 81,8% fue de hábito herbáceo; y el 63,6% fueron especies alóctonas.
+- Según los antecedentes bibliográficos, se podrían encontrar dos especies protegidas: Cola de caballo, *Equisetum giganteum*, **Preocupación Menor**, D.S. N°13/13 MMA; y Algarrobo, *Prosopis chilensis*, **Vulnerable**, D.S. N°13/13 MMA. En terreno no se encuentran dichas especies.
+- No obstante, fue posible identificar la presencia de otra especie protegida, correspondiente a la **Palma Chilena**, actualmente clasificada como **Vulnerable** (DS 51/08 MINSEGPRES). Se registraron alrededor de 15 palmas pequeñas, distribuidas a ambos costados del canal Aguas Claras. De acuerdo con lo informado por el Titular del Proyecto, estos ejemplares fueron plantados de manera artificial, siendo adquiridas en un vivero, y no serían intervenidos por las obras o acciones del Proyecto.
+- Por lo anteriormente mencionado, no se requeriría la aplicación de medidas ambientales especiales para el manejo de especies o poblaciones en categoría de conservación.
+
+---
+
+# 8. BIBLIOGRAFÍA
+
+- Arroyo, M.T.K. & L.A. Cavieres (1997) The mediterranean-type climate flora of Central Chile - What do we know and how can we assure its protection. Noticiero de Biología 5 (2): 48-56.
+- Arroyo, M.T.K., R. Rozzi, J.A. Simonetti, P. Marquet & M. Salaberry (1999) Central Chile. In (R.A. Mittermeier, N. Myers, P. Robles Gil & C. Goettsch Mittermeier, eds), "Hotspots: Earth's Biologically Richest and Most Endangered Terrestrial Ecorregions", pp. 161-171. CEMEX, México.
+- Benoit, I. L. 1989. Libro Rojo de la Flora Terrestre de Chile (Primera parte). Santiago. 157 pp., 22 lám. incl. en el texto,1 mapa.
+- DGA-CADEIDEPE, 2004. Diagnóstico y Clasificación de los Cursos y Cuerpos de Agua según Objetivos de Calidad, Cuenca del Río Aconcagua. Diciembre 2004. Dirección General de Aguas. 160 pp.
+- Etienne M. y C. Prado. 1982. Descripción de la vegetación mediante la cartografía de la ocupación de tierras. Conceptos y manual de uso práctico. Revista Ciencias Agrícolas, 10. Universidad de Chile, Facultad de Ciencias Agrarias, Veterinarias y Forestales. 120 pp.
+- Gajardo, R. 1994. La vegetación natural de Chile. Clasificación y distribución geográfica. Santiago de Chile: Editorial Universitaria.
+- Inversiones Tabolango S.A., 2017. Declaración de Impacto Ambiental (DIA) proyecto “Río Aconcagua, Extracción Mecanizada de Áridos”. Consultora Ingeniería Ecosam S.A.
+- Luebert, F. y Pliscoff, P. 2006. Sinopsis bioclimática y vegetacional de Chile. Santiago de Chile: Editorial Universitaria.
+- OHL. 2006. Estudio de Impacto Ambiental (EIA) proyecto “Defensas Fluviales Río Aconcagua para camino Internacional Ruta 60 Ch Sector 1 Los Andes - Panquehue V Región”. Consultora EDIC Ingenieros S.A.
+- OHL, 2015. Extracción Mecanizada de Áridos Río Aconcagua, Proyecto Camino Internacional Ruta 60CH Sector 1 Tramo 2 Variante Panquehue. Consultora Ingeniería Ecosam S.A.
+- SEA. Servicio de Evaluación Ambiental. 2015. Guía para la Descripción de los Componentes Suelo, Flora y Fauna de Ecosistemas Terrestres en el SEIA. 98 pp.

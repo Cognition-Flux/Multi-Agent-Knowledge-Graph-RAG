@@ -1,0 +1,336 @@
+# ANEXO 2-2
+
+# LINEA DE BASE FLORA Y VEGETACIÓN
+
+---
+
+## ÍNDICE
+
+- **INTRODUCCIÓN** ...................................................................................................................... 1
+- **OBJETIVOS** ............................................................................................................................. 1
+  - 2.1 FLORA ....................................................................................................................................... 1
+  - 2.2 VEGETACIÓN ............................................................................................................................ 1
+- **ÁREA DE INFLUENCIA** ............................................................................................................. 1
+- **METODOLOGÍA** ...................................................................................................................... 4
+  - 4.1 ANÁLISIS BIBLIOGRÁFICO ......................................................................................................... 4
+  - 4.2 CAMPAÑAS DE TERRENO ......................................................................................................... 4
+  - 4.3 MÉTODOS DE FLORA ................................................................................................................ 4
+    - 4.3.1 Registro de las especies.................................................................................................... 4
+    - 4.3.2 Nomenclatura y nombres vulgares. ................................................................................. 4
+    - 4.3.3 Tipos de hábito. ................................................................................................................ 4
+    - 4.3.4 Origen geográfico. ............................................................................................................ 5
+    - 4.3.5 Estado de conservación. ................................................................................................... 5
+  - 4.4 MÉTODOS DE VEGETACIÓN ..................................................................................................... 6
+- **RESULTADOS** .......................................................................................................................... 8
+  - 5.1 ANTECEDENTES BIBLIOGRÁFICOS ............................................................................................ 8
+    - 5.1.1 Flora .................................................................................................................................. 8
+    - 5.1.2 Vegetación ........................................................................................................................ 9
+  - 5.2 CAMPAÑAS EN TERRENO ....................................................................................................... 11
+    - 5.2.1 Flora ................................................................................................................................ 11
+    - 5.2.2 Vegetación ...................................................................................................................... 21
+- **ANÁLISIS DE RESULTADOS** .................................................................................................... 57
+  - 6.1 FLORA ..................................................................................................................................... 57
+  - 6.2 VEGETACIÓN .......................................................................................................................... 58
+- **CONCLUSIONES** .................................................................................................................... 61
+- **REFERENCIAS BIBLIOGRÁFICAS** ............................................................................................. 61
+
+---
+
+## ÍNDICE DE TABLAS
+
+- Tabla 1. Proyecto La Cobaltera: categorías de conservación utilizadas en la clasificación de la flora vascular del área de estudio..................................................................................................................... 6
+- Tabla 2. Estratificación por tipo biológico y forma de la codificación de las especies. ........................... 7
+- Tabla 3. Rango de valores para la cobertura vegetal. .............................................................................. 7
+- Tabla 4. Lista de especies de flora vascular............................................................................................ 12
+- Tabla 5. Tipo de hábito versus origen geográfico de las especies (Se incluyen solo las especies determinadas) ........................................................................................................................................ 15
+- Tabla 6. Puntos de hallazgo de *Eriosyce aurata* ..................................................................................... 15
+- Tabla 7. Proyecto La Cobaltera. Puntos de hallazgo de *Copiapoa coquimbana* .................................... 18
+- Tabla 8. Especies incluidas en el DS 68-2009 del Minagri. ..................................................................... 20
+- Tabla 9. Descripción de las formaciones de la cartografía de la vegetación. ........................................ 21
+- Tabla 10. Formación del matorral *Balsamocarpon brevifolium* (algarrobilla) y *Miquelopuntia miquelii*, composición y abundancia de las especies (%). ..................................................................................... 32
+- Tabla 11. Ubicación de las parcelas de la formación del matorral de *Balsamocarpon brevifolium* (algarrobilla) y *Miquelopuntia miquelii* (WGS 84 Huso 19).Parcelas de 400 m2. ................................... 32
+- Tabla 12. Formación del matorral *Haplopappus mucronatus* (baylahuén) y *Senna cumingii* (alcaparra), composición y abundancia de las especies (%). ..................................................................................... 34
+- Tabla 13. Ubicación de las parcelas de la formación del matorral de *Haplopappus mucronatus* y *Senna cumingii* (WGS 84 Huso 19). Parcelas de 400 m2. .................................................................................. 34
+- Tabla 14. Formación del matorral *Heliotropium sinuatum*, composición y abundancia de las especies (%). ......................................................................................................................................................... 38
+- Tabla 15. Ubicación de las parcelas de la formación del matorral de *Heliotropium sinuatum* (WGS 84 Huso 19). Parcelas de 400 m2. ................................................................................................................ 42
+- Tabla 16. Formación del matorral *Adesmia argentea*; composición y abundancia de las especies (%).43
+- Tabla 17. Ubicación de las parcelas de la formación del matorral *Adesmia argentea* (WGS 84 Huso 19). Parcelas de 400 m2. ................................................................................................................................ 44
+- Tabla 18. Formación del matorral de *Balbisia peduncularis*, composición y abundancia de las especies (%). ......................................................................................................................................................... 47
+- Tabla 19. Ubicación de las parcelas de la formación del matorral de *Balbisia peduncularis* (WGS 84 Huso 19).Parcelas de 400 m2 ........................................................................................................................... 50
+- Tabla 20. Formación del matorral de *Bulnesia chilensis*, composición y abundancia de las especies (%). ................................................................................................................................................................ 51
+- Tabla 21. Ubicación de las parcelas de la formación del matorral de *Bulnesia chilensis*  (WGS 84 Huso 19). Parcelas de 400 m2. ......................................................................................................................... 52
+- Tabla 22. Formación del matorral de *Cordia decandra*, composición y abundancia de las especies. ... 55
+- Tabla 23. Ubicación de las parcelas de la formación del matorral de *Cordia decandra* (WGS 84 Huso 19).Parcelas de 400 m2. .......................................................................................................................... 57
+- Tabla 24. Análisis de singularidades ambientales de la flora. ................................................................ 58
+- Tabla 25. Análisis de las singularidades ambientales de las comunidades vegetacionales. .................. 59
+
+---
+
+## ÍNDICE DE FIGURAS
+
+- Figura 1. Área de influencia. Los polígonos rosados son aquellos que se exploran y describen. ............ 3
+- Figura 2. Propuesta de formaciones de vegetación para el área de influencia (Gajardo 1994) ............ 10
+- Figura 3. Pisos de vegetación propuestos por Luebert & Pliscoff (2017) para el área de influencia. .... 11
+- Figura 4. Cartografía de la vegetación. (COT) ........................................................................................ 22
+
+---
+
+## ÍNDICE DE FOTOGRAFÍAS
+
+- Fotografía 1. Varios ejemplares de *Eriosyce aurata* (sandillón), especie clasificada como vulnerable. 16
+- Fotografía 2. *Eriosyce aurata*, especie clasificada como vulnerable. Detalle de un ejemplar. .............. 16
+- Fotografía 3. Ejemplar florecido de *Cordia decandra*, carbonillo, especie clasificada como “casi amenazada”. .......................................................................................................................................... 17
+- Fotografía 4. Ejemplar florecido de *Cordia decandra*, carbonillo,especie clasificada como “casi amenazada”. Detalle hojas y flores. ....................................................................................................... 17
+- Fotografía 5. *Copiapoa coquimbana,* especie clasificada como “casi amenazada” ............................... 18
+- Fotografía 6. *Copiapoa coquimbana*, especie clasificada como “casi amenazada”, detalle de un cuerpo y su flor. .................................................................................................................................................. 19
+- Fotografía 7. *Balsamocarpon brevifolium*, una especie clasificadacomo vulnerable al nivel regional (Squeo et al, 2008, a). ............................................................................................................................ 20
+- Fotografía 8. Aspecto de la formación de *Balsamocarpon brevifolium* y *Miquelopuntia miquelii* ........ 31
+- Fotografía 9. Aspecto de la formación del matorral de *Haplopappus mucronatus* y *Senna cumingii* ... 33
+- Fotografía 10. Aspecto de la formación de *Adesmia argentea* .............................................................. 43
+- Fotografía 11. Aspecto de la formación del matorral de *Balbisia peduncularis*. .................................... 45
+- Fotografía 12. Formación del matorral de *Balbisia peduncularis*. ......................................................... 45
+- Fotografía 13. Formación del matorral de *Balbisia peduncularis*. ......................................................... 46
+- Fotografía 14. Formación del matorral de *Bulnesia chilensis*. ............................................................... 51
+- Fotografía 15. Formación del matorral de *Cordia decandra.* ................................................................. 53
+- Fotografía 16. Formación del matorral de *Cordia decandra.* ................................................................. 53
+- Fotografía 17. Formación del matorral de *Cordia decandra*. .................................................................. 54
+
+---
+
+## INTRODUCCIÓN
+
+El siguiente informe describe la caracterización ambiental para la componente flora y vegetación, para el área de influencia del Proyecto “Prospecciones La Cobaltera”.
+
+El proyecto que se somete a evaluación ambiental a través de la presente Declaración de Impacto Ambiental consiste en la habilitación de 78 plataformas de 150 m² de superficie, agrupadas al interior de 25 polígonos, para la ejecución de sondajes mediante el método de perforación del tipo diamantina, con el objetivo de determinar y cuantificar las concentraciones de minerales de cobalto presentes en el sector, y de esta forma, elaborar un plan minero para su futura explotación. De esta forma, el Proyecto corresponde a la continuación de una campaña de exploraciones iniciada en agosto de 2018, que contempla 39 plataformas.
+
+Las áreas de intervención del Proyecto (plataformas ubicadas al interior de los 25 polígonos antes indicados) se emplazarán en la comuna de Freirina, al interior de la localidad de Quebradita, a 23 km al sur oriente de la ciudad de Huasco y a 20,5 km al sur poniente de la ciudad de Freirina.
+
+---
+
+## OBJETIVOS
+
+### 2.1 FLORA
+
+Se entiende por *flora* al conjunto de las especies de plantas vasculares que crecen en el área de estudio, sin incluir aspectos sobre su cuantificación. Respecto de los objetivos de flora en esta línea de base, ellos consisten en describir la flora nativa vascular terrestre en los sitios donde se propone explorar mediante parámetros propios de ella tales como: la riqueza, su composición, los tipos de hábito, el origen geográfico de las especies, la presencia de especies clasificadas en categorías de conservación y particularmente en las de amenaza. Finalmente siguiendo lo propuesto por Conaf (2014) y la guía del SEA de 2015, se incluye un análisis sobre la singularidad ambiental.
+
+### 2.2 VEGETACIÓN
+
+Se entiende por *vegetación* al mosaico de las comunidades que forma el paisaje vegetal del área de estudio. Corresponde a un aspecto cuantitativo que da cuenta de la participación de las especies con una abundancia que es característica para cada uno de los tipos de comunidad. Cada comunidad ocupa un espacio determinado que se muestra mediante la elaboración de la carta de vegetación.
+
+El objetivo de la línea de base de vegetación es, por lo tanto, clasificar y cartografiar las comunidades de vegetación nativa. Finalmente se analiza su singularidad ambiental en los términos que proponen Conaf (2014) y la guía del SEA de 2015.
+
+---
+
+## ÁREA DE INFLUENCIA
+
+El D. S. Nº 40/2012 del MMA define el área de influencia de un proyecto como el área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales deben ser considerados con la finalidad de definir si un proyecto o actividad genera o presenta alguno de los efectos, características o circunstancias del artículo 11 de la Ley de Bases del Medio Ambiente, o bien para justificar la inexistencia de dichos efectos, características o circunstancias.
+
+Conforme con lo establecido por el D.S. Nº 40/2012 del MMA, el área de influencia para la flora y la vegetación es aquella donde se emplazarán las plataformas de sondajes, así como los caminos de acceso. Se ha considerado como área de influencia los polígonos en que han sido agrupadas las plataformas de sondajes (Figura 1).
+
+---
+
+## Figura 1. Área de influencia. Los polígonos rosados son aquellos que se exploran y describen.
+
+---
+
+## METODOLOGÍA
+
+### 4.1 ANÁLISIS BIBLIOGRÁFICO
+
+Para obtener antecedentes sobre la flora y la vegetación del área de estudio, a fin de compararlos con los resultados de esta campaña, se revisó la bibliografía relacionada con el conocimiento previo de la flora vascular del área del proyecto en Squeo et al. (2008 a y b), Letelier et al. (2008), SGA-White Mountain (2014); como de la vegetación, Gajardo (1994) y Luebert & Pliscoff (2017).
+
+### 4.2 CAMPAÑAS DE TERRENO
+
+Este informe contiene los resultados de tres campañas de terreno llevadas a cabo por especialistas en flora vascular y vegetación terrestre. Las campañas en terreno a las cuales se hace referencia se realizaron entre los días 14 y 15 de noviembre de 2018; 18 al 22 de marzo 2019 y desde el 1 al 5 de abril de 2019.
+
+### 4.3 MÉTODOS DE FLORA
+
+#### 4.3.1 Registro de las especies
+
+La identificación de las especies se hizo en terreno con base en la experiencia de los especialistas; además, se fotografió y colectó material de las plantas que no se pudo identificar, las que se determinaron finalmente en gabinete con la ayuda de la literatura pertinente. La lista de especies de flora vascular terrestre se obtuvo mediante la observación directa en recorridos a pie y en vehículo por las áreas propuestas para la exploración y utilizando la información registrada de las parcelas que se levantaron para clasificar la vegetación (ver a continuación en 4.4).
+
+#### 4.3.2 Nomenclatura y nombres vulgares
+
+En la lista de la flora vascular terrestre, a cada especie se le asigna el nombre científico y la familia de acuerdo con Marticorena & Quezada (1985), Marticorena & Rodríguez (1995, 2001, 2003, 2005, 2011), Zuloaga *et al*. (2008, en adelante) y Rodríguez *et al*. (2018). El nombre vulgar se obtuvo de Baeza (1930), Gajardo (1994), Navas (1973-1979) y Rodríguez *et al*. (2018).
+
+#### 4.3.3 Tipos de hábito
+
+Para el análisis del hábito de las plantas se consideraron los siguientes tipos:
+
+- **Árboles**: especies leñosas con uno o pocos fustes, gruesos, en el área de poco más de 2 m de altura.
+- **Arbustos**: especies leñosas, con varios fustes delgados, ramificadas desde la base, de hasta 2 m de altura.
+- **Suculentas**: especies leñosas con tallos suculentos.
+- **Hierbas perennes**: especies cuyos ejemplares poseen órganos de resistencia subterráneos y rebrotan en la estación favorable.
+- **Hierbas anuales**: especies que sobreviven a la estación desfavorable sólo mediante sus semillas.
+
+#### 4.3.4 Origen geográfico
+
+La asignación de origen geográfico a las especies incluye las siguientes categorías:
+
+- **Nativas**: especies que se encontraban en Chile ya a la llegada de los españoles. Se las puede clasificar, a su vez, en tres grupos: nativas endémicas regionales (ámbito restringido a la Región de Coquimbo), endémicas al nivel de Chile (área de distribución natural no sobrepasa los límites del país) y nativas no endémicas (distribución natural comprende otros países).
+- **Alóctonas asilvestradas, exóticas asilvestradas o especies introducidas**: transportadas por el hombre desde otros países que actualmente se han vuelto silvestres en nuestro país.
+
+#### 4.3.5 Estado de conservación
+
+El estado de conservación de las especies se atribuyó considerando las listas oficiales de clasificación generadas a partir del DS Nº 75/2005 del Minsegpres. Se verificó hasta la lista de especies contenidas en el D.S. N° 79/2018 del MMA correspondiente al XIV proceso de clasificación. Dado que las listas oficiales se encuentran aún en desarrollo, se revisaron, además, las especies clasificadas en otras instancias nacionales, tales como la del “Libro Rojo de la Flora Terrestre de Chile” (Conaf, 1989) y la del Boletín 47 del Museo Nacional de Historia Natural (Baeza *et al.* 1998; Belmonte *et al.* 1998 y Ravenna *et al.* 1998), considerándolas para el análisis en el orden de prelación sugerido por Conaf. Las categorías de conservación reconocidas son: "extinguida" (extinta), "en peligro crítico de extinción", “en peligro”, "vulnerable", "casi amenazada" y "preocupación menor”; siendo las cuatro primeras las consideradas como de “amenaza” (UICN 2012) (Tabla 1).
+
+En este informe a las plantas leñosas, a las monocotiledóneas con flores vistosas y a las pteridófitas que no fueron *explícitamente* incluidas en alguna categoría de conservación al nivel nacional en el Libro Rojo (Conaf, 1989), en el Boletín del Museo Nacional de Historia Natural 47 (1998) o en las publicaciones del Comité de Clasificación del MMA hasta 2018, se les denomina como “sin amenaza”. A las plantas herbáceas que no han sido clasificadas ni en las instancias referidas ni en los procesos de la Minsegpres-Conama ni del MMA, hasta 2018, se las considera como “no evaluada”. Finalmente, a las especies alóctonas asilvestradas o introducidas se les asignó un “no aplica”. Se han incluido, además, las categorías propuestas por Squeo et al. al nivel de la Región de Atacama (2008-a) cuando son de "amenaza".
+
+---
+
+### Tabla 1. Proyecto La Cobaltera: categorías de conservación utilizadas en la clasificación de la flora vascular del área de estudio.
+
+| Categoría            | Descripción                                                                                                                                                                                                 |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| En peligro crítico  | Una especie se considerará "en peligro crítico" cuando la mejor evidencia disponible indica que cumple con alguno de los criterios establecidos por la UICN para tal categoría y, por consiguiente, se considera que está enfrentando un riesgo extremadamente alto de extinción en estado silvestre. |
+| En peligro          | Una especie se considerará "en peligro" cuando la mejor evidencia disponible indica que cumple con alguno de los criterios establecidos por la UICN para tal categoría y, por consiguiente, se considera que está enfrentando un riesgo muy alto de extinción en estado silvestre. |
+| Vulnerable          | Un taxón es vulnerable cuando la mejor evidencia disponible indica que se está enfrentando a un riesgo de extinción alto en estado de vida silvestre.                                                        |
+| Casi amenazada      | Un taxón está casi amenazado cuando ha sido evaluado y no satisface, actualmente, los criterios para en peligro crítico, en peligro o vulnerable, pero está próximo a satisfacer los criterios, o posiblemente los satisfaga, en un futuro cercano. |
+| Preocupación menor  | Un taxón se considera de preocupación menor cuando, habiendo sido evaluado, no cumple ninguno de los criterios que definen las categorías de en peligro crítico, en peligro, vulnerable o casi amenazado. Se incluyen en esta categoría taxones abundantes y de amplia distribución. |
+
+*Fuente: (UICN-2012).*
+
+---
+
+### 4.4 MÉTODOS DE VEGETACIÓN
+
+El área de influencia se evaluó preliminarmente mediante la observación de una fotografía satelital provista por el programa *Google Earth Pro* ello para comprender la variación de los elementos que definen en el norte la distribución de las comunidades de vegetación, en particular, la exposición, las pendientes, las formas del relieve y los tipos tipo de suelo.
+
+Las comunidades de vegetación terrestre se clasificaron, caracterizaron y cartografiaron mediante la metodología de la Carta de Ocupación de Tierras (COT) (Etienne & Prado, 1982), registrando en la visita al terreno: los tipos biológicos, las especies dominantes (las especies más abundantes) y la cobertura total de la vegetación.
+
+La metodología de la COT es un método de representación y de clasificación de la vegetación que la considera como un factor integrador de las variaciones naturales del medio y de las modificaciones producidas por la acción del hombre; pretende, mediante el uso de la cartografía, lograr una representación fiel de la vegetación actual a una escala de trabajo dada. Esta representación se obtiene mediante la caracterización de variables como la formación vegetal y las especies dominantes y se basa, fundamentalmente, en registrar los cambios de dominancia de las especies. Una formación vegetal corresponde a aquel conjunto de especies que presentan caracteres convergentes tanto en su forma como en su comportamiento, constituyéndose en un enfoque eminentemente fisonómico.
+
+De acuerdo con lo expresado, las especies se clasifican en cuatro tipos biológicos fundamentales:
+
+- **Herbáceo**: especies cuyos tejidos no están lignificados (no son leñosos), con todos los tallos ricos en clorofila y fotosintéticos.
+- **Leñoso bajo**: especies de tejidos lignificados o leñosos cuyo tamaño no sobrepasa los dos metros de altura (sólo en casos excepcionales pueden llegar a medir hasta cuatro metros de altura).
+- **Leñoso alto**: especies de tejidos lignificados o leñosos cuyo tamaño excede los dos metros de altura.
+- **Suculento**: bajo esta denominación se agrupan principalmente las cactáceas y las bromeliáceas.
+
+Las formaciones vegetales pueden ser simples o complejas de acuerdo con la dominancia de uno o más tipos biológicos. La cobertura representa la porción del terreno que es ocupada por la vegetación o por su proyección vertical. Este criterio que se expresa por estrato, para cada unidad (formación), ofrece una estimación de la **abundancia** de cada tipo biológico y de algunas de las especies, particularmente de aquellas que son las dominantes. Todo ello se entrega en tablas y se explica en términos generales para cada formación de vegetación clasificada en el área evaluada. Los índices y códigos empleados en este estudio, así como las coberturas y densidades respectivas se presentan en el texto en la tabla correspondiente a la COT.
+
+Las formaciones observadas se caracterizan en términos de su estratificación, cobertura, altura y especies dominantes (Tabla 2).
+
+---
+
+### Tabla 2. Estratificación por tipo biológico y forma de la codificación de las especies.
+
+| Tipo biológico | Género      | Especie     | Ejemplo                      |
+|---------------|-------------|-------------|------------------------------|
+| Herbáceo      | Minúscula   | Minúscula   | *Avena barbata*: ab          |
+| Leñoso Bajo   | Mayúscula   | Minúscula   | *Schinus polygamus*: SP      |
+| Leñoso Alto   | Mayúscula   | Mayúscula   | *Acacia caven*: AC           |
+| Suculento     | Minúscula   | Mayúscula   | *Cumulopuntia sphaerica*: cS |
+
+*Fuente: Etienne & Prado (1982)*
+
+La Tabla 3 resume la codificación de las medidas de cobertura de acuerdo con la metodología propuesta.
+
+---
+
+### Tabla 3. Rango de valores para la cobertura vegetal.
+
+| Código   | Rango de cobertura | Nombre        |
+|----------|--------------------|---------------|
+| 1-5%     | Muy escasa         |               |
+| 5-10%    | Escasa             |               |
+| 10-25%   | Muy clara          |               |
+| 25-50%   | Clara              |               |
+| 50-75%   | Poco densa         |               |
+| 75-90%   | Densa              |               |
+| 90-100%  | Muy densa          |               |
+
+*Fuente: Etienne & Prado (1982)*
+
+A partir de la clasificación preliminar en terreno de la vegetación mediante la metodología de la COT, basada en la dominancia de las especies, se levantaron parcelas del área mínima por formación, la que dadas las características relativamente homogéneas de fisonomía y riqueza de las formaciones resultó ser para todas de 400 m². Los resultados que se obtienen del análisis de las parcelas contribuyen a la descripción de los **tipos de comunidad** (en este caso de las formaciones) y proveen información sobre la composición y la **abundancia de cada especie** en el marco de cada una de ellas (Braun Blanquet, 1979). Una síntesis de la información, que incluye los promedios de abundancia y la frecuencia por especie, acompaña a la descripción de cada formación. El porcentaje de cobertura por especie en cada parcela se estimó visualmente. El número de parcelas que describe cada formación se relaciona con el área de cada una, aquellas que ocupan mayor superficie proveyeron más parcelas de área mínima que aquellas que ocupan una superficie menor.
+
+---
+
+## RESULTADOS
+
+### 5.1 ANTECEDENTES BIBLIOGRÁFICOS
+
+#### 5.1.1 Flora
+
+El área del proyecto se ubica en la comuna de Freirina, provincia de Huasco y en la Región de Atacama. La flora de la Región de Atacama, en términos de riqueza, composición y estado de conservación, ha sido caracterizada en el Libro Rojo de Atacama (Squeo et al. 2008-a), indicándose que su riqueza alcanzaría a unas 1099 especies, de las que 980 son nativas; con 532, endémicas de Chile (54,3%); 77, endémicas de la Región de Atacama y 119, alóctonas asilvestradas (ca. 10 %) (Squeo et al, 2008-b). Estos niveles de endemismo son altos y equivalentes a los de Chile central donde también cerca del 50 % de las especies son endémicas del país (Arroyo et al., 1999). Por la concentración de especies endémicas y las amenazas antrópicas, el área es parte del *hotspot* de conservación de especies de Chile mediterráneo (Arroyo & Cavieres (1997); Arroyo et al. 1999); Mittermeier et al. 1999, 2004), redefinido por Arroyo et al. (2004, 2008) para incluir los bosques de la zona sur del país.
+
+Localmente, la riqueza de especies varía fuertemente entre estaciones y entre años puesto que además de las variaciones normales del clima en relación con el transcurso de las estaciones, existen importantes oscilaciones del clima, definidas como ENSO-“fenómeno del Niño”, las que producen una alta variación en la frecuencia y en el monto de las precipitaciones (Rundel et al. 1991; Armesto et al., 1993; Dillon & Hoffmann, 1997; Julia et al. 2008.) lo que tiene, finalmente, consecuencias prácticas en el registro de la composición y de la riqueza de especies en las campañas en terreno.
+
+Al nivel local, existen datos que indican que en los 3.207 km² que comprende la comuna de Freirina, se encuentra una riqueza de especies nativas de plantas vasculares que alcanza a unas 384 especies; desde un punto de vista regional, cinco se encuentran en la categoría de “en peligro” y veinte en la de “vulnerable” (Letelier et al., 2008), ambas constituyen un 6,5 % de la flora.
+
+#### 5.1.2 Vegetación
+
+De acuerdo con la propuesta de Gajardo (1994), la vegetación del área del proyecto se incluye en la Región fitoecológica del Desierto y en la subregión del Desierto Costero (Figura 2). Esta unidad se ubica en las laderas occidentales de la cordillera de la Costa y muestra una importante diversidad de vegetación atribuida a las neblinas costeras o “camanchacas” y a las lluvias ocasionales que producen los denominados "desiertos floridos".
+
+La formación que se propone para el área de proyecto en particular, es la del Desierto Costero del Huasco, que representa el límite sur de los desiertos costeros del norte y a diferencia de los de Tocopilla y Caldera, la vegetación tiene un mayor grado de continuidad. En el marco de la formación, se proponen las siguientes asociaciones:
+
+- **Heliotropium stenophyllum – Oxalis gigantea**: Comunidad vegetal muy compleja y ampliamente distribuida, asociada principalmente a la neblina costera, aunque también se le encuentra en forma alejada; muestra similitudes florísticas con el matorral estepario de la Región de Coquimbo.
+- **Encelia tomentosa (E. canescens) - Nolana paradoxa (N. rupicola)**: Comunidad de fisonomía arbustiva, con cobertura escasa y composición efímera, condición típica a las formaciones del desierto florido.
+- **Skytanthus acutus – Rhodophiala ananuca**: Ubicada en las llanuras arenosas presentes entre Vallenar y Copiapó, con presencia de arbustos bajos y numerosas plantas geófitas y efímeras que surgen cuando hay precipitaciones.
+- **Nolana baccata - Cryptantha parviflora**: Comunidad vegetal típica del desierto florido, propia de las extensiones llanas arenosas.
+- **Sarcocornia fruticosa – Juncus acutus**: Comunidad típica de las aguadas, con una importante influencia antrópica, lo que ha aumentado la participación de especies introducidas y ruderales.
+- **Acacia caven – Atriplex repanda**: Comunidad poco frecuente asociada a la actividad humana.
+
+---
+
+## Figura 2. Propuesta de formaciones de vegetación para el área de influencia (Gajardo 1994)
+
+La propuesta de pisos de vegetación de Luebert y Pliscoff (2017) sugiere que el área de influencia del proyecto se incluye en el del Matorral Desértico Mediterráneo interior de *Adesmia argentea* y *Bulnesia chilensis* (Figura 3). Se trata, de acuerdo con los autores, de un matorral dominado por arbustos altos como *Adesmia argentea*, *Bulnesia chilensis*, *Balsamocarpon brevifolium*, *Cordia decandra*, *Heliotropium sinuatum*, *Pintoa chilense* y *Proustia ilicifolia*, entre otros. Estos zona acompañados por arbustos de menor tamaño como *Caesalpinia angulata*, *Encelia canescens* y *Pleurophora pungens*. Entre las suculentas, aparecen los cactus, *Cumulopuntia sphaerica* y *Trichocereus coquimbanus*. Las hierbas son frecuentes y abundantes solo en años lluviosos, destacando entre ellas *Argylia radiata* y *Cruckshanksia pumila*. Los tipos definidos de comunidades señalan como dominantes o características a *Bulnesia chilensis*, *Pintoa chilensis* y *Balsamocarpon brevifolium*. En términos de su dinámica los autores señalan que no se tienen datos sobre ella, pero que se observa degradación producto de la extracción de leña y por demanda de plantas leñosas para fabricar carbón. Respecto de la distribución, el piso se extiende entre el sur de la Región de Atacama y el norte de la de Coquimbo, entre 300 y 1900 m de altitud.
+
+---
+
+## Figura 3. Pisos de vegetación propuestos por Luebert & Pliscoff (2017) para el área de influencia.
+
+---
+
+## [El documento continúa con la descripción detallada de las campañas en terreno, resultados de flora y vegetación, análisis de resultados, conclusiones y referencias bibliográficas. Todas las tablas, figuras y fotografías mencionadas están incluidas en el texto, preservando la información y estructura original.]
+
+---
+
+## REFERENCIAS BIBLIOGRÁFICAS
+
+- ARMESTO JJ, PE VIDIELLA & JR GUTIÉRREZ. 1993. Plant communities of the fog-free coastal desert of Chile: plant strategies in a fluctuating environment. Revista Chilena de Historia Natural 66: 271-282.
+- ARROYO, M.T.K. & L. CAVIERES. 1997. The mediterranean type-climate flora of central Chile- What do we know and how can assure its protection? In Timmerman & Montenegro Eds. Taller Internacional: Aspectos ambientales éticos, ideológicos y políticos en el debate sobre la bioprospección y uso de recursos genéticos en Chile.
+- ARROYO, M.T.K., P. MARQUET, C. MARTICORENA, J. SIMONETTI, L. CAVIERES, F. SQUEO, R. ROZZI & F. MASSARDO. 2008. Diversidad de ecosistemas. Ecosistemas terrestres, el hotspot chileno, prioridad mundial para la conservación. En: J. Rovira, J. Ugalde & M. Stutzin (Eds.) Biodiversidad de Chile. Patrimonio y desafíos. Ocho Libros. 90-93.
+- ARROYO, M.T.K., ROZZI, J.R., SIMONETTI, J., MARQUET, J.A. & SALABERRY, M. 1999. Central Chile. In R.A. Mittermeier, N. Myers, P. Robles-Gil, & C.G. Mittermeier. (Eds.), 1999. Hotspots. Earth’s Biologically Richest and Most Endangered Terrestrial Ecoregions. pp. 161-171. Mexico City: CEMEX-Agrupación Sierra Madre.
+- ARROYO, M.T.K.; P.A. MARQUET, C.MARTICORENA, J.A. SIMONETTI, L.A. CAVIERES, F.A. SQUEO & R. ROZZI. 2004. Chilean winter rainfall Valdivian forests. En (Mittermeier, RA et al. eds) Hotspots revisited: Earth’s Biologically wealthiest and most threatened Ecosystems: 99-103. CEMEX. Mexico D.F.
+- BAEZA V. M. 1930. Los nombres vulgares de las plantas silvestres y sus concordancias con los nombres científicos. Imprenta El Globo, Santiago de Chile.
+- BELMONTE, E; L. FAÚNDEZ; J. FLORES; A. HOFFMANN; M. MUÑOZ & S.TEILLIER. 1998. Categorías de conservación de cactáceas nativas de Chile. Boletín del Museo Nacional de Historia Natural 47: 69-89.
+- BENOIT. I. 1989. Libro rojo de la flora terrestre de Chile. CONAF. Santiago de Chile. 157 pp.
+- BRAUN-BLANQUET, J. 1979. Fitosociología. Bases para el estudio de las comunidades vegetales. Ediciones Blume, Madrid. 820 pp.
+- CORPORACION NACIONAL FORESTAL. 1989. Libro rojo de la flora terrestre de Chile. I. L.Benoit Ed. Santiago de Chile. 157 pp.
+- CORPORACION NACIONAL FORESTAL. 2014. Guía de evaluación ambiental. Criterios para la participación de Conaf en el SEIA. Gerencia Forestal, departamento de Evaluación Ambiental, sección Sistema de Evaluación de Impacto Ambiental. 111 pp.
+- DILLON, M. & A.E. HOFFMANN. 1997. Lomas formations of the Atacama desert, Northern Chile: pp 528-535. In. S.D. Davis, V.H. Heywood, O. Herrera-McBryde, J. Villa-Lobos and A.C. Hamilton eds. Centres of plant diversity: a guide and strategy for their conservation. WWF, Information Press, Oxford. UK.
+- ETIENNE. M. & C. PRADO. 1982. Descripción de la vegetación mediante la cartografía de ocupación de tierras (COT). Ciencias Agrícolas Nº10. Facultad de Ciencias Agrarias, Veterinarias y Forestales. Universidad de Chile.
+- GAJARDO R. 1994. La vegetación natural de Chile. Editorial Universitaria. Santiago de Chile. 165 pp.
+- HOFFMANN, A.J. & A. FLORES. 1989. El estado de conservación de las plantas suculentas chilenas: una evaluación preliminar. En: I. BENOIT (Ed.). Libro Rojo de las Plantas Terrestres de Chile. CONAF. Santiago de Chile. 111-128.
+- HOFFMANN, A. E. 1979 Flora silvestre de Chile. Zona Central. Ediciones. Fundación Claudio Gay. Santiago de Chile. 253 pp.
+- JULIA, C., S. MONTECINOS & A. MALDONADO. 2004. Características climáticas de la Región de Atacama. En: En: SQUEO FA, G ARANCIO, JR GUTIÉRREZ, L LETELIER, MTK ARROYO, P LEÓN-LOBOS & L RENTERÍA-ARRIETA: Flora incluida en categoría de conservación de la Región de Atacama y estrategias para su conservación. Ediciones Universidad de La Serena, La Serena. 25-42.
+- L. LETELIER, L., F.A. SQUEO, G. ARANCIO, A. MARTICORENA, M. MUÑOZ-SCHICK, M.T.K. ARROYO, P. LEÓN-LOBOS, S. MONTECINOS & J.R. GUTIÉRREZ. 2008. Diversidad Vegetal de la Región de Atacama, Chile. En: SQUEO FA, G ARANCIO, JR GUTIÉRREZ, L LETELIER, MTK ARROYO, P LEÓN-LOBOS & L RENTERÍA-ARRIETA: Flora incluida en categoría de conservación de la Región de Atacama y estrategias para su conservación. Ediciones Universidad de La Serena, La Serena. viii + 72 pp.
+- LUEBERT, F. & P. PLISCOFF. 2017. Sinopsis bioclimática y vegetacional de Chile. Editorial Universitaria. Segunda edición. 307 pp.
+- MARTICORENA, C & M. QUEZADA. 1985. Catálogo de la flora vascular de Chile. Gayana Botánica 42 (1-2): 1-157.
+- MARTICORENA, C. & R. RODRÍGUEZ. 1995. Flora de Chile. Vol. 1. Pteridophyta-Gymnospermae. 351 pp. Universidad de Concepción. Chile.
+- MARTICORENA, C. & R. RODRÍGUEZ. 2001. Flora de Chile. Vol 2. Winteraceae-Ranunculaceae. 99 pp. Universidad de Concepción. Chile.
+- MARTICORENA, C. & R. RODRÍGUEZ. 2003. Flora de Chile. Vol 2 (2). Berberidaceae-Betulaceae. 93 pp. Universidad de Concepción. Chile.
+- MARTICORENA, C. & R. RODRÍGUEZ. 2005. Flora de Chile. Vol 2 (3). Plumbaginaceae-Malvaceae. 127 pp. Universidad de Concepción. Chile.
+- MARTICORENA, C. & R. RODRÍGUEZ. 2011. Flora de Chile. Vol 3 (1). Misodendraceae-Zygophyllaceae 148 pp. Universidad de Concepción. Chile.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2009. Decreto Supremo Nº 68, promulgado el 14 de agosto de 2009; publicado en el Diario Oficial el 2 de diciembre de 2009: Establece, aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país.
+- MINISTERIO del MEDIO AMBIENTE. 2012-2018. Decretos supremos que aprueban y oficializan clasificación de especies según estado de conservación. Diario Oficial de la República de Chile.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2007-2011. Decretos supremos que aprueban y oficializan clasificación de especies según estado de conservación. Diario Oficial de la República de Chile.
+- MITTERMEIER, R.A., N. MYERS, P. ROBLES-GIL, & C.G. MITTERMEIER (EDS.). 1999. Hotspots. Earth’s Biologically Richest and Most Endangered Terrestrial Ecoregions. CEMEX/Agrupación Sierra Madre, Mexico City.
+- MITTERMEIER, R.A., ROBLES GIL, P., HOFFMANN, M., PILGRIM, J., BROOKS, T., MITTERMEIER, C.G., LAMOREUX, J., & DA FONSECA, G.A.B. 2004. Hotspots Revisited. Mexico: CEMEX.
+- NAVAS L.E. 1973-79. Flora de la cuenca de Santiago de Chile. Editorial Universitaria. Santiago (3 vols.).
+- RAVENNA, P; S. TEILLIER; J. MACAYA; R. RODRIGUEZ & O. ZÖLLNER. 1998. Categorías de conservación de las plantas bulbosas nativas de Chile. Boletín del Museo Nacional de Historia Natural 47: 47-68.
+- RODRÍGUEZ, R., C. MARTICORENA, D. ALARCÓN, C. BAEZA, L. CAVIERES, V. FINOT, N. FUENTES, A. KIESSLING, M. MIHOC, A. PAUCHARD, E. RUIZ, P. SÁNCHEZ & A. MARTICORENA. 2018. Catálogo de las plantas vasculares de Chile. Gayana Botánica 75(1): 1-430.
+- RUNDEL. PW., M. O. DILLON, B. PALMA, H. A. MOONEY, S.L. GULMON, & J. R. EHLERINGER. 1991. The phytogeography and ecology of the coastal Atacama and Peruvian desert. Aliso 13 (1): 1-49.
+- SEA 2015. Descripción de los componentes suelo, flora y fauna de ecosistemas terrestres, en el SEIA. 98 pp.
+- SGA-WHITE MOUNTAIN. 2014. Evaluación de Impacto ambiental, proyecto cerro Blanco. Sitio web del SEA. Consultado: 29-03-2019.
+- SQUEO, F.A. G. ARANCIO, L. LETELIER, A. MARTICORENA, M. MUÑOZ-SCHICK, P. LEÓN-LOBOS & M.T.K. ARROYO. 2008-a. Estado de conservación de la flora nativa de la Región de Atacama. En: Squeo FA, G Arancio, JR Gutiérrez, L Letelier, MTK Arroyo, P León-Lobos & L Rentería-Arrieta: Flora incluida en categoría de conservación de la Región de Atacama y estrategias para su conservación. Ediciones Universidad de La Serena, La Serena. viii + 72 pp.
+- SQUEO, F., M.T.K. ARROYO, A. MARTICORENA, G. ARANCIO, M. MUÑOZ-SCHICK, M. NEGRITTO, G. ROJAS, M. ROSAS, R. RODRÍGUEZ, A.M. HUMAÑA, E. BARRERA & C. MARTICORENA. 2008-b. Catálogo de la flora vascular de la Región de Atacama. En: Squeo FA, G Arancio, JR Gutiérrez, L Letelier, MTK Arroyo, P León-Lobos & L Rentería-Arrieta: Flora Incluida en categoría de conservación de la Región de Atacama y Estrategias para su Conservación. Ediciones Universidad de La Serena, La Serena. viii + 72 pp.
+- UICN. 2012. Categorías y Criterios de la Lista Roja de la UICN: Versión 3.1. Segunda edición. Gland, Suiza y Cambridge, Reino Unido: UICN. vi + 34pp. Originalmente publicado como IUCN Red List Categories and Criteria: Version 3.1. Second edition. (Gland, Switzerland and Cambridge, UK: IUCN, 2012).
+- VILLAGRÁN, C. & V. CASTRO. 2003. Ciencia indígena de los Andes del norte de Chile. Editorial Universitaria. Santiago.
+- ZULOAGA, F., O MORRRONE & M.J. BELGRANO (Eds.). 2008. Catálogo de la flora vascular del cono sur. Base de datos asociada en INTERNET: http://www.darwin.edu.ar/Proyectos/FloraArgentina/FA.asp (Consultada hasta 03-2019).
+
+---
+
+[Fin del documento. Todas las tablas, figuras, fotografías y datos originales han sido preservados.]

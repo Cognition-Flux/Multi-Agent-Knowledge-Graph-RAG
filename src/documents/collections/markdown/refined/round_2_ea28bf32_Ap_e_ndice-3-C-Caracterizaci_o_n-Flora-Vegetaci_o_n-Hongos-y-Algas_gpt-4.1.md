@@ -1,0 +1,344 @@
+# Knight Piésold S.A.
+
+*Av. Vitacura 4380, Piso 17*
+
+*Vitacura, Santiago, Chile*
+
+*Teléfono: (56-2) 2594 6400 Fax: (56-2) 2594 6447*
+
+*www.knightpiesold.com*
+
+---
+
+## MINERA GOLDFIELDS SALARES NORTE LTDA.
+
+### MODIFICACIÓN PROSPECCIÓN MINERA SALARES NORTE
+
+### DECLARACIÓN DE IMPACTO AMBIENTAL
+
+### APÉNDICE 3.C – CARACTERIZACIÓN FLORA Y VEGETACIÓN, HONGOS Y ALGAS
+
+---
+
+**Preparado para:**
+
+Av. Rosario Norte N°100, Oficina 1601
+
+Las Condes, Región Metropolitana, Chile
+
+---
+
+### Apéndice 3.1 – Caracterización Componentes Ambientales
+
+i de ii
+
+---
+
+## MINERA GOLDFIELDS SALARES NORTE LTDA.
+
+### MODIFICACIÓN PROSPECCIÓN MINERA SALARES NORTE
+
+### DECLARACIÓN DE IMPACTO AMBIENTAL
+
+### APÉNDICE 3.C – CARACTERIZACIÓN COMPONENTES AMBIENTALES
+
+---
+
+## Índice de Contenidos
+
+### SECCIÓN 1.0 INTRODUCCIÓN
+- 1.1 OBJETIVOS
+  - 1.1.1 Objetivo General
+  - 1.1.2 Objetivos Específicos
+- 1.2 ÁREA DE PROYECTO
+
+### SECCIÓN 2.0 METODOLOGÍA
+- 2.1 REVISIÓN BIBLIOGRÁFICA
+- 2.2 DESCRIPCIÓN EN TERRENO
+  - 2.2.1 Vegetación
+  - 2.2.2 Flora
+  - 2.2.3 Hongos
+  - 2.2.4 Algas
+
+### SECCIÓN 3.0 RESULTADOS
+- 3.1 REVISIÓN BIBLIOGRÁFICA
+  - 3.1.1 Vegetación
+- 3.2 DESCRIPCIÓN EN TERRENO
+  - 3.2.1 Vegetación
+  - 3.2.2 Flora
+  - 3.2.3 Formaciones xerofíticas
+  - 3.2.4 Hongos
+  - 3.2.5 Algas
+
+### SECCIÓN 4.0 CONCLUSIONES
+
+### SECCIÓN 5.0 BIBLIOGRAFÍA
+
+---
+
+## Cuadros
+
+| Cuadro | Título | Página |
+|--------|--------|--------|
+| 3.2-1  | Formaciones Presentes en Área del Proyecto | 14 |
+| 3.2-2  | Listado florístico presente en el Área de Proyecto | 16 |
+
+## Ilustraciones
+
+| Ilustración | Título | Página |
+|-------------|--------|--------|
+| 1.2-1 | Área de Proyecto | 2 |
+| 3.1-1 | Formaciones vegetacionales presentes en el Área de Proyecto, según Gajardo 1994 | 5 |
+| 3.1-2 | Formaciones vegetacionales presentes en el Área de Proyecto, según Luebert y Pliscoff, 2006 | 7 |
+| 3.2-1 | Formaciones Vegetacionales Presentes en el Área del Proyecto | 15 |
+
+---
+
+# 1 de 19
+
+## MINERA GOLDFIELDS SALARES NORTE LTDA.
+
+### MODIFICACIÓN PROSPECCIÓN MINERA SALARES NORTE
+
+### DECLARACIÓN DE IMPACTO AMBIENTAL
+
+### APÉNDICE 3.C – FLORA Y VEGETACION, HONGOS Y ALGAS
+
+**(Ref. No. SA201-00501/4)**
+
+---
+
+## SECCIÓN 1.0
+
+### INTRODUCCIÓN
+
+El presente documento expone la caracterización de flora y vegetación, hongos y algas, en el área del proyecto “Modificación Prospección Minera Salares Norte” ubicado 120 km al Noreste de Diego de Almagro, provincia de Chañaral, Región de Atacama.
+
+La caracterización incluye el levantamiento realizado para el área y presentado mediante “DIA Proyecto Prospección Minera Salares Norte” del 2013 y complementado con dos campañas a terreno realizadas durante los meses de octubre y noviembre del 2015.
+
+#### 1.1 OBJETIVOS
+
+##### 1.1.1 Objetivo General
+
+El objetivo general es realizar la caracterización de las componentes Flora y Vegetación, Hongos y Algas, en el área del Proyecto “Modificación Prospección Minera Salares Norte”, ubicado en la comuna de Diego de Almagro, Provincia de Chañaral, Región de Atacama.
+
+##### 1.1.2 Objetivos Específicos
+
+- Revisión bibliográfica del componente flora y vegetación el área de Proyecto.
+- Caracterizar las formaciones vegetales presentes en el área de Proyecto.
+- Caracterizar la riqueza florística presente en el área de Proyecto.
+- Identificar especies vegetales que posean alguna categoría de conservación.
+- Identificar y caracterizar la riqueza de hongos presentes en el área prospectada.
+- Identificar y caracterizar la riqueza de algas presentes en el área prospectada.
+
+#### 1.2 ÁREA DE PROYECTO
+
+Se define como el área del Proyecto, la comprendida por el asociado a la concesión minera de propiedad y el área donde se localizará la ampliación del campamento y sus instalaciones anexas, tal como se presenta en la Ilustración 1.2-1. La presente caracterización de la componente flora y vegetación, hongos y algas se lleva a cabo en las áreas antes mencionadas a fin de establecer la presencia en el entorno del Proyecto atributos y/o elementos de interés para el SEIA.
+
+---
+
+## SECCIÓN 2.0
+
+### METODOLOGÍA
+
+#### 2.1 REVISIÓN BIBLIOGRÁFICA
+
+Se revisó la información publicada sobre flora y vegetación del área del Proyecto, para así obtener antecedentes que permitiesen reconocer las principales formaciones vegetacionales presentes y su distribución. Se estableció un marco biogeográfico de referencia para el área de Proyecto a partir de los trabajos “Sistema Básico de Clasificación de la Vegetación Natural Chilena”, desarrollado por Gajardo (1994), “Sinopsis Bioclimática y Vegetacional de Chile” de Luebert y Pliscoff (2006) y por sobre todo los levantamiento de línea base realizados en el marco de la “DIA Proyecto Prospección Minera Salares Norte” del 2013.
+
+#### 2.2 DESCRIPCIÓN EN TERRENO
+
+##### 2.2.1 Vegetación
+
+Considerando la información de la caracterización de esta componente elaborada en la “DIA Proyecto Prospección Minera Salares Norte” del 2013 y la flora potencial según Gajardo 1994 y Luebert y Pliscoff 2006 se procedió a elaborar un catálogo de especies posibles de encontrar en terreno. Una vez identificada una unidad vegetacional, esta se caracterizó según la metodología de la “Carta de Ocupación de Tierras" (COT), adaptada para las condiciones ecológicas de Chile por Etienne y Contreras (1981) y Etienne y Prado (1982) y delimitada mediante un recorrido con GPS por todo el perímetro de la formación identificada.
+
+Finalmente, se desarrolló una representación cartográfica de las formaciones vegetacionales identificadas, y que sean mayores a 400 m² (superficie mínima cartografiable), presentes en el área del Proyecto. La información cartográfica fue trabajada mediante Sistemas de Información Geográfica, en Datum WGS 84 (19S).
+
+##### 2.2.2 Flora
+
+Se confeccionó un listado florístico con las especies registradas en terreno y las identificadas en la caracterización elaborada por la DIA “Proyecto Prospección Minera Salares Norte” del 2013, clasificando taxonómicamente cada especie (familia y nombre científico), indicando su nombre común, forma de vida, origen. Lo anterior según el Catálogo de las Plantas Vasculares del Cono Sur (Zuloaga et al., 2009).
+
+Se incluye el estado de conservación de las especies según corresponda de acuerdo a los Decretos Supremos Nº 151 del 2007, Nº 50 del 2008, Nº 51 del 2008, N° 23 del 2009 del MINSEGPRES y Decretos Supremos Nº 33 del 2012, Nº 41 del 2011, Nº 42 del 2011, N° 19 del 2012, N° 13 del 2013, N° 52 del 2014 y N°38 del 2015 del MMA, que oficializaron el primer, segundo, tercer, cuarto, quinto, sexto, séptimo, octavo, noveno, décimo y undécimo proceso de clasificación de especies, respectivamente, dictados según lo establecido en el Reglamento para la Clasificación de Especies Silvestres (DS29/2012 del MMA). Además se considera como referencia, el Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989) para aquellas especies que aún no hayan sido clasificadas según el DS29/2012 de MMA.
+
+Se realizó una revisión para determinar la presencia de formaciones xerofíticas en el área de emplazamiento del proyecto. Según la ley 20.283 del Ministerio de Agricultura una formación xerofítica es aquella “formación vegetal constituida por especies autóctonas, preferentemente arbustivas o suculentas, de áreas de condiciones áridas o semiáridas ubicadas entre las Regiones I y VI, incluidas la Metropolitana y la XV y en las depresiones interiores de las Regiones VII y VIII”. Para definir las especies nativas se revisará el listado de especies nativas definidas en el D.S. N° 68, de 2008, del Ministerio de Agricultura y se determinará la existencia o no de formaciones xerofíticas en el área de proyecto.
+
+##### 2.2.3 Hongos
+
+i. **Definición de sitios de muestreo y metodología**
+
+La caracterización de este grupo se realizó considerando un microruteo en los sectores con presencia de formaciones vegetales para la búsqueda de especies macroscópicas.
+
+ii. **Determinación de las especies**
+
+Cuando no sea posible determinar la identidad de alguna especie en terreno, se colectarán muestras de ejemplares para su posterior determinación taxonómica en gabinete mediante el uso de claves especializadas. La nomenclatura para los hongos registrados, así como su origen, seguirá la clasificación de Lazo (2001).
+
+##### 2.2.4 Algas
+
+La caracterización de este grupo se realizó considerando un microruteo en los sectores con presencia de ambientes propicios para el desarrollo de este grupo, para la identificación se procederá a colectar los ejemplares encontrados, para su posterior individualización en laboratorio siguiendo claves especializadas.
+
+---
+
+## SECCIÓN 3.0
+
+### RESULTADOS
+
+#### 3.1 REVISIÓN BIBLIOGRÁFICA
+
+##### 3.1.1 Vegetación
+
+Las formaciones vegetacionales descritas para el área de proyecto según Gajardo (1983, 1994) y Luebert y Pliscoff (2006) corresponden a:
+
+Según Gajardo (1983, 1994), el área se emplaza en la región ecológica de la estepa altoandina, subregión del altiplano y la puna, la cual se caracteriza por el dominio de un régimen climático de lluvias estivales, quedando el área representada por la formación de estepa desértica de los salares andinos (ver Ilustración 3.1-1). Esta formación se ubica en la Cordillera de los Andes, en el sur de Antofagasta y en el norte de Atacama, cubriendo un amplio territorio en que el paisaje está dominado por la presencia de los grandes salares andinos. Su fisionomía es netamente desértica, con una vegetación muy rala, que sólo en lugares especialmente favorables alcanza una cierta densidad. La estepa desértica de los salares andinos está representada por las siguientes comunidades: *Adesmia sentis*, *Atriplex deserticola* – *Lycium minutifolium*, *Fabiana bryoides* – *Parastrephia lepidophylla*, *Atriplex imbricata* – *Cristaria andicola* y *Atriplex atacamensis* – *Tessaria absinthioides*.
+
+**Ilustración 3.1-1 Formaciones vegetacionales presentes en el Área de Proyecto, según Gajardo 1994.**
+
+En cuanto a Luebert y Pliscoff (2006), el área está representado por cuatro pisos vegetacionales:
+- Matorral bajo tropical andino de *Artemisia copa* y *Stipa frígida*
+- Matorral bajo tropical andino de *Fabiana bryoides* – *Parastrephia quadrangularis*
+- Matorral bajo tropical andino de *Mulinum crassifolium* y *Urbania pappigera*
+- Herbazal tropical andino de *Chaetanthera sphaeroidalis* (ver Ilustración 3.1-2)
+
+El piso vegetacional de matorral bajo tropical andino de *Artemisia copa* y *Stipa frígida* corresponde a un matorral bajo, pobre en especies, dominado por el arbusto Artemisa copa y acompañado por la gramínea Stipa frígida. En su composición destacan algunas especies como: Fabiana denudata, Cristaria andicola y Ephedra breana.
+
+El piso de matorral bajo tropical andino de *Fabiana bryoides* y *Parastrephia quadrangularis* corresponde a un matorral bajo, pobre en especies, dominado por los arbustos *Parastrephia quadrangularis* y *Fabiana bryoides* y las gramíneas *Stipa frigida* y *Festuca chrysophylla*. En su composición destacan algunas otras especies que pueden ser localmente abundantes, como *Adesmia erinacea*, *A. melanthes* y *Senecio xerophilus*.
+
+El piso de matorral bajo tropical andino de *Mulinum crassifolium* y *Urbania pappigera* está dominado por plantas pulvinadas y gramíneas en mechón, entre las que destacan *Mulinum crassifolium*, *Urbania pappigera*, *Adesmia caespitosa*, *Stipa frigida* y *Deyeuxia crispa*, a las que se le asocia un elenco diversificado de herbáceas rosuladas, tales como *Chaetanthera revoluta*, *Nototrichea uricoma* y *Perezia atacamensis*. En algunos sectores marca el límite altitudinal de la vegetación vascular, en cuya extensión puede mezclarse en una transición difusa con los elementos del herbazal tropical andina de *Chaetanthera sphaeroidalis*.
+
+La formación de Herbazal tropical andino de *Chaetanthera sphaeroidalis* corresponde a un desierto de altura muy abierto, donde sólo se encuentran algunas plantas herbáceas, generalmente en roseta, que crecen entre las rocas, donde las condiciones de humedad y temperatura son más favorables que en los sectores expuestos al efecto desecante del viento y la baja temperatura del aire. La especie más característica de este piso de vegetación es *Chaetanthera sphaeroidalis*.
+
+**Ilustración 3.1-2 Formaciones vegetacionales presentes en el Área de Proyecto, según Luebert y Pliscoff, 2006.**
+
+En cuanto a la caracterización llevada a cabo por la “DIA Proyecto Prospección Minera Salares Norte” del 2013 indica que sobre los 4,600 m s.n.m. casi la totalidad de la superficie se presenta desprovista de vegetación y se identificaron como áreas denudadas. Bajo esta cota y en ciertos sectores, los puntos de vegetación registrados corresponden en su totalidad a herbazales de altura dominados por la gramínea perenne *Pappostipa frigida* cuya cobertura no superó el 25%.
+
+Los puntos de vegetación identificados en el documento anteriormente mencionado corresponden a:
+
+- Pajonal muy escaso de *Pappostipa frígida*: Formación dominada por la gramínea cespitosa perenne *Pappostipa frigida*, con un grado de recubrimiento de 1-5%. Esta formación se distribuye desde el sector centro del área de estudio hacia el Sureste. La composición florística de esta formación suma ejemplares de *Senecio rahmeri* y *Chaetanthera sphaeroidalis*.
+
+- Pajonal muy escaso de *Pappostipa frigida* – *Chaetanthera sphaeroidalis*: Formación dominada por la gramínea *Pappostipa frigida* y la herbácea en roseta *Chaetanthera sphaeroidalis*, con un grado de recubrimiento mínimo de 1-5% cada especie. Se distribuye desde el sector medio del área de estudio hacia el Suroeste. La composición florística de esta formación está limitada sólo a la presencia de las especies dominantes anteriormente mencionadas.
+
+- Pajonal escaso de *Pappostipa frígida*: Formación dominada por la gramínea cespitosa perenne *Pappostipa frigida*, con un grado de recubrimiento mínimo de 5-10%. Esta es la formación vegetal con mayor frecuencia en el área de estudio y se distribuye desde el sector medio del área de estudio hacia el Este. La composición florística de esta formación suma ejemplares de *Senecio rahmeri*, *Cistanthe frigida*, *Nototriche clandestina* y *Oxalis hypsophila*.
+
+- Pajonal escaso de *Pappostipa frigida* – *Adesmia frígida*: Formación dominada por la gramínea *Pappostipa frigida* y la herbácea *Adesmia frigida*, con un grado de recubrimiento de 5-10% cada especie. La ubicación de esta formación está restringida a un único punto de vegetación ubicado en el sector centro del área de estudio. La composición florística de esta formación suma ejemplares de *Senecio rahmeri*.
+
+- Pajonal muy abierto de *Pappostipa frígida*: Formación dominada por la gramínea cespitosa perenne *Pappostipa frigida*, con un grado de recubrimiento de 10-25%. La ubicación de esta formación es de la zona central del área de estudio hacia el Este. La composición florística de esta formación suma ejemplares de *Senecio rahmeri* y *Chaetanthera sphaeroidalis*.
+
+- Pajonal muy abierto de *Pappostipa frigida* – *Adesmia frígida*: Unidad dominada por la gramínea *Pappostipa frigida* y la herbácea *Adesmia frigida*, con un grado de recubrimiento de 10-25% cada especie. La ubicación de esta formación está representada por dos puntos de ubicación de vegetación localizados en el sector centro del área de estudio, hacia el Norte y Sur, respectivamente. La composición florística de esta formación suma ejemplares de *Senecio rahmeri*.
+
+---
+
+#### 3.2 DESCRIPCIÓN EN TERRENO
+
+##### 3.2.1 Vegetación
+
+Tal como se indica en los antecedentes previos, el área se caracteriza por estar desprovista de vegetación (áreas denudadas) y únicamente en lugares acotados se presentan individuos vegetales cuya cobertura no supera el 25%.
+
+Se identificaron cinco formaciones vegetacionales presentes en el área del proyecto, una menos que los puntos de vegetación identificados en el proyecto “DIA Proyecto Prospección Minera Salares Norte” del 2013, sin embargo cabe mencionar que para la caracterización de esta componente se estableció una superficie mínima cartografiable y se definieron las formaciones según la densidad de cada especie presente en la formación vegetacional; por ende en aquellas formaciones que presentaban especies acompañantes que se encontraban en bajas densidades, estas solo eran registradas y descritas como parte de la composición florística de la formación. Por estos motivos la presente caracterización presenta una formación menos que las descritas por el proyecto “DIA Proyecto Prospección Minera Salares Norte” del 2013.
+
+Las formaciones identificadas son las siguientes:
+
+- **Matorral de Fabiana bryoides con pajonal de Pappostipa frígida:** Esta formación se encuentra cercana a los 4000 m s.n.m., en un sector aledaño al campamento minero el cual se caracteriza por fuertes pendientes y una alta pedregosidad. La formación se encuentra dominada por arbustos de *Fabiana bryoides* de bajo tamaño (25 - 50 cm) y cobertura escasa (5–10%), acompañado de pajonal de *Pappostipa frígida* de cobertura muy escasa (1-5%). La composición florística de esta formación suma ejemplares de *Cristaria andicola, Cistanthe frígida* y *Chaetanthera sphaeroidalis*.
+
+- **Pajonal muy abierto de Pappostipa frígida:** Esta formación se encuentra dominada por la especie *Pappostipa frígida* con una cobertura muy abierta (10-25%), con alturas que no superan los 50 cm. Los sectores donde se desarrolla esta formación se caracterizan por poseer alta pedregosidad (20-30%) y pendientes bajas (5-15%). Las especies acompañantes que se encontraron son: *Cistanthe frígida* y *Chaetanthera sphaeroidalis*.
+
+- **Pajonal escaso de Pappostipa frígida:** Esta formación es la con mayor representatividad en el área de estudio, se encuentra dominada por la especie *Pappostipa frígida* con una cobertura escasa (5-10%), con alturas que no superan los 25 cm. Los sectores donde se desarrolla esta formación se caracterizan por poseer alta pedregosidad (25-50%) y pendientes medias (10-30%). Las especies acompañantes que se encontraron son: *Senecio rahmeri*, *Cristaria andicola*, *Chaetanthera sphaeroidalis*, *Cistanthe frígida* y *Parastrephia cuadrangularis*.
+
+- **Pajonal muy escaso de Pappostipa frígida:** Esta formación se encuentra dominada por la especie *Pappostipa frígida* con una cobertura muy escasa (1-5%), con alturas que no superan los 50 cm. Los sectores donde se desarrolla esta formación se caracterizan por poseer alta pedregosidad (25-40%) y pendientes bajas (10-15%). Las especies acompañantes que se encontraron son: *Senecio rahmeri* y *Cistanthe frígida*.
+
+- **Pajonal muy escaso de Pappostipa frigida - Adesmia hystrix:** Esta formación se encuentra dominada por la especie *Pappostipa frígida* con una cobertura muy escasa (1-5%), con alturas que no superan los 50 cm, se encuentra acompañada por la especie *Adesmia hystrix*, la cual posee una cobertura muy escasa (1-5%) y alturas inferiores a los 50 cm. El sector donde fue identificada esta formación se caracteriza por poseer alta pedregosidad (50%) y una pendiente cercana al 15%. Las especies acompañantes que se encontraron son: *Senecio rahmeri*, *Cistanthe frígida*, *Chaetanthera sphaeroidalis* y *Cristaria andicola*.
+
+En el Cuadro 3.2-1 se puede apreciar las superficies asociadas a cada formación vegetacional identificada, de este cuadro se desprende que más del 89% de la superficie total del proyecto corresponde a Áreas denudadas y la formación con mayor presencia es el Pajonal escaso de *Pappostipa frígida* con un 6,32%.
+
+---
+
+### Cuadro 3.2-1
+#### Formaciones Presentes en Área del Proyecto
+
+| Unidades Cartográficas | % |
+|-----------------------|------|
+| Área denudada | 89,43% |
+| **Formaciones Presentes en Área de Proyecto** | |
+| Matorral de Fabiana bryoides con pajonal de Pappostipa frigida | 0,11% |
+| Pajonal escaso de Pappostipa frigida | 6,32% |
+| Pajonal muy abierto de Pappostipa frigida | 3,56% |
+| Pajonal muy escaso de Pappostipa frigida | 0,22% |
+| Pajonal muy escaso de Pappostipa frigida - Adesmia hystrix | 0,35% |
+| **Total** | **100,00%** |
+
+Fuente: Elaboración propia.
+
+En la Ilustración 3.2-1 se muestra la ubicación de cada formación vegetacional identificada en el área de proyecto.
+
+---
+
+##### 3.2.2 Flora
+
+El listado florístico asciende a 13 especies para el área de proyecto, de las cuales nueve especies fueron registradas en la caracterización llevada a cabo por la DIA “Proyecto Prospección Minera Salares Norte” del 2013 y las otras cuatro especies fueron identificadas en las campañas a terreno realizadas para la presente caracterización.
+
+En el Cuadro 3.2-2 se presenta el listado florístico de las especies identificadas en el área de proyecto, caracterizándolas según su forma de vida, origen, categoría de conservación y la presencia según campaña donde se identificó. Como se puede apreciar, solo dos especies (*Adesmia hystrix* y *Adesmia frígida Phil*) corresponden a especies endémicas, sin embargo ninguna presenta alguna categoría de conservación según los listados de la RCE (DS29/2012 del MMA) y Benoit 1989.
+
+---
+
+### Cuadro 3.2-2
+#### Listado florístico presente en el Área de Proyecto
+
+| Familia | Especie | Nombre Común | Forma de vida | Origen | Benoit (1989) | Listados Oficiales RCE* | DIA “Proyecto Prospección Minera Salares Norte” del 2013 | Campañas de Terreno DIA "Modificación Prospección Minera Salares Norte" |
+|---------|---------|--------------|---------------|--------|---------------|------------------------|----------------------------------------------------------|----------------------------------------------------------|
+| Solanaceae | Fabiana bryoides | Pata de perdiz | Arbustiva | | | | | |
+| Caryophyllaceae | Cistanthe frigida (Barnéoud) Peralta | Lengüilla | Herbácea | | | | | |
+| Compositae | Chaetanthera sphaeroidalis Hicken | Chinita | | | | | | |
+| Compositae | Senecio rahmeri Phil. | Mata gris | Herbácea | | | | | |
+| Fabaceae | Adesmia hystrix | Acerillo | Endémica | | | | | |
+| Malvaceae | Cristaria andicola | Malvilla | | | | | | |
+| Asteraceae | Parastrephia cuadrangularis | Coba | | | | | | |
+| Brassicaceae | Menonvillea sp | No determinado | | | | | | |
+| Oxalidaceae | Oxalis hypsophila Phil. | Vinagrillo | Herbácea | | | | | |
+| Fabaceae | Adesmia frigida Phil. | Endémica | | | | | | |
+| Verbenaeae | Junellia uniflora (Phil.) Moldenke | Junelia de una flor | Arbustiva | | | | | |
+| Malvaceae | Nototriche clandestina | Mostaza | Herbácea | | | | | |
+| Liliopsida Poaceae | Pappostipa frigida (Phil.) Romasch | Paja blanca | | | | | | |
+
+Fuente: Elaboración propia. *Decretos supremos Nº 151, Nº 50, Nº 51, Nº 23 (MINSEGPRES) y Nº 33, Nº 41, Nº 42, N° 19, N° 13, N° 52 y N° 38 (MMA). FP: Fuera de peligro, IC: Insuficientemente conocida, S/I: Sin información.
+
+---
+
+##### 3.2.3 Formaciones xerofíticas
+
+En cuanto a la presencia de formaciones xerofíticas, considerando que la única especie arbustiva identificada en el área de proyecto es *Fabiana bryoides*, la cual no está listada en el D.S. N° 68, de 2008 del Ministerio de Agricultura, por lo que no aplica la presencia de una formación xerofítica.
+
+##### 3.2.4 Hongos
+
+Dadas las condiciones climáticas en el que se encuentra inserto el Proyecto, clima de Tundra de Alta Montaña, el cual se caracteriza por presentar temperaturas bajas durante todo el año y vientos que alcanzan los 140 km/h; sumado a las características edafológicas del área de proyecto, que corresponden a suelos de capacidad VIII, es decir sin capacidad de uso agrícola, ganadero o forestal, con escaso desarrollo pedogénico y un alto potencial de erodabilidad debido a la escasa cubierta vegetal existente; generan que el área de Proyecto no sea un ambiente propicio para el desarrollo de esta componente, lo que quedó ratificado luego de la ejecución de las campañas a terreno y los respectivos microruteos, ya que no se registraron presencia de macro hongos en el área de Proyecto.
+
+##### 3.2.5 Algas
+
+Dadas las condiciones climáticas en el que se encuentra inserto el proyecto, clima de Tundra de Alta Montaña, el cual se caracteriza por presentar temperaturas bajas durante todo el año y vientos que alcanzan los 140 km/h; sumado a las características edafológicas del área de proyecto, que corresponden a suelos de capacidad VIII, es decir sin capacidad de uso agrícola, ganadero o forestal, con escaso desarrollo pedogénico y un alto potencial de erodabilidad debido a la escasa cubierta vegetal existente; generan que el área de proyecto no sea un ambiente propicio para el desarrollo de esta componente, lo que quedó ratificado luego de la ejecución de las campañas a terreno y los respectivos microruteos, ya que no se registraron presencia de macro algas en el área de proyecto.
+
+---
+
+## SECCIÓN 4.0
+
+### CONCLUSIONES
+
+El área del proyecto se emplaza en una zona árida y condiciones extremas por lo que la presencia de especies vegetales es mínima, acotada a ciertos lugares como fondos de quebradas o lugares protegidos del viento o de la acumulación de nieve.
+
+En base a los antecedentes y análisis de la información recopilada de las campañas de terreno se determinaron cinco formaciones, de las cuales una corresponde a matorral y las demás a pajonales, las formaciones se caracterizan por presentar una baja presencia de especies acompañantes.
+
+En cuanto a la flora presente en el área de proyecto, se identificaron 13 especies considerando las 2 campañas a terreno ejecutadas por el presente estudio y la campaña llevada a cabo por el proyecto DIA "Modificación Prospección Minera Salares Norte". Solo dos especies son endémicas (*Adesmia hystrix* y *Adesmia frígida Phil.*) y ninguna presenta alguna categoría de conservación según los listados establecidos en los Decretos Supremos Nº 151 del 2007, Nº 50 del 2008, Nº 51 del 2008, N° 23 del 2009 del MINSEGPRES y Decretos Supremos Nº 33 del 2012, Nº 41 del 2011, Nº 42 del 2011, N° 19 del 2012, N° 13 del 2013, N° 52 del 2014 y N° 38 del 2015 del MMA, que oficializaron el primer, segundo, tercer, cuarto, quinto, sexto, séptimo, octavo, noveno, décimo y undécimo proceso de clasificación de especies, respectivamente. Además se considera como referencia, el Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989) para aquellas especies que aún no hayan sido clasificadas según el DS29/2012 de MMA.
+
+Se descarta la presencia de formaciones xerofíticas el área de proyecto, considerando que no se presentan especies xerofíticas en el área de proyecto, según lo establecido por la Ley 20.283 y el D.S. N° 68 del 2008 del Ministerio de Agricultura.
+
+Dadas las condiciones climáticas en el que se encuentra inserto el proyecto, clima de Tundra de Alta Montaña, el cual se caracteriza por presentar temperaturas bajas durante todo el año y vientos que alcanzan los 140 km/h; sumado a las características edafológicas del área de proyecto, que corresponden a suelos de capacidad VIII, es decir sin capacidad de uso agrícola, ganadero o forestal, con escaso desarrollo pedogénico y un alto potencial de erodabilidad debido a la escasa cubierta vegetal existente; generan que el área de proyecto no sea un ambiente propicio para el desarrollo de esta componente, lo que quedó ratificado luego de la ejecución de las campañas a terreno y los respectivos microruteos, ya que no se registraron presencia de macro hongos y macro algas en el área de proyecto.
+
+---
+
+## SECCIÓN 5.0
+
+### BIBLIOGRAFÍA
+
+- Benoit, I. 1989. Libro Rojo de la Flora Terrestre de Chile. CONAF, Santiago, Chile. 157 p.
+- Etienne, M. y Contreras, D. 1981. Cartografía de la vegetación y sus aplicaciones en Chile. Boletín Técnico Nº46. Universidad de Chile. Facultad de Ciencias Agrarias y Veterinarias, Escuela de Agronomía. Santiago, Chile. 27 p.
+- Etienne, M. y Prado, C. 1982. Descripción de la vegetación mediante la Cartografía de Ocupación de Tierras. Conceptos y manual de uso práctico. Universidad de Chile. Facultad de Ciencias Agrarias, Veterinarias y Forestales. Departamento de Producción Animal. Santiago, Chile. 120 p.
+- Gajardo, R. 1983. Sistema básico de la clasificación de la vegetación nativa chilena. Ministerio de Agricultura, CONAF, Universidad de Chile. Santiago, 315 p.
+- Gajardo, R. 1994. La vegetación natural de Chile. Clasificación y distribución geográfica. Editorial Universitaria, Santiago. 165 p.
+- Luebert, F. y Pliscoff, P. 2006. Sinopsis Bioclimática y vegetacional de Chile. Editorial Universitaria, Santiago. 316 p.
+- Squeo, F., Arancio, G. & Gutierrez, J. 2008. Libro Rojo de la Flora Nativa y de los Sitios Prioritarios para su Conservación: Región de Atacama. Ediciones Universidad de La Serena, La Serena.
+- Zuloaga, O; Morrone, O. y Belgrano M. J. 2009. Catálogo de las Plantas Vasculares del Cono Sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay). Monographs in Systematic Botany from the Missouri Botanical Garden. 107: 1-3348.

@@ -1,0 +1,812 @@
+# Línea de Base de Flora y Vegetación
+
+## “Planta Fotovoltaica Jahuel 9MW”
+
+---
+
+## Índice de Contenidos
+
+1. **Antecedentes Generales** ................................................................................................................. 5
+   - 1.1 Descripción del proyecto ...................................................................................................................... 5
+2. **Introducción** .................................................................................................................................... 7
+3. **Objetivos** ............................................................................................................................................ 8
+   - 3.1 Objetivo General ................................................................................................................................... 8
+   - 3.2 Objetivos Específicos ............................................................................................................................ 8
+4. **Metodología** ..................................................................................................................................... 9
+   - 4.1 Determinación y justificación del área de influencia ........................................................................... 9
+   - 4.2 Vegetación y Flora potencial del Área de Estudio .............................................................................. 12
+   - 4.3 Identificación y caracterización de Unidades Vegetacionales ............................................................ 13
+   - 4.4 Representatividad de la vegetación del área de estudio ................................................................... 15
+   - 4.5 Catastro de la flora presente en el Área de Estudio ........................................................................... 15
+   - 4.6 Especies en categoría de conservación .............................................................................................. 18
+   - 4.7 Cumplimiento de la Ley 20.283 .......................................................................................................... 19
+   - 4.8 Cartografía del componente vegetacional ......................................................................................... 19
+   - 4.9 Singularidades ambientales ................................................................................................................ 19
+5. **Resultados** ....................................................................................................................................... 21
+   - 5.1 Vegetación presente en el Área de Estudio ....................................................................................... 21
+   - 5.2 Caracterización de las unidades vegetacionales ................................................................................ 22
+   - 5.3 Representatividad de la vegetación ................................................................................................... 26
+   - 5.4 Catastro de la flora presente en el área de estudio ........................................................................... 29
+   - 5.5 Especies en Categoría de conservación .............................................................................................. 37
+   - 5.6 Ley 20.283 sobre Recuperación del Bosque Nativo y Fomento Forestal ........................................... 38
+   - 5.7 Cartografía de unidades ..................................................................................................................... 39
+   - 5.8 Singularidades ambientales ................................................................................................................ 41
+6. **Conclusiones** ................................................................................................................................... 44
+7. **Bibliografía** ..................................................................................................................................... 46
+8. **Anexos** ............................................................................................................................................... 48
+   - 8.1 Anexo Fotográfico ............................................................................................................................... 48
+
+---
+
+## Índice de Tablas
+
+- **Tabla 1.** Coordenadas de Ubicación proyecto UTM Datum WGS 84, Huso 19 S. ...................................... 11
+- **Tabla 2.** Criterios para clasificar una formación vegetal compleja en zonas áridas .................................... 15
+- **Tabla 3.** Codificación “abundancia relativa de flora” según criterio de Braun-Blanquet. .......................... 16
+- **Tabla 4.** Origen fitogeográfico de la flora. ................................................................................................... 17
+- **Tabla 5.** Tipos Biológicos de la Flora Vascular .............................................................................................. 17
+- **Tabla 6.** Formaciones vegetales presentes en el área del proyecto. .......................................................... 22
+- **Tabla 7.** Criterios de comparación de las formaciones vegetacionales presentes en el área de estudio respecto del catastro de la vegetación nativa de Chile. .............................................................................. 26
+- **Tabla 8.** Formaciones vegetacionales presentes en el Área de Estudio respecto a la Sinopsis bioclimática y vegetacional de Chile (Luebert y Pliscoff 2006) .......................................................................................... 28
+- **Tabla 9.** Unidades del SNASPE presentes en la Región de la Valparaíso..................................................... 29
+- **Tabla 10.** Listado florístico de especies presentes en el Área del Proyecto. ............................................... 30
+- **Tabla 11.** Resumen de la Flora Vascular presente en el Área de Estudio según Clase Taxonómica. .......... 34
+- **Tabla 12.** Familias con mayor número de especies respecto a área de estudio ......................................... 34
+- **Tabla 13.** Listado de especies en categoría de conservación presentes en el área de estudio del Proyecto. ..................................................................................................................................................................... 37
+- **Tabla 14.** Especies presentes en DS 68/2009 .............................................................................................. 38
+
+---
+
+## Índice de Imágenes
+
+- **Imagen 1:** Área del proyecto ............................................................................................................ 6
+- **Imagen 2:** Vista aérea del área de estudio ....................................................................................... 6
+- **Imagen 3:** Ubicación espacial del proyecto .................................................................................... 10
+- **Imagen 4:** Vista general de la formación Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium* ....................................................................................................................................... 23
+- **Imagen 5:** Vista general de la formación Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven* ........................................................................................................ 24
+- **Imagen 6:** Vista general de la formación Bosque renoval de *Acacia caven* .................................. 25
+- **Imagen 7:** Origen fitogeográfico .................................................................................................... 35
+- **Imagen 8:** Tipo biológico ................................................................................................................ 36
+- **Imagen 9:** Distribución en Chile Continental ................................................................................. 36
+- **Imagen 10:** Formaciones vegetacionales presentes en el área de estudio ................................... 40
+
+---
+
+# 1. Antecedentes Generales
+
+## 1.1 Descripción del Proyecto
+
+El proyecto consistirá en la construcción y operación de una planta fotovoltaica (PFV) productora de energía eléctrica, a través de la transformación de la energía solar en energía eléctrica por medio de paneles fotovoltaicos para evacuar la energía generada a la red de distribución cercana de 12 kV anexa a la planta. La PFV tendrá una potencia de 9 MW y una vida útil de 25 años.
+
+El proyecto estará administrativamente ubicado en la Comuna de Santa María, Provincia de San Felipe de Aconcagua, Región de Valparaíso y cuenta con un terreno de 35 ha, sobre las cuales se ejecutarán las distintas obras que lo componen (Imagen 1).
+
+---
+
+**Imagen 1: Área del proyecto**
+
+**Imagen 2: Vista aérea del área de estudio**
+
+---
+
+# 2. Introducción
+
+El presente informe corresponde a la Línea de Base de Flora y Vegetación, desarrollada en el marco del Proyecto planta fotovoltaica Jahuel, comuna de Santa María, Región de Valparaíso.
+
+A continuación se presenta la Línea de Base de Flora y Vegetación en virtud de lo señalado en el Párrafo 3º art 19 literal b) del Reglamento del Sistema de Evaluación de Impacto Ambiental, que dice relación con la presentación en las Declaraciones de Impacto Ambiental de los antecedentes necesarios que justifiquen la inexistencia de aquellos efectos, características o circunstancias del artículo 11 de la ley que puedan dar origen a la necesidad de efectuar un Estudio de Impacto Ambiental.
+
+---
+
+# 3. Objetivos
+
+## 3.1 Objetivo General
+
+Realizar el levantamiento de la Línea de Base de Flora y Vegetación para el “Proyecto planta Fotovoltaica Jahuel 9MW”, Comuna de Santa María, Región de Valparaíso.
+
+## 3.2 Objetivos Específicos
+
+- Identificar y caracterizar las unidades vegetacionales presentes en el área de influencia del Proyecto.
+- Definir y analizar la representatividad de la vegetación presente en el área de influencia respecto de la vegetación presente en la región, el Sistema Nacional de Áreas Silvestres Protegidas del Estado (SNASPE) y respecto de la vegetación potencial.
+- Realizar el catastro de flora presente en el área del Proyecto.
+- Establecer el listado de especies en categoría de conservación de acuerdo a los instrumentos legales vigentes.
+- Definir y caracterizar las formaciones vegetales reguladas por la Ley N°20.283.
+- Definir las bases para la realización de la cartografía de las unidades vegetacionales presentes en el Proyecto.
+- Analizar la presencia de singularidades ambientales asociadas a la vegetación y flora en el área de influencia.
+
+---
+
+# 4. Metodología
+
+## 4.1 Determinación y justificación del área de influencia
+
+Para el análisis de las formaciones vegetacionales y riqueza de especies presentes en la superficie donde se situará el proyecto, se definieron dos niveles de estudio que se detallan a continuación.
+
+### 4.1.1 Área de Estudio
+
+El “Planta fotovoltaica Jahuel” se localiza administrativamente en la Comuna de Santa María, en la Provincia de San Felipe, Región de Valparaíso. El Área de Estudio del Proyecto considera el levantamiento de información pertinente a la flora y la vegetación presentes tanto en el área de impacto del proyecto como en el área de influencia a definir en la siguiente sección, y abarca una superficie total de 35 ha.
+
+### 4.1.2 Área de Influencia del Proyecto
+
+El área de impacto del proyecto corresponde a la superficie específica donde se instalará la PFV y en consecuencia, donde se efectuará la corta de la vegetación presente. Dicha superficie corresponde a 35 ha.
+
+Además, se considerará un *buffer* de 100 m alrededor de todo el contorno del área de impacto, el cual se denominará como área de influencia, y que corresponde a la superficie con vegetación aledaña al área de impacto, que podría verse afectada por el polvo en suspensión en el ambiente, provocado por las actividades de movimiento de tierra en la etapa de construcción del proyecto y por la instalación del cerco perimetral.
+
+---
+
+**Imagen 3: Ubicación espacial del proyecto**
+
+En la imagen 3 se indican los vértices del polígono que demarcan la superficie del Proyecto, en cuyo interior se excluyen 5,4 ha de superficie correspondientes a una zona de escurrimiento superficial de agua durante las lluvias.
+
+---
+
+## Tabla 1. Coordenadas de Ubicación proyecto UTM Datum WGS 84, Huso 19 S.
+
+| VÉRTICES | ESTE   | NORTE   |
+|----------|--------|---------|
+| 1        | 348622 | 6383014 |
+| 2        | 348378 | 6382906 |
+| 3        | 348286 | 6382862 |
+| 4        | 348194 | 6382812 |
+| 5        | 348103 | 6382734 |
+| 6        | 348072 | 6382699 |
+| 7        | 348005 | 6382627 |
+| 8        | 347920 | 6382544 |
+| 9        | 347743 | 6382308 |
+| 10       | 347548 | 6382401 |
+| 11       | 347558 | 6382432 |
+| 12       | 347617 | 6382572 |
+| 13       | 347651 | 6382647 |
+| 14       | 347693 | 6382737 |
+| 15       | 347756 | 6382874 |
+| 16       | 347886 | 6382814 |
+| 17       | 347910 | 6382839 |
+| 18       | 347904 | 6382859 |
+| 19       | 347908 | 6382864 |
+| 20       | 347957 | 6382902 |
+| 21       | 347978 | 6382897 |
+| 22       | 348013 | 6382981 |
+| 23       | 348113 | 6382879 |
+| 24       | 348296 | 6383094 |
+| 25       | 348350 | 6383083 |
+| 26       | 348405 | 6383012 |
+| 27       | 348489 | 6383081 |
+| 28       | 348514 | 6383042 |
+| 29       | 348622 | 6383014 |
+| 30       | 348320 | 6382861 |
+| 31       | 348494 | 6382935 |
+| 32       | 348555 | 6382782 |
+| 33       | 348160 | 6382493 |
+| 34       | 348050 | 6382645 |
+| 35       | 348108 | 6382714 |
+| 36       | 348180 | 6382782 |
+| 37       | 348320 | 6382861 |
+
+---
+
+## 4.2 Vegetación y Flora potencial del Área de Estudio
+
+Según la tipología de Gajardo (1994), en “La Vegetación Natural de Chile”, la vegetación presente en el Área de Estudio se clasifica como “Matorral espinoso de las Serranías” con presencia de cultivos de riego en localidades aledañas. En términos generales, las formaciones vegetacionales de este tipo son heterogéneas debido a la geografía de las cadenas montañosas posicionadas entre mar y cordillera; sin embargo, predomina la condición xerofítica de arbustos espinosos.
+
+Esta clasificación presenta diez subtipos, de los cuales el que mayor se adecúa a las condiciones fisiográficas del área de estudio es el subtipo *Acacia caven-Flourensia thurifera*. Esta comunidad se asocia a sectores llanos o de pendientes suaves, donde las especies representativas son: *Acacia caven*, *Adesmia tenella*, *Erodium cicutarium*, *Flourensia thurifera* y *Pectocarya dimorpha* (Gajardo, 1994).
+
+Por otra parte, según la “Sinopsis bioclimática y vegetacional de Chile” de Luebert y Pliscoff (2006), la vegetación presente en el Área de Estudio corresponde al piso vegetacional “Matorral espinoso mediterráneo interior de *Trevoa quinquinervia* y *Colliguaja odorífera*”, con *Acacia caven*, *Adesmia confusa*, *Colliguaja integerrima*, *Colliguaja odorífera*, *Flourensia thurifera*, *Kageneckia angustifolia*, *Lithreae caustica*, *Nassella chilensis*, *Porlieria chilensis*, *Proustia cinerea*, *Quillaja saponaria*, *Trevoa trinerva*, *Schinus montanus*, entre otras, como especies representativas.
+
+Según los mismos autores, este piso podría corresponder a una fase de degradación del bosque esclerófilo hacia un matorral, como resultado de la fuerte presión antrópica al que ha sido históricamente sometido (Luebert y Pliscoff, 2006).
+
+---
+
+## 4.3 Identificación y caracterización de Unidades Vegetacionales
+
+Para definir las formaciones vegetacionales presentes en el Área de Estudio se realizó una campaña de terreno entre los días 3 y 4 de octubre, durante la primavera del año 2015.
+
+El levantamiento de información de la vegetación se efectuó a escala 1:4.000 para toda el área analizada, por lo tanto, la cartografía presentada también se adecuó a dicha escala.
+
+La vegetación presente en el Área de Estudio se agrupó en unidades homogéneas, en cuanto a composición florística, densidad y altura del dosel dominante. Estas unidades se georreferenciaron luego, según sistema de coordenadas UTM. Para ello se utilizó datum WGS 1984 y Huso 19S.
+
+Cada formación identificada se describió, además, en términos de estratificación, cobertura y especies representativas. Para la estratificación se usaron los tipos biológicos existentes, definidos por Gordon *et al*. (1968) como base. En éstos, la información de especies dominantes se codifica de acuerdo a la metodología de Carta de Ocupación de Tierras (COT), señalada por Etienne y Prado (1982).
+
+### 4.3.1 Antecedentes de la metodología COT
+
+El estudio de la vegetación se realizó por medio de la aproximación cartográfica fitofisionómica de COT, desarrollada por el CEPE/CNRS2 de Montpellier, Francia, y adaptada a las condiciones del país por Etienne y Contreras (1981), la cual es descrita en detalle por Etienne y Prado (1982).
+
+Esta metodología fue utilizada en el Catastro de la Vegetación Nativa de Chile (1997) y ha sido planteada por la CONAMA (1996) en el libro sobre metodologías de Línea de Base.
+
+El método está orientado a la descripción cartográfica de la vegetación presente en un área determinada y la descripción de la vegetación mediante este método involucra la evaluación de dos variables:
+
+- Formación vegetal en términos estructurales.
+- Especies dominantes, definidas como aquellas especies que presentan el mayor porcentaje de cobertura en cada unidad.
+
+De esta manera, el uso de la metodología COT permite:
+
+- Determinar unidades de vegetación en el área de estudio.
+- Conocer la composición florística de las unidades descritas.
+
+Es factible, por tanto, clasificar la vegetación en cuatro tipos biológicos fundamentales:
+
+- **Herbáceos:** Especies de tejidos no lignificados, con tallos ricos en clorofila y fotosintéticos.
+- **Leñosos bajos:** Especies de tejidos lignificados o leñosos cuyo tamaño no pasa los dos metros de altura.
+- **Leñosos altos:** Especies de tejidos lignificados cuyo tamaño excede los dos metros de altura.
+- **Suculentos:** Principalmente cactáceas y bromeliáceas.
+
+Esta metodología establece que la denominación de la formación vegetal está dada por la importancia relativa de los distintos tipos biológicos en la comunidad. El método establece coberturas mínimas de los tipos biológicos para ser considerados dominantes (mayor o igual a 1% en zonas desérticas, mayor o igual a 10% en zonas áridas, y mayor o igual a 25% en zonas semiáridas, subhúmedas, húmedas y templadas).
+
+Se utilizaron los criterios descritos en Etienne y Prado (1982), para clasificar la densidad relativa de una formación vegetal en zonas áridas como se muestra en la Tabla 2.
+
+---
+
+## Tabla 2. Criterios para clasificar una formación vegetal compleja en zonas áridas
+
+| Herbáceas (H) | Leñosas Bajas (Lb) | 10–25% | 25% - 50% | 50–75% | 75% - 100% | Índice |
+|---------------|-------------------|--------|-----------|--------|------------|--------|
+| 10-25%        | 3                 | Mc     | C         |        |            |        |
+| 25-50%        | 4                 | C      | D         |        |            |        |
+| 50-75%        | 5                 | D      | D         |        |            |        |
+| 75-100%       | 6                 | D      | D         | Md     |            |        |
+
+MC: Muy clara; C: Clara; Pd: Poco densa; D: Densa; Md: Muy densa.
+
+---
+
+## 4.4 Representatividad de la vegetación del área de estudio
+
+Se evaluó la representatividad de la vegetación presente en el área de estudio del Proyecto a nivel regional, homologando la tipología de clasificación del presente estudio con la utilizada en el Catastro y evaluación de recursos vegetacionales nativos de Chile para la Región de Valparaíso (CONAF-CONAMA-BIRF, 1997), que utiliza criterios de clasificación para la definición de usos de suelo y entrega antecedentes sobre la superficie por cada tipo de uso presente en Chile. La representatividad de cada tipo vegetacional fue determinada como el cuociente entre la superficie del tipo y la superficie de la vegetación.
+
+Además, a partir de la recopilación bibliográfica de los tipos vegetacionales presentes en el área de estudio, de acuerdo a la Vegetación Nativa de Chile (Gajardo, 1994) y la Sinopsis Bioclimática y Vegetacional de Chile (Luebert y Pliscoff 2006), se obtuvieron las similitudes entre lo descrito por los autores mencionados y las observaciones en terreno. Además, se evaluó la representatividad de la vegetación potencial en el Sistema Nacional de Áreas Silvestres Protegidas del Estado (SNASPE).
+
+---
+
+## 4.5 Catastro de la flora presente en el Área de Estudio
+
+### 4.5.1 Determinación de la Composición y Riqueza Florística
+
+La composición florística de las formaciones vegetales se determinó mediante parcelas de muestreo. Para complementar esta información se realizaron colectas y muestreo intensivo del total de las plantas vasculares con sistema aéreo visible entre parcelas analizadas, en toda la extensión del área de estudio.
+
+Para cada formación vegetal, se realizaron parcelas de muestreo de flora circulares de 16 m de radio (803 m²), en puntos representativos de las formaciones vegetacionales observadas. En cada parcela se registraron todas las especies vasculares presentes, junto con sus rangos de cobertura, para los cuales se usó la tabulación propuesta por Braun-Blanquet (1979) (Tabla 3).
+
+---
+
+## Tabla 3. Codificación “abundancia relativa de flora” según criterio de Braun-Blanquet
+
+| Código | Abundancia         |
+|--------|--------------------|
+| r      | 1 individuo        |
+| +      | 2 – 4 individuos   |
+| 1      | 5 – 20%            |
+| 2      | 20 – 40%           |
+| 3      | 40 – 60%           |
+| 4      | 60 – 80%           |
+| 5      | 80 – 100%          |
+
+Cada parcela fue georreferenciada en coordenadas UTM, datum WGS 1984.
+
+La identificación de las especies se realizó en terreno, sin embargo, se herborizaron aquellos ejemplares que no fue posible determinar en el lugar, para su posterior identificación a partir de literatura especializada.
+
+La determinación taxonómica de las especies registradas se llevó a cabo según Marticorena & Quezada (1985), Marticorena & Rodriguez (2001, 2003 y 2005), Teillier *et al*. (1998) y Riedemann *et al*. (2006). La nomenclatura taxonómica utilizada para la denominación de las especies, la familia y origen fitogeográfico se basó en el “Catálogo de las Plantas Vasculares del Cono Sur” (Zuloaga et al., 2008a; 2008b; 2008c), el cual se encuentra disponible como base de datos en la página web del Instituto de Botánica Darwinion de Argentina.
+
+La riqueza florística del área de estudio se determinó con base en el número total de entidades taxonómicas, caracterizándola en Clase, Familia y Especie. Para la categoría de Clase se determinó la proporción respecto de la flora de Chile continental (Marticorena, 1990). A nivel de familia se analizó la proporción respecto a la flora de Valparaíso. Luego se indicó la riqueza específica, la cual consiste en el número total de especies encontradas.
+
+Finalmente se procedió a confeccionar un listado florístico indicando: Clase, Familia, Nombre científico, Nombre Común, Origen Fitogeográfico, Tipo Biológico y Distribución en Chile.
+
+### 4.5.2 Origen fitogeográfico
+
+El origen fitogeográfico de cada especie fue determinado con base en su distribución geográfica natural, según Zuloaga *et al*. (2008) (Tabla 4).
+
+---
+
+## Tabla 4. Origen fitogeográfico de la flora
+
+| Origen fitogeográfico | Descripción                                         |
+|----------------------|-----------------------------------------------------|
+| Endémico             | Taxón con distribución exclusiva en el territorio nacional |
+| Nativo               | Taxón con distribución natural en territorio nacional      |
+| Introducido          | Taxón con distribución natural en otros países            |
+
+---
+
+### 4.5.3 Tipos biológicos
+
+La flora vascular presente en el área de estudio se clasificó según tipos biológicos, es decir, según el hábito de crecimiento establecido por Zuloaga *et al*. (2008) (Tabla 5).
+
+---
+
+## Tabla 5. Tipos Biológicos de la Flora Vascular
+
+| Tipo Biológico   | Descripción                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| Árbol            | Plantas leñosas con uno o pocos troncos principales.                         |
+| Arbusto          | Plantas con tallos leñosos, ramificadas desde la base.                       |
+| Hierba anual     | Plantas que solamente crecen en un período vegetativo o temporada, con una duración muy corta. |
+| Hierba perenne   | Plantas que poseen órganos de resistencia subterráneos y rebrotan en primavera. |
+| Suculenta        | Plantas con tallos u hojas de consistencia suculenta.                        |
+| Parásitas        | Plantas que viven totalmente o en parte a expensas del huésped.              |
+
+---
+
+### 4.5.4 Distribución en Chile
+
+Para establecer la distribución de las especies, el análisis se basó en el “Catálogo de las Plantas Vasculares del Cono Sur” (Zuloaga *et al*., 2008a; 2008b; 2008c), el cual se encuentra disponible como base de datos en la página web del Instituto de Botánica Darwinion de Argentina. Además se verificaron los Sitios Prioritarios para la Conservación de la Región de Valparaíso.
+
+---
+
+## 4.6 Especies en categoría de conservación
+
+El estado de conservación de las especies se determinó según las categorías señaladas en el Decreto 29 del año 2011, del Ministerio del Medio Ambiente, que aprueba el Reglamento para la clasificación de especies silvestres según estado de conservación. Las categorías reconocidas son: “Extinta” (EX), “Extinta en Estado Silvestre” (EW), “En Peligro Crítico” (CR), “En Peligro”(EN), “Vulnerable” (VU), “Casi Amenazada” (NT), “Preocupación Menor” (LC) y “Datos insuficientes” (DD).
+
+Se verificó la lista de especies contenidas en los Decretos Supremos números 151/2007, 50/2008, 51/2008, 23/2009 del Ministerio Secretaría General de la Presidencia, 33/2012, 41/2012, 42/2012, 19/2013, 52/2014, 38/2015 del Ministerio del Medio Ambiente que oficializan el estado de conservación de las especies vegetales.
+
+Además se revisaron las especies catalogadas en otros listados nacionales, incluyendo el “Libro Rojo de la Flora Terrestre de Chile” (Benoit, 1989) junto a Belmonte *et al*, 1998 y Ravenna, et al., 1998 (Boletín del Museo Nacional de Historia Natural Nº 47, 1998).
+
+---
+
+## 4.7 Cumplimiento de la Ley 20.283
+
+Para determinar la pertinencia de la realización de planes de manejo forestal o planes de trabajo de formaciones xerofíticas, se analizó el Decreto 68 del año 2009 del Ministerio de Agricultura, que establece, aprueba y oficializa la nómina de especies arbóreas y arbustivas originarias del país y se comparó con el listado florístico del área de estudio. Junto con esto, se realizaron parcelas de inventario de 500 m², para determinar si la cobertura arbórea superaba el 10% de la formación, según los criterios establecidos en la normativa vigente.
+
+---
+
+## 4.8 Cartografía del componente vegetacional
+
+Para la realización de la cartografía de las distintas unidades, se considera como base el polígono de emplazamiento del proyecto. Además, se utilizaron ortofotos para la digitalización de las unidades. La cartografía se presenta en Datum WGS 84, Huso 19 S.
+
+---
+
+## 4.9 Singularidades ambientales
+
+Se analizó la presencia de singularidades ambientales asociadas a la vegetación y flora en el área del estudio. Para ello se utilizaron los criterios indicados en la Guía de Evaluación Ambiental (CONAF, 2014):
+
+1. Presencia de formaciones vegetales únicas, escasas o de baja representatividad nacional.
+2. Presencia de Formaciones vegetales relictuales.
+3. Presencia de formaciones vegetales reliquias.
+4. Presencia de Formaciones vegetales remanentes.
+5. Presencia de Formaciones vegetales frágiles.
+6. Presencia de Bosque nativo de preservación.
+7. Presencia de ejemplares de especies vegetales clasificadas en categorías de conservación.
+8. Presencia de especies vegetales protegidas por regulaciones especiales.
+9. Presencia de especies endémicas.
+10. Presencia de especies de distribución restringida.
+11. Localización en o cercano al límite de distribución geográfica de la especie.
+12. Localización en o cercano al límite altitudinal de la especie.
+13. Actividad en o colindante con sitios prioritarios para la conservación de la diversidad definidos en las estrategias regionales.
+14. Actividad en o colindante con áreas bajo protección oficial.
+15. Actividad en o colindante con áreas protegidas privadas.
+16. Actividad en o colindante con áreas de protección (Ley Nº 18.378).
+17. Actividad en o colindante con o aguas arriba de Humedales.
+
+---
+
+# 5. Resultados
+
+En términos generales, el área prospectada presenta alta pedregosidad hacia los bordes longitudinales y quebradas, la que en algunos casos puede abarcar hasta el 60% de la superficie de las parcelas muestreadas.
+
+La altitud media es de 912 m.s.n.m. La fisiografía corresponde a una planicie, de baja pendiente (1,5 grados), por lo que no se trata de una variable determinante en la diferenciación de las formaciones definidas.
+
+La estructura de la vegetación corresponde a monte bajo, mientras que el estado fitosanitario se observó entre regular a bueno.
+
+## 5.1 Vegetación presente en el Área de Estudio
+
+El área de estudio comprende una superficie total de 35 ha, de las cuales el 41,21% corresponde a Praderas estacionales de *Pectocarya linearis* con *Erodium cicutarium*, equivalentes a 14,38 ha. Junto con ello, la superficie se encuentra cubierta por formaciones de Matorral de *Proustia cuneifolia* acompañado de *Acacia caven* (9,91 ha), y en menor proporción por la formación Bosque Renoval de *Acacia caven*, que ocupa el 10,6% de la superficie (Tabla 6).
+
+---
+
+## Tabla 6. Formaciones vegetales presentes en el área del proyecto
+
+| Formación vegetacional                                         | Área de Estudio (Ha) | % Representación AE |
+|---------------------------------------------------------------|---------------------|---------------------|
+| Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium* | 14,38               | 41,21               |
+| Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven* | 9,91                | 28,4                |
+| Bosque Renoval de *Acacia Caven*                              | 10,60               | 30,38               |
+| **TOTAL**                                                     | **34,89**           | **100**             |
+
+---
+
+## 5.2 Caracterización de las unidades vegetacionales
+
+El detalle de cada una de las unidades vegetacionales identificadas en el área de estudio se expone a continuación, descrito a nivel de tipo vegetacional.
+
+### 5.2.1 Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium*
+
+Esta formación es la de mayor extensión en el área de estudio, posiblemente por la habilitación del terreno para uso agrícola o ganadero de tiempos pasados. De modo que el 41,21% de la superficie prospectada está cubierta por especies herbáceas, de altura inferior a 20 cm, con presencia de especies arbóreas, arbustivas o suculentas aisladas.
+
+Las especies representativas del estrato herbáceo corresponden a *Pectocarya linearis* (Ruiz & Pav.) DC. y *Erodium cicutarium* (L.) L'Hér. ex Aiton. Mientras que entre las especies acompañantes se encuentra: *Oxalis micrantha*, *Cryptantha sp.*, *Chaethanthera moenchioides* y *Vulpia myuros*.
+
+Por otra parte, las especies con individuos aislados del estrato superior (entre 2 y 4 m) presentes en la formación corresponden a *Acacia caven*, *Proustia cuneifolia* y *Trichocereus chiloensis*.
+
+Es esperable que en los meses menos favorables (entre diciembre y marzo) la densidad de la pradera disminuya hasta encontrar suelo desnudo en esta superficie. Mientras que en los meses favorables, la cobertura alcanza el 80% del terreno.
+
+Cabe mencionar, que 1,27 ha ubicadas en el extremo este de la formación, se encuentran acompañadas por una mayor abundancia de especies arbustivas, principalmente por *Proustia cuneifolia*.
+
+**Imagen 4: Vista general de la formación Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium***
+
+---
+
+### 5.2.2 Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven*
+
+Esta formación abarca 9,91 ha equivalentes al 28,40% de la superficie total evaluada. Se caracteriza por la presencia de especies arbustivas bajas, inferiores a los 2 m de altura, de cobertura densa del 70% de la superficie de las parcelas muestreadas, en promedio. Presenta un estrato arbóreo de baja altura, que fluctúa entre 1 y 6 metros, con cobertura de copas cercana al 10%.
+
+El dosel superior está compuesto por *Acacia caven* y *Lithraea caustica*, mientras que el dosel intermedio lo domina *Proustia cuneifolia*, y *Adesmia confusa*.
+
+Por otra parte, el estrato herbáceo se compone principalmente por especies anuales o bianuales, de altura inferior a los 25 cm y de alta densidad, con cobertura promedio del 80%.
+
+Las especies representativas de este estrato son *Vulpia myuros*, *Chaethanthera moenchioides*, *Geranium core core*, *Oxalis micrantha*, *O. pescaprae*, *Pectocarya linearis* y *Erodium cicutarium*.
+
+La mayor cantidad de suculentas se encontró en esta comunidad vegetal, principalmente en la zona de escurrimiento superficial que atraviesa el polígono en sentido noreste-suroeste, siendo *Trichocereus chiloensis* la única especie del grupo presente en el área de estudio. No obstante, la cobertura no superó el 10% de la superficie en los lugares de mayor abundancia, ocupando sólo el 1% de cobertura, equivalente a un individuo por parcela, en la mayoría de los casos, mientras que en términos generales, se obtuvieron 71 ejemplares por hectárea.
+
+Cabe señalar que en algunos sectores de la quebrada de escurrimiento, es posible encontrar individuos arbóreos con grandes copas, que podrían conducir a una formación boscosa, sin embargo, la definición legal de este concepto señala como requisito un ancho mínimo de 40 m y 5.000 m² de superficie continua, condiciones que no se cumple en este segmento del área de estudio.
+
+**Imagen 5: Vista general de la formación Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven***
+
+---
+
+### 5.2.3 Bosque renoval abierto de *Acacia Caven*
+
+Esta formación corresponde a un rodal continuo con claros intermedios, que se sitúa en la sección sur de ambos polígonos, colindante con el camino de acceso al predio. Abarca una superficie de 10,6 ha, equivalentes al 30,38% del área de estudio. Se caracteriza por la presencia de un dosel arbóreo dominado por *Acacia caven*, principalmente de individuos juveniles, con altura inferior a los 2 m, pudiendo encontrarse individuos con alturas superiores a los 4 m. La cobertura del dosel superior alcanza en promedio el 20%, mientras que el dosel intermedio, se compone por *Acacia caven* y *Proustia cuneifolia*, cubriendo en promedio el 60% de la superficie de las parcelas prospectadas.
+
+En tanto, el estrato herbáceo no supera los 20 cm de altura y cubren cerca de la totalidad de la formación (80%). Las especies representativas son *Chaethantera moenchioides*, *Pectocarya linearis*, y *Erodium circutarium*.
+
+**Imagen 6: Vista general de la formación Bosque renoval de *Acacia caven***
+
+---
+
+## 5.3 Representatividad de la vegetación
+
+### 5.3.1 Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile
+
+El análisis de la representatividad de las formaciones vegetacionales identificadas, se realizó a partir de una homologación entre las categorías de clasificación de la vegetación utilizadas en el presente estudio y las empleadas para definir usos de suelo en el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile (CONAF-CONAMA-BIRF, 1999), para la región de Valparaíso.
+
+Si bien la información que presenta el Catastro y Evaluación de Recursos Vegetacionales Nativos de Chile fue levantada a una escala inferior a la utilizada en el presente estudio (Catastro 1:50.000 versus Estudio 1:10.000), presenta una referencia general de la vegetación de la Región.
+
+Para el análisis de las formaciones vegetales se incluyeron las categorías matorral abierto, matorral-suculentas, matorral-suculenta abierto. Los criterios utilizados para establecer la equivalencia se presentan en la Tabla 7.
+
+---
+
+## Tabla 7. Criterios de comparación de las formaciones vegetacionales presentes en el área de estudio respecto del catastro de la vegetación nativa de Chile
+
+| Formación vegetacional                                         | Equivalencia del Catastro                                                                 |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Bosque renoval de *Acacia Caven*                              | Uso Bosque Nativo Renoval, cuya primera especie dominante es Espino (*Acacia caven*)     |
+| Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven* | Uso matorral arborescente cuya primera especie dominante es *Proustia cuneifolia* y como segunda o tercera especie dominante *Acacia caven* |
+| Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium* | Uso praderas anuales y Uso Praderas y Matorrales y Uso Praderas anuales.                |
+
+---
+
+A nivel regional, el Catastro Vegetacional señala que el uso de suelo praderas y matorrales cubre 955.931,2 ha, por lo que la superficie del proyecto cubierta con estas formaciones equivale al 0,002% del total regional. Por otra lado, el uso bosque nativo renoval abierto cubre 47.830,2 ha de la Región de Valparaíso, de las cuales cerca de 11 ha se encuentran en el área de estudio, equivalentes al 0,022% de la superficie regional.
+
+Por otra parte, al realizar el análisis según tipo forestal, la V Región se encuentra cubierta por 327,4 ha de Bosque Esclerófilo, subtipo espino, de las cuales el 3,23% correspondería a la formación bosque renoval de *Acacia caven* presente en el área de estudio.
+
+En específico, las praderas anuales cubren 39.287,2 ha de la Región, de las cuales el 0,36% corresponde a la formación pradera descrita para el área de estudio.
+
+En cuanto al uso Matorral Denso, éste cubre 39.779,5 ha de la superficie regional, de las el 0,02% corresponde a las formaciones de Matorral descritas en el presente informe.
+
+### 5.3.2 Representatividad de vegetación respecto a pisos vegetacionales
+
+Como resultado de la homologación de las categorías de clasificación según Luebert y Pliscoff (2006) en la Sinopsis bioclimática y vegetacional de Chile, y las formaciones vegetacionales descritas para el área de estudio, se obtuvo una amplia diferencia en cuanto a composición florística de ambos elementos a comparar.
+
+Cabe señalar, que la información que presenta la Sinopsis bioclimática y vegetacional de Chile (Luebert y Pliscoff, 2006) fue levantada a una escala inferior a la utilizada en el presente estudio (Luebert y Pliscoff 1:100.000 versus 1:10.000), por lo que se tiene una referencia general de la vegetación presente en la región.
+
+Según los autores mencionados, la vegetación presente en el Área de Estudio corresponde al piso vegetacional “Matorral espinoso mediterráneo interior de *Trevoa quinquinervia* y *Colliguaja odorífera*”.
+
+---
+
+## Tabla 8. Formaciones vegetacionales presentes en el Área de Estudio respecto a la Sinopsis bioclimática y vegetacional de Chile (Luebert y Pliscoff 2006)
+
+| Piso vegetacional (Luebert y Pliscoff, 2006) | Formación vegetacional en área de estudio |
+|----------------------------------------------|------------------------------------------|
+| Matorral espinoso mediterráneo interior de *Trevoa quinquinervia* y *Colliguaja odorífera* | Bosque renoval de *Acacia Caven*<br>Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven*<br>Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium* |
+
+Los resultados indican que no hubo concordancia entre las especies dominantes potenciales y las encontradas en el área de estudio. Esto se podría atribuir al alto grado de intervención antrópica observable en el territorio, lo que se traduce en una alta proporción de praderas anuales, que la mayor parte del año se trata de suelo descubierto. En consecuencia, la vegetación prospectada no se encuentra representada en la Sinopsis bioclimática vegetacional de Chile.
+
+### 5.3.3 Representatividad de la vegetación a nivel del Sistema Nacional de Áreas Silvestres Protegidas del Estado (SNASPE)
+
+La vegetación presente en el área de estudio se encuentra catalogada como tipo forestal esclerófilo, cuya representatividad en el SNASPE a nivel nacional es del 2,6% de la superficie total de dicho tipo forestal.
+
+De acuerdo con el Catastro de la Vegetación (CONAF-CONAMA-BIRF, 1999), 11.185,4 ha de praderas y matorrales de la V Región se encuentran cubiertas por el SNASPE, equivalentes al 1,2% de la superficie regional.
+
+En cuanto al uso Bosque, el 3% de los bosques renovales de la región se encuentra representado en el SNASPE.
+
+---
+
+## Tabla 9. Unidades del SNASPE presentes en la Región de la Valparaíso
+
+| Región      | Nombre de la Unidad                        | Superficie (ha) |
+|-------------|--------------------------------------------|-----------------|
+| Valparaíso  | Parque Nacional Archipiélago de Juan Fernández | 9.571           |
+| Valparaíso  | Parque Nacional La Campana                 | 8.000           |
+| Valparaíso  | Parque Nacional Rapa Nui                   | 7.130           |
+| Valparaíso  | Reserva Nacional Río Blanco                | 10.175          |
+| Valparaíso  | Reserva Nacional Lago Peñuelas             | 9.094           |
+| Valparaíso  | Reserva Nacional El Yali                   | 520             |
+| Valparaíso  | Monumento Natural Isla Cachagua            | 4,5             |
+
+Fuente: CONAF, 2015
+
+En la tabla 9 se indican las áreas silvestres protegidas por el Estado de la Región de Valparaíso. De éstas, el Parque Nacional La Campana y Reserva Nacional Lago Peñuelas podrían contener las especies del área de estudio como parte de la composición florística de estas unidades protegidas.
+
+---
+
+## 5.4 Catastro de la flora presente en el área de estudio
+
+Las especies que componen la unidad total del muestreo, diferenciadas por Clase, Familia, Nombre científico, Nombre Común, Tipo Biológico, Origen Fitogeográfico y Distribución en Chile se detallan en la Tabla 10.
+
+---
+
+## Tabla 10. Listado florístico de especies presentes en el Área del Proyecto
+
+| Clase        | Familia         | Nombre científico                  | Nombre común         | Estado de Conservación | Tipo biológico | Origen Fitogeográfico | Distribución en Chile |
+|--------------|----------------|------------------------------------|----------------------|-----------------------|---------------|----------------------|----------------------|
+| Filicopsida  | Adiantaceae    | *Adiantum scabrum* Kaulf.          | Palito negro         |                       |               |                      | V-VI-VII-VIII-IX-X-RM|
+| Filicopsida  | Adiantaceae    | *Cheilanthes hypoleuca* (Kunze) Mett. | Doradilla         |                       |               |                      | IX                   |
+| Liliopsida   | Poaceae        | *Vulpia myuros* (L.) C.C. Gmel.    | Greñita              |                       |               |                      | I-II-IV-V-VI-VII-VIII-IX-X-XII |
+| Liliopsida   | Alliaceae      | *Leucocoryne ixioides* (Hook.) Lindl. | Huilli            |                       |               |                      | RM                   |
+| Magnoliopsida| Anacardiaceae  | *Lithraea caustica* (Molina) Hook. & Arn. | Litre           | Árbol                 |               |                      | IX-RM                |
+| Magnoliopsida| Anacardiaceae  | *Schinus molle* L. var.            | Pimiento boliviano   | Árbol                 |               |                      | I-II-III             |
+| Magnoliopsida| Apocynaceae    | *Tweedia birostrata* (Hook. & Arn.) Hook. & Arn. | Zahumerio, Voquicillo | perenne |               |                      | II-III-IV-V-VI-VII-VIII-RM |
+| Magnoliopsida| Asteraceae     | *Baccharis linearis* (Ruiz & Pav.) | Romerillo            | Arbusto               |               |                      | III-IV-V-VI-VII-VIII-IX-X-RM |
+| Magnoliopsida| Asteraceae     | *Chaetanthera moenchioides* Less.  |                      |                       |               |                      | IX-X-RM              |
+| Magnoliopsida| Asteraceae     | *Gamochaeta sp.*                   |                      |                       |               |                      |                      |
+| Magnoliopsida| Asteraceae     | *Haploppappus velutinus* J. Remy   | Bailahuén            | Arbusto               |               |                      | RM                   |
+| Magnoliopsida| Asteraceae     | *Leucheria cerberoana* J. Remy     | Blanquicillo         |                       |               |                      | II-III-IV-V-RM       |
+| Magnoliopsida| Asteraceae     | *Senecio vulgaris* L.              | Hierba cana          |                       |               |                      | III-V-VIII-IX-X-XII-RM |
+| Magnoliopsida| Boraginaceae   | *Cryptantha sp.*                   |                      |                       |               |                      |                      |
+| Magnoliopsida| Boraginaceae   | *Pectocarya linearis* (Ruiz & Pav.) DC. | Dicha           |                       |               |                      | II-IV-V-VI-VII-VIII-VI-RM |
+| Magnoliopsida| Cactaceae      | *Trichocereus chiloensis* (Colla) Britton & Rose | Quisco | NT | Suculento |               | II-IV-V-VI-VII-RM      |
+| Magnoliopsida| Calceolariaceae| *Calceolaria glandulosa* Poepp. ex Benth | Capachito      |                       |               |                      | II-III-IV-V-VI-VII-RM |
+| Magnoliopsida| Caryophyllaceae| *Stellaria sp.*                     |                      |                       |               |                      |                      |
+| Magnoliopsida| Euphorbiaceae  | *Euphorbia peplus* L.               | Pichoga              |                       |               |                      | VII-VIII-IX-X-RM     |
+| Magnoliopsida| Fabaceae       | *Acacia caven* (Molina) Molina      | Espino               | Árbol                 |               |                      | III-IV-V-VI-VII-VIII-IX-X-RM |
+| Magnoliopsida| Fabaceae       | *Adesmia confusa* Ulibarri          | Varilla Brava         | Arbusto               |               |                      | IV-V-VI-RM           |
+| Magnoliopsida| Fabaceae       | *Adesmia papposa* (Lag.) DC.        | Arvejilla             |                       |               |                      | RM                   |
+| Magnoliopsida| Fabaceae       | *Otholobium glandulosum* (L.) J.W. Grimes | Culén         | Arbusto               |               |                      | IX-X-RM              |
+| Magnoliopsida| Fumariaceae    | *Fumaria agraria* Lag.              | Hierba de la culebra  |                       |               |                      | II-III-IV-V-VI-VII-VIII-IX-X-RM |
+| Magnoliopsida| Geraniaceae    | *Erodium cicutarium* (L.) L'Hér. ex Aiton | Alfilerillo    | Hierba Anual o bianual|               |                      | VII-VIII-IX-X-XI-XII-RM |
+| Magnoliopsida| Geraniaceae    | *Geranium core-core* Steud.         | Core-Core             | perenne               |               |                      | VII-VIII-IX-X-XI-XII-RM |
+| Magnoliopsida| Lamiaceae      | *Marrubium vulgare* L.              | Toronjil cuyano       |                       |               |                      | II-IV-V-VI-VII-VIII-IX-X-XI-RM |
+| Magnoliopsida| Laxmanniaceae  | *Trichopetalum plumosum* (Ruiz & Pav.) J.F. Macbr. | Flor de la plumilla | | | IX-RM |
+| Magnoliopsida| Loasaceae      | *Loasa tricolor* Ker Gawl.           | Ortiga brava          |                       |               |                      | III-IV-V-RM          |
+| Magnoliopsida| Onagraceae     | *Camissonia dentata* (Cav.) Reiche   |                      |                       |               |                      | I-III-IV-V-VI-VII-VIII-IX-RM |
+| Magnoliopsida| Oxalidaceae    | *Oxalis micrantha* Bertero ex Colla  | Vinagrillo            |                       |               |                      | II-III-IV-V-VI-VII-VIII-IX-X-RM |
+| Magnoliopsida| Oxalidaceae    | *Oxalis pes-caprae* L.               | Pasto agrio           |                       |               |                      | IV-V-VIII-X          |
+| Magnoliopsida| Plantaginaceae | *Plantago aff. hispidula* Ruiz & Pav |                      |                       |               |                      | VIII-RM              |
+| Magnoliopsida| Rubiaceae      | *Galium aparine* L.                  | El amor de hortelano  |                       |               |                      | VII-VIII-IX-X-XI-XII-RM |
+| Magnoliopsida| Solanaceae     | *Cestrum parqui* L'Hér.              | Palqui                | Arbusto               |               |                      | VII-VIII-IX-X-RM     |
+| Magnoliopsida| Tropaeolaceae  | *Tropaeolum azureum* Bertero ex Colla| Pajarito azul         |                       |               |                      | II-III-IV-V-RM       |
+
+---
+
+## 5.4.1 Composición florística y Riqueza florística
+
+La flora vascular del área del proyecto alcanza un total de 36 especies. Las especies registradas forman parte de 23 familias y 34 géneros. De las 36 especies de plantas vasculares registradas, 1 corresponde a la Clase Liliopsida, 33 a la Clase Magnoliopsida y 2 a la Clase Filicopsida.
+
+---
+
+## Tabla 11. Resumen de la Flora Vascular presente en el Área de Estudio según Clase Taxonómica
+
+| Clase         | Nº especies área de estudio | Nº especies Chile Continental (Marticorena, 1990) | % Área total de estudio | % del total de Chile Continental |
+|--------------|----------------------------|---------------------------------------------------|------------------------|-------------------------------|
+| Filicopsida  | 2                          | 5,56                                             | 0,04                   |
+| Liliopsida   | 1                          | 1.069                                            | 2,77                   | 0,02                          |
+| Magnoliopsida| 33                         | 3.906                                            | 91,67                  | 0,65                          |
+| Polypodiopsida| --                        | 114                                              | --                     | --                            |
+| **Total**    | **36**                     | **5.105**                                        | **100**                | **0,71**                      |
+
+De acuerdo con la Tabla 11, la categoría taxonómica con mayor relevancia en cuanto a diversidad corresponde a la Clase Magnoliopsida con el 91,67% del total de especies registradas, mientras que la Clase Filicopsida y Liliopsida representan el 5,56% y 2,77% de la flora del área de estudio, respectivamente.
+
+Por otra parte, de las 23 familias registradas en el área de estudio (Tabla 10 Listado Florístico), las dos familias que registran la mayor diversidad de especies corresponden a Asteraceae (6 especies) y Fabaceae (4 especies), mientras que el resto abarca entre una y dos especies.
+
+---
+
+## Tabla 12. Familias con mayor número de especies respecto a área de estudio
+
+| Familia      | Nº especies área de estudio |
+|--------------|----------------------------|
+| Asteraceae   | 6                          |
+| Fabaceae     | 4                          |
+
+---
+
+## 5.4.2 Origen Fitogeográfico
+
+De las 36 especies identificadas, se determinó que 18 especies son endémicas de Chile (50%), 7 especies son nativas (19,44%) y 10 especies introducidas (27,78%).
+
+Se observa además que el 2,78% de las especies tiene origen desconocido, correspondiente a *Cryptantha sp.*, la cual no fue identificada a nivel de especie, y cuyo género involucra especies tanto foráneas como nativas o endémicas.
+
+**Imagen 7: Origen fitogeográfico**
+
+---
+
+## 5.4.3 Tipo biológico
+
+Según la distribución por forma de crecimiento o tipo biológico de la flora presente en el área del proyecto, las hierbas anuales son las más comunes, representando el 41,67% del total de especies registradas (15 especies), le sigue los tipos biológicos hierba perenne con el 30,56% (11 especies) y arbusto con el 13,89% (5 especies), mientras que el tipo suculentas y hierba anual o bianual están conformados por 1 especie cada uno.
+
+**Imagen 8: Tipo biológico**
+
+---
+
+## 5.4.4 Distribución en Chile
+
+La Imagen 9 expone la distribución por región administrativa de Chile de la flora registrada en el área del Proyecto (según Catálogo de la Flora del Cono Sur).
+
+**Imagen 9: Distribución en Chile Continental**
+
+De la gráfica se desprende que la mayor proporción de las especies crece en un amplio rango de distribución, concentrándose entre las regiones IV y VIII. Esta amplitud se atribuye a la plasticidad de las especies para adecuarse a ambientes degradados, como es el caso del área de estudio y otros territorios, principalmente de Chile central.
+
+Como particularidad, se observó que la especie *Schinus molle*, no crece naturalmente en la V Región, por lo que se trata de una especie nativa chilena, pero adventicia en el área de estudio.
+
+En lo referente a la región, no se observaron especies con distribución restringida a esta, por el contrario, las especies *Erodium cicutarium*, *Geranium core-core* y *Galium aparine* crecen en todas las regiones, a lo largo del país.
+
+---
+
+## 5.5 Especies en Categoría de conservación
+
+Las especies en categoría de conservación que se encuentran dentro del área del Proyecto, son las que se detallan en la siguiente Tabla 13.
+
+---
+
+## Tabla 13. Listado de especies en categoría de conservación presentes en el área de estudio del Proyecto
+
+| Nombre científico                  | Nombre común | Estado de Conservación |
+|------------------------------------|--------------|-----------------------|
+| *Trichocereus chiloensis* (Colla) Britton & Rose | Quisco       | NT                    |
+
+Categoría: EP, EN = En Peligro; VU = Vulnerable; R = Rara; IC = Insuficientemente conocida; FP = Fuera de Peligro; NT = Casi Amenazada; LC = Preocupación menor
+
+Documento: Bol_47 = Boletín 47 MNHN; RCE = Reglamento de Clasificación de Especies, Cactáceas_Chile = Cactáceas en la Flora Silvestre de Chile
+
+Se encontró sólo una especie en categoría de conservación: *Trichocereus chiloensis*, la cual está clasificada como casi amenazada (NT) por RCE, DS 41/2011 MMA.
+
+---
+
+## 5.6 Ley 20.283 sobre Recuperación del Bosque Nativo y Fomento Forestal
+
+De las especies identificadas, 7 son originarias de Chile, según DS 68/2009, que establece, aprueba y oficializa la nómina de especies arbóreas y arbustivas originarias.
+
+---
+
+## Tabla 14. Especies presentes en DS 68/2009
+
+| Familia         | Nombre Científico                        | Nombre común         |
+|-----------------|------------------------------------------|----------------------|
+| Fabaceae        | *Acacia caven* (Molina) Molina           | Espino               |
+| Fabaceae        | *Adesmia confusa* Ulibarri               | Varilla Brava        |
+| Asteraceae      | *Baccharis linearis* (Ruiz & Pav.)       | Romerillo            |
+| Cactaceae       | *Trichocereus chiloensis* (Colla) Britton & Rose | Quisco         |
+| Anacardiaceae   | *Lithraea caustica* (Molina) Hook. & Arn.| Litre                |
+| Fabaceae        | *Otholobium glandulosum* (L.) J.W. Grimes| Culén                |
+| Anacardiaceae   | *Schinus molle* L. var.                  | Pimiento boliviano   |
+
+*Diferencias en nombre científico publicado en D.S 68/2009 y nombre científico aprobado al año 2015.
+
+Según la definición de bosque indicada en el Artículo 2°, inciso segundo de la Ley 20.283/08, el área de estudio compromete alrededor de 11 ha de formación Bosque Renoval de *Acacia caven*, que deben ser incorporadas en un Plan de Manejo de Obras Civiles.
+
+Con respecto a las Formaciones Xerofíticas, el Artículo 2° de la Ley 20.283 las define como: “Aquellas formaciones vegetales constituidas por especies autóctonas, preferentemente arbutivas o suculentas, de áreas de condiciones áridas o semiáridas ubicadas entre las Regiones I y VI, incluidas la Metropolitana y la XV y en las depresiones interiores de las Regiones VII y VIII”. Bajo esta premisa, en la formación “Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven*”, prima la especie arbustiva *Proustia cuneifolia* (60% de cobertura promedio), la cual no aparece catalogada como autóctona en el D.S 68/2009. Por otro lado, el sector de mayores coberturas de suculentas y de especies autóctonas corresponde al de escurrimiento superficial, cuyo ancho es inferior a los 40 m requeridos por el Art. 3°, letra b) del Reglamento General de la Ley sobre Recuperación y del Bosque Nativo y Fomento Forestal, mientras que en el resto de los sectores de ancho mayor a 40 m, la densidad mínima de 500 individuos por hectárea dispuesta en la letra d) del mismo artículo no se cumple, dado que alcanza los 160 individuos por ha en promedio. En consecuencia, no es necesario realizar un Permiso Sectorial Ambiental ni un Plan de Trabajo de Formaciones Xerofítica según para la formación Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven*”.
+
+---
+
+## 5.7 Cartografía de unidades
+
+De la fotointerpretación del terreno fue posible identificar 3 tipos vegetacionales. Cada una de estas unidades definidas a priori, fueron posteriormente verificadas en terreno y delimitadas mediante GPS. La cartografía se presenta en datum WGS 84, Huso 19S, a escala 1:4.000, la que permite una adecuada apreciación del terreno.
+
+**Imagen 10: Formaciones vegetacionales presentes en el área de estudio**
+
+---
+
+## 5.8 Singularidades ambientales
+
+De acuerdo a lo indicado en la metodología, se presentan a continuación, las singularidades vegetacionales y florísticas identificadas para el área de estudio del proyecto:
+
+### a. Presencia de formaciones vegetales únicas o de baja representatividad nacional
+
+De acuerdo a los antecedentes disponibles no se registró la presencia de formaciones vegetales únicas o de baja representatividad nacional.
+
+### b. Presencia de formaciones vegetales relictuales
+
+No se encontraron elementos vegetacionales pertenecientes a subregiones ecológicas de distribución austral o septentrional, que puedan considerarse relictuales.
+
+### c. Presencia de formaciones vegetales remanentes
+
+De acuerdo a los antecedentes disponibles no se registró la presencia de formaciones vegetales remanentes.
+
+### d. Presencia de formaciones vegetales frágiles
+
+Según la información recopilada no se identificaron formaciones vegetales frágiles en el área de estudio.
+
+### e. Presencia de bosques de preservación
+
+De acuerdo a los antecedentes disponibles no se registró la presencia de bosques de preservación.
+
+### f. Presencia de ejemplares de especies vegetales clasificadas en categorías de conservación
+
+En toda la superficie prospectada se encontraron ejemplares de *Trichocereus chiloensis*, especie catalogada como NT, “Casi amenazada” en el Decreto Nº 41 del año 2011, del Ministerio del Medio Ambiente.
+
+### g. Presencia de especies vegetales protegidas por regulaciones especiales
+
+De acuerdo al listado florístico y a la normativa ambiental y sectorial, en el área de estudio no se identificaron especies vegetales declaradas como Monumentos Naturales o pertenecientes a otra categoría cuya intervención implique una regulación especial.
+
+### h. Presencia de especies endémicas
+
+En el área de estudio se identificaron 18 especies endémicas de Chile Continental, de las cuales ninguna es endémica de la región de Valparaíso.
+
+### i. Presencia de especies de distribución restringida
+
+De las especies descritas en el listado florístico ninguna posee distribución restringida.
+
+### j. Localización en o cercano al límite de distribución geográfica de la especie
+
+De acuerdo al listado florístico y a los antecedentes de la distribución geográfica de las especies identificadas en el proyecto (Listado florístico, Tabla 10), para la especie *Adiantum scabrum*, la V Región de Valparaíso corresponde a su límite septentrional de distribución.
+
+### k. Localización en o cercano al límite altitudinal de la especie
+
+De acuerdo al listado florístico y los antecedentes de la distribución altitudinal de las especies identificadas, no se registraron especies en o cercano al límite altitudinal de la especie.
+
+### l. Actividad en o colindante con sitios prioritarios para la conservación de la diversidad
+
+El área del proyecto no forma parte de ningún sitio prioritario de la Conservación de la Biodiversidad, en la Estrategia Regional de Biodiversidad y considerado por el Servicio de Evaluación Ambiental para la interpretación del artículo 11 letra d) de la Ley 19.300 modificada por la Ley 20.417 en el SEIA (Instructivo N°103008 28 de septiembre 2010), siendo el Cerro Tabaco, en Putaendo, el sitio prioritario más cercano al área de estudio, localizado a 18,57 km en línea recta.
+
+### m. Actividad en o colindante con áreas bajo protección oficial
+
+El Proyecto no se ubica en o colindante con áreas bajo protección oficial.
+
+### n. Actividad en o colindante con Áreas Protegidas Privadas (APP)
+
+De acuerdo a la definición APP establecida por la UICN (2003), un área protegida privada corresponde a una porción de terreno de cualquier superficie, manejada predominantemente para la conservación de la biodiversidad, protegida con o sin reconocimiento formal del gobierno y gestionada por o a través de personas individuales, comunidades, corporaciones u organizaciones no gubernamentales. En este sentido y según la información recopilada, el área de estudio no se ubica en o colindante a alguna área protegida privada.
+
+### o. Actividad en o colindante con áreas de protección (Ley Nº 18.378)
+
+De acuerdo con la información bibliográfica, no existe registro de que el área de estudio esté ubicado en o colindante a un área de acuerdo a la Ley 18.378, correspondientes a aquellas denominadas “distritos de conservación de suelos, bosques y aguas”, así como a áreas con prohibición de cortar árboles en franjas de hasta 100 metros desde carreteras públicas, orillas de ríos y de lagos, y quebradas no susceptibles de aprovechamiento, cuando lo requiera la conservación de la riqueza turística.
+
+### p. Actividad en o colindante con o aguas arriba de Humedales
+
+El proyecto no se ubica en o colindante con o aguas arriba de humedales.
+
+---
+
+# 6. Conclusiones
+
+En el área de estudio se identificaron tres formaciones vegetales, que corresponden a “Pradera estacional de *Pectocarya linearis* y *Erodium cicutarium*”, “Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven*” y la formación “Bosque renoval de *Acacia Caven*”.
+
+- Según la “Sinopsis bioclimática y vegetacional de Chile” de Luebert y Pliscoff (2006), la vegetación presente en el Área de Estudio corresponde al piso vegetacional “Matorral espinoso mediterráneo interior de *Trevoa quinquinervia* y *Colliguaja odorífera*”, mientras que según la tipología de Gajardo (1994), en “La Vegetación Natural de Chile”, la vegetación presente en el Área de Estudio se clasifica como “Matorral espinoso de las Serranías”.
+- En total se registraron 36 especies vasculares, de las cuales el 50% (18 especies) son endémicas de Chile, el 27,78% (10 especies) son especies alóctonas o introducidas y el 19,44% (7 especies) son especies nativas.
+- Se identificó una especie en categoría de conservación: *Trichocereus chiloensis*, la cual se encuentra catalogada como “Casi amenazada (NT)” por D.S 41/2011 del Ministerio del Medioambiente.
+- En cuanto a formaciones vegetales para efectos de la Ley 20.283, se definieron 10,6 ha de Bosque Nativo, bajo la formación vegetacional “Bosque renoval de *Acacia Caven*”, por lo que se requiere establecer las medidas pertinentes en un Permiso Ambiental Sectorial.
+- La formación “Matorral arborescente de *Proustia cuneifolia* acompañado de *Acacia caven*” no cumple con los requisitos definidos por la Ley 20.283/08 para constituir Formaciones Xerofíticas, por lo que no es necesario realizar Permisos Ambientales Sectoriales para el Proyecto.
+- Se detectaron las singularidades ambientales: Presencia de especies en Categoría de Conservación (*Trichocereus chiloensis*); Presencia de especies endémicas (18 especies), y Localización en o cercano al límite septentrional de distribución geográfica de la especie *Adiantum scabrum*.
+
+De acuerdo con los antecedentes recopilados y el análisis de las campañas en terreno, se concluye que el impacto del Proyecto puede ser considerado como **“Negativo no Significativo”** sobre la flora y la vegetación.
+
+En virtud de lo señalado anteriormente se propone como medida de manejo ambiental para la especie *Trichocereus chiloensis* un plan de rescate y relocalización el cual será incluido en el Permiso Ambiental Sectorial 148 el cual se adjunta en el capítulo 10.5 de la presente Declaración de Impacto Ambiental.
+
+---
+
+# 7. Bibliografía
+
+- **CONAF-CONAMA-BIRF.** 1997. Catastro y Evaluación de los Recursos Vegetacionales Nativos de Chile. Santiago. 88 pp.
+- **CONAMA.** 1996. Metodologías para la Caracterización de la Calidad Ambiental. Comisión Nacional del Medio Ambiente. 242 pp.
+- **D.S. 29/2011.** Reglamento para la Clasificación de Especies Silvestres.
+- **D.S. 151/2007.** Primer Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 50/2008.** Segundo Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 51/2008.** Tercer Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 23/2009.** Cuarto Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 33/2012.** Quinto Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 41/2012.** Sexto Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 42/2012.** Séptimo Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 19/2012.** Octavo Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 13/2013.** Noveno Proceso de Clasificación de Especies Silvestres según su Estado de Conservación.
+- **D.S. 52/2014.** Décimo Proceso de Clasificación de especies Silvestres según su Estado de Conservación.
+- **ETIENNE, M. & PRADO, C.** 1982. Descripción de la vegetación mediante la Carta de Ocupación de Tierras. Publicaciones Misceláneas N° 9. Facultad de Ciencias Agrarias y Forestales. Universidad de Chile.
+- **GAJARDO, R.** 1994. La Vegetación Natural de Chile, clasificación y distribución geográfica. Editorial Universitaria. 165 pp.
+- **LUEBERT, F. & PLISCOFF, P.** 2006. Sinopsis Bioclimática y Vegetacional De Chile. 1ª Ed. Editorial Universitaria, Santiago, Chile. 318 pp.
+- **MARTICORENA, C.** 1990. Contribución a la estadística de la flora vascular de Chile. Gayana, Bot. 47(3-4): 85-114.
+- **MARTICORENA, C. & Quezada, M.** 1985. Catálogo de la flora vascular de Chile. Gayana Botánica 42 (1-2): 1-158.
+- **RIEDEMANN, P.; ALDUNATE, G. & TEILLIER, S.** 2006. Flora Nativa de Valor Ornamental; Identificación y Propagación. Chile Zona Norte. Edición 1, Chile. 405 pp.
+- **ZULOAGA, F; MORRONE, O. & BELGRANO, M.** 2008. Catálogo de las plantas vasculares del cono sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay).
+
+---
+
+# 8. Anexos
+
+## 8.1 Anexo Fotográfico
+
+- ***Baccharis linearis*** (Ruiz & Pav.) (Romerillo)
+- ***Chaetanthera moenchioides*** Less.
+- ***Galium aparine*** L. (El amor de hortelano)
+- ***Leucocoryne ixioides*** (Hook.) Lindl. (Huilli)
+- ***Tropaeolum azureum*** Bertero ex Colla (Pajarito azul)
+- ***Adesmia confusa*** Ulibarri (Varilla brava)

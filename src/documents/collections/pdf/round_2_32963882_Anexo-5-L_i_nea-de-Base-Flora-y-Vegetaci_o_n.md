@@ -1,0 +1,2482 @@
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+**ANEXO 5** 
+
+**LÍNEA DE BASE FLORA Y VEGETACIÓN** 
+
+**“INSTALACIÓN TORRE DE TELECOMUNICACIONES** 
+
+**SITIO NEWPOLI280F1** **–** **AV. SIMON BOLIVAR R11\-** 
+
+**PUTRE 4”**
+
+**COMUNA DE PUTRE \- PROVINCIA DE PARINACOTA** 
+
+**REGIÓN DE ARICA Y PARINACOTA** 
+
+ 
+
+ 
+
+ 
+
+ÍNDICE 
+
+1\. 
+
+INTRODUCCIÓN .................................................................................................. 5 
+
+2\. 
+
+OBJETIVOS ......................................................................................................... 2 
+
+2\.1\. 
+
+Objetivo general ........................................................................................... 2 
+
+2\.2\. 
+
+Objetivos específicos ..................................................................................... 2 
+
+3\. 
+
+ANTECEDENTES BIBLIOGRAFICOS DEL ÁREA ........................................................ 3 
+
+3\.1\. 
+
+Regiones, Subregiones y Formaciones Vegetales ............................................. 3 
+
+3\.1\.1\. 
+
+Estepa Alto\-Andina Altiplánica .................................................................. 4 
+
+3\.2\. 
+
+Pisos Vegetacionales ..................................................................................... 6 
+
+3\.2\.1\. 
+
+Matorral bajo tropical andino de Parastrephia lucida y Azorella compacta .... 6 
+
+3\.3\. 
+
+Composición florística .................................................................................... 7 
+
+4\. 
+
+METODOLOGÍA ................................................................................................. 11 
+
+4\.1\. 
+
+Área de estudio (AE) ................................................................................... 11 
+
+4\.2\. 
+
+Análisis preliminar ....................................................................................... 12 
+
+4\.3\. 
+
+Levantamiento de información y descripción de la vegetación ......................... 13 
+
+4\.4\. 
+
+Descripción y registro flora .......................................................................... 14 
+
+4\.5\. 
+
+Presentación de la cartografía de uso de suelo .............................................. 15 
+
+4\.6\. 
+
+Gabinete .................................................................................................... 20 
+
+ 
+
+ 
+
+ 
+
+5\. 
+
+RESULTADOS .................................................................................................... 20 
+
+5\.1\. 
+
+Uso del Suelo ............................................................................................. 21 
+
+5\.1\.1\. 
+
+Ambientes Modificados.......................................................................... 24 
+
+5\.1\.2\. 
+
+Ambientes Naturales ............................................................................. 24 
+
+5\.2\. 
+
+Flora vascular ............................................................................................. 26 
+
+5\.3\. 
+
+Estado de conservación de la flora ................................................................ 29 
+
+6\. 
+
+SINGULARIDADES DE LA VEGETACIÓN Y FLORA VASCULAR ................................. 30 
+
+6\.1\. 
+
+Presencia de formaciones vegetales únicas o de baja representatividad nacional
+
+ 
+
+30 
+
+6\.2\. 
+
+Presencia de formaciones vegetales relictuales .............................................. 30 
+
+6\.3\. 
+
+Presencia de formaciones vegetales remanentes ............................................ 30 
+
+6\.4\. 
+
+Presencia de formaciones vegetales frágiles .................................................. 30 
+
+6\.5\. 
+
+Presencia de Bosque Nativo de Preservación ................................................. 31 
+
+6\.6\. 
+
+Actividad en o colindante con sitios prioritarios para la conservación de la 
+
+diversidad definidos en las estrategias regionales. ................................................... 31 
+
+6\.7\. 
+
+Actividad en o colindante con áreas bajo protección oficial ............................. 31 
+
+6\.8\. 
+
+Actividad en o colindante con área de protección privada ............................... 31 
+
+6\.9\. 
+
+Actividad en o colindante con o aguas arriba de Humedales ........................... 31 
+
+ 
+
+ 
+
+ 
+
+6\.10\. Presencia de ejemplares de especies vegetales clasificadas en categorías de 
+
+conservación ........................................................................................................ 31 
+
+6\.11\. Presencia de especies vegetales protegidas por regulaciones especiales .......... 32 
+
+6\.12\. Presencia de especies endémicas ................................................................. 32 
+
+6\.13\. Presencia de especies de distribución restringida ........................................... 32 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ÍNDICE FIGURAS 
+
+Figura 4\-1\. Área de Estudio ........................................................................................ 12 
+
+Figura 5\-1\. Mapa de Vegetación ................................................................................. 22 
+
+Figura 5\-2\. Fisonomía de Praderas .............................................................................. 26 
+
+Figura 5\-3\. Origen y espectro biológico de la flora ........................................................ 29 
+
+ 
+
+ÍNDICE TABLAS 
+
+Tabla 3\-1\. Especies características del área del proyecto (potenciales según Gajardo, 
+
+1993\) ........................................................................................................................ 4 
+
+Tabla 3\-2: Especies características del área del proyecto (potenciales, según Luebert y 
+
+Pliscoff, 2006\) ............................................................................................................ 7 
+
+Tabla 3\-3\. Flora Potencial del área según formaciones y pisos vegetacionales ................. 8 
+
+Tabla 4\-1\. Escala de abundancia\-dominancia de Braun\-Blanquet ................................... 15 
+
+Tabla 4\-2\. Criterios de clasificación de la vegetación (uso actual del suelo) .................... 17 
+
+Tabla 5\-1\. Superficie según Cobertura Actual del Suelo (Ha) ......................................... 23 
+
+Tabla 5\-2\. Superficie (ha) de Praderas ........................................................................ 25 
+
+Tabla 5\-3\. Flora vascular presente en el área del proyecto ............................................ 27 
+
+Tabla 5\-4\. Número de especies presentes en el área según origen y forma biológica ...... 28 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 
+
+ 
+
+**1\.****INTRODUCCIÓN** 
+
+Este capítulo entrega los resultados de la caracterización de línea de base de vegetación y 
+
+flora para el “Instalación torre de Telecomunicaciones Sitio NEWPOLI280F1 – Av. Simon 
+
+Bolivar R11 \- Putre 4”, El Proyecto tiene por objetivo cumplir con las obligaciones de las 
+
+“Bases del Concurso Público Para Otorgar Concesiones De Servicio Público De Transmisión 
+
+De Datos en las Bandas De Frecuencia 713\-748 Mhz y 768\-803 Mhz” asignada a Telefónica 
+
+móviles Chile S.A. mediante Resolución Exenta N°759 de fecha 07 de marzo de 2014, y 
+
+satisfacer de manera especial las necesidades de servicio de los habitantes del sector. 
+
+El proyecto se emplazará en la Región de Arica y Parinacota de acuerdo al RSEIA tipifica 
+
+en el **Artículo 3 Letra p**, ya que se encuentra inserto en el Parque Nacional Lauca, con lo 
+
+cual ingresa al Sistema de Evaluación de Impacto Ambiental (SEIA). Este informe se 
+
+centra en la caracterización a nivel regional de los sistemas bióticos de vegetación y flora 
+
+que se desarrollan, actualmente, en el área de estudio, mediante la descripción del marco 
+
+biogeográfico en el cual se inserta la vegetación, delimitando y caracterizando las 
+
+formaciones vegetacionales que se desarrollan en la actualidad en el área de estudio, 
+
+además de identificar, delimitar y caracterizar sitios de singularidad vegetacional. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2 
+
+ 
+
+**2\.****OBJETIVOS** 
+
+**2\.1\.**
+
+**Objetivo general** 
+
+Describir y caracterizar los sistemas bióticos de vegetación y flora que se 
+
+desarrollan, actualmente, en el área de estudio. 
+
+**2\.2\.**
+
+**Objetivos específicos** 
+
+Caracterización del marco biogeográfico de la vegetación potencial que se 
+
+desarrolla en el área de estudio. 
+
+Delimitar mediante fotointerpretación y puntos de control en terreno, las distintas 
+
+formaciones vegetales que se desarrollan actualmente en el área del proyecto. 
+
+Describir y caracterizar las formaciones vegetales presentes en el área del 
+
+proyecto. 
+
+Identificar y registrar la flora del área de estudio, caracterizando en cuanto a 
+
+riqueza de especies, origen biogeográfico, hábito de crecimiento y estado de 
+
+conservación a nivel nacional o regional, como así mismo identificar, aquellas de 
+
+importancia ecológica y/o científica que se encuentren en sectores involucrados al 
+
+Proyecto. 
+
+Identificar, delimitar y describir zonas de singularidad ambiental dentro del área del 
+
+proyecto. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3 
+
+ 
+
+**3\.****ANTECEDENTES BIBLIOGRAFICOS DEL ÁREA** 
+
+A objeto de establecer el marco biogeográfico en el cual se emplazará el proyecto se 
+
+utilizaron como referencia los trabajos de Gajardo (1993\) “Vegetación Natural de Chile” y 
+
+de Luebert y Pliscoff (2006\), “Sinopsis bioclimática y vegetacional de Chile”. 
+
+**3\.1\.****Regiones, Subregiones y Formaciones Vegetales** 
+
+Gajardo (1993\) define para el área de estudio, la Región De La Estepa Alto\-Andina, la cual 
+
+encuentra en la Cordillera de los Andes árida y semiárida, extendiéndose desde el extremo 
+
+norte, en el límite con Perú y Bolivia, hasta las montañas andinas de la VII Región. 
+
+Comparte muchas de las características que el cordón andino presenta a través de toda su 
+
+extensión, pero al mismo tiempo demuestra peculiaridades que le son propias. Los 
+
+factores determinantes son la altitud y el relieve, como complejo modificador de todos los 
+
+otros factores, siendo la aridez relativa y un corto período vegetativo, lo que determina 
+
+una fisionomía particular de sus formaciones vegetales. A este respecto, como forma de 
+
+vida de las plantas existe una gran homogeneidad, aunque puede resumirse la existencia 
+
+de tres tipos biológicos fundamentales: las plantas pulvinadas o en cojín, las gramíneas 
+
+cespitosas, pastos duros o “coirones” y, los arbustos bajos de follaje reducido (“tolas”). El 
+
+conjunto de las formaciones vegetales constituye un mosaico en que predomina una u 
+
+otra de las formas biológicas mencionadas. 
+
+Por sus características ecológicas propias, especialmente aquellas resultantes de la acción 
+
+del relieve y del clima, es posible distinguir dos sub\-regiones. De ellas, el área del proyecto 
+
+se inserta en la Sub\-región del altiplano y de la puna. Se distingue por encontrarse situado 
+
+sobre un relieve de altiplanicies, generalmente con más de 4\.000 m de altitud. Además, 
+
+especialmente en el Altiplano, predomina un régimen climático de influencias tropicales 
+
+con lluvias de verano, que más hacia el sur, en la Puna propiamente tal, sólo constituye 
+
+una influencia marginal, lo que le concede un carácter de mayor aridez. Sin embargo, sus 
+
+ 
+
+ 
+
+ 
+
+4 
+
+ 
+
+estrechas afinidades florísticas permiten reunir a ambos sectores en una sola sub\-región 
+
+vegetacional. 
+
+En el extenso territorio de esta sub\-región, es posible reconocer la presencia de la 
+
+siguiente formación vegetal, en la cual se inserta el proyecto: 
+
+**3\.1\.1\.****Estepa Alto\-Andina Altiplánica** 
+
+Geoforma que se extiende entre los 4\.000 y los 5\.000 m de altitud, como una gran meseta 
+
+dominada por montañas aisladas. Presenta una gran riqueza florística, organizada en 
+
+diversas comunidades vegetales que responden a un patrón de distribución fundamental, 
+
+determinado por el relieve y por la presencia de cursos de agua. 
+
+**Tabla 3\-1\. Especies características del área del proyecto (potenciales según Gajardo,** 
+
+**1993\)** 
+
+**Región** 
+
+**Sub Región** 
+
+**Formación** 
+
+**Asociaciones** 
+
+**Características** 
+
+Región De La 
+
+Estepa Alto\-
+
+Andina 
+
+Sub\-región del 
+
+altiplano y de 
+
+la puna 
+
+Estepa Alto\-Andina Altiplánica 
+
+Adesmia leucopogon 
+
+Adesmia spinosissima 
+
+Astragalus arequipensis 
+
+Azolla filiculoides 
+
+Azorella compacta 
+
+Bryopsis andicola 
+
+Calamagrostis rigescens 
+
+Carex fuscula 
+
+Deyeuxia breviaristata 
+
+Deyeuxia curvula 
+
+Distichia muscoides 
+
+ 
+
+ 
+
+ 
+
+5 
+
+ 
+
+**Región** 
+
+**Sub Región** 
+
+**Formación** 
+
+**Asociaciones** 
+
+**Características** 
+
+Festuca chrysophylla 
+
+Festuca orthophylla 
+
+Gentiana prostrata 
+
+Hypochaeris thrincioides 
+
+Hypsela reniformis 
+
+Lilaeopsis andina 
+
+Myriophyllum aquaticum 
+
+Nothotriche pulverulenta 
+
+Opuntia ignescens 
+
+Oxychloe andina 
+
+Parastrephia lepidophylla 
+
+Parastrephia lucida 
+
+Parastrephia quadrangularis 
+
+Polylepis tarapacana 
+
+Pycnophyllum molle 
+
+Scirpus macrolepis 
+
+Senecio adenophyllus 
+
+Senecio graveolens 
+
+Senecio pulviniformis 
+
+Stipa frigida 
+
+Stipa leptostachya 
+
+Werneria aretioides 
+
+Werneria pinnatifida 
+
+Werneria poposa 
+
+Werneria pygmaea 
+
+ 
+
+ 
+
+ 
+
+6 
+
+ 
+
+**Región** 
+
+**Sub Región** 
+
+**Formación** 
+
+**Asociaciones** 
+
+**Características** 
+
+Werneria spathulata 
+
+Fuente: Gajardo, 1993\. 
+
+**3\.2\.**
+
+**Pisos Vegetacionales** 
+
+Según Luebert y Pliscoff, en la Región de Arica y Parinacota, el área de estudio se 
+
+encuentra en el piso vegetacional Matorral bajo tropical andino de Parastrephia lucida y 
+
+Azorella compacta. Este se distribuye en lomajes y planicies del Altiplano de la región de 
+
+Arica y Tarapacá, entre los 4\.000 y 4\.400 m.s.n.m. de altitud. A continuación, se detalla el 
+
+piso vegetacional: 
+
+**3\.2\.1\.****Matorral bajo tropical andino de Parastrephia lucida y Azorella** 
+
+**compacta** 
+
+Matorral bajo con plantas pulvinadas, en el que dominan el arbusto Parastrephia lucida y 
+
+el cojín Azorella compacta, cuyo cortejo florístico en situaciones puntuales llega a ser muy 
+
+diverso y su cobertura es muy variable. En la estrata de gramíneas generalmente están 
+
+presentes Festuca orthophylla y Deyeuxia breviaristata. La cactácea en cojín opuntia 
+
+ignescens también es frecuente en este piso vegetacional. En situaciones intrazonales es 
+
+posible observar bofedales en los que domina Oxychloe andina. En algunas situaciones, 
+
+especialmente faldas de cerros con exposiciones cálidas, se presentan bosquecillos 
+
+dominados por Polylepis tarapacana. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+7 
+
+ 
+
+ 
+
+ 
+
+**Tabla 3\-2: Especies características del área del proyecto (potenciales, según** 
+
+**Luebert y Pliscoff, 2006\)**
+
+**Formación** 
+
+**Piso vegetacional** 
+
+**Comunidades** 
+
+Matorral bajo de 
+
+altitud 
+
+Matorral Bajo tropical 
+
+andino de Parastrephia 
+
+lucida y Azorella 
+
+compacta 
+
+Laretia compacta \- Parastrephia 
+
+quadrangularis 
+
+Polylepis tarapacana \- Festuca sp. 
+
+Parastrephia lucida \- Azorella compacta 
+
+Parastrephia lucida \- Polylepis tarapacana 
+
+Azorella compacta 
+
+Polylepis tarapacana 
+
+Werneria aretioides \- Parastrephietum lucidae 
+
+Mutisia lanigerae \- Polylepidetum tarapacanae 
+
+Fuente: Luebert y Pliscoff, 2006\. 
+
+**3\.3\.**
+
+**Composición florística** 
+
+Las distintas clasificaciones de vegetación antes indicadas contemplan una caracterización 
+
+general de la composición florística de las distintas formaciones, asociaciones y pisos 
+
+vegetacionales, que, en términos bibliográficos, pueden ser consideradas como flora 
+
+potencial del área. En tal sentido, las especies geográficamente potenciales del área del 
+
+Proyecto, se registran en la Tabla 3\-3\. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 
+
+ 
+
+**Tabla 3\-3\. Flora Potencial del área según formaciones y pisos vegetacionales**
+
+**Especie** 
+
+**Formación vegetal** 
+
+**Piso vegetacional** 
+
+**Estepa Alto\-Andina** 
+
+**Altiplánica** 
+
+**Matorral Bajo** 
+
+**tropical andino de** 
+
+**Parastrephia lucida** 
+
+**y Azorella compacta** 
+
+Adesmia leucopogon 
+
+ 
+
+Adesmia melanthes 
+
+ 
+
+Adesmia spinosissima 
+
+ 
+
+Astragalus arequipensis 
+
+ 
+
+Azolla filiculoides 
+
+ 
+
+Azorella compacta 
+
+Baccharis incarum 
+
+ 
+
+Bryopsis andicola 
+
+ 
+
+Caiophora rahmeri 
+
+ 
+
+Calamagrostis rigescens 
+
+ 
+
+Carex fuscula 
+
+ 
+
+Deyeuxia breviaristata 
+
+Deyeuxia curvula 
+
+ 
+
+Distichia muscoides 
+
+ 
+
+Festuca chrysophylla 
+
+ 
+
+Festuca Orthophylla 
+
+Gentiana prostrata 
+
+ 
+
+Hypochaeris thrincioides 
+
+ 
+
+Hypsela reniformis 
+
+ 
+
+ 
+
+ 
+
+ 
+
+9 
+
+ 
+
+**Especie** 
+
+**Formación vegetal** 
+
+**Piso vegetacional** 
+
+**Estepa Alto\-Andina** 
+
+**Altiplánica** 
+
+**Matorral Bajo** 
+
+**tropical andino de** 
+
+**Parastrephia lucida** 
+
+**y Azorella compacta** 
+
+Lilaeopsis andina 
+
+ 
+
+Myriophyllum aquaticum 
+
+ 
+
+Nothotriche pulverulenta 
+
+ 
+
+Nototriche argentea 
+
+ 
+
+Opuntia ignescens 
+
+Oxychloe andina 
+
+ 
+
+Parastrephia lepidophylla 
+
+ 
+
+Parastrephia lucida 
+
+Parastrephia quadrangularis 
+
+Polylepis tarapacana 
+
+ 
+
+Pycnophyllum bryoides 
+
+ 
+
+Pycnophyllum molle 
+
+ 
+
+Scirpus macrolepis 
+
+ 
+
+Senecio adenophyllus 
+
+ 
+
+Senecio graveolens 
+
+ 
+
+Senecio nutans 
+
+ 
+
+Senecio pulviniformis 
+
+ 
+
+Stipa frigida 
+
+ 
+
+Stipa leptostachya 
+
+ 
+
+Werneria aretioides 
+
+ 
+
+ 
+
+ 
+
+10 
+
+ 
+
+**Especie** 
+
+**Formación vegetal** 
+
+**Piso vegetacional** 
+
+**Estepa Alto\-Andina** 
+
+**Altiplánica** 
+
+**Matorral Bajo** 
+
+**tropical andino de** 
+
+**Parastrephia lucida** 
+
+**y Azorella compacta** 
+
+Werneria pinnatifida 
+
+ 
+
+Werneria poposa 
+
+ 
+
+Werneria pygmaea 
+
+ 
+
+Werneria spathulata 
+
+ 
+
+Fuente: Gajardo 1993\- Luebert y Pliscoff, 2006\. 
+
+ 
+
+ 
+
+ 
+
+11 
+
+ 
+
+**4\.****METODOLOGÍA** 
+
+La caracterización del componente vegetación y flora, se basó en el establecimiento de un 
+
+Área de Estudio (AE), que corresponde al levantamiento de información en aquellas 
+
+unidades vegetacionales dentro del área de influencia directa del proyecto y en aquellas 
+
+zonas contiguas a la obra proyectada. 
+
+**4\.1\.****Área de estudio (AE)** 
+
+El proyecto asociado a este informe considera la “Instalación de torre para 
+
+Telecomunicaciones Sitio NEWPOLI280F1 – Av. Simon Bolivar R11 – Putre 4”, esta se 
+
+localiza en este sector con el objeto de cumplir con las obligaciones de las “Bases del 
+
+Concurso Público Para Otorgar Concesiones De Servicio Público De Transmisión De Datos 
+
+en las Bandas De Frecuencia 713\-748 Mhz y 768\-803 Mhz” asignada a Telefónica móviles 
+
+Chile S.A. mediante Resolución Exenta N°759 de fecha 07 de marzo de 2014, y satisfacer 
+
+de manera especial las necesidades de servicio de los habitantes de los sectores aledaños, 
+
+que actualmente se encuentran desprovistos del servicio en ese sector. 
+
+Tales actividades tienen como efectos potenciales la remoción total o parcial de la 
+
+vegetación y flora. La cual está restringida únicamente al área de construcción de las 
+
+obras que contempla el proyecto. 
+
+En este contexto, el área de estudio corresponderá a la extensión espacial en la cual se 
+
+manifiestan las intervenciones que se pretenden evaluar, y donde se establecen los límites 
+
+espaciales de los receptores de vegetación y flora que deben ser caracterizados en la línea 
+
+base. 
+
+Considerando lo anterior, se definió, como área de estudio para la caracterización del 
+
+componente, una franja de 60 metros a cada lado del eje de cada obra y 5 metros con 
+
+respecto a la huella peatonal existente, generando así el área motivo de estudio del 
+
+presente informe (Figura 4\-1\). 
+
+ 
+
+ 
+
+ 
+
+12 
+
+ 
+
+**Figura 4\-1\. Área de Estudio** 
+
+ 
+
+Fuente: Elaboración propia. 
+
+**4\.2\.****Análisis preliminar** 
+
+A efectos de realizar la descripción de la vegetación, se realizó la interpretación de un 
+
+mosaico de fotografías aéreas e imágenes satelitales, las que se segregaron, de acuerdo a 
+
+patrones morfológicos, de textura, color y tono, diferentes áreas y unidades reconocibles. 
+
+Las categorías definidas preliminarmente con estos criterios, fueron: 
+
+ 
+
+ 
+
+ 
+
+13 
+
+ 
+
+Matorrales. 
+
+Aéreas sin vegetación (Cumbres, afloramientos rocosos, cajas de río, caminos). 
+
+Otros usos (Agrícolas, industriales). 
+
+**4\.3\.****Levantamiento de información y descripción de la vegetación** 
+
+Para la caracterización del componente se ejecutaron dos campañas de terreno, realizadas 
+
+el 28 de enero y 24 de abril del 2016\. Durante la visita se revisaron los polígonos 
+
+previamente clasificados en el proceso de fotointerpretación a modo de verificar las 
+
+unidades homogéneas de vegetación previamente definidas en gabinete y se realizaron 
+
+parcelas de muestreo en las cuales se describió la vegetación y flora. En los casos en que 
+
+fue necesario, se realizó la corrección de la delimitación, a fin de caracterizar de forma 
+
+adecuada la vegetación presente en el área de estudio (AE). 
+
+En cada campaña se realizó el levantamiento de información considerando la estructura de 
+
+la vegetación, coberturas y especies dominantes, entre otros. Para ello se realizó la 
+
+siguiente metodología: 
+
+ Muestreo en parcelas de superficie fija circular de 500 m2 en zonas de matorral 
+
+donde se identificaron y cuantificaron todos los individuos presentes, midiendo su 
+
+correspondiente cobertura y altura, a modo de obtener datos cuantitativos 
+
+relacionados con el nivel de estrato tanto vertical como horizontal, y valores 
+
+numéricos que permitan relacionar la participan de una especie dentro de la 
+
+comunidad vegetal. 
+
+El levantamiento general de vegetación está enfocado a capturar variables cualitativas y 
+
+cuantitativas. Por variables cualitativas se entiende la identificación de formaciones 
+
+vegetales, especies, estructura, entre otras. Por otra parte, variables cuantitativas 
+
+corresponde fundamentalmente a número de individuos presentes de alguna especie en 
+
+alguna unidad vegetacional (Densidad). Esta última variable resulta fundamental a la hora 
+
+ 
+
+ 
+
+ 
+
+14 
+
+ 
+
+de responder cuantos individuos se afectan por obras y actividades del proyecto, sobre 
+
+todo con especies clasificadas de acuerdo al RCE (Reglamento Clasificación de Especies). 
+
+De esta manera, el concepto de muestreo será el inventario forestal, entendiendo este 
+
+como muestras de superficie determinada, en las cuales se miden diversos atributos. 
+
+**4\.4\.****Descripción y registro flora** 
+
+Para determinar las especies de flora presentes en el área del proyecto, y en forma 
+
+paralela al levantamiento de vegetación, se reconoció, registró y colectó, en herbario, 
+
+muestras de las diferentes especies presentes en las áreas de estudio, para ser 
+
+identificadas posteriormente en gabinete en base a claves taxonómicas apropiadas. 
+
+La determinación y nomenclatura taxonómica de las muestras colectadas en terreno se 
+
+basó principalmente en Hoffmann (1998, 2004\), Marticorena y Squeo (2001\), Marticorena 
+
+y Quezada (1985\), Marticorena y Rodríguez (1995, 2001, 2003, 2005\), Navas (1973,1976, 
+
+1979\), Reiche (1896, 1898, 1905, 1910, 1911\), Riedemann et al. (2001, 2006, 2008\), 
+
+Squeo (2008\), Teillier et al. (2005, 2011\), Zuloaga et al. (2008\) y fue apoyada por listados 
+
+de flora potencial obtenidos de Gajardo (1994\) y Luebert y Pliscoff (2006\) 
+
+Finalmente, y a partir de toda la información recolectada se elaboró un catálogo florístico 
+
+del área de estudio, indicando nombre científico, clasificación taxonómica y forma de 
+
+crecimiento. Asimismo se registró el estado de conservación de las especies en función de 
+
+la legislación vigente1, Benoit (1989\) y el Boletín Nº 47 del Museo de historia Natural 
+
+(1998\). 
+
+Por otra parte, en cada unidad cartográfica del estudio de vegetación y de acuerdo a los 
+
+puntos muestreados se realizaron inventarios florísticos, estableciendo la importancia 
+
+ 
+
+ 
+
+1 Ley 19\.300; y su reglamento 75/2005 “Procedimiento de Clasificación de Especies Silvestres, que da origen 
+
+–a la fecha– a diez (10\) decretos supremos. 
+
+ 
+
+ 
+
+ 
+
+15 
+
+ 
+
+fitosociológica de cada especie de acuerdo a una escala de valores adaptada a partir de 
+
+Braun \- Blanquet2 (Tabla 4\-1\). Este método permite una estimación visual de la 
+
+cobertura/abundancia de la vegetación. 
+
+**Tabla 4\-1\. Escala de abundancia\-dominancia de Braun\-Blanquet**
+
+**Registro** 
+
+**Atributos de la Población** 
+
+5 
+
+Cualquier número de individuos pero con cobertura superior al 
+
+75% de la parcela 
+
+4 
+
+Cualquier número de individuos pero con cobertura entre 50 y 
+
+75% de la parcela 
+
+3 
+
+Cualquier número de individuos pero con cobertura entre 25 y 
+
+50% de la parcela 
+
+2 
+
+Cualquier número de individuos pero con cobertura entre 5 y 25% 
+
+de la parcela 
+
+1 
+
+Cualquier número de individuos pero con menos del 5% de 
+
+cobertura o individuos dispersos con más de 5% de cobertura 
+
+\+ 
+
+Pocos individuos con cobertura reducida (\<5%) 
+
+r 
+
+Individuos solitarios con muy baja cobertura (\<1%) 
+
+Fuente: Modificado de Braun Blanquet, citado en Mueller\-Dombois y Ellemnerg (1974\). 
+
+**4\.5\.****Presentación de la cartografía de uso de suelo** 
+
+La metodología utilizada para describir y representar las diferentes formas de uso de suelo 
+
+de 
+
+manera 
+
+cartográfica, 
+
+se 
+
+basa 
+
+en 
+
+la 
+
+metodología 
+
+del 
+
+Centre 
+
+d’Etudes 
+
+Phtytosociologiques et Ecologiques Louis Emberger, del CNRS de Montpellier, Francia 
+
+ 
+
+ 
+
+2 Citado en: Mueller\-Dombois, D. and H. Ellenberg. 1974\. Aims and Methods Of Vegetation Ecology. John 
+
+Wiley \& Sons. New York 547 p. 
+
+ 
+
+ 
+
+ 
+
+16 
+
+ 
+
+(Carta de Ocupación de Tierras), adaptada al caso de Chile, por Etienne y Prado(1982\) y 
+
+posteriormente modificado por el equipo ejecutor del proyecto conocido como Catastro de 
+
+Bosque Nativo (CONAF\-CONAMABIRF, 1997\), que permite básicamente, describir la 
+
+vegetación a través de variables cualitativas y en forma sistemática definir el estado actual 
+
+de la vegetación, en función del tipo vegetal dominante y la cobertura por tipo biológico .
+
+ 
+
+ 
+
+ 
+
+17 
+
+ 
+
+**Tabla 4\-2\. Criterios de clasificación de la vegetación (uso actual del suelo)** 
+
+**Origen** 
+
+**Formación Vegetal** 
+
+**Sub uso** 
+
+**Cobertura por Tipo Biológico (%)** 
+
+**Árboles Arbustos Hierbas Suculentas** 
+
+Ambientes 
+
+modificados 
+
+Desprovisto de 
+
+vegetación 
+
+Área urbana 
+
+Área industrial 
+
+casas, galpones, Campamentos 
+
+Vías (Caminos, Carreteras, Vías Férreas, etc.) 
+
+Con vegetación 
+
+Parques, jardines, Campos deportivos, etc. 
+
+Ambientes 
+
+intervenidos 
+
+Agrícola (Frutales) 
+
+(Frutales) 
+
+Plantación de 
+
+arbustos 
+
+ 
+
+Plantación Forestal 
+
+ 
+
+Ambientes 
+
+Naturales 
+
+Praderas 
+
+ 
+
+Bosque Mixto 
+
+ 
+
+ 
+
+ 
+
+ 
+
+18 
+
+ 
+
+**Origen** 
+
+**Formación Vegetal** 
+
+**Sub uso** 
+
+**Cobertura por Tipo Biológico (%)** 
+
+**Árboles Arbustos Hierbas Suculentas** 
+
+Herbazal 
+
+ 
+
+Matorral 
+
+Muy abierto 
+
+5 a 25% 
+
+\<10% 
+
+Abierto 
+
+25 a 50% 0\-100% 
+
+\<10% 
+
+Semidenso 
+
+50 a 75% 0\-100% 
+
+\<10% 
+
+Denso 
+
+75 a 
+
+100% 
+
+\<10% 
+
+Matorral con 
+
+suculentas 
+
+Muy abierto 
+
+5 a 25% 
+
+Abierto 
+
+25 a 50% 0\-100% 
+
+Semidenso 
+
+50 a 75% 0\-100% 
+
+Denso 
+
+75 a 
+
+100% 
+
+Formación de 
+
+Suculentas 
+
+ 
+
+Bosque Nativo 
+
+Muy abierto 
+
+10\-25% 
+
+Abierto 
+
+25\-50% 
+
+Semidenso 
+
+50\-75% 
+
+ 
+
+ 
+
+ 
+
+19 
+
+ 
+
+**Origen** 
+
+**Formación Vegetal** 
+
+**Sub uso** 
+
+**Cobertura por Tipo Biológico (%)** 
+
+**Árboles Arbustos Hierbas Suculentas** 
+
+Denso 
+
+75\-
+
+100% 
+
+Humedales 
+
+(presencia de agua 
+
+en la superficie) 
+
+Turberas 
+
+\- 
+
+Bofedales 
+
+Vegas 
+
+Pajonales 
+
+Sin Vegetación 
+
+Desiertos 
+
+Altas cumbres y farellones 
+
+Nieves y Glaciares 
+
+Derrumbes, Deslizamientos, Conos, Aluviones 
+
+Cursos de agua, Ríos, Lagos, Lagunas 
+
+Fuente: Elaboración propia
+
+ 
+
+ 
+
+ 
+
+20 
+
+ 
+
+Por otra parte, para la recopilación cartográfica se analizó la siguiente información: 
+
+Cartografía de Vegetación natural de Chile, Clasificación y distribución geográfica 
+
+(Gajardo, 1994\). 
+
+Cartografía de Sinopsis bioclimática y vegetacional de Chile (Luebert y Pliscoff, 
+
+2006\). 
+
+Cartografía digital de “Catastro y Evaluación de los recursos vegetacionales nativos 
+
+de Chile” (CONAF\-CONAMABIRF, 1997\). 
+
+Imágenes satelitales de alta resolución espacial. 
+
+A efectos de describir la vegetación se realizó la segmentación y clasificación de imágenes 
+
+satelitales, para la generación de cartografía de usos de suelo preliminar para el trabajo en 
+
+terreno. 
+
+**4\.6\.****Gabinete** 
+
+A partir de la información colectada en terreno, se elaboró un plano de vegetación o de 
+
+cobertura actual del suelo para cada uno de los sectores del área de estudio descritos en 
+
+el punto 4, donde se reflejan las diferentes categorías enumeradas en la **¡Error! No se** 
+
+**encuentra el origen de la referencia.** Paralelamente, se trabajó en la identificación de 
+
+las muestras y registros de flora en base a claves taxonómicas apropiadas con lo que se 
+
+elaboró un catálogo florístico del área del estudio, indicando nombre científico y su 
+
+clasificación taxonómica su forma de crecimiento y estado de conservación, basándose 
+
+para ello en los autores descrito en el punto 4\.4\. 
+
+**5\.****RESULTADOS** 
+
+El área de estudio se emplaza en la ladera de un cerro en el Parque Nacional Lauca, a una 
+
+altitud de 4590 m.s.n.m. La localización del área de influencia del proyecto se ubica en la 
+
+ 
+
+ 
+
+ 
+
+21 
+
+ 
+
+región de Estepa\-Alto Andina, Sub\-región del Altiplano y de la Puna. El clima está 
+
+caracterizado por una masa de aire inestable, que por efectos de la altura produce 
+
+nubosidad de desarrollo vertical que da origen a precipitaciones abundantes en los meses 
+
+del verano, casi todos los años. La geomorfología del sector los suelos son desarrollados 
+
+en las estructuras volcánicas principalmente. En las áreas de mayor altura, como lo es el 
+
+sitio donde se localiza el presente Proyecto, no se generan suelos, puesto que se 
+
+presentan afloramientos rocosos, pavimentos de escorias, gravas y arenas volcánicas. 
+
+**5\.1\.****Uso del Suelo** 
+
+Mediante la información registrada en la campaña de terreno más el procesamiento de la 
+
+información cartográfica recabada y elaborada para el presente estudio, se elaboró el 
+
+Mapa de Vegetación (Figura 5\-2\). 
+
+ 
+
+ 
+
+ 
+
+22 
+
+ 
+
+**Figura 5\-1\. Mapa de Vegetación** 
+
+ 
+
+De acuerdo con la Tabla 5\-1, el área de estudio comprende una superficie de 2,39 
+
+hectáreas de las cuales el 97,88% (2,34 ha) corresponde a ambientes naturales, de el se 
+
+desprende afloramiento rocoso con 21,66% (0,52 ha), cuerpo de agua con 0,35% (0,01 
+
+ha) y el 75,87 (1,81 ha) se encuentra cubierta por vegetación (praderas). 
+
+ 
+
+ 
+
+ 
+
+23 
+
+ 
+
+**Tabla 5\-1\. Superficie según Cobertura Actual del Suelo (Ha)** 
+
+**Ambiente** 
+
+**Formación** 
+
+**Uso del Suelo** 
+
+**Superficie** 
+
+**del área** 
+
+**de** 
+
+**estudio** 
+
+**(ha)** 
+
+**Porcentaje** 
+
+**de uso del** 
+
+**suelo (%)** 
+
+Modificado 
+
+Modificado 
+
+Camino\-Estacionamiento 
+
+0,05 
+
+2,12 
+
+Natural 
+
+Afloramiento rocoso 
+
+Afloramiento rocoso 
+
+0,33 
+
+13,62 
+
+0,19 
+
+8,04 
+
+Cuerpo de agua 
+
+Cuerpo de agua 
+
+0,01 
+
+0,35 
+
+Estepa 
+
+Pradera 
+
+0,60 
+
+25,07 
+
+0,96 
+
+40,24 
+
+0,25 
+
+10,56 
+
+**Total general** 
+
+**2,39** 
+
+**100** 
+
+Fuente: Elaboración propia. 
+
+En este contexto, la vegetación que se desarrolla dentro del área de estudio está 
+
+fuertemente determinada por la altitud, el relieve y el aumento en las precipitaciones, 
+
+particularmente durante el invierno boliviano, lo que da cuenta de la precensia constante 
+
+de vegetacion, determinando que la fisionomía de las formaciones vegetales presentes, en 
+
+su mayoría, correspondan a matorrales compuestos por arbustos bajos, además de vastas 
+
+zonas de escasa vegetación donde se desarrolla un herbazal compuesto por herbáceas 
+
+anuales y perennes. En zonas de condición particular, generalmente asociadas a 
+
+afloramientos de agua permanente, predominan especies pulvinadas, ciperáceas y 
+
+juncáceas, las cuales contrastan con la flora circundante que comúnmente es menos 
+
+hidrófila, que se asocian a ambientes singulares como vegas alto\-andinas. Comúnmente, 
+
+está vegetación habita pisos superiores de la Cordillera de los Andes. 
+
+ 
+
+ 
+
+ 
+
+24 
+
+ 
+
+A continuación, se describen las diferentes coberturas del suelo registradas en el plano de 
+
+vegetación y sus variaciones. 
+
+**5\.1\.1\.****Ambientes Modificados** 
+
+Se refiere a sitios donde la vegetación natural ha sido completa y artificialmente 
+
+erradicada, modificando además las características del suelo como ente biológico, esto es 
+
+que su productividad ha sido eliminada. La superficie con tales características dentro del 
+
+área de estudio abarca 0,05 hectáreas, representando el 2,12% del total del área de 
+
+estudio (Tabla 5\-1\). 
+
+En esta condición, se encuentra una forma de uso del suelo: Camino\-Estacionamientos. 
+
+Este uso concierne principalmente al camino correspondiente a la ruta 11\-CH, corresponde 
+
+a un área ubicada contigua a a ruta, donde cumple como objetivo ser una zona para el 
+
+estacionamiento de vehículos. 
+
+**5\.1\.2\.****Ambientes Naturales** 
+
+Entendidos como tales, aquellos sectores donde la vegetación (o la expresión vegetal) de 
+
+un área presenta características de composición y estructura cercanas (cuando no 
+
+exactas) a las condiciones naturales y donde el efecto de la actividad antrópica no ha 
+
+generado cambios notorios en la fisonomía propia de las formaciones. Por tanto, para este 
+
+tipo de ambiente se registra una superficie de 2,24 ha. (Tabla 5\-1\). 
+
+**i.****Pradera** 
+
+En este ambiente la altitud y el relieve son los factores determinantes sobre la vegetación, 
+
+siendo la aridez relativa y el corto período de crecimiento lo que determina la fisionomía 
+
+de la vegetación. En las estepas predominan las hierbas anuales o perennes y que 
+
+generalmente son utilizadas para pastoreo. Las formaciones de vegetación posibles de 
+
+reconocer son: matorrales de Parastrephia quadrangularis, también denominados 
+
+ 
+
+ 
+
+ 
+
+25 
+
+ 
+
+comúnmente como “tolares” y las formaciones herbáceas de Festuca orthophylla “paja 
+
+brava” y/o Deyeuxia crispa “k’eiru ichu, paja amarilla”, denominados corrientemente como 
+
+“pajonales” o “ichuales” o simplemente praderas. Ambas formaciones, en ocasiones 
+
+“puras” y entremezcladas, conforman espacialmente un mosaico en donde las herbáceas 
+
+dominantes se ubican en sectores más fríos (pendientes inclinadas hacia el sur) mientras 
+
+que los arbustos tienden a ser más abundantes en sectores soleados y abrigados 
+
+(depresiones y roqueríos). El área de estudio corresponde a una pradera (Pajonal), Las 
+
+praderas corresponden a superficies en las cuales las especies arbóreas y arbustivas son 
+
+muy escasas (cobertura \<5%), predominando hierbas anuales o perennes y que 
+
+generalmente son utilizadas para pastoreo. Esta formación vegetal cubre una superfice de 
+
+1,81 hectáreas que representan el 75,87% del total de la superficie del área de estudio 
+
+(Tabla 5 2\). Podemos diferenciar tres sectores donde la pradera predomina en el área de 
+
+estudio. La primera, mas cercana al camino, es donde se puede evidenciar una mayor 
+
+cobertura de la especie Festuca chrysophylla (Paja brava) esta se asocia a otras especies, 
+
+tales como, Fabiana byoides (Pata de Perdiz) y Werneria glaberrina (Poposa). El segundo 
+
+sector corresponde a los faldeos del cerro donde se emplaza el proyecto, en el es posible 
+
+ver una disminución gradual de la vegetación a medida que se avanza hacia la cumbre. El 
+
+factor principal se debe por al afloramiento de rocas y la falta de suelo para el desarrollo 
+
+vegetal. El sector más elevado donde se considera emplazar las obras del proyecto se 
+
+puede evidenciar la presencia de escasa vegetación, entre ellas están; Pycnophyllum molle 
+
+(Llaretilla), Werneria glaberrina (Paposa) y Caiphora chuquitensis (Ortiga). 
+
+**Tabla 5\-2\. Superficie (ha) de Praderas** 
+
+**Asociación dominante** 
+
+**Superficie (ha)** 
+
+Pradera 
+
+1,81 
+
+Total 
+
+1,81 
+
+Fuente: Elaboración propia. 
+
+ 
+
+ 
+
+ 
+
+26 
+
+ 
+
+En términos generales, la pradera en este sector, corresponde a un claro con escasa 
+
+vegetación arbustiva, en las que predominan hierbas anuales (Figura 5\-2\). 
+
+**Figura 5\-2\. Fisonomía de Praderas** 
+
+ 
+
+Fuente: Registro fotografico. 
+
+**5\.2\.****Flora vascular** 
+
+Los resultados obtenidos de la prospección realizada en las campañas de terreno, dentro 
+
+del área de estudio, indican la presencia de 5 especies de plantas vasculares, cuyos 
+
+nombres, clasificación taxonómica, origen y forma de vida se presentan en Tabla 5\-3
+
+ 
+
+ 
+
+ 
+
+27 
+
+ 
+
+**Tabla 5\-3\. Flora vascular presente en el área del proyecto** 
+
+**Subdivisión** 
+
+**Clase** 
+
+**Familia** 
+
+**Nombre cientifco** 
+
+**Nombre común** 
+
+**Origen** 
+
+**Forma de vida** **Categoría de** 
+
+**conservación** 
+
+**DS** 
+
+**N°68** 
+
+**Libro** 
+
+**Rojo** 
+
+Magnoliophyta Magnoliopsida 
+
+Loasaceae 
+
+Caiophora chuquitensis (Meyen) Urb. \& Gilg 
+
+Ortiga 
+
+Nativa 
+
+Hierba perenne 
+
+ 
+
+ 
+
+ 
+
+Magnoliophyta 
+
+Liliopsida 
+
+Poaceae 
+
+Festuca chrysophylla Phil. 
+
+Paja brava 
+
+Nativa 
+
+Hierba perenne 
+
+ 
+
+ 
+
+ 
+
+Magnoliophyta Magnoliopsida Caryophyllaceae 
+
+Pycnophyllum molle J. Remy 
+
+Llaretilla 
+
+Nativa 
+
+Hierba perenne 
+
+ 
+
+ 
+
+ 
+
+Magnoliophyta Magnoliopsida 
+
+Asteraceae 
+
+Werneria glaberrima Phil. 
+
+Poposa 
+
+Endemica Hierba perenne 
+
+ 
+
+ 
+
+ 
+
+Magnoliophyta 
+
+Liliopsida 
+
+Solanaceae 
+
+Fabiana bryoides Phil. 
+
+Pata de Perdiz 
+
+Nativa 
+
+Arbusto 
+
+ 
+
+ 
+
+ 
+
+Fuente: Elaboración propia. 
+
+ 
+
+ 
+
+ 
+
+28 
+
+ 
+
+Por otro lado –y como se aprecia en la Tabla 5\-4 y en la Figura 5\-3– del total de estas 
+
+especies, el 75% son especies nativas y el 25% de origen endémico, dado la gradiente de 
+
+altitud que existe en el sector, la topografía, clima riguroso y la carencia de suelos 
+
+productivos, que han determinado las características propias del sector, donde se 
+
+evidencia una escasa diversidad de especies. En tanto que, el porcentaje de flora advena 
+
+es del 0%, representado por una especie, lo que da cuenta de los bajos niveles de 
+
+antropización sobre la flora y lo adverso de las condiciones climáticas y geográficas, que 
+
+no permiten el establecimiento de de especies tanto nativas como advenas. 
+
+**Tabla 5\-4\. Número de especies presentes en el área según origen y forma biológica** 
+
+**Origen** 
+
+**Forma Biológica** 
+
+**Total** 
+
+**Arbusto** 
+
+**Herbáceas** 
+
+Adventicia 
+
+0 
+
+0 
+
+**0** 
+
+Endémica 
+
+0 
+
+1 
+
+**1** 
+
+Nativa 
+
+1 
+
+3 
+
+**4** 
+
+**Total** 
+
+**1** 
+
+**4** 
+
+**5** 
+
+Fuente: Elaboración propia 
+
+Respecto al espectro biológico (Tabla 5\-4 y en la Figura 5\-3\), las formas de vida más 
+
+abundante corresponde a las plantas de habito herbaceo (80%) y arbustivo (33%) lo que 
+
+20resulta normal para un área donde, como se vio en el punto anterior de vegetación, las 
+
+condiciones geográficas y climáticas dificultan el establecimiento de otras especies. 
+
+ 
+
+ 
+
+ 
+
+29 
+
+ 
+
+**Figura 5\-3\. Origen y espectro biológico de la flora** 
+
+ 
+
+Fuente: Elaboración propia. 
+
+El número de especies registrado en terreno es relativamente bajo, dado que el área de 
+
+estudio corresponde a un área de baja superficie y además se inserta en una zona que 
+
+presenta una escasa, si es que no nula, variedad de formaciones vegetales, siendo la 
+
+predominante de acuerdo a lo expuesto, una formación de pradera. 
+
+**5\.3\.****Estado de conservación de la flora** 
+
+Se revisó la normativa vigente atingente al estado de especies en categoría de 
+
+conservación, específicamente el Reglamento de clasificación de especies (RCE) 
+
+conformado por los Decretos Supremos: 151/2007; 50/2008; 51/2008; 23/2009, 33/2011; 
+
+41/2011; 42/2011; 19/2012; 13/2013 y 10/2014 del Ministerio de Medio Ambiente, el 
+
+Libro Rojo y el Boletín 47, del Museo de Historia Natural. 
+
+Dentro del área de estudio no se registraron especies en categoría de conservación 
+
+clasificada en listados nacionales de acuerdo al Reglamento de Clasificación de Especies 
+
+(RCE). En el Libro Rojo Nacional no se registran especies en categoría de conservación. De 
+
+ 
+
+ 
+
+ 
+
+30 
+
+ 
+
+igual forma, en el Boletín N°47 como el D.S. N°68 no registran ninguna de las especies 
+
+identificadas en el área de estudio. 
+
+**6\.****SINGULARIDADES DE LA VEGETACIÓN Y FLORA VASCULAR** 
+
+Teniendo como base la información registrada en la campaña de terreno y el análisis de 
+
+las singularidades ambientales asociadas a la vegetación y flora utilizando los criterios 
+
+indicados en la Guía de Evaluación Ambiental (CONAF, 2014\), se identificaron las 
+
+singularidades que a continuación se señalan. 
+
+**6\.1\.**
+
+**Presencia de formaciones vegetales únicas o de baja representatividad** 
+
+**nacional** 
+
+De acuerdo a los antecedentes expuestos no se registró la presencia de formaciones 
+
+vegetales únicas o de baja representatividad nacional. 
+
+**6\.2\.**
+
+**Presencia de formaciones vegetales relictuales** 
+
+De acuerdo a los antecedentes expuestos no se registró la presencia de formaciones 
+
+relictuales. 
+
+**6\.3\.**
+
+**Presencia de formaciones vegetales remanentes** 
+
+De acuerdo a los antecedentes expuestos no se registró la presencia de formaciones 
+
+remanentes, correspondiendo la vegetación presente en el área prospectada a 
+
+formaciones marcada fuertemente por las distintas condiciones ambientales identificadas 
+
+en el gradiente altitudinal del área. 
+
+**6\.4\.**
+
+**Presencia de formaciones vegetales frágiles** 
+
+De acuerdo a los antecedentes expuestos no se registró la presencia de formaciones 
+
+vegetales fragiles. 
+
+ 
+
+ 
+
+ 
+
+31 
+
+ 
+
+**6\.5\.**
+
+**Presencia de Bosque Nativo de Preservación** 
+
+De acuerdo a los antecedentes expuestos no se registró la presencia de Bosque nativo de 
+
+preservación. 
+
+**6\.6\.**
+
+**Actividad en o colindante con sitios prioritarios para la conservación de la** 
+
+**diversidad definidos en las estrategias regionales.** 
+
+El área prospectada y de influencia del proyecto, no se traslapa, o bien no está dentro de 
+
+los límites de uno de los 64 sitios prioritarios para la conservación de la biodiversidad, para 
+
+fines del SEIA. 
+
+**6\.7\.**
+
+**Actividad en o colindante con áreas bajo protección oficial** 
+
+El área prospectada y de influencia del proyecto está dentro de los límites de áreas bajo 
+
+protección oficial; correspondiente al Parque Nacional Lauca. 
+
+**6\.8\.**
+
+**Actividad en o colindante con área de protección privada** 
+
+El área prospectada y de influencia del proyecto, no se traslapa, o bien no está dentro de 
+
+los límites de algún tipo de área de protección privada. 
+
+**6\.9\.**
+
+**Actividad en o colindante con o aguas arriba de Humedales** 
+
+El área prospectada y de influencia del proyecto, no se traslapa, o bien no está colindante 
+
+a humedales. 
+
+**6\.10\.****Presencia de ejemplares de especies vegetales clasificadas en categorías** 
+
+**de conservación** 
+
+Dentro del área de estudio no se registraon especies en categoría de conservación 
+
+clasificada en listados nacionales de acuerdo al Reglamento de Clasificación de Especies 
+
+ 
+
+ 
+
+ 
+
+32 
+
+ 
+
+(RCE). En el Libro Rojo Nacional no se registran especies en categoría de conservación. De 
+
+igual forma, en el Boletín N°47 como el D.S. N°68 no registran ninguna de las especies 
+
+identificadas en el área de estudio. 
+
+**6\.11\.****Presencia de especies vegetales protegidas por regulaciones especiales** 
+
+De acuerdo a los listados florísticos y según la normativa ambiental y sectorial, en el área 
+
+prospectada, no se registran especies reguladas por medidas de protección especiales 
+
+**6\.12\.****Presencia de especies endémicas** 
+
+Se identifico una especie endémica correspondiente a Werneria glaberrima Phil. (Poposa) 
+
+de habito herbaceo. 
+
+**6\.13\.****Presencia de especies de distribución restringida** 
+
+Considerando como criterios de clasificación el origen endémico, la distribución nacional y 
+
+regional, y el estado de conservación, no se determinó la existencia de especies de 
+
+distribución restringida en el área prospectada. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+33 
+
+ 
+
+**5\.****CONCLUSIONES** 
+
+El área de estudio de la DIA del proyecto “Instalación de torre para Telecomunicaciones 
+
+Sitio NEWPOLI280F1 – Av. Simon Bolivar R11 \- Putre 4”, tiene una superficie de 2,39 ha, 
+
+de las cuales el 75,87% corresponde a ambientes naturales predominados por praderas. 
+
+Del área de estudio prospectada (AE), 2,39 hectáreas de las cuales el 97,88% (2,34 ha) 
+
+corresponed a ambientes naturales, de el se desprende afloramiento rocoso con 21,66% 
+
+(0,52 ha), cuerpo de agua con 0,35% (0,01 ha) y el 75,87 (1,81 ha) se encuentra cubierta 
+
+por vegetación (praderas). La formación predominante corresponde a pradera, su origen 
+
+proviene de al apararicion de hertbaceas en coberturas variables y donde la vegetación 
+
+dada las condiciones ambientales no se desarrollan con normalidad. 
+
+Se registró un total de 5 taxa, que se agrupan en 5 familias. Del total de especies 
+
+registradas el 75% corresponde a flora nativa y el 25% a flora endémica representada por 
+
+una especie, la flora advena no tiene representatividad. Se identifico una especie 
+
+endémica en el área de estudio 
+
+Los tipos biológicos con mayor representación corresponde a las plantas de habito 
+
+herbáceo (80%) y arbustivo (20%), este ultimo se encontró de manera escasa a orillas de 
+
+la ruta 11\-CH. 
+
+No se identificaron especies catalogadas en categoría de conservación, según el RCE, el 
+
+boletín N°47 y el Libro rojo. De acuerdo al D.S. N° 68/2009 en el área prospectada no se 
+
+identificaron especies consideradas como originarias del país. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+34 
+
+ 
+
+ 
+
+**6\.****BIBLIOGRAFÍA** 
+
+BENOIT, I. 1989\. Libro Rojo de la Flora Terrestre de Chile. Corporación Nacional 
+
+Forestal. 157 p. 
+
+CONAF\-CONAMA\-BIRF. 1997\. Manual de Cartografía. Proyecto Catastro y 
+
+Evaluación de los Recursos Vegetacionales Nativos de Chile. Santiago de Chile. 
+
+CORPORACIÓN NACIONAL FORESTAL\-MINISTERIO DE AGRICULTURA. 2014\. Guía 
+
+de Evaluación Ambiental. Criterios para la evaluación de proyectos sometidos al SEIA. 92 
+
+pp. 
+
+D.S. 68/2009\. Ministerio secretaria general de la presidencia. Nómina de Especies 
+
+Arbóreas y Arbustivas Originarias del País. 
+
+D.S. 26/2011\. Ministerio de Agricultura. Aprueba modificación de Reglamento 
+
+General de la Ley sobre Recuperación del Bosque Nativo y Fomento Forestal. 
+
+GAJARDO, R. 1993\. La vegetación natural de Chile. Clasificación y distribución 
+
+geográfica. Editorial Universitaria, Santiago de Chile. 
+
+LUEBERT, F Y PLISCOFF, P. 2006\. Sinopsis bioclimática y vegetacional de Chile. 
+
+Editorial Universitaria. Santiago, Chile. 316 p. 
+
+MARTICORENA, C. \& M. Quezada 1985\. Catálogo de la Flora Vascular de Chile. 
+
+Gayana, Bot. 42: 1–157; 
+
+MINISTERIO DE AGRICULTURA. 2008\. Ley Nº 20\.283\. Ley Sobre Recuperación del 
+
+Bosque Nativo y Fomento Forestal. 
+
+ 
+
+ 
+
+ 
+
+35 
+
+ 
+
+MINSEGPRES. 2007\. DS 151/2007: Primera Clasificación de Especies según su 
+
+estado de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile. 
+
+Diario Oficial N° 38\.722 del 24 de marzo de 2007\. Página 10\. 
+
+MINSEGPRES. 2008a. DS 50/2008: Segunda Clasificación de Especies según su 
+
+estado de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile. 
+
+Diario Oficial N° 39\.100 del 30 de junio de 2008\. Página 3\. 
+
+MINSEGPRES. 2008b. DS 51/2008: Tercera Clasificación de Especies según su 
+
+estado de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile. 
+
+Diario Oficial N° 39\.100 del 30 de junio de 2008\. Página 4\. 
+
+MINSEGPRES. 2009\. DS 23/2009: Cuarta Clasificación de Especies según su estado 
+
+de Conservación. Ministerio Secretaría General de la Presidencia. Santiago de Chile. Diario 
+
+Oficial N° 39\.355 del 7 de mayo de 2009\. Páginas 6 y 7\. 
+
+Ministerio de Medio Ambiente. 2012\. DS 33/2012: Quinta Clasificación de Especies 
+
+según su estado de Conservación. Ministerio Secretaría General de la Presidencia. 
+
+Santiago de Chile. Diario Oficial N°40\.198 del 27 de febrero de 2012\. Página 5\. 
+
+Ministerio de Medio Ambiente. 2012\. DS 41/2012 y 42/2012: Sexta y Séptima 
+
+Clasificación de Especies según su estado de Conservación. Ministerio Secretaría General 
+
+de la Presidencia. Santiago de Chile. Diario Oficial N°40\.234 del 11 de abril de 2012\. 
+
+Páginas 13, 14 y 15\. 
+
+Ministerio de Medio Ambiente.2012\.DS 19/2012\. Octava Clasificación de Especies 
+
+según su estado de Conservación. Ministerio Secretaria General de la Presidencia. 
+
+Santiago de Chile. Diario Oficial Nº 40\.482 del 11 de febrero de 2013\. 
+
+ 
+
+ 
+
+ 
+
+36 
+
+ 
+
+Ministerio de Medio Ambiente.2013\. DS13/2013 Noveno Clasificación de Especies 
+
+según su estado de Conservación. Ministerio Secretaria General de la Presidencia. 
+
+Santiago de Chile. 
+
+Ministerio de Medio Ambiente. 2014\. DS 52/2014\. Decima Clasificación de Especies 
+
+según su estado de Conservación. Ministerio Secretaria General de la Presidencia. 
+
+Santiago de Chile. 
+
+ZULOAGA, F. O.; O. MORRONE Y M. BELGRANO (EDS). 2009\. Catálogo de las 
+
+Plantas Vasculares del Cono Sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay). 
+
+Pteridophyta, 
+
+Gymnospermae, 
+
+Monocotyledoneae. 
+
+En: 
+
+http://www2\.darwin.edu.ar/ 
+
+Proyectos/FloraArgentina/ FA.asp. Fecha de consulta: marzo\-diciembre 2013\. 
+

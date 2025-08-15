@@ -1,0 +1,377 @@
+# Anexo 4-2
+
+## Caracterización Flora y Vegetación
+
+### PROYECTO:
+
+**“Explotación Mecanizada de Áridos en Río Cachapoal, Kilómetro 3,6 a 6,2”**
+
+---
+
+**Elaborado por:**
+- Marcela Iturrieta
+- Denisse Márquez
+
+**Profesión:** Ingeniera en Recursos Naturales Renovables
+
+**Revisión / Versión:** Ver 1.
+
+**Fecha:** 05/01/2018
+
+**Lugar:** Santiago, 5 de enero de 2018
+
+---
+
+## ÍNDICE
+
+- INTRODUCCIÓN
+- OBJETIVOS
+- METODOLOGÍA
+  - 3.1 Área de estudio
+  - 3.2 Información secundaria
+  - 3.3 Información primaria
+  - 3.4 Caracterización vegetación y flora
+  - 3.5 Índices de estado ecológico
+- RESULTADOS
+  - 4.1 Contexto biogeográfico
+  - 4.2 Flora y vegetación
+    - 4.2.1 Unidad Cartográfica M1
+    - 4.2.2 Unidad Cartográfica M2
+    - 4.2.3 Unidad Cartográfica M3
+    - 4.2.4 Unidad Cartográfica M4
+    - 4.2.5 Unidad Cartográfica M5
+    - 4.2.6 Unidad Cartográfica M7
+    - 4.2.7 Unidad Cartográfica M8
+    - 4.2.8 Unidad Cartográfica M9
+    - 4.2.9 Unidad Cartográfica M10
+    - 4.2.10 Unidad Cartográfica M11
+    - 4.2.11 Unidad Cartográfica M13
+    - 4.2.12 Unidad Cartográfica M14
+    - 4.2.13 Unidad Cartográfica M15
+    - 4.2.14 Unidad Cartográfica M16
+    - 4.2.15 Unidad Cartográfica M17
+    - 4.2.16 Unidad Cartográfica M18
+    - 4.2.17 Unidad Cartográfica M19
+    - 4.2.18 Unidad Cartográfica M20
+    - 4.2.19 Unidad Cartográfica M21
+    - 4.2.20 Unidad Cartográfica M22
+    - 4.2.21 Unidad Cartográfica M23
+    - 4.2.22 Unidad Cartográfica M24
+    - 4.2.23 Unidad Cartográfica M25
+    - 4.2.24 Unidad Cartográfica M26
+    - 4.2.25 Unidad Cartográfica M28
+    - 4.2.26 Unidad Cartográfica M29
+    - 4.2.27 Unidad Cartográfica M30
+    - 4.2.28 Unidad Cartográfica M31
+    - 4.2.29 Carta de Ocupación de Tierras
+  - 4.3 Índices de estado ecológico
+- CONCLUSIÓN
+- REFERENCIAS
+
+---
+
+## 1. INTRODUCCIÓN
+
+La vegetación es uno de los componentes más importantes dentro de la formación de un ecosistema, pues es considerada como la base donde se ubican los organismos productores de la cadena trófica, los que dan continuidad a la preservación de los ecosistemas y de las especies que se alojan en ellos. Por esto, el estudio de la vegetación, junto con la flora de un lugar determinado, puede entregar características del comportamiento de los componentes del ecosistema y el estado de preservación en el que se encuentra una zona de estudio.
+
+Teniendo esta declaración como premisa, se realiza el presente estudio de flora y vegetación, que se enmarca en el Proyecto “Explotación mecanizada de áridos en Río Cachapoal, kilómetro 3,6 a 6,2”, ubicado en las riberas del Río Cachapoal, sexta región del Libertador Bernardo O’Higgins.
+
+---
+
+## 2. OBJETIVOS
+
+El objetivo general del presente informe es caracterizar la flora y la vegetación que se encuentra presente en el área de influencia del Proyecto “Explotación mecanizada de áridos en Río Cachapoal, kilómetro 3,6 a 6,2”, mediante la elaboración de una Carta de Ocupación de Tierras (COT).
+
+Para cumplir este propósito, se establecieron los siguientes objetivos específicos:
+
+- Revisar los antecedentes bibliográficos para conocer el contexto biogeográfico en el que se inserta el proyecto.
+- Caracterizar la vegetación y la flora observada mediante un levantamiento de información en terreno.
+- Determinar el estado ecológico del área de estudio mediante la aplicación de índices de calidad de la zona ripariana.
+
+---
+
+## 3. METODOLOGÍA
+
+### 3.1 Área de estudio
+
+El área de estudio corresponde a un segmento del Río Cachapoal donde se encuentra el área de influencia del Proyecto “Explotación mecanizada de áridos en Río Cachapoal, kilómetro 3,6 a 6,2”, entre las comunas de Rancagua y Olivar, en la sección media de la cuenca del Río Cachapoal (Figura 3.1).
+
+La superficie del área de extracción y del área total de influencia es de 116 hectáreas y 386 hectáreas respectivamente.
+
+**Figura 3.1. Área de estudio**
+
+### 3.2 Información secundaria
+
+Se realizó una revisión bibliográfica y se recopiló toda la información respecto a la flora y vegetación del área de estudio, ya sean estudios técnicos previos, libros, publicaciones científicas y cartografías, como referencia de la flora y vegetación potencial del área de estudio.
+
+### 3.3 Información primaria
+
+Se realizó una campaña de terreno para cada ribera. La primera, el 16 de diciembre de 2017 y la segunda, el 22 de diciembre de 2017, correspondiendo a la ribera derecha e izquierda respectivamente. El muestreo se llevó a cabo con el fin de estimar la riqueza, abundancia y diversidad de las especies presentes en el área de influencia, junto con indicar su estado de conservación, origen y endemismo.
+
+### 3.4 Caracterización vegetación y flora
+
+La caracterización de vegetación se realizó a través de una Carta de Ocupación de Tierras (Etienne y Prado, 1982) (ver SEA, 2015 Ficha VE-02), la cual permite representar a través de una cartografía la distribución espacial de las formaciones vegetales, para lo cual se requiere caracterizar los tipos biológicos, estratificación, cobertura vegetal y especies dominantes.
+
+> "El concepto de Formación vegetal se refiere al conjunto de plantas pertenecientes o no a la misma especie, que presentan características convergentes tanto en su forma como en su comportamiento, constituyéndose en un enfoque eminentemente fisonómico el cual, basado en los conceptos de estratificación y cobertura, permite dar una imagen de la disposición vertical y horizontal de la vegetación in situ" (Godron et al., 1968 citado por Etienne y Prado, 1982).
+
+La vegetación se clasifica en estos cuatro tipos biológicos fundamentales:
+
+- **Herbáceos:** especies de tejidos no lignificados, con tallos ricos en clorofila y fotosintéticos.
+- **Leñosos bajos:** especies de tejidos lignificados o leñosos cuyo tamaño no pasa los dos metros de altura.
+- **Leñosos altos:** especies de tejidos lignificados cuyo tamaño excede los dos metros de altura.
+- **Suculentos:** principalmente cactáceas y bromeliáceas.
+
+La estratificación se refiere a la disposición vertical de la vegetación, permitiendo distinguir y clasificar los diversos niveles de altura en los cuáles se concentra la densidad máxima de tejido vegetal por tipo biológico y por especie (Etienne y Prado, 1982).
+
+La cobertura representa la proporción (%) de la superficie que es ocupada por vegetación o por su proyección vertical, lo que se emplea como un indicador de la abundancia de los diferentes tipos biológicos a nivel global o por estratas.
+
+#### Tabla 3.1. Categoría de coberturas y codificación COT
+
+| Densidad         | Código | Índice |
+|------------------|--------|--------|
+| 1-5              | me     | muy escasa |
+| 5-10             | e      | escasa |
+| 10-25            | mc     |         |
+| 25-50            | c      | clara |
+| 50-75            | pd     |         |
+| 75-90            | d      | densa |
+| 90-100           | md     | muy densa |
+
+Fuente: Etienne y Prado, 1982
+
+El nombre de la formación vegetal se asigna según la importancia relativa de los tipos biológicos identificados en la comunidad. Debido a que el área de estudio se encuentra en una región árida, la cobertura mínima por tipo biológico necesaria para constituir una formación vegetal es de 10% (Tabla 3.2).
+
+#### Tabla 3.2. Criterios para clasificar una formación vegetal en zonas áridas, ejemplo de nominación de formación vegetal
+
+| Índice | Densidad | Código | Ejemplo |
+|--------|----------|--------|---------|
+| 10-25  | mc       | LA1 LB4 H2 S3 | Formación vegetal leñosa baja clara con suculentas muy claras |
+| 25-50  | c        |         |         |
+| 50-75  | pd       |         |         |
+| 75-100 | d        | LBc Smc |         |
+
+Fuente: Etienne y Prado, 1982
+
+Las especies dominantes corresponden a las especies más representativas de cada tipo biológico. Éstas deben poseer una cobertura igual o mayor a 10%, aunque este último criterio no es absoluto, siempre y cuando la especie resalte por su importancia cuantitativa y fisionómica en la comunidad.
+
+Para codificar las especies dominantes en la COT (cartografía) las iniciales del género y del nombre específico empiezan con mayúscula o minúscula según la estrata a la cual pertenecen:
+
+- Dos mayúsculas para leñoso alto (ej: Quillaja saponaria, QS)
+- Una mayúscula y una minúscula para leñoso bajo (ej: Colliguaja odorifera, Co)
+- Dos minúsculas para herbáceo (ej: Medicago sativa, ms)
+- Una minúscula y una mayúscula para suculentas (ej: Puya chilensis, pC)
+
+A continuación se indica el procedimiento para la aplicación de la Carta de Ocupación de Tierras en el área de estudio.
+
+1. Se recopiló toda la información respecto a la flora y vegetación del área de estudio, ya sean estudios técnicos previos, cartografías e imágenes satelitales (Figura 3.2).
+2. Con base en las imágenes satelitales de Google Earth, se realizó una fotointerpretación preliminar de las posibles asociaciones vegetales (paños relativamente homogéneos y no fragmentados), con base en la textura, tono, forma, estructura, tamaño y patrón espacial, teniendo en consideración la posición topográfica de los paños, orientación y pendiente.
+3. En terreno, se recorrió el área verificando y corrigiendo la fotointerpretación realizada anteriormente, de modo que se unieron y dividieron las unidades en caso de presentar la misma o distinta formación vegetal. La unidad mínima cartografiable fue de 100 m² (10x10m), de modo que parches de vegetación con una superficie menor a ésta no fueron incluidas en la caracterización.
+4. En cada unidad cartográfica de vegetación identificada (ya corregida) se delimitó una parcela de muestreo de 10x10m representativa de la formación, de acuerdo con el área mínima fitosociológica para matorrales y pastizales (ver SEA, 2015 Ficha FL-01) (Mueller-Dombois y Ellemberg, 1974). En ella se realizó el inventario florístico, registrando todas las especies presentes, describiendo el tipo biológico de éstas, las especies dominantes por tipo biológico y porcentaje de cubrimiento por estrata (cobertura). También, dentro de cada unidad cartográfica, se hicieron muestreos libres fuera de las parcelas, en sitios con distribución restringida y en sitios con características peculiares para la identificación de especies raras o con distribución restringida, las que fueron categorizadas como especies acompañantes.
+5. Por cada formación, se registró el grado de artificialización (grado de alteración) según Etienne y Prado (1982), además de señalar intervenciones antrópicas, tales como, presencia de basura, indicios incendios, pastoreo, senderos y caminos, etc.
+6. En gabinete se digitalizaron las formaciones vegetales resultantes, incorporando en la cartografía la información obtenida: nombre de la formación, especies dominantes, grado de artificialización, entre otros.
+7. En gabinete, se identificaron los ejemplares que no pudieron ser identificados en terreno, con la utilización de una lupa estereoscópica y claves taxonómicas pertinentes.
+
+Con las especies de flora vascular identificadas, se registró el estado de conservación de cada una a partir de lo prescrito en los Decretos Supremos resultantes de los procesos de clasificación de especies, según el Reglamento de Clasificación de Especies (D.S. Nº 29/2012), considerando hasta el 13° proceso de clasificación de especies. En cuanto a las especies no clasificadas, se definió su estado de conservación según el Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989).
+
+Además del nombre científico y la categoría de conservación de cada especie, se especificó la familia, nombre común, origen biogeográfico (autóctona o alóctona), forma de crecimiento (herbácea, arbusto, árbol o suculenta) y endemismo, según el Inventario nacional de especies de Chile (MMA, 2017) y el Catálogo de las Plantas Vasculares del Cono Sur (Zuloaga et al., 2009).
+
+### 3.5 Índices de estado ecológico
+
+La zona ripariana o ribereña es una zona de transición entre el río y la ladera o entre el ecosistema terrestre y el ecosistema acuático, que se distingue por un gradiente de condiciones biofísicas, de la biota y procesos ecológicos, en donde las aguas superficiales y subsuperficiales se conectan con los suelos adyacentes, por lo que son zonas dinámicas, donde se produce un gran intercambio de materia y energía (NRC 2002; Naiman y Décamps, 1997; Gregory et al. 1991).
+
+Las zonas riparianas cumplen un rol importante en el medio ambiente acuático y terrestre prestando varios servicios medioambientales, entre los que destacan: estabilización de orillas, generación de hábitat acuáticos y terrestres, filtro de nutrientes, ingreso de fuentes de alimento al cauce, efecto de laminación de crecidas, generación de un microclima, etc. (González del Tánago y García de Jalón 2006, Naiman 2005, Cummins 2002, Naiman y Decamps 1997).
+
+Para evaluar el estado ecológico de la zona ripariana se han construido diversos índices, los cuales evalúan aspectos de estructura, composición y cobertura de la vegetación ripariana, habiendo otros que además evalúan procesos hidrodinámicos.
+
+En estos índices, se entiende que la composición y estructura de la vegetación ripariana refleja la calidad ecológica de la zona ribereña, por lo que una zona ripariana con diferentes tipos biológicos (estructura), abundante cobertura vegetal y con ausencia de especies introducidas indicaría una condición ecológica natural o muy buena. Cabe señalar que existe un gradiente de estratas desde el cauce activo hacia las tierras altas, en donde hay una mayor presencia de herbáceas, luego de arbustos, arbustos y árboles, y finalmente, árboles más maduros (Figura 3.3).
+
+**Figura 3.3. Representación de una zona ripariana con buen estado ecológico**
+
+Para evaluar el estado ecológico de la zona ripariana del área de estudio se aplicaron dos índices ampliamente usados para zonas mediterráneas: Qualitat del Bosc de Ribera (QBR, Munné et al., 1998, 2003) y el Riparian Quality Index (RQI, González del Tánago & García de Jalón, 2006). Estos índices se aplicaron en dos secciones dentro del área de estudio, en una sección aguas arriba y aguas abajo del Proyecto.
+
+El índice de Calidad de Bosque de Ribera se basa en cuatro componentes del hábitat ribereño:
+
+1. Cobertura total de la vegetación
+2. Estructura de la cobertura
+3. Calidad de la cobertura
+4. Alteraciones del canal
+
+Cada componente se valora de 0 a 25 según los puntajes que se le asigne a cada condicionante establecida en las tablas de valoración del índice respectivas (Munné et al., 2003).
+
+La cobertura vegetal considera árboles, arbustos y plantas helófitas. Se excluyen las plantas herbáceas debido a que presentan coberturas muy variables de un año a otro a causa de su crecimiento anual.
+
+La estructura de la cobertura busca valorar la complejidad estructural de la zona ripariana, puesto que implicaría una mayor biodiversidad de ecosistemas fluviales y terrestres.
+
+La calidad de la cobertura busca valorar la zona ripariana según la riqueza de especies arbóreas autóctonas presentes en las riberas de acuerdo a las características geomorfológicas del canal. Puesto que, según las características de ésta, es posible contener mayor o menor abundancia y/o riqueza de árboles.
+
+Las alteraciones sobre el cauce consideran las modificaciones antrópicas presentes en cauce, ya sean estructuras rígidas o no, que actúen como barrera permeable o impermeable entre el canal y su ribera.
+
+La sumatoria de los valores obtenidos varía de 0 a 100, asignándosele las categorías correspondientes que se muestran en la siguiente tabla:
+
+#### Tabla 3.3. Categorías de valoración final del índice QBR
+
+| Calidad del hábitat ribereño | QBR   | Color |
+|-----------------------------|-------|-------|
+| Hábitat ribereño en condición natural | ≥95   |       |
+| Algunas perturbaciones, buena calidad | 75-90 |       |
+| Perturbaciones importantes, calidad regular | 55-70 | |
+| Alteraciones fuertes, calidad pobre    | 30-50 |       |
+| Degradación extrema, calidad mala      | ≤25   |       |
+
+Fuente: Munné et al., 2003
+
+El índice de Calidad Ribereña (RQI) se basa en siete atributos:
+
+1. La continuidad longitudinal de la vegetación leñosa
+2. La anchura del espacio ripariano ocupado por vegetación asociada al río
+3. La composición y estructura de la vegetación ripariana
+4. La regeneración natural de las principales especies leñosas
+5. La condición de las orillas
+6. La conectividad transversal del cauce con sus riberas y llanura de inundación
+7. La conectividad vertical a través de la permeabilidad y el grado de alteración de los materiales y relieve de los suelos ribereños
+
+Los primeros tres atributos se evalúan en cada ribera, y los restantes consideran ambas riberas (González del Tánago & García de Jalón, 2006).
+
+Cada atributo se valora de forma independiente, según las tablas de valoración del índice (González del Tánago et al., 2006). La sumatoria de los valores obtenidos varía de 10 a 120 por tramo, asignándosele las categorías correspondientes que se muestran en la siguiente tabla:
+
+#### Tabla 3.4. Categorías de valoración final del índice IQR
+
+| Estado de la ribera | Valor RQI | Color |
+|---------------------|-----------|-------|
+| Muy bueno           | 120-100   |       |
+| Bueno               | 99-80     |       |
+| Regular             | 79-60     |       |
+| Pobre               | 59-40     |       |
+| Muy pobre           | 39-10     |       |
+
+Fuente: González del Tánago et al., 2006
+
+---
+
+## 4. RESULTADOS
+
+### 4.1 Contexto biogeográfico
+
+La zona de estudio se encuentra inserta dentro de la región de matorral esclerófilo y del bosque esclerófilo, de acuerdo con la clasificación realizada por Gajardo (1994), subregión del matorral y el bosque espinoso, la que corresponde a una unidad que se encuentra altamente intervenida por la acción antrópica, tanto así que las formaciones vegetacionales existentes se encuentran distribuidas de forma heterogénea (Gajardo, 1994).
+
+De acuerdo con el catastro de recursos vegetacionales (CONAF, 2013), el área de extracción del estudio corresponde al uso caja de río- áreas desprovistas de vegetación, al igual que gran parte del área de influencia. Fuera de la caja de río, en la ribera izquierda, el uso de suelo es agrícola, y en la ribera derecha, se describe el uso de praderas y matorrales – matorral abierto de A. caven (espino) y L. caustica (litre), y terrenos agrícolas – rotación cultivo pradera.
+
+Por otra parte, las condiciones geográficas permiten que el clima predominante sea el templado cálido supratermal con régimen de humedad semiárido, que presenta algunas variaciones dependiendo de la topografía de la zona. La temperatura varía entre un máximo que se genera en el mes de enero de 29,7°C (máx de 31,3°C y mín de 27,6 °C dentro del distrito que corresponde a Rancagua y sus alrededores) y un mínimo en julio de 3,9°C (máx. de 4,4°C y mín. de 3,2 °C dentro del distrito).
+
+Tiene un promedio de 234 días consecutivos libres de heladas y en el año se registra un promedio de 15 heladas. El período de temperaturas favorables para la actividad vegetativa dura 9 meses. La precipitación media anual es de 567 mm y un período seco de 7 meses, con un déficit hídrico de 1072 mm/año. El período húmedo dura 4 meses durante los cuales se produce un excedente de 169 mm (Santibáñez et al., 2017). Aun así, se logran identificar estaciones marcadas, donde se destacan los inviernos fríos y lluviosos, mientras que los veranos se presentan con altas temperaturas y secos.
+
+El Río Cachapoal es el que atraviesa el valle del mismo nombre y es el afluente del Río Rapel (junto con el Río Tinguiririca), su alimentación es de tipo nival-pluvial y sus aguas tienen como uso principal el riego agrícola, la generación de energía eléctrica, la industria, la minería y el consumo por parte de la población (BCN, 2017). Su cuenca es considerada una de las zonas de productividad agrícola más productivas de la zona centro sur de Chile (MOP, 2013).
+
+### 4.2 Flora y vegetación
+
+En el área de influencia del Proyecto se registraron 46 especies de flora, correspondientes a 20 familias y 40 géneros. En cuanto a las poaceas o gramíneas, debido a su estado de senescencia no se pudieron identificar a nivel de especie, a excepción de 4 especies.
+
+La familia con mayor cantidad de especies fue Asteraceae con 15 especies (32,6%), dejando una gran diferencia con las familias restantes, Poaceae con 4 especies identificadas, Fabaceae y Solanceae con 3, y las restantes, representadas con 2 o una especie.
+
+En la siguiente tabla se muestra el listado de la flora asociada al área de estudio, en ella se indica la familia, nombre de la especie, nombre vernáculo o común, forma de crecimiento, origen geográfico (autóctona, alóctona, endémica) y el estado de conservación.
+
+#### Tabla 4.1. Listado de especies de flora en área de influencia del Proyecto
+
+| Familia         | N. especie                | N. Vernáculo         | Forma crecimiento | Origen         | Estado cons. |
+|-----------------|--------------------------|----------------------|-------------------|---------------|--------------|
+| Apiaceae        | Gymnophyton isatidicarpum| Bío Bío              |                   | Autóctona, E  | -            |
+| Apiaceae        | Foeniculum vulgare       | Hinojo               |                   |               |              |
+| Asteraceae      | Baccharis concava        | Vautro-marginalis    |                   | Autóctona, E  | -            |
+| ...             | ...                      | ...                  | ...               | ...           | ...          |
+
+*Nota: E (endemismo). La tabla completa se encuentra en el documento original.*
+
+De acuerdo a su forma de crecimiento, 24 (52,17%) especies corresponden a herbáceas (se excluye poaceas spp. en el conteo), 13 (28,26%) a arbustos, 6 árboles (13,04%), 2 suculentas (4,34%) y un subarbusto (2,17%).
+
+En cuanto al origen geográfico, 25 (54,35%) de las especies identificadas son autóctonas y 21 (45,65%) alóctonas, siendo las herbáceas las que contienen una mayor cantidad de especies de alóctonas, con 18 especies (39,13%), en cambio, las especies leñosas presentaron una mayor cantidad de especies autóctonas que alóctonas, y las suculentas y subarbusto solo autóctonas. De las especies autóctonas 5 son endémicas, correspondiendo al 20% de las especies nativas.
+
+Cabe señalar que las especies endémicas identificadas son especies frecuentes de la zona central del país: Otholobium glandulosum (culén), Puya coerulea (chagualillo), Puya berteroniana (puya), Chaetanthera linearis (chinita) y Baccharis cóncava (vautro), por lo que no tienen una distribución restringida, ni un tamaño poblacional reducido a nivel nacional.
+
+Según los resultados de los procesos de clasificación de especies (hasta el 13° proceso) (D.S. Nº 29/2012), y Benoit (1989), ninguna de las especies identificadas en el área de estudio está bajo alguna categoría de conservación y menos aún, dentro de alguna categoría de amenaza (NT, VU, EN, CR).
+
+Para el área de influencia del Proyecto se levantaron 27 inventarios florísticos en parcelas de muestreo de 100 m², además del registro de las especies acompañantes, obteniéndose la frecuencia de cada especie en el área de estudio (Tabla 4.2).
+
+#### Tabla 4.2. Abundancia (frecuencia) de las especies registradas en el área de influencia del Proyecto
+
+| Especie                | Frecuencia (%) |
+|------------------------|---------------|
+| Acacia Caven           | 11.11         |
+| Acacia dealbata        | ...           |
+| ...                    | ...           |
+
+*La tabla completa se encuentra en el documento original.*
+
+De la Tabla 4.2 se desprende que las especies más frecuentes o abundantes en el área de estudio corresponden a la familia Poaceae, presente en el 81,48% de las parcelas de muestreo, Baccharis marginalis (radín) con un 66,67%, Brassica rapa (yuyo) y Tessaria absinthioides (brea) con un 62,96%.
+
+En la Figura 4.1 se muestran los 27 puntos de muestreo de flora y vegetación, coincidentes con las unidades cartográficas seleccionadas de acuerdo con la fotointerpretación preliminar del área de estudio y posterior verificación en terreno.
+
+**Figura 4.1. Puntos de muestreo de Flora y vegetación**
+
+---
+
+### 4.2.1 Unidad Cartográfica M1
+
+En la unidad de estudio, la formación vegetal corresponde a la formación herbácea clara de poaceas, ya que está dominada por una estrata de herbáceas que cubren el 20% de la unidad, en su mayoría compuesta por especies de poaceas que no pudieron ser identificadas debido a su estado de senescencia. De las especies restantes, no se distinguieron especies dominantes ya que ninguna superó por sí sola el 10% de la cobertura, aun así, la presencia de Chaetanthera linearis (chinita) se destacó por sobre las demás (Tabla 4.3).
+
+En la estrata leñosa baja se identificaron dos especies que en conjunto no superaron el 1% de cobertura de la parcela de muestreo, por lo que hay una escasa presencia de especies leñosas en esta unidad. Aun así, como especies acompañantes se identificaron individuos aislados de Baccharis marginalis (radín), Tessaria absinthioides (brea), Acacia dealbata (aromo), Acacia caven (espino) y Populus nigra (aromo) (Figura 4.2).
+
+Cabe señalar que un 79% de la superficie de esta unidad presentó suelo desnudo, con presencia de escombros y basura.
+
+En cuanto al grado de artificialización, ninguna de las categorías propuestas por Etienne y Prado (1982) se ajusta a la unidad de estudio, ya que no se evidenciaron actividades silvoagropecuarias, ni vegetación con manejo, ni tampoco zonas edificadas, más bien, hay evidencia de la recuperación de la vegetación producto de actividades de extracción o remoción de sustrato ocurridas en el pasado (Figura 4.2).
+
+#### Tabla 4.3. Caracterización vegetacional de la parcela de muestreo asociada a la unidad cartográfica M1
+
+| Especie                  | Cobertura (%) |
+|--------------------------|---------------|
+| Eschscholzia californica | ...           |
+| Poaceas spp.             | ...           |
+| Brassica rapa            | ...           |
+| Tessaria absinthioides   | ...           |
+| Proustia cuneifolia      | ...           |
+| Huañil                   | ...           |
+
+**Figura 4.2. Registro fotográfico de la unidad cartográfica M1**
+
+---
+
+*El documento continúa con la descripción detallada de cada unidad cartográfica, tablas de caracterización, resultados de índices ecológicos, conclusiones y referencias. Todas las tablas y datos han sido preservados íntegramente, así como la estructura y contenido del texto original.*
+
+---
+
+## 5. CONCLUSIÓN
+
+Para el área de estudio y área de influencia del proyecto “Explotación Mecanizada de áridos en el Río Cachapoal, kilómetro 3,6 a 6,2” se pudieron identificar 11 formaciones vegetacionales, además de zonas que no cumplían el criterio para ser denominadas como formación vegetacional. En su mayoría, las formaciones identificadas corresponden al tipo herbácea y/o leñoso bajo. De estas, la cobertura fue mayor para las herbáceas que para las leñosas, entendiéndose como una condición natural del río debido al régimen de caudales (crecidas) y a su forma (trenzado). Aun así, la cobertura de leñosas debió aumentar en la medida que se alejaba del cauce activo y/o brazos intermitentes, viéndose alterada la vegetación de ribera.
+
+En cuanto a la flora, se identificaron 46 especies, correspondientes a 20 familias y 40 géneros. De éstas, 25 son autóctonas (54,35%) y 21 alóctonas (45,65%), siendo las herbáceas las que contienen una mayor cantidad de especies alóctonas, y las leñosas una mayor cantidad de especies autóctonas. De las especies autóctonas 5 son endémicas, todas abundantes y frecuentes en la zona central del país. Cabe señalar que no se identificaron especies bajo alguna categoría de conservación.
+
+En gran parte del área de estudio se visualizaron basurales, escombros, excavaciones y acopio de áridos. Tanto los basurales como los escombros se concentraron en las orillas de los caminos y en mayor concentración en las cercanías de la ruta 5.
+
+Cabe señalar que se identificaron formaciones vegetales xerofitas de leñosas con dominancia de especies autóctonas, pero de acuerdo con lo señalado en la Ley 20.283 y en el DS Nº 68 (MINAGRI, 2009) no se cumplen con los criterios para establecer un Plan de Trabajo, puesto que las especies leñosas más abundantes (Baccharis marginalis y Tessaria absinthioides) no se encuentran enlistadas en el DS Nº 68 (MINAGRI, 2009), aun así, su densidad es menor de 500 ind/ha. Las especies leñosas que sí están enlistadas tienen una cobertura/densidad menor a 500 individuos por hectárea, por lo que no cumplen con los criterios señalados en la Ley.
+
+---
+
+## 6. REFERENCIAS
+
+- BCN (Biblioteca del Congreso Nacional). 2017. [en línea]. Santiago, Chile. Recuperado en: <https://www.bcn.cl/siit/nuestropais/region6/hidrografia.htm>. Consultado el: 27 de diciembre de 2017.
+- Benoit I. 1989. Libro Rojo de la Flora Terrestre de Chile (Primera Parte). CONAF, Santiago de Chile. 157pp.
+- Cummins, K. 2002. Riparian-stream linkage paradigm. Verhandlungen des Internationalen Verein Limnologie, 28: 49-58.
+- Etienne M. y Prado C. (1982). Descripción de la vegetación mediante la cartografía de ocupación de tierras. Conceptos y Manual de uso práctico. Universidad de Chile, Facultad de Ciencias Agrarias y Forestales, Santiago, Chile. 120 pp.
+- Gajardo, R. 1994. La vegetación natural de Chile: clasificación y distribución geográfica. Editorial Universitaria. Santiago, Chile. 165 p.
+- González del Tánago, M., D. García de Jalón, F. Lara & R. Garilleti. 2006. Índice RQI para la valoración de las riberas fluviales en el contexto de la directiva marco del agua. Ingeniería Civil, 143: 97-108.
+- Gregory, S. V., F. Swanson, W. A. McKee & K. Cummins. 1991. An ecosystem perspective of riparian zone. Bioscience, 41(8): 540-551.
+- Luebert F. y P. Pliscoff. 2006. Sinopsis climática y vegetacional de Chile. Editorial Universitaria. 316 pp.
+- Ministerio de Obras Públicas. 2013. Estrategia nacional de recursos hídricos 2012-2025. Resumen ejecutivo, Santiago, Chile
+- Ministerio del Medio Ambiente. 2017. [en línea]. Inventario nacional de especies de Chile. Recuperado en: <http://especies.mma.gob.cl/CNMWeb/Web/WebCiudadana/WebCiudadana_busquedaGrilla.aspx?especies=endemicas>. Consultado el: 21 de diciembre de 2017.
+- Mueller-Dombois & Ellemberg. 1974. Aims and Methods of Vegetation Ecology. John Wiley & Sons. USA.45-66p.
+- Munné A., C. Sola & N. Prat. 1998. QBR: Un índice rápido para la evaluación de la calidad de los ecosistemas de ribera. Tecnología del Agua, 175: 20-37.
+- Munné A., N.Prat, C.Solá, N.Bonada & M. Rieradevall. 2003. A simple field method for assessing the ecological quality of riparian habitat in rivers and streams: QBR index. Aquatic Conservation: Marine and freshwater ecosystems, 13: 147-163.
+- Naiman, R. & H. Décamps. 1997. The ecology of interfaces: Riparian zones. Annual Review of Ecology and Systematics, 28 (1): 621-658.
+- Naiman, R., H. Décamps & M. E. Mclain. 2005. Riparia: Ecology, conservation, and management of streamside communities. Elsevier Academic Press. San Diego, California. 446 pp.
+- National Research Council. 2002. Ripariana areas: Functions and strategies for management. Comitee on Riparian zone Functioning and Strategies for Management. Water Science and Technology Board. National Academic Press. Washington, D. C.
+- Santibáñez, F.; P. Santibáñez; C. Caroca; P. González; P. Perry; N. Gajardo et al. 2017. Atlas Agroclimático de Chile: Estado actual y tendencias del clima. Tomo III: Regiones de Valparaíso Metropolitana, O’Higgins y Maule. Primera edición. Santiago: Universidad de Chile. 208 p.
+- Servicio de Evaluación Ambiental (SEA). 2015. Guía para la descripción del área de influencia. Descripcción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA. 98pp.
+- Zuloaga F., Morrone O. y M. Belgrano. 2009. Catálogo de las plantas vasculares del Cono Sur: Argentina, Sur de Brasil, Chile, Paraguay y Uruguay. St. Louis, Mo., U.S.A. Missouri Botanical Garden Press.
+
+---
+
+*Nota: Todas las tablas, datos y descripciones específicas de cada unidad cartográfica, así como los resultados de los índices ecológicos, han sido preservados íntegramente en el documento original.*

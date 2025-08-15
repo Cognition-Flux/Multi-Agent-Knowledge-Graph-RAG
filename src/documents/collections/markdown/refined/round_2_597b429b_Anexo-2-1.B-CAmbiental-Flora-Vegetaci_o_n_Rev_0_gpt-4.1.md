@@ -1,0 +1,323 @@
+# CORPORACIÓN NACIONAL DEL COBRE
+
+## ANEXO 2-1.B CARACTERIZACIÓN AMBIENTAL FLORA Y VEGETACIÓN TERRESTRE
+
+### DECLARACIÓN DE IMPACTO AMBIENTAL
+### PROYECTO “MODIFICACIONES AL PROYECTO EXTRACCIÓN Y MOVIMIENTO DE MINERALES MINA RADOMIRO TOMIC”
+
+**División Radomiro Tomic**  
+09/02/2018
+
+---
+
+## TABLA DE CONTENIDO
+
+1. **INTRODUCCIÓN** ..................................................................................................................... 4
+2. **OBJETIVOS** ............................................................................................................................. 5
+   - 2.1. OBJETIVOS ESPECÍFICOS ................................................................................................. 5
+3. **ÁREA DE INFLUENCIA Y ÁREA DE ESTUDIO** ........................................................................... 6
+4. **METODOLOGÍA** ..................................................................................................................... 6
+   - 4.1. REVISIÓN BIBLIOGRÁFICA ............................................................................................... 6
+   - 4.2. CAMPAÑA DE TERRENO ................................................................................................. 7
+   - 4.3. CARACTERIZACIÓN DE LA VEGETACIÓN TERRESTRE ..................................................... 7
+   - 4.4. FLORA TERRESTRE ....................................................................................................... 10
+5. **RESULTADOS** ....................................................................................................................... 14
+   - 5.1. ÁREA DE INFLUENCIA Y ÁREA DE ESTUDIO .................................................................. 14
+   - 5.2. REVISIÓN BIBLIOGRÁFICA ............................................................................................. 16
+   - 5.3. CAMPAÑA DE TERRENO Y PUNTOS DE MUESTREO ...................................................... 17
+   - 5.4. CARACTERIZACIÓN DE LA VEGETACIÓN TERRESTRE ................................................... 24
+   - 5.5. FLORA TERRESTRE ....................................................................................................... 33
+6. **CONCLUSIONES** .................................................................................................................. 35
+7. **REFERENCIAS** ..................................................................................................................... 37
+
+### ÍNDICE DE TABLAS
+
+- **Tabla 1.** Estratificación de acuerdo a los tipos biológicos ..................................................... 8
+- **Tabla 2.** Categorías de cobertura ......................................................................................... 9
+- **Tabla 3.** Coordenadas UTM de puntos de muestreo de vegetación .................................. 18
+- **Tabla 4.** Participación porcentual de las unidades homogéneas de vegetación dentro del área de estudio .................................................................................................................... 24
+- **Tabla 5.** Coordenadas geográficas de los individuos de *Solanum sitiens* identificados al interior del área de influencia del sector de empréstito ..................................................... 31
+- **Tabla 6.** Listado y caracterización de especies vasculares de plantas descritas para el área de estudio .................................................................................................................... 33
+- **Tabla 7.** Resumen taxonómico de la flora vascular presente en el área de estudio .......... 33
+- **Tabla 8.** Resultados del análisis de presencia, frecuencia (FR%) y frecuencia relativa (Fri%) para las especies identificadas dentro del área de estudio ........................................ 34
+
+### ÍNDICE DE FIGURAS
+
+- **Figura 1.** Área de Influencia y Área de Estudio para el componente flora y vegetación terrestre ......................................................................................................................... 15
+- **Figura 2.** Distribución de los puntos de muestreo dentro del área de estudio, Depósito de Lastre Este .................................................................................................................... 21
+- **Figura 3.** Distribución de los puntos de muestreo dentro del área de estudio y área de influencia, Depósito de Lastre Oeste ............................................................................. 22
+- **Figura 4.** Distribución de los puntos de muestreo dentro del área de estudio y área de influencia, Área de empréstito ....................................................................................... 23
+- **Figura 5.** Distribución espacial de las unidades homogéneas de vegetación dentro del área de estudio y área de influencia, Depósito de lastre Oeste ........................................ 25
+- **Figura 6.** Distribución espacial de las unidades homogéneas de vegetación dentro del área de estudio, Depósito de lastre Este ........................................................................ 26
+- **Figura 7.** Distribución espacial de las unidades homogéneas de vegetación dentro del área de estudio, Área de empréstito ................................................................................ 27
+- **Figura 8.** Ubicación de individuos aislados de *Solanum sitiens* asociados al Área de influencia del sector de empréstito y límite de población colindante al área de influencia ......................................................................................................................... 32
+
+---
+
+## 1. INTRODUCCIÓN
+
+En el marco del Sistema de Evaluación de Impacto Ambiental (SEIA) se presenta la caracterización ambiental para la componente flora y vegetación terrestre, asociada al Proyecto “Modificaciones al Proyecto Extracción y Movimiento de Minerales Mina Radomiro Tomic”.
+
+El Proyecto consiste en dar continuidad operacional a la línea hidrometalúrgica del proyecto durante el período 2019-2022 debido a que prospecciones con tecnología más avanzada han detectado yacimientos de óxidos en el rajo de la División Radomiro Tomic. Si se modifica la configuración de extracción inicial del proyecto, se puede continuar con la extracción de la línea hidrometalúrgica al menos hasta el año 2022. Por lo tanto, el Proyecto “Modificaciones al Proyecto Extracción y Movimiento de Minerales Mina Radomiro Tomic” requiere modificar los proyectos “Extracción y Movimiento de Minerales Mina Radomiro Tomic quinquenio 2008-2012” y “Ampliación Lixiviación Secundaria de Ripios”, aprobados ambientalmente mediante RCA N° 309/2008 y RCA N° 0132/2012, respectivamente.
+
+Dentro de las modificaciones proyectadas respecto a la RCA N° 309/2008, se contempla la profundización del piso final del Rajo desde 2.540 m.s.n.m. a 2.450 m.s.n.m., el aumento en el movimiento total de materiales desde 680 ktpd a 700 ktpd y el aumento de la capacidad actual de mineral de proceso de Chancado-Apilado-Lixiviación desde 62 Mt/año a 64 Mt/año. Mientras que para los depósitos de lastre Oeste y Este se contempla una modificación de diseño que se traduce en una ampliación y optimización del diseño de las superficies, volúmenes dispuestos, alturas y números de pisos.
+
+Respecto de la RCA N° 0132/2012, relacionada con el botadero de ripios, esta DIA considera una reconfiguración del botadero con aumento de la superficie, modificación de altura y capacidad, para obtener un aumento de su vida útil en un año. El sistema de impermeabilización de la superficie que se aumenta, se continúa expandiendo de la forma que se ha realizado a la fecha, y aprobado por RCA N° 0132/2012. Sin embargo, para esta DIA se aumenta la superficie en 34 hectáreas adicionales, las cuales deben ser recubiertas con este material.
+
+El sector de empréstito para la capa de protección de drenaje es obtenido de una ampliación de un área utilizada para dichos efectos, ubicada a 6 km del botadero de ripios. De este sector se obtendrá el material para la superficie adicional del botadero de ripios que se autorizará para esta DIA, pero también se obtendrá material para la capa de protección de drenaje autorizado ambientalmente de la pila de la RCA N° 0132/2012.
+
+El Proyecto contempla utilizar una superficie adicional aproximada de 467,4 ha, la cual considera las áreas en donde se emplazarán sus partes y obras físicas, que corresponden a las superficies adicionales para el depósito de lastre Oeste (165 ha), depósito de lastre Este (176 ha), botadero de ripios (34 ha) y del área de extracción de empréstito (92,4 ha). Solo los depósitos de lastre y el área de extracción de empréstito implican la afectación de áreas no evaluadas ambientalmente en estudios anteriores, por lo cual serán el centro de interés de este estudio. La superficie adicional del botadero de ripios se encuentra dentro del área evaluada ambientalmente (RCA N° 0132/2012) y la profundización del rajo no contempla modificaciones en términos de superficie a lo ambientalmente aprobado (RCA N° 309/2008).
+
+Se entenderá como área de influencia del proyecto, el área en donde son realizadas obras o actividades en el contexto de la ejecución del mismo, por lo que se considera el área a ocupar por los depósitos de lastre más un buffer variable de máximo 100 m, con lo que se alcanza una superficie aproximada de 502 ha como área de influencia para la presente caracterización ambiental. Esta área de influencia se desglosa de la siguiente manera: depósito de lastre Oeste 195 ha (165 ha + 30 ha buffer), depósito de lastre Este 214 ha (176 ha + 38 ha buffer), área de empréstito 92,4 ha (sin buffer).
+
+Adicionalmente, la caracterización ambiental también consideró un área de estudio, la que incluye el área de influencia, y que corresponde a aproximadamente 1.348 ha. El área de estudio abarca para el depósito de lastre Oeste y el botadero de lastre Este, 781,9 ha y 473,3 ha, respectivamente; mientras que para el área de empréstito, el área de estudio es la misma que el área de influencia, 92,4 ha.
+
+---
+
+## 2. OBJETIVOS
+
+El objetivo principal del estudio es lograr una caracterización de la condición actual que presenta el componente flora y vegetación terrestre dentro del área de estudio del Proyecto. Consecuentemente se han planteado los siguientes objetivos específicos:
+
+### 2.1. Objetivos específicos
+
+- Analizar el marco biogeográfico en el ámbito regional, sobre la base de antecedentes bibliográficos.
+- Identificar, caracterizar y dimensionar la presencia de las unidades homogéneas de vegetación en cuanto a su fisonomía y abundancia, para el área de estudio.
+- Caracterizar la riqueza florística del área de estudio, considerando plantas vasculares, en términos de diversidad, origen geográfico y estados de conservación.
+
+---
+
+## 3. ÁREA DE INFLUENCIA Y ÁREA DE ESTUDIO
+
+Para la definición del área de estudio se determinó una superficie general de muestreo, que permitió caracterizar la vegetación en un contexto más general y cuya superficie contiene al área de influencia donde se ubican las modificaciones del presente Proyecto.
+
+Para la delimitación del área de estudio se consideraron los elementos naturales presentes en el sector, en particular, la extensión y distribución de las formaciones vegetacionales dentro del espacio ocupado por las partes y obras del Proyecto que podrían ocasionar efectos sobre la flora y vegetación terrestre, acotando al área de influencia a aquellas superficies que se verán directamente intervenidas por el proyecto.
+
+---
+
+## 4. METODOLOGÍA
+
+El método utilizado para la caracterización del componente flora y vegetación presente en el área de estudio del Proyecto se desarrolló, básicamente, en tres etapas:
+
+1. **Revisión de referencias bibliográficas**: reunió antecedentes sobre el área del Proyecto con el objeto de contextualizar el marco biogeográfico, así como el reconocimiento de las potenciales especies que se pueden encontrar en el área y la delimitación preliminar de las potenciales unidades homogéneas de vegetación.
+2. **Trabajo de campo**: asociado al levantamiento de datos *in situ*.
+3. **Consolidación y análisis de la información**: obtenida a través de las fuentes secundarias y aquella recopilada en terreno, para lograr estructurar la caracterización ambiental del componente flora y vegetación terrestre sobre el área de estudio.
+
+### 4.1. Revisión bibliográfica
+
+La recopilación y revisión de antecedentes que permiten obtener un marco referencial sobre el contexto vegetacional del área de estudio del Proyecto contempló las siguientes fuentes de información:
+
+- **Vegetación Terrestre**: Para una macroescala, se consultó la bibliografía de Cabrera y Willink (1973) y Morrone (2001), mientras que para una escala más local se estudiaron las publicaciones del Sistema de Clasificación de la Vegetación Natural de Chile (Gajardo, 1994) y la Sinopsis Bioclimática y vegetacional de Chile (Luebert y Pliscoff, 2006).
+- **Relación del proyecto con su entorno**: Se analizará el entorno del Proyecto en busca de otros proyectos o actividades que se encuentren declarados, en tramitación o aprobados, dentro del Sistema de Evaluación Ambiental para relevar antecedentes vegetacionales de estudio anteriores en el contexto geográfico más cercano al área de proyecto. Para esto, se recurrió a la plataforma digital de búsqueda de proyectos sometidos al SEIA del Servicio de Evaluación Ambiental: [http://seia.sea.gob.cl/busqueda/buscarProyecto.php](http://seia.sea.gob.cl/busqueda/buscarProyecto.php)
+
+### 4.2. Campaña de terreno
+
+Para caracterizar la flora y vegetación terrestre se realizaron dos campañas de terreno entre los días 06 y 10 de junio de 2017 y el día 22 de enero de 2018. Estas campañas de terreno permitieron identificar, prospectar y describir las formaciones vegetacionales presentes en el área de estudio, mediante un muestreo cualitativo-cuantitativo. A continuación se describe la metodología específica para cada elemento del componente descrito.
+
+### 4.3. Caracterización de la vegetación terrestre
+
+Se utilizó la metodología de elaboración de Cartografía de Ocupación de Tierras (COT), desarrollada por el Centro de Estudios Fitosociológicos y Ecológicos L. Emberger, CEPE de Montpellier, Francia, y adaptada en Chile por Etienne y Contreras (1981) y Etienne y Prado (1982).
+
+La metodología de la COT considera a la vegetación como el factor integrador de las variaciones naturales del medio y de las modificaciones debidas a la acción del hombre; mediante el uso de la cartografía, se representa la vegetación actual a una escala de trabajo dada. Esta representación se obtiene de la evaluación de tres variables: formación vegetal, especies dominantes y grado de artificialización.
+
+#### Actividades incluidas:
+
+- **Fotointerpretación**: Identificación preliminar de unidades homogéneas de vegetación existentes, realizada a partir de una imagen satelital de alta resolución en color verdadero (Google Earth), discriminando unidades en base a las características de textura y color observadas en la imagen y delimitadas a través de un Sistema de Información Geográfica (SIG).
+- **Puntos de muestreo**: Determinados en forma aleatoria en el área de estudio, considerando la accesibilidad al terreno y una densidad tal que permitan darle validez estadística al muestreo.
+- **Descripción de la vegetación**: En cada punto de muestreo se evaluaron los siguientes parámetros:
+  - Formación vegetal
+  - Especies dominantes
+
+El concepto de formación vegetal corresponde al conjunto de plantas, pertenecientes o no a la misma especie, que presentan caracteres convergentes tanto en su forma como en su comportamiento. Se conforma un enfoque fisonómico, basado en los conceptos de estratificación y cobertura, permitiendo proyectar una imagen de la disposición vertical y horizontal de la vegetación in situ. Esta se puede clasificar en cuatro tipos biológicos fundamentales:
+
+- **Herbáceos (hierbas)**: Especies cuyos tejidos no están lignificados.
+- **Leñosos Bajos (arbustivos)**: Especies de tejidos lignificados, cuyo tamaño no sobrepasa los dos metros de altura.
+- **Leñosos Altos (arbóreos)**: Especies de tejidos lignificados, cuyo tamaño excede los dos metros de altura.
+- **Suculentos**: Principalmente cactáceas y bromeliáceas.
+
+Las formaciones vegetales pueden ser simples o complejas de acuerdo a la dominancia de uno o más tipos biológicos. El criterio de dominancia está dado por un umbral de densidad, cuyo valor varía según la región ecológica considerada.
+
+La estratificación se refiere a la disposición vertical de la vegetación, permitiendo distinguir y clasificar los diversos niveles de altura en los cuales se sitúan los tipos biológicos. Su representatividad en la COT está dada por el concepto de tipos biológicos, según descripción en la **Tabla 1**.
+
+#### Tabla 1. Estratificación de acuerdo a los tipos biológicos
+
+| Tipo Biológico   | Estrato (m)         |
+|------------------|--------------------|
+| Tipo Leñoso Alto | 2 – 4              |
+|                  | 4 – 8              |
+|                  | 8 – 16             |
+|                  | 16 – 32            |
+|                  | Más de 32          |
+| Tipo Leñoso Bajo | 0 – 0,25           |
+|                  | 0,25 – 0,5         |
+|                  | 0,5 – 1            |
+|                  | 1 – 2              |
+| Tipo Herbáceo    | 0 – 0,25           |
+|                  | 0,25 – 0,5         |
+|                  | 0,5 – 1            |
+|                  | 1 – 2              |
+|                  | Más de 2           |
+| Tipo Suculento   | 0 – 0,25           |
+|                  | 0,25 – 0,5         |
+|                  | 0,5 – 1            |
+|                  | 1 – 2              |
+|                  | Más de 2           |
+
+Fuente: Etienne y Prado (1982).
+
+La cobertura vegetal corresponde a la proporción del terreno que es ocupada por vegetación o por su proyección vertical, con el objeto de estimar la abundancia de los diferentes tipos biológicos, expresada en porcentaje global o por estratos, en los rangos establecidos en la siguiente tabla.
+
+#### Tabla 2. Categorías de cobertura
+
+| Índice | Cobertura (%) | Densidad     |
+|--------|---------------|--------------|
+| 1      | 1 – 5         | Muy escasa   |
+| 2      | 5 – 10        | Escasa       |
+| 3      | 10 – 25       | Muy clara    |
+| 4      | 25 – 50       | Clara        |
+| 5      | 50 – 75       | Poco densa   |
+| 6      | 75 – 90       | Densa        |
+| 7      | 90 – 100      | Muy densa    |
+
+Fuente: Etienne y Prado (1982).
+
+El concepto de especies dominantes concierne a aquellas plantas cuyas características morfológicas determinan fisonómicamente la vegetación, con base en los tipos biológicos de mayor representatividad en cada formación vegetal. De esta manera se identificaron aquellas especies, para cada unidad de muestreo, que participan en forma dominante en la fisionomía como aquellas que actúan como acompañantes.
+
+Por otra parte, el concepto de grado de artificialización se determinó en base al grado de alteración de la vegetación, que deriva principalmente de actividades antrópicas anteriores a la fecha de muestreo.
+
+**Clasificación de la vegetación:** Las formaciones vegetales definidas se clasificaron considerando la tipología de formaciones vegetales consignadas en la Ley N° 20.283/08 Sobre Recuperación del Bosque Nativo y Fomento Forestal. Asimismo, la identificación de las formaciones xerofíticas, se realizó considerando lo establecido en esta Ley, específicamente lo indicado en su Artículo N° 2, Nº 14 y en el Artículo N° 3 del Reglamento General de la Ley de Bosque Nativo (Decreto Supremo Nº 93/09, del MINAGRI, modificado por el Decreto Supremo Nº 26/11 del MINAGRI), además de lo señalado por la “Guía de Evaluación Ambiental: Criterios para la Evaluación de Proyectos Sometidos al SEIA” (CONAF, 2012) y lo establecido en el Decreto Supremo N°68/09 del MINAGRI que Establece, Aprueba y Oficializa Nómina de Especies Arbóreas y Arbustivas Originarias del País.
+
+**Singularidades ambientales asociadas a cada formación:** Se revisaron los lineamientos expuestos en la Guía de Evaluación Ambiental de CONAF (2014) y de la Guía de descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA (SEA, 2015) con el fin de atribuir aspectos de consideración dentro de la caracterización del área de estudio del Proyecto. Para ello, se revisaron los instrumentos generales de protección, como los Sitios Prioritarios para la Conservación de la Biodiversidad, las Áreas Protegidas Nacionales (SNASPE), los humedales adscritos a la convención RAMSAR y a la descripción de las Reservas de la Biosfera, entre otros instrumentos, que tengan alguna relación con la normativa ambiental pertinente a la vegetación natural.
+
+### 4.4. Flora Terrestre
+
+La flora terrestre fue determinada durante la inspección pedestre, en el contexto de la cual se realizaron los respectivos inventarios florísticos en cada unidad vegetacional homogénea derivada del muestreo de vegetación. El levantamiento de información para la elaboración de los inventarios florísticos se realizó a partir de la metodología de cuadrados crecientes cuyas coordenadas de referencia corresponden a las mismas que se utilizaron en los puntos de muestreo para la vegetación terrestre (COT).
+
+Bajo este método se estableció una superficie inicial de 25 por 25 centímetros en donde se registraron todas las especies de flora terrestre que se encontraron en su interior, luego se procedió a duplicar esta superficie (25 por 50 centímetros) y registrando todas las especies nuevas. Este proceso de duplicar la superficie de análisis e incorporar nuevos elementos al listado florístico se itera hasta no registrar nuevas especies en dos unidades de muestreo consecutivas. Una vez determinado el tamaño definitivo de la unidad muestral, éste fue utilizado para el levantamiento del resto de las parcelas que se encuentren dentro de la misma formación vegetal.
+
+#### 4.4.1. Nomenclatura taxonómica
+
+La flora registrada en el área de estudio fue caracterizada en cada una de las jerarquías taxonómicas (División, Clase, Familia y Especie). La nomenclatura taxonómica utilizada para la denominación de las especies detectadas se fundamenta en el *“Catálogo de las Plantas Vasculares del Cono Sur”* (Zuloaga et al., 2008a; 2008b; 2008c), disponible como base de datos en la página web del Instituto de Botánica Darwinion de Argentina ([http://www2.darwin.edu.ar/](http://www2.darwin.edu.ar/)). De forma complementaria, se utiliza la nomenclatura taxonómica de la base de datos *“The Plant List”* ([http://www.theplantlist.org/](http://www.theplantlist.org/)).
+
+En los casos de especies no reconocidas en el área de estudio, se recolectaron muestras y capturas fotográficas, las que posteriormente se analizaron e identificaron en gabinete, con el apoyo de literatura especializada.
+
+#### 4.4.2. Tipos Biológicos
+
+Cada especie vegetal registrada en el área de estudio se caracterizó de acuerdo a su forma de crecimiento homologando a lo establecido por Etienne y Prado (1982): Arbóreo (Leñoso Alto), Arbustivo (Leñoso bajo), Herbáceo (anual y perennes) y Suculento. Complementariamente, se registra en base a Zuloaga et al. (2008a; 2008b; 2008c).
+
+#### 4.4.3. Origen geográfico
+
+Cada especie vegetal fue clasificada según su origen histórico. Estas especies fueron catalogadas como nativas para aquellas que se desarrollan en forma natural dentro del territorio nacional o como exóticas para aquellas especies que han sido introducidas al territorio nacional por causas antrópicas. Adicionalmente, para aquellas especies nativas en que su presencia ha sido reconocida exclusivamente para un territorio en particular fueron clasificadas como endémica. Posteriormente, se estableció una relación proporcional entre los individuos nativos vs. exóticos.
+
+#### 4.4.4. Estados de conservación
+
+La determinación de la categoría de conservación de las especies se realiza teniendo presente lo establecido en el Decreto Supremo Nº 29/2012 del Ministerio del Medio Ambiente Reglamento para la Clasificación de Especies Silvestres y los Decretos Supremos Nº 151/2007, Nº 50/2008, Nº 51/2008 y Nº 23/2009 del MINSEGPRES y Decretos Supremos Nº 33/2011, Nº 41/2011, Nº 42/2011, Nº 19/2012, N° 13/2013, N° 52/2014, N°16/2016 y N° 06/2017 del Ministerio de Medio Ambiente.
+
+Considerando los cambios establecidos en la Ley N° 20.417, principalmente en lo referido al Artículo primero inciso 45) de dicha Ley, que sustituye el Artículo N° 37 de la Ley N° 19.300/94, para el estado de conservación de plantas se tuvo presente las categorías recomendadas para tales efectos por la Unión Mundial para la Conservación de la Naturaleza (UICN), las que corresponden a:
+
+- **Extinto (EX)**: Un taxón está Extinto cuando no queda ninguna duda razonable de que el último individuo existente ha muerto.
+- **Extinto en Estado Silvestre (EW)**: Un taxón está Extinto en Estado Silvestre cuando sólo sobrevive en cultivo, en cautividad o como población (o poblaciones) naturalizada completamente fuera de su distribución original.
+- **En Peligro Crítico (CR)**: Un taxón está En Peligro Crítico cuando la mejor evidencia disponible indica que cumple cualquiera de los criterios para En Peligro Crítico y, por consiguiente, se considera que se está enfrentando a un riesgo extremadamente alto de extinción en estado silvestre.
+- **En Peligro (EN)**: Un taxón está En Peligro cuando la mejor evidencia disponible indica que cumple cualquiera de los criterios para En Peligro y, por consiguiente, se considera que se está enfrentando a un riesgo muy alto de extinción en estado silvestre.
+- **Vulnerable (VU)**: Un taxón es Vulnerable cuando la mejor evidencia disponible indica que cumple cualquiera de los criterios para Vulnerable y, por consiguiente, se considera que se está enfrentando a un riesgo alto de extinción en estado silvestre.
+- **Casi Amenazado (NT)**: Un taxón está Casi Amenazado cuando ha sido evaluado y no satisface, actualmente, los criterios para En Peligro Crítico, En Peligro o Vulnerable; pero está próximo a satisfacer los criterios, o posiblemente los satisfaga en un futuro cercano.
+- **Preocupación Menor (LC)**: Un taxón se considera de Preocupación Menor cuando, habiendo sido evaluado, no cumple ninguno de los criterios que definen las categorías de En Peligro Crítico, En Peligro, Vulnerable o Casi Amenazado. Se incluyen en esta categoría taxa abundantes y de amplia distribución.
+- **Datos insuficientes (DD)**: Un taxón se incluye en la categoría de Datos Insuficientes cuando no hay información adecuada para hacer una evaluación, directa o indirecta, de su riesgo de extinción, basándose en la distribución y/o condición de la población.
+- **No Evaluado (NE)**: Un taxón se considera No Evaluado cuando todavía no ha sido clasificado en relación a estos criterios.
+
+En el caso de aquellas especies no consideradas en los Decretos Supremos que oficializan las nóminas de clasificación de especies según su estado de conservación, se recurrió a las clasificaciones contenidas en el Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989), en sus páginas 13 a 15 correspondientes a las conclusiones 1, 2 y 3, en cumplimiento a lo establecido en Artículo 2° transitorio de la Ley N° 20.283 y según lo indicado en Resolución Nº 586/09 de la Dirección Ejecutiva de la Corporación Nacional Forestal.
+
+#### 4.4.5. Frecuencia y Frecuencia relativa
+
+Conforme a la Guía para la Descripción de los Componentes Suelo, Flora y Fauna de Ecosistemas Terrestres en el SEIA (SEA, 2015), se analizó la Frecuencia y Frecuencia Relativa de las especies caracterizadas en el estudio.
+
+La frecuencia fue calculada a través de la siguiente fórmula:
+
+    Fi = (PRi / PRT) * 100
+
+Donde:
+- Fi = Frecuencia de la especie i (expresada en %).
+- PRi = Número de puntos de referencia donde fue detectada la especie i.
+- PRT = Número total de puntos de referencia muestreados.
+
+Posteriormente y con el fin de estandarizar la frecuencia y de este modo obtener la importancia relativa de las especies, se calculó la frecuencia relativa de cada especie, a través de la siguiente fórmula:
+
+    Fri = (Fi / ΣFi) * 100
+
+Donde:
+- Fri = Frecuencia relativa de la especie i (expresada en %).
+- ΣFi = Sumatoria de las Fi de todas las especies detectadas.
+
+---
+
+## 5. RESULTADOS
+
+A continuación, se presentan los resultados para cada una de las componentes incluidas en el análisis:
+
+### 5.1. Área de influencia y Área de estudio
+
+Administrativamente, el Proyecto se ubica en la comuna de Calama, provincia de Loa, Región de Antofagasta mientras que en términos geomorfológicos, el área del Proyecto se posiciona en la precordillera río Loa superior, la cual escolta en dos ramales el curso superior del río Loa (Börgel, 1983).
+
+En términos vegetacionales, de acuerdo a Gajardo (1994), el área del Proyecto se ubica en la Región del Desierto Andino al interior de la formación del Desierto de los Aluviones, la cual se caracteriza por presentar una fisionomía de arbustos bajos extremadamente xerófitos, con una cobertura muy rala.
+
+El Proyecto contempla utilizar una superficie adicional aproximada de 467,4 ha, la cual considera las áreas en donde se emplazarán sus partes y obras físicas, que corresponden a las superficies adicionales para el depósito de lastre Oeste (165 ha), depósito de lastre Este (176 ha), botadero de ripios (34 ha) y del área de extracción de empréstito (92,4 ha). Solo los depósitos de lastre y el área de extracción de empréstito implican la afectación de áreas no evaluadas ambientalmente en estudios anteriores, por lo cual serán el centro de interés de este estudio. La superficie adicional del botadero de ripios se encuentra dentro del área evaluada ambientalmente (RCA N° 0132/2012) y la profundización del rajo no contempla modificaciones en términos de superficie a lo ambientalmente aprobado (RCA N° 309/2008).
+
+Se entenderá como área de influencia del proyecto, el área en donde son realizadas obras o actividades en el contexto de la ejecución del mismo, por lo que se considera el área a ocupar por los depósitos de lastre más un buffer variable de máximo 100 m, con lo que se alcanza una superficie aproximada de 502 ha como área de influencia para la presente caracterización ambiental. Esta área de influencia se desglosa de la siguiente manera: depósito de lastre Oeste 195 ha (165 ha + 30 ha buffer), depósito de lastre Este 214 ha (176 ha + 38 ha buffer), área de empréstito 92,4 ha (sin buffer).
+
+Adicionalmente la caracterización ambiental también consideró un área de estudio, la que incluye el área de influencia, y que corresponde a aproximadamente 1.348 ha. El área de estudio abarca para el depósito de lastre Oeste y el botadero de lastre Este, 781,9 ha y 473,3 ha, respectivamente; mientras que para el área de empréstito, el área de estudio es la misma que el área de influencia, 92,4 ha. Estas unidades son representadas, en términos espaciales, en la Figura 1.
+
+---
+
+## 6. CONCLUSIONES
+
+A partir de la interpretación de los resultados obtenidos mediante la ejecución del presente estudio de caracterización ambiental de flora y vegetación terrestre es posible determinar lo siguiente:
+
+- Dentro del área de estudio, se identificó tan sólo una unidad homogénea de vegetación (UHV), la cual corresponde a una formación vegetal denominada Matorral bajo de *Adesmia atacamensis*. Esta unidad vegetacional se caracteriza por la presencia, prácticamente exclusiva, de la especie *Adesmia atacamensis*, con muy bajo nivel de cubrimiento vegetacional, en sectores restringidos y particulares del área de estudio, asociados, principalmente, a zonas del territorio que evidencian signos de flujos temporales de agua. Por otra parte, aquellos terrenos que presentan una condición distinta a la antes descrita no presentan elementos vegetales que puedan determinar algún grado de cobertura del que sea posible segregar gráficamente.
+- La participación porcentual del territorio dentro del área de estudio, para aquellas unidades que contienen presencia de vegetación corresponde al 0,95%, mientras que el resto del territorio (99,05%) corresponde a terrenos que carecen de vegetación. A su vez, el área de influencia del proyecto, definida por las ampliaciones de los depósitos de lastre y el área de empréstitos, mantiene la misma tendencia, siendo dominada por superficies desprovistas de vegetación.
+- Particularmente, el total del área de influencia asociada al proyecto que considera la ampliación y optimización del diseño del Depósito de lastre Oeste 195 ha (100%), corresponden a unidades desprovistas de vegetación, de las cuales el 85,9% son superficies con intervención antrópica. Complementariamente, el área de influencia asociada al proyecto que considera la ampliación y optimización del diseño del Depósito de lastre Este, presenta una superficie total de 214 ha, de las cuales, un 98,4% corresponden a áreas desprovistas de vegetación y 3,2 ha (1,6%) corresponden a superficies con vegetación (Matorral bajo de *Adesmia atacamensis*). De las superficies desprovistas de vegetación, 57,7 ha (27,0%) se encuentran intervenidas y 153,1 ha (71,5%) son áreas que en forma natural no presentan vegetación. Por su parte, la superficie asociada al empréstito 1,8 ha (1,99%) corresponde a una unidad con vegetación (Matorral bajo de *Adesmia atacamensis*) mientras que 90,3 ha (98,01%) corresponden a áreas desprovistas de vegetación, de las cuales un 41,03% se encuentra intervenido.
+- En base a su definición legal, la formación vegetal de Matorral bajo de *Adesmia atacamensis* no constituye una unidad vegetacional reglamentada que haga necesaria la presentación de alguno de los permisos ambientales sectoriales relacionados con el componente flora y vegetación terrestre, según lo estipula la Ley 19.300 y el Reglamento del SEIA.
+- Dentro de las unidades homogéneas de vegetación, se registró la presencia de 5 especies de flora vascular terrestre. Condición que infiere, para el territorio del área de estudio, un carácter de una diversidad florística pobre. Sin embargo, estos resultados son esperables para el contexto biogeográfico en que se emplaza el proyecto.
+- De las cinco especies de flora vascular identificadas para el área de estudio, destaca por su absoluta dominancia la *Adesmia atacamensis*, siendo el registro de las especies *Cortaderia atacamensis*, *Senecio sp.*, *Acantholippia desertícola* y *Solanum sitiens* asociado a condiciones discretas de sitios específicos dentro del área de estudio.
+- Para el registro de los cuatro individuos aislados de *Solanum sitiens*, especie catalogada como Vulnerable y Rara, identificados para el área de influencia del sector de empréstito se propone su rescate y relocalización hacia el sector de la población de esta especie identificada al norte del área de influencia previo al inicio de la extracción de empréstito. Durante la etapa de operación del proyecto se propone el cercado del límite de la población más cercano a las obras del proyecto con la finalidad de identificar, señalizar y limitar el acceso hacia el sector por parte del personal y maquinaria, con la finalidad de ejecutar acciones que conlleven a preservar la población existente. Adicionalmente, estas actividades serán reforzadas mediante la ejecución de charlas de inducción específicas para la totalidad de los trabajadores, que mantengan relación directa con el proceso constructivo y operacional de este proyecto, en temas relacionados con la protección y cuidado de la flora y vegetación relevante en el área de estudio.
+- En consecuencia, es posible inferir, en base a los antecedentes recientemente expuestos, que la materialización del proyecto no generará efectos significativos sobre el componente flora y vegetación terrestre.
+
+---
+
+## 7. REFERENCIAS
+
+- BENOIT, I. (ed.). 1989. Libro Rojo de la Flora Terrestre de Chile. Corporación Nacional Forestal. Santiago, Chile.
+- BÖRGEL, R. 1983. Geografía de Chile. Geomorfología. Instituto Geográfico Militar, Santiago.
+- CABRERA A, y WILLINK, A. 1973. Biogeografía de América Latina. Monografía 13. Serie de Biología. (2nd Revised ed 1980). Secretaría General de la Organización de los Estados Americanos, Washington, DC.
+- CONAF, 2014. Guía de Evaluación Ambiental. Criterios para la participación de CONAF en el SEIA. Departamento de Evaluación Ambiental. 111 p.
+- CONAF. 2012. Guía de Evaluación Ambiental. Criterios para la evaluación de Proyectos Sometidos al SEIA. Departamento de Evaluación Ambiental. 92 p.
+- ETIENNE, M Y D. CONTRERAS. 1981. Cartografía de la vegetación y sus aplicaciones en Chile. Bol. Téc. 46. Fac. Cs. Agrarias y Forestales, Univ. Chile 27 p. 10 cartas.
+- ETIENNE, M. Y PRADO, C. 1982. Descripción de la vegetación mediante la cartografía de ocupación de tierras. Ciencias Agrícolas N º 10, Universidad de Chile, Facultad de Ciencias Agrarias, Veterinarias y Forestales, Cartografía. 115 p.
+- GAJARDO, R. 1994. La Vegetación Natural de Chile: Clasificación y distribución geográfica. Editorial Universitaria. Santiago, Chile. 165 p.
+- LUEBERT F. & P. PLISCOFF. 2006. Sinopsis bioclimática y vegetacional de Chile. Editorial Universitaria. 316 p.
+- MARTICORENA, C. y QUEZADA, M. 1985. Catálogo de la Flora Vascular de Chile. Gayana Botánica 42 (1-2).
+- MINAGRI. 2008. Ley Nº 20.283. Recuperación del Bosque Nativo y Fomento Forestal. Ministerio de Agricultura, Santiago, Chile.
+- MINAGRI. 2009. Decreto Supremo Nº68. Aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país. Ministerio de agricultura. Santiago. Chile.
+- MINAGRI. 2009. Decreto Supremo Nº93. Reglamento general de la Ley sobre recuperación del bosque nativo y fomento forestal. Ministerio de Agricultura. Santiago, Chile.
+- MINAGRI. 2011. Decreto Supremo Nº26. Aprueba modificación de reglamento general de la ley sobre recuperación del bosque nativo y fomento forestal, aprobado por decreto Nº93, de 2008. Ministerio de agricultura. Santiago. Chile.
+- MINSEGPRES. 1994. Ley Nº19.300. Ley de bases generales del medio ambiente. Ministerio Secretaría General de la Presidencia. Santiago. Chile.
+- MINSEGPRES. 2007. Decreto Supremo N°151, Oficializa Primera Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio Secretaría General de la Presidencia. Comisión Nacional del Medio Ambiente.
+- MINSEGPRES. 2008a. Decreto Supremo N°50, Aprueba y Oficializa Segunda Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio Secretaría General de la Presidencia. Comisión Nacional del Medio Ambiente.
+- MINSEGPRES. 2008b. Decreto Supremo N°51, Aprueba y Oficializa Tercera Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio Secretaría General de la Presidencia. Comisión Nacional del Medio Ambiente.
+- MINSEGPRES. 2009. Decreto Supremo N°23, Aprueba y Oficializa Cuarta Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio Secretaría General de la Presidencia. Comisión Nacional del Medio Ambiente.
+- MMA. 2011a. Decreto Supremo N°33, Aprueba y Oficializa Quinta Clasificación de Especies
+- MMA. 2011b Decreto Supremo N°41, Aprueba y Oficializa Sexta Clasificación de Especies Silvestres según su Estado de Conservación. Ministerio de Medio Ambiente.
+- MMA. 2011c. Decreto Supremo N°42, Aprueba y Oficializa Séptima Clasificación de Especies
+- MMA. 2012. Decreto Supremo N°19, Aprueba y Oficializa Octava Clasificación de Especies
+- MMA. 2012. Decreto Supremo N°40, Aprueba y Oficializa Reglamento del Servicio de Evaluación de Impacto Ambiental (RSEIA). Ministerio de Medio Ambiente.
+- MMA. 2013. Decreto Supremo N°13, Aprueba y Oficializa Novena Clasificación de Especies
+- MMA. 2014. Decreto Supremo N°52, Aprueba y Oficializa Decima Clasificación de Especies
+- MMA. 2015. Decreto Supremo N°38, Aprueba y Oficializa Undécima Clasificación de Especies
+- MMA. 2016. Decreto Supremo N°16, Aprueba y Oficializa Duodécima Clasificación de Especies
+- MORRONE, J. 2001. Biogeografía de América Latina y el Caribe. Manuales y Tesis SEA 3, Zaragoza, España. 148 p.
+- SEA. 2015. Guía para la descripción de los componentes suelo, flora y fauna de ecosistemas terrestres en el SEIA. Servicio de Evaluación Ambiental. Santiago. Chile. 98 p.
+- ZULOAGA, F., O. MORRONE Y M. BELGRANO (Eds.). 2008a. Catálogo de las Plantas Vasculares del Cono Sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay). Volumen 1. Pteridophyta, Gymnospermae y Monocotyledonae. Monographs in Systematic Botany from the Missouri Botanical Garden 107: 1-983.
+- ZULOAGA, F., O. MORRONE Y M. BELGRANO (Eds.). 2008b. Catálogo de las Plantas Vasculares del Cono Sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay). Volumen 2. Dicotyledonae: Acanthaceae - Fabaceae (Abarema – Schizolobium). Monographs in Systematic Botany from the Missouri Botanical Garden 107: 985-2286.
+- ZULOAGA, F., O. MORRONE Y M. BELGRANO (Eds.). 2008c. Catálogo de las Plantas Vasculares del Cono Sur (Argentina, Sur de Brasil, Chile, Paraguay y Uruguay). Volumen 3. Dicotyledonae: Fabaceae (Senna – Zygia) - Zygophyllaceae. Monographs in Systematic Botany from the Missouri Botanical Garden 107: 2287-3348.
+
+---
+
+*Nota: Todas las tablas y figuras mencionadas en el texto están incluidas en el documento original y deben ser consultadas para el detalle de datos y resultados específicos.*

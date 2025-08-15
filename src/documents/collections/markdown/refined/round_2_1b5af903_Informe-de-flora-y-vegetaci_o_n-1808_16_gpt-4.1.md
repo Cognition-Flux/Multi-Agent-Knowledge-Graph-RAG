@@ -1,0 +1,87 @@
+# INFORME TÉCNICO
+
+## FLORA Y VEGETACIÓN
+
+### LOTE 153-115
+
+#### Proyecto: Aquaculture Research Centre
+#### Skretting ARC Pargua
+
+**Comercializadora Nutreco Chile Ltda.**  
+96.701.530-K
+
+10 de agosto de 2016
+
+---
+
+## 1. FLORA Y VEGETACIÓN
+
+### 1.1 Zona 1: Terraza superior e inferior
+
+La caracterización de la vegetación (Cobertura Actual del Suelo) muestra una diferenciación en función del grado de intervención antrópica y la proximidad a la costa, lo que determina su ubicación sobre cada situación edafoclimática. Para la presentación de los resultados, el área del proyecto se ha dividido en tres tramos o sectores:
+
+En esta zona se observan dos terrazas marinas (superior e inferior) de topografía plana, cuya superficie está mayormente cubierta por pradera natural degradada compuesta por Ballicas, Pasto Ovillo, Bromos, Chépica y otras herbáceas, reflejando el alto grado de intervención antrópica del lugar. Esto es producto del uso histórico de estas formaciones dedicadas a pastoreo con suplemento de forraje (ver Fotografías 1 y 2).
+
+Aunque existe vegetación nativa, estas formas corresponden a matorrales formados a partir de la colonización de individuos de la especie tolerante Notro (*Embothrium coccineum*), el rebrote de raíz de individuos de la especie Ulmo (*Eucryphia cordifolia*) y árboles aislados de las especies Arrayán (*Luma apiculata*), Canelo (*Drimys winteri*), Fuinque (*Lomatia ferruginea*) y Radal (*Lomatia hirsuta*) remanentes en el frente de la terraza superior (ver Figura 1, Mapa 1). Ninguna de estas áreas comprende bosque de acuerdo a lo descrito en la Ley 20.283 Art 2.
+
+Además de estas especies, se pueden observar otras especies arbustivas y herbáceas tanto nativas como exóticas distribuidas en forma aleatoria en la zona o al borde del área del proyecto (ver Figura 1).
+
+**Figura 1:** Terraza superior de topografía plana con predominancia de pradera natural degradada.
+
+En la figura anterior, se aprecia en segundo plano renovales de la especie Notro y, al fondo, vegetación remanente establecida en el frente de la terraza que, dada su pendiente, no fue utilizada históricamente para pastoreo.
+
+Las formaciones vegetacionales presentes en esta área no constituyen bosque de acuerdo a la Ley 20.283 Art. 2. Aplica en este caso lo dispuesto en el DS 237/74 del Ministerio de Agricultura y el requerimiento del PAS 153, ya que se debe intervenir 2 áreas de matorral (0,02 Há y 0,03 Há) que se encuentran a menos de 100 m de la Ruta 5 Sur. También un área de matorral correspondiente a 0,07 Há en el límite sur de esta terraza que no aplica el requerimiento del PAS 153.
+
+**Figura 2:** Terraza inferior de topografía plana con predominancia de praderas naturales. Al fondo, planta Skretting.
+
+#### Tabla 1: Otras especies arbustivas y herbáceas presentes en la zona 1
+
+*(Nota: El contenido de la tabla debe ser incluido aquí si está disponible en el documento original.)*
+
+---
+
+### 1.2 Zona 2: Humedal
+
+Corresponde al segundo segmento de 0,59 Há hacia el sur, ubicado entre el estero y la obra de arte de evacuación de aguas superficiales. Dada la geomorfología y material de origen de esta zona, caracterizada por ser baja, de suelos con drenaje pobre y escasa profundidad, este tramo está caracterizado en su parte norte por la presencia de especies propias de zonas húmedas y saturadas, tanto nativas como Palo Amarillo (*Berberis empetrifolia*), Junco (*Juncus procerus*), Nalca (*Gunnera tinctoria*); y exóticas, como Mora (*Rubus constrictus*) (ver Figura 3, Mapa 2).
+
+**Mapa 1:** Sector Terraza y Humedal
+
+**Figura 3:** Borde norte de Zona 2. Zona de humedal con predominancia de juncos.
+
+Posterior a dicha zona baja y húmeda, existe vegetación nativa en torno al límite predial con presencia principalmente de Radal (*Lomatia hirsuta*), seguido de individuos de Maqui (*Aristotelia chilensis*), Arrayán (*Luma apiculata*), Ulmo (*Eucryphia cordifolia*) y Luma (*Amomyrtus luma*). Todos individuos de baja calidad y sanidad producto de las condiciones edafoclimáticas presentes y del alto grado de intervención antrópica del área producto de la cercanía con obra de arte antigua (ver Figura 4).
+
+**Figura 4:** Vegetación nativa de baja calidad producto de las condiciones edafoclimáticas y alteraciones de la zona.
+
+Cercano al borde sur de este tramo y sobre la obra de arte de evacuación de aguas superficiales, es notoria la invasión de individuos de la especie Ulex (*Ulex europaeus*) que dificulta el establecimiento de especies nativas como el Radal (ver Figura 5).
+
+**Figura 5:** Invasión de *Ulex europaeus* en el borde sur de la zona 2.
+
+La vegetación nativa antes mencionada no constituye bosque de acuerdo a la Ley 20.283 Art. 2 y, de ser necesario extraer productos primarios fuera del predio, se tramitará la respectiva Solicitud de Guías de Libre Tránsito para Productos Primarios Provenientes de Corta de Árboles Nativos Aislados.
+
+---
+
+### 1.3 Zona 3: Cámara de bombeo
+
+Corresponde al último segmento, entre la obra de arte y el borde costero. Se caracteriza por la presencia de bosque nativo del tipo forestal Siempreverde (Donoso, 1981) subtipo Olivillo Costero.
+
+La especie dominante es el tique u Olivillo (*Aextoxicon punctatum*) y, dada la ubicación geográfica de esta formación, éste se encuentra puro. Los troncos y las copas de los Olivillos están achatados, completamente doblados por efecto de los fuertes vientos provenientes del mar y no presentan alturas sobre los 5 a 6 m (ver Figura 6).
+
+**Figura 6:** Bosque siempreverde del subtipo Olivillo Costero, imagen captada al sur del rodal colindante con playa.
+
+Dado que la vegetación nativa presente en este tramo constituye bosque de acuerdo a la Ley 20.283 Art 2 y, de acuerdo al Art 148 del DS 40/13 MMA, referido a la corta de bosque nativo cuya explotación sea necesaria para la ejecución de proyectos mencionados en el Art. 3 del reglamento antes mencionado, se presenta en forma anexa la solicitud del PAS 148.
+
+**Figura 7:** Interior bosque Olivillo costero, se aprecia individuo de *Greigia sphacelata*.
+
+---
+
+## 2. ÁREA DE INTERVENCIÓN DE DUCTOS
+
+Para efectos de la obra de trazado de ductos se intervendrán una superficie de 0,06 Há de matorral distribuidos en 5 áreas. En el caso del bosque de olivillo costero se intervendrá una superficie de 0,09 Há, como se muestra en el mapa a continuación:
+
+**Mapa 2:** Área a intervenir por ductos
+
+---
+
+## 3. ESTADO DE CONSERVACIÓN
+
+Respecto del estado de conservación, en el área del proyecto no se encuentran especies registradas como con problemas de conservación en algún listado. De acuerdo a los listados legalmente oficiales de clasificación, en el área del proyecto no se encuentran especies reconocidas legalmente como con problemas de conservación.

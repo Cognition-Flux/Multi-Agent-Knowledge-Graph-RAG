@@ -1,0 +1,555 @@
+# Caracterización de Flora y Vegetación Terrestre
+
+## Proyecto Inmobiliario “Nuevos Aires”
+
+**Junio 2020**
+
+*Pág. ii*
+
+---
+
+## Índice
+
+1. **Presentación** ................................................................................................................. 5
+2. **Objetivos** ........................................................................................................................ 5
+3. **Metodología** .................................................................................................................. 6
+   - 3.1 Área de Influencia .................................................................................................. 6
+     - 3.1.1 Definición del Área de Influencia ........................................................................ 6
+   - 3.2 Diseño y Esfuerzo de Muestreo ............................................................................. 8
+   - 3.3 Trabajo de Gabinete Preliminar ............................................................................ 11
+     - 3.3.1 Recopilación de Antecedentes Bibliográficos ................................................. 11
+     - 3.3.2 Fotointerpretación de Imágenes Satelitales del Área de Influencia ............... 12
+   - 3.4 Trabajo de Campo .................................................................................................. 12
+     - 3.4.1 Caracterización de la Vegetación ..................................................................... 12
+     - 3.4.2 Caracterización de la Flora Terrestre ............................................................... 14
+   - 3.5 Análisis de Datos ................................................................................................... 14
+     - 3.5.1 Elaboración de la Cartografía de Vegetación .................................................. 14
+     - 3.5.2 Especies en Categoría de Conservación ......................................................... 15
+     - 3.5.3 Identificación de Formaciones Vegetales Afectas a la Ley 20.283 ................. 16
+       - 3.5.3.1 Identificación de Unidades de Bosque ..................................................... 16
+       - 3.5.3.2 Identificación de Formaciones Xerofíticas ............................................... 17
+     - 3.5.4 Determinación de Singularidad Ambiental ..................................................... 18
+4. **Resultados** .................................................................................................................. 19
+   - 4.1 Recopilación de Antecedentes Bibliográficos ...................................................... 19
+   - 4.2 Identificación de Categorías de Usos de Suelo y Descripción de la Vegetación Registrada en el Área de Influencia ............................................................ 20
+     - 4.2.1 Descripción de las Unidades de Vegetación del Área de Influencia ............... 22
+       - 4.2.1.1 Herbazal de Lolium perenne, Vulpia myuros y Galega officinalis ............ 23
+       - 4.2.1.2 Herbazal de Lactuca serriola, Avena sp. y Lolium perenne ..................... 23
+       - 4.2.1.3 Matorral artificial de Pyracantha angustifolia .......................................... 24
+       - 4.2.1.4 Plantación de Ficus carica ........................................................................ 25
+   - 4.3 Flora Registrada en el Área de Influencia ............................................................ 25
+     - 4.3.1 Riqueza, Diversidad y Composición ............................................................... 25
+     - 4.3.2 Especies en Categoría de Conservación Oficial ............................................. 30
+     - 4.3.3 Especies Listadas en el DS. Nº 68/2009 ......................................................... 30
+     - 4.3.4 Especies Listadas en el DS. Nº 366/1944 ....................................................... 30
+   - 4.4 Identificación de Formaciones Vegetales Afectas a la Ley 20.283 ..................... 30
+   - 4.5 Identificación de Áreas con Singularidad Ambiental ........................................... 30
+5. **Conclusiones** .............................................................................................................. 31
+6. **Referencias Bibliográficas** ......................................................................................... 32
+
+---
+
+## Tablas
+
+- **Tabla 3-1.** Coordenadas de los Puntos de Muestreo realizados en el Área de Influencia. .......... 10
+- **Tabla 3-2.** Categorías de cobertura y codificación. ..................................................................... 13
+- **Tabla 3-3.** Codificación de las especies dominantes. .................................................................. 13
+- **Tabla 3-4.** Abundancia relativa, adaptado de Braun-Blanquet (1987). ....................................... 14
+- **Tabla 4-1.** Resumen de Categorías de usos de suelo registrados en el Área de Influencia. ...... 20
+- **Tabla 4-2.** Detalle de la caracterización de las unidades homogéneas de vegetación definidas en el área de influencia, según el método COT (Etienne y Prado, 1982). ................ 20
+- **Tabla 4-4.** Listado taxonómico de la Flora registrada en el Área de Influencia. .......................... 28
+
+## Figuras
+
+- **Figura 3-1.** Área de Influencia del componente vegetación y flora vascular terrestre. ............... 8
+- **Figura 3-2.** Esfuerzo de muestreo para la caracterización del componente Vegetación y Flora vascular en el Área de Influencia. .................................................................................... 11
+- **Figura 4-1.** Usos de suelo y unidades homogéneas de vegetación del Área de Influencia. ........ 22
+- **Figura 4-2.** Riqueza de especies por origen geográfico ............................................................. 26
+- **Figura 4-3.** Riqueza de especies por Forma de crecimiento ..................................................... 26
+- **Figura 4-4.** Riqueza de especies por Familia taxonómica ......................................................... 27
+
+## Fotografías
+
+- **Fotografía 4-1.** Suelos intervenidos del Área de Influencia. ..................................................... 21
+- **Fotografía 4-2.** Fisionomía de *Herbazal de Lolium perenne, Vulpia myuros y Galega officinalis* 23
+- **Fotografía 4-3.** Fisionomía de Herbazal de *Lactuca serriola, Avena sp. y Lolium perenne* ........ 24
+- **Fotografía 4-4.** Fisionomía de Matorral artificial de *Pyracantha angustifolia* .............................. 24
+- **Fotografía 4-5.** Fisionomía de Plantación de *Ficus carica* ...................................................... 25
+
+---
+
+## 1. Presentación
+
+La presente sección da cuenta de los antecedentes que caracterizan el componente vegetación y flora vascular terrestre del Proyecto inmobiliario “Nuevos Aires” (en adelante, el Proyecto), localizado en la comuna de Puente Alto, ciudad de Santiago, región Metropolitana. Consiste en la construcción de dos condominios y una placa comercial de 5 locales. Se presenta una descripción detallada de la vegetación y la flora vascular existente en el área de influencia del Proyecto, identificando los aspectos ambientales relevantes necesarios de incorporar en su evaluación.
+
+El análisis del componente vegetación y flora entrega como resultado la identificación de categorías de usos de suelo y de unidades homogéneas de vegetación (formaciones vegetales) en el área de influencia y su sensibilidad ambiental desde el punto de vista de la fragilidad de dicho componente, permitiendo tener en consideración estos antecedentes al momento de la evaluación de las obras de ingeniería, y en consideración con los eventuales impactos por la ejecución de las mismas; incluyendo efectos conocidos, como la fragmentación y pérdida de hábitat, pérdida de cobertura vegetal y/o eventual afectación de flora en categoría de conservación.
+
+Se presentan los resultados obtenidos a partir de la búsqueda y sistematización de antecedentes bibliográficos, así como los resultados del levantamiento de información en terreno durante la estación de otoño; de acuerdo a los requerimientos señalados en la Ley de Bases del Medio Ambiente (Ley N° 19.300, modificada por la Ley N° 20.417) y en el Reglamento del Sistema de Evaluación de Impacto Ambiental (D.S. N° 40/2012, MMA).
+
+---
+
+## 2. Objetivos
+
+El objetivo general de este estudio considera la realización de un análisis descriptivo detallado de la flora y vegetación existentes en el área de influencia del Proyecto, en los sectores en donde se proyecta la instalación y/o ejecución de obras.
+
+Para la descripción del componente vegetación y flora vascular terrestre se han establecido los siguientes objetivos específicos:
+
+- Realizar una revisión bibliográfica de las características de la vegetación potencialmente presente en el área de influencia.
+- Caracterizar la vegetación del área de influencia.
+- Identificar y representar cartográficamente las unidades homogéneas de vegetación (formaciones vegetales) presentes en el área de influencia.
+- Identificar la eventual presencia de formaciones vegetales afectas a la Ley N°20.283, particularmente respecto de bosque nativo y/o formaciones xerofíticas.
+- Identificar y caracterizar la flora presente en el área de influencia.
+- Detectar la eventual presencia de especies en categoría de conservación, y registrar su localización dentro del área de influencia.
+- Determinar la eventual presencia de ambientes singulares de acuerdo a sus atributos vegetacionales y/o florísticos.
+
+---
+
+## 3. Metodología
+
+### 3.1 Área de Influencia
+
+El Área de Influencia propuesta para este componente debe entenderse como la aproximación que ha sido determinada como una opinión experta en función del conocimiento, antecedentes y características del Proyecto, que el titular ha presentado al equipo de trabajo al momento de realizar el estudio. Sin perjuicio de lo anterior, la descripción del componente ha contemplado, como parte de su superficie de análisis, la mayor cantidad de elementos que permiten acercarse de la manera más completa posible a la identificación de efectos sobre el componente vegetación y flora vascular.
+
+#### 3.1.1 Definición del Área de Influencia
+
+La determinación y justificación del área de influencia para el componente vegetación y flora vascular ha sido realizada considerando la definición establecida en el Reglamento del Sistema de Evaluación de Impacto Ambiental (D.S. Nº 40/2012, MMA), considerando las dimensiones y alcances del Proyecto y las características vegetacionales a escala local.
+
+De acuerdo a lo anterior, el área de influencia se ha establecido a partir de la utilización de los siguientes criterios:
+
+- **Espacio geográfico de emplazamiento:** considera el conjunto de partes, obras y/o acciones del Proyecto que implican la transformación total o parcial de los sistemas o formaciones vegetales presentes en el área del Proyecto.
+- **Efectos o riesgos de operación:** representado por la superficie de sistemas naturales o formaciones vegetales que puedan sufrir perturbaciones debido a la cantidad y calidad de efluentes, emisiones o residuos generados por el Proyecto.
+
+De esta manera, el área de influencia ha sido definida y justificada para el estudio de vegetación y flora terrestre tomando en consideración los eventuales impactos ambientales que el Proyecto tiene para este componente, así como el espacio geográfico en el cual se emplazan las partes, obras y/o acciones del Proyecto. De acuerdo a lo anterior, el área de influencia comprende una superficie total de 2,59 ha. La ubicación espacial del área de influencia definida para este componente se muestra a continuación en la Figura 3-1.
+
+---
+
+### 3.2 Diseño y Esfuerzo de Muestreo
+
+El muestreo en terreno fue diseñado y ejecutado considerando las condiciones particulares del área de influencia, relacionadas con una mayoritaria presencia de áreas intervenidas (modificadas) y urbanizadas. En consideración con lo anterior, el muestreo de la flora se concentró en aquellos sectores con presencia de vegetación natural, ya que por su estructura y composición de especies, éstos serían los que podrían eventualmente ser más sensibles a la afectación por parte de las obras o actividades del Proyecto.
+
+El diseño del muestreo, la selección y justificación de las metodologías consideró lo establecido en la legislación ambiental vigente, y en las guías metodológicas como:
+
+- Guía para la descripción del Área de Influencia – Área de Influencia en el Sistema de Evaluación de Impacto Ambiental (SEA, 2017)
+- Guía para la descripción del Área de Influencia – Descripción de los componentes Suelo, Flora y Fauna de Ecosistemas Terrestres en el SEIA (SEA, 2015)
+- Guía de Evaluación Ambiental - Criterios para la participación de CONAF en el SEIA (CONAF, 2014)
+- Guía de Evaluación Ambiental - Vegetación y Flora Silvestre (SAG, 2010)
+
+El esfuerzo de muestreo contempló un total de seis (6) puntos, en los cuales se relevó la información vegetacional (y de usos de suelo) de los distintos sectores del área de influencia. La información florística se relevó mediante inventarios fitosociológicos, con el método de parcelas (de 10 x 10 m²) como unidades de muestreo para registrar la riqueza y abundancia de las especies de flora existentes.
+
+Para este estudio de caracterización ambiental se efectuó una campaña estacional de otoño, el día 12 de junio de 2020, en la que se relevó información en los distintos sectores del área de influencia del Proyecto.
+
+Las coordenadas de los puntos de muestreo realizados durante la campaña de terreno se pueden ver en la Tabla 3-1, mientras que la Figura 3-2 muestra la distribución de dichos puntos en el área de influencia.
+
+#### Tabla 3-1. Coordenadas de los Puntos de Muestreo realizados en el Área de Influencia
+
+| Puntos de muestreo | Coordenadas UTM (WGS 84), Huso 19S |     |     |
+|--------------------|--------------------------------------|-----|-----|
+|                    | ESTE                                 | NORTE |
+| VF 01              | 351.709                              | 6.283.430 |
+| VF 02              | 351.746                              | 6.283.383 |
+| VF 03              | 351.744                              | 6.283.361 |
+| VF 04              | 351.885                              | 6.283.473 |
+| VF 05              | 351.869                              | 6.283.490 |
+| VF 06              | 351.824                              | 6.283.429 |
+
+---
+
+### 3.3 Trabajo de Gabinete Preliminar
+
+#### 3.3.1 Recopilación de Antecedentes Bibliográficos
+
+Se revisó y recopiló información de las principales fuentes de referencia para la caracterización de la vegetación de Chile, lo que permite establecer un marco florístico, vegetacional y biogeográfico para el área evaluada. Este marco se obtuvo a partir de una revisión que considera antecedentes de los trabajos de Gajardo (1994) y Luebert & Pliscoff (2018).
+
+Asimismo, se revisó las definiciones de áreas colocadas bajo protección oficial y sitios prioritarios para la conservación de la biodiversidad cercanas al área de emplazamiento del Proyecto.
+
+#### 3.3.2 Fotointerpretación de Imágenes Satelitales del Área de Influencia
+
+Se definió y delimitó unidades homogéneas de categorías de usos de suelo (áreas urbanas, suelos intervenidos, herbazales, etc.) a partir de la interpretación de fotografías aéreas disponibles en Google Earth para el área evaluada. Esta delimitación utilizó criterios de color, textura y distribución de patrones en las imágenes, lo que permitió delimitar las unidades cartográficas previamente en gabinete para su posterior verificación en terreno. Una vez que se caracterizó las unidades cartográficas en terreno, se corrigieron los límites de unidades fotinterpretadas previamente. La escala de trabajo promedio utilizada para la delimitación cartográfica de las unidades fue de 1:1.000.
+
+---
+
+### 3.4 Trabajo de Campo
+
+El trabajo de campo contempló la caracterización de la vegetación mediante el método de la Carta de Ocupación de Tierras (COT), y la caracterización florística mediante inventarios fitosociológicos de acuerdo al método de Braun-Blanquet (1979).
+
+En cada punto de muestreo se relevó la información de vegetación (COT), registrando el uso de suelo de la unidad y los tipos biológicos y su cobertura; agregando las coordenadas UTM y un registro fotográfico del ambiente. En el caso de las unidades correspondientes a formaciones vegetales, se relevó además la información florística de la unidad, mediante la implementación de inventarios florísticos.
+
+#### 3.4.1 Caracterización de la Vegetación
+
+La vegetación terrestre fue caracterizada mediante una aproximación cartográfica fisionómica basada en el método de la Carta de Ocupación de Tierras (COT), descrita y adaptada para Chile por Etienne y Prado (1982). Este método considera a la vegetación como el factor integrador de las variaciones naturales del medio y de las modificaciones debidas a la acción del hombre, y pretende, mediante el uso de la cartografía, lograr una representación fiel de la vegetación actual a una escala de trabajo dada.
+
+Esta representación se obtiene a través de la evaluación de tres (3) variables: formación vegetal, especies dominantes y grado de artificialización.
+
+Conceptualmente, una **formación vegetal** corresponde a aquel conjunto de plantas, pertenecientes o no a la misma especie, que presentan caracteres convergentes tanto en su forma como en su comportamiento, constituyéndose en un enfoque eminentemente fisonómico; el cual, basado en los conceptos de estratificación y cobertura, permite dar una imagen de la disposición vertical y horizontal de la vegetación *in situ*. De acuerdo con ello, se puede clasificar la vegetación en cuatro (4) tipos biológicos fundamentales:
+
+- **Herbáceos:** especies cuyos tejidos no están lignificados (no son leñosos), con tallos ricos en clorofila y fotosintéticos (hierbas).
+- **Leñosos bajos (arbustivos):** especies de tejidos lignificados o leñosos cuyo tamaño no pasa los dos metros de altura (en casos excepcionales pueden llegar a medir hasta cuatro metros de altura).
+- **Leñosos altos (arbóreos):** especies de tejidos lignificados o leñosos cuyo tamaño excede los dos metros de altura.
+- **Suculentos (cactus y chaguales):** bajo esta denominación se agrupan principalmente las cactáceas y bromeliáceas.
+
+Las formaciones vegetales pueden ser simples o complejas de acuerdo a la dominancia de uno o más tipos biológicos. El criterio de dominancia está dado por un umbral de densidad, cuyo valor varía según la región ecológica considerada (Di Castri, 1968).
+
+La cobertura o cubrimiento representa la proporción del terreno que es ocupada por la vegetación o por su proyección vertical. Este criterio da una idea de la abundancia de los diferentes tipos biológicos y se expresa en porcentaje global o por estratas, para cada unidad identificada en terreno. Todo ello se entrega en cuadros resumidos y se explica en términos generales para cada formación vegetacional segregada en el área prospectada.
+
+Los índices y códigos empleados en el presente estudio, así como las coberturas y densidades respectivas se presentan en la Tabla 3-2.
+
+#### Tabla 3-2. Categorías de cobertura y codificación
+
+| Cobertura (%) | Densidad      | Código | Índice |
+|--------------|--------------|--------|--------|
+| 1 - 5        | muy escasa   | me     | 1      |
+| 5 - 10       | escasa       | e      | 2      |
+| 10 - 25      | muy abierta  | mc     | 3      |
+| 25 - 50      | abierta      | c      | 4      |
+| 50 - 75      | semidensa    | pd     | 5      |
+| 75 - 90      | densa        | d      | 6      |
+| 90 - 100     | muy densa    | md     | 7      |
+
+Fuente: Elaboración propia a partir de Etienne y Prado (1982).
+
+Las especies dominantes corresponden a aquellas plantas cuyas características morfológicas marcan fisionómicamente la vegetación, determinándose en base a los tipos biológicos de mayor representatividad en cada formación vegetal. La codificación para denotar las especies dominantes de cada unidad se presenta en la Tabla 3-3.
+
+#### Tabla 3-3. Codificación de las especies dominantes
+
+| Tipo biológico | Código      | Género      | Especie     |
+|---------------|------------|-------------|-------------|
+| Leñoso alto   | MAYÚSCULA  | MAYÚSCULA   |             |
+| Leñoso bajo   | MAYÚSCULA  | minúscula   |             |
+| Herbáceo      | minúscula  | minúscula   |             |
+| Suculento     | minúscula  | MAYÚSCULA   |             |
+
+Fuente: Elaboración propia a partir de Etienne y Prado (1982).
+
+---
+
+#### 3.4.2 Caracterización de la Flora Terrestre
+
+La caracterización de la flora vascular del área de influencia se realizó por medio de un muestreo que considera como unidad de análisis las unidades homogéneas de vegetación o formaciones vegetales. En estas unidades se realizó un total de seis (6) puntos de muestreo, todos los cuales contemplaron inventarios fitosociológicos (inventarios florísticos), por medio de parcelas de 10 x 10 m², que permitieron dar cuenta de la riqueza florística del área de influencia. La localización de cada parcela se determinó de forma aleatoria al interior de los polígonos delimitados.
+
+La información florística se registró siguiendo el método de inventarios fitosociológicos descrito por Braun-Blanquet (1987), como se indica en la Tabla 3-4. Este método considera la elaboración de un listado de especies presentes en un área limitada, homogénea y representativa de un tipo de vegetación (Steubing et al. 2002). La localización de cada transecta de muestreo se presenta en detalle en la Tabla 3-1.
+
+#### Tabla 3-4. Abundancia relativa, adaptado de Braun-Blanquet (1987)
+
+| Código de Cobertura | Descripción de Cobertura |
+|---------------------|-------------------------|
+| p                   | Registro fuera de la parcela pero dentro de la formación vegetal. |
+| r                   | Individuo solitario, cobertura insignificante |
+| +                   | Pocos individuos con cobertura poco significativa |
+| 1                   | Numerosos individuos con cobertura < 5% |
+| 2m                  | Número de individuos > 50 con cobertura < 5% |
+| 2a                  | Numerosos individuos con cobertura entre 5 - 15% |
+| 2b                  | Cobertura entre 16 - 25% |
+| 3                   | Cobertura entre 26 - 50% |
+| 4                   | Cobertura entre 51 - 75% |
+| 5                   | Cobertura entre 76 - 100% |
+
+Fuente: Modificado de Braun-Blanquet (1987).
+
+Las especies registradas fueron sistematizadas en un listado, de acuerdo a la taxonomía actual, jerarquizado en: división, clase, familia y especie. Se consideró además el hábito, origen geográfico y su categoría de conservación oficial. Para la nomenclatura de nombres científicos, formas de crecimiento y origen geográfico se consideró como referencia lo señalado en el “Catálogo de las plantas vasculares de Chile” (Rodríguez et al., 2018).
+
+---
+
+### 3.5 Análisis de Datos
+
+#### 3.5.1 Elaboración de la Cartografía de Vegetación
+
+Una vez verificadas y rectificadas las unidades cartográficas (polígonos), se elaboró un mapa que contempló el análisis y la incorporación de la siguiente información para cada unidad:
+
+- Uso de suelo
+- Código de unidad cartográfica (polígono)
+- Formación vegetal
+- Tipos biológicos presentes y su cobertura
+- Especies dominantes
+- Superficie (en ha)
+
+Este producto permite caracterizar la vegetación en función de su estructura vertical (estratos), horizontal (cobertura) y especies dominantes. Además permite establecer la distribución espacial y superficie ocupada por cada formación vegetal, y localizar aquellas unidades en que se registra la presencia de especies en alguna categoría de conservación.
+
+#### 3.5.2 Especies en Categoría de Conservación
+
+La categoría de conservación se presenta de acuerdo a lo señalado por el Reglamento para la Clasificación de Especies Silvestres (RCE), aprobado por el D.S. Nº 29 de 2011, del Ministerio del Medio Ambiente, y de conformidad a lo dispuesto en el artículo Nº 37 de la Ley 19.300, establecida en los D.S. Nº 151/2006 (MINSEGPRES, 2007), D.S. Nº 50/2008 (MINSEGPRES, 2008), D.S. Nº 51/2008 (MINSEGPRES, 2008), D.S. Nº 23/2009 (MINSEGPRES, 2009), D.S. Nº 33/2011 (MMA, 2012), D.S. Nº 41/2011 (MMA, 2012), D.S. Nº 42/2011 (MMA, 2012), D.S. Nº 19/2012 (MMA, 2013), D.S. Nº 13/2013 (MMA, 2013), D.S. Nº 52/2014 (MMA, 2014), D.S. Nº 38/2015, D.S. Nº 16/2016 (MMA, 2016), D.S. Nº 06/2017 (MMA, 2017) y D.S. Nº 79/2018. Para aquellas especies no consideradas en estos decretos se considera lo mencionado en el Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989) en su listado nacional.
+
+Las categorías de conservación consideradas son aquellas recomendadas por el Reglamento para la Clasificación de Especies Silvestres según Estado de Conservación (D.S. Nº29/2011) del Ministerio del Medio Ambiente y definidas por la Unión Internacional para la Conservación de la Naturaleza (UICN), a saber: Extinta, Extinta en Estado Silvestre, En Peligro Crítico, En Peligro, Vulnerable, Casi Amenazada, Preocupación Menor y Datos insuficientes.
+
+- **Extinta (EX):** cuando no queda ninguna duda razonable de que el último individuo existente de dicha especie ha muerto. Se presume que una especie está Extinta cuando prospecciones exhaustivas de sus hábitats, conocidos y/o esperados, en los momentos apropiados (diarios, estacionales, anuales), y a lo largo de su área de distribución histórica, no han podido detectar un solo individuo. Las prospecciones deberán ser realizadas en períodos de tiempo apropiados al ciclo de vida y formas de vida de la especie.
+- **Extinta en Estado Silvestre (EW):** cuando sólo sobrevive en cultivo, en cautividad o como población (o poblaciones) naturalizadas completamente fuera de su distribución original. Se presume que una especie está Extinta en Estado Silvestre cuando prospecciones exhaustivas de sus hábitats, conocidos y/o esperados, en los momentos apropiados (diarios, estacionales, anuales), ya lo largo de su área de distribución histórica, no han podido detectar un solo individuo. Las prospecciones deberán ser realizadas en períodos de tiempo apropiados al ciclo de vida y formas de vida de la especie.
+- **En Peligro Crítico (CR):** cuando la mejor evidencia disponible indica que cumple con alguno de los criterios establecidos por la UICN para tal categoría y, por consiguiente, se considera que está enfrentando un riesgo extremadamente alto de extinción en estado silvestre.
+- **En Peligro (EN):** cuando la mejor evidencia disponible indica que cumple con alguno de los criterios establecidos por la UICN para tal categoría y, por consiguiente, se considera que está enfrentando un riesgo muy alto de extinción en estado silvestre.
+- **Vulnerable (VU):** cuando la mejor evidencia disponible indica que cumple con alguno de los criterios establecidos por la UICN para tal categoría y, por consiguiente, se considera que está enfrentando un riesgo alto de extinción en estado silvestre.
+- **Casi amenazada (CA):** Especie que no satisface los criterios de las categorías vulnerable, en peligro o en peligro crítico de la Lista Roja elaborada por la organización, aunque está cercano a cumplirlos o se espera que así lo haga en un futuro próximo.
+- **Preocupación menor (PM):** Especie que tras ser evaluada por la UICN no cumple ninguno de los criterios de las categorías en peligro, en peligro crítico, vulnerable o casi amenazado de la Lista Roja elaborada por la organización. En consecuencia, incluye a todos los taxones abundantes y de amplia distribución, que no se encuentran bajo amenaza de desaparecer en un futuro próximo, siendo por lo tanto el de menor riesgo en la lista.
+- **Datos insuficientes (DI):** Especie de la cual no existe la información adecuada para hacer una evaluación del riesgo de extinción basándose en la distribución y las tendencias de la población.
+
+#### 3.5.3 Identificación de Formaciones Vegetales Afectas a la Ley 20.283
+
+##### 3.5.3.1 Identificación de Unidades de Bosque
+
+La evaluación de la eventual presencia de unidades de bosque se realizó de acuerdo a lo establecido en el artículo Nº2 de la Ley Nº 20.283, donde se estipula que las unidades de bosque deben cumplir copulativamente con los siguientes requisitos:
+
+- Constituir una (1) formación arbórea de 5.000 m² de superficie mínima;
+- Tener al menos 40 m de ancho;
+- Presentar un mínimo de 10% de cobertura en condiciones áridas y semiáridas, y de 25% en circunstancias más favorables.
+
+Las unidades que conformen bosque pueden ser clasificadas como bosque nativo o bosque nativo de preservación tal como se señala en el artículo Nº3 y Nº4 de la Ley Nº 20.283.
+
+##### 3.5.3.2 Identificación de Formaciones Xerofíticas
+
+La evaluación de la eventual presencia de formaciones xerofíticas se realizó de acuerdo a lo establecido en los artículos 2° (números 13, 14) y 60° de la Ley Nº 20.283 sobre Recuperación del Bosque Nativo y Fomento Forestal, su reglamento contenido en el D.S. Nº 93/2008 del MINAGRI, y sus modificaciones contenidas en el D.S. Nº 26/2011; además del D.S. Nº 68/2009 del MINAGRI. Adicionalmente, se consideró lo estipulado en la “Guía de Evaluación Ambiental – Criterios para la evaluación de proyectos ingresados al SEIA” (CONAF, 2014), oficializada mediante la Resolución Nº 88/2014 (CONAF).
+
+De acuerdo a lo establecido en la Ley Nº 20.283 y el D.S. Nº 93/2008, en conjunto con lo indicado en la Guía de Evaluación Ambiental de CONAF (2014), una formación xerofítica debe cumplir con los siguientes requisitos:
+
+1. Debe constituir una formación vegetal;
+2. El estrato predominante de la formación vegetal debe ser el arbustivo o suculento. De existir especies arbóreas nativas en dicha formación vegetal, su cobertura de copa debe ser menor a la requerida en la definición legal de bosque;
+3. La presencia de especies arbustivas o suculentas nativas debe ser mayoritaria en la formación vegetal. Es decir, el número de individuos xerofíticos nativos (arbustivos o suculentos) debe ser mayor al número de otros individuos vegetacionales presentes en la formación vegetal, para el caso de las formaciones ubicadas al Norte del río Elqui hasta el límite norte del país.
+4. Las especies nativas corresponden a aquellas listadas en el D.S. Nº 68 de 2009, del Ministerio de Agricultura, así como de sus modificaciones, según corresponda.
+5. El sector a intervenir debe encontrarse en áreas de condiciones áridas o semiáridas. En este contexto, la definición legal establece la ubicación geográfica de estas áreas entre las Regiones XV a VI, incluida la Región Metropolitana de Santiago.
+6. La superficie total de la formación debe ser mayor o igual a una (1) hectárea.
+
+#### 3.5.4 Determinación de Singularidad Ambiental
+
+La evaluación de la eventual presencia de formaciones vegetales singulares en el área de influencia se realizó en consideración con criterios de condiciones ambientales potencialmente existentes a escala local/regional, señalados en la Guía de Evaluación Ambiental (CONAF, 2014) y la Guía para la descripción del área de influencia (SEA, 2015), mencionados a continuación:
+
+- Unidades de Bosque nativo.
+- Formaciones vegetales con registros de especies en categoría de conservación que se consideren amenazadas (En Peligro crítico, En Peligro, Vulnerables o Casi Amenazadas).
+- Formaciones vegetales con presencia de especies nativas o endémicas de distribución geográfica restringida a la Región Metropolitana de Santiago.
+- Formaciones vegetales de especies nativas que intersecten con áreas colocadas bajo protección oficial o sitios prioritarios para la conservación.
+
+---
+
+## 4. Resultados
+
+### 4.1 Recopilación de Antecedentes Bibliográficos
+
+De acuerdo a los antecedentes vegetacionales descritos para el área de influencia, según la clasificación de Gajardo (1994), el área de influencia se encuentra inserta en la formación vegetal “Bosque esclerófilo de la Pre-cordillera andina”. Esta formación se caracteriza por ser un bosque de tipo esclerófilo que a menudo se encuentra muy intervenido, con matorral en las laderas de exposición al norte. Sobre su composición florística existen pocos antecedentes, pero es una formación que señala el límite de distribución más austral de varias especies. Su distribución se encuentra limitada por las altas pendientes de las laderas bajas y medias de la Cordillera de los Andes, lo que provoca la estratificación altitudinal súbita; al mismo tiempo presenta gran influencia el hecho que ocupa un ambiente de carácter muy árido en el verano y frío en invierno, sin la influencia reguladora del océano. El patrón de distribución de las comunidades vegetales se debe principalmente a la variación en altitud y la exposición a la radiación solar, aunque también es importante el relieve (Gajardo,1994).
+
+Entre las comunidades presentes al interior de esta formación, se encuentran:
+
+- *Quillaja saponaria - Lithrea caustica* (Quillay – Litre)
+- *Quillaja saponaria - Colliguaja odorifera* (Quillay – Colliguay)
+- *Cryptocarya alba - Quillaja saponaria* (Peumo - Quillay)
+- *Cryptocarya alba - Lithrea caustica* (Peumo - Litre)
+- *Puya violacea - Colliguaja odorifera* (Chagualillo - Colliguay)
+- *Acacia caven - Lithrea caustica* (Espino - Litre)
+- *Persea lingue - Luma chequen* (Lingue – Chequén)
+- *Puya berteroniana - Adesmia arborea* (Puya - Espinillo)
+- *Chusquea cumingii* (Coligüe)
+
+Por otro lado, según la clasificación de Luebert & Pliscoff (2018), el área de influencia está inserta dentro del piso vegetacional “Bosque espinoso mediterráneo andino de *Acacia caven* y *Baccharis paniculata*”. Corresponde a un matorral arborescente abierto, dominado por *Acacia caven* y *Baccharis paniculata*. Ocasionalmente se encuentran algunos individuos de *Quillaja saponaria*, *Lithraea caustica* o *Kageneckia oblonga*. Entre las especies arbustivas más comunes se encuentran *Colliguaja odorifera*, *Retanilla trinervia* y *Trevoa quinquenervia*. La estrata herbácea es abundante en primavera, encontrándose varias especies introducidas como *Avena barbata*, *Bromus berteroanus*, *Centaurea melitensis*; además de hierbas nativas como *Helenium aromaticum*, *Moscharia pinnatifida* y *Phacelia brachyantha*. En términos de la dinámica de este piso vegetacional, de acuerdo a Luebert & Pliscoff (2018), este piso probablemente corresponde a una fase de degradación del bosque esclerófilo original, que se recuperaría en ausencia de presión antrópica. Este piso vegetacional se distribuye en laderas bajas (pidemonte) de la cordillera de los Andes de las regiones Metropolitana y de O´Higgins, entre 600 y 1.100 m.s.n.m. Se encuentra en los pisos bioclimáticos mesomediterráneo inferior semiárido y seco oceánico. Entre la composición florística típica de este piso encontramos las siguientes especies: *Acacia caven*, *Avena barbata*, *Baccharis paniculata*, *Bromus berteroanus*, *B. hordeaceus*, *Centaurea melitensis*, *Cestrum parqui*, *Colliguaja odorifera*, *Gochnatia foliolosa*, *Helenium aromaticum*, *Kageneckia oblonga*, *Lithraea caustica*, *Madia sativa*, *Moscharia pinnatifida*, *Muehlenbeckia hastulata*, *Retanilla trinervia*, *Pasithea caerulea*, *Phacelia brachyantha*, *Podanthus mitiqui*, *Quillaja saponaria*, *Solanum crispum*, *Trevoa quinquenervia*, *Vulpia myuros*.
+
+---
+
+### 4.2 Identificación de Categorías de Usos de Suelo y Descripción de la Vegetación Registrada en el Área de Influencia
+
+El área de influencia comprende una superficie total de 2,59 ha, en donde se han registrado cinco categorías de usos de suelo, correspondientes a áreas urbanas, suelos intervenidos (Fotografía 4-1), herbazales, y pequeñas unidades de matorrales artificiales y de plantaciones arbóreas (Tabla 4-1). Así, la vegetación está representada principalmente por formaciones de herbazales; además de unidades artificiales de matorral y plantación arbórea de especies alóctonas. Cada uno de estos tipos de unidades fue caracterizado según especies dominantes, cobertura y estructura de la vegetación.
+
+El resumen de los usos de suelo correspondiente a las unidades de vegetación definidas se muestra en la Tabla 4-2, junto a sus especies dominantes, superficie, su representatividad en el área de influencia y las unidades cartográficas correspondientes a cada unidad de vegetación. La distribución de los usos de suelo y de las unidades homogéneas de vegetación definidas se presenta en la Figura 4-1.
+
+#### Tabla 4-1. Resumen de Categorías de usos de suelo registrados en el Área de Influencia
+
+| Categorías de Usos de Suelo | Superficie (ha) | %     |
+|----------------------------|-----------------|-------|
+| Áreas urbanas              | 0,15            | 5,70  |
+| Suelos intervenidos        | 0,96            | 36,98 |
+| Herbazales                 | 1,31            | 50,74 |
+| Matorrales artificiales    | 0,10            | 3,85  |
+| Plantaciones               | 0,07            | 2,73  |
+| **Superficie Total Área de Influencia** | **2,59** | **100%** |
+
+#### Tabla 4-2. Detalle de la caracterización de las unidades homogéneas de vegetación definidas en el área de influencia, según el método COT (Etienne y Prado, 1982)
+
+| Uso de Suelo      | Unidad homogénea de vegetación                                 | Unidades cartográficas | Tipos biológicos | Especies dominantes | Superficie (ha) | %     |
+|-------------------|---------------------------------------------------------------|-----------------------|------------------|---------------------|-----------------|-------|
+| Herbazales        | Herbazal de *Lolium perenne, Vulpia myuros y Galega officinalis* | UC-01                | H5               | lp vm go            | 0,57            | 22,14 |
+| Herbazales        | Herbazal de *Lactuca serriola, Avena sp. y Lolium perenne*      | UC-02                | H5               | ls asp lp           | 0,74            | 28,60 |
+| Matorrales artificiales | Matorral artificial de *Pyracantha angustifolia*           | UC-03                | LB5 LA1          | Pa PD               | 0,10            | 3,85  |
+| Plantaciones      | Plantación de *Ficus carica*                                    | UC-04                | LA5              | FC                  | 0,07            | 2,73  |
+
+**Códigos de cobertura/ % de cobertura**
+
+- 1: muy escasa (1-5)
+- 2: escasa (5-10)
+- 3: muy clara (10-25)
+- 4: clara (25-50)
+- 5: poco densa (50-75)
+- 6: densa (75-90)
+- 7: muy densa (90-100)
+
+**Tipos Biológicos**
+
+- LA: Leñoso Alto
+- LB: Leñoso Bajo
+- H: Herbáceo
+- S: Suculento
+
+**Códigos de Especies**
+
+- Pa: *Pyracantha angustifolia*
+- asp: *Avena sp.*
+- go: *Galega officinalis*
+- lp: *Lolium perenne*
+- FC: *Ficus carica*
+- ls: *Lactuca serriola*
+- PD: *Populus deltoides*
+- vm: *Vulpia myuros*
+
+---
+
+### 4.2.1 Descripción de las Unidades de Vegetación del Área de Influencia
+
+El área de influencia se encuentra en una zona totalmente antropizada, donde la vegetación se encuentra inserta en medio de zonas urbanas y suelos intervenidos, estando compuesta mayoritariamente por herbazales con una alta composición de especies introducidas, que denotan su nivel de alteración. De esta manera, las características vegetacionales del área de influencia dan cuenta de una transformación en los sistemas vegetacionales que son reportados bibliográficamente a escala local, que describen dominancia de formaciones de bosque esclerófilo y presencia de diversas especies nativas. En términos del grado de artificialización, la totalidad del área de influencia presenta evidentes signos de intervención antrópica, con una presencia mayoritaria de superficies degradadas, suelos intervenidos y áreas urbanizadas.
+
+De acuerdo a lo anterior, la vegetación del área de influencia se encuentra dominada principalmente por unidades de herbazales de especies introducidas. Se definió un total de cuatro unidades homogéneas de vegetación. El detalle de la superficie de las unidades homogéneas de vegetación identificadas en el área de influencia se presenta en la Tabla 4-2.
+
+A continuación se presenta la descripción de las unidades homogéneas de vegetación definidas al interior del área de influencia.
+
+#### 4.2.1.1 Herbazal de Lolium perenne, Vulpia myuros y Galega officinalis
+
+Unidad homogénea de vegetación con fisionomía de pastizal, dominada por las hierbas de origen alóctono *Lolium perenne* (vallica), *Vulpia myuros* (pasto largo) y *Galega officinalis* (galega). La estrata conformada por estas especies se ubica en dos rangos, entre 50 cm a 1 m de altura en el caso de *L. perenne* y *V. myuros*, mientras que *G. officinalis* se ubica en un estrato superior, sobre 1 m de altura. La cobertura observada en la formación es poco densa (75 a 90%) (Fotografía 4-2). Entre las especies acompañantes de esta unidad de vegetación, se encuentran otras herbáceas alóctonas como *Lactuca serriola* (lechuguilla), *Picris echioides* (buglosa), *Avena sp.* (s/n) y *Melilotus indicus* (meliloto).
+
+El recubrimiento de esta unidad es de 0,57 hectáreas, lo que representa un 22,14% del total de la superficie del área de influencia (Tabla 4-2) y se encuentra representada por una unidad cartográfica (UC-01) (ver Figura 4-1).
+
+#### 4.2.1.2 Herbazal de Lactuca serriola, Avena sp. y Lolium perenne
+
+Unidad homogénea de vegetación con fisionomía de pastizal, dominada por las hierbas alóctonas *Lactuca serriola* (lechuguilla), *Avena sp.* (s/n) y *Lolium perenne* (vallica), cuyo estrato en altura se ubica entre 1 y 2 m, mientras que la cobertura observada en la formación es clara a poco densa (50 a 75%) (Fotografía 4-3). Entre las especies acompañantes, se encuentran otras herbáceas alóctonas como *Sorghum halepense* (maicillo), *Verbena litoralis* (verbena) y *Convolvulus arvensis* (correhuela).
+
+El recubrimiento de esta unidad es de 0,74 hectáreas, lo que representa un 28,60% del total de la superficie del área de influencia (Tabla 4-2) y se encuentra representada por una unidad cartográfica (UC-02) (ver Figura 4-1).
+
+#### 4.2.1.3 Matorral artificial de Pyracantha angustifolia
+
+Unidad homogénea de vegetación de origen antrópico, con fisionomía de matorral perimetral, conformada por el arbusto alóctono *Pyracantha angustifolia* (crataegus), que se ubica entre 1 y 2 m de altura, mientras que la cobertura observada en la unidad es poco densa (50 a 75%) (Fotografía 4-4). Se presenta una estrata arbórea acompañante conformada por la especie *Populus deltoides* (álamo negro de Norteamérica), que se ubica en un estrato de 6 a 8 m de altura, con una cobertura inferior al 5%. El recubrimiento de esta unidad es de 0,10 hectáreas, lo que representa un 3,85% del total de la superficie del área de influencia (Tabla 4-2) y se encuentra representada por una unidad cartográfica (UC-03) (ver Figura 4-1).
+
+#### 4.2.1.4 Plantación de Ficus carica
+
+Unidad homogénea de vegetación de origen antrópico, con fisionomía de plantación perimetral, dominada por la especie arbórea alóctona *Ficus carica* (higuera), cuyo estrato en altura se ubica entre los 2 a 4 m. La cobertura observada en la unidad es poco densa (50 a 75%) (Fotografía 4-5). Entre las especies acompañantes, se observan especies como *Rubus ulmifolius* (zarzamora), *Robinia pseudoacacia* (falsa acacia), *Malus communis* (manzano) y *Populus spp* (álamos).
+
+El recubrimiento de esta unidad es de 0,07 hectáreas, lo que representa un 2,73% del total de la superficie del área de influencia (Tabla 4-2) y se encuentra representada por una unidad cartográfica (UC-04) (ver Figura 4-1).
+
+---
+
+### 4.3 Flora Registrada en el Área de Influencia
+
+#### 4.3.1 Riqueza, Diversidad y Composición
+
+Durante la campaña de otoño de 2020, se registró una riqueza total de 38 especies de flora vascular (Tabla 4-3). De acuerdo al origen geográfico, 34 de las especies registradas son de origen alóctono (89,5%), tres especies son de origen nativo (7,9%) y una de origen endémico (2,6%) (ver Figura 4-2).
+
+Respecto a la forma de crecimiento, del total de especies registradas, 17 corresponden a hierbas anuales (44,7% del total), nueve corresponden a hierbas perennes (23,7%), ocho a especies arbóreas (21,1%) y cuatro a especies arbustivas (10,5%) (ver Figura 4-3).
+
+Por otro lado, en términos taxonómicos, se registró un total de 17 familias, entre las cuales las familias Asteracea, Poaceae y Rosaceae, son las más representadas (ver Figura 4-4).
+
+#### Tabla 4-3. Listado taxonómico de la Flora registrada en el Área de Influencia
+
+| División        | Clase         | Familia         | Nombre científico                        | Nombre común         | Tipo biológico | Origen geográfico | Categoría de conservación (RCE) |
+|-----------------|--------------|----------------|------------------------------------------|---------------------|---------------|-------------------|-------------------------------|
+| Magnoliophyta   | Liliopsida   | Poaceae        | *Avena sp.*                              | s/n                 |               |                   |                               |
+|                 |              |                | *Digitaria sanguinalis (L.) Scop.*        | Pata de gallina      |               |                   |                               |
+|                 |              |                | *Lolium perenne L.*                      | Vallica              |               |                   |                               |
+|                 |              |                | *Sorghum halepense (L.) Pers.*           | Maicillo             |               |                   |                               |
+|                 |              |                | *Vulpia myuros* (L.) C.C. Gmel.          | Pasto largo, cola de ratón |         |                   |                               |
+| Magnoliopsida   | Dicotiledóneas| Asteraceae    | *Achillea millefolium* L.                | Milenrama            |               |                   |                               |
+|                 |              |                | *Baccharis paniculata* DC.               | Chilca, romerillo    | Arbustiva     | Endémica          | s/c                           |
+|                 |              |                | *Carduus pycnocephalus* L.               | Cardilla, cardo negro|               |                   |                               |
+|                 |              |                | *Cirsium vulgare* (Savi) Ten.            | Cardo negro          |               |                   |                               |
+|                 |              |                | *Conium maculatum* L.                    | Cicuta, Barraco      |               |                   |                               |
+|                 |              |                | *Lactuca serriola* L.                    | Lechuguilla          |               |                   |                               |
+|                 |              |                | *Picris echioides* L.                    | Buglosa, lechuguilla |               |                   |                               |
+|                 |              |                | *Tessaria absinthioides* (Hook. & Arn.) DC.| Brea              | Arbustiva     | Nativa            | s/c                           |
+| Boraginaceae    |              |                | *Echium vulgare* L.                      | Viborera             |               |                   |                               |
+| Brassicaceae    |              |                | *Raphanus sativus* L.                    | Rábano               |               |                   |                               |
+|                 |              |                | *Rapistrum rugosum (L.) All.*            | Rapistro             |               |                   |                               |
+| Chenopodiaceae  |              |                | *Chenopodium album* L.                   | Quinguilla           |               |                   |                               |
+| Convolvulaceae  |              |                | *Convolvulus arvensis* L.                | Correhuela, bocina, suspiro blanco | |                   |                               |
+| Fabaceae        |              |                | *Galega officinalis* L.                  | Galega               |               |                   |                               |
+|                 |              |                | *Melilotus indicus* (L.) All.            | Meliloto             |               |                   |                               |
+|                 |              |                | *Robinia pseudoacacia* L.                | Falsa acacia         |               |                   |                               |
+| Geraniaceae     |              |                | *Erodium cicutarium* (L.) L’Hér. ex Aiton| Alfilerillo          |               |                   |                               |
+|                 |              |                | *Geranium core-core* Steud.              | Core-core            | Nativa        |                   | s/c                           |
+| Moraceae        |              |                | *Ficus carica* L.                        | Higuera              |               |                   |                               |
+| Myrtaceae       |              |                | *Eucalyptus globulus* Labill.            | Eucalipto            |               |                   |                               |
+| Oleaceae        |              |                | *Olea europaea* L.                       | Olivo, aceitunero    |               |                   |                               |
+| Papaveraceae    |              |                | *Fumaria parviflora* Lam.                | Hierba de la culebra |               |                   |                               |
+| Plantaginaceae  |              |                | *Kickxia elatine* (L.) Dumort.           | Fuellín              |               |                   |                               |
+|                 |              |                | *Plantago lanceolata* L.                 | Llantén, Llantén menor|              |                   |                               |
+|                 |              |                | *Veronica persica* Poir.                 | Verónica             |               |                   |                               |
+| Polygonaceae    |              |                | *Rumex crispus L.*                       | Romaza, lengua de vaca|              |                   |                               |
+| Rosaceae        |              |                | *Crataegus monogyna* Jacq.               | Peumo alemán         |               |                   |                               |
+|                 |              |                | *Malus communis* L.                      | Manzano              |               |                   |                               |
+|                 |              |                | *Pyracantha angustifolia* (Franch.) C.K. Schneid.| Crataegus   | Arbustiva     |                   |                               |
+|                 |              |                | *Rubus ulmifolius* Schott                | Zarzamora            | Arbustiva     |                   |                               |
+| Salicaceae      |              |                | *Populus deltoides* W. Bartram ex Marshall| Álamo negro de Norteamérica |      |                   |                               |
+|                 |              |                | *Populus nigra* L.                       | Álamo negro          |               |                   |                               |
+| Verbenaceae     |              |                | *Verbena litoralis* Kunth                | Verbena              | Nativa        |                   | s/c                           |
+
+Simbología: RCE: Reglamento de clasificación de especies: s/c = especie sin clasificación; n/a = no aplica.
+
+Elaboración propia.
+
+---
+
+#### 4.3.2 Especies en Categoría de Conservación Oficial
+
+No se registraron especies clasificadas en alguna categoría de conservación oficial en el área de influencia.
+
+#### 4.3.3 Especies Listadas en el DS. Nº 68/2009
+
+No se registraron especies listadas en el DS. Nº 68/2009 al interior del área de influencia.
+
+#### 4.3.4 Especies Listadas en el DS. Nº 366/1944
+
+No se registraron especies listadas en el DS. Nº 366/1944 al interior del área de influencia.
+
+### 4.4 Identificación de Formaciones Vegetales Afectas a la Ley 20.283
+
+No se registraron en el área de influencia unidades cartográficas que califiquen como formaciones de bosque nativo ni como formaciones xerofíticas.
+
+### 4.5 Identificación de Áreas con Singularidad Ambiental
+
+De acuerdo a los criterios aquí definidos, a los resultados obtenidos para este componente y para fines del presente estudio, no se han registrado unidades cartográficas ambientalmente singulares en el área de influencia.
+
+---
+
+## 5. Conclusiones
+
+El área de influencia comprende una superficie total de 2,59 ha, en donde se han registrado cinco categorías de usos de suelo, correspondientes a áreas urbanas, suelos intervenidos, herbazales, y pequeñas unidades de matorrales artificiales y de plantaciones arbóreas. La vegetación está representada principalmente por formaciones de herbazales; además de unidades artificiales de matorral y plantación arbórea de especies alóctonas. De acuerdo con lo anterior, no se registraron en el área de influencia formaciones de bosque nativo ni de formaciones xerofíticas.
+
+El área de influencia se encuentra en una zona totalmente antropizada, donde la vegetación se encuentra inserta en medio de zonas urbanas y suelos intervenidos, estando compuesta mayoritariamente por herbazales con una alta composición de especies introducidas, que denotan su nivel de alteración. De esta manera, las características vegetacionales del área de influencia dan cuenta de una transformación en los sistemas vegetacionales que son reportados bibliográficamente a escala local, que describen dominancia de formaciones de bosque esclerófilo y presencia de diversas especies nativas.
+
+Con respecto a la flora detectada, se registró una riqueza florística de 38 especies de flora vascular; la mayoría de las cuales corresponde a especies de origen alóctono (34 especies, 89,5%); tres de las especies registradas son de origen nativo (7,9%) y una de origen endémico (2,6%). De acuerdo a la forma de crecimiento, 17 especies corresponden a hierbas anuales (44,7%), nueve a hierbas perennes (23,7%); ocho a especies arbóreas (21,1%) y cuatro a especies arbustivas (10,5%).
+
+Del total de especies registradas en el área de influencia, no se detectaron especies clasificadas en categoría de conservación oficial. Asimismo, ninguna de las especies nativas registradas es de distribución geográfica restringida a la región Metropolitana de Santiago.
+
+De acuerdo a la información revisada, no se registran áreas colocadas bajo protección oficial en o próximos al área de influencia.
+
+Finalmente, de acuerdo a los criterios aquí establecidos y para fines del presente estudio, no se identificaron unidades cartográficas ambientalmente singulares para el componente vegetación y flora vascular en el área de influencia.
+
+---
+
+## 6. Referencias Bibliográficas
+
+- BRAUN-BLANQUET, J., 1979. Fitosociología. Bases para el estudio de las comunidades vegetales. H. Blume Ediciones. Madrid. 820 pp.
+- CORPORACIÓN NACIONAL FORESTAL (CONAF), 2014. Guía de Evaluación Ambiental: Criterios para la participación de CONAF en el SEIA.
+- CORPORACION NACIONAL FORESTAL (CONAF). 1989. Libro rojo de la flora terrestre de Chile. I. L. Benoit Ed. Santiago de Chile. 157 pp.
+- ETIENNE, M. & C. PRADO. 1982. Descripción de la vegetación mediante la cartografía de la ocupación de tierras. Conceptos y manual de uso práctico. Rev. Ciencias Agrícolas, 10. Universidad de Chile, Facultad de Ciencias Agrarias, Veterinarias y Forestales. 120 pp.
+- GAJARDO, R. 1994. La vegetación natural de Chile. Editorial Universitaria. Santiago de Chile. 165 pp.
+- LUEBERT, F & P. PLISCOFF. 2018. Sinopsis bioclimática y vegetacional de Chile: segunda edición. 2da. Ed. Santiago de Chile. Editorial Universitaria. 381 pp.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2008. Ley Nº 20.283. Ley sobre recuperación del bosque nativo y fomento forestal. Dictada el 11 de julio de 2008; publicada en el Diario Oficial el 30 de julio de 2008.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2009. Decreto Supremo Nº 68 del 14 de agosto de 2009; publicado en el Diario Oficial el 2 de diciembre de 2009: Establece, aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 33 del 07 de septiembre de 2011; publicado en el diario Oficial el 27 de febrero de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 41 del 30 de noviembre de 2011; publicado en el Diario oficial el 11 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 42 del 30 de noviembre de 2011; publicado en el Diario oficial el 11 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 40 del 30 de octubre de 2012. Aprueba Reglamento del Sistema de Evaluación de Impacto Ambiental; publicado en el Diario oficial el 12 de agosto de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2013. Decreto Supremo Nº 13 del 17 de abril de 2013; publicado en el Diario oficial el 25 de julio de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2013. Decreto Supremo Nº 19 del 26 de junio de 2012; publicado en el Diario oficial el 11 de febrero de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2014. Decreto Supremo Nº 52 del 26 de marzo de 2014; publicado en el Diario oficial el 29 de agosto de 2014.
+- MINISTERIO DEL MEDIO AMBIENTE. Decreto Supremo N° 38 del 07 de septiembre de 2015; publicado en el Diario oficial el 04 de diciembre de 2015.
+- MINISTERIO DEL MEDIO AMBIENTE. Decreto Supremo N° 16 del 03 de junio de 2016; publicado en el Diario oficial el 16 de septiembre de 2016.
+- MINISTERIO DEL MEDIO AMBIENTE. Decreto Supremo N° 06 del 16 de marzo de 2017; publicado en el Diario oficial el 02 de Junio de 2017.
+- MINISTERIO DEL MEDIO AMBIENTE Decreto Supremo N° 79 del 04 de diciembre de 2018; publicado en el Diario oficial el 19 de diciembre de 2018.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 1994. Ley Nº 19.300 Sobre Bases Generales del Medio Ambiente. Promulgada el 1 de marzo de 1994; publicada en el Diario Oficial el 9 de marzo de 1994.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 2007. Decreto Supremo Nº 151 del 6 de diciembre de 2006; publicado en el Diario Oficial el 24 de marzo de 2007.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2008. Decreto Supremo Nº 50 del 24 de abril de 2008; publicado en el Diario Oficial el 30 de junio de 2008.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2008. Decreto Supremo Nº 51 del 24 de abril de 2008; publicado en el Diario Oficial el 30 de junio de 2008.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2009. Decreto Supremo Nº 23 del 3 de marzo de 2009; publicado en el Diario Oficial el 7 de mayo de 2009.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2010. Ley Nº 20.417: Crea el Ministerio, el Servicio de Evaluación Ambiental y la Superintendencia del Medio Ambiente. Promulgada el 12 de enero de 2010; publicada en el Diario Oficial el 26 de enero de 2010.
+- RODRIGUEZ, R., C. MARTICORENA, D. ALARCÓN, C. BAEZA, L. CAVIERES, V. L. FINOT, N. FUENTES, A KIESSLING, M. MIHOC, A. PAUCHARD, E. RUIZ, P. SANCHEZ & A. MARTICORENA, 2018. Catálogo de las plantas vasculares de Chile. Gayana Bot. 75(1): 1-430, 2018.
+- SERVICIO AGRÍCOLA Y GANADERO (SAG), 2010. Guía de Evaluación Ambiental: Vegetación y Flora Silvestre.
+- SERVICIO DE EVALUACIÓN AMBIENTAL (SEA), 2017. Guía para la descripción del Área de Influencia: Área de Influencia en el Sistema de Evaluación de Impacto Ambiental.
+- SERVICIO DE EVALUACIÓN AMBIENTAL (SEA), 2015. Guía para la descripción del Área de Influencia: Descripción de los componentes Suelo, Flora y Fauna de Ecosistemas Terrestres en el SEIA.
