@@ -1,0 +1,630 @@
+# Anexo 4: Caracterización Flora y Vegetación
+
+**José Luis Aguilar 1178, Providencia**  
+**Biodiversidad y Medio Ambiente | Sistemas de Información Geográficos**  
+**+56 222047671**  
+**contacto@csw.cl**
+
+**Documento elaborado para**
+
+**Enero, 2021**
+
+---
+
+## Índice de Contenidos
+
+- Parque Fotovoltaico Andino Las Pataguas ......................................................... 1
+- 1. Introducción ............................................................................................... 1
+- 2. Objetivo ..................................................................................................... 1
+  - 2.1 Objetivos específicos ............................................................................. 1
+- 3. Área de Influencia ...................................................................................... 1
+- 4. Metodología ............................................................................................... 2
+  - 4.1 Caracterización bibliográfica ................................................................. 2
+  - 4.2.1 Flora .................................................................................................. 3
+  - 4.2.2 Vegetación ......................................................................................... 4
+    - 4.2.2.1 Descripción en terreno ............................................................... 4
+    - 4.2.2.2 Clasificación de la vegetación ..................................................... 5
+  - 4.3 Elaboración de cartografía .................................................................... 6
+  - 4.4 Identificación de formaciones específicas de acuerdo con la Ley N° 20.283 ... 6
+- 5. Resultados .................................................................................................. 8
+  - 5.1 Marco Biogeográfico ............................................................................. 8
+  - 5.2 Campaña de Terreno ............................................................................ 8
+    - 5.2.1 Esfuerzo de muestreo ..................................................................... 9
+    - 5.2.2 Vegetación del Área del Proyecto .................................................. 9
+      - 5.2.2.1 Vegetación Sector Planta Fotovoltaica ..................................... 9
+      - 5.2.2.2 Vegetación Línea de transmisión ........................................... 22
+    - 5.2.3 Flora ............................................................................................. 30
+  - 5.3 Singularidades ambientales ................................................................. 39
+- 6. Recomendaciones ..................................................................................... 43
+- 7. Conclusiones ............................................................................................. 43
+- 8. Bibliografía ............................................................................................... 44
+
+## Índice de Tablas
+
+- Tabla 1. Escala de Coberturas de Braun-Blanquet (1987) ............................................. 3
+- Tabla 2. Tipo biológico e índice de cubrimiento de acuerdo con metodología COT ........ 5
+- Tabla 3. Correspondencia entre la clasificación de Étienne y Prado y la adaptación de este trabajo .. 5
+- Tabla 4. Condiciones para la presentación de un plan de trabajo .................................. 8
+- Tabla 5. Resumen de las formaciones vegetacionales registradas en el Sector Planta fotovoltaica .. 10
+- Tabla 6. Caracterización de las unidades de vegetación en sector planta fotovoltaica .... 11
+- Tabla 7. Resumen de las formaciones vegetacionales registradas en el Sector Línea de Transmisión ... 22
+- Tabla 8. Caracterización de las unidades de vegetación en sector Línea de Transmisión ... 25
+- Tabla 9. Riqueza de plantas vasculares catastradas en la campaña de terreno dentro del sector. Se especifica la Familia taxonómica, nombre científico y vernáculo, hábito de crecimiento y origen. .. 30
+- Tabla 10. Caracterización del hábito de las especies- sector planta fotovoltaica. .......... 35
+- Tabla 11. Caracterización del origen de las especies – sector planta fotovoltaica. .......... 35
+- Tabla 12. Riqueza de plantas vasculares catastradas en la campaña de terreno dentro del sector. Se especifica la Familia taxonómica, nombre científico y vernáculo, hábito de crecimiento y origen. .. 35
+- Tabla 13. Caracterización del hábito de crecimiento de las especies- sector Línea de transmisión. . 39
+- Tabla 14. Caracterización del origen de las especies- sector Línea de transmisión. ........ 39
+- Tabla 15. Especies en categoría de conservación dentro de la zona del Proyecto. .......... 40
+- Tabla 16. Georreferenciación de especies en categoría de conservación. ..................... 40
+- Tabla 17. Posición dentro de las formaciones vegetacionales de las especies en categoría de conservación ............................................................................................................. 41
+
+## Índice de Fotografías
+
+- Fotografía 1. Vista general de la formación bosque mixto. ........................................... 15
+- Fotografía 2. Vista general de la unidad Matorral con Acacia caven ............................. 16
+- Fotografía 3. Vista general de la formación matorral de Baccharis .............................. 16
+- Fotografía 4. Vista general de la formación matorral pradera ..................................... 17
+- Fotografía 5. Vista general de la formación pradera con malezas ............................... 18
+- Fotografía 6. Vista general de la formación paraderas con gramíneas ........................ 18
+- Fotografía 7. Vista general de plantación de Eucalyptus ............................................. 19
+- Fotografía 8. Vista general de una plantación de frutillas ........................................... 20
+- Fotografía 9. Vista general del área de cultivo de olivos ............................................ 20
+- Fotografía 10. Vista general de plantación de Quillay ................................................ 21
+- Fotografía 11. Vista general de un sector recién arado sin vegetación ....................... 21
+- Fotografía 12. Vista general de un sector Sin vegetación ........................................... 22
+- Fotografía 13. Vista general de un cuerpo de agua .................................................... 22
+- Fotografía 14. Vista general de áreas de vegetación nativa ........................................ 26
+- Fotografía 15. Vista general de un matorral de espino ............................................... 27
+- Fotografía 16. Vista general del matorral de tevo ...................................................... 27
+- Fotografía 17. Vista general de la formación pradera ................................................ 28
+- Fotografía 18. Vista general del cultivo de frutillas .................................................... 28
+- Fotografía 19. Vista general de cultivo de raps. ......................................................... 29
+- Fotografía 20. Vista general de un sector recién arado .............................................. 29
+- Fotografía 21. Muestra de algunas de las especies en categoría de conservación registradas en el área del proyecto. .................................................................................... 42
+
+## Índice de Figuras
+
+- Figura 1. Área de Infuencia. ......................................................................................... 2
+- Figura 2. Categorización para la descripción de especies dominantes de acuerdo a la metodología COT. Según el tipo biológico al que pertenece la especie, se utiliza el código en (A) utilizando las iniciales de su nombre científico: siendo “A”/”a”, el género; y “B”/”b”, la especie. En (B), un ejemplo según tipo biológico y especie. ............................................. 5
+- Figura 3. Ubicación parcelas de muestreo. .................................................................. 9
+- Figura 4. Distribución espacial de las unidades cartográficas definidas en el área de la planta fotovoltaica ........................................................................................................ 10
+- Figura 5. Distribución espacial de las unidades cartográficas definidas en el área de la Línea de transmisión .................................................................................................... 24
+- Figura 6. Distribución espacial de las especies en categoría de conservación ............ 42
+
+---
+
+## 1. Introducción
+
+En el marco de la elaboración de la Declaración de Impacto Ambiental (DIA) del Proyecto Parque Fotovoltaico Andino Las Pataguas (en adelante el Proyecto), ubicado en la comuna de San Pedro, región Metropolitana, Rol N° 29-421, el titular del proyecto ha solicitado una caracterización ambiental del componente flora y vegetación para un área de influencia (AI) definida por una superficie de 471 hectáreas correspondientes a los sectores identificados como planta fotovoltaica y línea eléctrica de alta tensión (LAT) con su respectiva franja de protección biológica, para la cual se han considerado 100 metros a cada lado del eje de la LAT.
+
+El Proyecto consiste en captar y transformar energía solar en energía eléctrica, para ser inyectada al Sistema Eléctrico Nacional (SEN), a partir de la ejecución, construcción y posterior operación de una planta fotovoltaica de 152,6 MWp de potencia instalada. Adicionalmente, el Proyecto considera una línea de transmisión eléctrica de 1x110 kV, de aproximadamente 10 km de longitud que conectará el Proyecto a la subestación eléctrica existente, Las Arañas (110 kV).
+
+El estudio y levantamiento de información a partir de la presencia de flora y vegetación terrestre antes del inicio de cualquier actividad constructiva se ha convertido en una guía sobre una componente biótica altamente sensible, por lo que la identificación y confección de un inventario floral y una caracterización de la vegetación del área de influencia será de apoyo para el reconocimiento y levantamiento de una línea base sobre las especies presentes en el proyecto, para la identificación de posibles impactos sobre especies singulares dentro de la zona, como también el caracterizar la riqueza vegetativa para interpretaciones futuras del área.
+
+El presente informe contiene todos los pasos técnicos y metodológicos utilizados para caracterizar el componente ambiental, con el objetivo de descartar o afirmar la generación de posibles impactos por la instalación y operación del proyecto. La campaña de terreno se realizó por parte de un equipo conformado por dos especialistas entre los días 4 al 11 de noviembre del 2020.
+
+## 2. Objetivo
+
+El objetivo del documento es caracterizar la flora y vegetación en el área de influencia del proyecto.
+
+### 2.1 Objetivos específicos
+
+- Identificar, delimitar y caracterizar las formaciones vegetacionales que se desarrollan actualmente en el área de influencia del proyecto.
+- Identificar, delimitar y caracterizar sitios de singularidad vegetacional presentes en el área de influencia del proyecto.
+- Identificar y caracterizar la flora que se encuentra asociada al área de influencia del proyecto.
+- Evaluar la existencia de especies que presenten problemas de conservación, como también aquellas de importancia ecológica y/o científica para los sectores involucrados en el área de influencia.
+
+## 3. Área de Influencia
+
+De acuerdo con la definición que establece artículo 2, letra a), del Reglamento del SEIA, el área de influencia es el área o espacio geográfico, cuyos atributos, elementos naturales o socioculturales deben ser considerados con la finalidad de definir si el proyecto o actividad genera o presenta alguno de los efectos, características o circunstancias del artículo 11 de la Ley N°19.300, o bien para justificar la inexistencia de dichos efectos, características o circunstancias.
+
+Para efectos del presente análisis se definió un área de influencia (AI) de 471 hectáreas. El AI corresponde a la totalidad del proyecto, que considera la planta fotovoltaica y la línea de transmisión, junto con una franja de protección de 100 m a cada lado de la línea de transmisión. Esta se justifica por la posible pérdida y modificación de individuos o ejemplares de flora que pueda causar el Proyecto.
+
+**Figura 1. Área de Infuencia.**
+
+## 4. Metodología
+
+La metodología adoptada se ha definido conforme a los protocolos metodológicos que la Comisión Nacional del Medio Ambiente indica en el documento “Metodologías para la Caracterización Ambiental” (CONAMA, 1996). A ésta, se suma lo establecido en la Guía para la Descripción del Área de Influencia, “Descripción de los Componentes Suelo, Flora y Fauna de Ecosistemas Terrestres” en el SEIA (SEA, 2015), a fin de identificar singularidades e impactos de las obras sobre el componente flora y vegetación, en concordancia con la RE 1534/2015.
+
+### 4.1 Caracterización bibliográfica
+
+Las fuentes bibliográficas consideradas en la presente línea de base, dada su pertinencia y precisión, corresponden a:
+
+- Libro Rojo de la Flora Terrestre de Chile (1989) de Iván Benoit.
+- Sinopsis Bioclimática y Vegetacional de Chile (2017) de Federico Luebert y Patricio Pliscoff.
+- Catastro y evaluación de recursos vegetacionales y nativos de Chile, de CONAF.
+- Libro Rojo de los Sitios Prioritarios para la Conservación de la Diversidad Biológica en Chile (1996) de Mélica Muñoz, Hernán Núñez y José Yáñez.
+- Formaciones vegetacionales de Chile de Gajardo (1194).
+
+### 4.2 Campaña de terreno
+
+Este documento presenta los resultados obtenidos durante la campaña de terreno realizada en el AI del Proyecto efectuada entre los días 4 y el 11 de noviembre de 2020, con el fin de determinar las diferentes unidades vegetacionales y la flora presente en esta época del año. Las coordenadas se encuentran dadas en WGS 84, huso 19S (Figura 3).
+
+#### 4.2.1 Flora
+
+En conjunto con la descripción vegetacional, se procedió a la confección del inventario florístico mediante la observación directa e identificación *in situ* de las especies de plantas vasculares presentes.
+
+La composición florística de las formaciones vegetales se realizó por medio de parcelas de muestreo de 50 m². Además, se realizaron recorridos pedestres por la unidad vegetal para incorporar el mayor número de especies en la descripción de la riqueza florística de ésta. Cada especie registrada fue colectada y fotografiada para su posterior verificación taxonómica en gabinete. La cobertura o densidad de cada especie fue registrada siguiendo la escala propuesta por Braun-Blanquet (1987), como se indica en la siguiente Tabla 1.
+
+**Tabla 1. Escala de Coberturas de Braun-Blanquet (1987)**
+
+| Código de Cobertura | Descripción de Cobertura |
+|---------------------|-------------------------|
+| r                   | individuo solitario, cobertura insignificante |
+| +                   | pocos individuos con cobertura poco significativa |
+| 1                   | numerosos individuos con cobertura < 5% |
+| 2m                  | número de individuos > 50 con cobertura < 5% |
+| 2a                  | numerosos individuos con cobertura entre 5 -15 % |
+| 2b                  | cobertura entre 16 - 25 % |
+| 3                   | cobertura entre 26 - 50 % |
+| 4                   | cobertura entre 51 - 75 % |
+| 5                   | cobertura entre 76 - 100% |
+
+La nomenclatura para la flora registrada, así como su forma de vida y origen seguirá la clasificación de Rodríguez *et al*. (2018), mientras que el estado de conservación fue determinado a partir de las directrices de los decretos supremos del Ministerio de Medio Ambiente en el marco del “Proceso de Clasificación de Especies” según su última revisión efectuada en julio del 2020, que oficializan del primer al decimocuarto proceso de clasificación de especies, dictados según lo establecido en el Reglamento de Clasificación de Especies Silvestres (D.S. N° 75 del MINSEGPRES 2004, reemplazado por el D.S. N° 29 del MMA).
+
+Específicamente, los decretos aludidos son:
+
+- Decreto Supremo Nº 151/2006 del Ministerio Secretaria General de La Presidencia.
+- Decreto Supremo N° 50/2008 del Ministerio Secretaria General de La Presidencia.
+- Decreto Supremo N° 51/2008 del Ministerio Secretaria General de La Presidencia.
+- Decreto Supremo Nº 23/2009 del Ministerio Secretaria General de La Presidencia.
+- Decreto Supremo N°68/2009 del Ministerio de Agricultura.
+- Decreto Supremo Nº 41/2011 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 42/2011 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 33/2011 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 29/2012 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 19/2012 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 13/2012 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 52/2014 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 38/2015 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 52/2014 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 16/2016 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 06/2017 del Ministerio de Medio Ambiente.
+- Decreto Supremo Nº 79/2018 del Ministerio de Medio Ambiente.
+
+Para aquellas especies no consideradas en los decretos mencionados anteriormente, se utilizó la clasificación del Libro Rojo de la Flora Terrestre de Chile (Benoit, 1989), excluyendo las especies que en este documento se catalogan a nivel regional, en cumplimiento a lo establecido en Resolución Nº 586 emitida por la Dirección Ejecutiva de la Corporación Nacional Forestal (CONAF, 2009).
+
+#### 4.2.2 Vegetación
+
+##### 4.2.2.1 Descripción en terreno
+
+La descripción de la vegetación asociada al área de proyecto se realizó mediante parcelas de muestreo representativas del área, además se hizo un recorrido pedestre, cubriendo la totalidad de las áreas que componen el Proyecto. Adicionalmente, se definieron parcelas de caracterización de la vegetación identificando rasgos dendométricos para aquellas especies de carácter arbóreo.
+
+La vegetación ha sido descrita a partir de la estimación semicuantitativa de un conjunto de variables, en cada unidad de vegetación definida (Figura 2). Estas variables están relacionadas a la estructura vertical (diversidad de estratos) y horizontal (cobertura vegetal), y a la dominancia de especies dentro de las unidades, siguiendo la pauta metodológica fitosociológica establecida por Etienne y Prado (1982). Estas variables son:
+
+- Tipos biológicos o estratos (arbóreo, arbustivo, herbáceo y suculento)
+- Cobertura de cada estrato
+- Especies dominantes
+
+El concepto de estratificación, o disposición vertical de la vegetación, permite distinguir y clasificar los diversos tipos biológicos, de acuerdo con los niveles de altura en los cuales se sitúan en la comunidad.
+
+La cobertura de cada estrato, o proporción del terreno que es ocupada por la vegetación o por su proyección horizontal, entrega una estimación de la abundancia de los diferentes tipos biológicos y se expresa en porcentaje para cada una de las especies identificadas.
+
+Las especies dominantes corresponden a aquellas especies vegetales que determinan fisonómicamente la vegetación y se definen de acuerdo con los tipos biológicos de mayor representatividad en cada formación vegetal (Tabla 2).
+
+**Tabla 2. Tipo biológico e índice de cubrimiento de acuerdo con metodología COT**
+
+| Tipo Biológico | Índice de Cubrimiento (n) |
+|---------------|--------------------------|
+| LA n          | Leñoso alto, con cubrimiento n |
+| LB n          | Leñoso bajo, con cubrimiento n |
+| H n           | Herbáceo, con cubrimiento n |
+| S n           | Suculento con cubrimiento n |
+
+| Índice de Cubrimiento | Descripción |
+|----------------------|-------------|
+| 1: 1 – 5%            | Muy Escaso  |
+| 2: 5 – 10%           | Escaso      |
+| 3: 10 – 25%          | Muy Claro   |
+| 4: 25 – 50%          | Claro       |
+| 5: 50 – 75%          | Poco Denso  |
+| 6: 75 – 90%          | Denso       |
+| 7: 90 – 100%         | Muy Denso   |
+
+Fuente: Étienne y Prado (1982).
+
+**Figura 2. Categorización para la descripción de especies dominantes de acuerdo a la metodología COT.**
+
+##### 4.2.2.2 Clasificación de la vegetación
+
+A partir de la información obtenida en terreno, se clasificará las unidades de vegetación según tipo biológico, cobertura y altura. El nombre genérico de cada formación fue determinado adaptando lo señalado por Étienne y Prado (1982). Esta adaptación y su correspondencia a la clasificación de Étienne y Prado (1982) se presentan en la Tabla 3.
+
+**Tabla 3. Correspondencia entre la clasificación de Étienne y Prado y la adaptación de este trabajo.**
+
+| Clasificación de Étienne y Prado (1982) | Nombre genérico adaptado de la formación |
+|----------------------------------------|-----------------------------------------|
+| Herbáceo                              | Pradera                                 |
+| Herbáceo-leñoso bajo                   | Pradera matorral                        |
+| Leñoso bajo                            | Matorral                                |
+| Leñoso alto-leñoso bajo                | Bosque                                  |
+| Leñoso alto-leñoso bajo-herbáceo       | Leñoso alto                             |
+
+Fuente: Modificado de Étienne y Prado (1982).
+
+### 4.3 Elaboración de cartografía
+
+Luego de la clasificación de las unidades cartográficas, según formaciones vegetacionales, se elaboró un mapa que contenga la siguiente información para cada unidad:
+
+- Tipos biológicos presentes y su cobertura.
+- Nombre de la formación según la clasificación de Étienne y Prado.
+- Nombre genérico de la formación.
+- Especies dominantes.
+- Superficie (Ha).
+
+Este producto permite caracterizar la vegetación en función de su estructura vertical (estratos), horizontal (cobertura) y especies dominantes. Además, permite establecer la distribución espacial y superficie ocupada por cada formación vegetacional, y localizar aquellas unidades en que se registra la presencia de especies con problemas de conservación.
+
+### 4.4 Identificación de formaciones específicas de acuerdo con la Ley N° 20.283
+
+Además, se contemplará La Ley 20.283 del MINAGRI, la que en su Artículo N°1, establece 5 tipos de formaciones vegetacionales a considerar en el desarrollo de cualquier tipo de actividad, las que corresponden a:
+
+- Bosque Nativo
+- Bosque Nativo de Preservación
+- Bosque Nativo de Conservación y Protección
+- Bosque Nativo de uso Múltiple
+- Formaciones Xerofíticas
+
+#### a) Formaciones de bosque
+
+Para las unidades con presencia de estratos arbóreos, se realizará una evaluación de acuerdo con los criterios definidos en la Ley N° 20.283 sobre Recuperación del Bosque Nativo y Fomento Forestal, para determinar si califica como Bosque Nativo o Bosque de Preservación. En la mencionada Ley, una formación califica como Bosque cuando se cumplen simultáneamente los siguientes requisitos:
+
+- Bosque se define como una formación arbórea de 5.000 m² de superficie mínima.
+- Presentar por lo menos 40 m de ancho.
+- Un mínimo de 25% de cobertura (salvo para regiones áridas o semiáridas, en cuyo caso se considera un mínimo de 10%).
+
+En consecuencia, se evaluará si las formaciones vegetacionales identificadas cumplen con estos criterios para ser consideradas bosque nativo o bosque de preservación que según la Ley N° 20.283, se definirá como bosque nativo de preservación: “aquél, cualquiera sea su superficie, que presente o constituya actualmente hábitat de especies vegetales protegidas legalmente o aquéllas clasificadas en las categorías de en "peligro de extinción", "vulnerables", "raras", "insuficientemente conocidas" o "fuera de peligro"; o que corresponda a ambientes únicos o representativos de la diversidad biológica natural del país, cuyo manejo sólo puede hacerse con el objetivo del resguardo de dicha diversidad.”
+
+#### b) Formaciones xerofíticas
+
+Para el área de emplazamiento del Proyecto, se verificará la eventual existencia de unidades clasificadas como formación xerofítica; para ella, el cuerpo legal citado establece en sus puntos 13 y 14 las siguientes definiciones a considerar:
+
+- Especie nativa o autóctona: especie arbórea o arbustiva originaria del país, que ha sido reconocida oficialmente como tal mediante decreto supremo expedido por intermedio del Ministerio de Agricultura.
+- Formación xerofítica: formación vegetal, constituida por especies autóctonas, preferentemente arbustivas o suculentas, de áreas de condiciones áridas o semiáridas ubicadas entre las Regiones I y VI, incluidas la Metropolitana y la XV y en las depresiones interiores de las Regiones VII y VIII.
+
+El decreto a que se hace mención corresponde al Decreto N°68/09 del MINAGRI que “Establece, Aprueba y Oficializa Nómina de Especies Arbóreas y Arbustivas Originarias del País”.
+
+Para esta formación, la Ley 20.283 establece una serie de medidas destinadas a su resguardo, estableciendo la necesidad de desarrollar un plan de trabajo para las formaciones xerofíticas, según se establece en el artículo 60°: “Artículo 60°. - La corta, destrucción o descepado de formaciones xerofíticas requerirán de un plan de trabajo previamente aprobado por la Corporación, el que deberá considerar las normas de protección ambiental establecidas en el Título III de esta ley.”
+
+Adicionalmente se consideró lo estipulado en la “Guía de Evaluación Ambiental – Criterios para la evaluación de proyectos ingresados al SEIA” (CONAF 2014) oficializada en la resolución Nº158/2012. De acuerdo a estos cuerpos normativos, una formación xerofítica debe cumplir con los siguientes requisitos:
+
+- Se regula la corta, destrucción o descepado de Formaciones Xerofíticas, que se ejecuten en los proyectos o actividades definidos en el artículo 10º de la Ley Nº 19.300 y artículo 3º del D.S. Nº 40/2012, del Ministerio del Medio Ambiente.
+
+Para efectos de identificar a estas formaciones, se considerarán los siguientes criterios, que complementan en mejor medida la definición establecida en la Ley N° 20.283 y su D.S. N° 93/2008, ambos del Ministerio de Agricultura:
+
+1. Debe constituir una formación vegetal, considerándose para este caso cualquier referencia bibliográfica de publicaciones registradas a nombre de su autor conforme a la Ley N° 17.336.
+2. El estrato predominante de la formación vegetal debe ser el arbustivo o suculento. De existir especies arbóreas nativas en dicha formación vegetal, su cobertura de copa debe ser menor a la requerida en la definición legal de bosque.
+3. La presencia de especies arbustivas o suculentas nativas debe ser mayoritaria en la formación vegetal. Es decir, el número de individuos xerofíticos nativos (arbustivos o suculentos) debe ser mayor al número de otros individuos vegetacionales presentes en la formación vegetal, para el caso de las formaciones ubicadas al Norte del río Elqui hasta el límite norte del país.
+4. Las especies nativas corresponden a aquellas listadas en el D.S. N° 68/2008, del Ministerio de Agricultura, así como de sus modificaciones, según corresponda.
+5. El sector a intervenir debe encontrarse en áreas de condiciones áridas o semiáridas. En este contexto, la definición legal establece la ubicación geográfica de estas áreas entre las Regiones XV a VI, incluida la Región Metropolitana de Santiago.
+
+Tratándose de la corta, destrucción o descepado de formaciones xerofíticas, será obligatoria la presentación y aprobación previa por la Corporación Nacional Forestal, de un plan de trabajo, de acuerdo al inciso 3 del artículo 3° del D.S. N° 93/2008, del Ministerio de Agricultura y sus modificaciones, cuando tales formaciones reúnan la totalidad de las siguientes condiciones:
+
+**Tabla 4. Condiciones para la presentación de un plan de trabajo**
+
+| Ubicación geográfica | Superficie mínima (ha) | Ancho mínimo (m) | Especies nativas | Densidad mínima (ind./ha) |
+|---------------------|-----------------------|------------------|------------------|---------------------------|
+| Norte del río Elqui hasta el límite norte del país | 20 | Carácter xerofítico | No aplica | |
+| Sur del río Elqui hasta el límite norte de la Región de Valparaíso | Carácter xerofítico | 300 | |
+| Desde la Región de Valparaíso hasta la Región del Bío Bío, incluida la Región Metropolitana de Santiago | Carácter xerofítico | 500 |
+
+En relación a la Tabla 4 y considerando el área de estudio del Proyecto, para definir la existencia de una formación xerofítica, se debe considerar lo siguiente:
+
+1) La superficie total de la formación xerofítica debe ser mayor o igual a una hectárea, pudiendo intervenir (corta, destrucción o descepado) un área menor dentro de dicha formación. Para superficie, ancho y densidad se considerarán los valores mínimos para determinar la obligatoriedad de presentar un plan de trabajo, según corresponda.
+2) Desde la Región V hasta la VIII Región, incluida la Región Metropolitana de Santiago, los individuos en estado adulto deberán tener una altura mínima de 1 m.
+
+## 5. Resultados
+
+### 5.1 Marco Biogeográfico
+
+Según Luebert & Pliscoff (2017) el área de estudio se emplaza sobre un único piso vegetacional identificado como “Bosque espinoso mediterráneo costero de *Acacia caven* – *Maytenus boaria*”, la cual es principalmente representada por un matorral espinoso arborescente abierto dominado dentro de su estrata arbórea por las especies de espino (*Acacia caven*) y maitén (*Maytenus boaria*), en su estrata arbustiva por huañil (*Proustia cuneifolia*), palqui (*Cestrum parqui*) y quilo (*Muehlenbeckia hastulata*); y, finalmente en una estrata de herbáceas, tanto de hierbas con estacionalidad perenne y anual, endémicas, nativas e introducidas, donde destaca la presencia de barba de macho (*Bromus berteroanus*) y pasto sedilla (*Vulpia myuros*).
+
+### 5.2 Campaña de Terreno
+
+#### 5.2.1 Esfuerzo de muestreo
+
+Se recorrió la totalidad del área de proyecto de manera pedestre, dividiéndose los sectores en dos grandes áreas siendo la primera la zona de planta fotovoltaica con 92 parcelas de muestreo y la zona de línea de transmisión con 24 parcelas de muestreo todas identificadas con punto de georreferenciación bajo sistema de coordenadas UTM Datum WGS84 19 Sur (Figura 3).
+
+**Figura 3. Ubicación parcelas de muestreo.**
+
+#### 5.2.2 Vegetación del Área del Proyecto
+
+##### 5.2.2.1 Vegetación Sector Planta Fotovoltaica
+
+El área de la planta fotovoltaica se encuentra compuesta por 92 polígonos que comprenden un total de 5 formaciones vegetacionales diferentes, las que incluyen sectores de bosque, matorral, praderas, plantaciones y zonas sin vegetación. Estas formaciones a su vez se dividen en unidades vegetacionales que se diferencian considerando las especies que las componen y la cobertura de estas. La Figura 4 muestra la distribución espacial de cada una de estas unidades.
+
+**Figura 4. Distribución espacial de las unidades cartográficas definidas en el área de la planta fotovoltaica**
+
+La Tabla 5 muestra un resumen de las diferentes formaciones registradas en el área del proyecto, tipo vegetacional, descripción y el área total de cada una de ellas.
+
+Es interesante mencionar que la superficie ocupada por formaciones nativas ya sea bosque o matorral, corresponde a un 58,56% del área total de la planta fotovoltaica, es decir 159,85 ha. Esto nos lleva a que el 41,44% del área se encuentra cubierto por zonas de cultivos o plantaciones (nativos o exóticos) y zonas sin vegetación.
+
+**Tabla 5. Resumen de las formaciones vegetacionales registradas en el Sector Planta fotovoltaica**
+
+| Formación                  | Tipo Vegetacional         | Ha     |
+|---------------------------|--------------------------|--------|
+| Bosque                    | Bosque de quebrada       | 65,46  |
+| Matorral                  | Matorral esclerófilo     | 50,55  |
+|                           |                          | 12,10  |
+|                           |                          | 31,74  |
+| Pradera                   | Praderas de uso de cultivo| 21,88  |
+|                           | Praderas con malezas     | 36,54  |
+| Plantaciones              | Plantaciones Exóticas     | 2,01   |
+|                           | Plantación de Eucaliptus |        |
+| Plantaciones de cultivo   | Plantación de frutillas   | 20,32  |
+|                           | Plantación de olivos     | 8,97   |
+| Plantaciones de compensación | Plantación de quillay  | 3,58   |
+| Zonas denudadas           | Zonas sin vegetación     | 12,37  |
+|                           | Arado preparado para cultivo | 0,58 |
+|                           | Zona sin vegetación      |        |
+| Cuerpo de agua            |                          | 6,89   |
+
+**Tabla 6. Caracterización de las unidades de vegetación en sector planta fotovoltaica**
+
+*(La tabla contiene la caracterización detallada de cada unidad cartográfica, tipo biológico, nombre de la formación, especies dominantes, descripción general y superficie. Todos los datos se mantienen íntegros.)*
+
+##### 5.2.2.1.1 Bosques
+
+1) **Bosque Esclerófilo:** Corresponde a un área con vegetación poco densa (50 – 75% de cobertura), cuyo tipo biológico corresponde a LA5LB3H4, es decir, el estrato arbóreo y el herbáceo son los dominantes. Se encuentra representado por las UC 2, 10, 14, 30, 33, 40, 47, 48, 53 y 92. Es la formación vegetacional que presenta la mayor diversidad de especies del tipo arbóreo, representados por especies como *Acacia caven*, *Peumus boldus*, *Crinodendron patagua*, entre otras, no siendo ninguna de ellas de carácter dominante. Para el estrato arbustivo la dominancia corresponde a *Eupatorium salvia*, *Muehlenbeckia hastulata*, *Berberis chilensis*, entre otras. El estrato herbáceo está compuesto principalmente por especies introducidas como *Fumaria capreolata*, *Taraxacum officinale*, etc. La Fotografía 1 muestra una visión general de esta formación.
+
+**Fotografía 1. Vista general de la formación bosque mixto.**
+
+##### 5.2.2.1.2 Matorral
+
+Formación que presenta elementos leñosos dentro de su composición, con una cobertura muy clara (10 – 25%) insertos en una pradera principalmente de gramíneas cuya cobertura alcanza entre un 25 – 50%. La superficie total de la formación corresponde 94,39 ha, es decir, 34,6% del área total de la planta fotovoltaica. Considerando los elementos florísticos que la componen se realizó la siguiente clasificación:
+
+1) **Matorral con Acacia caven:** Corresponde a áreas donde el principal componente arbóreo es la especie *Acacia caven* (individuos de pequeño tamaño y un DAP no superior a los 5 cm), con una cobertura inferior al 20% (tipo biológico LA3LB2H4). En algunos casos coincidieron con sectores que antiguamente fueron cultivos de frutillas y que actualmente se encuentran abandonados. A esta unidad vegetacional corresponden las UC 45, 54, 57, 75, 81, 82, 84 y 91. Especies acompañantes en el estrato arbóreo, aunque en muy baja cobertura son *Maytenus boaria* y *Peumus boldus* principalmente en el borde de la formación. En el estrato arbustivo dominan *Muehlenbeckia hastulata*, *Rubus ulmifolius* y *Baccharis linearis*. Dentro del estrato herbáceo abundan las especies de gramíneas y otras especies introducidas como *Carduus pycnocephalus*, *Cirsium vulgare*, *Convolvulus chilensis*, etc. La Fotografía 2 muestra una visión general de esta formación.
+
+**Fotografía 2. Vista general de la unidad Matorral con Acacia caven**
+
+2) **Matorral de Baccharis:** Representado por las UC 11, 36, 64, 65, 67, 73 y 80. Formación vegetal del tipo biológico LA1LB3H4, cuya especie dominante en el estrato arbóreo corresponde a individuos aislados de *Acacia caven*, para el estrato arbustivo el dominante es *Baccharis linearis* que no sobrepasan el 20% de cobertura. En el estrato herbáceo dominan especies introducidas del tipo gramíneas. La Fotografía 3 muestra una visión general de esta unidad. Esta unidad correspondía antiguamente a cultivos de frutillas lo que con el tiempo quedaron abandonados y dieron lugar al crecimiento y desarrollo de nuevas especies.
+
+**Fotografía 3. Vista general de la formación matorral de Baccharis**
+
+3) **Matorral pradera con malezas:** Corresponde a las UC 1, 6, 8, 9, 21, 24, 25, 46, 51, 56, 69, 71, 72, 77 y 78. Son sectores que antiguamente se utilizaban para el cultivo de frutillas donde la cobertura del piso herbáceo es de aproximadamente un 80% y se encuentra entremezclada tanto con elementos arbustivos como arbóreos. El tipo biológico corresponde a LA1LB2H5. En el estrato arbóreo domina la especie *Acacia caven* un porcentaje de cobertura que no alcanza el 5% constituida por individuos muy jóvenes de baja altura. Para el estrato arbustivo las especies dominantes que también son escasas corresponden a *Muehlenbeckia hastulata*, *Baccharis linearis* y *Rubus ulmifolius*. En el estrato herbáceo las especies dominantes son *Erodium cicutarium*, *Verbascum virgatum*, especies de la familia Poaceae, entre otras. La Fotografía 4 muestra una visión general de esta formación. En algunos de los polígonos desaparece tanto el estrato arbóreo como el arbustivo y dominan especies como *Verbascum virgatum* o especies de cardos. El área total de los polígonos que representan esta formación vegetacional es de 31,74 ha, lo que equivale al 11,62% del área total de la planta fotovoltaica.
+
+**Fotografía 4. Vista general de la formación matorral pradera**
+
+##### 5.2.2.1.3 Praderas
+
+Corresponde a áreas que fueron utilizadas previamente como sectores de cultivo de frutillas, mismas que fueron abandonadas con el tiempo. En algunas de ellas se desarrollaron principalmente especies de la Familia Poaceae y en otras una diversidad de especies introducidas, no necesariamente gramíneas. Dado esto, estas áreas se dividirán en aquellas en que crecieron malezas de diversas especies y otras en que se desarrolló solo un tipo de gramínea. La superficie total de esta formación alcanza a 58,42 ha, equivalente al 21,4% del área total de la planta fotovoltaica.
+
+1) **Pradera con malezas:** Corresponde a áreas donde es factible que se haya estado preparando para el cultivo de frutillas pero que en estos momentos se encuentra abandonado. Se encuentra representado por las UC 19, 20, 23, 34, 35, 39 y 52. Corresponde a un tipo de vegetación del tipo LA1LB1H4, donde claramente los elementos leñosos son escasos. De forma ocasional se puede encontrar algún individuo aislado de *Acacia caven*, mismos que presentan un pequeño tamaño. Dentro del estrato arbustivo se presenta ocasionalmente algunos ejemplares de *Baccharis linearis*, pero la forma de vida predominante corresponde a especies herbáceas introducidas. La Fotografía 5 muestra una vista general de esta unidad vegetacional. El área total de estas 7 UC es de 21,88 ha, representando el 8,01% del área total de la planta fotovoltaica.
+
+**Fotografía 5. Vista general de la formación pradera con malezas**
+
+2) **Praderas con gramíneas:** Corresponde a áreas que antiguamente correspondieron a cultivos de frutillas y que se encuentran abandonadas y por tanto dio lugar principalmente a especies herbáceas introducidas de la familia de las Poaceae. Corresponde al tipo Biológico LA1LB1H5 cuyas especies dominantes son *Carduus pycnocephalus*, *Convolvulus arvensis*, *Festuca myuros*, *Lolium perenne*, etc. Ocasionalmente se encuentran individuos arbóreos como *Acacia caven* y algunos arbustos como *Baccharis linearis*, pero estos suelen ser de pequeño tamaño. La Fotografía 6 muestra una visión general de esta formación. Las UC asociadas a esta formación son la 4, 15, 22, 26, 28, 29, 44, 49, 50, 55, 58, 59, 66, 68, 70, 74, 79, 88 y 90. La suma total de los polígonos es de 36,54 ha, lo que equivale al 13,39% del área de la planta fotovoltaica.
+
+**Fotografía 6. Vista general de la formación paraderas con gramíneas**
+
+##### 5.2.2.1.4 Plantaciones
+
+1) **Plantación de Eucalyptus:** Representados por las UC 43 y 60 y correspondiente a una unidad del tipo LA3LB2H3. La especie dominante corresponde a *Eucaliptus sp.*, acompañada ocasionalmente por individuos de pequeño tamaño de *Acacia caven*. Para el estrato arbustivo se presentan especies como *Rubus ulmifolius*. El estrato herbáceo compuesto principalmente por especies de la Poaceae, todas ellas introducidas. La Fotografía 7 muestra una visión general de esta unidad.
+
+**Fotografía 7. Vista general de plantación de Eucalyptus**
+
+##### 5.2.2.1.5 Cultivos y Plantaciones
+
+Corresponde a áreas de monocultivos, como por ejemplo cultivo de frutillas y plantación de olivos, en las cuales aparecen esporádicamente algunas especies introducidas y se incluye una plantación de *Quillaja saponaria* producto de una compensación de especies.
+
+1) **Cultivo de frutillas:** corresponde a las UC 3, 5, 13, 16, 18, 32, 61, 76, 85, 87 y 89 y representan el 7,44% del área de la planta fotovoltaica (20,32 ha). Corresponde a un sector con vegetación del tipo H6 donde la mayor parte del área corresponde a cultivo de frutillas. En algunos sectores, principalmente en el borde de la formación se encuentran algunas especies con coberturas inferiores al 5%, de especies como *Anagallis arvensis*, *Convolvulus arvensis*, *Cyperus sp.*, etc, todas ellas de origen introducido y herbáceas. La Fotografía 8 muestra una visión general de este tipo vegetacional.
+
+2) **Plantación de olivos:** Representado por la UC 63 y que presenta un área de 8,97 ha lo que equivale al 1,31% del área total y corresponde a un cultivo de olivos, con un tipo vegetacional del tipo LA3LB2H3. Dentro del estrato arbustivo la especie dominante corresponde a *Baccharis linearis* y en el estrato herbáceo dominan las especies introducidas *Taraxacum officinale* y *Tolpis barbata*. La Fotografía 9 muestra una visión general de este.
+
+3) **Plantación de Quillaja saponaria:** Representado por las UC 7 y 12 y corresponde a plantaciones efectuadas como método de compensación y presenta un área total de 3,58 ha. El terreno original era de plantaciones de cultivo de frutillas. El tipo biológico corresponde a LA4LB3H4, donde claramente domina el estrato arbóreo y el herbáceo. El estrato arbóreo obviamente compuesto por *Quillaja saponaria*, el arbustivo por *Baccharis linearis* y *Muehlenbeckia hastulata* y el estrato herbáceo por especies principalmente introducidas. La Fotografía 10 muestra una visión general de esa unidad.
+
+**Fotografía 8. Vista general de una plantación de frutillas**
+
+**Fotografía 9. Vista general del área de cultivo de olivos**
+
+**Fotografía 10. Vista general de plantación de Quillay**
+
+##### 5.2.2.1.6 Sectores sin vegetación
+
+Son áreas que no presentan vegetación y cuya superficie total es de 19,84 ha, lo que equivale al 7,2% del área de la planta fotovoltaica. Comprende los siguientes tipos de unidades:
+
+1) Sectores recién arados y preparados para el cultivo de frutillas. No presentan ningún tipo de vegetación por lo que corresponde a una zona denudada (ZN). La Fotografía 11 muestra una vista general de estos sectores. Estas áreas corresponden a las UC 17, 31, 41, 42, 62, 83, 86.
+2) Sector que no presenta vegetación en forma natural y corresponde la UC 37. La Fotografía 12 muestra este sector que también corresponde a una ZD.
+3) Sector que corresponde a un cuerpo de agua que se presenta en el área de la planta fotovoltaica y corresponde a la UC 38. La Fotografía 13 muestra una vista general de ella.
+
+**Fotografía 11. Vista general de un sector recién arado sin vegetación**
+
+**Fotografía 12. Vista general de un sector Sin vegetación**
+
+**Fotografía 13. Vista general de un cuerpo de agua**
+
+##### 5.2.2.2 Vegetación Línea de transmisión
+
+El área de la línea de transmisión se encuentra compuesto por 24 polígonos que comprenden un total de 5 formaciones vegetacionales diferentes las que incluyen sectores de bosque, matorral, praderas, sectores de cultivo y zonas sin vegetación.
+
+La Tabla 7 muestra un resumen de las diferentes formaciones registradas en el área de la Línea de transmisión, incluyendo el tipo vegetacional al cual corresponde y la superficie ocupada por cada uno de ellos. En ella podemos observar que el 77,12% de la superficie es ocupada por formaciones nativas, ya sean de bosque esclerófilo o matorrales tanto de tevo como de espino.
+
+**Tabla 7. Resumen de las formaciones vegetacionales registradas en el Sector Línea de Transmisión**
+
+| Formación                  | Tipo Vegetacional         | Ha     |
+|---------------------------|--------------------------|--------|
+| Bosque                    | Bosque de quebrada       | 0,81   |
+| Matorral                  | Matorral esclerófilo     | 96,05  |
+|                           | Matorral de Tevo         | 49,89  |
+| Pradera                   | Praderas de uso de cultivo| 18,08  |
+| Plantaciones              | Plantaciones de cultivo   | 13,04  |
+|                           | Plantación de frutillas   |        |
+| Zonas denudadas           | Zonas sin vegetación     | 12,41  |
+|                           | Arado preparado para cultivo |      |
+
+**Figura 5. Distribución espacial de las unidades cartográficas definidas en el área de la Línea de transmisión**
+
+**Tabla 8. Caracterización de las unidades de vegetación en sector Línea de Transmisión**
+
+*(La tabla contiene la caracterización detallada de cada unidad cartográfica, tipo biológico, nombre de la formación, especies dominantes, descripción general y superficie. Todos los datos se mantienen íntegros.)*
+
+##### 5.2.2.2.1 Bosques
+
+1) **Bosque Esclerófilo:** Corresponde a un área con vegetación poco densa, cuyo tipo biológico corresponde a LA5LB3H4 y está representado por la UC 4l. La superficie total ocupada por esta formación es solo de 0,81 ha, equivalente al 0,43% de la superficie total de la línea de transmisión. En términos concretos corresponde al área que presenta mayor número de individuos de tipo arbóreo, El estrato arbóreo se encuentra dominado por especies como *Acacia caven*, para el estrato arbustivo la dominancia corresponde a *Eupatorium salvia*, *Muehlenbeckia hastulata*, Trevoa trinervis entre otras. El estrato herbáceo está compuesto principalmente por especies introducidas como *Convolvulus arvensis*, *Taraxacum officinale*, etc. La Fotografía 14 muestra una visión general de esta formación.
+
+**Fotografía 14. Vista general de áreas de vegetación nativa**
+
+##### 5.2.2.2.2 Matorral
+
+Corresponde a polígonos donde existe una especie arbórea o arbustiva dominante inserta en una pradera básicamente de gramíneas y/o especies introducidas. La superficie total de esta formación es de 145,94 ha, equivalente al 76,7% de la superficie total de la línea de transmisión. Considerando la especie dominante, se caracterizaron de la siguiente manera:
+
+1) **Matorral de espino:** Corresponde a áreas donde el principal componente arbóreo es la especie *Acacia caven*, con una cobertura inferior al 20%. En algunos casos corresponde a sectores que antiguamente correspondían a cultivas de frutillas los que claramente fueron abandonados. A esta unidad vegetacional corresponden las UC 1l, 9l, 11l, 13l, 15l, 18l, 20, 22l y 24l. El tipo biológico corresponde a LA3LB2H4, donde las formas de vida dominante corresponden a los estratos arbóreos y herbáceos. Especies acompañantes en el estrato arbóreo, aunque en muy baja cobertura son *Maytenus boaria* y *Peumus boldus* principalmente en el borde de la formación. En el estrato arbustivo dominan *Muehlenbeckia hastulata*, *Rubus ulmifolius* y *Baccharis linearis*. Dentro del estrato herbáceo abundan las especies de gramíneas y otras especies introducidas como *Carduus pycnocephalus*, *Cirsium vulgare*, *Convolvulus chilensis*, etc. La Fotografía 15 muestra una visión general de esta formación.
+
+**Fotografía 15. Vista general de un matorral de espino**
+
+2) **Matorral de Tevo:** Formación vegetacional representada por las UC 8l, 10l, 12l, 14l, 19, y 21l. Corresponde a sectores cuya cobertura va de claro y denso cuya especie dominante es *Retanilla trinervia*. El estrato arbóreo se encuentra compuesto básicamente por la especie *Acacia caven*, la que aparece en forma muy esporádica, presentando individuos de pequeño tamaño y que no supera el 5% de cobertura.
+
+**Fotografía 16. Vista general del matorral de tevo**
+
+##### 5.2.2.2.3 Praderas
+
+1) **Pradera con malezas:** Corresponde a áreas que antiguamente correspondieron a cultivos de frutillas y que se encuentran abandonadas y por tanto dio lugar principalmente a especies herbáceas introducidas principalmente de la familia de las Poaceae. Las UC 3l, 5l, 7l, 16l y 17l son los que representan este tipo de formación vegetal. Principalmente corresponden a una unidad LA1LB1H5 cuyas especies dominantes corresponden al piso herbáceo y entre se encuentran *Carduus pycnocephalus*, *Convolvulus arvensis*, *Lolium perenne*, etc. Ocasionalmente se encuentran individuos arbóreos como *Acacia caven* y algunos arbustivos como *Baccharis linearis*, pero con una cobertura muy baja. La Fotografía 17 muestra una visión general de esta formación.
+
+**Fotografía 17. Vista general de la formación pradera**
+
+##### 5.2.2.2.4 Cultivos
+
+1) **Cultivo de frutillas:** Corresponde a un sector con vegetación del tipo H5 donde la mayor parte del área corresponde a cultivo de frutillas y se encuentra representado por la UC 2l. En algunos sectores es acompañada, con coberturas inferiores al 5%, por especies de origen introducido y herbáceas. La Fotografía 18 muestra una visión general de este tipo vegetacional.
+
+**Fotografía 18. Vista general del cultivo de frutillas**
+
+2) **Cultivo de raps:** Corresponde a áreas de cultivos de raps con una cobertura del 90%. La UC que representa esta unidad es el16l. La Fotografía 19 presenta una vista general de esta formación.
+
+**Fotografía 19. Vista general de cultivo de raps.**
+
+##### 5.2.2.2.5 Sectores sin vegetación
+
+1) Corresponde a sectores recién arados y preparados para el cultivo de frutillas. No presentan ningún tipo de vegetación por lo que corresponde a una zona denudada (ZN). La Fotografía 20 muestra una vista general de estos sectores. Estas áreas corresponden a la UC 23l.
+
+**Fotografía 20. Vista general de un sector recién arado**
+
+#### 5.2.3 Flora
+
+##### 5.2.3.1 Sector planta fotovoltaica
+
+Se catastraron 92 especies de plantas vasculares representadas en 44 familias taxonómicas. La Tabla 9 presenta el nombre científico, nombre común, hábito y origen de cada una de ellas. Las familias más representadas corresponden a las Asteraceae (17,39%) representada por 16 especies, Poaceae (14,13%) representada por 13 especies, seguidas de las familias Fabaceae, Geraniaceae y Solanaceae, todas ellas con 4 representantes, equivalentes al 4,34%, cada una de ellas.
+
+**Tabla 9. Riqueza de plantas vasculares catastradas en la campaña de terreno dentro del sector. Se especifica la Familia taxonómica, nombre científico y vernáculo, hábito de crecimiento y origen.**
+
+*(La tabla contiene la lista completa de especies, familias, nombres científicos y comunes, hábito y origen. Todos los datos se mantienen íntegros.)*
+
+Considerando el hábito de las especies presentes, el mayor porcentaje de representatividad corresponde a las especies de hábito herbáceo con un total de 76,09% si consideramos tanto las anuales como las perennes (Tabla 10). Las especies de hábito arbóreo representan solo el 10,87%, siendo representadas mayoritariamente en la formación vegetacional de bosque.
+
+**Tabla 10. Caracterización del hábito de las especies- sector planta fotovoltaica.**
+
+*(La tabla contiene la cantidad de especies según hábito y su porcentaje de presencia. Todos los datos se mantienen íntegros.)*
+
+La Tabla 11 muestra el origen de las especies presentes en el área y se observa que el 52,17% (48 especies) son de origen introducido, y solo el 17,39% de ellas son de origen endémico. Esta distribución en el origen de las especies se basa en que gran parte del área del proyecto corresponde a plantaciones, las que cuando se dejan de usar, dan origen inmediato a la entrada de las especies de este tipo.
+
+**Tabla 11. Caracterización del origen de las especies – sector planta fotovoltaica.**
+
+*(La tabla contiene el número y porcentaje de especies por origen. Todos los datos se mantienen íntegros.)*
+
+##### 5.4.2 Sector línea de transmisión
+
+Se catastraron 47 especies de plantas vasculares (Tabla 12) representadas a través de 29 familias taxonómicas. Las familias mejor representadas en el área corresponden a las Asteraceae (21,27%) representada por 10 especies, Poaceae (12,76%) representada por 6 especies, Fabaceae (6,38%) representada por 3 especies, y finalmente Rosaceae (6,38%) representada por 3 especie.
+
+**Tabla 12. Riqueza de plantas vasculares catastradas en la campaña de terreno dentro del sector. Se especifica la Familia taxonómica, nombre científico y vernáculo, hábito de crecimiento y origen.**
+
+*(La tabla contiene la lista completa de especies, familias, nombres científicos y comunes, hábito y origen. Todos los datos se mantienen íntegros.)*
+
+En términos de la forma de vida, la más representada corresponde a la forma de vida herbácea (anuales más perennes) con un 68,09% (34 especies) (Tabla 13), seguido por los arbustos (incluye un subarbusto) y árboles, con 7 especies cada una y representando el 14,89% cada una de ellas. La forma de vida suculento está representada por solo una especie, y esta corresponde a una especie de la familia Cactaceae.
+
+**Tabla 13. Caracterización del hábito de crecimiento de las especies- sector Línea de transmisión.**
+
+*(La tabla contiene la cantidad de especies según hábito y su porcentaje de presencia. Todos los datos se mantienen íntegros.)*
+
+De acuerdo al origen de las especies, el 46,81% (22 especies) corresponde a especies introducidas y solo el 25,53% de ellas son de origen endémico (Tabla 14).
+
+**Tabla 14. Caracterización del origen de las especies- sector Línea de transmisión.**
+
+*(La tabla contiene el número y porcentaje de especies por origen. Todos los datos se mantienen íntegros.)*
+
+### 5.3 Singularidades ambientales
+
+De acuerdo a los antecedentes bibliográficos revisados, respecto a la caracterización del contexto vegetal y florístico del área donde se desarrollará el Proyecto, en conjunto con los hallazgos del trabajo de terreno, es posible señalar que existen singularidades ambientales para el componente flora y vegetación, que pudiesen verse afectados por la instalación del proyecto debido a su cercanía a las zonas de construcción.
+
+A partir de la información levantada en terreno, se registró la presencia de cuatro especies (Tabla 16) en categoría de conservación según el D.S 50/2008 MINSEGPRES, D.S. 19/2012 MMA, D.S. 13/2013 MMA, D.S 41/2011 MMA y D.S 42/2011 MMA presentes dentro de las áreas de intervención o bien aledañas al Proyecto. Se señala que las cuatro especies registradas se registraron con un estado fisiológico sano, presentando una fenología de crecimiento vegetativo y en algunos casos como la puya, quisco y tahay con un estado de floración avanzada (Figura 13).
+
+**Tabla 15. Especies en categoría de conservación dentro de la zona del Proyecto.**
+
+*(La tabla contiene la familia, especie, forma de vida, estado de conservación, referencia/decreto y sector. Todos los datos se mantienen íntegros.)*
+
+La Tabla 16 muestra la ubicación de cada uno de los individuos que presentan alguna categoría de conservación, tanto en sus coordenadas como en el sector específico del proyecto y el número de individuos registrados. Por otra parte, la Tabla 17 muestra cuales son los polígonos en que se encuentran estos individuos y por tanto dan cuenta de la formación a la que pertenecen. La Fotografía 21 muestra un ejemplar de cada una de las especies. La Figura 3 muestra la distribución espacial en la cual se encuentran distribuidas estos individuos.
+
+**Tabla 16. Georreferenciación de especies en categoría de conservación.**
+
+*(La tabla contiene las coordenadas UTM, sector y número de individuos. Todos los datos se mantienen íntegros.)*
+
+**Tabla 17. Posición dentro de las formaciones vegetacionales de las especies en categoría de conservación**
+
+*(La tabla contiene la UC, especie y formación vegetal. Todos los datos se mantienen íntegros.)*
+
+**Fotografía 21. Muestra de algunas de las especies en categoría de conservación registradas en el área del proyecto.**
+
+**Figura 6. Distribución espacial de las especies en categoría de conservación**
+
+## 6. Recomendaciones
+
+En atención a lo señalado anteriormente, existen 4 especies en alguna categoría de conservación. Con respecto a estas especies se deben tomar medidas de protección en caso de que estas sean afectadas por algunas de las obras del proyecto. Estas medidas se describen a continuación de acuerdo a cada especie:
+
+- *Calydorea xiphioides* y *Conanthera campanulata*: Rescatar todos los bulbos presentes en el área y trasplantarlos en un área que cumpla con las mismas condiciones de piso vegetacional en las que se encontraba originalmente.
+- *Echinopsis chiloensis*: Traslado del individuo completo, en primera instancia y por esquejes si esto no fuese posible. También existe la opción de desarrollar individuos por medio de semillas, el cual, siendo el más efectivo, a su vez es el más lento.
+- *Eriosyce subgibbosa*: Trasplante del individuo completo, mismo que en el 90% de los casos es altamente exitoso. El trasplante debe considerar las mismas condiciones y el mismo piso vegetacional del que fue extraído.
+- *Puya chilensis*: De acuerdo con trabajos realizados en el INIA, es factible realizar trasplantes mediante esquejes. Por otra parte, según la Guía de Evaluación Ambiental es factible realizar el trasplante de individuos completos tomando las mismas restricciones que se toman al trasladar una especie de la familia Cactaceae.
+
+Con respecto a las especies xerofíticas, es aplicable un Plan de Trabajo de formaciones xerofíticas en aquellos UC en los cuales se encuentra en particular la especie *Baccharis linearis*, las cuales serían en la formación Matorral Pradera sería aplicable para la UC 21, el resto de UC o no presentan individuos de la especie, se encuentran en un número muy bajo y/o presentan una superficie inferior a 1 ha. Con respecto a la formación de Matorral de Baccharis, se considerarían las UC 64, 67, 80, 11, 36 y 73 solo la UC 65 no aplicaría dado que esta presenta una superficie inferior a 1 ha. Para la Línea de transmisión no existen UC que presenten aplicabilidad de esta medida.
+
+## 7. Conclusiones
+
+El área de la planta fotovoltaica se encuentra compuesto por 92 polígonos que comprenden un total de 5 formaciones vegetacionales diferentes, las que incluyen sectores de bosque, matorral, praderas, plantaciones y zonas sin vegetación. Estas formaciones a su vez se dividen en unidades vegetacionales que se diferencian considerando las especies que las componen y la cobertura de estas.
+
+La superficie ocupada por formaciones nativas ya sea bosque o matorral, corresponde a un 58,56% del área total de la planta fotovoltaica, es decir 159,85 ha. Esto lleva a que el 41,44% del área se encuentra cubierto por zonas de cultivos o plantaciones (nativos o exóticos) y zonas sin vegetación.
+
+El área de la línea de transmisión se encuentra compuesto por 24 polígonos que comprenden un total de 5 formaciones vegetacionales diferentes las que incluyen sectores de bosque, matorral, praderas, sectores de cultivo y zonas sin vegetación. En este sector el 62,14% de la superficie es ocupada por formaciones nativas, ya sean de bosque esclerófilo o matorrales tanto de tevo como de espino.
+
+Para la planta fotovoltaica se catastraron 92 especies de plantas vasculares representadas en 44 familias taxonómicas. Considerando el hábito de las especies presentes, el mayor porcentaje de representatividad corresponde a las especies de hábito herbáceo con un total de 76,09% al considerar tanto las anuales como las perennes, 10,87% árbol, 11,96% para los arbustos y 1,09 % son suculentas.
+
+De acuerdo al origen de las especies se observa que el 52,17% (48 especies) son de origen introducido, y solo el 17,39% de ellas son de origen endémico. Esta distribución en el origen de las especies se basa en que gran parte del área del proyecto corresponde a plantaciones, las que cuando se dejan de usar, dan origen inmediato a la entrada de las especies de este tipo.
+
+Para la línea de transmisión se catastraron 47 especies de plantas vasculares representadas a través de 29 familias taxonómicas. En términos de la forma de vida, la más representada corresponde a la forma de vida herbácea con un 68,09% (32 especies) seguido por los arbustos (14,89%) y posteriormente por la forma de vida arbórea (14,89%). La forma de vida suculento está representada por solo una especie, y esta corresponde a la familia Cactaceae.
+
+Considerando el origen de las especies, el 46,81% (22 especies) corresponde a especies introducidas y solo el 25,53% de ellas son de origen endémico.
+
+Dentro de las singularidades ambientales, se registró la presencia de 4 especies en alguna categoría de conservación. Dos de ellas presentes en el área de la planta fotovoltaica siendo estas, *Calydorea xiphioides* catalogada como Vulnerable VU-R según D.S 50/2008 MINSEGPRES y *Echinopsis chiloensis* catalogada como Casi Amenazada según listado del D.S 41/2011 MMA. Las dos restantes se registraron en el área de la línea de transmisión correspondiendo a *Puya chilensis* y *Eriosyce subgibbosa*, ambas catalogadas como Preocupación Menor de acuerdo con los decretos D.S 42/2011 MMA y D.S 41/2011 MMA, respectivamente.
+
+Finalmente, considerando las formaciones vegetacionales de la planta fotovoltaica, Matorral de Baccharis y Matorral pradera son aplicables para un Plan de trabajo de Formaciones Xerofíticas, dado que la densidad de individuos es superior a 500 individuos por hectárea. En términos concretos el área total de formación xerofítica a ser afectada por el proyecto implica solo a la planta fotovoltaica y corresponde a 12,41 ha, los detalles se encuentran en el Permiso Ambiental Sectorial N°151 (Anexo 15.6 de la DIA).
+
+Para la aplicabilidad de formaciones de bosque se analizaron las UC que presentan formaciones vegetacionales de Bosque Esclerófilo y Matorral de Espino en el caso de la planta fotovoltaica y Matorral de Espino en el caso de la línea de transmisión. En términos concretos el área total de bosque a ser afectado corresponde a 18,78 ha dentro del predio de la planta fotovoltaica que serán posteriormente reforestadas en un nuevo sitio, los detalles pueden encontrarse en el Permiso Ambiental Sectorial N° 148 (Anexo 15.5 de la DIA).
+
+## 8. Bibliografía
+
+- Braun-Blanquet, J., 1979. Fitosociología. Bases para el estudio de las comunidades vegetales. H. Blume Ediciones. Madrid. 820 pp.
+- CONAF, 2016. Catastro de los Recursos Vegetacionales de Chile. Chilean Forest Service, Santiago, Chile.
+- Etienne, M. & C. Prado. 1982. Descripción de la vegetación mediante la cartografía de ocupación de tierras. Universidad de Chile, Ciencias Agrícolas Nº 10. 120 p.
+- Luebert, F. & P. Pliscoff, 2006. Sinopsis Bioclimática y Vegetacional de Chile. Editorial Universitaria.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2008. Ley Nº 20.283. Ley sobre recuperación del bosque nativo y fomento forestal. Dictada el 11 de julio de 2008; publicada en el Diario Oficial el 30 de julio de 2008.
+- MINISTERIO DE AGRICULTURA (MINAGRI). 2009. Decreto Supremo Nº 68 del 14 de agosto de 2009; publicado en el Diario Oficial el 2 de diciembre de 2009: Establece, aprueba y oficializa nómina de especies arbóreas y arbustivas originarias del país.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 33 del 07 de septiembre de 2011; publicado en el diario Oficial el 27 de febrero de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 41 del 30 de noviembre de 2011; publicado en el Diario oficial el 11 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2012. Decreto Supremo Nº 42 del 30 de noviembre de 2011; publicado en el Diario oficial el 11 de abril de 2012.
+- MINISTERIO DEL MEDIO AMBIENTE. 2013. Decreto Supremo Nº 13 del 17 de abril de 2013; publicado en el Diario oficial el 25 de julio de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2013. Decreto Supremo Nº 19 del 26 de junio de 2012; publicado en el Diario oficial el 11 de febrero de 2013.
+- MINISTERIO DEL MEDIO AMBIENTE. 2014. Decreto Supremo Nº 52 del 26 de marzo de 2014; publicado en el diario Oficial el 29 de agosto de 2014.
+- MINISTERIO DEL MEDIO AMBIENTE. 2015. Decreto Supremo Nº 38 del 07 de septiembre de 2015; publicado en el diario Oficial el 04 de diciembre de 2015.
+- MINISTERIO DEL MEDIO AMBIENTE. 2016. Decreto Supremo Nº 16 del 03 de junio de 2016; publicado en el diario Oficial el 30 de septiembre de 2016.
+- MINISTERIO DEL MEDIO AMBIENTE. 2017. Decreto Supremo Nº 6 del 16 de marzo de 2017; publicado en el diario Oficial el 02 de junio de 2017.
+- MINISTERIO DEL MEDIO AMBIENTE. 2017. Decreto Supremo Nº 79 del 4 de diciembre de 2018; publicado en el diario Oficial el 19 de diciembre del 2018.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 1994. Ley Nº 19.300 Sobre Bases Generales del Medio Ambiente. Promulgada el 1 de marzo de 1994; publicada en el Diario Oficial el 9 de marzo de 1994.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (MINSEGPRES). 2007. Decreto Supremo Nº 151 del 6 de diciembre de 2006; publicado en el Diario Oficial el 24 de marzo de 2007.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2008. Decreto Supremo Nº 50 del 24 de abril de 2008; publicado en el Diario Oficial el 30 de junio de 2008.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2008. Decreto Supremo Nº 51 del 24 de abril de 2008; publicado en el Diario Oficial el 30 de junio de 2008.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2009. Decreto Supremo Nº 23 del 3 de marzo de 2009; publicado en el Diario Oficial el 7 de mayo de 2009.
+- MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA (SEGPRES). 2010. Ley Nº 20.417: Crea el Ministerio, el Servicio de Evaluación Ambiental y la Superintendencia del Medio Ambiente. Promulgada el 12 de enero de 2010; publicada en el Diario Oficial el 26 de enero de 2010.
+- Rodríguez, R., Marticorena, C., Alarcón, D., Baeza, C., Cavieres, L., Finot, V., Fuentes, N., Kiessling, A., Mihoc, M., Pauchards, A., Ruiz, E., Sánchez, P. & A Marticorena. 2018. Catálogo de Plantas Vasculares. Gayana Bot. 75(1): 1-430.
+
+---
+
+**José Luis Aguilar 1178, Providencia**  
+**Biodiversidad y Medio Ambiente | Sistemas de Información Geográficos**  
+**+56 222047671**  
+**contacto@csw.cl**
