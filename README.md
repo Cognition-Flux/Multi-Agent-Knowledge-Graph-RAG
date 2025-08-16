@@ -148,3 +148,82 @@ flowchart LR
   style LLM fill:#0b0f14,stroke:#6b7280,color:#e5e7eb
   style CLIENTS fill:#0b0f14,stroke:#6b7280,color:#e5e7eb
 ```
+
+---
+
+## 🚀 Public deployment with ngrok
+
+The repository ships with two helper scripts that let you expose the Reflex app over HTTPS **in less than one minute** and without changing any code.
+
+| script | purpose |
+|--------|---------|
+| `deploy_app_with_ngrok.sh` | launches (or restarts) the ngrok agent using `ngrok.yml`.  Creates the file on first run. |
+| `launch_app.sh` | automatically discovers the backend tunnel URL via `127.0.0.1:4040` and starts Reflex with the correct environment variables. |
+
+### 1  Prerequisites
+
+* A free (or paid) [ngrok](https://ngrok.com/) account.
+* `ngrok` binary in your `$PATH` and an **authtoken** installed:
+  `ngrok config add-authtoken <TOKEN>`
+* (Optional but recommended) a **reserved domain** for the frontend.  In the examples below we use `groker.ngrok.app`.
+
+### 2  Configure tunnels (`ngrok.yml`)
+
+```yaml
+version: "2"
+authtoken: <your-token>
+
+tunnels:
+  frontend:
+    domain: groker.ngrok.app    # reserved → Reflex/Vite UI
+    proto:  http
+    addr:   3000
+    host_header: rewrite        # makes Vite think it is "localhost"
+
+  backend:
+    proto:  http                # random sub-domain is fine
+    addr:   8000                # FastAPI + websocket
+```
+
+> **Tip :** `ngrok.yml` is in `.gitignore` so your secret authtoken is never committed.
+
+### 3  Run the stack
+
+```bash
+# terminal 1 – start the tunnels
+./deploy_app_with_ngrok.sh
+
+# terminal 2 – start Reflex (auto-detects backend URL)
+./launch_app.sh
+```
+
+`launch_app.sh` will:
+1. Query `http://127.0.0.1:4040/api/tunnels` to obtain the public URL that points to `localhost:8000`.
+2. Export `BACKEND_URL` and `FRONTEND_DOMAIN` so that `rxconfig.py` picks them up.
+3. Launch the app with `uv run reflex run`.
+
+Browse to **https://groker.ngrok.app** and you should see the UI, with the websocket upgrading successfully (HTTP 101) as shown in ngrok’s web-interface.
+
+### 4  If ngrok restarts…
+
+The frontend domain is stable (it is reserved) but the backend URL changes.  Just run the same two commands again:
+
+```bash
+./deploy_app_with_ngrok.sh   # ngrok prints the new backend URL
+./launch_app.sh              # detects the new URL automatically
+```
+
+No source-code rebuild required.
+
+### 5  Running as background services (optional)
+
+The ngrok agent can be installed as a user service:
+
+```bash
+ngrok service install --config=$PWD/ngrok.yml
+ngrok service start
+```
+
+Likewise you can create a `systemd` user unit for Reflex that calls **`launch_app.sh`**—see the comments at the end of the script for a template.
+
+For full agent features (ACLs, update policy, remote restart) consult the official docs [ngrok Agent](https://ngrok.com/docs/agent/) and [Secure Tunnels](https://ngrok.com/docs/).
