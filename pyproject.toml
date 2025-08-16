@@ -37,6 +37,7 @@ dependencies = [
     "marker-pdf>=1.5.5",
     "pymupdf>=1.26.3",
     "markdownify>=0.13.1",
+    "reflex>=0.8.6",
 ]
 
 [tool.ruff]

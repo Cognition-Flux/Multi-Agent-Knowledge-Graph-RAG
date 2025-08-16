@@ -41,7 +41,7 @@ from src.agents.cypher_query_agent.graph_builder import graph
 
 
 # %%
-async def stream_graph(
+async def async_stream_graph(
     question: str,
     *,
     stream_mode: str = "values",
@@ -99,21 +99,13 @@ async def stream_graph(
 if __name__ == "__main__":
 
     async def _main() -> None:
-        async for chunk in stream_graph(
+        async for chunk in async_stream_graph(
             "total de tipologías por región",
             stream_mode="values",
             subgraphs=True,
             debug=False,
         ):
             print(chunk)
-            # _, messages = chunk
-            # if (
-            #     messages.get("messages")
-            #     and isinstance(messages["messages"], list)
-            #     and len(messages["messages"]) > 0
-            #     and isinstance(messages["messages"][-1], AIMessage)
-            # ):
-            #     print(messages["messages"][-1].content)
 
     import asyncio
 
