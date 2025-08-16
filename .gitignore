@@ -30,3 +30,6 @@ wheels/
 os
 sys
 ngrok.yml
+
+# ngrok configuration
+ngrok.yml
