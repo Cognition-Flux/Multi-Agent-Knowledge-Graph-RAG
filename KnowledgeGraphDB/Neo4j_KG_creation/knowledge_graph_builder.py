@@ -1,4 +1,7 @@
-"""Este script crea un Knowledge Graph (KG) en Neo4j a partir de chunks de texto."""
+"""Este script crea un Knowledge Graph (KG) en Neo4j a partir de chunks de texto.
+
+uv run -m KnowledgeGraphDB.Neo4j_KG_creation.knowledge_graph_builder
+"""
 
 # %%
 from __future__ import annotations
@@ -94,18 +97,46 @@ with contextlib.suppress(Exception):
     )
 
 # --------------------------------------------------------------------------- #
+# Naming helpers for new UUID-based chunk files                               #
+# --------------------------------------------------------------------------- #
+
+_UUID_REFINED_JSONL_RE: re.Pattern = re.compile(
+    r"^[0-9a-f]{8}_augmented\.jsonl$", re.IGNORECASE
+)
+
+# --------------------------------------------------------------------------- #
 # 2.2) Restaurar chunks agrupados por documento
 # --------------------------------------------------------------------------- #
 
 
 def _collect_refined_jsonl_files() -> list[Path]:
-    """Return sorted list of *.jsonl* files in the refined chunks directory."""
+    """Return list of refined JSONL files produced by *markdown_chunking_step02*.
+
+    The preferred naming scheme is ``<uuid>_augmented.jsonl`` where *uuid* is the
+    8-character hexadecimal identifier of the originating document.  If no files
+    match that pattern (e.g., legacy runs), we fall back to every ``*.jsonl`` in
+    the directory for backward compatibility.
+    """
     directory = Path(CHUNKS_REFINED_COLLECTION_DIR)
     if not directory.exists():
         raise FileNotFoundError(
             f"Directorio {directory} no existe. Ejecuta el script step02 para generar chunks refinados."
         )
-    return sorted(p for p in directory.glob("*.jsonl") if p.is_file())
+
+    files = sorted(
+        p
+        for p in directory.glob("*.jsonl")
+        if p.is_file() and _UUID_REFINED_JSONL_RE.match(p.name)
+    )
+
+    if not files:
+        print(
+            "! WARNING: No refined JSONL files matched the UUID pattern. "
+            "Using every *.jsonl file in the directory as fallback."
+        )
+        files = sorted(p for p in directory.glob("*.jsonl") if p.is_file())
+
+    return files
 
 
 def restore_chunks_grouped() -> dict[str, list[Document]]:
@@ -200,54 +231,23 @@ PATTERNS = [
     ("Project", "HAS_DOCUMENT_SUBTYPE", "DocumentSubtype"),
 ]
 
+# --------------------------------------------------------------------------- #
+# Naming helpers for new UUID-based chunk files                               #
+# --------------------------------------------------------------------------- #
+
 
 def ensure_property_indexes(_driver: GraphDatabase.driver) -> None:
-    """Crea índices de propiedades para consultas y filtros eficientes."""
+    """Ensure minimal constraints and indexes without destructive operations."""
     with _driver.session() as session:
-        # 0) Dropear cualquier índice existente sobre (Project.id) que impida crear constraint
-        for rec in session.run(
-            "SHOW INDEXES YIELD name, entityType, labelsOrTypes, properties "
-            "WHERE entityType='NODE' AND 'Project' IN labelsOrTypes AND 'id' IN properties "
-            "RETURN name"
-        ):
-            idx_name = rec["name"]
-            # Puede ser seguro envolver en backticks
-            session.run(f"DROP INDEX `{idx_name}` IF EXISTS")
-
-        # 1) Limpiar duplicados de Project antes de crear constraint
-        # Eliminar todos los duplicados excepto uno por cada id
-        print("  Limpiando duplicados de Project...")
-        result = session.run("""
-            MATCH (p:Project)
-            WITH p.id as pid, COLLECT(p) as nodes
-            WHERE SIZE(nodes) > 1
-            WITH pid, nodes, HEAD(nodes) as keeper, TAIL(nodes) as duplicates
-            UNWIND duplicates as dup
-            DETACH DELETE dup
-            RETURN pid, SIZE(duplicates) as deleted_count
-        """)
-
-        for record in result:
-            if record["deleted_count"] > 0:
-                print(
-                    f"    Eliminados {record['deleted_count']} duplicados de Project con id={record['pid']}"
-                )
-
-        # 2) Constraints únicos para idempotencia
-        try:
-            session.run(
-                "CREATE CONSTRAINT project_id_unique IF NOT EXISTS "
-                "FOR (p:Project) REQUIRE p.id IS UNIQUE"
-            )
-        except Exception as e:
-            print(f"⚠️  No se pudo crear constraint para Project.id: {e}")
-
+        # Create unique constraints (idempotent)
         session.run(
-            "CREATE CONSTRAINT chunk_uid_unique IF NOT EXISTS "
-            "FOR (c:Chunk) REQUIRE c.uid IS UNIQUE"
+            "CREATE CONSTRAINT project_id_unique IF NOT EXISTS FOR (p:Project) REQUIRE p.id IS UNIQUE"
+        )
+        session.run(
+            "CREATE CONSTRAINT chunk_uid_unique IF NOT EXISTS FOR (c:Chunk) REQUIRE c.uid IS UNIQUE"
         )
 
-        # 2) Índices de apoyo (no únicos)
+        # Non-unique supporting indexes (IF NOT EXISTS is safe and non-destructive)
         session.run(
             "CREATE INDEX project_name_idx IF NOT EXISTS FOR (p:Project) ON (p.name)"
         )
