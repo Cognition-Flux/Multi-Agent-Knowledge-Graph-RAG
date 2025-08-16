@@ -38,6 +38,27 @@ from src.config import CHUNKS_RAW_COLLECTION_DIR, CHUNKS_REFINED_COLLECTION_DIR
 from src.documents.metadata import load_metadata
 
 
+# -----------------------------------------------------------------------------
+# Ingestion naming conventions (added for round_2 compatibility)
+# -----------------------------------------------------------------------------
+# Match the prefix 'round_2_<8-hex-uuid>_' at the start of filenames
+_ROUND2_PREFIX_RE: re.Pattern = re.compile(r"^round_2_[0-9a-f]{8}_", re.IGNORECASE)
+# Match filenames that consist solely of the 8-char UUID (e.g. '8fae1c34.jsonl')
+_UUID_JSONL_RE: re.Pattern = re.compile(r"^[0-9a-f]{8}\.jsonl$", re.IGNORECASE)
+# Match trailing model designators like '_gpt-4.1' (without extension)
+_MODEL_SUFFIX_RE: re.Pattern = re.compile(r"_gpt-[0-9.]+$", re.IGNORECASE)
+
+
+def _strip_round2_prefix(name: str) -> str:
+    """Return *name* without the 'round_2_<uuid>_' prefix (if present)."""
+    return _ROUND2_PREFIX_RE.sub("", name, count=1)
+
+
+def _strip_model_suffix(name: str) -> str:
+    """Return *name* without suffixes like '_gpt-4.1' (if present)."""
+    return _MODEL_SUFFIX_RE.sub("", name, count=1)
+
+
 # Default path for flora & fauna metadata Parquet file (imported from config)
 
 ###############################################################################
@@ -46,7 +67,13 @@ from src.documents.metadata import load_metadata
 
 
 def _collect_jsonl_files() -> list[Path]:
-    """Return a sorted list of all *.jsonl* files with raw chunks."""
+    """Return the list of *JSONL* chunk files for the current ingestion round.
+
+    We first look for files whose **basename** starts with the
+    ``round_2_<uuid>_`` prefix to keep datasets from different runs isolated.  If
+    none are found, we gracefully fall back to *every* ``*.jsonl`` file to
+    remain backward-compatible with older naming schemes.
+    """
     directory = Path(CHUNKS_RAW_COLLECTION_DIR)
     if not directory.exists():
         raise FileNotFoundError(
@@ -54,7 +81,30 @@ def _collect_jsonl_files() -> list[Path]:
             "Make sure you have executed step01 to generate JSONL chunks."
         )
 
-    return sorted(p for p in directory.glob("*.jsonl") if p.is_file())
+    # First, prefer the new naming scheme: one JSONL per UUID (8-hex chars)
+    files = sorted(
+        p
+        for p in directory.glob("*.jsonl")
+        if p.is_file() and _UUID_JSONL_RE.match(p.name)
+    )
+
+    if not files:
+        # Backward-compat: older scheme with round_2_ prefix
+        files = sorted(
+            p
+            for p in directory.glob("*.jsonl")
+            if p.is_file() and _ROUND2_PREFIX_RE.match(p.name)
+        )
+
+    if not files:
+        # Last resort – take everything
+        print(
+            "! WARNING: No JSONL files matched UUID or round_2_ patterns; "
+            "processing every *.jsonl file in the directory."
+        )
+        files = sorted(p for p in directory.glob("*.jsonl") if p.is_file())
+
+    return files
 
 
 ###############################################################################
@@ -125,6 +175,10 @@ def load_chunks_grouped() -> dict[str, list[Document]]:
 
 def _simplify(s: str) -> str:
     """Return a simplified ASCII-only lowercase string with no separators."""
+    # Remove ingestion-specific decorations before simplification
+    s = _strip_round2_prefix(s)
+    s = _strip_model_suffix(s)
+
     s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = s.lower()
@@ -144,6 +198,10 @@ def _simplify(s: str) -> str:
 
 def _normalize_tokens(s: str) -> list[str]:
     """Return a list of alphanumeric tokens extracted from *s* (accent-stripped)."""
+    # Strip prefix/suffix that are irrelevant for matching
+    s = _strip_round2_prefix(s)
+    s = _strip_model_suffix(s)
+
     s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = s.lower()
@@ -236,16 +294,37 @@ def main() -> None:
     _unmatched_files: list[str] = []
     _enriched_docs: int = 0
 
-    for doc_key, doc_list in chunk_dict.items():
-        row, match_method = _find_best_row(doc_key, metadata_df)
+    def _derive_reference_name(docs: list[Document]) -> str:
+        """Return a filename-like string to match against metadata.
+
+        Uses the first document's *source_path* metadata to reconstruct the
+        original PDF/markdown name (without the round_2 prefix or model suffix).
+        Fallbacks to the JSONL key (UUID) if unavailable.
+        """
+        if not docs:
+            return ""
+
+        source_path = docs[0].metadata.get("source_path", "")
+        basename = Path(source_path).name
+        # Remove ingestion prefix and model suffix
+        basename = _strip_round2_prefix(basename)
+        basename = _strip_model_suffix(basename)
+        return basename
+
+    for jsonl_uuid, doc_list in chunk_dict.items():
+        reference_name = _derive_reference_name(doc_list) or jsonl_uuid
+
+        row, match_method = _find_best_row(reference_name, metadata_df)
         enriched = row is not None
 
         if not enriched:
             print(
-                f"! WARNING: No metadata row matched for '{doc_key}' (simplified='{_simplify(doc_key)}')"
+                f"! WARNING: No metadata row matched for '{reference_name}' (simplified='{_simplify(reference_name)}')"
             )
-            _unmatched_files.append(doc_key)
-            _file_info.append((doc_key, len(doc_list), False, None, [], match_method))
+            _unmatched_files.append(reference_name)
+            _file_info.append(
+                (jsonl_uuid, len(doc_list), False, None, [], match_method)
+            )
             continue
 
         # When we reach here, we have a matching metadata row ------------------
@@ -258,7 +337,14 @@ def main() -> None:
             d.metadata.update(row_meta)
         _enriched_docs += len(doc_list)
         _file_info.append(
-            (doc_key, len(doc_list), True, matched_name, fields_updated, match_method)
+            (
+                jsonl_uuid,
+                len(doc_list),
+                True,
+                matched_name,
+                fields_updated,
+                match_method,
+            )
         )
 
     # ----------------------------- Persist augmented chunks ------------------

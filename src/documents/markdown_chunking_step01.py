@@ -14,6 +14,7 @@ inserted into a vector store for Retrieval-Augmented Generation (RAG).
 
 from __future__ import annotations
 
+import re
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -34,9 +35,35 @@ load_dotenv(override=True)
 # Helpers                                                                     #
 ###############################################################################
 
+# Prefix used by the second ingestion round to uniquely identify files
+_MD_PREFIX = "round_2_"
+
+# ---------------------------------------------------------------------------
+# Naming helpers                                                              #
+# ---------------------------------------------------------------------------
+
+# Regex to capture the 8-char hexadecimal UUID used in round_2 filenames
+_UUID_REGEX: re.Pattern = re.compile(r"^round_2_([0-9a-f]{8})_", re.IGNORECASE)
+
+
+def _extract_uuid(file_name: str) -> str | None:
+    """Return the hexadecimal UUID captured from *file_name* or *None*."""
+    m = _UUID_REGEX.match(file_name)
+    if m:
+        return m.group(1)
+    return None
+
 
 def collect_markdown_files() -> list[Path]:
-    """Return a list with paths to all refined Markdown files."""
+    """Return a list of refined Markdown paths belonging to the current ingestion round.
+
+    The parsing pipeline stores every file with a unique name that starts with
+    the ``round_2_`` prefix (e.g., ``round_2_8fae1c34_myfile_gpt-4.1.md``).  To
+    avoid mixing previous ingestion rounds, we initially restrict the search
+    to that prefix.  If **no** files are found (e.g., when running on an
+    earlier dataset), we gracefully fall back to *all* ``*.md`` files while
+    logging a warning so users are aware of the situation.
+    """
     directory = Path(MARKDOWN_REFINED_COLLECTION_DIR)
     if not directory.exists():
         raise FileNotFoundError(
@@ -44,8 +71,22 @@ def collect_markdown_files() -> list[Path]:
             "Make sure the refined Markdown collection has been generated."
         )
 
-    # Collect every file that ends with .md inside the directory (non-recursive)
-    return sorted(p for p in directory.glob("*.md") if p.is_file())
+    # First, look for Markdown files that follow the expected naming scheme
+    files = sorted(
+        p
+        for p in directory.glob("*.md")
+        if p.is_file() and p.name.startswith(_MD_PREFIX)
+    )
+
+    if not files:
+        # No files with the prefix were found – keep backward-compatibility
+        print(
+            f"! WARNING: No markdown files found with prefix '{_MD_PREFIX}'. "
+            "Falling back to every *.md file in the directory."
+        )
+        files = sorted(p for p in directory.glob("*.md") if p.is_file())
+
+    return files
 
 
 ###############################################################################
@@ -85,6 +126,12 @@ def _chunk_single_markdown(text: str, source_path: Path) -> Sequence[Document]:
         A sequence of `Document` objects with ``page_content`` ≤ ``chunk_size``
         and rich metadata (heading hierarchy, source, chunk index).
     """
+    # Extract UUID from the file name once and attach it to every chunk's metadata
+    doc_uuid: str | None = _extract_uuid(source_path.name)
+    if doc_uuid is None:
+        print(f"! WARNING: Could not extract UUID from {source_path.name}")
+        doc_uuid = "unknown"
+
     header_docs = _HEADER_SPLITTER.split_text(text)
 
     chunks: list[Document] = []
@@ -95,6 +142,7 @@ def _chunk_single_markdown(text: str, source_path: Path) -> Sequence[Document]:
             metadata = {
                 **doc.metadata,  # heading hierarchy (e.g., {"h1": ..., "h2": ...})
                 "source_path": str(source_path),
+                "doc_uuid": doc_uuid,
                 "chunk_index": idx,
             }
             chunks.append(Document(page_content=chunk_text, metadata=metadata))
@@ -130,10 +178,18 @@ from collections import defaultdict
 
 
 def _group_chunks_by_source(docs: Sequence[Document]):
+    """Group *docs* by their extracted UUID so each original PDF maps to one file."""
     grouped: dict[str, list[Document]] = defaultdict(list)
     for doc in docs:
-        source = doc.metadata.get("source_path", "unknown")
-        grouped[source].append(doc)
+        uuid = doc.metadata.get("doc_uuid")
+        if not uuid:
+            # Fallback extraction if somehow missing
+            uuid = (
+                _extract_uuid(Path(doc.metadata.get("source_path", "")).name)
+                or "unknown"
+            )
+            doc.metadata["doc_uuid"] = uuid
+        grouped[uuid].append(doc)
     return grouped
 
 
@@ -162,9 +218,9 @@ def save_chunks_to_jsonl(
 
     grouped = _group_chunks_by_source(docs)
 
-    for source_path, doc_list in grouped.items():
-        # Use the stem of the original file for naming
-        file_name = Path(source_path).stem + ".jsonl"
+    for uuid_key, doc_list in grouped.items():
+        # Save one JSONL per original document UUID
+        file_name = f"{uuid_key}.jsonl"
         output_path = output_dir / file_name
         with open(output_path, "w", encoding="utf-8") as fh:
             for d in doc_list:
