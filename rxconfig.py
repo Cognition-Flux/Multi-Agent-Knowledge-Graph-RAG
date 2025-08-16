@@ -1,5 +1,4 @@
-"""
-Este fichero define la configuración *global* de Reflex para la aplicación.
+"""Este fichero define la configuración *global* de Reflex para la aplicación.
 Al mantenerse en la raíz del proyecto, **Reflex** lo detecta automáticamente
 al arrancar y utiliza los parámetros aquí declarados —principalmente
 `app_name`— para:
@@ -11,10 +10,14 @@ import os
 
 import reflex as rx
 
+
 app_name = os.getenv("REFLEX_APP_NAME", "pathway_front")
 
 config = rx.Config(
     app_name=app_name,
     frontend_port=3000,
     tailwind=None,  # Explicitly disable Tailwind CSS since this project doesn't use it
+    disable_plugins=[
+        "reflex.plugins.sitemap.SitemapPlugin",
+    ],
 )

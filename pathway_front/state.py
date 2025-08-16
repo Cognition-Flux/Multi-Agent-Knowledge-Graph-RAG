@@ -152,7 +152,7 @@ class State(rx.State):
         if current_time - self.last_update <= 2:
             return
 
-        yaml_path = Path("pathway/vectorstore/indexed_pdfs.yaml")
+        yaml_path = Path("data/indexed_pdfs.yaml")
 
         if not yaml_path.exists():
             # Si el archivo no existe, limpiamos la lista y salimos.
@@ -194,7 +194,7 @@ class State(rx.State):
         if current_time - self.last_update_tables <= 2:
             return
 
-        yaml_path = Path("pathway/agent_for_tables/loaded_tables.yaml")
+        yaml_path = Path("data/loaded_tables.yaml")
 
         if not yaml_path.exists():
             self.tables_list = []
