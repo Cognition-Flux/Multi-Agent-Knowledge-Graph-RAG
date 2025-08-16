@@ -38,6 +38,7 @@ dependencies = [
     "pymupdf>=1.26.3",
     "markdownify>=0.13.1",
     "reflex>=0.8.6",
+    "plotly>=6.3.0",
 ]
 
 [tool.ruff]

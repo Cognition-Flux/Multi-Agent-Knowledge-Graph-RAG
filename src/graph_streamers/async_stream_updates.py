@@ -93,7 +93,7 @@ async def async_stream_graph(
             and len(messages["messages"]) > 0
             and isinstance(messages["messages"][-1], AIMessage)
         ):
-            yield messages["messages"][-1].content
+            yield (messages["messages"][-1].content, None, None)
 
 
 if __name__ == "__main__":
