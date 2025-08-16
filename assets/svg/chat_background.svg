@@ -52,7 +52,7 @@
   <!-- Texto con relleno de gradiente (sin bordes) -->
   <g transform="translate(455, 358)">
     <text x="0" y="0" font-family="'Poppins', sans-serif" font-size="20" font-weight="0" text-anchor="middle" letter-spacing="1">
-      <tspan fill="url(#glass-gradient-0)">NVIRO Agent</tspan>
+      <tspan fill="url(#glass-gradient-0)">>nviro Agent</tspan>
     </text>
     <text x="0" y="30" font-family="'Poppins', sans-serif" font-size="18" font-weight="20"
           text-anchor="middle" fill="url(#glass-gradient-light)">
