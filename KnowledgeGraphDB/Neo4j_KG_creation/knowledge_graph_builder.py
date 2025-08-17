@@ -472,6 +472,13 @@ async def build_kg_from_docs(docs: list[Document]) -> None:
 
         created = _with_retry(_ensure_chunk)
 
+        # Si el chunk ya existía, lo omitimos para evitar duplicados y sobrecarga innecesaria
+        if not created:
+            print(
+                f"⚠️  Chunk duplicado detectado (uid={chunk_uid}). Se omite procesamiento."
+            )
+            continue
+
         # 2) Embedding del chunk y seteo de propiedad para vector index (best-effort)
         if embedder is not None and created:
             with contextlib.suppress(Exception):
