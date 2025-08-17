@@ -1,0 +1,85 @@
+---
+description: |
+  This rule outlines best practices for building asynchronous LangGraph agents. Use it as a guide when creating new agents or refactoring existing ones. The key principles are:
+
+  1.  **Asynchronous First**: All nodes and chain calls must be asynchronous (`async def`, `await chain.ainvoke`).
+  2.  **Node-Driven Control Flow**: Use the `Command` object within nodes to manage state updates and routing (`goto`). This simplifies the graph definition, requiring only a single `START` edge.
+  3.  **Parallelism for Efficiency**: For map-reduce tasks, use `Send` to fan-out operations in parallel.
+
+  Apply these guidelines to ensure new and existing LangGraph code is robust, maintainable, and efficient. Propose refactoring when you see synchronous code or graphs with manually defined edges between every node.
+alwaysApply: false
+---
+# LangGraph Node and Graph Guidelines
+
+This document provides guidelines for building robust and maintainable asynchronous agentic workflows using LangGraph, based on the patterns established in this project.
+
+## 1. Asynchronous by Default
+
+All graph nodes and LLM chain invocations **must** be asynchronous to ensure non-blocking execution.
+
+- **Node Functions**: Define all node functions with `async def`.
+- **Chain Invocations**: Use `await chain.ainvoke(...)` for all LLM chain calls.
+
+```python
+# Example from: src/agents/cypher_query_agent/agent_logic.py
+
+async def generate_cypher_query(
+    state: Neo4jQueryState,
+) -> Command[Literal["run_cypher_query_in_parallel"]]:
+    """Node that generates a single Cypher query from an augmented question."""
+    query_str = state["query"]
+    logging.info("Generating Cypher query for: '%s'", query_str)
+    # Always use await and ainvoke
+    cypher_res = await cypher_chain.ainvoke({"input": query_str})
+    return Command(
+        goto="run_cypher_query_in_parallel",
+        update={"cypher_queries": cypher_res.cypher_query},
+    )
+```
+
+## 2. Control Flow with `Command`
+
+Graph routing and state updates should be managed within the nodes themselves by returning a `Command` object. This centralizes the logic and simplifies the graph definition.
+
+- **State and Routing**: A `Command` object can specify both a state update (`update={...}`) and the next node to execute (`goto="..."`).
+- **Single Entry Edge**: Because `Command` handles all subsequent routing, the graph builder only needs to define the entry point. No other edges are necessary.
+
+```python
+# Example from: src/agents/cypher_query_agent/graph_builder.py
+
+# Add all the nodes
+builder.add_node("generate_questions", generate_questions)
+# ... other nodes
+
+# Define only the graph's entry point
+builder.add_edge(START, "generate_questions")
+
+# The graph is complete.
+graph = builder.compile()
+```
+
+## 3. Parallelism with `Send`
+
+For map-reduce style tasks where an operation needs to be performed in parallel across a list of items, use `Send` within a `Command`.
+
+- **Fan-Out**: A node can return a `Command` containing a list of `Send` objects. Each `Send` will trigger a parallel execution of the target node with the specified payload.
+- **Fan-In**: The results from the parallel executions are automatically collected and reduced in the state, as defined by your state's reducers (e.g., `Annotated[list[str], reduce_lists]`).
+
+```python
+# Example from: src/agents/cypher_query_agent/agent_logic.py
+
+async def generate_cypher_queries_in_parallel(
+    state: Neo4jQueryState,
+) -> Command[list[Send]]:
+    """Node that fans out to generate a Cypher query for each augmented question."""
+    # ...
+    sends = [
+        Send(
+            "generate_cypher_query",  # Target node for parallel execution
+            {"query": query},         # Payload for each invocation
+        )
+        for query in lista_de_queries
+    ]
+    # The `goto` here triggers the fan-out
+    return Command(goto=sends)
+```

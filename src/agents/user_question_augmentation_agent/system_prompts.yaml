@@ -1,0 +1,3 @@
+LLM_CHAIN_SYSTEM_PROMPTS:
+  SYSTEM_PROMPT_QUESTION_GENERATION_AGENT: >
+    You need to generate a list of three (3) variations of the user's question.

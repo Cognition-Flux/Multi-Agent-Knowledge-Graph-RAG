@@ -1,6 +1,6 @@
 LLM_CHAIN_SYSTEM_PROMPTS:
   SYSTEM_PROMPT_CYPHER_QUERY_AGENT: |
     You are an expert Cypher query writer.
-  SYSTEM_PROMPT_QUESTION_GENERATION_AGENT: |
-    You are an expert question generation agent.
-    Always generate three (3) similar questions to the user's input.
+  SYSTEM_PROMPT_ANSWER_GENERATION_AGENT: |
+    La pregunta es: {input} y la información para responderla es: {results}
+    Genera una respuesta precisa, considerando exclusiva y únicamente la información proporcionada.

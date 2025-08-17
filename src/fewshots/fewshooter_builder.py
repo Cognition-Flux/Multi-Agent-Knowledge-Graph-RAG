@@ -22,6 +22,29 @@ load_dotenv(override=True)
 DEFAULT_FEWSHOTS_PATH = Path(__file__).parent / "fewshots.yaml"
 
 
+def _transform_sequential_pairs(
+    items: list[dict[str, str]],
+) -> list[dict[str, str]]:
+    """Transform a list of sequential {'input': v1}, {'output': v2} pairs into {'input': v1, 'output': v2}.
+
+    Handles cases where keys are missing or the list has an odd length.
+    """
+    transformed = []
+    i = 0
+    while i < len(items) - 1:
+        item1 = items[i]
+        item2 = items[i + 1]
+        # Heuristic: check if the first item has 'input' and the second has 'output'
+        if "input" in item1 and "output" in item2:
+            transformed.append({"input": item1["input"], "output": item2["output"]})
+            i += 2  # Move to the next pair
+        else:
+            # If the pattern is broken, handle individually (or skip)
+            # For now, we just advance by one to allow recovery
+            i += 1
+    return transformed
+
+
 def create_dynamic_fewshooter(
     yaml_path: Path | None = None,
     input_key: str = "input",
@@ -80,6 +103,11 @@ def create_dynamic_fewshooter(
                 f"{sorted(obj.keys())}"
             )
 
+        # Pre-transform sequential pairs if detected
+        for g, items in list_like_groups.items():
+            if all("input" in d or "output" in d for d in items if isinstance(d, dict)):
+                list_like_groups[g] = _transform_sequential_pairs(items)
+
         if group is not None:
             if group not in list_like_groups:
                 raise KeyError(
@@ -112,6 +140,9 @@ def create_dynamic_fewshooter(
 
     if isinstance(data, list):
         rows = [row for row in data if isinstance(row, dict)]
+        # Check for sequential pair format in a top-level list
+        if all("input" in d or "output" in d for d in rows):
+            rows = _transform_sequential_pairs(rows)
     elif isinstance(data, dict):
         rows = _select_rows_from_grouped_yaml(data)
     else:
@@ -194,10 +225,32 @@ def create_dynamic_fewshooter(
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Create and test a dynamic few-shot prompt."
+    )
+    parser.add_argument(
+        "--yaml_path",
+        type=Path,
+        default=Path(__file__).parent / "fewshots_format.yaml",
+        help="Path to the YAML file with few-shot examples.",
+    )
+    parser.add_argument("-k", type=int, default=2, help="Number of examples to select.")
+    parser.add_argument(
+        "--group",
+        type=str,
+        default="TARGET_LLM_CHAIN_2",
+        help="Group name inside the YAML file.",
+    )
+    args = parser.parse_args()
+
     SYSTEM_PROMPT = (
         "You are a helpful assistant that can answer questions about the graph."
     )
-    FEW_SHOT_PROMPT = create_dynamic_fewshooter(k=2, group="FEW_SHOTS_CYPHER_QUERY")
+    FEW_SHOT_PROMPT = create_dynamic_fewshooter(
+        yaml_path=args.yaml_path, k=args.k, group=args.group
+    )
     TEST_PROMPT = ChatPromptTemplate.from_messages(
         [
             ("system", SYSTEM_PROMPT),

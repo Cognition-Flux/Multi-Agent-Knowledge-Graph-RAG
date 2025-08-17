@@ -76,12 +76,18 @@ class CypherQuery(BaseModel):
 
     @field_validator("cypher_query")
     @classmethod
-    def _strip_and_validate_non_empty(cls, value: str) -> str:
+    def _strip_and_validate(cls, value: str) -> str:
+        """Sanitise the query in case the LLM returned it inside markdown fences."""
         cleaned = str(value).strip()
-        # Remove common markdown fences if present
-        cleaned = (
-            cleaned.replace("```cypher", "").replace("```CYPHER", "").replace("```", "")
-        ).strip()
+        if cleaned.startswith("```"):
+            # Remove leading/trailing code fences
+            stripped = cleaned.strip("`").strip()
+            # If language identifier present (e.g. ```cypher), drop first line
+            if "\n" in stripped:
+                first_line, rest = stripped.split("\n", 1)
+                cleaned = rest if first_line.lower().startswith("cypher") else stripped
+            else:
+                cleaned = stripped
         if not cleaned:
             raise ValueError("cypher_query must be non-empty")
         return cleaned
@@ -100,7 +106,14 @@ class Neo4jQueryState(MessagesState):
     results: Annotated[list[str], reduce_lists] = Field(default_factory=list)
 
 
+class Answer(BaseModel):
+    """Answer schema."""
+
+    answer: str = Field(description="The answer to the question.")
+
+
 __all__ = [
+    "Answer",
     "CypherQuery",
     "GeneratedQueries",
     "Neo4jQueryState",

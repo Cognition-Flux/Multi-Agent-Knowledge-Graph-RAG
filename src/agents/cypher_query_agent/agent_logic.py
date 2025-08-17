@@ -1,6 +1,10 @@
+"""This module contains the logic for the Cypher Query Agent."""
+
 # %%
 from __future__ import annotations
 
+import json
+import logging
 from typing import Literal
 
 from dotenv import load_dotenv
@@ -12,45 +16,47 @@ from KnowledgeGraphDB.Neo4j_KG_creation.cypher_runner import run_cypher
 from src.agents.cypher_query_agent.llm_chains import (
     get_answer_generation_chain,
     get_cypher_query_chain,
-    get_question_generation_chain,
 )
 from src.agents.cypher_query_agent.schemas import Neo4jQueryState
+from src.agents.user_question_augmentation_agent.llm_chains import (
+    get_question_generation_chain,
+)
 
 
+# --- Setup ---
 load_dotenv(override=True)
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 
-def sanitise_query(query: str) -> str:
-    """Sanitise the query in case the LLM returned it inside markdown fences."""
-    if query.startswith("```"):
-        # Remove leading/trailing code fences
-        stripped = query.strip("`").strip()
-        # If language identifier present (e.g. ```cypher), drop first line
-        if "\n" in stripped:
-            first_line, rest = stripped.split("\n", 1)
-            query = rest if first_line.lower().startswith("cypher") else stripped
-        else:
-            query = stripped
-    return query
-
-
-def safe_run_cypher(query: str) -> str | list[dict[str, any]]:
-    """Devuelve el resultado de la consulta o un string de error en formato de lista."""
-    try:
-        return run_cypher(query)
-    except Exception as exc:
-        return [f"ERROR: {exc}"]
-
-
-cypher_chain = get_cypher_query_chain(group="FEW_SHOTS_CYPHER_QUERY", k=2)
-qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION", k=2)
+# --- LLM Chains ---
+cypher_chain = get_cypher_query_chain(group="FEW_SHOTS_CYPHER_QUERY", k=5)
+qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION", k=5)
 answer_chain = get_answer_generation_chain()
 
 
+# --- Helper Functions ---
+def safe_run_cypher(query: str) -> str:
+    """Run Cypher query and return results as a JSON string.
+
+    On error, return a JSON string with an 'error' key.
+    """
+    try:
+        result = run_cypher(query)
+        # Ensure results are JSON serializable
+        return json.dumps(result, ensure_ascii=False)
+    except Exception as exc:
+        logging.error("Error running Cypher query: %s", exc)
+        return json.dumps({"error": f"ERROR: {exc}"}, ensure_ascii=False)
+
+
+# --- Graph Nodes ---
 async def generate_questions(
     state: Neo4jQueryState,
-) -> Command[Literal["generate_cypher_query"]]:
-    """Node that generates queries."""
+) -> Command[Literal["generate_cypher_queries_in_parallel"]]:
+    """Node that generates alternative questions to augment the user's input."""
+    logging.info("Generating alternative questions...")
     generated_questions = await qgen_chain.ainvoke({"input": state["question"]})
     return Command(
         goto="generate_cypher_queries_in_parallel",
@@ -61,12 +67,11 @@ async def generate_questions(
 async def generate_cypher_queries_in_parallel(
     state: Neo4jQueryState,
 ) -> Command[list[Send]]:
-    """Node that generates Cypher queries in parallel."""
+    """Node that fans out to generate a Cypher query for each augmented question."""
+    logging.info("Generating Cypher queries in parallel for all questions...")
     lista_de_queries = [
         query.query_str for query in state["generated_questions"].queries_list
     ]
-
-    print(f"lista_de_queries: {lista_de_queries}")
     sends = [
         Send(
             "generate_cypher_query",
@@ -80,25 +85,22 @@ async def generate_cypher_queries_in_parallel(
 async def generate_cypher_query(
     state: Neo4jQueryState,
 ) -> Command[Literal["run_cypher_query_in_parallel"]]:
-    """Node that generates a Cypher query."""
+    """Node that generates a single Cypher query from an augmented question."""
     query_str = state["query"]
-
-    response = await cypher_chain.ainvoke({"input": query_str})
-    raw_query = response.cypher_query.strip()
-
-    cypher_query = sanitise_query(raw_query)
-
+    logging.info("Generating Cypher query for: '%s'", query_str)
+    cypher_res = await cypher_chain.ainvoke({"input": query_str})
     return Command(
-        goto="run_cypher_query_in_parallel", update={"cypher_queries": [cypher_query]}
+        goto="run_cypher_query_in_parallel",
+        update={"cypher_queries": cypher_res.cypher_query},
     )
 
 
 async def run_cypher_query_in_parallel(
     state: Neo4jQueryState,
 ) -> Command[list[Send]]:
-    """Node that runs a Cypher query."""
+    """Node that fans out to execute each generated Cypher query."""
+    logging.info("Executing all Cypher queries in parallel...")
     lista_de_cypher_queries = list(state["cypher_queries"])
-    print(f"lista_de_cypher_queries: {lista_de_cypher_queries}")
     sends = [
         Send(
             "run_cypher_query",
@@ -112,30 +114,25 @@ async def run_cypher_query_in_parallel(
 async def run_cypher_query(
     state: Neo4jQueryState,
 ) -> Command[Literal["generate_answer"]]:
-    """Node that runs a Cypher query."""
+    """Node that executes a single Cypher query and returns the result."""
     cypher_query = state["cypher_query"]
-    print(f"################## cypher_query: {cypher_query}")
-    results = str(safe_run_cypher(cypher_query))
-    print(f"################## results: {results}")
-
-    return Command(goto="generate_answer", update={"results": [results]})
+    logging.info("Running Cypher query: %s", cypher_query)
+    results = safe_run_cypher(cypher_query)
+    logging.info("Query results: %s", results)
+    return Command(goto="generate_answer", update={"results": results})
 
 
 async def generate_answer(
     state: Neo4jQueryState,
 ) -> Command[Literal[END]]:
-    """Node that generates an answer."""
-    results = state["results"]
-    print(f"################## results: {results}")
+    """Node that synthesizes a final answer from the aggregated query results."""
+    logging.info("Generating the final answer...")
     question = state["question"]
-    print(f"################## question: {question}")
-
     input_for_llm = {
         "input": question,
-        "results": results,
+        "results": "\n".join(state["results"]),
     }
     response = await answer_chain.ainvoke(input_for_llm)
-
     return Command(goto=END, update={"messages": [AIMessage(content=response.answer)]})
 
 

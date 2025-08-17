@@ -28,21 +28,30 @@ from src.agents.cypher_query_agent.schemas import Neo4jQueryState
 
 builder = StateGraph(Neo4jQueryState)
 
+# 1. Generate questions
 builder.add_node("generate_questions", generate_questions)
 builder.add_node(
     "generate_cypher_queries_in_parallel", generate_cypher_queries_in_parallel
 )
+
+# 2. Generate Cypher queries
 builder.add_node("generate_cypher_query", generate_cypher_query)
 builder.add_node("run_cypher_query_in_parallel", run_cypher_query_in_parallel)
+
+# 3. Run Cypher queries and generate answer
 builder.add_node("run_cypher_query", run_cypher_query)
 builder.add_node("generate_answer", generate_answer)
+
+# 4. Define the graph's entry
 builder.add_edge(START, "generate_questions")
+
 graph = builder.compile()
+
 if __name__ == "__main__":
 
     async def _main() -> None:
         async for _chunk in graph.astream(
-            {"question": "que comunas tienen proyectos?"},
+            {"question": "la comuna con más proyectos"},
             stream_mode="updates",
             subgraphs=True,
             debug=True,

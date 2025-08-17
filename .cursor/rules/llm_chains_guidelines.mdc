@@ -1,5 +1,5 @@
 ---
-description: Guía práctica para construir LANGCHAIN LLM chains LCEL con few-shots y salidas estructuradas (Pydantic). Cubre: principios, construcción de prompts con FewShotChatMessagePromptTemplate, definición/validación de schemas, ensamblado con with_structured_output + postproceso (RunnableLambda) + with_retry, cacheo por (system_prompt, k), fábricas parametrizables, pruebas con pytest y ejecución con uv, y errores comunes (Callable vs callable, tipos en pipes). Úsala al crear o modificar cadenas como
+description: Guía práctica para construir LLM chains modulares y robustas con LangChain (LCEL), enfocada en few-shots y salidas estructuradas (Pydantic). Cubre: principios de diseño (modularidad, robustez), estructura de archivos recomendada, construcción de prompts dinámicos, validación de schemas, ensamblado de chains reusables con post-proceso y reintentos, cacheo, y testing. Úsala para crear o refactorizar chains, promoviendo la consistencia y mantenibilidad.
 alwaysApply: false
 ---
 ### Rule: Guía para escribir chains con structured outputs y few-shots
@@ -10,25 +10,39 @@ Esta guía estandariza cómo construir chains similares a `src/agents/cypher_que
 - Ser reusables/parametrizables para distintos system prompts y esquemas
 
 #### Principios
-- Determinismo por defecto: `temperature=0`
-- Robustez: `.with_retry(...)` a nivel de pipeline completo
-- Validación temprana: Pydantic (limpieza mínima y `extra="forbid"`)
-- Composición: builder genérico para distintos `system_prompt` + `output_schema`
-- Eficiencia: cachear prompts/selector (p.ej. `@lru_cache`) por `(system_prompt, k)`
+- **Determinismo por defecto**: `temperature=0`
+- **Robustez**: `.with_retry(...)` a nivel de pipeline completo
+- **Validación temprana**: Pydantic (limpieza mínima y `extra="forbid"`)
+- **Composición y Modularidad**: Abstraer la lógica de construcción de chains en un builder genérico y reutilizable (e.g., `src/chains/llm_chain_builder.py`). Las chains específicas de cada agente deben ser "fábricas" simples que invocan este builder con su `system_prompt`, `output_schema`, y `fewshots.yaml` específicos.
+- **Eficiencia**: cachear prompts/selector (p.ej. `@lru_cache`) por `(system_prompt, k, group, yaml_path)` para evitar reconstruir el vectorstore en cada llamada.
+
+#### Estructura de Archivos Recomendada
+
+Para maximizar la modularidad y mantenibilidad, organiza el código de la siguiente manera:
+
+-   **`src/chains/llm_chain_builder.py`**: Contiene el `build_structured_chain` genérico. Es el motor reutilizable para construir cualquier chain estructurada.
+-   **`src/agents/<agent_name>/llm_chains.py`**: Define las "fábricas" de chains para un agente específico (e.g., `get_cypher_query_chain`). Importa el builder genérico y lo configura con los recursos del agente.
+-   **`src/agents/<agent_name>/schemas.py`**: Define los esquemas Pydantic (`BaseModel`) para las salidas estructuradas del agente.
+-   **`src/agents/<agent_name>/system_prompts.yaml`**: Almacena los system prompts del agente.
+-   **`src/agents/<agent_name>/fewshots.yaml`**: Contiene los ejemplos few-shot para el agente.
 
 #### Prompt y few-shots
 - Usa `ChatPromptTemplate.from_messages` e intermedia un `FewShotChatMessagePromptTemplate` (selector semántico) con `input_variables=["input"]`.
-- Construye el few-shooter dinámico con un builder tipo `create_dynamic_fewshooter(k=K)` que:
-  - Carga YAMLs y autodetecta claves (e.g. `pregunta`/`cypher_query`)
-  - Embeddings con fallback y sin dependencias en tests (permitir monkeypatch)
-  - `k` se acota a `[1, len(examples)]`
+- Construye el few-shooter dinámico con un builder tipo `create_dynamic_fewshooter` que:
+  - Carga YAMLs y autodetecta claves (e.g. `pregunta`/`cypher_query`) o formatos (pares secuenciales).
+  - Embeddings con fallback y sin dependencias en tests (permitir monkeypatch).
+  - `k` se acota a `[1, len(examples)]`.
 
-Ejemplo de construcción de prompt (simplificado):
+Ejemplo de construcción de prompt (parte del builder genérico):
 
 ```python
+from pathlib import Path
+from functools import lru_cache
+from langchain_core.prompts import ChatPromptTemplate
+
 @lru_cache(maxsize=16)
-def build_prompt(system_prompt: str, k: int = 3) -> ChatPromptTemplate:
-    few_shooter = create_dynamic_fewshooter(k=k)
+def build_prompt(system_prompt: str, k: int = 5, group: str | None = None, yaml_path: Path | None = None) -> ChatPromptTemplate:
+    few_shooter = create_dynamic_fewshooter(k=k, group=group, yaml_path=yaml_path)
     return ChatPromptTemplate.from_messages([
         ("system", system_prompt),
         ("system", "## A continuación, ejemplos de requerimientos y respuestas parecidas:"),
@@ -84,18 +98,37 @@ class GeneratedQueries(BaseModel):
 - Envuelve la pipeline con `.with_retry(stop_after_attempt=3)` para robustez.
 - Si necesitas reglas de negocio adicionales, añade un post-proceso con `RunnableLambda` que pueda `raise` para activar el retry.
 
-Patrón recomendado:
+Patrón recomendado (en `src/chains/llm_chain_builder.py`):
 
 ```python
 from __future__ import annotations
 
 from collections.abc import Callable
+from pathlib import Path
 from langchain_core.runnables import Runnable, RunnableLambda
+from pydantic import BaseModel
 
-def build_structured_chain(*, system_prompt: str, output_schema: type[BaseModel], k: int = 3,
-                          temperature: float = 0, postprocess: Callable | None = None) -> Runnable:
+from src.utils import get_llm
+
+# La función build_prompt(...) definida anteriormente iría aquí.
+
+def build_structured_chain(
+    *,
+    system_prompt: str,
+    output_schema: type[BaseModel],
+    k: int = 5,
+    temperature: float = 0,
+    postprocess: Callable | None = None,
+    group: str | None = None,
+    yaml_path: Path | None = None,
+) -> Runnable:
     llm = get_llm().bind(temperature=temperature)
-    prompt = build_prompt(system_prompt=system_prompt, k=k)
+    prompt = build_prompt(
+        system_prompt=system_prompt,
+        k=k,
+        group=group,
+        yaml_path=yaml_path,
+    )
     pipe: Runnable = prompt | llm.with_structured_output(output_schema)
     if postprocess is not None:
         pipe = pipe | RunnableLambda(postprocess)
@@ -112,17 +145,34 @@ def _ensure_return_clause(output: CypherQuery) -> CypherQuery:
 ```
 
 #### Fábricas de cadenas
-- Expón funciones de conveniencia por agente, p.ej.:
+- En `src/agents/<agent_name>/llm_chains.py`, expón funciones de conveniencia por agente:
 
 ```python
-def get_cypher_query_chain(k: int = 3) -> Runnable:
-    return build_structured_chain(system_prompt=SYSTEM_PROMPT_CYPHER_QUERY_AGENT,
-                                  output_schema=CypherQuery, k=k, temperature=0,
-                                  postprocess=_ensure_return_clause)
+from pathlib import Path
 
-def get_question_generation_chain(k: int = 3) -> Runnable:
-    return build_structured_chain(system_prompt=SYSTEM_PROMPT_QUESTION_GENERATION_AGENT,
-                                  output_schema=GeneratedQueries, k=k, temperature=0)
+# Suponiendo que los system prompts y schemas están definidos en este módulo
+# y que build_structured_chain es importado de src.chains.llm_chain_builder.
+
+def get_cypher_query_chain(k: int = 5) -> Runnable:
+    return build_structured_chain(
+        system_prompt=SYSTEM_PROMPT_CYPHER_QUERY_AGENT,
+        output_schema=CypherQuery,
+        k=k,
+        temperature=0,
+        postprocess=_ensure_return_clause,
+        group="FEW_SHOTS_CYPHER_QUERY",
+        yaml_path=Path(__file__).parent / "fewshots.yaml",
+    )
+
+def get_question_generation_chain(k: int = 5) -> Runnable:
+    return build_structured_chain(
+        system_prompt=SYSTEM_PROMPT_QUESTION_GENERATION_AGENT,
+        output_schema=GeneratedQueries,
+        k=k,
+        temperature=0,
+        group="FEW_SHOTS_QUESTIONS_GENERATION",
+        yaml_path=Path(__file__).parent / "fewshots.yaml",
+    )
 ```
 
 #### Ejecución con uv
@@ -135,167 +185,7 @@ uv run -m src.agents.cypher_query_agent.llm_chains
 - Invocar programáticamente:
 
 ```python
-chain = get_cypher_query_chain(k=3)
-res = chain.invoke({"input": "tu consulta"})
-print(res.model_dump())
-```
-
-#### Pruebas (pytest)
-- Evita dependencias externas monkeypatcheando embeddings.
-- Crea YAML temporal, verifica selección `k` y `format_messages`.
-
-```bash
-uv run -m pytest -q src/agents/cypher_query_agent/tests.py
-```
-
-#### Errores comunes y cómo evitarlos
-- No uses el builtin `callable` en anotaciones de tipo. Usa `typing.Callable` o `collections.abc.Callable`:
-  - Correcto: `postprocess: Callable | None`
-  - Incorrecto: `postprocess: callable | None` (puede provocar `TypeError` al usar `|`)
-- Importa `Callable` explícitamente y/o activa `from __future__ import annotations` para posponer evaluación de anotaciones.
-- Asegúrate de que ambos lados del operador `|` en LCEL sean `Runnable`s. No encadenes `None`:
-  - `if postprocess is not None: pipe = pipe | RunnableLambda(postprocess)`
-- Evita sombras de nombres de funciones built-in (p.ej., no llames a una variable `callable`).
-
-#### Estilo y consistencia
-- Docstrings breves, tipos explícitos, `extra="forbid"`, validadores acotados.
-- Limpieza mínima de fences y espacios; no re-formatear strings salvo lo necesario.
-- `temperature=0` por defecto.
-- Mantén funciones puras y componibles; evita efectos secundarios en builders.
-### Rule: Guía para escribir chains con structured outputs y few-shots
-
-Esta guía estandariza cómo construir chains similares a `src/agents/cypher_query_agent/llm_chains.py`, priorizando consistencia, confiabilidad, robustez y corrección. Aplica a agentes que deben:
-- Componer prompts con few-shots dinámicos
-- Enforzar salidas estructuradas (Pydantic) con validación
-- Ser reusables/parametrizables para distintos system prompts y esquemas
-
-#### Principios
-- Determinismo por defecto: `temperature=0`
-- Robustez: `.with_retry(...)` a nivel de pipeline completo
-- Validación temprana: Pydantic (limpieza mínima y `extra="forbid"`)
-- Composición: builder genérico para distintos `system_prompt` + `output_schema`
-- Eficiencia: cachear prompts/selector (p.ej. `@lru_cache`) por `(system_prompt, k)`
-
-#### Prompt y few-shots
-- Usa `ChatPromptTemplate.from_messages` e intermedia un `FewShotChatMessagePromptTemplate` (selector semántico) con `input_variables=["input"]`.
-- Construye el few-shooter dinámico con un builder tipo `create_dynamic_fewshooter(k=K)` que:
-  - Carga YAMLs y autodetecta claves (e.g. `pregunta`/`cypher_query`)
-  - Embeddings con fallback y sin dependencias en tests (permitir monkeypatch)
-  - `k` se acota a `[1, len(examples)]`
-
-Ejemplo de construcción de prompt (simplificado):
-
-```python
-@lru_cache(maxsize=16)
-def build_prompt(system_prompt: str, k: int = 3) -> ChatPromptTemplate:
-    few_shooter = create_dynamic_fewshooter(k=k)
-    return ChatPromptTemplate.from_messages([
-        ("system", system_prompt),
-        ("system", "## A continuación, ejemplos de requerimientos y respuestas parecidas:"),
-        few_shooter,
-        ("system", "## A continuación, el requerimiento del usuario:"),
-        ("human", "{input}"),
-    ])
-```
-
-#### Esquemas de salida (Pydantic)
-- Define `BaseModel` con `extra="forbid"` y validadores que limpien fences y espacios.
-- Para listas, define alias, valida no-vacío y deduplica preservando orden cuando aplique.
-
-Ejemplos:
-
-```python
-class OneQuery(BaseModel):
-    query_str: str = Field(min_length=1, alias="query")
-    model_config = {"extra": "forbid", "populate_by_name": True}
-
-    @field_validator("query_str")
-    def _clean(cls, v: str) -> str:
-        v = v.strip()
-        if v.startswith("```") and v.endswith("```"):
-            v = v.strip("`")
-        v = v.replace("```", "").strip()
-        if not v:
-            raise ValueError("query_str must be non-empty")
-        return v
-
-class GeneratedQueries(BaseModel):
-    queries_list: list[OneQuery] = Field(default_factory=list, alias="queries")
-    model_config = {"extra": "forbid", "populate_by_name": True}
-
-    @model_validator(mode="after")
-    def _validate(cls, self):
-        if not self.queries_list:
-            raise ValueError("queries_list must contain at least one query")
-        seen, uniq = set(), []
-        for it in self.queries_list:
-            key = it.query_str.strip().lower()
-            if key and key not in seen:
-                seen.add(key)
-                uniq.append(it)
-        if not uniq:
-            raise ValueError("queries_list normalization produced empty set")
-        self.queries_list = uniq
-        return self
-```
-
-#### Ensamblado de chains (structured outputs + retry + post-procesado)
-- Une prompt y LLM: `prompt | llm.with_structured_output(OutputSchema)`.
-- Envuelve la pipeline con `.with_retry(stop_after_attempt=3)` para robustez.
-- Si necesitas reglas de negocio adicionales, añade un post-proceso con `RunnableLambda` que pueda `raise` para activar el retry.
-
-Patrón recomendado:
-
-```python
-from __future__ import annotations
-
-from collections.abc import Callable
-from langchain_core.runnables import Runnable, RunnableLambda
-
-def build_structured_chain(*, system_prompt: str, output_schema: type[BaseModel], k: int = 3,
-                          temperature: float = 0, postprocess: Callable | None = None) -> Runnable:
-    llm = get_llm().bind(temperature=temperature)
-    prompt = build_prompt(system_prompt=system_prompt, k=k)
-    pipe: Runnable = prompt | llm.with_structured_output(output_schema)
-    if postprocess is not None:
-        pipe = pipe | RunnableLambda(postprocess)
-    return pipe.with_retry(stop_after_attempt=3)
-```
-
-Ejemplo de post-proceso para Cypher:
-
-```python
-def _ensure_return_clause(output: CypherQuery) -> CypherQuery:
-    if "return" not in output.cypher_query.lower():
-        raise ValueError("cypher_query must contain a RETURN clause")
-    return output
-```
-
-#### Fábricas de cadenas
-- Expón funciones de conveniencia por agente, p.ej.:
-
-```python
-def get_cypher_query_chain(k: int = 3) -> Runnable:
-    return build_structured_chain(system_prompt=SYSTEM_PROMPT_CYPHER_QUERY_AGENT,
-                                  output_schema=CypherQuery, k=k, temperature=0,
-                                  postprocess=_ensure_return_clause)
-
-def get_question_generation_chain(k: int = 3) -> Runnable:
-    return build_structured_chain(system_prompt=SYSTEM_PROMPT_QUESTION_GENERATION_AGENT,
-                                  output_schema=GeneratedQueries, k=k, temperature=0)
-```
-
-#### Ejecución con uv
-- Ejecutar módulo:
-
-```bash
-uv run -m src.agents.cypher_query_agent.llm_chains
-```
-
-- Invocar programáticamente:
-
-```python
-chain = get_cypher_query_chain(k=3)
+chain = get_cypher_query_chain(k=5)
 res = chain.invoke({"input": "tu consulta"})
 print(res.model_dump())
 ```

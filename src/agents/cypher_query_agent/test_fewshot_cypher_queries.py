@@ -31,8 +31,34 @@ if yaml_file_path.exists():
     with yaml_file_path.open(encoding="utf-8") as file:
         few_shots_data = yaml.safe_load(file)
         few_shots_list = few_shots_data.get("FEW_SHOTS_CYPHER_QUERY", [])
-        if few_shots_list:
-            for item in few_shots_list:
+
+        # Handle both old and new sequential formats
+        paired_items = []
+        if (
+            few_shots_list
+            and isinstance(few_shots_list[0], dict)
+            and len(few_shots_list[0]) == 2
+        ):
+            paired_items = few_shots_list
+        else:
+            i = 0
+            while i < len(few_shots_list) - 1:
+                item1 = few_shots_list[i]
+                item2 = few_shots_list[i + 1]
+                # Handle both 'input'/'output' and 'pregunta'/'cypher_query' formats
+                if "input" in item1 and "output" in item2:
+                    paired_items.append(
+                        {"pregunta": item1["input"], "cypher_query": item2["output"]}
+                    )
+                    i += 2
+                elif "pregunta" in item1 and "cypher_query" in item2:
+                    paired_items.append({**item1, **item2})
+                    i += 2
+                else:
+                    i += 1
+
+        if paired_items:
+            for item in paired_items:
                 if "pregunta" in item and "cypher_query" in item:
                     queries_to_run.append(
                         {
@@ -65,16 +91,13 @@ if selected_items:
     )
 
     for index, data in selected_items.items():
-        pregunta = data["pregunta"]
-        cypher_query = data["cypher_query"]
-
         print(f"\n--- Query {index + 1}/{len(queries_to_run)} ---")
-        print(f"Pregunta: {pregunta}")
+        print(f"Pregunta: {data['pregunta']}")
         print("\nCypher Query:")
-        print(cypher_query)
+        print(data["cypher_query"])
 
         try:
-            result = run_cypher(cypher_query)
+            result = run_cypher(data["cypher_query"])
             print("\nResultado:")
             print(json.dumps(result, indent=2, ensure_ascii=False, default=json_serial))
         except Neo4jError as e:

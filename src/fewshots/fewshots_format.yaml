@@ -1,0 +1,26 @@
+TARGET_LLM_CHAIN_1:
+  - input: "Numero de proyectos"
+  - output: |
+      MATCH (p:Proyecto)
+      RETURN COUNT(p) AS total_proyectos
+  - input: "Nombres de los proyectos"
+  - output: |
+      MATCH (p:Proyecto)
+      RETURN p.nombre AS nombre_proyecto
+  - input: "Fecha de presentación de los proyectos"
+  - output: |
+      MATCH (p:Proyecto)
+      RETURN p.fecha_presentacion AS fecha_presentacion
+TARGET_LLM_CHAIN_2:
+  - input: "Numero de proyectos"
+  - output: |
+      MATCH (p:Proyecto)
+      RETURN COUNT(p) AS total_proyectos
+  - input: "Nombres de los proyectos"
+  - output: |
+      MATCH (p:Proyecto)
+      RETURN p.nombre AS nombre_proyecto
+  - input: "Fecha de presentación de los proyectos"
+  - output: |
+      MATCH (p:Proyecto)
+      RETURN p.fecha_presentacion AS fecha_presentacion
