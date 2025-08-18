@@ -1,254 +1,181 @@
-"""graphRAG agent logic.
+"""Hybrid GraphRAG agent logic.
 
-This file contains the logic for the hybrid graphRAG agent.
+This module contains the asynchronous logic for the hybrid GraphRAG agent,
+which generates multiple question variations and searches them in parallel
+using the neo4j_graphrag library.
 """
 
 # %%
 from __future__ import annotations
 
 import asyncio
-import os
-from typing import Annotated, Literal
+import json
+import logging
+from typing import Any, Literal
 
-from dotenv import load_dotenv
-from langchain_core.messages import AIMessage
-from langgraph.graph import END, START, StateGraph
+from langgraph.graph import END
 from langgraph.types import Command, Send
-from neo4j_graphrag.generation import GraphRAG, RagTemplate
-from neo4j_graphrag.llm import AzureOpenAILLM
-from pydantic import BaseModel, Field
 
-from src.agents.cypher_query_agent.llm_chains import get_question_generation_chain
-from src.agents.cypher_query_agent.reducers import reduce_lists
-from src.agents.cypher_query_agent.schemas import GeneratedQueries
-from src.agents.hybrid_graphRAG_agent.hybrid_cypher_retriever import retriever
-
-
-# --------------------------------------------------------------------------- #
-# 1) Entorno e índices
-# --------------------------------------------------------------------------- #
-
-load_dotenv(override=True)
-
-llm = AzureOpenAILLM(
-    model_name="gpt-4.1",
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    api_version=os.getenv("AZURE_API_VERSION"),
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+from src.agents.cypher_query_agent.schemas import Neo4jQueryState
+from src.agents.hybrid_graphRAG_agent.knowledge_graph_search import graph_rag
+from src.agents.user_question_augmentation_agent.llm_chains import (
+    get_question_generation_chain,
 )
 
-rag_template = RagTemplate(
-    template="""You are a metabolic pathway expert. Answer the **Question** ONLY
- using the **Context** provided.
 
- NEVER add NOR inject information or data that is not in the context.
-
- # Question:
- {query_text}
-
- # Context:
- {context}
-
- # Answer:
- """,
-    expected_inputs=["query_text", "context"],
+# --- Setup ---
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-# --------------------------------------------------------------------------- #
-# 2) GraphRAG pipeline
-# --------------------------------------------------------------------------- #
-
-graph_rag = GraphRAG(retriever=retriever, llm=llm, prompt_template=rag_template)
+# --- LLM Chains ---
+qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION", k=5)
 
 
-# --------------------------------------------------------------------------- #
-# 3) State Schema
-# --------------------------------------------------------------------------- #
+# --- Helper Functions ---
+async def async_graph_rag_search(
+    query: str,
+    retriever_config: dict[str, Any] | None = None,
+    return_context: bool = False,
+) -> Any:
+    """Wrapper to run the synchronous graph_rag.search() asynchronously.
+
+    Uses asyncio.to_thread to avoid blocking the event loop.
+
+    Args:
+        query: The query string to search for.
+        retriever_config: Configuration for the retriever (e.g., top_k).
+        return_context: Whether to return the context along with the answer.
+
+    Returns:
+        The response from graph_rag.search().
+
+    Raises:
+        Exception: If the GraphRAG search fails.
+    """
+    try:
+        # Run the synchronous search in a thread pool to avoid blocking
+        return await asyncio.to_thread(
+            graph_rag.search,
+            query,
+            retriever_config=retriever_config or {"top_k": 5},
+            return_context=return_context,
+        )
+    except Exception as exc:
+        logging.error("GraphRAG search failed for query '%s': %s", query, exc)
+        raise
 
 
-class GraphRAGQueryState(BaseModel):
-    """State of the Hybrid GraphRAG Agent."""
-
-    question: str = Field(default="")
-    generated_questions: GeneratedQueries | None = Field(default=None)
-    query: str = Field(default="")
-    results: Annotated[list[str], reduce_lists] = Field(default_factory=list)
-    messages: list[AIMessage] = Field(default_factory=list)
-
-
-# --------------------------------------------------------------------------- #
-# 4) LLM Chains
-# --------------------------------------------------------------------------- #
-
-# Reutilizamos la cadena de generación de preguntas del cypher_query_agent
-qgen_chain = get_question_generation_chain(group="FEW_SHOTS_QUESTIONS_GENERATION", k=2)
-
-
-# --------------------------------------------------------------------------- #
-# 5) Node Functions
-# --------------------------------------------------------------------------- #
-
-
+# --- Graph Nodes ---
 async def generate_questions(
-    state: GraphRAGQueryState,
+    state: Neo4jQueryState,
 ) -> Command[Literal["send_queries_in_parallel"]]:
-    """Node that generates multiple related queries from the original question."""
-    print(f"\n📝 Generating related questions for: {state.question}")
+    """Node that generates alternative questions to augment the user's input.
 
-    generated_questions = await qgen_chain.ainvoke({"input": state.question})
+    This node uses the question generation chain to create multiple variations
+    of the original question for more comprehensive search coverage.
 
-    print(f"✅ Generated {len(generated_questions.queries_list)} questions")
-    for i, q in enumerate(generated_questions.queries_list, 1):
-        print(f"   {i}. {q.query_str}")
-    return Command(
-        goto="send_queries_in_parallel",
-        update={"generated_questions": generated_questions},
-    )
+    Args:
+        state: The current graph state containing the original question.
+
+    Returns:
+        Command directing to send_queries_in_parallel with generated questions.
+    """
+    logging.info("Generating alternative questions for: '%s'", state["question"])
+    try:
+        generated_questions = await qgen_chain.ainvoke({"input": state["question"]})
+        logging.info(
+            "Generated %d alternative questions", len(generated_questions.queries_list)
+        )
+        return Command(
+            goto="send_queries_in_parallel",
+            update={"generated_questions": generated_questions},
+        )
+    except Exception as exc:
+        logging.error("Failed to generate questions: %s", exc)
+        # Fallback: use only the original question
+        from src.agents.cypher_query_agent.schemas import GeneratedQueries, OneQuery
+
+        fallback = GeneratedQueries(queries_list=[OneQuery(query=state["question"])])
+        return Command(
+            goto="send_queries_in_parallel",
+            update={"generated_questions": fallback},
+        )
 
 
 async def send_queries_in_parallel(
-    state: GraphRAGQueryState,
+    state: Neo4jQueryState,
 ) -> Command[list[Send]]:
-    """Node that sends generated queries in parallel to GraphRAG."""
-    if not state.generated_questions or not state.generated_questions.queries_list:
-        # If no questions were generated, send the original question
-        print("\n⚠️ No questions generated, using original question")
-        sends = [Send("generate_answer", {"query": state.question})]
-    else:
-        lista_de_queries = [
-            query.query_str for query in state.generated_questions.queries_list
-        ]
-        print(f"\n🚀 Sending {len(lista_de_queries)} queries in parallel to GraphRAG")
-        sends = [
-            Send(
-                "generate_answer",
-                {"query": query},
-            )
-            for query in lista_de_queries
-        ]
+    """Node that fans out to search each generated question in parallel.
+
+    This node creates Send commands for parallel execution of GraphRAG searches
+    on all generated question variations.
+
+    Args:
+        state: The current graph state with generated questions.
+
+    Returns:
+        Command with Send objects for parallel GraphRAG searches.
+    """
+    lista_de_queries = [
+        query.query_str for query in state["generated_questions"].queries_list
+    ]
+
+    logging.info(
+        "Fanning out to search %d question variations in parallel",
+        len(lista_de_queries),
+    )
+    logging.debug("Questions to search: %s", lista_de_queries)
+
+    sends = [
+        Send(
+            "generate_answer",
+            {"query": query},
+        )
+        for query in lista_de_queries
+    ]
     return Command(goto=sends)
 
 
 async def generate_answer(
-    state: GraphRAGQueryState | dict,
-) -> Command[Literal["aggregate_results"]]:
-    """Node that generates an answer using GraphRAG for a single query."""
-    # Handle both dict (from Send) and GraphRAGQueryState
-    if isinstance(state, dict):
-        query_str = state.get("query", "")
-    else:
-        query_str = state.query
+    state: Neo4jQueryState,
+) -> Command[Literal[END]]:
+    """Node that performs a GraphRAG search for a single query.
 
-    print(f"\n🔍 Processing query: {query_str}")
+    This node executes the GraphRAG search asynchronously and returns the answer.
+    Error handling ensures that failures in individual searches don't crash
+    the entire pipeline.
+
+    Args:
+        state: The current graph state with a single query.
+
+    Returns:
+        Command updating results with the GraphRAG answer and ending execution.
+    """
+    query_str = state["query"]
+    logging.info("Executing GraphRAG search for: '%s'", query_str)
 
     try:
-        # Usar GraphRAG para buscar la respuesta
-        response = graph_rag.search(
+        # Use the async wrapper to avoid blocking
+        response = await async_graph_rag_search(
             query_str,
             retriever_config={"top_k": 5},
             return_context=False,
         )
 
-        answer = response.answer
-        print(f"✅ Answer obtained: {answer[:100]}...")
-
-    except Exception as e:
-        answer = f"Error processing query '{query_str}': {e!s}"
-        print(f"❌ Error: {answer}")
-
-    return Command(goto="aggregate_results", update={"results": [answer]})
-
-
-async def aggregate_results(
-    state: GraphRAGQueryState,
-) -> Command[Literal[END]]:
-    """Node that aggregates all results and creates the final response."""
-    results = state.results
-    question = state.question
-
-    print(f"\n📊 Aggregating {len(results)} results")
-
-    # Crear una respuesta consolidada
-    if results:
-        # Formato estructurado de las respuestas
-        formatted_results = []
-        for i, result in enumerate(results, 1):
-            formatted_results.append(f"**Perspectiva {i}:**\n{result}")
-
-        final_answer = (
-            f"Para responder a tu pregunta: '{question}', "
-            f"he analizado {len(results)} perspectivas diferentes:\n\n"
-            + "\n\n".join(formatted_results)
+        answer = response.answer if hasattr(response, "answer") else str(response)
+        logging.info("GraphRAG search completed successfully for: '%s'", query_str)
+        logging.debug(
+            "Answer preview: %s...", answer[:200] if len(answer) > 200 else answer
         )
-    else:
-        final_answer = f"No pude obtener información para responder: '{question}'"
 
-    print(f"\n✅ Final answer prepared ({len(final_answer)} chars)")
+        return Command(goto=END, update={"results": [answer]})
 
-    return Command(goto=END, update={"messages": [AIMessage(content=final_answer)]})
-
-
-# --------------------------------------------------------------------------- #
-# 6) Build Graph
-# --------------------------------------------------------------------------- #
-
-
-def build_graph() -> StateGraph:
-    """Build and compile the GraphRAG workflow graph."""
-    builder = StateGraph(GraphRAGQueryState)
-
-    # Add nodes
-    builder.add_node("generate_questions", generate_questions)
-    builder.add_node("send_queries_in_parallel", send_queries_in_parallel)
-    builder.add_node("generate_answer", generate_answer)
-    builder.add_node("aggregate_results", aggregate_results)
-
-    # Add edges
-    builder.add_edge(START, "generate_questions")
-
-    # Compile and return
-    return builder.compile()
-
-
-# Create the compiled graph
-graph = build_graph()
-
-
-# --------------------------------------------------------------------------- #
-# 7) Main Execution (for testing)
-# --------------------------------------------------------------------------- #
-
-if __name__ == "__main__":
-
-    async def main():
-        """Test the GraphRAG workflow with a sample question."""
-        test_question = "¿cuáles son las comunas en los proyectos?"
-
-        print("=" * 60)
-        print("🤖 GraphRAG Agent Test")
-        print(f"Question: {test_question}")
-        print("=" * 60)
-
-        try:
-            # Run the graph
-            async for _chunk in graph.astream(
-                {"question": test_question},
-                stream_mode="updates",
-                subgraphs=True,
-                debug=True,
-            ):
-                # The debug flag will print detailed execution info
-                pass
-
-            print("\n" + "=" * 60)
-            print("✅ Workflow completed successfully!")
-            print("=" * 60)
-
-        except Exception as e:
-            print(f"\n❌ Error running workflow: {e}")
-            import traceback
-
-            traceback.print_exc()
-
-    # Run the async main function
-    asyncio.run(main())
+    except Exception as exc:
+        error_msg = f"GraphRAG search failed for '{query_str}': {exc}"
+        logging.error(error_msg)
+        # Return error message as result to maintain pipeline flow
+        return Command(
+            goto=END,
+            update={"results": [json.dumps({"error": error_msg}, ensure_ascii=False)]},
+        )
