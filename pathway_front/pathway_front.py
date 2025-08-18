@@ -101,6 +101,7 @@ def sidebar_message(message: str | rx.Var[str]) -> rx.Component:
             rx.markdown(
                 msg,
                 style=style.sidebar_message_style
+                | style.markdown_style
                 | {
                     "font_size": "0.68rem",
                     "margin": "0",
@@ -389,7 +390,6 @@ def sidebar() -> rx.Component:
 
 def documents_sidebar() -> rx.Component:
     """Renderiza la barra lateral izquierda **solo** con preguntas frecuentes, eliminando la pestaña *Base de conocimientos*."""
-
     # ---------------------------------------------------------------------
     # FAQ ONLY  ░  Early-return para ocultar completamente la antigua pestaña
     # "Base de conocimientos" y su encabezado.  El resto de la lógica
@@ -411,7 +411,7 @@ def documents_sidebar() -> rx.Component:
                 },
             ),
             rx.heading(
-                "Preguntas frecuentes",
+                "Consultas frecuentes",
                 size="4",
                 style=style.sidebar_title_style,
             ),
@@ -432,10 +432,7 @@ def documents_sidebar() -> rx.Component:
                 *[
                     rx.box(
                         q,
-                        on_click=lambda q=q: [
-                            State.set_question(q),
-                            State.answer,
-                        ],
+                        on_click=lambda evt, q=q: State.set_faq_question(q),
                         cursor="pointer",
                         style=style.faq_message_style
                         | {
@@ -550,7 +547,7 @@ def qa(question: str | None, answer: str | None) -> rx.Component:
             rx.box(
                 rx.markdown(
                     answer,
-                    style=style.answer_style,
+                    style=style.answer_style | style.markdown_style,
                 ),
                 on_click=lambda: [
                     rx.set_clipboard(answer),
@@ -1284,16 +1281,18 @@ app = rx.App(
 )
 app.add_page(index)
 
-# Cargar preguntas FAQ desde examples.yaml en dev/tpp_agentic_graph_v4/fewshot
+# Cargar preguntas FAQ desde src/agents/cypher_query_agent/fewshots.yaml
 try:
-    _examples_path = _Path("dev/tpp_agentic_graph_v4/fewshot/examples.yaml")
-    if _examples_path.exists():
-        _examples_data = yaml.safe_load(_examples_path.read_text()) or {}
+    _fewshots_path = _Path("src/agents/cypher_query_agent/fewshots.yaml")
+    if _fewshots_path.exists():
+        _fewshots_data = yaml.safe_load(_fewshots_path.read_text()) or {}
+        _all_fewshots = _fewshots_data.get("FEW_SHOTS_CYPHER_QUERY", [])
+        # Extraer los primeros 10 'input' como preguntas frecuentes
         _FAQ_QUESTIONS: list[str] = [
-            item.get("human", "")
-            for item in _examples_data.get("examples", [])
-            if isinstance(item, dict) and item.get("human")
-        ]
+            item["input"]
+            for item in _all_fewshots
+            if isinstance(item, dict) and "input" in item
+        ][:13]
     else:
         _FAQ_QUESTIONS = []
 except Exception:  # pragma: no cover – fallback en caso de error de lectura

@@ -104,6 +104,20 @@ class State(rx.State):
     # Configuración específica de la sesión (1 pestaña = 1 hilo)
     thread_config: dict = {}
 
+    def set_faq_question(self, question: str):
+        """Set the question from FAQ and trigger answer."""
+        self.question = question
+        yield State.answer
+
+    def handle_faq_click(self, question: str):
+        """Returns an event handler for FAQ clicks."""
+
+        def handler(self):
+            self.question = question
+            yield State.answer
+
+        return handler
+
     # START_EDIT: Add method to clear chat and reasoning histories
     def clear_history(self) -> None:
         """Borra por completo el historial de chat y razonamiento.

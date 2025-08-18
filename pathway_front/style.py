@@ -328,6 +328,372 @@ responsive_styles = {
     },
 }
 
+# Estilos mejorados para renderizado de Markdown
+markdown_style = {
+    # Estilo base para todos los elementos markdown
+    "font_family": '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    "line_height": "1.6",
+    "color": "rgba(235, 240, 255, 0.95)",
+    # Encabezados con gradientes y efectos
+    "& h1": {
+        "font_size": "1.8rem",
+        "font_weight": "700",
+        "margin": "1.2em 0 0.6em 0",
+        "background": "linear-gradient(135deg, rgba(99, 102, 241, 0.9) 0%, rgba(160, 174, 245, 0.9) 100%)",
+        "background_clip": "text",
+        "-webkit-background-clip": "text",
+        "color": "transparent",
+        "text_shadow": "0 2px 4px rgba(99, 102, 241, 0.2)",
+        "border_bottom": "2px solid rgba(99, 102, 241, 0.3)",
+        "padding_bottom": "0.3em",
+    },
+    "& h2": {
+        "font_size": "1.5rem",
+        "font_weight": "600",
+        "margin": "1em 0 0.5em 0",
+        "color": "rgba(160, 174, 245, 0.95)",
+        "border_left": "4px solid rgba(99, 102, 241, 0.5)",
+        "padding_left": "0.5em",
+    },
+    "& h3": {
+        "font_size": "1.25rem",
+        "font_weight": "600",
+        "margin": "0.8em 0 0.4em 0",
+        "color": "rgba(180, 194, 255, 0.9)",
+    },
+    # Párrafos con mejor espaciado
+    "& p": {
+        "margin": "0.8em 0",
+        "text_align": "justify",
+    },
+    # Listas con bullets personalizados
+    "& ul": {
+        "margin": "0.8em 0",
+        "padding_left": "1.5em",
+        "list_style": "none",
+    },
+    "& ul li": {
+        "position": "relative",
+        "margin": "0.4em 0",
+        "padding_left": "0.5em",
+    },
+    "& ul li::before": {
+        "content": '"▸"',
+        "position": "absolute",
+        "left": "-1em",
+        "color": "rgba(99, 102, 241, 0.7)",
+        "font_weight": "bold",
+    },
+    "& ol": {
+        "margin": "0.8em 0",
+        "padding_left": "1.5em",
+        "counter_reset": "item",
+        "list_style": "none",
+    },
+    "& ol li": {
+        "position": "relative",
+        "margin": "0.4em 0",
+        "padding_left": "0.5em",
+        "counter_increment": "item",
+    },
+    "& ol li::before": {
+        "content": 'counter(item) "."',
+        "position": "absolute",
+        "left": "-1.5em",
+        "color": "rgba(99, 102, 241, 0.8)",
+        "font_weight": "600",
+    },
+    # Código inline con estilo mejorado
+    "& code": {
+        "font_family": '"Fira Code", "SF Mono", Monaco, Consolas, monospace',
+        "font_size": "0.9em",
+        "padding": "0.2em 0.4em",
+        "background": "rgba(99, 102, 241, 0.15)",
+        "border": "1px solid rgba(99, 102, 241, 0.3)",
+        "border_radius": "4px",
+        "color": "rgba(180, 200, 255, 0.95)",
+    },
+    # Bloques de código con sintaxis destacada
+    "& pre": {
+        "margin": "1em 0",
+        "padding": "1em",
+        "background": "linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(51, 65, 85, 0.4) 100%)",
+        "border": "1px solid rgba(99, 102, 241, 0.3)",
+        "border_radius": "8px",
+        "overflow_x": "auto",
+        "backdrop_filter": "blur(10px)",
+        "box_shadow": "inset 0 2px 8px rgba(0, 0, 0, 0.2)",
+    },
+    "& pre code": {
+        "background": "transparent",
+        "border": "none",
+        "padding": "0",
+        "font_size": "0.85em",
+        "line_height": "1.5",
+    },
+    # Tablas que se ajustan al ancho de la burbuja del chat
+    "& table": {
+        "width": "100%",  # Ocupa todo el ancho de la burbuja
+        "margin": "0.4em 0",  # Márgenes verticales únicamente
+        "border_collapse": "separate",
+        "border_spacing": "0",
+        "background": "linear-gradient(135deg, rgba(30, 41, 59, 0.3) 0%, rgba(25, 35, 50, 0.25) 100%)",
+        "border_radius": "8px",
+        "overflow": "hidden",
+        "backdrop_filter": "blur(12px) saturate(1.2)",
+        "font_size": "0.82em",
+        "table_layout": "fixed",  # Layout fijo para distribución uniforme
+        "box_shadow": "0 2px 8px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.02)",
+        "border": "1px solid rgba(99, 102, 241, 0.15)",
+        "word_wrap": "break-word",
+        "overflow_wrap": "break-word",
+    },
+    "& th": {
+        "background": "linear-gradient(135deg, rgba(99, 102, 241, 0.28) 0%, rgba(79, 70, 229, 0.18) 100%)",
+        "padding": "0.3em 0.45em",
+        "text_align": "center",  # CENTRADO
+        "font_weight": "600",
+        "font_size": "0.88em",
+        "color": "rgba(240, 245, 255, 0.98)",
+        "border_bottom": "1.5px solid rgba(99, 102, 241, 0.4)",
+        "white_space": "normal",  # Permite wrap en headers largos
+        "word_break": "break-word",
+        "letter_spacing": "0.3px",
+        "text_transform": "uppercase",
+        "position": "relative",
+        "vertical_align": "middle",
+    },
+    "& th::after": {  # Efecto de brillo en headers
+        "content": '""',
+        "position": "absolute",
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "height": "1px",
+        "background": "linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent)",
+    },
+    "& td": {
+        "padding": "0.25em 0.4em",
+        "text_align": "center",  # CENTRADO
+        "border_bottom": "1px solid rgba(99, 102, 241, 0.06)",
+        "line_height": "1.3",
+        "white_space": "normal",  # Siempre permite wrap para mostrar texto completo
+        "word_break": "break-word",  # Rompe palabras largas si es necesario
+        "overflow_wrap": "anywhere",  # Máxima flexibilidad de wrap
+        "vertical_align": "middle",  # Centrado vertical
+        "position": "relative",
+        "transition": "all 0.2s ease",
+        "min_width": "60px",  # Ancho mínimo para legibilidad
+    },
+    # Hover en filas con efecto glass
+    "& tbody tr": {
+        "transition": "all 0.2s ease",
+        "position": "relative",
+    },
+    "& tbody tr:hover": {
+        "background": "rgba(99, 102, 241, 0.06)",
+        "transform": "translateX(2px)",  # Sutil movimiento
+        "box_shadow": "inset 3px 0 0 rgba(99, 102, 241, 0.4)",
+    },
+    "& tbody tr:hover td": {
+        "color": "rgba(255, 255, 255, 0.95)",
+    },
+    # Zebra striping mejorado
+    "& tbody tr:nth-child(even)": {
+        "background": "rgba(99, 102, 241, 0.025)",
+    },
+    "& tbody tr:nth-child(even):hover": {
+        "background": "rgba(99, 102, 241, 0.08)",
+    },
+    # Primera columna (índices/IDs) - estilo especial
+    "& td:first-child, & th:first-child": {
+        "font_weight": "500",
+        "color": "rgba(160, 174, 245, 0.9)",
+        "background": "rgba(99, 102, 241, 0.05)",
+        "border_right": "1px solid rgba(99, 102, 241, 0.15)",
+        "position": "sticky",  # Fija al hacer scroll horizontal
+        "left": "0",
+        "z_index": "1",
+    },
+    # Última columna - sin borde derecho
+    "& td:last-child, & th:last-child": {
+        "border_right": "none",
+    },
+    # Última fila - bordes redondeados
+    "& tbody tr:last-child td:first-child": {
+        "border_bottom_left_radius": "6px",
+    },
+    "& tbody tr:last-child td:last-child": {
+        "border_bottom_right_radius": "6px",
+    },
+    # Celdas numéricas - más compactas y alineadas
+    "& td.numeric, & td:matches('^[0-9.,]+$')": {
+        "text_align": "right",
+        "padding_right": "0.5em",
+        "font_variant_numeric": "tabular-nums",  # Números monoespaciados
+        "white_space": "nowrap",  # Los números no deben hacer wrap
+        "min_width": "40px",
+    },
+    # Celdas con texto corto (optimización)
+    "& td:has-text('^.{1,15}$')": {
+        "white_space": "nowrap",  # Texto corto no necesita wrap
+    },
+    # Optimización de espacio vacío
+    "& td:empty::before": {
+        "content": '"-"',
+        "color": "rgba(160, 174, 245, 0.3)",
+        "font_style": "italic",
+    },
+    # Scroll suave para tablas anchas
+    "& table::-webkit-scrollbar": {
+        "height": "5px",
+    },
+    "& table::-webkit-scrollbar-track": {
+        "background": "rgba(30, 41, 59, 0.15)",
+        "border_radius": "3px",
+    },
+    "& table::-webkit-scrollbar-thumb": {
+        "background": "linear-gradient(90deg, rgba(99, 102, 241, 0.4), rgba(160, 174, 245, 0.3))",
+        "border_radius": "3px",
+    },
+    # Blockquotes con estilo distintivo
+    "& blockquote": {
+        "margin": "1em 0",
+        "padding": "0.5em 1em",
+        "border_left": "4px solid rgba(16, 185, 129, 0.6)",
+        "background": "linear-gradient(90deg, rgba(16, 185, 129, 0.1) 0%, transparent 100%)",
+        "font_style": "italic",
+        "color": "rgba(200, 220, 255, 0.9)",
+    },
+    # Enlaces con hover animado
+    "& a": {
+        "color": "rgba(99, 102, 241, 0.9)",
+        "text_decoration": "none",
+        "border_bottom": "1px solid rgba(99, 102, 241, 0.3)",
+        "transition": "all 0.3s ease",
+        "position": "relative",
+    },
+    "& a:hover": {
+        "color": "rgba(160, 174, 245, 1)",
+        "border_bottom_color": "rgba(160, 174, 245, 0.6)",
+        "text_shadow": "0 0 8px rgba(99, 102, 241, 0.4)",
+    },
+    # Líneas horizontales estilizadas
+    "& hr": {
+        "margin": "1.5em 0",
+        "border": "none",
+        "height": "2px",
+        "background": "linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.5), transparent)",
+    },
+    # Imágenes con bordes y sombras
+    "& img": {
+        "max_width": "100%",
+        "height": "auto",
+        "border_radius": "8px",
+        "box_shadow": "0 4px 12px rgba(0, 0, 0, 0.3)",
+        "margin": "1em 0",
+    },
+    # Strong/Bold con color destacado
+    "& strong": {
+        "font_weight": "600",
+        "color": "rgba(255, 255, 255, 0.95)",
+    },
+    # Emphasis/Italic con color suave
+    "& em": {
+        "font_style": "italic",
+        "color": "rgba(220, 230, 255, 0.9)",
+    },
+    # Contenedor para tablas con scroll horizontal si es necesario
+    "& .table-wrapper, & div:has(> table)": {
+        "width": "100%",
+        "overflow_x": "auto",
+        "overflow_y": "hidden",
+        "margin": "0.3em 0",
+        "border_radius": "8px",
+        "-webkit-overflow-scrolling": "touch",  # Scroll suave en iOS
+        "scrollbar_width": "thin",
+        "scrollbar_color": "rgba(99, 102, 241, 0.3) transparent",
+    },
+    # Hacer que las tablas dentro del wrapper usen el ancho completo
+    "& .table-wrapper table, & div:has(> table) table": {
+        "width": "100%",
+        "min_width": "100%",
+    },
+    # Tablas ultra compactas para datos densos
+    "& table.compact": {
+        "font_size": "0.75em",
+        "min_width": "40%",
+    },
+    "& table.compact th": {
+        "padding": "0.15em 0.3em",
+        "font_size": "0.8em",
+        "letter_spacing": "0.2px",
+    },
+    "& table.compact td": {
+        "padding": "0.1em 0.25em",
+        "line_height": "1.15",
+    },
+    # Sistema de ajuste dinámico basado en cantidad de columnas
+    "& table:has(th:nth-child(3)):not(:has(th:nth-child(5)))": {  # 3-4 columnas
+        "font_size": "0.82em",
+        "& td": {
+            "padding": "0.2em 0.35em",
+        },
+    },
+    "& table:has(th:nth-child(5)):not(:has(th:nth-child(7)))": {  # 5-6 columnas
+        "font_size": "0.78em",
+        "& td": {
+            "padding": "0.18em 0.3em",
+            "min_width": "50px",
+        },
+    },
+    "& table:has(th:nth-child(7)):not(:has(th:nth-child(10)))": {  # 7-9 columnas
+        "font_size": "0.72em",
+        "& td": {
+            "padding": "0.15em 0.25em",
+            "min_width": "45px",
+            "line_height": "1.2",
+        },
+    },
+    "& table:has(th:nth-child(10))": {  # 10+ columnas
+        "font_size": "0.68em",
+        "& th, & td": {
+            "padding": "0.12em 0.2em",
+            "min_width": "40px",
+            "line_height": "1.15",
+        },
+    },
+    # Tablas responsivas - ajuste automático en móviles
+    "@media (max-width: 768px)": {
+        "& table": {
+            "font_size": "0.7em",
+            "display": "block",
+            "overflow_x": "auto",
+        },
+        "& th, & td": {
+            "padding": "0.15em 0.2em",
+            "min_width": "35px",
+        },
+    },
+    # Indicador visual para tablas con scroll
+    "& .table-scroll-indicator": {
+        "position": "absolute",
+        "right": "0",
+        "top": "50%",
+        "transform": "translateY(-50%)",
+        "padding": "0.5em",
+        "background": "linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.2))",
+        "color": "rgba(160, 174, 245, 0.8)",
+        "font_size": "0.8em",
+        "pointer_events": "none",
+        "opacity": "0",
+        "transition": "opacity 0.3s ease",
+    },
+    "& .table-wrapper:hover .table-scroll-indicator": {
+        "opacity": "1",
+    },
+}
+
 # Estilos para el spinner de carga
 spinner_style = {
     "animation": "2s linear infinite spin, 3s infinite glow",

@@ -4,3 +4,5 @@ LLM_CHAIN_SYSTEM_PROMPTS:
   SYSTEM_PROMPT_ANSWER_GENERATION_AGENT: |
     La pregunta es: {input} y la información para responderla es: {results}
     Genera una respuesta precisa, considerando exclusiva y únicamente la información proporcionada.
+    Presenta la información en formato markdown, bien estructurada, usando tablas para mostrar la información.
+    Usa (formato markdown) negritas y cursivas para destacar la información más importante.
