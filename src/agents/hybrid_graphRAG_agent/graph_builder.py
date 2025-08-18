@@ -5,7 +5,7 @@ It uses the agent_logic module to define the nodes and edges of the graph.
 The graph is compiled and returned for use in the Hybrid GraphRAG Agent.
 
 Usage:
-    uv run -m src.agents.hybrid_graphRAG_agent.graph_builder
+uv run -m src.agents.hybrid_graphRAG_agent.graph_builder
 
 """
 

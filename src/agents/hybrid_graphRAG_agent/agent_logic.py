@@ -144,13 +144,15 @@ async def generate_answer(
 
     This node executes the GraphRAG search asynchronously and returns the answer.
     Error handling ensures that failures in individual searches don't crash
-    the entire pipeline.
+    the entire pipeline. Results from all parallel executions are automatically
+    accumulated into a deduplicated list by the reduce_lists reducer.
 
     Args:
         state: The current graph state with a single query.
 
     Returns:
         Command updating results with the GraphRAG answer and ending execution.
+        The answer is added to the accumulated results list via the reducer.
     """
     query_str = state["query"]
     logging.info("Executing GraphRAG search for: '%s'", query_str)
@@ -168,6 +170,8 @@ async def generate_answer(
         logging.debug(
             "Answer preview: %s...", answer[:200] if len(answer) > 200 else answer
         )
+        # Note: results will be accumulated by the reducer (reduce_lists)
+        # Each parallel execution contributes its answer to the accumulated list
 
         return Command(goto=END, update={"results": [answer]})
 

@@ -130,8 +130,10 @@ async def generate_answer(
     question = state["question"]
     input_for_llm = {
         "input": question,
+        "number_of_results": len(state.get("results", [])),
         "results": "\n".join(state["results"]),
     }
+    print("Input for generate_answer LLM: %s", input_for_llm)
     response = await answer_chain.ainvoke(input_for_llm)
     return Command(goto=END, update={"messages": [AIMessage(content=response.answer)]})
 
