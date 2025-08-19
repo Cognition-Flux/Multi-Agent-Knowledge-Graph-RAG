@@ -6,7 +6,7 @@ overall grand total of pages.
 
 Run it from the project root with:
 
-    uv run -m src.documents.count_pdf_pages
+uv run -m src.documents.count_pdf_pages
 
 (Using ``uv`` ensures the local virtual-environment is active, as mandated by
 project conventions.)
