@@ -92,6 +92,9 @@ class State(rx.State):
     # Pestaña seleccionada en la barra lateral izquierda ("documentos" | "faq")
     sidebar_tab: str = "faq"
 
+    # Tab activa en la barra lateral izquierda ("faq" | "workflows")
+    left_sidebar_tab: str = "faq"
+
     # Límite de refresco independiente para tablas (en segundos)
     last_update_tables: float = 0.0
 
@@ -108,6 +111,15 @@ class State(rx.State):
         """Set the question from FAQ and trigger answer."""
         self.question = question
         yield State.answer
+
+    def set_workflow_question(self, question: str):
+        """Set the question from Workflows and trigger answer."""
+        self.question = question
+        yield State.answer
+
+    def set_left_sidebar_tab(self, tab: str):
+        """Change the active tab in the left sidebar."""
+        self.left_sidebar_tab = tab
 
     def handle_faq_click(self, question: str):
         """Returns an event handler for FAQ clicks."""

@@ -11,6 +11,7 @@ dependencies = [
     "fastparquet>=2024.11.0",
     "ipykernel>=6.30.0",
     "langchain-anthropic>=0.3.18",
+    "langchain-aws>=0.2.0",
     "langchain-community>=0.3.27",
     "langchain-core>=0.3.72",
     "langchain-google-genai>=2.1.8",
@@ -39,6 +40,7 @@ dependencies = [
     "markdownify>=0.13.1",
     "reflex>=0.8.6",
     "plotly>=6.3.0",
+    "langgraph-supervisor>=0.0.29",
 ]
 
 [tool.ruff]

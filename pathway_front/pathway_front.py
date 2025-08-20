@@ -389,43 +389,87 @@ def sidebar() -> rx.Component:
 
 
 def documents_sidebar() -> rx.Component:
-    """Renderiza la barra lateral izquierda **solo** con preguntas frecuentes, eliminando la pestaña *Base de conocimientos*."""
-    # ---------------------------------------------------------------------
-    # FAQ ONLY  ░  Early-return para ocultar completamente la antigua pestaña
-    # "Base de conocimientos" y su encabezado.  El resto de la lógica
-    # original queda intacta (pero no se ejecuta) tras este *return* para
-    # minimizar el `diff` y evitar refactors extensos.
-    # ---------------------------------------------------------------------
-    # Encabezado con apariencia de pestaña
+    """Renderiza la barra lateral izquierda con tabs para consultas frecuentes y flujos de trabajo."""
+    # Estilos para las pestañas
+    tab_style = {
+        "padding": "0.6em 1em",
+        "cursor": "pointer",
+        "font_size": "0.9rem",
+        "font_weight": "500",
+        "border_radius": "8px 8px 0 0",
+        "background": "rgba(30, 41, 59, 0.3)",
+        "border": "1px solid rgba(255, 255, 255, 0.1)",
+        "border_bottom": "none",
+        "color": "rgba(160, 174, 245, 0.7)",
+        "transition": "all 0.2s ease",
+        "_hover": {
+            "background": "rgba(30, 41, 59, 0.5)",
+            "color": "rgba(160, 174, 245, 0.9)",
+        },
+    }
+
+    active_tab_style = {
+        **tab_style,
+        "background": "linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(51, 65, 85, 0.5) 100%)",
+        "color": "rgba(235, 240, 255, 0.95)",
+        "border_color": "rgba(99, 102, 241, 0.3)",
+        "box_shadow": "0 2px 8px rgba(99, 102, 241, 0.2)",
+    }
+
+    # Encabezado con tabs
     header_tab = rx.box(
+        # Tabs container
         rx.hstack(
-            rx.icon(
-                "message_circle_question",
-                size=40,
-                style={
-                    "color": "rgba(160, 174, 245, 0.85)",
-                    "margin_right": "8px",
-                    "transform": "translateY(2px)",
-                    "transition": "all 0.3s ease",
-                    "flex_shrink": "0",  # Evita que el icono se encoja u oculte
-                },
+            rx.box(
+                rx.hstack(
+                    rx.icon(
+                        "message_circle_question",
+                        size=16,
+                        style={"margin_right": "4px"},
+                    ),
+                    rx.text("Consultas frecuentes"),
+                    spacing="1",
+                    align="center",
+                ),
+                on_click=lambda: State.set_left_sidebar_tab("faq"),
+                style=rx.cond(
+                    State.left_sidebar_tab == "faq",
+                    active_tab_style,
+                    tab_style,
+                ),
             ),
-            rx.heading(
-                "Consultas frecuentes",
-                size="4",
-                style=style.sidebar_title_style,
+            rx.box(
+                rx.hstack(
+                    rx.icon(
+                        "workflow",
+                        size=16,
+                        style={"margin_right": "4px"},
+                    ),
+                    rx.text("Flujos de trabajo"),
+                    spacing="1",
+                    align="center",
+                ),
+                on_click=lambda: State.set_left_sidebar_tab("workflows"),
+                style=rx.cond(
+                    State.left_sidebar_tab == "workflows",
+                    active_tab_style,
+                    tab_style,
+                ),
             ),
-            spacing="0",
+            spacing="1",
             width="100%",
-            justify="start",
-            align="center",
+            padding="0.3em",
+            align="end",
         ),
-        # Aplica el mismo diseño que las burbujas principales mediante el token
-        # ``header_bar_style`` definido en ``style.py``.
         style=style.header_bar_style
-        | {"border_left": "4px solid rgba(68, 28, 135, 0.6)"},
+        | {
+            "border_left": "4px solid rgba(68, 28, 135, 0.6)",
+            "padding_bottom": "0",
+            "border_radius": "0",
+        },
     )
 
+    # Contenido de Consultas Frecuentes
     faq_content = (
         rx.box(
             rx.vstack(
@@ -460,9 +504,52 @@ def documents_sidebar() -> rx.Component:
         else rx.fragment()
     )
 
+    # Contenido de Flujos de Trabajo
+    workflows_content = (
+        rx.box(
+            rx.vstack(
+                *[
+                    rx.box(
+                        q,
+                        on_click=lambda evt, q=q: State.set_workflow_question(q),
+                        cursor="pointer",
+                        style=style.faq_message_style
+                        | {
+                            "font_size": "0.85em",
+                            "margin_y": "0.05em",
+                            "width": "100%",
+                            "max_width": "100%",
+                            "background": "linear-gradient(135deg, rgba(56, 30, 90, 0.25) 0%, rgba(76, 40, 120, 0.2) 100%)",
+                            "border_left_color": "rgba(147, 51, 234, 0.7)",
+                        },
+                    )
+                    for q in _WORKFLOW_QUESTIONS
+                ],
+                spacing="2",
+                width="100%",
+            ),
+            width="100%",
+            height="calc(100vh - 100px)",
+            padding_top="0.3em",
+            padding_bottom="0em",
+            overflow_y="auto",
+            background="transparent",
+            backdrop_filter="none",
+            border_radius="0",
+        )
+        if _WORKFLOW_QUESTIONS
+        else rx.fragment()
+    )
+
+    # Contenedor principal con contenido condicional según la tab activa
     return rx.box(
         header_tab,
-        faq_content,
+        # Mostrar contenido según la tab activa
+        rx.cond(
+            State.left_sidebar_tab == "faq",
+            faq_content,
+            workflows_content,
+        ),
         # Resizer para arrastrar el ancho
         rx.box(
             id="left-sidebar-resizer",
@@ -1297,3 +1384,19 @@ try:
         _FAQ_QUESTIONS = []
 except Exception:  # pragma: no cover – fallback en caso de error de lectura
     _FAQ_QUESTIONS = []
+
+# Cargar preguntas de Flujos de Trabajo desde src/agents/planner_agent/fewshots.yaml
+try:
+    _planner_fewshots_path = _Path("src/agents/planner_agent/fewshots.yaml")
+    if _planner_fewshots_path.exists():
+        _planner_data = yaml.safe_load(_planner_fewshots_path.read_text()) or {}
+        _planner_fewshots = _planner_data.get("FEW_SHOTS_PLANNER", [])
+        # Extraer los 'input' como preguntas de flujos de trabajo
+        _WORKFLOW_QUESTIONS: list[str] = []
+        for item in _planner_fewshots:
+            if isinstance(item, dict) and "input" in item:
+                _WORKFLOW_QUESTIONS.append(item["input"])
+    else:
+        _WORKFLOW_QUESTIONS = []
+except Exception:  # pragma: no cover – fallback en caso de error de lectura
+    _WORKFLOW_QUESTIONS = []

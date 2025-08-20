@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13' and platform_python_implementation == 'PyPy' and sys_platform == 'darwin'",
@@ -583,6 +583,7 @@ dependencies = [
     { name = "fastparquet" },
     { name = "ipykernel" },
     { name = "langchain-anthropic" },
+    { name = "langchain-aws" },
     { name = "langchain-community" },
     { name = "langchain-core" },
     { name = "langchain-google-genai" },
@@ -590,6 +591,7 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "langchain-pinecone" },
     { name = "langgraph" },
+    { name = "langgraph-supervisor" },
     { name = "markdownify" },
     { name = "marker" },
     { name = "marker-pdf" },
@@ -627,6 +629,7 @@ requires-dist = [
     { name = "fastparquet", specifier = ">=2024.11.0" },
     { name = "ipykernel", specifier = ">=6.30.0" },
     { name = "langchain-anthropic", specifier = ">=0.3.18" },
+    { name = "langchain-aws", specifier = ">=0.2.0" },
     { name = "langchain-community", specifier = ">=0.3.27" },
     { name = "langchain-core", specifier = ">=0.3.72" },
     { name = "langchain-google-genai", specifier = ">=2.1.8" },
@@ -634,6 +637,7 @@ requires-dist = [
     { name = "langchain-openai", specifier = ">=0.3.28" },
     { name = "langchain-pinecone", specifier = ">=0.2.11" },
     { name = "langgraph", specifier = ">=0.6.3" },
+    { name = "langgraph-supervisor", specifier = ">=0.0.29" },
     { name = "markdownify", specifier = ">=0.13.1" },
     { name = "marker", specifier = ">=2.1.3" },
     { name = "marker-pdf", specifier = ">=1.5.5" },
@@ -1484,6 +1488,21 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-aws"
+version = "0.2.31"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "boto3" },
+    { name = "langchain-core" },
+    { name = "numpy" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/66/2f/ba63c0af3050d5efae731d82172548937385ad554d6cceca1f45a81764a6/langchain_aws-0.2.31.tar.gz", hash = "sha256:7e0257d50b05d0fc2f2763c50f93151fd06326e2f55286673289b0ddfc83e52b", size = 116939, upload-time = "2025-08-19T22:42:23.797Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ba/08/5ceef1c48a9da68881a4e37cab4f0a7bf88836dc4c94639736ed840e3270/langchain_aws-0.2.31-py3-none-any.whl", hash = "sha256:dc46bd7e198f0a3c119bb26a9329a572e7898108aa00057198be3916f477e988", size = 141765, upload-time = "2025-08-19T22:42:22.308Z" },
+]
+
+[[package]]
 name = "langchain-community"
 version = "0.3.27"
 source = { registry = "https://pypi.org/simple" }
@@ -1508,7 +1527,7 @@ wheels = [
 
 [[package]]
 name = "langchain-core"
-version = "0.3.72"
+version = "0.3.74"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jsonpatch" },
@@ -1519,9 +1538,9 @@ dependencies = [
     { name = "tenacity" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8b/49/7568baeb96a57d3218cb5f1f113b142063679088fd3a0d0cae1feb0b3d36/langchain_core-0.3.72.tar.gz", hash = "sha256:4de3828909b3d7910c313242ab07b241294650f5cb6eac17738dd3638b1cd7de", size = 567227, upload-time = "2025-07-24T00:40:08.5Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f1/c6/5d755a0f1f4857abbe5ea6f5907ed0e2b5df52bf4dde0a0fd768290e3084/langchain_core-0.3.74.tar.gz", hash = "sha256:ff604441aeade942fbcc0a3860a592daba7671345230c2078ba2eb5f82b6ba76", size = 569553, upload-time = "2025-08-07T20:47:05.094Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6e/7d/9f75023c478e3b854d67da31d721e39f0eb30ae969ec6e755430cb1c0fb5/langchain_core-0.3.72-py3-none-any.whl", hash = "sha256:9fa15d390600eb6b6544397a7aa84be9564939b6adf7a2b091179ea30405b240", size = 442806, upload-time = "2025-07-24T00:40:06.994Z" },
+    { url = "https://files.pythonhosted.org/packages/4d/26/545283681ac0379d31c7ad0bac5f195e1982092d76c65ca048db9e3cec0e/langchain_core-0.3.74-py3-none-any.whl", hash = "sha256:088338b5bc2f6a66892f9afc777992c24ee3188f41cbc603d09181e34a228ce7", size = 443453, upload-time = "2025-08-07T20:47:03.853Z" },
 ]
 
 [[package]]
@@ -1666,6 +1685,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/2a/3e/3dc45dc7682c9940db9edaf8773d2e157397c5bd6881f6806808afd8731e/langgraph_sdk-0.2.0.tar.gz", hash = "sha256:cd8b5f6595e5571be5cbffd04cf936978ab8f5d1005517c99715947ef871e246", size = 72510, upload-time = "2025-07-22T17:31:06.745Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a5/03/a8ab0e8ea74be6058cb48bb1d85485b5c65d6ea183e3ee1aa8ca1ac73b3e/langgraph_sdk-0.2.0-py3-none-any.whl", hash = "sha256:150722264f225c4d47bbe7394676be102fdbf04c4400a0dd1bd41a70c6430cc7", size = 50569, upload-time = "2025-07-22T17:31:04.582Z" },
+]
+
+[[package]]
+name = "langgraph-supervisor"
+version = "0.0.29"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "langgraph" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/78/f0/fc8d5b5926caf3becfc75ff399c4b855daaff957f804973942457864ce94/langgraph_supervisor-0.0.29.tar.gz", hash = "sha256:0ab6e06e102096071d605268a4138084b87128f0c965e1544f77a7d4f65ca16b", size = 21095, upload-time = "2025-07-28T14:16:23.079Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/61/15/e3b4ad69b2a5fd6ba3d92bcca92b59ebd3a40f2a55751946728506ba618e/langgraph_supervisor-0.0.29-py3-none-any.whl", hash = "sha256:611dd4545f566f690d30004af3742887ec78134921118706ae7eeb12ce77763d", size = 16039, upload-time = "2025-07-28T14:16:22.259Z" },
 ]
 
 [[package]]
@@ -2436,7 +2468,7 @@ dependencies = [
     { name = "pinecone-plugin-interface" },
     { name = "python-dateutil" },
     { name = "typing-extensions" },
-    { name = "urllib3", marker = "python_full_version < '4.0'" },
+    { name = "urllib3", marker = "python_full_version < '4'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/fa/38/12731d4af470851b4963eba616605868a8599ef4df51c7b6c928e5f3166d/pinecone-7.3.0.tar.gz", hash = "sha256:307edc155621d487c20dc71b76c3ad5d6f799569ba42064190d03917954f9a7b", size = 235256, upload-time = "2025-06-27T20:03:51.498Z" }
 wheels = [

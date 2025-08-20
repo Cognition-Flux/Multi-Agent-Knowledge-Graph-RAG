@@ -5,6 +5,7 @@ import os
 
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic
+from langchain_aws import ChatBedrockConverse
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 from langchain_openai import AzureChatOpenAI
@@ -17,7 +18,13 @@ load_dotenv(override=True)
 def get_llm(
     provider: str = "azure",
     model: str = "gpt-4.1-mini",
-) -> AzureChatOpenAI | ChatAnthropic | ChatGoogleGenerativeAI | ChatGroq:
+) -> (
+    AzureChatOpenAI
+    | ChatAnthropic
+    | ChatBedrockConverse
+    | ChatGoogleGenerativeAI
+    | ChatGroq
+):
     """Get a language model instance based on the specified provider.
 
     Args:
@@ -65,6 +72,22 @@ def get_llm(
             streaming=True,
             max_retries=5,
         )
+    elif provider == "bedrock":
+        # Use provided model or default to Claude 3.5 Sonnet on Bedrock
+        bedrock_model = (
+            model
+            if model != "gpt-4.1-mini"
+            else "anthropic.claude-3-5-sonnet-20240620-v1:0"
+        )
+        os.environ["LAST_LLM_MODEL"] = bedrock_model
+        return ChatBedrockConverse(
+            model=bedrock_model,
+            temperature=0,
+            max_tokens=None,
+            region_name=os.getenv("AWS_REGION", "us-east-1"),
+            aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+            aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        )
     elif provider == "google":
         # Use provided model or default to gemini-2.5-flash-preview-05-20
         google_model = (
@@ -104,5 +127,13 @@ def get_llm(
     else:
         raise ValueError(
             f"Unsupported provider: {provider}. Supported providers are: "
-            "azure, anthropic, google, groq"
+            "azure, anthropic, bedrock, google, groq"
         )
+
+
+if __name__ == "__main__":
+    llm = get_llm(
+        provider="bedrock", model="us.anthropic.claude-sonnet-4-20250514-v1:0"
+    )
+    response = llm.invoke("Hello, how are you?")
+    print(response.content)
