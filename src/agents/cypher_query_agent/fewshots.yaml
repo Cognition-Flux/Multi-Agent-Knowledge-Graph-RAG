@@ -597,3 +597,27 @@ FEW_SHOTS_CYPHER_QUERY:
       RETURN r.name AS region, project, date
       // Ordena por región
       ORDER BY region
+
+  - input: Proyectos por comuna en la Región de Valparaíso
+  - output: |
+      /* nombres de los proyectos de Región de Valparaíso por cada comuna */
+
+      MATCH (p:Project)-[IN_REGION]->(r:Region {name: 'Región de Valparaíso'})
+      MATCH (p)-[IN_COMMUNE]->(c:Commune)
+      RETURN p.name AS proyecto, c.name AS comuna
+
+  - input: Proyectos por comuna en la Región de Los Lagos
+  - output: |
+      /* nombres de los proyectos de Región de Los Lagos por cada comuna */
+
+      MATCH (p:Project)-[IN_REGION]->(r:Region {name: 'Región de Los Lagos'})
+      MATCH (p)-[IN_COMMUNE]->(c:Commune)
+      RETURN c.name AS comuna, collect(p.name) AS proyectos
+
+  - input: Proyectos por comuna en la Región de Región del Libertador General Bernardo O'Higgins
+  - output: |
+      /* nombres de los proyectos de Región del Libertador General Bernardo O'Higgins por cada comuna */
+
+      MATCH (p:Project)-[:IN_REGION]->(r:Region {name: "Región del Libertador General Bernardo O'Higgins"})
+      MATCH (p)-[:IN_COMMUNE]->(c:Commune)
+      RETURN p.name AS project_name, c.name AS commune_name

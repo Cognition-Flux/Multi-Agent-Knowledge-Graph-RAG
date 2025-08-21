@@ -60,34 +60,3 @@ FEW_SHOTS_PLANNER:
           is_complete: false
 
       direct_response_to_the_user: None
-
-  - input: Dame todos los proyectos separados por comuna de la region del maule.
-  - output: |
-      goal: Hacer una lista de todos los proyectos separados por comuna de la region del maule.
-      steps:
-        - Step:
-          instruction: Obtener los nombres de las regiones, para verificar si la región existe y su nombre correcto.
-          suggested_tool: list_regiones
-          reasoning: Se debe verificar si la región existe y como está escrita en la base de datos.
-          result: None
-          is_complete: false
-        - Step:
-          instruction: Si la región existe, obtener los nombres de todas las comunas de la región.
-          suggested_tool: list_comunas_en_regiones
-          reasoning: Solamente si se verificó que la región existe, se debe obtener los nombres de todas las comunas de la región.
-          result: None
-          is_complete: false
-        - Step:
-          instruction: Obtener los nombres de todos los proyectos de cada comuna.
-          suggested_tool: cypher_query_agent
-          reasoning: Dado que se obtuvieron los nombres de las comunas, se debe obtener los nombres de todos los proyectos de cada comuna.
-          result: None
-          is_complete: false
-        - Step:
-          instruction: Identificar y consolidar los proyectos de cada comuna y presentarlos en una lista.
-          suggested_tool: Reasoning_agent
-          reasoning: Dado que se obtuvieron los nombres de todos los proyectos de cada comuna, se debe identificar y consolidar los proyectos de cada comuna y presentarlos en una lista.
-          result: None
-          is_complete: false
-
-      direct_response_to_the_user: None

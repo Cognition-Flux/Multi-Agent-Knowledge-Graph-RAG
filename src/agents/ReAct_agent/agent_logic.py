@@ -141,20 +141,160 @@ async def execute_step(state: ReActState) -> Command[Literal["reflect", "finish"
                 # Basic arg extraction: allow passing the entire instruction or
                 # a minimal dict for known params like `region`.
                 args = {}
-                if tool.name == "list_comunas_en_regiones":
-                    # naive extraction: look for 'región:' or 'region:' pattern
+
+                # Handle tools that don't require parameters
+                if tool.name in ["list_comunas", "list_regiones"]:
+                    # These tools don't require any parameters
+                    args = {}
+                    logger.info(f"   📋 Using {tool.name} (no parameters required)")
+
+                elif tool.name == "list_comunas_en_regiones":
+                    # Enhanced extraction: look for region name in various formats
                     instr = step.instruction
-                    marker_variants = ["region:", "región:", "Region:", "Región:"]
+
+                    # Try multiple extraction patterns
                     region_value = None
+
+                    # Pattern 1: Look for explicit markers
+                    marker_variants = [
+                        "region:",
+                        "región:",
+                        "Region:",
+                        "Región:",
+                        "para la ",
+                        "de la ",
+                        "en la ",
+                        "para ",
+                        "de ",
+                        "en ",
+                    ]
+
                     for mk in marker_variants:
-                        if mk in instr:
-                            region_value = instr.split(mk, 1)[1].strip().strip("\"' ")
-                            break
+                        if mk.lower() in instr.lower():
+                            # Extract text after the marker
+                            idx = instr.lower().index(mk.lower())
+                            potential_region = instr[idx + len(mk) :].strip()
+
+                            # Clean up the extracted text
+                            # Remove quotes, periods, commas
+                            potential_region = potential_region.strip("\"'.,")
+
+                            # Take the first segment before any punctuation
+                            for delimiter in [",", ".", "?", "!", "\n"]:
+                                if delimiter in potential_region:
+                                    potential_region = potential_region.split(
+                                        delimiter
+                                    )[0]
+
+                            # Check if we got a reasonable region name
+                            if potential_region and len(potential_region) > 3:
+                                region_value = potential_region.strip()
+                                break
+
+                    # Pattern 2: Look for known region patterns
+                    if not region_value:
+                        import re
+
+                        # Common Chilean region patterns
+                        region_patterns = [
+                            r"Región\s+de\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                            r"Región\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                            r"región\s+de\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                            r"región\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                        ]
+                        for pattern in region_patterns:
+                            match = re.search(pattern, instr)
+                            if match:
+                                region_value = match.group(1).strip()
+                                break
+
                     if region_value:
                         args = {"region": region_value}
-                # Invoke tool
-                tool_output = tool.invoke(args) if args else tool.invoke({})
-                result = tool_output
+                        logger.info(f"   📍 Extracted region: '{region_value}'")
+                    else:
+                        # Log error and provide helpful message
+                        logger.error(
+                            f"   ❌ Could not extract region from instruction: '{instr[:100]}...'"
+                        )
+                        result = (
+                            f"Error: Could not extract region parameter from instruction. "
+                            f"Please ensure the instruction contains a clear region name. "
+                            f"Instruction was: '{instr}'"
+                        )
+                        # Skip tool invocation
+                        args = None
+
+                elif tool.name == "list_proyectos_por_comuna_por_region":
+                    # Extract region similarly to list_comunas_en_regiones
+                    instr = step.instruction
+
+                    region_value = None
+
+                    # Try explicit markers first
+                    marker_variants = [
+                        "region:",
+                        "región:",
+                        "Region:",
+                        "Región:",
+                        "para la ",
+                        "de la ",
+                        "en la ",
+                        "para ",
+                        "de ",
+                        "en ",
+                    ]
+
+                    for mk in marker_variants:
+                        if mk.lower() in instr.lower():
+                            idx = instr.lower().index(mk.lower())
+                            potential_region = instr[idx + len(mk) :].strip()
+                            potential_region = potential_region.strip("\"'.,")
+                            for delimiter in [",", ".", "?", "!", "\n"]:
+                                if delimiter in potential_region:
+                                    potential_region = potential_region.split(
+                                        delimiter
+                                    )[0]
+                            if potential_region and len(potential_region) > 3:
+                                region_value = potential_region.strip()
+                                break
+
+                    if not region_value:
+                        import re
+
+                        region_patterns = [
+                            r"Región\s+de\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                            r"Región\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                            r"región\s+de\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                            r"región\s+([A-Za-záéíóúñÁÉÍÓÚÑ\s]+)",
+                        ]
+                        for pattern in region_patterns:
+                            match = re.search(pattern, instr)
+                            if match:
+                                region_value = match.group(1).strip()
+                                break
+
+                    if region_value:
+                        args = {"region": region_value}
+                        logger.info(f"   📍 Extracted region: '{region_value}'")
+                    else:
+                        logger.error(
+                            f"   ❌ Could not extract region from instruction: '{instr[:100]}...'"
+                        )
+                        result = (
+                            f"Error: Could not extract region parameter from instruction. "
+                            f"Please ensure the instruction contains a clear region name. "
+                            f"Instruction was: '{instr}'"
+                        )
+                        args = None
+
+                # Invoke tool only if we have valid args
+                if args is not None:
+                    try:
+                        tool_output = tool.invoke(args)
+                        result = tool_output
+                    except Exception as tool_error:
+                        logger.error(f"   ❌ Tool invocation failed: {tool_error}")
+                        result = f"Error invoking tool {tool.name}: {tool_error}"
             else:
                 # Default to reasoning agent for unknown tools
                 logger.warning(
