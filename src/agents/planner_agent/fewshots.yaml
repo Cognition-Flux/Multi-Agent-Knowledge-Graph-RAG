@@ -73,7 +73,7 @@ FEW_SHOTS_PLANNER:
           is_complete: false
         - Step:
           instruction: Si la región existe, obtener los nombres de todas las comunas de la región.
-          suggested_tool: cypher_query_agent
+          suggested_tool: list_comunas_en_regiones
           reasoning: Solamente si se verificó que la región existe, se debe obtener los nombres de todas las comunas de la región.
           result: None
           is_complete: false
