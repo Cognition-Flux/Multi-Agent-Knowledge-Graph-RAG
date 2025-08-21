@@ -15,6 +15,7 @@ from src.agents.ReAct_agent import graph as react_graph
 from src.agents.ReAct_plus_planner_agent.schemas import ReActPlusPlannerState
 from src.agents.ReAct_plus_planner_agent.tools_registry import (
     format_tools_for_prompt,
+    get_all_tool_names,
 )
 
 
@@ -97,8 +98,13 @@ async def validate_plan(
 
     logger.info("✅ Validating plan tools")
 
-    # List of valid tool names
-    valid_tools = ["cypher_query_agent", "hybrid_graphRAG_agent", "reasoning_agent"]
+    # List of valid tool names (core + structured tools)
+    valid_tools = [
+        "cypher_query_agent",
+        "hybrid_graphRAG_agent",
+        "reasoning_agent",
+        *get_all_tool_names(),
+    ]
 
     # Validate each step's tool
     for i, step in enumerate(plan.steps):

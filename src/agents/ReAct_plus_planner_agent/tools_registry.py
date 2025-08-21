@@ -5,7 +5,10 @@ descriptions to ensure both planner and ReAct agents are aware of
 what tools exist and how to use them.
 """
 
+# %%
 from typing import TypedDict
+
+from src.tools import get_tools
 
 
 class ToolInfo(TypedDict):
@@ -17,7 +20,7 @@ class ToolInfo(TypedDict):
     keywords: list[str]
 
 
-# Registry of all available tools
+# Registry of core agent tools (LLM/subgraph-based)
 AVAILABLE_TOOLS: list[ToolInfo] = [
     {
         "name": "cypher_query_agent",
@@ -84,10 +87,40 @@ AVAILABLE_TOOLS: list[ToolInfo] = [
 ]
 
 
+def _get_dynamic_tools_info() -> list[ToolInfo]:
+    """Build ToolInfo entries for structured tools under src.tools."""
+    dynamic: list[ToolInfo] = []
+    for t in get_tools():
+        # `t` is a LangChain tool; it has `.name` and `.description`
+        name = getattr(t, "name", "") or "unknown_tool"
+        desc = getattr(t, "description", "Structured tool")
+        # Derive light-weight keywords from name tokens
+        name_tokens = [tok for tok in name.replace("_", " ").split() if tok]
+        keywords = list({tok.lower() for tok in name_tokens}) or [name]
+        dynamic.append(
+            {
+                "name": name,
+                "description": desc,
+                "use_cases": [
+                    "Direct data lookup",
+                    "List/lookup metadata",
+                    "Parameterised utility",
+                ],
+                "keywords": keywords,
+            }
+        )
+    return dynamic
+
+
+def get_all_tools_info() -> list[ToolInfo]:
+    """Return the union of core tools and dynamic structured tools."""
+    return AVAILABLE_TOOLS + _get_dynamic_tools_info()
+
+
 def get_tools_description() -> str:
     """Get a formatted description of all available tools."""
     descriptions = []
-    for tool in AVAILABLE_TOOLS:
+    for tool in get_all_tools_info():
         tool_desc = f"- **{tool['name']}**: {tool['description']}\n"
         tool_desc += f"  Use cases: {', '.join(tool['use_cases'][:3])}\n"
         tool_desc += f"  Keywords: {', '.join(tool['keywords'][:4])}"
@@ -97,8 +130,8 @@ def get_tools_description() -> str:
 
 
 def get_tool_by_name(name: str) -> ToolInfo | None:
-    """Get tool information by name."""
-    for tool in AVAILABLE_TOOLS:
+    """Get tool information by name (core + dynamic)."""
+    for tool in get_all_tools_info():
         if tool["name"] == name:
             return tool
     return None
@@ -110,7 +143,7 @@ def suggest_tool(description: str) -> str:
 
     # Check keywords for each tool
     scores = {}
-    for tool in AVAILABLE_TOOLS:
+    for tool in get_all_tools_info():
         score = 0
         for keyword in tool["keywords"]:
             if keyword in description_lower:
@@ -130,3 +163,14 @@ def format_tools_for_prompt() -> str:
     output += get_tools_description()
     output += "\n\n**Important**: Only use these exact tool names. Do not hallucinate or invent tool names."
     return output
+
+
+def get_all_tool_names() -> list[str]:
+    """Return all valid tool names (core + structured)."""
+    return [t["name"] for t in get_all_tools_info()]
+
+
+if __name__ == "__main__":
+    print(get_all_tool_names())
+
+# %%

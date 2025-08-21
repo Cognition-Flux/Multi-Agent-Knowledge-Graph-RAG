@@ -103,14 +103,16 @@ if __name__ == "__main__":
 
     async def test_streaming() -> None:
         """Test streaming execution to see the workflow progress."""
-        question = "Lista los proyectos de energía solar en región: Región de Coquimbo"
+        question = "Lista los proyectos de energía solar en región de Coquimbo"
 
         logger.info("=" * 60)
         logger.info("🧪 Test 4: Streaming Execution")
         logger.info(f"Question: {question}")
         logger.info("=" * 60)
 
-        async for chunk in graph.astream({"question": question}, stream_mode="updates"):
+        async for chunk in graph.astream(
+            {"question": question}, stream_mode="updates", debug=True
+        ):
             # Log each update
             for node, update in chunk.items():
                 logger.info(f"📍 Node: {node}")

@@ -21,6 +21,7 @@ from src.agents.ReAct_agent.schemas import ReActState, ToolResult
 from src.agents.reasoning_agent.graph_builder import (
     graph as reasoning_graph,
 )
+from src.tools import get_tools
 
 
 logging.basicConfig(level=logging.INFO)
@@ -131,10 +132,34 @@ async def execute_step(state: ReActState) -> Command[Literal["reflect", "finish"
             result = response.get("final_output", str(response))
 
         else:
-            # Default to reasoning agent for unknown tools
-            logger.warning(
-                f"   ⚠️ Unknown tool '{step.suggested_tool}', defaulting to Reasoning Agent"
-            )
+            # Try to match a structured tool by exact name
+            structured_map = {t.name: t for t in get_tools()}
+            if step.suggested_tool in structured_map:
+                tool = structured_map[step.suggested_tool]
+                logger.info("   🧰 Using structured tool: %s", tool.name)
+
+                # Basic arg extraction: allow passing the entire instruction or
+                # a minimal dict for known params like `region`.
+                args = {}
+                if tool.name == "list_comunas_en_regiones":
+                    # naive extraction: look for 'región:' or 'region:' pattern
+                    instr = step.instruction
+                    marker_variants = ["region:", "región:", "Region:", "Región:"]
+                    region_value = None
+                    for mk in marker_variants:
+                        if mk in instr:
+                            region_value = instr.split(mk, 1)[1].strip().strip("\"' ")
+                            break
+                    if region_value:
+                        args = {"region": region_value}
+                # Invoke tool
+                tool_output = tool.invoke(args) if args else tool.invoke({})
+                result = tool_output
+            else:
+                # Default to reasoning agent for unknown tools
+                logger.warning(
+                    f"   ⚠️ Unknown tool '{step.suggested_tool}', defaulting to Reasoning Agent"
+                )
 
             # Gather context
             previous_results = []
@@ -148,14 +173,14 @@ async def execute_step(state: ReActState) -> Command[Literal["reflect", "finish"
                         }
                     )
 
-            response = await reasoning_graph.ainvoke(
-                {
-                    "instruction": step.instruction,
-                    "current_results": previous_results,
-                    "partial_results": [],
-                }
-            )
-            result = response.get("final_output", str(response))
+                response = await reasoning_graph.ainvoke(
+                    {
+                        "instruction": step.instruction,
+                        "current_results": previous_results,
+                        "partial_results": [],
+                    }
+                )
+                result = response.get("final_output", str(response))
 
         # Create tool result
         tool_result = ToolResult(

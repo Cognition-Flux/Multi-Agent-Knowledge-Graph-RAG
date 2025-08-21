@@ -1,22 +1,22 @@
 FEW_SHOTS_PLANNER:
-  - input: Breve descripción/resumen de los proyectos de la región de antofagasta
+  - input: Descripción/resumen de los proyectos de la región de antofagasta
   - output: |
       goal: Escribir una breve descripción/resumen de los proyectos de la región de antofagasta
       steps:
         - Step:
           instruction: Obtener los nombres de las regiones, para verificar si la región existe y su nombre correcto.
-          suggested_tool: cypher_query_agent
+          suggested_tool: list_regiones
           reasoning: Se debe verificar si la región existe y como está escrita en la base de datos.
           result: None
           is_complete: false
         - Step:
           instruction: Si la región existe, obtener los nombres de todos los proyectos de la región.
-          suggested_tool: hybrid_graphRAG_agent
+          suggested_tool: cypher_query_agent
           reasoning: Solamente si se verificó que la región existe, se debe obtener los nombres de todos los proyectos de la región.
           result: None
           is_complete: false
         - Step:
-          instruction: Obtener el contenido de cada proyecto.
+          instruction: Obtener el contenido/resumen/descripcion/principales caracteristicas de cada proyecto.
           suggested_tool: hybrid_graphRAG_agent
           reasoning: Dado que se obtuvieron los nombres de los proyectos, se debe obtener el contenido de cada proyecto.
           result: None
@@ -25,6 +25,37 @@ FEW_SHOTS_PLANNER:
           instruction: Escribir una breve descripción/resumen de cada proyecto, con el contenido obtenido.
           suggested_tool: Reasoning_agent
           reasoning: Dado que se obtuvieron los nombres de los proyectos y el contenido de cada proyecto, se debe escribir una breve descripción de cada proyecto.
+          result: None
+          is_complete: false
+
+      direct_response_to_the_user: None
+
+  - input: Lista los proyectos de energía solar en región de coquimbo
+  - output: |
+      goal: Hacer una lista de los proyectos de energía solar en la región de coquimbo
+      steps:
+        - Step:
+          instruction: Obtener los nombres de las regiones, para verificar si la región existe y su nombre correcto.
+          suggested_tool: list_regiones
+          reasoning: Se debe verificar si la región existe y como está escrita en la base de datos.
+          result: None
+          is_complete: false
+        - Step:
+          instruction: Si la región existe, obtener los nombres de todos los proyectos de la región.
+          suggested_tool: cypher_query_agent
+          reasoning: Solamente si se verificó que la región existe, se debe obtener los nombres de todos los proyectos de la región.
+          result: None
+          is_complete: false
+        - Step:
+          instruction: Buscar en cada proyecto si hay contenido sobre energía solar.
+          suggested_tool: hybrid_graphRAG_agent
+          reasoning: Dado que se obtuvieron los nombres de los proyectos, se debe buscar si hay contenido sobre energía solar.
+          result: None
+          is_complete: false
+        - Step:
+          instruction: Identificar y consolidar los proyectos de energía solar y presentarlos en una lista.
+          suggested_tool: Reasoning_agent
+          reasoning: Dado que se obtuvieron los proyectos de energía solar de la región de coquimbo y el contenido de cada proyecto, se debe identificar y consolidar los proyectos de energía solar y presentarlos en una lista.
           result: None
           is_complete: false
 
