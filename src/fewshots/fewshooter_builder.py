@@ -251,15 +251,15 @@ if __name__ == "__main__":
     FEW_SHOT_PROMPT = create_dynamic_fewshooter(
         yaml_path=args.yaml_path, k=args.k, group=args.group
     )
+    # Consolidate system messages for Bedrock compatibility
+    consolidated_system = (
+        f"{SYSTEM_PROMPT}\n\n"
+        "## A continuación, ejemplos de preguntas y respuestas parecidas:"
+    )
     TEST_PROMPT = ChatPromptTemplate.from_messages(
         [
-            ("system", SYSTEM_PROMPT),
-            (
-                "system",
-                "## A continuación, ejemplos de preguntas y respuestas parecidas:",
-            ),
+            ("system", consolidated_system),
             FEW_SHOT_PROMPT,
-            ("system", "## A continuación, el requerimiento del usuario:"),
             ("human", "{input}"),
         ]
     )

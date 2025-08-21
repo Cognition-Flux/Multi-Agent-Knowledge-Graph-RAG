@@ -80,7 +80,9 @@ async def reason(state: ReasoningState) -> Command[Literal["synthesize"]]:
         return Command(goto="synthesize", update={"reasoning_response": response})
 
     except Exception as e:
-        logger.error(f"❌ Error during reasoning: {e}")
+        logger.warning(
+            f"Reasoning structured output failed; using fallback. Error: {e}"
+        )
         # Create a fallback response
         from src.agents.reasoning_agent.schemas import ReasoningResponse
 

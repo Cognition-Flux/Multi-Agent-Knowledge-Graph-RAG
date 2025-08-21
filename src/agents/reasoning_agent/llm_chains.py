@@ -39,7 +39,8 @@ def get_task_parser_chain(temperature: float = 0) -> Runnable:
         ]
     )
 
-    return prompt | llm.with_structured_output(ReasoningTask)
+    pipeline: Runnable = prompt | llm.with_structured_output(ReasoningTask)
+    return pipeline.with_retry(stop_after_attempt=3)
 
 
 def get_reasoning_engine_chain(temperature: float = 0.1) -> Runnable:
@@ -48,7 +49,12 @@ def get_reasoning_engine_chain(temperature: float = 0.1) -> Runnable:
 
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", SYSTEM_PROMPT_REASONING_ENGINE),
+            (
+                "system",
+                SYSTEM_PROMPT_REASONING_ENGINE
+                + "\n\nDebes devolver un objeto JSON que cumpla exactamente con el esquema:"
+                + ' {{"reasoning": string, "conclusion": string, "confidence": number (0..1), "key_points": string[]}}.',
+            ),
             (
                 "human",
                 """Task Type: {task_type}
@@ -61,12 +67,15 @@ Current Results:
 Partial Results:
 {partial_results}
 
-Please perform the reasoning task and provide your analysis.""",
+Please perform the reasoning task and provide your analysis.
+
+Return only the JSON object that matches the schema above. Ensure both 'reasoning' and 'conclusion' are present.""",
             ),
         ]
     )
 
-    return prompt | llm.with_structured_output(ReasoningResponse)
+    pipeline: Runnable = prompt | llm.with_structured_output(ReasoningResponse)
+    return pipeline.with_retry(stop_after_attempt=3)
 
 
 def get_synthesizer_chain(temperature: float = 0) -> Runnable:

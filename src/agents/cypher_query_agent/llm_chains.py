@@ -59,12 +59,26 @@ def get_cypher_query_chain(
 
 
 def get_answer_generation_chain() -> Runnable:
-    """Convenience builder for an answer-generation agent chain."""
+    """Convenience builder for an answer-generation agent chain.
+
+    Modified to be compatible with Bedrock's structured output requirements.
+    """
     llm = get_llm()
+
+    # Enhanced system prompt that clearly instructs the model to generate an answer
+    enhanced_system_prompt = (
+        f"{SYSTEM_PROMPT_ANSWER_GENERATION_AGENT}\n\n"
+        "IMPORTANTE: Debes generar una respuesta completa y detallada que responda a la pregunta del usuario "
+        "basándote exclusivamente en los resultados proporcionados."
+    )
 
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", SYSTEM_PROMPT_ANSWER_GENERATION_AGENT),
+            ("system", enhanced_system_prompt),
+            (
+                "human",
+                "Question: {input}\n\nNumber of results: {number_of_results}\n\nResults:\n{results}\n\nGenera una respuesta completa en formato markdown.",
+            ),
         ]
     )
     pipeline: Runnable = prompt | llm.with_structured_output(Answer)

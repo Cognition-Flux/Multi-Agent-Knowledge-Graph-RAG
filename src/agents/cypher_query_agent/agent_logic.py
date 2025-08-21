@@ -9,6 +9,7 @@ from typing import Literal
 
 from dotenv import load_dotenv
 from langchain_core.messages import AIMessage
+from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph import END
 from langgraph.types import Command, Send
 
@@ -21,6 +22,7 @@ from src.agents.cypher_query_agent.schemas import Neo4jQueryState
 from src.agents.user_question_augmentation_agent.llm_chains import (
     get_question_generation_chain,
 )
+from src.utils import get_llm
 
 
 # --- Setup ---
@@ -28,6 +30,7 @@ load_dotenv(override=True)
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
+logger = logging.getLogger(__name__)
 
 
 # --- LLM Chains ---
@@ -49,6 +52,25 @@ def safe_run_cypher(query: str) -> str:
     except Exception as exc:
         logging.error("Error running Cypher query: %s", exc)
         return json.dumps({"error": f"ERROR: {exc}"}, ensure_ascii=False)
+
+
+def _truncate_text(text: str, max_chars: int = 20000) -> str:
+    """Truncate very long text to keep Bedrock payloads reasonable.
+
+    Preserves the beginning and end of the string when truncation is applied,
+    adding an omission note in the middle.
+    """
+    if len(text) <= max_chars:
+        return text
+    head = max_chars // 2
+    tail = max_chars - head - 200  # leave space for the omission note
+    if tail < 0:
+        tail = 0
+    return (
+        text[:head]
+        + "\n\n[… contenido truncado por longitud; se omitieron partes …]\n\n"
+        + text[-tail:]
+    )
 
 
 # --- Graph Nodes ---
@@ -128,14 +150,45 @@ async def generate_answer(
     """Node that synthesizes a final answer from the aggregated query results."""
     logging.info("Generating the final answer...")
     question = state["question"]
+    joined_results = "\n".join(state["results"]) if state.get("results") else ""
+    truncated_results = _truncate_text(joined_results, max_chars=20000)
     input_for_llm = {
         "input": question,
         "number_of_results": len(state.get("results", [])),
-        "results": "\n".join(state["results"]),
+        "results": truncated_results,
     }
     print("Input for generate_answer LLM: %s", input_for_llm)
-    response = await answer_chain.ainvoke(input_for_llm)
-    return Command(goto=END, update={"messages": [AIMessage(content=response.answer)]})
+    try:
+        response = await answer_chain.ainvoke(input_for_llm)
+        answer_text = getattr(response, "answer", None)
+        if not answer_text:
+            # Defensive: ensure we don't raise on missing field
+            answer_text = str(response)
+        return Command(goto=END, update={"messages": [AIMessage(content=answer_text)]})
+    except Exception as exc:
+        logger.warning(
+            "Structured answer generation failed; using fallback. Error: %s", exc
+        )
+        # Fallback: plain chat without structured output
+        fallback_system = (
+            "Eres un asistente que sintetiza respuestas claras en formato markdown a partir de "
+            "información proporcionada. Si la lista de resultados es muy larga, resume patrones y ejemplos, "
+            "sin listar cada elemento."
+        )
+        fallback_prompt = ChatPromptTemplate.from_messages(
+            [
+                ("system", fallback_system),
+                (
+                    "human",
+                    "Question: {input}\n\nNumber of results: {number_of_results}\n\nResults (puede estar truncado):\n{results}\n\nGenera una respuesta completa en markdown.",
+                ),
+            ]
+        )
+        fallback_llm = get_llm()
+        fallback_chain = fallback_prompt | fallback_llm
+        msg = await fallback_chain.ainvoke(input_for_llm)
+        content = getattr(msg, "content", str(msg))
+        return Command(goto=END, update={"messages": [AIMessage(content=content)]})
 
 
 # %%

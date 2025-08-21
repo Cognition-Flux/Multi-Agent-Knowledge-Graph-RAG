@@ -47,64 +47,63 @@ graph = builder.compile()
 
 # Test function
 if __name__ == "__main__":
+    # async def test_with_metadata_query() -> None:
+    #     """Test with a question that requires metadata query."""
+    #     question = "¿Cuántos proyectos hay en la región de Antofagasta?"
 
-    async def test_with_metadata_query() -> None:
-        """Test with a question that requires metadata query."""
-        question = "¿Cuántos proyectos hay en la región de Antofagasta?"
+    #     logger.info("=" * 60)
+    #     logger.info("🧪 Test 1: Metadata Query")
+    #     logger.info(f"Question: {question}")
+    #     logger.info("=" * 60)
 
-        logger.info("=" * 60)
-        logger.info("🧪 Test 1: Metadata Query")
-        logger.info(f"Question: {question}")
-        logger.info("=" * 60)
+    #     result = await graph.ainvoke({"question": question})
 
-        result = await graph.ainvoke({"question": question})
+    #     if result.get("final_answer"):
+    #         logger.info("\n📊 Final Answer:")
+    #         print(result["final_answer"])
 
-        if result.get("final_answer"):
-            logger.info("\n📊 Final Answer:")
-            print(result["final_answer"])
+    #     logger.info("\n✅ Test 1 completed")
 
-        logger.info("\n✅ Test 1 completed")
+    # async def test_with_complex_query() -> None:
+    #     """Test with a complex question requiring multiple tools."""
+    #     question = """
+    #     Dame un resumen de los proyectos en la región de Antofagasta
+    #     y analiza las especies de flora más importantes encontradas.
+    #     """
 
-    async def test_with_complex_query() -> None:
-        """Test with a complex question requiring multiple tools."""
-        question = """
-        Dame un resumen de los proyectos en la región de Antofagasta
-        y analiza las especies de flora más importantes encontradas.
-        """
+    #     logger.info("=" * 60)
+    #     logger.info("🧪 Test 2: Complex Multi-Tool Query")
+    #     logger.info(f"Question: {question.strip()}")
+    #     logger.info("=" * 60)
 
-        logger.info("=" * 60)
-        logger.info("🧪 Test 2: Complex Multi-Tool Query")
-        logger.info(f"Question: {question.strip()}")
-        logger.info("=" * 60)
+    #     result = await graph.ainvoke({"question": question})
 
-        result = await graph.ainvoke({"question": question})
+    #     if result.get("final_answer"):
+    #         logger.info("\n📊 Final Answer:")
+    #         print(result["final_answer"])
 
-        if result.get("final_answer"):
-            logger.info("\n📊 Final Answer:")
-            print(result["final_answer"])
+    #     logger.info("\n✅ Test 2 completed")
 
-        logger.info("\n✅ Test 2 completed")
+    # async def test_with_direct_response() -> None:
+    #     """Test with a simple question that might get a direct response."""
+    #     question = "¿Qué es el cambio climático?"
 
-    async def test_with_direct_response() -> None:
-        """Test with a simple question that might get a direct response."""
-        question = "¿Qué es el cambio climático?"
+    #     logger.info("=" * 60)
+    #     logger.info("🧪 Test 3: Direct Response Query")
+    #     logger.info(f"Question: {question}")
+    #     logger.info("=" * 60)
 
-        logger.info("=" * 60)
-        logger.info("🧪 Test 3: Direct Response Query")
-        logger.info(f"Question: {question}")
-        logger.info("=" * 60)
+    #     result = await graph.ainvoke({"question": question})
 
-        result = await graph.ainvoke({"question": question})
+    #     if result.get("final_answer"):
+    #         logger.info("\n📊 Final Answer:")
+    #         print(result["final_answer"])
 
-        if result.get("final_answer"):
-            logger.info("\n📊 Final Answer:")
-            print(result["final_answer"])
-
-        logger.info("\n✅ Test 3 completed")
+    #     logger.info("\n✅ Test 3 completed")
 
     async def test_streaming() -> None:
         """Test streaming execution to see the workflow progress."""
-        question = "Lista los proyectos de energía solar en cualquier región"
+        question = "Lista los proyectos de energía solar en región: Región de Coquimbo"
 
         logger.info("=" * 60)
         logger.info("🧪 Test 4: Streaming Execution")
@@ -128,15 +127,15 @@ if __name__ == "__main__":
     logger.info("🚀 Testing ReAct + Planner Combined Agent")
     logger.info("=" * 60 + "\n")
 
-    # Run each test
-    asyncio.run(test_with_metadata_query())
-    print("\n" + "-" * 60 + "\n")
+    # # Run each test
+    # asyncio.run(test_with_metadata_query())
+    # print("\n" + "-" * 60 + "\n")
 
-    asyncio.run(test_with_complex_query())
-    print("\n" + "-" * 60 + "\n")
+    # asyncio.run(test_with_complex_query())
+    # print("\n" + "-" * 60 + "\n")
 
-    asyncio.run(test_with_direct_response())
-    print("\n" + "-" * 60 + "\n")
+    # asyncio.run(test_with_direct_response())
+    # print("\n" + "-" * 60 + "\n")
 
     asyncio.run(test_streaming())
 

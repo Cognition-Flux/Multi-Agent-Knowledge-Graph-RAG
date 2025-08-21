@@ -17,17 +17,23 @@ def build_prompt(
     group: str | None = None,
     yaml_path: Path | None = None,
 ) -> ChatPromptTemplate:
-    """Build a ChatPromptTemplate with dynamic few-shot selection."""
+    """Build a ChatPromptTemplate with dynamic few-shot selection.
+
+    For AWS Bedrock compatibility, all system content is consolidated
+    into a single system message at the beginning.
+    """
     few_shooter = create_dynamic_fewshooter(k=k, group=group, yaml_path=yaml_path)
+
+    # Consolidate all system content into one message for Bedrock compatibility
+    consolidated_system = (
+        f"{system_prompt}\n\n"
+        "## A continuación, ejemplos de requerimientos y respuestas parecidas:"
+    )
+
     return ChatPromptTemplate.from_messages(
         [
-            ("system", system_prompt),
-            (
-                "system",
-                "## A continuación, ejemplos de requerimientos y respuestas parecidas:",
-            ),
-            few_shooter,
-            ("system", "## A continuación, el requerimiento del usuario:"),
+            ("system", consolidated_system),
+            few_shooter,  # This generates human/AI message pairs
             ("human", "{input}"),
         ]
     )

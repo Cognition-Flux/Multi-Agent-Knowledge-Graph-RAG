@@ -1,11 +1,17 @@
-"""Utility functions for the agentic workflow."""
+"""Utility functions for the agentic workflow.
+
+Bedrock available models:
+- anthropic.claude-opus-4-1-20250805-v1:0
+- anthropic.claude-sonnet-4-20250514-v1:0
+- anthropic.claude-3-5-haiku-20241022-v1:0
+"""
 
 # %%
 import os
 
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic
-from langchain_aws import ChatBedrockConverse
+from langchain_aws import ChatBedrock
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 from langchain_openai import AzureChatOpenAI
@@ -16,19 +22,13 @@ load_dotenv(override=True)
 
 
 def get_llm(
-    provider: str = "azure",
-    model: str = "gpt-4.1-mini",
-) -> (
-    AzureChatOpenAI
-    | ChatAnthropic
-    | ChatBedrockConverse
-    | ChatGoogleGenerativeAI
-    | ChatGroq
-):
+    provider: str = "bedrock",
+    model: str = "us.anthropic.claude-sonnet-4-20250514-v1:0",
+) -> AzureChatOpenAI | ChatAnthropic | ChatBedrock | ChatGoogleGenerativeAI | ChatGroq:
     """Get a language model instance based on the specified provider.
 
     Args:
-        provider: The LLM provider to use (defaults to 'azure')
+        provider: The LLM provider to use (defaults to 'bedrock')
         model: The specific model to use for the provider
 
     Returns:
@@ -36,6 +36,11 @@ def get_llm(
 
     Raises:
         ValueError: If an unsupported provider is specified
+
+    Bedrock available models:
+        - anthropic.claude-opus-4-1-20250805-v1:0
+        - anthropic.claude-sonnet-4-20250514-v1:0
+        - anthropic.claude-3-5-haiku-20241022-v1:0
 
     """
     if provider == "azure":
@@ -80,13 +85,10 @@ def get_llm(
             else "anthropic.claude-3-5-sonnet-20240620-v1:0"
         )
         os.environ["LAST_LLM_MODEL"] = bedrock_model
-        return ChatBedrockConverse(
-            model=bedrock_model,
-            temperature=0,
-            max_tokens=None,
-            region_name=os.getenv("AWS_REGION", "us-east-1"),
-            aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-            aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        return ChatBedrock(
+            region_name="us-west-2",
+            model_id=bedrock_model,
+            model_kwargs={"temperature": 0.7},
         )
     elif provider == "google":
         # Use provided model or default to gemini-2.5-flash-preview-05-20
@@ -132,8 +134,16 @@ def get_llm(
 
 
 if __name__ == "__main__":
+    import asyncio
+
     llm = get_llm(
-        provider="bedrock", model="us.anthropic.claude-sonnet-4-20250514-v1:0"
+        provider="bedrock",
+        model=("us.anthropic.claude-sonnet-4-20250514-v1:0"),
     )
-    response = llm.invoke("Hello, how are you?")
-    print(response.content)
+
+    async def main():
+        """This is a simple example of how to use the LangChain AWS Bedrock client to invoke a model."""
+        response = await llm.ainvoke("Hello, how are you?")
+        print(response.content)
+
+    asyncio.run(main())
