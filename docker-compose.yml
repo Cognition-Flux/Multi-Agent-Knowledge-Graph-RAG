@@ -1,0 +1,21 @@
+# docker-compose.yml
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000" # Frontend
+      - "8000:8000" # Backend
+    volumes:
+      # Mount the current directory into the container's /app directory
+      # This allows for live code reloading during development
+      # Be mindful of potential differences in dependencies between host and container if not managed carefully
+      - .:/app
+      # Keep the container's .venv separate so the bind mount doesn't hide deps
+      - venv:/app/.venv
+    environment:
+      # Ensures Reflex development server uses polling if necessary in Docker envs
+      - WATCHFILES_FORCE_POLLING=true
+    command: ["uv", "run", "reflex", "run"]
+
+volumes:
+  venv:
