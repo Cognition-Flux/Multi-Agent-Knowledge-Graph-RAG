@@ -16,7 +16,7 @@ from neo4j_graphrag.llm import AzureOpenAILLM
 from src.agents.hybrid_graphRAG_agent.bedrock_converse_adapter import (
     BedrockConverseLLMAdapter,
 )
-from src.agents.hybrid_graphRAG_agent.retriever import retriever
+from src.agents.hybrid_graphRAG_agent.retriever_aws import retriever
 
 
 # --- Setup ---

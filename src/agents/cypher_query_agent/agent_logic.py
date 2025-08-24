@@ -3,7 +3,6 @@
 # %%
 from __future__ import annotations
 
-import json
 import logging
 from typing import Literal
 
@@ -13,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph import END
 from langgraph.types import Command, Send
 
-from KnowledgeGraphDB.Neo4j_KG_creation.cypher_runner import run_cypher
+from src.agents.cypher_query_agent.cypher_runner import safe_run_cypher
 from src.agents.cypher_query_agent.llm_chains import (
     get_answer_generation_chain,
     get_cypher_query_chain,
@@ -40,18 +39,7 @@ answer_chain = get_answer_generation_chain()
 
 
 # --- Helper Functions ---
-def safe_run_cypher(query: str) -> str:
-    """Run Cypher query and return results as a JSON string.
-
-    On error, return a JSON string with an 'error' key.
-    """
-    try:
-        result = run_cypher(query)
-        # Ensure results are JSON serializable
-        return json.dumps(result, ensure_ascii=False)
-    except Exception as exc:
-        logging.error("Error running Cypher query: %s", exc)
-        return json.dumps({"error": f"ERROR: {exc}"}, ensure_ascii=False)
+# Note: safe_run_cypher is now imported from cypher_runner module
 
 
 def _truncate_text(text: str, max_chars: int = 20000) -> str:
