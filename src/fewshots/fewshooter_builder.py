@@ -5,15 +5,16 @@
 """
 
 # %%
+import os
 from collections.abc import Iterable
 from pathlib import Path
 
 import yaml
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings
 from langchain_core.example_selectors import SemanticSimilarityExampleSelector
 from langchain_core.prompts import ChatPromptTemplate, FewShotChatMessagePromptTemplate
 from langchain_core.vectorstores import InMemoryVectorStore
-from langchain_openai import AzureOpenAIEmbeddings, OpenAIEmbeddings
 
 
 load_dotenv(override=True)
@@ -185,22 +186,10 @@ def create_dynamic_fewshooter(
     # Prepare texts to vectorize (explicit order for stability)
     to_vectorize = [f"{ex['input']}\n{ex['output']}" for ex in examples]
 
-    # Initialize embeddings with robust fallback
-    embeddings = None
-    init_errors: list[str] = []
-    try:
-        embeddings = AzureOpenAIEmbeddings(model="text-embedding-3-large")
-    except Exception as exc:
-        init_errors.append(f"AzureOpenAIEmbeddings failed: {exc}")
-    if embeddings is None:
-        try:
-            embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
-        except Exception as exc:
-            init_errors.append(f"OpenAIEmbeddings failed: {exc}")
-            raise RuntimeError(
-                "No embeddings backend available. "
-                "Set Azure OpenAI or OpenAI credentials. " + "; ".join(init_errors)
-            ) from exc
+    # Initialize Bedrock embeddings (single backend)
+    model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v1")
+    region = os.getenv("AWS_BEDROCK_REGION", "us-west-2")
+    embeddings = BedrockEmbeddings(model_id=model_id, region_name=region)
 
     # Build selector with safe k
     effective_k = max(1, min(k, len(examples)))

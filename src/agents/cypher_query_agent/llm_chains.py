@@ -10,7 +10,7 @@ import yaml
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import Runnable
 
-from KnowledgeGraphDB.Neo4j_KG_creation.cypher_runner import run_cypher
+from src.agents.cypher_query_agent.cypher_runner import run_cypher
 from src.agents.cypher_query_agent.schemas import (
     Answer,
     CypherQuery,

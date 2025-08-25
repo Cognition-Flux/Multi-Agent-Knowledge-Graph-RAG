@@ -6,8 +6,9 @@ from __future__ import annotations
 import os
 
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings
 from neo4j import GraphDatabase
-from neo4j_graphrag.embeddings.cohere import CohereEmbeddings
+from neo4j_graphrag.embeddings.base import Embedder
 from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
 from neo4j_graphrag.retrievers import HybridCypherRetriever
 
@@ -26,8 +27,24 @@ driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
 # Verificamos conectividad sin cerrar el driver prematuramente.
 driver.verify_connectivity()
 
-# Embeddings Cohere (mismo modelo que en la construcción del KG)
-embedder = CohereEmbeddings(model="embed-v4.0", api_key=os.getenv("COHERE_API_KEY"))
+
+# Bedrock Embeddings adapter for neo4j_graphrag
+class BedrockEmbedderAdapter(Embedder):
+    def __init__(self, bedrock_embeddings: BedrockEmbeddings):
+        self.bedrock_embeddings = bedrock_embeddings
+
+    def embed_query(self, text: str) -> list[float]:
+        return self.bedrock_embeddings.embed_query(text)
+
+    def embed_many(self, texts: list[str]) -> list[list[float]]:
+        return self.bedrock_embeddings.embed_documents(texts)
+
+
+# Embeddings Bedrock
+_model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v1")
+_region = os.getenv("AWS_BEDROCK_REGION", "us-west-2")
+_bedrock = BedrockEmbeddings(model_id=_model_id, region_name=_region)
+embedder = BedrockEmbedderAdapter(_bedrock)
 
 # Nombre de índices usados para nodos :Chunk creados por SimpleKGPipeline
 vector_index_name = "chunkEmbedding"

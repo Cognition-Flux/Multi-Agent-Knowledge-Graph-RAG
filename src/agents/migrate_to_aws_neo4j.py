@@ -22,7 +22,7 @@ def check_env_variables():
         "AWS_NEO4J_CONNECTION_URL": "AWS Neo4j connection URL",
         "AWS_NEO4J_USERNAME": "AWS Neo4j username",
         "AWS_NEO4J_PASSWORD": "AWS Neo4j password",
-        "COHERE_API_KEY": "Cohere API key for embeddings",
+        "AWS_BEDROCK_REGION": "AWS Bedrock region for embeddings",
     }
 
     missing_vars = []

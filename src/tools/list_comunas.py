@@ -17,8 +17,8 @@ import json
 from langchain_core.tools import tool
 
 
-try:  # Lazy-friendly import so tests can monkeypatch without Neo4j available
-    from KnowledgeGraphDB.Neo4j_KG_creation.cypher_runner import run_cypher
+try:  # Use AWS-hosted Neo4j cypher runner
+    from src.agents.cypher_query_agent.cypher_runner import run_cypher
 except Exception:  # pragma: no cover
 
     def run_cypher(*_args, **_kwargs):  # type: ignore[no-redef]
