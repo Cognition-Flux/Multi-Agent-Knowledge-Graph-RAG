@@ -1,9 +1,9 @@
 """Utility functions for the agentic workflow.
 
 Bedrock available models:
-- anthropic.claude-opus-4-1-20250805-v1:0
-- anthropic.claude-sonnet-4-20250514-v1:0
-- anthropic.claude-3-5-haiku-20241022-v1:0
+- us.anthropic.claude-opus-4-1-20250805-v1:0
+- us.anthropic.claude-sonnet-4-20250514-v1:0
+- us.anthropic.claude-3-5-haiku-20241022-v1:0
 """
 
 # %%
@@ -38,9 +38,9 @@ def get_llm(
         ValueError: If an unsupported provider is specified
 
     Bedrock available models:
-        - anthropic.claude-opus-4-1-20250805-v1:0
-        - anthropic.claude-sonnet-4-20250514-v1:0
-        - anthropic.claude-3-5-haiku-20241022-v1:0
+        - us.anthropic.claude-opus-4-1-20250805-v1:0
+        - us.anthropic.claude-sonnet-4-20250514-v1:0
+        - us.anthropic.claude-3-5-haiku-20241022-v1:0
 
     """
     if provider == "azure":
