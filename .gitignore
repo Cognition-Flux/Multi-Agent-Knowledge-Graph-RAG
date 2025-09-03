@@ -31,5 +31,8 @@ os
 sys
 ngrok.yml
 
+# Project documents (ignore generated/large data)
+src/documents/
+
 # ngrok configuration
 ngrok.yml
