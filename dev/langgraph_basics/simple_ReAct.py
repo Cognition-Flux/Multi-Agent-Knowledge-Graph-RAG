@@ -12,9 +12,9 @@ from typing import Annotated, Any, Literal
 
 import aiosqlite
 from dotenv import load_dotenv
+from langchain_aws import ChatBedrock
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
-from langchain_openai import AzureChatOpenAI
 from langchain_tavily import TavilySearch
 from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 from langgraph.graph import END, START, MessagesState, StateGraph
@@ -34,17 +34,11 @@ def _generate_uuid(page_content: str) -> str:
 load_dotenv(override=True)
 
 
-def get_llm(model: str = "gpt-4.1-nano"):
-    """Get a LLM."""
-    return AzureChatOpenAI(
-        azure_deployment=model,
-        api_version=os.getenv("AZURE_API_VERSION"),
-        temperature=0 if model != "o3-mini" else None,
-        max_tokens=None,
-        timeout=1200,
-        max_retries=5,
-        streaming=True,
-        api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+def get_llm(model: str = "us.anthropic.claude-sonnet-4-20250514-v1:0"):
+    """Get a LLM (Bedrock)."""
+    return ChatBedrock(
+        model_id=model,
+        region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
     )
 
 
@@ -81,7 +75,10 @@ def reduce_docs(
 
     existing_list = list(existing) if existing else []
     if isinstance(new, str):
-        return [*existing_list, Document(page_content=new, metadata={"uuid": _generate_uuid(new)})]
+        return [
+            *existing_list,
+            Document(page_content=new, metadata={"uuid": _generate_uuid(new)}),
+        ]
 
     new_list = []
     if isinstance(new, list):

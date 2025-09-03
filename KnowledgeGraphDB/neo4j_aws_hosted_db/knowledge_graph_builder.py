@@ -25,8 +25,8 @@ from typing import Any, TypeVar
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings
 from langchain_core.documents import Document
-from neo4j_graphrag.embeddings.cohere import CohereEmbeddings
 from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
 
 from KnowledgeGraphDB.neo4j_aws_hosted_db.connection import (
@@ -61,17 +61,18 @@ def get_conn():
 
 
 def _try_create_embedder() -> Any | None:
-    """Create an embedder if credentials are available; otherwise return None."""
+    """Create a Bedrock Titan embedder if AWS credentials are available; otherwise return None."""
     import os
 
-    api_key = os.getenv("COHERE_API_KEY")
-    if not api_key:
-        logger.warning("COHERE_API_KEY not found. Embeddings will be skipped.")
+    aws_region = os.getenv("AWS_BEDROCK_REGION")
+    model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0")
+    if not aws_region:
+        logger.warning("AWS_BEDROCK_REGION not set. Embeddings will be skipped.")
         return None
     try:
-        return CohereEmbeddings(model="embed-v4.0", api_key=api_key)
+        return BedrockEmbeddings(model_id=model_id, region_name=aws_region)
     except Exception as e:
-        logger.warning(f"Failed to create embedder: {e}")
+        logger.warning(f"Failed to create Bedrock embedder: {e}")
         return None
 
 

@@ -41,11 +41,10 @@ from __future__ import annotations
 import os
 
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings, ChatBedrock
 from neo4j import GraphDatabase
-from neo4j_graphrag.embeddings.cohere import CohereEmbeddings
 from neo4j_graphrag.generation import GraphRAG, RagTemplate
 from neo4j_graphrag.indexes import create_fulltext_index, create_vector_index
-from neo4j_graphrag.llm import AzureOpenAILLM
 from neo4j_graphrag.retrievers import HybridCypherRetriever
 
 
@@ -63,8 +62,11 @@ driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
 # Verificamos conectividad sin cerrar el driver prematuramente.
 driver.verify_connectivity()
 
-# Embeddings Cohere (mismo modelo que en la construcción del KG)
-embedder = CohereEmbeddings(model="embed-v4.0", api_key=os.getenv("COHERE_API_KEY"))
+# Embeddings Titan en AWS Bedrock
+embedder = BedrockEmbeddings(
+    model_id=os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0"),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
+)
 
 # Nombre de índices usados para nodos :Chunk creados por SimpleKGPipeline
 vector_index_name = "chunkEmbedding"
@@ -157,11 +159,11 @@ retriever = HybridCypherRetriever(
 # 4) LLM y plantilla
 # --------------------------------------------------------------------------- #
 
-llm = AzureOpenAILLM(
-    model_name="gpt-4.1",
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    api_version=os.getenv("AZURE_API_VERSION"),
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+llm = ChatBedrock(
+    model_id=os.getenv(
+        "BEDROCK_CHAT_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    ),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
 )
 
 rag_template = RagTemplate(

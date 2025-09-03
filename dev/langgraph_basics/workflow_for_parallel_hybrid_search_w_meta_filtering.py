@@ -11,11 +11,11 @@ import aiosqlite
 import numpy as np
 import pandas as pd
 from dotenv import load_dotenv
+from langchain_aws import ChatBedrock
 from langchain_core.documents import Document
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableLambda
-from langchain_openai import AzureChatOpenAI
 from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 from langgraph.graph import END, START, MessagesState, StateGraph
 from langgraph.graph.message import add_messages
@@ -95,16 +95,11 @@ class RetrievalGraphState(MessagesState):
     scores_rows: Annotated[list[dict], add] = Field(default_factory=list)
 
 
-llm = AzureChatOpenAI(
-    azure_deployment="gpt-4.1-mini",
-    api_version=os.getenv("AZURE_API_VERSION"),
-    temperature=0,
-    max_tokens=None,
-    timeout=1200,
-    max_retries=5,
-    streaming=True,
-    api_key=os.getenv("AZURE_API_KEY"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+llm = ChatBedrock(
+    model_id=os.getenv(
+        "BEDROCK_CHAT_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    ),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
 )
 PROMPT_FOR_GENERATE_QUERIES = """
 Based on the user question, return ten (10) queries useful to retrieve documents in parallel.

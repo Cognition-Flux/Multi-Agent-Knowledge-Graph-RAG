@@ -11,7 +11,6 @@ import os
 from dotenv import load_dotenv
 from langchain_aws import ChatBedrock, ChatBedrockConverse
 from neo4j_graphrag.generation import GraphRAG, RagTemplate
-from neo4j_graphrag.llm import AzureOpenAILLM
 
 from src.agents.hybrid_graphRAG_agent.bedrock_converse_adapter import (
     BedrockConverseLLMAdapter,
@@ -32,19 +31,8 @@ BEDROCK_CHAT_MODEL: str = "CONVERSE"
 # Ensure we always define llm; raise if unsupported provider
 LLM = None
 
-if LLM_PROVIDER == "azure":
-    try:
-        LLM = AzureOpenAILLM(
-            model_name="gpt-4.1",
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            api_version=os.getenv("AZURE_API_VERSION"),
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-        )
-    except Exception as exc:
-        logging.error("Failed to initialize Azure OpenAI LLM: %s", exc)
-        raise
-
-elif LLM_PROVIDER == "bedrock":
+# Only Bedrock provider is supported
+if True:
     if BEDROCK_CHAT_MODEL == "CONVERSE":
         try:
             CONVERSE_MODEL = "us.anthropic.claude-sonnet-4-20250514-v1:0"

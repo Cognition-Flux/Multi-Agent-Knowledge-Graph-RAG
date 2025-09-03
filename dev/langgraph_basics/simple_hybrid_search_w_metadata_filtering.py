@@ -5,11 +5,11 @@ import os
 from uuid import uuid4
 
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings
 from langchain_community.retrievers import (
     PineconeHybridSearchRetriever,
 )
 from langchain_core.documents import Document
-from langchain_openai import AzureOpenAIEmbeddings
 from pinecone import Pinecone, ServerlessSpec
 from pinecone_text.sparse.splade_encoder import SpladeEncoder
 
@@ -42,10 +42,9 @@ else:
 
 index = pc.Index(INDEX_NAME)
 
-embeddings = AzureOpenAIEmbeddings(
-    model="text-embedding-3-large",
-    azure_endpoint=os.getenv("AZUREOPENAIEMBEDDINGS_AZURE_ENDPOINT"),
-    api_key=os.getenv("AZUREOPENAIEMBEDDINGS_API_KEY"),
+embeddings = BedrockEmbeddings(
+    model_id=os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0"),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
 )
 
 sparse_encoder = SpladeEncoder()

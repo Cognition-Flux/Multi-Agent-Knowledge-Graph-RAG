@@ -92,7 +92,7 @@ Part II: The Architect's Blueprint – Constructing a High-Quality Knowledge Gra
 # Part 2: The Architect's Blueprint – Constructing the KG
 # ===================================================================
 from neo4j_graphrag.llm import OpenAILLM
-from neo4j_graphrag.embeddings import OpenAIEmbeddings
+from langchain_aws import BedrockEmbeddings
 from neo4j_graphrag.experimental.pipeline.kg_builder import SimpleKGPipeline
 
 # Sample unstructured text for KG construction
@@ -122,7 +122,7 @@ async def build_knowledge_graph(driver, text_content):
     # Initialize the LLM for entity and relation extraction
     llm = OpenAILLM(model_name="gpt-4o-mini")
     # Initialize the embedder for creating vector embeddings of text chunks
-    embedder = OpenAIEmbeddings(model="text-embedding-3-large")
+    embedder = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0", region_name="us-west-2")
 
     # --- Defining a Strong Schema ---
     # This schema guides the LLM to extract only relevant information,
@@ -181,8 +181,7 @@ def create_vector_search_index(driver):
     """
     log.info("Creating vector index 'chunk_embeddings' on Chunk(embedding)...")
     try:
-        # Configuration for OpenAI's text-embedding-3-large model
-        # If using text-embedding-ada-002, dimensions would be 1536.
+        # Example configuration for Bedrock Titan embeddings (1024 dims for v2)
         create_vector_index(
             driver,
             index_name="chunk_embeddings",
@@ -218,7 +217,7 @@ def setup_rag_pipeline(driver):
     log.info("Setting up the RAG pipeline...")
 
     # The embedder is used by the retriever to convert the user's question into a vector
-    embedder = OpenAIEmbeddings(model="text-embedding-3-large")
+    embedder = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0", region_name="us-west-2")
 
     # The VectorRetriever performs a similarity search against the vector index
     retriever = VectorRetriever(
@@ -261,7 +260,7 @@ from neo4j import GraphDatabase
 from neo4j.exceptions import ServiceUnavailable, AuthError, ClientError
 
 from neo4j_graphrag.llm import OpenAILLM
-from neo4j_graphrag.embeddings import OpenAIEmbeddings
+from langchain_aws import BedrockEmbeddings
 from neo4j_graphrag.experimental.pipeline.kg_builder import SimpleKGPipeline
 from neo4j_graphrag.indexes import create_vector_index
 from neo4j_graphrag.retrievers import VectorRetriever
@@ -311,7 +310,7 @@ async def build_knowledge_graph(driver, text_content):
         return False
     log.info("Initializing components for KG construction...")
     llm = OpenAILLM(model_name="gpt-4o-mini")
-    embedder = OpenAIEmbeddings(model="text-embedding-3-large")
+    embedder = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0", region_name="us-west-2")
 
     node_types = ["Person", "Organization", "Location", "Paper"]
     relationship_types =
@@ -342,7 +341,7 @@ def setup_rag_pipeline(driver):
         log.error("OPENAI_API_KEY not set.")
         return None
     log.info("Setting up the RAG pipeline...")
-    embedder = OpenAIEmbeddings(model="text-embedding-3-large")
+    embedder = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0", region_name="us-west-2")
     retriever = VectorRetriever(driver, "chunk_embeddings", embedder)
     llm = OpenAILLM(model_name="gpt-4o-mini")
     rag_pipeline = GraphRAG(retriever=retriever, llm=llm)

@@ -20,9 +20,9 @@ from pathlib import Path
 from typing import Any, TypeVar
 
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings
 from langchain_core.documents import Document
 from neo4j import GraphDatabase
-from neo4j_graphrag.embeddings.cohere import CohereEmbeddings
 from neo4j_graphrag.indexes import (
     create_fulltext_index,
     create_vector_index,
@@ -46,12 +46,13 @@ driver.verify_connectivity()
 
 
 def _try_create_embedder() -> Any | None:
-    """Crea un embedder si hay credenciales; si no, retorna None para fallback sin embedding."""
-    api_key = os.getenv("COHERE_API_KEY")
-    if not api_key:
+    """Crea un embedder Bedrock Titan si hay credenciales; si no, retorna None."""
+    aws_region = os.getenv("AWS_BEDROCK_REGION")
+    model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0")
+    if not aws_region:
         return None
     try:
-        return CohereEmbeddings(model="embed-v4.0", api_key=api_key)
+        return BedrockEmbeddings(model_id=model_id, region_name=aws_region)
     except Exception:
         return None
 

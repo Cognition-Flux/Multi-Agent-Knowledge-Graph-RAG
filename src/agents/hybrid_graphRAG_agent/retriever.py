@@ -41,7 +41,7 @@ class BedrockEmbedderAdapter(Embedder):
 
 
 # Embeddings Bedrock
-_model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v1")
+_model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0")
 _region = os.getenv("AWS_BEDROCK_REGION", "us-west-2")
 _bedrock = BedrockEmbeddings(model_id=_model_id, region_name=_region)
 embedder = BedrockEmbedderAdapter(_bedrock)
@@ -217,15 +217,15 @@ retriever = HybridCypherRetriever(
 # --------------------------------------------------------------------------- #
 
 if __name__ == "__main__":
+    from langchain_aws import ChatBedrock
     from neo4j_graphrag.generation import GraphRAG, RagTemplate
-    from neo4j_graphrag.llm import AzureOpenAILLM
 
-    # Configurar LLM
-    llm = AzureOpenAILLM(
-        model_name="gpt-4.1",
-        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-        api_version=os.getenv("AZURE_API_VERSION"),
-        api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    # Configurar LLM (Bedrock)
+    llm = ChatBedrock(
+        model_id=os.getenv(
+            "BEDROCK_CHAT_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0"
+        ),
+        region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
     )
 
     # Template para RAG

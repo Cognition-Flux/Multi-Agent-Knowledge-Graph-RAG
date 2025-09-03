@@ -6,8 +6,8 @@ import os
 from typing import Annotated, Literal
 
 from dotenv import load_dotenv
+from langchain_aws import ChatBedrock
 from langchain_core.messages import AIMessage
-from langchain_openai import AzureChatOpenAI
 from langgraph.graph import END, START, MessagesState, StateGraph
 from langgraph.types import Command, Send
 from pydantic import BaseModel, Field
@@ -199,15 +199,11 @@ async def run_cypher_query(
     return Command(goto="generate_answer", update={"results": [results]})
 
 
-llm = AzureChatOpenAI(
-    azure_deployment="gpt-4.1-mini",
-    api_version=os.getenv("AZURE_API_VERSION"),
-    temperature=0,
-    max_tokens=None,
-    timeout=1200,
-    max_retries=5,
-    streaming=True,
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+llm = ChatBedrock(
+    model_id=os.getenv(
+        "BEDROCK_CHAT_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    ),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
 )
 
 

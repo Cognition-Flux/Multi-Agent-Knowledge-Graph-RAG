@@ -5,8 +5,8 @@ import os
 from typing import Literal
 
 from dotenv import load_dotenv
+from langchain_aws import ChatBedrock
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_openai import AzureChatOpenAI
 from pydantic import BaseModel, Field
 
 from dev.langgraph_basics.simple_hybrid_search_w_metadata_filtering import (
@@ -22,7 +22,12 @@ class MetadataFilterFields(BaseModel):
     All fields are optional.
     """
 
-    enzyme: Literal["HK", "PFK1", "PK", "CS", "IDH", "AKGDH", "SDH", "GAPDH", "MDH", "SSADH"] | None = Field(
+    enzyme: (
+        Literal[
+            "HK", "PFK1", "PK", "CS", "IDH", "AKGDH", "SDH", "GAPDH", "MDH", "SSADH"
+        ]
+        | None
+    ) = Field(
         default=None,
         description=(
             "The enzyme name. The names are HK: hexokinase, "
@@ -100,16 +105,11 @@ class FinalFilter(BaseModel):
     )
 
 
-llm = AzureChatOpenAI(
-    azure_deployment="gpt-4.1-mini",
-    api_version=os.getenv("AZURE_API_VERSION"),
-    temperature=0,
-    max_tokens=None,
-    timeout=1200,
-    max_retries=5,
-    streaming=True,
-    api_key=os.getenv("AZURE_API_KEY"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+llm = ChatBedrock(
+    model_id=os.getenv(
+        "BEDROCK_CHAT_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    ),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
 )
 PROMPT_FOR_FILTER_FIELDS = """
 Based on the user's question, extract the relevant filtering criteria into a JSON object that conforms to the `MetadataFilterFields` schema.

@@ -5,10 +5,10 @@ from pathlib import Path
 
 import yaml
 from dotenv import load_dotenv
+from langchain_aws import BedrockEmbeddings, ChatBedrock
 from langchain_core.example_selectors import SemanticSimilarityExampleSelector
 from langchain_core.prompts import ChatPromptTemplate, FewShotChatMessagePromptTemplate
 from langchain_core.vectorstores import InMemoryVectorStore
-from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from pydantic import BaseModel, Field
 
 
@@ -28,7 +28,12 @@ def create_system_prompt_with_dynamic_fewshooter(
     ]
 
     to_vectorize = [" ".join(example.values()) for example in examples]
-    embeddings = AzureOpenAIEmbeddings(model="text-embedding-3-large")
+    embeddings = BedrockEmbeddings(
+        model_id=os.getenv(
+            "BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0"
+        ),
+        region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
+    )
 
     vectorstore = InMemoryVectorStore.from_texts(
         to_vectorize, embeddings, metadatas=examples
@@ -60,15 +65,11 @@ def create_system_prompt_with_dynamic_fewshooter(
     )
 
 
-llm = AzureChatOpenAI(
-    azure_deployment="gpt-4.1-mini",
-    api_version=os.getenv("AZURE_API_VERSION"),
-    temperature=0,
-    max_tokens=None,
-    timeout=1200,
-    max_retries=5,
-    streaming=True,
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+llm = ChatBedrock(
+    model_id=os.getenv(
+        "BEDROCK_CHAT_MODEL_ID", "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    ),
+    region_name=os.getenv("AWS_BEDROCK_REGION", "us-west-2"),
 )
 
 

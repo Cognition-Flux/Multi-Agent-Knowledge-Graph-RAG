@@ -69,7 +69,7 @@ except Exception as e:
 # --------------------------------------------------------------------------- #
 
 # Configure AWS Bedrock Embeddings
-model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v1")
+model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0")
 aws_region = os.getenv("AWS_BEDROCK_REGION", "us-west-2")
 
 logger.info(f"Configuring Bedrock Embeddings with model: {model_id}")
